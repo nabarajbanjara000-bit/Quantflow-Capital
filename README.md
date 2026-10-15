@@ -1,6 +1,6 @@
 # Quant Flow Capital website
 
-Static site (plain HTML/CSS/JS, no build step). Netlify publishes only `public/`.
+Static site (plain HTML/CSS/JS, no build step). The host (Vercel) publishes only `public/`.
 
 | Path | What it is |
 |---|---|
@@ -20,7 +20,7 @@ Static site (plain HTML/CSS/JS, no build step). Netlify publishes only `public/`
 2. Read new official statements, minutes and speeches (RSS/Atom).
 3. If something changed, or the text is 7+ days old, the AI (Google Gemini) rewrites the plain-language text. Checks reject the rewrite if a quote is not word-for-word in an official text, chances do not add to 100, an option gets 95%+, banned words appear, or a link is not official. One retry; then the previous text is kept and the numbers still update.
 4. If most numbers for a country fail to download, that country is left unchanged.
-5. The workflow commits `public/monitor/data`; Netlify redeploys.
+5. The workflow commits `public/monitor/data`; Vercel redeploys.
 
 Indicators a country module does not automate stay as the hand-checked snapshot of Oct 14, 2026 and are labelled so on the page.
 
