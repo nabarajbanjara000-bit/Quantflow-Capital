@@ -1,0 +1,344 @@
+[
+ {
+  "id": "consumer_price_index_cpi_all_items",
+  "group": "prices",
+  "name": "Consumer Price Index (CPI), all items",
+  "seed_value": "+1.0% vs a year ago",
+  "seed_period": "Sep 2026 (0.0% in the month)",
+  "source": "FSO data, reported by Trading Economics",
+  "url": "https://tradingeconomics.com/switzerland/inflation-cpi"
+ },
+ {
+  "id": "core_inflation",
+  "group": "prices",
+  "name": "Core inflation",
+  "seed_value": "0.5%",
+  "seed_period": "Sep 2026",
+  "source": "FSO data, reported by Trading Economics",
+  "url": "https://tradingeconomics.com/switzerland/core-inflation-rate"
+ },
+ {
+  "id": "cpi_inflation_earlier_in_2026",
+  "group": "prices",
+  "name": "CPI inflation, earlier in 2026",
+  "seed_value": "0.1% (Feb) → 0.6% (May) → 0.8% (Aug)",
+  "seed_period": "Feb–Aug 2026",
+  "source": "Swiss National Bank (citing FSO)",
+  "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924"
+ },
+ {
+  "id": "snb_conditional_inflation_forecast",
+  "group": "prices",
+  "name": "SNB conditional inflation forecast",
+  "seed_value": "0.7% (2026), 0.8% (2027), 0.8% (2028)",
+  "seed_period": "September 2026 forecast, assuming a 0% rate",
+  "source": "Swiss National Bank",
+  "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924"
+ },
+ {
+  "id": "transport_prices",
+  "group": "prices",
+  "name": "Transport prices",
+  "seed_value": "+3.6% vs a year ago",
+  "seed_period": "Sep 2026",
+  "source": "FSO data, reported by Trading Economics",
+  "url": "https://tradingeconomics.com/switzerland/inflation-cpi"
+ },
+ {
+  "id": "food_and_non_alcoholic_drinks",
+  "group": "prices",
+  "name": "Food and non-alcoholic drinks",
+  "seed_value": "−1.0% vs a year ago",
+  "seed_period": "Sep 2026",
+  "source": "FSO data, reported by Trading Economics",
+  "url": "https://tradingeconomics.com/switzerland/inflation-cpi"
+ },
+ {
+  "id": "producer_and_import_prices",
+  "group": "prices",
+  "name": "Producer and import prices",
+  "seed_value": "−0.7% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "FSO data, reported by Trading Economics",
+  "url": "https://tradingeconomics.com/switzerland/core-inflation-rate"
+ },
+ {
+  "id": "firms_inflation_expectations",
+  "group": "prices",
+  "name": "Firms’ inflation expectations",
+  "seed_value": "1.0% (next 6–12 months); 1.2% (3–5 years)",
+  "seed_period": "SNB company talks, Q3 2026",
+  "source": "Swiss National Bank (Quarterly Bulletin 3/2026)",
+  "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf"
+ },
+ {
+  "id": "oil_products_share_of_the_cpi_basket",
+  "group": "prices",
+  "name": "Oil products’ share of the CPI basket",
+  "seed_value": "About 2%",
+  "seed_period": "2026",
+  "source": "Swiss National Bank (Petra Tschudin interview)",
+  "url": "https://www.snb.ch/de/publications/communication/interviews/int_20260824_gpe"
+ },
+ {
+  "id": "registered_unemployment_rate",
+  "group": "jobs",
+  "name": "Registered unemployment rate",
+  "seed_value": "3.0%",
+  "seed_period": "Sep 2026",
+  "source": "SECO",
+  "url": "https://www.admin.ch/de/newnsb/Cdju9-o8WGML"
+ },
+ {
+  "id": "unemployment_rate_seasonally_adjusted",
+  "group": "jobs",
+  "name": "Unemployment rate, seasonally adjusted",
+  "seed_value": "3.1%",
+  "seed_period": "Sep 2026",
+  "source": "SECO",
+  "url": "https://www.admin.ch/de/newnsb/Cdju9-o8WGML"
+ },
+ {
+  "id": "job_seekers",
+  "group": "jobs",
+  "name": "Job seekers",
+  "seed_value": "227,592 (rate 4.8%)",
+  "seed_period": "Sep 2026",
+  "source": "SECO",
+  "url": "https://www.admin.ch/de/newnsb/Cdju9-o8WGML"
+ },
+ {
+  "id": "registered_vacancies",
+  "group": "jobs",
+  "name": "Registered vacancies",
+  "seed_value": "44,199",
+  "seed_period": "Sep 2026",
+  "source": "SECO",
+  "url": "https://www.admin.ch/de/newnsb/Cdju9-o8WGML"
+ },
+ {
+  "id": "unemployment_rate_international_ilo_me",
+  "group": "jobs",
+  "name": "Unemployment rate, international (ILO) measure",
+  "seed_value": "5.1%",
+  "seed_period": "Q2 2026",
+  "source": "Swiss National Bank (Quarterly Bulletin 3/2026)",
+  "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf"
+ },
+ {
+  "id": "short_time_work",
+  "group": "jobs",
+  "name": "Short-time work",
+  "seed_value": "8,339 people",
+  "seed_period": "Jun 2026",
+  "source": "SECO",
+  "url": "https://www.admin.ch/de/newnsb/Cdju9-o8WGML"
+ },
+ {
+  "id": "wage_growth_company_talks",
+  "group": "jobs",
+  "name": "Wage growth (company talks)",
+  "seed_value": "About 1.5% (2026); 1.3% expected (2027)",
+  "seed_period": "Q3 2026 company talks",
+  "source": "Swiss National Bank (Quarterly Bulletin 3/2026)",
+  "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf"
+ },
+ {
+  "id": "gdp_growth_sport_adjusted",
+  "group": "growth",
+  "name": "GDP growth, sport-adjusted",
+  "seed_value": "+1.5% vs previous quarter",
+  "seed_period": "Q2 2026",
+  "source": "SECO",
+  "url": "https://www.seco.admin.ch/dam/en/sd-web/G7DmYPB-B26A/2026-2-GDP-Switzerland-SECO.pdf"
+ },
+ {
+  "id": "gdp_growth_vs_a_year_ago_sport_adjuste",
+  "group": "growth",
+  "name": "GDP growth vs a year ago, sport-adjusted",
+  "seed_value": "+2.3%",
+  "seed_period": "Q2 2026",
+  "source": "SECO",
+  "url": "https://www.seco.admin.ch/dam/en/sd-web/G7DmYPB-B26A/2026-2-GDP-Switzerland-SECO.pdf"
+ },
+ {
+  "id": "private_consumption",
+  "group": "growth",
+  "name": "Private consumption",
+  "seed_value": "+0.3% vs previous quarter",
+  "seed_period": "Q2 2026",
+  "source": "SECO",
+  "url": "https://www.seco.admin.ch/dam/en/sd-web/G7DmYPB-B26A/2026-2-GDP-Switzerland-SECO.pdf"
+ },
+ {
+  "id": "goods_exports_excluding_valuables",
+  "group": "growth",
+  "name": "Goods exports (excluding valuables)",
+  "seed_value": "+5.5% vs previous quarter",
+  "seed_period": "Q2 2026",
+  "source": "SECO",
+  "url": "https://www.seco.admin.ch/dam/en/sd-web/G7DmYPB-B26A/2026-2-GDP-Switzerland-SECO.pdf"
+ },
+ {
+  "id": "growth_forecasts_for_2026",
+  "group": "growth",
+  "name": "Growth forecasts for 2026",
+  "seed_value": "SECO 1.7%; KOF 1.9%; SNB 1.5%–2%",
+  "seed_period": "Sep 2026 forecasts",
+  "source": "SECO, KOF, SNB",
+  "url": "https://www.seco.admin.ch/dam/en/sd-web/Yhfz62y4fNO6/2026-3-forecast-economy-switzerland-SECO.pdf"
+ },
+ {
+  "id": "retail_sales",
+  "group": "growth",
+  "name": "Retail sales",
+  "seed_value": "+3.2% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "FSO data, reported by Trading Economics",
+  "url": "https://tradingeconomics.com/switzerland/retail-sales-annual"
+ },
+ {
+  "id": "kof_economic_barometer",
+  "group": "growth",
+  "name": "KOF Economic Barometer",
+  "seed_value": "109.1",
+  "seed_period": "Sep 2026",
+  "source": "KOF Swiss Economic Institute (ETH Zurich)",
+  "url": "https://kof.ethz.ch/en/news-and-events/media/press-releases/2026/09/kof-economic-barometer-2026-09.html"
+ },
+ {
+  "id": "snb_policy_rate",
+  "group": "rates",
+  "name": "SNB policy rate",
+  "seed_value": "0%",
+  "seed_period": "Set Jun 19, 2025 (effective Jun 20); held Sep 24, 2026",
+  "source": "Swiss National Bank",
+  "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924"
+ },
+ {
+  "id": "rate_on_banks_deposits_above_the_thres",
+  "group": "rates",
+  "name": "Rate on banks’ deposits above the threshold",
+  "seed_value": "−0.25%",
+  "seed_period": "Since Jun 20, 2025; threshold factor 13.5 from Aug 1, 2026",
+  "source": "Swiss National Bank",
+  "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates"
+ },
+ {
+  "id": "saron_overnight_rate",
+  "group": "rates",
+  "name": "SARON (overnight rate)",
+  "seed_value": "−0.04%",
+  "seed_period": "Oct 12, 2026",
+  "source": "Swiss National Bank",
+  "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates"
+ },
+ {
+  "id": "10_year_confederation_bond_yield",
+  "group": "rates",
+  "name": "10-year Confederation bond yield",
+  "seed_value": "0.561%",
+  "seed_period": "Oct 13, 2026",
+  "source": "Swiss National Bank",
+  "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates"
+ },
+ {
+  "id": "2_year_confederation_bond_yield",
+  "group": "rates",
+  "name": "2-year Confederation bond yield",
+  "seed_value": "0.26%",
+  "seed_period": "Oct 13, 2026",
+  "source": "Trading Economics",
+  "url": "https://tradingeconomics.com/switzerland/government-bond-yield"
+ },
+ {
+  "id": "euro_in_francs",
+  "group": "rates",
+  "name": "Euro in francs",
+  "seed_value": "CHF 0.9314",
+  "seed_period": "Oct 13, 2026",
+  "source": "Swiss National Bank",
+  "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates"
+ },
+ {
+  "id": "u_s_dollar_in_francs",
+  "group": "rates",
+  "name": "U.S. dollar in francs",
+  "seed_value": "CHF 0.8329",
+  "seed_period": "Oct 13, 2026",
+  "source": "Swiss National Bank",
+  "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates"
+ },
+ {
+  "id": "trade_weighted_franc",
+  "group": "rates",
+  "name": "Trade-weighted franc",
+  "seed_value": "−2.8%",
+  "seed_period": "Mid-Jun to mid-Sep 2026",
+  "source": "Swiss National Bank (Quarterly Bulletin 3/2026)",
+  "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf"
+ },
+ {
+  "id": "mortgage_rates",
+  "group": "rates",
+  "name": "Mortgage rates",
+  "seed_value": "About 2.0% (10-year); reference rate 1.25%",
+  "seed_period": "Sep 2026",
+  "source": "Swiss National Bank (Quarterly Bulletin 3/2026)",
+  "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf"
+ },
+ {
+  "id": "oil_price_brent",
+  "group": "global",
+  "name": "Oil price (Brent)",
+  "seed_value": "US$125.44 a barrel",
+  "seed_period": "Oct 6, 2026",
+  "source": "U.S. Energy Information Administration via FRED",
+  "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
+ },
+ {
+  "id": "snb_oil_assumption",
+  "group": "global",
+  "name": "SNB oil assumption",
+  "seed_value": "About US$105 at the start, then falling",
+  "seed_period": "September 2026 baseline",
+  "source": "Swiss National Bank (Quarterly Bulletin 3/2026)",
+  "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf"
+ },
+ {
+  "id": "u_s_fed_rate",
+  "group": "global",
+  "name": "U.S. Fed rate",
+  "seed_value": "3.75%–4.00%",
+  "seed_period": "Since Sep 16, 2026",
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+ },
+ {
+  "id": "ecb_deposit_rate",
+  "group": "global",
+  "name": "ECB deposit rate",
+  "seed_value": "2.50%",
+  "seed_period": "Oct 9, 2026 (from Sep 16)",
+  "source": "European Central Bank via FRED",
+  "url": "https://fred.stlouisfed.org/series/ECBDFR"
+ },
+ {
+  "id": "euro_area_growth_forecast_snb_assumpti",
+  "group": "global",
+  "name": "Euro-area growth forecast (SNB assumption)",
+  "seed_value": "0.8% (2026); 1.1% (2027)",
+  "seed_period": "September 2026 baseline",
+  "source": "Swiss National Bank (Quarterly Bulletin 3/2026)",
+  "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf"
+ },
+ {
+  "id": "seco_view_of_the_main_risk",
+  "group": "global",
+  "name": "SECO view of the main risk",
+  "seed_value": "Middle East conflict",
+  "seed_period": "Sep 2026 forecast",
+  "source": "SECO",
+  "url": "https://www.seco.admin.ch/dam/en/sd-web/Yhfz62y4fNO6/2026-3-forecast-economy-switzerland-SECO.pdf"
+ }
+]

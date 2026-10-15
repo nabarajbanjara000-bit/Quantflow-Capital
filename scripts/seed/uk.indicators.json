@@ -1,0 +1,353 @@
+[
+ {
+  "id": "consumer_price_index_cpi_all_items",
+  "group": "prices",
+  "name": "Consumer Price Index (CPI), all items",
+  "seed_value": "+3.1% vs a year ago",
+  "seed_period": "Aug 2026 (+0.5% in the month)",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/august2026"
+ },
+ {
+  "id": "cpih_cpi_plus_owner_occupiers_housing",
+  "group": "prices",
+  "name": "CPIH (CPI plus owner-occupiers’ housing costs)",
+  "seed_value": "+3.3% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/august2026"
+ },
+ {
+  "id": "core_cpi_no_energy_food_alcohol_or_tob",
+  "group": "prices",
+  "name": "Core CPI (no energy, food, alcohol or tobacco)",
+  "seed_value": "2.6%",
+  "seed_period": "Aug 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/august2026"
+ },
+ {
+  "id": "services_inflation",
+  "group": "prices",
+  "name": "Services inflation",
+  "seed_value": "3.4%",
+  "seed_period": "Aug 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/august2026"
+ },
+ {
+  "id": "goods_inflation",
+  "group": "prices",
+  "name": "Goods inflation",
+  "seed_value": "2.7%",
+  "seed_period": "Aug 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/august2026"
+ },
+ {
+  "id": "motor_fuels",
+  "group": "prices",
+  "name": "Motor fuels",
+  "seed_value": "+23.0% vs a year ago",
+  "seed_period": "Aug 2026 (petrol 161.3p/litre, diesel 181.8p)",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/august2026"
+ },
+ {
+  "id": "food_and_non_alcoholic_drinks",
+  "group": "prices",
+  "name": "Food and non-alcoholic drinks",
+  "seed_value": "+1.3% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/august2026"
+ },
+ {
+  "id": "producer_prices_input_materials_and_fu",
+  "group": "prices",
+  "name": "Producer prices: input (materials and fuel) / output (factory gate)",
+  "seed_value": "Input +6.1%, output +3.7%",
+  "seed_period": "Aug 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/producerpriceinflation/august2026"
+ },
+ {
+  "id": "ofgem_energy_price_cap_typical_househo",
+  "group": "prices",
+  "name": "Ofgem energy price cap (typical household, yearly)",
+  "seed_value": "£1,723",
+  "seed_period": "Oct–Dec 2026",
+  "source": "Bank of England (citing Ofgem)",
+  "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026"
+ },
+ {
+  "id": "unemployment_rate_16",
+  "group": "jobs",
+  "name": "Unemployment rate (16+)",
+  "seed_value": "4.9%",
+  "seed_period": "May–Jul 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026"
+ },
+ {
+  "id": "employment_rate_16_64",
+  "group": "jobs",
+  "name": "Employment rate (16–64)",
+  "seed_value": "75.1%",
+  "seed_period": "May–Jul 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026"
+ },
+ {
+  "id": "economic_inactivity_rate_16_64",
+  "group": "jobs",
+  "name": "Economic inactivity rate (16–64)",
+  "seed_value": "20.9%",
+  "seed_period": "May–Jul 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026"
+ },
+ {
+  "id": "payrolled_employees_tax_records",
+  "group": "jobs",
+  "name": "Payrolled employees (tax records)",
+  "seed_value": "−26,000 in the month (early estimate)",
+  "seed_period": "Aug 2026 (total 30.2 million)",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026"
+ },
+ {
+  "id": "job_vacancies",
+  "group": "jobs",
+  "name": "Job vacancies",
+  "seed_value": "702,000",
+  "seed_period": "Jun–Aug 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026"
+ },
+ {
+  "id": "regular_pay_growth_no_bonuses",
+  "group": "jobs",
+  "name": "Regular pay growth (no bonuses)",
+  "seed_value": "+3.5% vs a year ago",
+  "seed_period": "May–Jul 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026"
+ },
+ {
+  "id": "total_pay_growth_with_bonuses",
+  "group": "jobs",
+  "name": "Total pay growth (with bonuses)",
+  "seed_value": "+3.9% vs a year ago",
+  "seed_period": "May–Jul 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026"
+ },
+ {
+  "id": "real_regular_pay_after_cpi_inflation",
+  "group": "jobs",
+  "name": "Real regular pay (after CPI inflation)",
+  "seed_value": "+0.8%",
+  "seed_period": "May–Jul 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026"
+ },
+ {
+  "id": "firms_expected_wage_growth_next_12_mon",
+  "group": "jobs",
+  "name": "Firms’ expected wage growth, next 12 months",
+  "seed_value": "3.4%",
+  "seed_period": "3 months to Sep 2026",
+  "source": "Bank of England Decision Maker Panel",
+  "url": "https://www.bankofengland.co.uk/decision-maker-panel/2026/september-2026"
+ },
+ {
+  "id": "gdp_whole_economy_quarterly_growth",
+  "group": "growth",
+  "name": "GDP (whole economy), quarterly growth",
+  "seed_value": "+0.5% in the quarter",
+  "seed_period": "Apr–Jun 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/quarterlynationalaccounts/apriltojune2026"
+ },
+ {
+  "id": "monthly_gdp",
+  "group": "growth",
+  "name": "Monthly GDP",
+  "seed_value": "+0.4% in the month",
+  "seed_period": "Jul 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/july2026"
+ },
+ {
+  "id": "retail_sales_volumes",
+  "group": "growth",
+  "name": "Retail sales volumes",
+  "seed_value": "+0.5% in the month; +2.4% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/august2026"
+ },
+ {
+  "id": "household_spending_real",
+  "group": "growth",
+  "name": "Household spending (real)",
+  "seed_value": "+0.3% in the quarter; +1.2% vs a year ago",
+  "seed_period": "Apr–Jun 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/quarterlynationalaccounts/apriltojune2026"
+ },
+ {
+  "id": "household_saving_ratio",
+  "group": "growth",
+  "name": "Household saving ratio",
+  "seed_value": "8.8%",
+  "seed_period": "Apr–Jun 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/quarterlynationalaccounts/apriltojune2026"
+ },
+ {
+  "id": "average_house_price_private_rents",
+  "group": "growth",
+  "name": "Average house price / private rents",
+  "seed_value": "£273,000 (+1.4% a year); rents +3.8% a year (£1,400 a month)",
+  "seed_period": "House prices Jul 2026; rents Aug 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/privaterentandhousepricesuk/september2026"
+ },
+ {
+  "id": "mortgage_demand_lenders_survey",
+  "group": "growth",
+  "name": "Mortgage demand (lenders’ survey)",
+  "seed_value": "−37.1 (house purchase); availability −15.5",
+  "seed_period": "Q3 2026 (survey Aug 17–Sep 4)",
+  "source": "Bank of England Credit Conditions Survey",
+  "url": "https://www.bankofengland.co.uk/credit-conditions-survey/2026/2026-q3"
+ },
+ {
+  "id": "government_borrowing_and_debt",
+  "group": "growth",
+  "name": "Government borrowing and debt",
+  "seed_value": "£18.3bn borrowed in August; debt 93.8% of GDP",
+  "seed_period": "Aug 2026",
+  "source": "Office for National Statistics",
+  "url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/august2026"
+ },
+ {
+  "id": "bank_rate",
+  "group": "rates",
+  "name": "Bank Rate",
+  "seed_value": "3.75%",
+  "seed_period": "Since Dec 18, 2025",
+  "source": "Bank of England",
+  "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
+ },
+ {
+  "id": "sonia_overnight_rate_between_banks",
+  "group": "rates",
+  "name": "SONIA (overnight rate between banks)",
+  "seed_value": "3.733%",
+  "seed_period": "Oct 9, 2026",
+  "source": "Bank of England",
+  "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y"
+ },
+ {
+  "id": "10_year_gilt_yield",
+  "group": "rates",
+  "name": "10-year gilt yield",
+  "seed_value": "5.40%",
+  "seed_period": "Oct 9, 2026 (5.43% on Oct 8)",
+  "source": "Bank of England (nominal par yield)",
+  "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y"
+ },
+ {
+  "id": "5_year_gilt_yield",
+  "group": "rates",
+  "name": "5-year gilt yield",
+  "seed_value": "4.97%",
+  "seed_period": "Oct 9, 2026",
+  "source": "Bank of England (nominal par yield)",
+  "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y"
+ },
+ {
+  "id": "market_path_for_bank_rate",
+  "group": "rates",
+  "name": "Market path for Bank Rate",
+  "seed_value": "Peaking at about 4.9% by end-2027",
+  "seed_period": "Before the Sep 16 meeting",
+  "source": "Bank of England minutes, para 8",
+  "url": "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-summary-and-minutes/2026/monetary-policy-summary-and-minutes-september-2026.pdf"
+ },
+ {
+  "id": "pound_vs_u_s_dollar",
+  "group": "rates",
+  "name": "Pound vs U.S. dollar",
+  "seed_value": "US$1.3220",
+  "seed_period": "Oct 12, 2026",
+  "source": "Bank of England",
+  "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y"
+ },
+ {
+  "id": "pound_vs_euro_trade_weighted_index",
+  "group": "rates",
+  "name": "Pound vs euro / trade-weighted index",
+  "seed_value": "€1.1832; index 85.35",
+  "seed_period": "Oct 12, 2026",
+  "source": "Bank of England",
+  "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y"
+ },
+ {
+  "id": "boe_government_bond_holdings_qt",
+  "group": "rates",
+  "name": "BoE government bond holdings (QT)",
+  "seed_value": "£488bn, to be run down to zero",
+  "seed_period": "Sep 16, 2026",
+  "source": "Bank of England",
+  "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026"
+ },
+ {
+  "id": "brent_crude_oil",
+  "group": "global",
+  "name": "Brent crude oil",
+  "seed_value": "US$125.44 a barrel",
+  "seed_period": "Oct 6, 2026",
+  "source": "U.S. Energy Information Administration via FRED",
+  "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
+ },
+ {
+  "id": "wti_crude_oil",
+  "group": "global",
+  "name": "WTI crude oil",
+  "seed_value": "US$96.24 a barrel",
+  "seed_period": "Oct 6, 2026",
+  "source": "U.S. Energy Information Administration via FRED",
+  "url": "https://fred.stlouisfed.org/series/DCOILWTICO"
+ },
+ {
+  "id": "uk_wholesale_gas",
+  "group": "global",
+  "name": "UK wholesale gas",
+  "seed_value": "207p a therm",
+  "seed_period": "Sep 14, 2026",
+  "source": "Bank of England minutes (para 2)",
+  "url": "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-summary-and-minutes/2026/monetary-policy-summary-and-minutes-september-2026.pdf"
+ },
+ {
+  "id": "u_s_federal_reserve_rate",
+  "group": "global",
+  "name": "U.S. Federal Reserve rate",
+  "seed_value": "3.75%–4.00%",
+  "seed_period": "Raised Sep 16, 2026",
+  "source": "Federal Reserve via FRED",
+  "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+ },
+ {
+  "id": "european_central_bank_deposit_rate",
+  "group": "global",
+  "name": "European Central Bank deposit rate",
+  "seed_value": "2.50%",
+  "seed_period": "Oct 9, 2026",
+  "source": "European Central Bank via FRED",
+  "url": "https://fred.stlouisfed.org/series/ECBDFR"
+ }
+]

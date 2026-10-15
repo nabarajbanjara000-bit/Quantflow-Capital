@@ -1,0 +1,353 @@
+[
+ {
+  "id": "consumers_price_index_cpi_all_items",
+  "group": "prices",
+  "name": "Consumers price index (CPI), all items",
+  "seed_value": "+4.1% vs a year ago",
+  "seed_period": "Jun 2026 quarter (+1.5% in the quarter)",
+  "source": "Stats NZ",
+  "url": "https://www.stats.govt.nz/information-releases/consumers-price-index-june-2026-quarter/"
+ },
+ {
+  "id": "cpi_excluding_vehicle_fuels",
+  "group": "prices",
+  "name": "CPI excluding vehicle fuels",
+  "seed_value": "+2.9% vs a year ago",
+  "seed_period": "Jun 2026 quarter",
+  "source": "Reserve Bank of New Zealand",
+  "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/09/ocr-increased-by-25-basis-points-to-2-75"
+ },
+ {
+  "id": "average_of_the_rbnz_s_core_inflation_m",
+  "group": "prices",
+  "name": "Average of the RBNZ’s core inflation measures",
+  "seed_value": "2.7%",
+  "seed_period": "Jun 2026 quarter",
+  "source": "Reserve Bank of New Zealand",
+  "url": "https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/monetary-policy-statements/2026/sep-2926/mps_report_sep2026.pdf"
+ },
+ {
+  "id": "non_tradables_inflation",
+  "group": "prices",
+  "name": "Non-tradables inflation",
+  "seed_value": "3.4%",
+  "seed_period": "Jun 2026 quarter",
+  "source": "Reserve Bank of New Zealand",
+  "url": "https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/monetary-policy-statements/2026/sep-2926/mps_report_sep2026.pdf"
+ },
+ {
+  "id": "tradables_inflation",
+  "group": "prices",
+  "name": "Tradables inflation",
+  "seed_value": "4.9% (2.1% excluding fuel)",
+  "seed_period": "Jun 2026 quarter",
+  "source": "Reserve Bank of New Zealand",
+  "url": "https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/monetary-policy-statements/2026/sep-2926/mps_report_sep2026.pdf"
+ },
+ {
+  "id": "petrol_and_diesel_prices_selected_pric",
+  "group": "prices",
+  "name": "Petrol and diesel prices (Selected price indexes)",
+  "seed_value": "Petrol +17.9%, diesel +45.8% vs a year ago",
+  "seed_period": "Aug 2026 (petrol +2%, diesel +8.6% in the month)",
+  "source": "NZ Treasury (Fortnightly Economic Update)",
+  "url": "https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf"
+ },
+ {
+  "id": "food_prices_selected_price_indexes",
+  "group": "prices",
+  "name": "Food prices (Selected price indexes)",
+  "seed_value": "+1.9% vs a year ago (+0.3% in the month)",
+  "seed_period": "Aug 2026",
+  "source": "Stats NZ",
+  "url": "https://www.stats.govt.nz/information-releases/selected-price-indexes-august-2026/"
+ },
+ {
+  "id": "producers_price_index_outputs",
+  "group": "prices",
+  "name": "Producers price index (outputs)",
+  "seed_value": "+1.6% in the quarter",
+  "seed_period": "Jun 2026 quarter",
+  "source": "Stats NZ",
+  "url": "https://www.stats.govt.nz/information-releases/business-price-indexes-june-2026-quarter/"
+ },
+ {
+  "id": "inflation_expectations_2_years_ahead_r",
+  "group": "prices",
+  "name": "Inflation expectations, 2 years ahead (RBNZ Survey of Expectations)",
+  "seed_value": "2.3%",
+  "seed_period": "Sep 2026 quarter survey",
+  "source": "Reserve Bank of New Zealand",
+  "url": "https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/monetary-policy-statements/2026/sep-2926/mps_report_sep2026.pdf"
+ },
+ {
+  "id": "unemployment_rate_household_labour_for",
+  "group": "jobs",
+  "name": "Unemployment rate (Household Labour Force Survey)",
+  "seed_value": "5.6%",
+  "seed_period": "Jun 2026 quarter",
+  "source": "Stats NZ",
+  "url": "https://www.stats.govt.nz/information-releases/labour-market-statistics-june-2026-quarter/"
+ },
+ {
+  "id": "employment_people_in_work",
+  "group": "jobs",
+  "name": "Employment (people in work)",
+  "seed_value": "+0.4% in the quarter",
+  "seed_period": "Jun 2026 quarter",
+  "source": "NZ Treasury (Fortnightly Economic Update)",
+  "url": "https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf"
+ },
+ {
+  "id": "filled_jobs_monthly_employment_indicat",
+  "group": "jobs",
+  "name": "Filled jobs (monthly employment indicators)",
+  "seed_value": "+0.2% (+5,391) to 2.36 million",
+  "seed_period": "Aug 2026",
+  "source": "Stats NZ",
+  "url": "https://www.stats.govt.nz/information-releases/employment-indicators-august-2026/"
+ },
+ {
+  "id": "participation_rate",
+  "group": "jobs",
+  "name": "Participation rate",
+  "seed_value": "70.7%",
+  "seed_period": "Jun 2026 quarter",
+  "source": "NZ Treasury (Fortnightly Economic Update)",
+  "url": "https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf"
+ },
+ {
+  "id": "labour_cost_index_salary_and_wage_rate",
+  "group": "jobs",
+  "name": "Labour cost index (salary and wage rates)",
+  "seed_value": "+2.0% vs a year ago",
+  "seed_period": "Jun 2026 quarter",
+  "source": "NZ Treasury (Fortnightly Economic Update)",
+  "url": "https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf"
+ },
+ {
+  "id": "average_hourly_earnings_qes",
+  "group": "jobs",
+  "name": "Average hourly earnings (QES)",
+  "seed_value": "+2.8% vs a year ago",
+  "seed_period": "Jun 2026 quarter",
+  "source": "NZ Treasury (Fortnightly Economic Update)",
+  "url": "https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf"
+ },
+ {
+  "id": "online_job_ads_seek",
+  "group": "jobs",
+  "name": "Online job ads (SEEK)",
+  "seed_value": "+5.3% in the month, +9.7% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "NZ Treasury (Fortnightly Economic Update)",
+  "url": "https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf"
+ },
+ {
+  "id": "gross_domestic_product_gdp_production",
+  "group": "growth",
+  "name": "Gross domestic product (GDP), production measure",
+  "seed_value": "+0.2% in the quarter (+1.7% vs a year ago)",
+  "seed_period": "Jun 2026 quarter",
+  "source": "Stats NZ",
+  "url": "https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/"
+ },
+ {
+  "id": "real_household_consumption",
+  "group": "growth",
+  "name": "Real household consumption",
+  "seed_value": "0.0% in the quarter",
+  "seed_period": "Jun 2026 quarter",
+  "source": "NZ Treasury (Fortnightly Economic Update)",
+  "url": "https://www.treasury.govt.nz/sites/default/files/2026-09/feu-18sep26.pdf"
+ },
+ {
+  "id": "retail_sales_volume",
+  "group": "growth",
+  "name": "Retail sales volume",
+  "seed_value": "−0.5% in the quarter (total $26 billion)",
+  "seed_period": "Jun 2026 quarter",
+  "source": "Stats NZ",
+  "url": "https://www.stats.govt.nz/information-releases/retail-trade-survey-june-2026-quarter/"
+ },
+ {
+  "id": "goods_exports",
+  "group": "growth",
+  "name": "Goods exports",
+  "seed_value": "$6.7 billion, +15% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "Stats NZ",
+  "url": "https://www.stats.govt.nz/information-releases/overseas-merchandise-trade-august-2026/"
+ },
+ {
+  "id": "anz_business_confidence",
+  "group": "growth",
+  "name": "ANZ business confidence",
+  "seed_value": "+51.9 (net)",
+  "seed_period": "Sep 2026",
+  "source": "NZ Treasury (Fortnightly Economic Update)",
+  "url": "https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf"
+ },
+ {
+  "id": "house_prices_reinz_index",
+  "group": "growth",
+  "name": "House prices (REINZ index)",
+  "seed_value": "−0.9% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "NZ Treasury (Fortnightly Economic Update)",
+  "url": "https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf"
+ },
+ {
+  "id": "real_house_prices_bis_index_on_fred",
+  "group": "growth",
+  "name": "Real house prices (BIS index on FRED)",
+  "seed_value": "156.6 (2010 = 100)",
+  "seed_period": "Q1 2026",
+  "source": "Bank for International Settlements via FRED",
+  "url": "https://fred.stlouisfed.org/series/QNZR628BIS"
+ },
+ {
+  "id": "current_account_balance",
+  "group": "growth",
+  "name": "Current account balance",
+  "seed_value": "−3.2% of GDP (yearly total)",
+  "seed_period": "Jun 2026 quarter",
+  "source": "NZ Treasury (Fortnightly Economic Update)",
+  "url": "https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf"
+ },
+ {
+  "id": "official_cash_rate_ocr",
+  "group": "rates",
+  "name": "Official Cash Rate (OCR)",
+  "seed_value": "2.75%",
+  "seed_period": "Since Sep 2, 2026",
+  "source": "Reserve Bank of New Zealand",
+  "url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate"
+ },
+ {
+  "id": "90_day_bank_bill_rate",
+  "group": "rates",
+  "name": "90-day bank bill rate",
+  "seed_value": "3.23%",
+  "seed_period": "Oct 13, 2026",
+  "source": "Reserve Bank of New Zealand",
+  "url": "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/wholesale-interest-rates"
+ },
+ {
+  "id": "2_year_government_bond_yield",
+  "group": "rates",
+  "name": "2-year government bond yield",
+  "seed_value": "3.80%",
+  "seed_period": "Oct 13, 2026",
+  "source": "Reserve Bank of New Zealand",
+  "url": "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/wholesale-interest-rates"
+ },
+ {
+  "id": "10_year_government_bond_yield",
+  "group": "rates",
+  "name": "10-year government bond yield",
+  "seed_value": "4.98%",
+  "seed_period": "Oct 13, 2026",
+  "source": "Reserve Bank of New Zealand",
+  "url": "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/wholesale-interest-rates"
+ },
+ {
+  "id": "market_odds_of_an_october_rise",
+  "group": "rates",
+  "name": "Market odds of an October rise",
+  "seed_value": "About 70%",
+  "seed_period": "Mid-September 2026",
+  "source": "NZ Treasury (Fortnightly Economic Update)",
+  "url": "https://www.treasury.govt.nz/sites/default/files/2026-09/feu-18sep26.pdf"
+ },
+ {
+  "id": "rbnz_s_own_ocr_projection",
+  "group": "rates",
+  "name": "RBNZ’s own OCR projection",
+  "seed_value": "Rising to about 3.2% over two years",
+  "seed_period": "Sep 2026 MPS",
+  "source": "Reserve Bank of New Zealand",
+  "url": "https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/monetary-policy-statements/2026/sep-2926/mps_report_sep2026.pdf"
+ },
+ {
+  "id": "nz_dollar_in_us_dollars",
+  "group": "rates",
+  "name": "NZ dollar, in US dollars",
+  "seed_value": "US$0.5621",
+  "seed_period": "Oct 14, 2026",
+  "source": "Reserve Bank of New Zealand",
+  "url": "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index"
+ },
+ {
+  "id": "trade_weighted_index_twi",
+  "group": "rates",
+  "name": "Trade-weighted index (TWI)",
+  "seed_value": "63.94",
+  "seed_period": "Oct 14, 2026",
+  "source": "Reserve Bank of New Zealand",
+  "url": "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index"
+ },
+ {
+  "id": "brent_crude_oil",
+  "group": "global",
+  "name": "Brent crude oil",
+  "seed_value": "US$125.44 a barrel",
+  "seed_period": "Oct 6, 2026",
+  "source": "U.S. EIA via FRED",
+  "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
+ },
+ {
+  "id": "wti_crude_oil",
+  "group": "global",
+  "name": "WTI crude oil",
+  "seed_value": "US$96.24 a barrel",
+  "seed_period": "Oct 6, 2026",
+  "source": "U.S. EIA via FRED",
+  "url": "https://fred.stlouisfed.org/series/DCOILWTICO"
+ },
+ {
+  "id": "rbnz_oil_assumption",
+  "group": "global",
+  "name": "RBNZ oil assumption",
+  "seed_value": "Dubai oil about US$85 (Sep qtr)",
+  "seed_period": "Sep 2026 MPS",
+  "source": "Reserve Bank of New Zealand",
+  "url": "https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/monetary-policy-statements/2026/sep-2926/mps_report_sep2026.pdf"
+ },
+ {
+  "id": "us_federal_reserve_rate_top_of_range",
+  "group": "global",
+  "name": "US Federal Reserve rate (top of range)",
+  "seed_value": "4.00%",
+  "seed_period": "Oct 13, 2026",
+  "source": "Federal Reserve via FRED",
+  "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+ },
+ {
+  "id": "ecb_deposit_rate",
+  "group": "global",
+  "name": "ECB deposit rate",
+  "seed_value": "2.50%",
+  "seed_period": "Oct 9, 2026",
+  "source": "ECB via FRED",
+  "url": "https://fred.stlouisfed.org/series/ECBDFR"
+ },
+ {
+  "id": "nz_dollar_in_australian_dollars",
+  "group": "global",
+  "name": "NZ dollar, in Australian dollars",
+  "seed_value": "A$0.8041",
+  "seed_period": "Oct 14, 2026",
+  "source": "Reserve Bank of New Zealand",
+  "url": "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index"
+ },
+ {
+  "id": "oecd_world_growth_forecast",
+  "group": "global",
+  "name": "OECD world growth forecast",
+  "seed_value": "2.9% in 2026, 3.0% in 2027",
+  "seed_period": "Sep 2026",
+  "source": "NZ Treasury (Fortnightly Economic Update)",
+  "url": "https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf"
+ }
+]

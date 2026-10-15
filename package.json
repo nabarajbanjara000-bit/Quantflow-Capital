@@ -1,0 +1,14 @@
+{
+  "name": "quantflow-site",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Quant Flow Capital website, including the daily auto-updating Global Central Bank Monitor.",
+  "scripts": {
+    "update": "node scripts/update.mjs",
+    "seed": "node scripts/tools/build-seed.mjs",
+    "check": "node scripts/tools/check-country.mjs",
+    "test": "MOCK=1 MONITOR_TODAY=2026-10-14 node scripts/update.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

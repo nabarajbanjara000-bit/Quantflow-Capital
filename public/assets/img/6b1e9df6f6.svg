@@ -1,0 +1,24 @@
+<svg viewbox="0 0 760 260" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#f6f7f9" height="260" width="760" x="0" y="0"></rect>
+<line stroke="rgba(20,24,32,0.12)" stroke-width="1" x1="0" x2="760" y1="220" y2="220"></line>
+<g opacity="0.85" stroke="#1e4fb8" stroke-width="1.2">
+<line x1="120" x2="120" y1="80" y2="220"></line>
+<line x1="175" x2="175" y1="80" y2="220"></line>
+<line x1="230" x2="230" y1="80" y2="220"></line>
+<line x1="285" x2="285" y1="80" y2="220"></line>
+<line x1="340" x2="340" y1="80" y2="220"></line>
+</g>
+<polygon fill="none" points="80,80 380,80 355,40 105,40" stroke="#2563eb" stroke-width="1.4"></polygon>
+<polygon fill="none" points="105,40 355,40 230,10" stroke="#2563eb" stroke-width="1.4"></polygon>
+<g fill="none" stroke="rgba(20,24,32,0.3)" stroke-width="1.2">
+<rect height="70" width="14" x="435" y="150"></rect>
+<rect height="100" width="14" x="463" y="120"></rect>
+<rect height="50" width="14" x="491" y="170"></rect>
+</g>
+<circle cx="442" cy="150" fill="#2563eb" r="5"></circle>
+<circle cx="470" cy="120" fill="#2563eb" r="5"></circle>
+<circle cx="498" cy="170" fill="#2563eb" r="5"></circle>
+<polyline fill="none" points="580,190 620,150 660,165 700,110" stroke="#2563eb" stroke-width="1.6"></polyline>
+<circle cx="700" cy="110" fill="#2563eb" r="3.5"></circle>
+<text fill="#7c8494" font-family="IBM Plex Mono, monospace" font-size="12" x="30" y="245">GOVERNMENT DEBT &amp; PRIVATE CAPITAL MARKETS</text>
+</svg>

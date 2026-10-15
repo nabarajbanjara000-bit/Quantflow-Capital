@@ -1,0 +1,23 @@
+# Netlify publishes only the "public" folder. No build step.
+# scripts/, .github/ and everything else in the repository are never published.
+[build]
+  publish = "public"
+  command = ""
+
+# The monitor's daily data: short cache so readers see a new update within 5 minutes.
+[[headers]]
+  for = "/monitor/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=300, must-revalidate"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# The first version of the Fed page lived here; keep old links working.
+[[redirects]]
+  from = "/macro-fed-monitor/*"
+  to = "/monitor/#us"
+  status = 301

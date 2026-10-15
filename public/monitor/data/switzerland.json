@@ -1,0 +1,1768 @@
+{
+ "schema": 2,
+ "code": "switzerland",
+ "asof_date": "2026-10-14",
+ "asof_label": "Oct 14, 2026",
+ "generated_at": "2026-10-14T16:20:51.887Z",
+ "data_updated_at": null,
+ "narrative_updated_at": null,
+ "narrative_stale": false,
+ "narrative_model": "hand-checked snapshot",
+ "country": {
+  "code": "switzerland",
+  "short": "CH",
+  "name": "Switzerland",
+  "bank": "Swiss National Bank",
+  "abbrev": "SNB",
+  "currency_note": "Prices in Swiss francs (CHF) unless marked US$ or €. Oil prices are in US dollars a barrel.",
+  "eyebrow": "SNB Watch · Switzerland",
+  "title": "Macro SNB Monitor",
+  "lede": "What is Switzerland’s central bank dealing with right now, and what will it most likely do at its next decision? This page explains it from the very beginning, in everyday language, one step at a time. You do not need any background in money or economics.",
+  "rate_label": "Current SNB policy rate",
+  "kicker": "You are reading the Switzerland monitor · Swiss National Bank"
+ },
+ "meeting": {
+  "next": {
+   "start": null,
+   "end": "2026-12-10",
+   "time_label": "9:30 a.m. CET",
+   "label": "Thursday, December 10, 2026, the SNB’s quarterly “monetary policy assessment”, with a new conditional inflation forecast",
+   "decision_label": "Thursday, Dec 10, 9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m."
+  },
+  "after": {
+   "start": null,
+   "end": null,
+   "label": "Thursday, March 18, 2027"
+  },
+  "calendar_url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
+  "calendar_label": "Official SNB time schedule",
+  "who": "The Swiss National Bank (“the SNB”), Switzerland’s central bank. Decisions are taken by its <strong>Governing Board</strong>, just three people: Chairman Martin Schlegel, Vice Chairman Antoine Martin and Petra Tschudin. They decide together and publish no vote count."
+ },
+ "kpis": [],
+ "kpis_seed": [
+  {
+   "label": "SNB policy rate",
+   "value": "0%",
+   "note_html": "Held on Sep 24, 2026 · unchanged since the Jun 19, 2025 cut · <a href=\"https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924\">SNB</a>"
+  },
+  {
+   "label": "Price rise, past year",
+   "value": "1.0%",
+   "note_html": "September CPI · goal is 0% to 2% · core 0.5% · FSO figures via <a href=\"https://tradingeconomics.com/switzerland/inflation-cpi\">Trading Economics</a>"
+  },
+  {
+   "label": "Unemployment",
+   "value": "3.0%",
+   "note_html": "September · 3.1% seasonally adjusted · 140,480 people · <a href=\"https://www.admin.ch/de/newnsb/Cdju9-o8WGML\">SECO</a>"
+  },
+  {
+   "label": "10-year bond rate",
+   "value": "0.56%",
+   "note_html": "Oct 13 (0.561%) · about 0.39% in mid-June · <a href=\"https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates\">SNB</a>"
+  }
+ ],
+ "groups": [
+  {
+   "id": "prices",
+   "name": "Prices",
+   "indicator_ids": [
+    "consumer_price_index_cpi_all_items",
+    "core_inflation",
+    "cpi_inflation_earlier_in_2026",
+    "snb_conditional_inflation_forecast",
+    "transport_prices",
+    "food_and_non_alcoholic_drinks",
+    "producer_and_import_prices",
+    "firms_inflation_expectations",
+    "oil_products_share_of_the_cpi_basket"
+   ]
+  },
+  {
+   "id": "jobs",
+   "name": "Jobs",
+   "indicator_ids": [
+    "registered_unemployment_rate",
+    "unemployment_rate_seasonally_adjusted",
+    "job_seekers",
+    "registered_vacancies",
+    "unemployment_rate_international_ilo_me",
+    "short_time_work",
+    "wage_growth_company_talks"
+   ]
+  },
+  {
+   "id": "growth",
+   "name": "Growth and spending",
+   "indicator_ids": [
+    "gdp_growth_sport_adjusted",
+    "gdp_growth_vs_a_year_ago_sport_adjuste",
+    "private_consumption",
+    "goods_exports_excluding_valuables",
+    "growth_forecasts_for_2026",
+    "retail_sales",
+    "kof_economic_barometer"
+   ]
+  },
+  {
+   "id": "rates",
+   "name": "The rate and money markets",
+   "indicator_ids": [
+    "snb_policy_rate",
+    "rate_on_banks_deposits_above_the_thres",
+    "saron_overnight_rate",
+    "10_year_confederation_bond_yield",
+    "2_year_confederation_bond_yield",
+    "euro_in_francs",
+    "u_s_dollar_in_francs",
+    "trade_weighted_franc",
+    "mortgage_rates"
+   ]
+  },
+  {
+   "id": "said",
+   "name": "What the SNB said",
+   "indicator_ids": []
+  },
+  {
+   "id": "global",
+   "name": "Global conditions",
+   "indicator_ids": [
+    "oil_price_brent",
+    "snb_oil_assumption",
+    "u_s_fed_rate",
+    "ecb_deposit_rate",
+    "euro_area_growth_forecast_snb_assumpti",
+    "seco_view_of_the_main_risk"
+   ]
+  }
+ ],
+ "indicators": {
+  "consumer_price_index_cpi_all_items": {
+   "id": "consumer_price_index_cpi_all_items",
+   "group": "prices",
+   "name": "Consumer Price Index (CPI), all items",
+   "source": "FSO data, reported by Trading Economics",
+   "url": "https://tradingeconomics.com/switzerland/inflation-cpi",
+   "value": "+1.0% vs a year ago",
+   "period": "Sep 2026 (0.0% in the month)",
+   "released": "Oct 1, 2026",
+   "previous": "+0.8% (Aug)",
+   "tag": "secondary",
+   "manual": true
+  },
+  "core_inflation": {
+   "id": "core_inflation",
+   "group": "prices",
+   "name": "Core inflation",
+   "source": "FSO data, reported by Trading Economics",
+   "url": "https://tradingeconomics.com/switzerland/core-inflation-rate",
+   "value": "0.5%",
+   "period": "Sep 2026",
+   "released": "Oct 1, 2026",
+   "previous": "0.4% (Aug)",
+   "tag": "secondary",
+   "manual": true
+  },
+  "cpi_inflation_earlier_in_2026": {
+   "id": "cpi_inflation_earlier_in_2026",
+   "group": "prices",
+   "name": "CPI inflation, earlier in 2026",
+   "source": "Swiss National Bank (citing FSO)",
+   "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924",
+   "value": "0.1% (Feb) → 0.6% (May) → 0.8% (Aug)",
+   "period": "Feb–Aug 2026",
+   "released": "Mar 19, Jun 18, Sep 24, 2026",
+   "previous": "0.0% (Nov 2025)",
+   "tag": "official",
+   "manual": true
+  },
+  "snb_conditional_inflation_forecast": {
+   "id": "snb_conditional_inflation_forecast",
+   "group": "prices",
+   "name": "SNB conditional inflation forecast",
+   "source": "Swiss National Bank",
+   "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924",
+   "value": "0.7% (2026), 0.8% (2027), 0.8% (2028)",
+   "period": "September 2026 forecast, assuming a 0% rate",
+   "released": "Sep 24, 2026",
+   "previous": "June: 0.6%, 0.6%, 0.7%",
+   "tag": "official",
+   "manual": true
+  },
+  "transport_prices": {
+   "id": "transport_prices",
+   "group": "prices",
+   "name": "Transport prices",
+   "source": "FSO data, reported by Trading Economics",
+   "url": "https://tradingeconomics.com/switzerland/inflation-cpi",
+   "value": "+3.6% vs a year ago",
+   "period": "Sep 2026",
+   "released": "Oct 1, 2026",
+   "previous": "+2.7% (Aug)",
+   "tag": "secondary",
+   "manual": true
+  },
+  "food_and_non_alcoholic_drinks": {
+   "id": "food_and_non_alcoholic_drinks",
+   "group": "prices",
+   "name": "Food and non-alcoholic drinks",
+   "source": "FSO data, reported by Trading Economics",
+   "url": "https://tradingeconomics.com/switzerland/inflation-cpi",
+   "value": "−1.0% vs a year ago",
+   "period": "Sep 2026",
+   "released": "Oct 1, 2026",
+   "previous": "−1.1% (Aug)",
+   "tag": "secondary",
+   "manual": true
+  },
+  "producer_and_import_prices": {
+   "id": "producer_and_import_prices",
+   "group": "prices",
+   "name": "Producer and import prices",
+   "source": "FSO data, reported by Trading Economics",
+   "url": "https://tradingeconomics.com/switzerland/core-inflation-rate",
+   "value": "−0.7% vs a year ago",
+   "period": "Aug 2026",
+   "released": "Sep 2026",
+   "previous": "—",
+   "tag": "secondary",
+   "manual": true
+  },
+  "firms_inflation_expectations": {
+   "id": "firms_inflation_expectations",
+   "group": "prices",
+   "name": "Firms’ inflation expectations",
+   "source": "Swiss National Bank (Quarterly Bulletin 3/2026)",
+   "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf",
+   "value": "1.0% (next 6–12 months); 1.2% (3–5 years)",
+   "period": "SNB company talks, Q3 2026",
+   "released": "Sep 24, 2026",
+   "previous": "1.2% (6–12 months, Q2)",
+   "tag": "official",
+   "manual": true
+  },
+  "oil_products_share_of_the_cpi_basket": {
+   "id": "oil_products_share_of_the_cpi_basket",
+   "group": "prices",
+   "name": "Oil products’ share of the CPI basket",
+   "source": "Swiss National Bank (Petra Tschudin interview)",
+   "url": "https://www.snb.ch/de/publications/communication/interviews/int_20260824_gpe",
+   "value": "About 2%",
+   "period": "2026",
+   "released": "Aug 22, 2026",
+   "previous": "—",
+   "tag": "official",
+   "manual": true
+  },
+  "registered_unemployment_rate": {
+   "id": "registered_unemployment_rate",
+   "group": "jobs",
+   "name": "Registered unemployment rate",
+   "source": "SECO",
+   "url": "https://www.admin.ch/de/newnsb/Cdju9-o8WGML",
+   "value": "3.0%",
+   "period": "Sep 2026",
+   "released": "Oct 6, 2026",
+   "previous": "3.0% (Aug)",
+   "tag": "official",
+   "manual": true
+  },
+  "unemployment_rate_seasonally_adjusted": {
+   "id": "unemployment_rate_seasonally_adjusted",
+   "group": "jobs",
+   "name": "Unemployment rate, seasonally adjusted",
+   "source": "SECO",
+   "url": "https://www.admin.ch/de/newnsb/Cdju9-o8WGML",
+   "value": "3.1%",
+   "period": "Sep 2026",
+   "released": "Oct 6, 2026",
+   "previous": "3.1% (Aug)",
+   "tag": "official",
+   "manual": true
+  },
+  "job_seekers": {
+   "id": "job_seekers",
+   "group": "jobs",
+   "name": "Job seekers",
+   "source": "SECO",
+   "url": "https://www.admin.ch/de/newnsb/Cdju9-o8WGML",
+   "value": "227,592 (rate 4.8%)",
+   "period": "Sep 2026",
+   "released": "Oct 6, 2026",
+   "previous": "227,248 (Aug)",
+   "tag": "official",
+   "manual": true
+  },
+  "registered_vacancies": {
+   "id": "registered_vacancies",
+   "group": "jobs",
+   "name": "Registered vacancies",
+   "source": "SECO",
+   "url": "https://www.admin.ch/de/newnsb/Cdju9-o8WGML",
+   "value": "44,199",
+   "period": "Sep 2026",
+   "released": "Oct 6, 2026",
+   "previous": "43,733 (Aug)",
+   "tag": "official",
+   "manual": true
+  },
+  "unemployment_rate_international_ilo_me": {
+   "id": "unemployment_rate_international_ilo_me",
+   "group": "jobs",
+   "name": "Unemployment rate, international (ILO) measure",
+   "source": "Swiss National Bank (Quarterly Bulletin 3/2026)",
+   "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf",
+   "value": "5.1%",
+   "period": "Q2 2026",
+   "released": "Sep 24, 2026",
+   "previous": "5.0% (Q1)",
+   "tag": "official",
+   "manual": true
+  },
+  "short_time_work": {
+   "id": "short_time_work",
+   "group": "jobs",
+   "name": "Short-time work",
+   "source": "SECO",
+   "url": "https://www.admin.ch/de/newnsb/Cdju9-o8WGML",
+   "value": "8,339 people",
+   "period": "Jun 2026",
+   "released": "Oct 6, 2026",
+   "previous": "8,423 (May)",
+   "tag": "official",
+   "manual": true
+  },
+  "wage_growth_company_talks": {
+   "id": "wage_growth_company_talks",
+   "group": "jobs",
+   "name": "Wage growth (company talks)",
+   "source": "Swiss National Bank (Quarterly Bulletin 3/2026)",
+   "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf",
+   "value": "About 1.5% (2026); 1.3% expected (2027)",
+   "period": "Q3 2026 company talks",
+   "released": "Sep 24, 2026",
+   "previous": "—",
+   "tag": "official",
+   "manual": true
+  },
+  "gdp_growth_sport_adjusted": {
+   "id": "gdp_growth_sport_adjusted",
+   "group": "growth",
+   "name": "GDP growth, sport-adjusted",
+   "source": "SECO",
+   "url": "https://www.seco.admin.ch/dam/en/sd-web/G7DmYPB-B26A/2026-2-GDP-Switzerland-SECO.pdf",
+   "value": "+1.5% vs previous quarter",
+   "period": "Q2 2026",
+   "released": "Sep 3, 2026",
+   "previous": "+0.5% (Q1)",
+   "tag": "official",
+   "manual": true
+  },
+  "gdp_growth_vs_a_year_ago_sport_adjuste": {
+   "id": "gdp_growth_vs_a_year_ago_sport_adjuste",
+   "group": "growth",
+   "name": "GDP growth vs a year ago, sport-adjusted",
+   "source": "SECO",
+   "url": "https://www.seco.admin.ch/dam/en/sd-web/G7DmYPB-B26A/2026-2-GDP-Switzerland-SECO.pdf",
+   "value": "+2.3%",
+   "period": "Q2 2026",
+   "released": "Sep 3, 2026",
+   "previous": "—",
+   "tag": "official",
+   "manual": true
+  },
+  "private_consumption": {
+   "id": "private_consumption",
+   "group": "growth",
+   "name": "Private consumption",
+   "source": "SECO",
+   "url": "https://www.seco.admin.ch/dam/en/sd-web/G7DmYPB-B26A/2026-2-GDP-Switzerland-SECO.pdf",
+   "value": "+0.3% vs previous quarter",
+   "period": "Q2 2026",
+   "released": "Sep 3, 2026",
+   "previous": "—",
+   "tag": "official",
+   "manual": true
+  },
+  "goods_exports_excluding_valuables": {
+   "id": "goods_exports_excluding_valuables",
+   "group": "growth",
+   "name": "Goods exports (excluding valuables)",
+   "source": "SECO",
+   "url": "https://www.seco.admin.ch/dam/en/sd-web/G7DmYPB-B26A/2026-2-GDP-Switzerland-SECO.pdf",
+   "value": "+5.5% vs previous quarter",
+   "period": "Q2 2026",
+   "released": "Sep 3, 2026",
+   "previous": "—",
+   "tag": "official",
+   "manual": true
+  },
+  "growth_forecasts_for_2026": {
+   "id": "growth_forecasts_for_2026",
+   "group": "growth",
+   "name": "Growth forecasts for 2026",
+   "source": "SECO, KOF, SNB",
+   "url": "https://www.seco.admin.ch/dam/en/sd-web/Yhfz62y4fNO6/2026-3-forecast-economy-switzerland-SECO.pdf",
+   "value": "SECO 1.7%; KOF 1.9%; SNB 1.5%–2%",
+   "period": "Sep 2026 forecasts",
+   "released": "Sep 17 – Sep 30, 2026",
+   "previous": "SECO June: 0.9%",
+   "tag": "official",
+   "manual": true
+  },
+  "retail_sales": {
+   "id": "retail_sales",
+   "group": "growth",
+   "name": "Retail sales",
+   "source": "FSO data, reported by Trading Economics",
+   "url": "https://tradingeconomics.com/switzerland/retail-sales-annual",
+   "value": "+3.2% vs a year ago",
+   "period": "Aug 2026",
+   "released": "Oct 1, 2026",
+   "previous": "+2.6% (Jul, revised)",
+   "tag": "secondary",
+   "manual": true
+  },
+  "kof_economic_barometer": {
+   "id": "kof_economic_barometer",
+   "group": "growth",
+   "name": "KOF Economic Barometer",
+   "source": "KOF Swiss Economic Institute (ETH Zurich)",
+   "url": "https://kof.ethz.ch/en/news-and-events/media/press-releases/2026/09/kof-economic-barometer-2026-09.html",
+   "value": "109.1",
+   "period": "Sep 2026",
+   "released": "Sep 29, 2026",
+   "previous": "107.5 (Aug, revised)",
+   "tag": "secondary",
+   "manual": true
+  },
+  "snb_policy_rate": {
+   "id": "snb_policy_rate",
+   "group": "rates",
+   "name": "SNB policy rate",
+   "source": "Swiss National Bank",
+   "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924",
+   "value": "0%",
+   "period": "Set Jun 19, 2025 (effective Jun 20); held Sep 24, 2026",
+   "released": "Sep 24, 2026",
+   "previous": "0.25% (before Jun 20, 2025)",
+   "tag": "official",
+   "manual": true
+  },
+  "rate_on_banks_deposits_above_the_thres": {
+   "id": "rate_on_banks_deposits_above_the_thres",
+   "group": "rates",
+   "name": "Rate on banks’ deposits above the threshold",
+   "source": "Swiss National Bank",
+   "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
+   "value": "−0.25%",
+   "period": "Since Jun 20, 2025; threshold factor 13.5 from Aug 1, 2026",
+   "released": "Jun 22, 2026",
+   "previous": "Threshold factor 15",
+   "tag": "official",
+   "manual": true
+  },
+  "saron_overnight_rate": {
+   "id": "saron_overnight_rate",
+   "group": "rates",
+   "name": "SARON (overnight rate)",
+   "source": "Swiss National Bank",
+   "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
+   "value": "−0.04%",
+   "period": "Oct 12, 2026",
+   "released": "Oct 13, 2026",
+   "previous": "About −0.04% (mid-Sep)",
+   "tag": "official",
+   "manual": true
+  },
+  "10_year_confederation_bond_yield": {
+   "id": "10_year_confederation_bond_yield",
+   "group": "rates",
+   "name": "10-year Confederation bond yield",
+   "source": "Swiss National Bank",
+   "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
+   "value": "0.561%",
+   "period": "Oct 13, 2026",
+   "released": "Oct 13, 2026",
+   "previous": "0.58% (mid-Sep); 0.39% (mid-Jun)",
+   "tag": "official",
+   "manual": true
+  },
+  "2_year_confederation_bond_yield": {
+   "id": "2_year_confederation_bond_yield",
+   "group": "rates",
+   "name": "2-year Confederation bond yield",
+   "source": "Trading Economics",
+   "url": "https://tradingeconomics.com/switzerland/government-bond-yield",
+   "value": "0.26%",
+   "period": "Oct 13, 2026",
+   "released": "Oct 13, 2026",
+   "previous": "—",
+   "tag": "secondary",
+   "manual": true
+  },
+  "euro_in_francs": {
+   "id": "euro_in_francs",
+   "group": "rates",
+   "name": "Euro in francs",
+   "source": "Swiss National Bank",
+   "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
+   "value": "CHF 0.9314",
+   "period": "Oct 13, 2026",
+   "released": "Oct 13, 2026",
+   "previous": "About CHF 0.94 (mid-Sep)",
+   "tag": "official",
+   "manual": true
+  },
+  "u_s_dollar_in_francs": {
+   "id": "u_s_dollar_in_francs",
+   "group": "rates",
+   "name": "U.S. dollar in francs",
+   "source": "Swiss National Bank",
+   "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
+   "value": "CHF 0.8329",
+   "period": "Oct 13, 2026",
+   "released": "Oct 13, 2026",
+   "previous": "About CHF 0.82 (mid-Sep)",
+   "tag": "official",
+   "manual": true
+  },
+  "trade_weighted_franc": {
+   "id": "trade_weighted_franc",
+   "group": "rates",
+   "name": "Trade-weighted franc",
+   "source": "Swiss National Bank (Quarterly Bulletin 3/2026)",
+   "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf",
+   "value": "−2.8%",
+   "period": "Mid-Jun to mid-Sep 2026",
+   "released": "Sep 24, 2026",
+   "previous": "—",
+   "tag": "official",
+   "manual": true
+  },
+  "mortgage_rates": {
+   "id": "mortgage_rates",
+   "group": "rates",
+   "name": "Mortgage rates",
+   "source": "Swiss National Bank (Quarterly Bulletin 3/2026)",
+   "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf",
+   "value": "About 2.0% (10-year); reference rate 1.25%",
+   "period": "Sep 2026",
+   "released": "Sep 24, 2026",
+   "previous": "—",
+   "tag": "official",
+   "manual": true
+  },
+  "oil_price_brent": {
+   "id": "oil_price_brent",
+   "group": "global",
+   "name": "Oil price (Brent)",
+   "source": "U.S. Energy Information Administration via FRED",
+   "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+   "value": "US$125.44 a barrel",
+   "period": "Oct 6, 2026",
+   "released": "Oct 7, 2026",
+   "previous": "US$135.51 (Oct 2)",
+   "tag": "official",
+   "manual": true
+  },
+  "snb_oil_assumption": {
+   "id": "snb_oil_assumption",
+   "group": "global",
+   "name": "SNB oil assumption",
+   "source": "Swiss National Bank (Quarterly Bulletin 3/2026)",
+   "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf",
+   "value": "About US$105 at the start, then falling",
+   "period": "September 2026 baseline",
+   "released": "Sep 24, 2026",
+   "previous": "—",
+   "tag": "official",
+   "manual": true
+  },
+  "u_s_fed_rate": {
+   "id": "u_s_fed_rate",
+   "group": "global",
+   "name": "U.S. Fed rate",
+   "source": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+   "value": "3.75%–4.00%",
+   "period": "Since Sep 16, 2026",
+   "released": "Sep 16, 2026",
+   "previous": "3.50%–3.75%",
+   "tag": "official",
+   "manual": true
+  },
+  "ecb_deposit_rate": {
+   "id": "ecb_deposit_rate",
+   "group": "global",
+   "name": "ECB deposit rate",
+   "source": "European Central Bank via FRED",
+   "url": "https://fred.stlouisfed.org/series/ECBDFR",
+   "value": "2.50%",
+   "period": "Oct 9, 2026 (from Sep 16)",
+   "released": "Oct 9, 2026",
+   "previous": "2.25%",
+   "tag": "official",
+   "manual": true
+  },
+  "euro_area_growth_forecast_snb_assumpti": {
+   "id": "euro_area_growth_forecast_snb_assumpti",
+   "group": "global",
+   "name": "Euro-area growth forecast (SNB assumption)",
+   "source": "Swiss National Bank (Quarterly Bulletin 3/2026)",
+   "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf",
+   "value": "0.8% (2026); 1.1% (2027)",
+   "period": "September 2026 baseline",
+   "released": "Sep 24, 2026",
+   "previous": "—",
+   "tag": "official",
+   "manual": true
+  },
+  "seco_view_of_the_main_risk": {
+   "id": "seco_view_of_the_main_risk",
+   "group": "global",
+   "name": "SECO view of the main risk",
+   "source": "SECO",
+   "url": "https://www.seco.admin.ch/dam/en/sd-web/Yhfz62y4fNO6/2026-3-forecast-economy-switzerland-SECO.pdf",
+   "value": "Middle East conflict",
+   "period": "Sep 2026 forecast",
+   "released": "Sep 17, 2026",
+   "previous": "—",
+   "tag": "official",
+   "manual": true
+  }
+ },
+ "releases": [
+  {
+   "id": "producer_and_import_prices",
+   "name": "Producer and import prices, September",
+   "publisher": "FSO",
+   "date": "2026-10-15",
+   "date_label": "Thu Oct 15",
+   "time": "8:30 a.m.",
+   "url": "https://tradingeconomics.com/switzerland/calendar",
+   "what": "Prices that factories charge and that importers pay. They were 0.7% lower than a year earlier in August.",
+   "weekly": false
+  },
+  {
+   "id": "summary_of_monetary_policy_dis",
+   "name": "Summary of monetary policy discussion (Sep 24)",
+   "publisher": "SNB",
+   "date": "2026-10-22",
+   "date_label": "Thu Oct 22",
+   "time": "9:30 a.m.",
+   "url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
+   "what": "A written summary of what the three Governing Board members discussed at the September assessment.",
+   "weekly": false
+  },
+  {
+   "id": "retail_sales",
+   "name": "Retail sales, September",
+   "publisher": "FSO",
+   "date": "2026-10-30",
+   "date_label": "Fri Oct 30",
+   "time": "8:30 a.m.",
+   "url": "https://tradingeconomics.com/switzerland/retail-sales-annual",
+   "what": "How much people spent in shops. August was up 3.2% on a year earlier.",
+   "weekly": false
+  },
+  {
+   "id": "kof_economic_barometer",
+   "name": "KOF Economic Barometer, October",
+   "publisher": "KOF/ETH",
+   "date": "2026-10-30",
+   "date_label": "Fri Oct 30",
+   "time": "9:00 a.m.",
+   "url": "https://kof.ethz.ch/en/forecasts-and-indicators/indicators/kof-economic-barometer.html",
+   "what": "A survey-based gauge of where the Swiss economy is heading. It was 109.1 in September, above its average.",
+   "weekly": false
+  },
+  {
+   "id": "consumer_price_index_cpi",
+   "name": "Consumer Price Index (CPI), October",
+   "publisher": "FSO",
+   "date": "2026-11-03",
+   "date_label": "Tue Nov 3",
+   "time": "8:30 a.m.",
+   "url": "https://tradingeconomics.com/switzerland/inflation-cpi",
+   "what": "How much the prices families pay changed in the past year, plus core inflation.",
+   "weekly": false
+  },
+  {
+   "id": "labour_market_situation",
+   "name": "Labour market situation, October",
+   "publisher": "SECO",
+   "date": "2026-11-05",
+   "date_label": "Thu Nov 5",
+   "time": "",
+   "url": "https://www.arbeit.swiss/secoalv/en/home/menue/institutionen-medien/medienmitteilungen.html",
+   "what": "Registered unemployment (3.0% in September) and job vacancies.",
+   "weekly": false
+  },
+  {
+   "id": "foreign_currency_reserves",
+   "name": "Foreign currency reserves, October",
+   "publisher": "SNB",
+   "date": "2026-11-06",
+   "date_label": "Fri Nov 6",
+   "time": "",
+   "url": "https://tradingeconomics.com/switzerland/calendar",
+   "what": "How much foreign money the SNB holds (reported at CHF 770.47 billion for September).",
+   "weekly": false
+  },
+  {
+   "id": "gdp",
+   "name": "GDP, July–September",
+   "publisher": "SECO",
+   "date": "2026-11-30",
+   "date_label": "Mon Nov 30",
+   "time": "9:00 a.m.",
+   "url": "https://www.seco.admin.ch/seco/en/home/wirtschaftslage---wirtschaftspolitik/Wirtschaftslage/bip-quartalsschaetzungen-.html",
+   "what": "How fast the whole economy grew in the third quarter, after +1.5% in the second.",
+   "weekly": false
+  },
+  {
+   "id": "consumer_price_index_cpi_novem",
+   "name": "Consumer Price Index (CPI), November · FSO",
+   "publisher": "FSO",
+   "date": "2026-12-05",
+   "date_label": "Early December",
+   "time": "(date not confirmed)",
+   "url": "",
+   "what": "The last inflation report before the decision.",
+   "weekly": false,
+   "approx": true,
+   "timing": "before"
+  },
+  {
+   "id": "economic_forecast_9_00_a_m",
+   "name": "Economic forecast (9:00 a.m.)",
+   "publisher": "SNB",
+   "date": "2026-12-16",
+   "date_label": "Wed Dec 16",
+   "time": "",
+   "url": "https://www.seco.admin.ch/seco/en/home/wirtschaftslage---wirtschaftspolitik/Wirtschaftslage/konjunkturprognosen.html",
+   "what": "The government’s new growth forecast, and the SNB’s full report with its December forecast table.",
+   "weekly": false
+  }
+ ],
+ "narrative": {
+  "what_changed": {
+   "headline": "Starting snapshot, checked by hand.",
+   "items": []
+  },
+  "verdict": {
+   "most_likely": "hold",
+   "headline": "HOLD",
+   "sub": "<strong>Keep the SNB policy rate where it is, at 0%.</strong> A small rise to 0.25% is a real possibility, and one respected Swiss forecaster already expects it. A cut is very unlikely.",
+   "probabilities": {
+    "hold": 70,
+    "raise": 25,
+    "cut": 5
+   },
+   "labels": {
+    "hold": "Hold (no change)",
+    "raise": "Raise (up 0.25 points)",
+    "cut": "Cut (down, into negative rates)"
+   },
+   "confidence": "Low",
+   "confidence_note": "“Low” does not mean we have no favourite. It means the decision is <strong>eight weeks away</strong>, and two consumer price reports (October on Nov 3, November in early December), new growth figures (Nov 30) and the oil price can all move before then. Why so late? The SNB decides only <strong>four times a year</strong> (March, June, September, December), so its next decision comes well after the Bank of Canada (Oct 28) and the other central banks on this site. Until December 10 the Swiss rate will almost certainly stay where it is.",
+   "short_version": "Prices in Switzerland are rising only about 1% a year, inside the SNB’s 0%–2% goal, even though oil is very expensive. The SNB’s own forecast, which assumes the rate stays at 0%, keeps inflation inside that goal for the next three years. That is the SNB’s usual test, and today it says “no need to move”. But inflation is creeping up, the franc has weakened a little, and the U.S. and euro-area central banks have raised rates. So a small rise in December cannot be ruled out. We think waiting is still more likely.",
+   "card_why": "Inflation (1.0%) sits inside the SNB’s 0–2% zone and its 0%-rate forecast stays there; strong growth and KOF’s call keep a rise possible.",
+   "last_move": "Cut to 0% on Jun 19, 2025; held five times since (latest Sep 24, 2026)"
+  },
+  "why_steps": [
+   {
+    "title": "The SNB has one main job, and two tools",
+    "html": "The SNB’s main job is to keep prices stable while taking account of how the economy is doing. It defines stable prices in an unusual way: a rise in consumer prices of <strong>less than 2% a year</strong>, and not falling either. In practice that is a <strong>comfort zone of 0% to 2%</strong> (<a href=\"https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/speeches/2026/ref_20261007_anmar/publications0_en/ref_20261007_anmar.en.pdf\">SNB presentation, Oct 7</a>). Unlike most central banks, there is no single 2% bull’s-eye: anything in the zone counts as success.\n\nIts first tool is the <strong>SNB policy rate</strong>, which steers what banks charge each other for overnight loans (that market rate is called <strong>SARON</strong>, short for Swiss Average Rate Overnight, and many Swiss mortgages follow it). Think of it like the pedals of a car. Raising the rate is pressing the <strong>brake</strong>: loans get dearer, people and firms borrow and spend less, and prices cool down. Cutting is pressing the <strong>gas</strong>. Holding means keeping your foot where it is. Today the rate is <strong>0%</strong>, where it has been since June 2025.\n\nIts second tool is special to Switzerland: <strong>foreign exchange interventions</strong>. The SNB can create francs and use them to buy euros or dollars. That makes the franc a bit weaker, which makes imports dearer and nudges Swiss prices up. In its words, interventions are used “as necessary to complement the SNB’s interest rate policy” (<a href=\"https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/speeches/2026/ref_20261007_anmar/publications0_en/ref_20261007_anmar.en.pdf\">SNB</a>). So the SNB has two pedals for the gas, and it can also go below zero: from 2015 to 2022 its rate was <strong>negative</strong>, as low as −0.75%, which means banks paid to park money at the SNB."
+   },
+   {
+    "title": "Prices are rising, but only gently",
+    "html": "Consumer prices (the <strong>CPI</strong>, or Consumer Price Index, measured by the Federal Statistical Office, FSO) were <strong>1.0% higher</strong> in September than a year earlier, up from 0.8% in August and 0.6% in May (<a href=\"https://tradingeconomics.com/switzerland/inflation-cpi\">FSO data via Trading Economics</a>; <a href=\"https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924\">SNB</a>). In simple terms: a basket of everyday things that cost <strong>CHF 100</strong> a year ago now costs about <strong>CHF 101</strong>. In the U.S. or Canada, by comparison, prices are up about 3% to 3.5% a year (see their monitors).\n\nThe “core” rate, which leaves out the jumpiest prices such as fuel and fresh food, was only <strong>0.5%</strong>. Why so low? Oil products make up only about <strong>2%</strong> of the Swiss shopping basket, according to SNB Governing Board member Petra Tschudin (“Erdölprodukte machen nur 2% aus”, <a href=\"https://www.snb.ch/de/publications/communication/interviews/int_20260824_gpe\">interview</a>), so an oil shock hits Swiss prices far less than elsewhere. A strong franc has also kept imported goods cheap for years, and food prices are still falling (−1.0% in a year)."
+   },
+   {
+    "title": "The SNB’s own forecast says “no need to move”",
+    "html": "Four times a year the SNB publishes a <strong>conditional inflation forecast</strong>: what it thinks inflation will be over the next three years <em>if the rate stays where it is</em>. If that line stays inside the 0%–2% zone, the rate is “about right”. If it heads above 2%, the SNB brakes; if it heads below 0%, it presses the gas.\n\nIn September, with the rate at 0%, the forecast was <strong>0.7%</strong> on average for 2026, <strong>0.8%</strong> for 2027 and <strong>0.8%</strong> for 2028, a little higher than in June (0.6%, 0.6%, 0.7%). The quarterly table in the SNB’s bulletin peaks at about <strong>1.2%</strong> around the turn of the year (<a href=\"https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf\">Quarterly Bulletin 3/2026</a>). The SNB concluded: “Our monetary policy is appropriate to keep inflation within the range consistent with price stability.” (<a href=\"https://www.snb.ch/en/publications/communication/speeches-restricted/ref_20260924_mslanmargpe\">introductory remarks</a>). For a rise in December, that forecast would need to move up a lot."
+   },
+   {
+    "title": "The economy is stronger than expected, and the franc is weaker",
+    "html": "Swiss output (<strong>GDP</strong>, the value of everything the country produces) grew <strong>1.5%</strong> in April–June, “the strongest GDP growth recorded since the third quarter of 2021” (<a href=\"https://www.seco.admin.ch/dam/en/sd-web/G7DmYPB-B26A/2026-2-GDP-Switzerland-SECO.pdf\">SECO</a>). Much of it came from chemicals and pharmaceuticals (+10.5%), which swing a lot, but the SNB says growth was solid even without them. Forecasters raised their numbers: SECO’s expert group now expects <strong>1.7%</strong> growth in 2026 (it said 0.9% in June) (<a href=\"https://www.seco.admin.ch/dam/en/sd-web/Yhfz62y4fNO6/2026-3-forecast-economy-switzerland-SECO.pdf\">SECO forecast</a>).\n\nAt the same time the franc lost some of its strength. Measured against a basket of trading partners, it fell <strong>2.8%</strong> between mid-June and mid-September (<a href=\"https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf\">SNB</a>). A weaker franc helps exporters and makes imports dearer, which pushes Swiss inflation up a little. That is exactly the help the SNB wanted when it said in March and June that it was more willing to intervene against a strong franc. Today one euro costs about <strong>CHF 0.93</strong> and one U.S. dollar about <strong>CHF 0.83</strong> (Oct 13, <a href=\"https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates\">SNB</a>)."
+   },
+   {
+    "title": "Weighing both sides",
+    "scale": {
+     "left_title": "Pulls toward Raise in December",
+     "left": [
+      "Inflation rising: 0.1% in Feb, 1.0% in Sep",
+      "SNB raised its own forecast in September",
+      "Strong growth; forecasts raised to 1.7%–1.9%",
+      "Weaker franc adds to import prices",
+      "Fed and ECB raised; KOF expects an SNB rise",
+      "2-year bond rate (0.26%) above SARON (−0.04%)"
+     ],
+     "right_title": "Pulls toward Hold in December",
+     "right": [
+      "Inflation 1.0%, core 0.5%: inside 0%–2%",
+      "Forecast with 0% rate stays in range to 2028",
+      "SNB: policy “is appropriate”",
+      "Oil only ~2% of the Swiss basket",
+      "Unemployment up from a year ago (3.0%)",
+      "A rise could pull the franc up again"
+     ]
+    },
+    "html": "The Raise side has more arguments than three months ago, and we take it seriously. What tips us toward Hold is the SNB’s own rule of thumb: it moves when its forecast leaves the 0%–2% zone, and in September it did not come close. A rise would also strengthen the franc, undoing the weakening that the SNB said is “having a supportive effect” on the economy. That is why we say about <strong>70% Hold</strong>, <strong>25% Raise</strong> and <strong>5% Cut</strong>."
+   },
+   {
+    "title": "What the SNB has been saying",
+    "html": "In every statement since June 2025 the decision sentence has been the same: “The Swiss National Bank is leaving the SNB policy rate unchanged at 0%.” What changed is the tone about the franc and the risks. In March and June 2026 the SNB said its willingness to intervene had increased, to counter “a rapid and excessive appreciation of the Swiss franc” (<a href=\"https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260319\">March release</a>). In September it was calmer: “Medium-term inflationary pressure has increased only slightly.” and “We will therefore continue to monitor the situation and adjust our monetary policy if necessary,” (<a href=\"https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924\">September release</a>; <a href=\"https://www.snb.ch/en/publications/communication/speeches-restricted/ref_20260924_mslanmargpe\">remarks</a>).\n\nThe SNB gives no hints about future moves on purpose. Petra Tschudin said in August: “Wir publizieren keine Zinsprognosen.” (“We do not publish interest-rate forecasts.”, <a href=\"https://www.snb.ch/de/publications/communication/interviews/int_20260824_gpe\">interview</a>). Outside the SNB, the KOF Swiss Economic Institute at ETH Zurich “expects the SNB to raise its policy rate by 25 basis points at its next monetary policy assessment” (<a href=\"https://kof.ethz.ch/en/news-and-events/media/press-releases/2026/09/economic-forecast.html\">KOF, Sep 30</a>). A “basis point” is one-hundredth of a percentage point, so 25 basis points means 0.25 points. That is a serious outside voice for Raise; it is not the SNB’s view."
+   },
+   {
+    "title": "The one thing to watch: prices on November 3",
+    "html": "On <strong>Tuesday, November 3</strong>, at 8:30 a.m. Swiss time, the FSO publishes October’s consumer prices. On <strong>October 22</strong> the SNB also publishes a summary of what the Governing Board discussed in September, which may show how close they came to a rise.\n\nIf headline inflation reaches <strong>about 1.5% or more</strong> and core inflation climbs to <strong>about 0.8% or more</strong>, a December rise becomes much more likely and Raise could become our main call. If inflation stays <strong>around 1%</strong> with core near 0.5%, Hold becomes even more likely. The November figures (early December) will be the last word before the decision."
+   }
+  ],
+  "timeline": [
+   {
+    "date_label": "June 19, 2025",
+    "title": "The SNB cut its rate to 0%",
+    "kind": "down",
+    "what": "The SNB lowered its rate by 0.25 points, from 0.25% to <strong>0%</strong>, effective June 20, 2025. Banks’ deposits at the SNB above a set limit (the “threshold”) earn 0.25 points less, so in effect −0.25%.",
+    "why": "Prices were actually <strong>falling</strong>: inflation was −0.1% in May 2025. The SNB pressed the gas to stop that. It said that without the cut its forecast would have been lower.",
+    "people": "Savings accounts paid close to nothing. SARON-linked mortgages got a little cheaper.",
+    "sources": [
+     {
+      "label": "SNB, June 2025",
+      "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20250619_2"
+     }
+    ],
+    "because": "the rate reached zero, and the SNB began to wait and see."
+   },
+   {
+    "date_label": "September 25, 2025",
+    "title": "Held at 0% as U.S. tariffs bite",
+    "kind": "neutral",
+    "what": "The SNB held at 0%. It said: “The economic outlook for Switzerland has deteriorated due to significantly higher US tariffs.” Inflation had risen slightly, to 0.2% in August 2025.",
+    "why": "Tariffs (taxes on imports) made Swiss goods dearer for American buyers. Unemployment had risen and was likely to keep rising. But inflation was back above zero, so no new cut was needed.",
+    "people": "Workers in export firms faced more uncertainty. Borrowing costs stayed very low.",
+    "sources": [
+     {
+      "label": "SNB, Sept 2025",
+      "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20250925"
+     }
+    ],
+    "because": "the SNB kept watching trade and the franc, with its foot steady."
+   },
+   {
+    "date_label": "December 11, 2025",
+    "title": "Held again: prices flat, tariffs lower",
+    "kind": "neutral",
+    "what": "The SNB held at 0%. Inflation fell to <strong>0.0%</strong> in November 2025. GDP had shrunk in July–September, mainly because of pharmaceuticals. The SNB said lower U.S. tariffs had slightly improved the outlook.",
+    "why": "Zero inflation sits at the very bottom of the 0%–2% zone, but the SNB’s forecast (0.3% for 2026, 0.6% for 2027) stayed inside it, so it saw no need to go negative.",
+    "people": "Prices in shops were the same as a year earlier on average. Hotels, rents and clothing got a little cheaper.",
+    "sources": [
+     {
+      "label": "SNB, Dec 2025",
+      "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20251211"
+     }
+    ],
+    "because": "the SNB entered 2026 at 0%, with inflation at zero and a strong franc."
+   },
+   {
+    "date_label": "Late February – March 19, 2026",
+    "title": "War in the Middle East; the SNB guards against a soaring franc",
+    "kind": "up",
+    "what": "A war in the Middle East pushed up energy prices. On March 19 the SNB held at 0% and said its willingness to intervene in the currency market had increased: “The SNB thereby counters a rapid and excessive appreciation of the Swiss franc”. Inflation was 0.1% in February.",
+    "why": "In a crisis, investors around the world buy francs as a “safe haven”, like moving savings into a strong safe. A sudden jump in the franc would make imports much cheaper and could push Swiss prices back below zero.",
+    "people": "Fuel and heating oil got dearer. Exporters and tourism worried about a stronger franc making Switzerland expensive for foreigners.",
+    "sources": [
+     {
+      "label": "SNB, March 2026",
+      "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260319"
+     }
+    ],
+    "because": "the SNB had two worries at once: dearer energy (prices up) and a stronger franc (prices down)."
+   },
+   {
+    "date_label": "March – May 2026",
+    "title": "Energy lifts Swiss inflation, a little",
+    "kind": "up",
+    "what": "Inflation rose from 0.1% in February to <strong>0.6%</strong> in May, “mainly” because of oil products. The franc, adjusted for prices, peaked in March: the BIS real effective exchange rate index reached 103.80, then eased to 102.67 in May.",
+    "why": "Oil products are only about 2% of the Swiss basket, so even a big oil jump adds only a few tenths of a point to Swiss inflation.",
+    "people": "A basket that cost CHF 100 a year earlier now cost about CHF 100.60. Much less pain than in most other countries.",
+    "sources": [
+     {
+      "label": "SNB, June 2026",
+      "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260618"
+     },
+     {
+      "label": "BIS via FRED",
+      "url": "https://fred.stlouisfed.org/series/RBCHBIS"
+     },
+     {
+      "label": "Tschudin interview",
+      "url": "https://www.snb.ch/de/publications/communication/interviews/int_20260824_gpe"
+     }
+    ],
+    "because": "inflation was finally moving up inside the zone, which eased the risk of falling prices."
+   },
+   {
+    "date_label": "June 18 – 22, 2026",
+    "title": "Held at 0%; a technical tweak to bank deposits",
+    "kind": "neutral",
+    "what": "The SNB held at 0%, saying: “Inflation has risen in recent months as a result of higher energy prices.” It forecast 0.6% inflation for both 2026 and 2027 and about 1% growth for 2026. On June 22 it lowered the “threshold factor” for bank deposits from 15 to 13.5, from August 1.",
+    "why": "The forecast stayed well inside the zone. The deposit change was technical: the SNB said it “has no impact on the current monetary policy stance”; it keeps the overnight market active.",
+    "people": "Nothing changed for loans or savings. The SNB warned that “The upward pressure on the Swiss franc could also increase again.”",
+    "sources": [
+     {
+      "label": "SNB, June 2026",
+      "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260618"
+     },
+     {
+      "label": "Deposit change",
+      "url": "https://www.snb.ch/en/publications/communication/press-releases/2026/pre_20260622"
+     }
+    ],
+    "because": "the SNB went into the summer still worried more about a strong franc than about high prices."
+   },
+   {
+    "date_label": "Mid-June – early September 2026",
+    "title": "The franc weakens; the economy surprises",
+    "kind": "neutral",
+    "what": "The franc fell 2.8% against trading partners (2.2% against the euro, 3.8% against the dollar) between mid-June and mid-September. On September 3 SECO reported GDP up <strong>1.5%</strong> in April–June, the strongest since 2021. The 10-year bond rate rose from 0.39% in mid-June to 0.58% in mid-September.",
+    "why": "Higher rates abroad make euro and dollar savings more attractive than franc savings, which pulls money out of the franc. Exports of medicines boosted growth.",
+    "people": "Holidays abroad and imported goods got a little dearer. Fixed-rate mortgages edged up: the SNB puts the 10-year mortgage rate at about 2.0%.",
+    "sources": [
+     {
+      "label": "SNB Quarterly Bulletin",
+      "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf"
+     },
+     {
+      "label": "SECO GDP",
+      "url": "https://www.seco.admin.ch/dam/en/sd-web/G7DmYPB-B26A/2026-2-GDP-Switzerland-SECO.pdf"
+     }
+    ],
+    "because": "the threat of a runaway franc faded, and forecasters started talking about higher, not lower, rates."
+   },
+   {
+    "date_label": "September 16 – 17, 2026",
+    "title": "Neighbours brake; Swiss forecasts go up",
+    "kind": "up",
+    "what": "The U.S. Fed raised its rate to 3.75%–4.00% on September 16, and the ECB’s deposit rate rose to 2.50% from the same day. On September 17 SECO’s expert group raised its 2026 growth forecast to <strong>1.7%</strong> (from 0.9%), with inflation of 0.6% in 2026 and 2027.",
+    "why": "Abroad, the energy shock pushed inflation well above targets. In Switzerland it did not, which is why forecasters still saw low inflation.",
+    "people": "The gap between Swiss and foreign interest rates grew, which tends to weaken the franc and helps exporters.",
+    "sources": [
+     {
+      "label": "Fed",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+     },
+     {
+      "label": "ECB rate (FRED)",
+      "url": "https://fred.stlouisfed.org/series/ECBDFR"
+     },
+     {
+      "label": "SECO forecast",
+      "url": "https://www.seco.admin.ch/dam/en/sd-web/Yhfz62y4fNO6/2026-3-forecast-economy-switzerland-SECO.pdf"
+     }
+    ],
+    "because": "everyone watched whether the SNB would follow its neighbours."
+   },
+   {
+    "date_label": "September 24, 2026",
+    "title": "Held at 0%, forecast nudged up",
+    "kind": "neutral",
+    "what": "The SNB held. “Inflation rose slightly, from 0.6% in May to 0.8% in August.” Goods prices rose for the first time since May 2024. The forecast rose to 0.7% (2026), 0.8% (2027) and 0.8% (2028). Growth was expected at 1.5% to 2% this year.",
+    "why": "“Medium-term inflationary pressure has increased only slightly.” The forecast stayed inside the zone, so no need to brake. The SNB still said it is “willing to be active in the foreign exchange market” if needed.",
+    "people": "No change for borrowers or savers. The SNB said the weaker franc and its low rate are “having a supportive effect” on the economy.",
+    "sources": [
+     {
+      "label": "Press release",
+      "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924"
+     },
+     {
+      "label": "Introductory remarks",
+      "url": "https://www.snb.ch/en/publications/communication/speeches-restricted/ref_20260924_mslanmargpe"
+     }
+    ],
+    "because": "attention moved to the next price reports and to the oil price."
+   },
+   {
+    "date_label": "September 30 – October 13, 2026",
+    "title": "Calls for a rise, prices at 1%, oil spikes",
+    "kind": "now",
+    "what": "On September 30 the KOF institute said it expects a 0.25-point SNB rise at the next assessment. On October 1 the FSO reported September inflation at <strong>1.0%</strong> (core 0.5%), the fastest since September 2024. Brent oil hit US$135.51 on October 2, then US$125.44 on October 6. Unemployment held at <strong>3.0%</strong> in September. On October 13 the 10-year bond rate was 0.561% and the overnight rate SARON −0.04% (Oct 12).",
+    "sources": [
+     {
+      "label": "KOF",
+      "url": "https://kof.ethz.ch/en/news-and-events/media/press-releases/2026/09/economic-forecast.html"
+     },
+     {
+      "label": "CPI (FSO via Trading Economics)",
+      "url": "https://tradingeconomics.com/switzerland/inflation-cpi"
+     },
+     {
+      "label": "Brent (FRED)",
+      "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
+     },
+     {
+      "label": "Jobs (SECO)",
+      "url": "https://www.admin.ch/de/newnsb/Cdju9-o8WGML"
+     },
+     {
+      "label": "Rates (SNB)",
+      "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates"
+     }
+    ],
+    "because": "our reading is “no rush, but a December rise is possible”, which is why our main call is Hold."
+   }
+  ],
+  "choices": [
+   {
+    "option": "hold",
+    "rank_label": "Most likely",
+    "title": "Hold: keep the rate at 0%",
+    "meaning": "the SNB keeps its foot where it is for a sixth meeting in a row. It would likely repeat that it is ready to act in the currency market and to “adjust our monetary policy if necessary”.",
+    "for": [
+     "<strong>Inflation is inside the zone.</strong> 1.0% headline and 0.5% core in September, well below 2%.",
+     "<strong>The SNB’s forecast passes the test.</strong> With a 0% rate, inflation stays between 0.7% and 0.8% a year on average through 2028.",
+     "<strong>Oil matters less here.</strong> Oil products are only about 2% of the Swiss basket.",
+     "<strong>A rise could strengthen the franc again.</strong> That would undo the weakening the SNB called supportive.",
+     "<strong>The SNB said so itself.</strong> “Our monetary policy is appropriate to keep inflation within the range consistent with price stability.”"
+    ],
+    "against": [
+     "Inflation has climbed from 0.1% in February to 1.0% in September, the fastest pace since September 2024.",
+     "Growth is strong and forecasters raised their numbers sharply.",
+     "KOF expects a rise, and the 2-year bond rate suggests markets see some chance of higher rates."
+    ],
+    "everyday": "SARON mortgages, savings accounts and business loans would stay roughly where they are. Fixed-rate mortgages follow bond markets, so they could still move a little."
+   },
+   {
+    "option": "raise",
+    "rank_label": "Possible",
+    "title": "Raise: up 0.25 points, to 0.25%",
+    "meaning": "the SNB presses the brake lightly for the first time since 2023, moving away from zero before inflation gets close to 2%.",
+    "for": [
+     "<strong>Inflation is climbing.</strong> From 0.0% in November 2025 to 1.0% in September 2026, and the SNB expected a further rise in the last quarter.",
+     "<strong>The economy is strong.</strong> GDP up 1.5% in a single quarter; KOF now sees 1.9% growth in 2026.",
+     "<strong>Others are braking.</strong> The Fed and the ECB raised rates in September, which weakens the franc and lifts Swiss import prices.",
+     "<strong>Respected forecasters expect it.</strong> KOF forecasts a 0.25-point rise at the next assessment.",
+     "<strong>December brings a full new forecast.</strong> If oil stays high, that forecast could move up noticeably."
+    ],
+    "against": [
+     "Even with a 0% rate, the SNB’s September forecast never comes near 2%.",
+     "Core inflation is only 0.5%; there is little sign of fuel costs spreading to other prices.",
+     "A rise would make the franc more attractive, which the SNB spent months trying to prevent."
+    ],
+    "everyday": "SARON mortgages and lines of credit would cost a little more; savings accounts might pay a little more. On a CHF 500,000 SARON mortgage, 0.25 points is about CHF 1,250 more a year (our arithmetic). The franc would probably firm up."
+   },
+   {
+    "option": "cut",
+    "rank_label": "Unlikely",
+    "title": "Cut: lower the rate below zero",
+    "meaning": "the SNB would go back to negative rates, pressing the gas to stop the franc soaring or prices falling.",
+    "for": [
+     "Only if a sudden crisis (for example a worse Middle East war or a market crash) sent investors piling into the franc, pushing it sharply higher and inflation back toward zero.",
+     "The SNB has done it before: −0.75% from 2015, and it does not rule it out today."
+    ],
+    "against": [
+     "<strong>Inflation is rising, not falling.</strong> A cut now would make no sense against a 1.0% inflation rate.",
+     "<strong>The franc has weakened, not strengthened.</strong>",
+     "<strong>The SNB prefers currency interventions first.</strong> Tschudin noted that a cut below zero works “etwas anders” (somewhat differently) from a normal cut, because banks pass it on only partly."
+    ],
+    "everyday": "banks might charge large depositors fees again and mortgages would get slightly cheaper, but the surprise itself would signal a serious crisis."
+   }
+  ],
+  "change": {
+   "lead": "Our 70% / 25% / 5% guess is based on what we know today. Because the SNB decides only in December, a lot of new information will arrive first. Some of it can move our view a lot. Here is what we are watching, and why each item matters.",
+   "intro_title": "Why “before” and “after” the decision matters",
+   "intro": "The SNB can only react to information it has <strong>already seen</strong>. Everything released <strong>before December 10</strong> can change the December decision, and this time that is almost two months of data, including two inflation reports. A report released <strong>after</strong> it can only shape the next decision, on <strong>March 18, 2027</strong>. That is why most of the table below is marked “Before”.",
+   "reports": {
+    "producer_and_import_prices": {
+     "why": "An early warning of shop prices, and a direct read of how the weaker franc and oil feed into import costs.",
+     "trigger": "Turning clearly positive (above about +1% a year) → small push toward Raise."
+    },
+    "summary_of_monetary_policy_dis": {
+     "why": "The SNB gives no vote count, so this is the best window into whether a rise was already debated.",
+     "trigger": "Talk of a rise being “discussed” or of upside risks dominating → Raise up. Stress on franc strength → Hold firms up."
+    },
+    "retail_sales": {
+     "why": "Shows whether households keep spending despite high fuel costs.",
+     "trigger": "Small effect on its own."
+    },
+    "kof_economic_barometer": {
+     "why": "A quick read of business mood after the oil spike.",
+     "trigger": "A sharp drop below 100 → Hold firms up; a further rise → Raise a little more likely."
+    },
+    "consumer_price_index_cpi": {
+     "why": "The most important report this autumn. It will show whether the early-October oil spike is lifting Swiss prices.",
+     "trigger": "Headline about 1.5% or more and core about 0.8% or more → Raise could become our top pick. Headline near 1% and core near 0.5% → more confident in Hold."
+    },
+    "labour_market_situation": {
+     "why": "Shows whether the strong spring is turning into hiring, or whether unemployment keeps creeping up.",
+     "trigger": "Seasonally adjusted rate falling to 3.0% or lower → leans Raise a little. Rising to 3.2% or more → leans Hold."
+    },
+    "foreign_currency_reserves": {
+     "why": "Big changes can hint at currency interventions, though valuation moves also matter.",
+     "trigger": "Only a hint; affects our reading of the franc, not the odds directly."
+    },
+    "gdp": {
+     "why": "Tells the SNB whether the economy is running hot or cooling after the pharma-driven spring.",
+     "trigger": "Another strong quarter (above about 0.5%) → Raise up. A fall → Hold, and more so if unemployment rises too."
+    },
+    "consumer_price_index_cpi_novem": {
+     "why": "Together with October, it decides whether the December forecast moves up a lot.",
+     "trigger": "Same thresholds as October. Two hot reports in a row would make a rise close to a coin flip or better."
+    },
+    "economic_forecast_9_00_a_m": {
+     "why": "Too late for December, but shapes the outlook for 2027.",
+     "trigger": "March 2027."
+    }
+   },
+   "other_title": "Other things that could move our view",
+   "other": [
+    "<strong>Oil and the Middle East.</strong> Brent oil jumped to US$135.51 on October 2 before easing to US$125.44 on October 6 (<a href=\"https://fred.stlouisfed.org/series/DCOILBRENTEU\">FRED</a>). The SNB’s September forecast assumed Brent of about US$105 at the start, then gradually lower (<a href=\"https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf\">SNB</a>). If oil stays well above that, the December forecast will rise and so will the chance of a rise.",
+    "<strong>The franc.</strong> A renewed rush into the franc (a “safe haven” in a crisis) would push the SNB toward Hold and currency purchases, and could even revive talk of negative rates. A further slide in the franc would push toward Raise.",
+    "<strong>U.S. trade policy.</strong> SECO notes a U.S. investigation launched on March 11, 2026 that includes Switzerland; its outcome is unknown. New tariffs would hurt exports and make a hold more likely.",
+    "<strong>Speeches before December.</strong> Board members speak often; Petra Tschudin and Thomas Moser are listed for a money market event in Geneva on October 29 (<a href=\"https://www.snb.ch/en/services-events/digital-services/event-schedule\">SNB</a>). Any hint that the forecast could leave the 0%–2% zone would matter."
+   ]
+  },
+  "report_card": [
+   {
+    "area": "Prices",
+    "grade": "green",
+    "one": "Prices are 1.0% higher than a year ago, inside the SNB’s 0%–2% zone, but rising.",
+    "look": "Consumer prices (CPI, up 1.0%), core inflation (0.5%), the SNB’s conditional forecast (0.7%–0.8% a year to 2028), producer and import prices, and inflation expectations (firms expect 1.0% over the next 6–12 months).",
+    "why": "Inflation is comfortably inside the target zone even during a major oil shock, and expectations are low and stable. Unlike most countries on this site, Switzerland’s price problem is not “too high”. Watch-outs: it has climbed from 0.0% last November, and the SNB expects it to rise a bit further this quarter.",
+    "change": "Headline above about 1.5% with core rising → yellow. A drop back to zero or below → yellow from the other side.",
+    "matters": "This is the main reason we expect a hold. The SNB brakes when its forecast heads above 2%, and today it is far from that.",
+    "change_label": "What would change it"
+   },
+   {
+    "area": "Jobs",
+    "grade": "amber",
+    "one": "Unemployment is low by world standards (3.0%), but higher than a year ago.",
+    "look": "Registered unemployment (SECO), job seekers, vacancies, short-time work, and the broader international (ILO) measure.",
+    "why": "140,480 people were registered unemployed in September, 5.4% more than a year earlier, and the job-seeker rate is 4.8%. The international measure was 5.1% in the second quarter. On the bright side, registered vacancies are up 18.3% in a year, and firms told the SNB they plan to hire more. Wages are expected to rise about 1.5% this year, faster than prices.",
+    "change": "Unemployment falling back below 3% → green. Rising above about 3.3% → red.",
+    "matters": "A gently loosening job market means wages are not pushing prices up, which supports waiting.",
+    "change_label": "What would change it"
+   },
+   {
+    "area": "Growth",
+    "grade": "green",
+    "one": "A very strong spring, and forecasts have been raised.",
+    "look": "GDP (adjusted for big sports events), retail sales, the KOF Economic Barometer, and forecasts from SECO, KOF and the SNB.",
+    "why": "GDP grew 1.5% in April–June, the most since 2021. SECO now sees 1.7% growth for 2026, KOF 1.9%, the SNB 1.5% to 2%. Shop sales were up 3.2% on a year in August, and the KOF barometer rose to 109.1. Caveat: much of the spring boom was pharmaceuticals, which can reverse quickly, and the SNB says factory capacity use is still below average.",
+    "change": "A weak third quarter (Nov 30) or a new tariff shock → yellow.",
+    "matters": "Strong growth is the main reason a rise is on the table at all. If the economy keeps running this hot, the SNB may want to move off zero.",
+    "change_label": "What would change it"
+   },
+   {
+    "area": "Money markets",
+    "grade": "amber",
+    "one": "Market rates have risen a little, and the franc has eased from its highs.",
+    "look": "The overnight rate SARON, Confederation (government) bond rates, the franc against the euro and dollar, and mortgage rates.",
+    "why": "SARON (−0.04%) sits right where the SNB wants it, just under 0%. The 10-year Confederation bond rate rose from 0.39% in mid-June to 0.56%, and the 2-year (0.26%, secondary source) is above SARON, so markets expect somewhat higher rates. The franc fell 2.8% on a trade-weighted basis over the summer, which the SNB called supportive, but it is still very strong by long-run standards (one euro buys CHF 0.93). Home prices are still rising.",
+    "change": "A sudden franc surge or a jump in bond rates → red. Calm markets → green.",
+    "matters": "The franc is the SNB’s second pedal. As long as the franc stays calm, the SNB has room to wait; a surge would make a rise very unlikely.",
+    "change_label": "What would change it"
+   }
+  ],
+  "indicators": {
+   "consumer_price_index_cpi_all_items": {
+    "now_label": "Inside the zone",
+    "now_tone": "good",
+    "what": "the Federal Statistical Office (FSO) checks the prices of hundreds of everyday things, like food, rent, transport and clothes, and compares them with a year ago. A 1.0% rise means a CHF 100 shopping basket now costs about CHF 101.",
+    "why": "this is the number the SNB’s 0%–2% goal is based on. It is the fastest rise since September 2024, but still well inside the zone. October’s figure arrives on November 3."
+   },
+   "core_inflation": {
+    "now_label": "Low and steady",
+    "now_tone": "good",
+    "what": "CPI without the jumpiest items, such as energy and fresh food.",
+    "why": "it shows the underlying trend. At 0.5%, there is little sign that expensive oil is spreading into other prices, which is the main argument for waiting."
+   },
+   "cpi_inflation_earlier_in_2026": {
+    "now_label": "Climbing",
+    "now_tone": "mixed",
+    "what": "the path of inflation as quoted in the SNB’s three 2026 statements.",
+    "why": "inflation has climbed steadily from zero, “mainly” because of oil products. The direction, not the level, is what keeps a rise on the table."
+   },
+   "snb_conditional_inflation_forecast": {
+    "now_label": "Inside the zone",
+    "now_tone": "good",
+    "what": "the SNB’s forecast of yearly average inflation <em>if the rate stays at 0%</em>. The quarterly path peaks at about 1.2% around the turn of the year.",
+    "why": "this is the SNB’s main decision tool. If it stays inside 0%–2%, the rate is judged “about right”. It edged up in September, partly because of the weaker franc."
+   },
+   "transport_prices": {
+    "now_label": "Fuel-driven",
+    "now_tone": "bad",
+    "what": "the cost of getting around, including fuel, cars and travel.",
+    "why": "this is where the oil shock shows up most. It was the biggest single push to inflation in September."
+   },
+   "food_and_non_alcoholic_drinks": {
+    "now_label": "Still falling",
+    "now_tone": "good",
+    "what": "prices of groceries and soft drinks.",
+    "why": "falling food prices offset much of the fuel shock for Swiss households, one reason Swiss inflation stays low."
+   },
+   "producer_and_import_prices": {
+    "now_label": "Still below zero",
+    "now_tone": "good",
+    "what": "prices that Swiss factories charge and that importers pay.",
+    "why": "an early warning of shop prices. Still negative in August, but the weaker franc and oil could turn it positive. September’s figure is due October 15."
+   },
+   "firms_inflation_expectations": {
+    "now_label": "Anchored",
+    "now_tone": "good",
+    "what": "what Swiss companies told the SNB’s regional delegates they expect inflation to be.",
+    "why": "central banks fear that if people expect high inflation, it becomes self-fulfilling. Swiss expectations are low and steady."
+   },
+   "oil_products_share_of_the_cpi_basket": {
+    "now_label": "Small weight",
+    "now_tone": "info",
+    "what": "“Erdölprodukte machen nur 2% aus.” (Oil products make up only 2%.)",
+    "why": "this explains why the oil shock that pushed inflation to 3% or more elsewhere lifted Swiss inflation only to about 1%."
+   },
+   "registered_unemployment_rate": {
+    "now_label": "Low, but up on a year",
+    "now_tone": "mixed",
+    "what": "the share of the workforce registered as unemployed at regional job centres.",
+    "why": "low by world standards, but the number of unemployed (140,480) is 5.4% higher than a year ago."
+   },
+   "unemployment_rate_seasonally_adjusted": {
+    "now_label": "Flat",
+    "now_tone": "mixed",
+    "what": "the same rate with normal seasonal swings (such as construction in winter) removed.",
+    "why": "it shows the trend. It has stopped rising for now; SECO’s forecasters expect 3.1% on average this year and 3.0% next year."
+   },
+   "job_seekers": {
+    "now_label": "Up 6.5% on a year",
+    "now_tone": "mixed",
+    "what": "everyone registered as looking for work, including people in training schemes or with temporary jobs.",
+    "why": "a broader view of slack in the job market."
+   },
+   "registered_vacancies": {
+    "now_label": "Up 18.3% on a year",
+    "now_tone": "good",
+    "what": "open jobs reported to the regional job centres.",
+    "why": "rising vacancies suggest firms are hiring again, which supports the strong-growth story."
+   },
+   "unemployment_rate_international_ilo_me": {
+    "now_label": "Edging up",
+    "now_tone": "mixed",
+    "what": "unemployment measured by a survey using international rules, counting people who are not registered too.",
+    "why": "it is higher than the registered rate and comparable with other countries. It rose slightly."
+   },
+   "short_time_work": {
+    "now_label": "Small",
+    "now_tone": "good",
+    "what": "workers whose hours were cut temporarily with state support instead of being laid off.",
+    "why": "a crisis indicator. The numbers are small, so there is no sign of a broad downturn."
+   },
+   "wage_growth_company_talks": {
+    "now_label": "Moderate",
+    "now_tone": "good",
+    "what": "average pay rises that companies told the SNB about.",
+    "why": "wages rising a little faster than prices means real incomes grow, but not fast enough to drive inflation."
+   },
+   "gdp_growth_sport_adjusted": {
+    "now_label": "Strongest since 2021",
+    "now_tone": "good",
+    "what": "the total value of everything Switzerland produces, adjusted for the income from big international sports events held here.",
+    "why": "very strong growth is the main argument for a rise. Much of it came from chemicals and pharmaceuticals (+10.5%), which swing a lot."
+   },
+   "gdp_growth_vs_a_year_ago_sport_adjuste": {
+    "now_label": "Solid",
+    "now_tone": "good",
+    "what": "output compared with the same quarter a year earlier.",
+    "why": "confirms the economy is growing well above its usual pace of roughly 1.5%–2% a year."
+   },
+   "private_consumption": {
+    "now_label": "Modest",
+    "now_tone": "mixed",
+    "what": "what households spend.",
+    "why": "spending by families grew only modestly; the boom came from exports, not shoppers."
+   },
+   "goods_exports_excluding_valuables": {
+    "now_label": "Strong",
+    "now_tone": "good",
+    "what": "goods sold abroad, without gold and other valuables.",
+    "why": "exports drive the Swiss economy. The weaker franc should help them further."
+   },
+   "growth_forecasts_for_2026": {
+    "now_label": "Raised sharply",
+    "now_tone": "good",
+    "what": "what the government’s expert group, the KOF institute and the SNB expect for this year’s growth.",
+    "why": "all three raised their forecasts. A faster economy makes the SNB more open to a rise."
+   },
+   "retail_sales": {
+    "now_label": "Solid",
+    "now_tone": "good",
+    "what": "how much people spent in shops.",
+    "why": "households are still spending despite expensive fuel. September’s figure is due October 30."
+   },
+   "kof_economic_barometer": {
+    "now_label": "Above average",
+    "now_tone": "good",
+    "what": "a survey-based indicator of where the Swiss economy is heading in the next months; around 100 is average.",
+    "why": "“The outlook for the Swiss economy remains favourable.” A private but widely followed source (ETH is a federal university)."
+   },
+   "snb_policy_rate": {
+    "now_label": "Unchanged for 15 months",
+    "now_tone": "info",
+    "what": "the SNB’s main interest rate. It steers the rate at which banks lend to each other overnight.",
+    "why": "this is the SNB’s main “pedal”. The December 10 decision is about keeping it at 0%, raising it to 0.25%, or cutting it below zero."
+   },
+   "rate_on_banks_deposits_above_the_thres": {
+    "now_label": "Technical",
+    "now_tone": "info",
+    "what": "banks earn 0% on SNB deposits up to a limit, and −0.25% on anything above it. The limit is a multiple (now 13.5) of each bank’s reserve requirement.",
+    "why": "this keeps SARON just below 0%. The SNB said the August change “has no impact on the current monetary policy stance.”"
+   },
+   "saron_overnight_rate": {
+    "now_label": "On target",
+    "now_tone": "good",
+    "what": "the Swiss Average Rate Overnight, the rate banks pay each other for one-day loans backed by securities. Many Swiss mortgages are linked to it.",
+    "why": "it shows the SNB’s rate is fully working in the market."
+   },
+   "10_year_confederation_bond_yield": {
+    "now_label": "Up since June",
+    "now_tone": "mixed",
+    "what": "the interest rate the Swiss government pays to borrow for 10 years.",
+    "why": "fixed-rate mortgages follow it. It rose over the summer, mainly because markets expect higher short-term rates later."
+   },
+   "2_year_confederation_bond_yield": {
+    "now_label": "Above SARON",
+    "now_tone": "mixed",
+    "what": "the rate the government pays to borrow for 2 years.",
+    "why": "it is about 0.3 points above SARON, a sign that investors see some chance of SNB rises over the next two years."
+   },
+   "euro_in_francs": {
+    "now_label": "Franc firm vs euro",
+    "now_tone": "mixed",
+    "what": "how many francs one euro costs.",
+    "why": "the euro area is Switzerland’s main trading partner. A lower number means a stronger franc, which cheapens imports and lowers Swiss inflation."
+   },
+   "u_s_dollar_in_francs": {
+    "now_label": "Franc a bit weaker vs dollar",
+    "now_tone": "info",
+    "what": "how many francs one U.S. dollar costs.",
+    "why": "oil is priced in dollars, so a weaker franc against the dollar makes fuel dearer in Switzerland."
+   },
+   "trade_weighted_franc": {
+    "now_label": "Weaker",
+    "now_tone": "info",
+    "what": "the franc against a basket of trading partners’ currencies.",
+    "why": "a weaker franc supports exporters and lifts import prices. The SNB said it raised its inflation forecast partly because of it."
+   },
+   "mortgage_rates": {
+    "now_label": "Low",
+    "now_tone": "info",
+    "what": "the cost of a 10-year fixed mortgage, and the official reference rate used to adjust rents.",
+    "why": "low mortgage costs keep home prices rising. A rate rise would make the SNB’s brake felt here first."
+   },
+   "oil_price_brent": {
+    "now_label": "Very high",
+    "now_tone": "bad",
+    "what": "the world benchmark price for crude oil.",
+    "why": "far above the roughly US$105 the SNB assumed in September. If it stays there, the December forecast will rise."
+   },
+   "snb_oil_assumption": {
+    "now_label": "Already overtaken",
+    "now_tone": "mixed",
+    "what": "the oil path the SNB built into its September forecast (annual averages about US$97 for 2026 and US$85 for 2027).",
+    "why": "oil is now well above this, which is the clearest reason the December forecast could move up."
+   },
+   "u_s_fed_rate": {
+    "now_label": "Raised",
+    "now_tone": "info",
+    "what": "the U.S. central bank’s main rate.",
+    "why": "higher U.S. rates make dollar savings more attractive than francs, which weakens the franc."
+   },
+   "ecb_deposit_rate": {
+    "now_label": "Raised",
+    "now_tone": "info",
+    "what": "the euro area’s main interest rate.",
+    "why": "the euro area buys much of what Switzerland sells. The gap between euro and Swiss rates (now 2.5 points) helps keep the franc from rising."
+   },
+   "euro_area_growth_forecast_snb_assumpti": {
+    "now_label": "Slow",
+    "now_tone": "mixed",
+    "what": "how fast the SNB expects Switzerland’s biggest export market to grow.",
+    "why": "slow European growth caps how far Swiss exports can carry the economy."
+   },
+   "seco_view_of_the_main_risk": {
+    "now_label": "High uncertainty",
+    "now_tone": "bad",
+    "what": "“the conflict in the Middle East remains a major risk to the global economic outlook”.",
+    "why": "a worse conflict could mean both higher oil (prices up) and a safe-haven rush into the franc (prices down), pulling the SNB in opposite directions."
+   }
+  },
+  "said": [
+   {
+    "n": "September 24 press release",
+    "v": "Held at 0%",
+    "p": "Sep 2026 assessment",
+    "r": "Sep 24, 2026",
+    "pv": "June: held at 0%",
+    "s": "Swiss National Bank",
+    "u": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924",
+    "now": [
+     "now-info",
+     "Calm"
+    ],
+    "w": [
+     "What it said: “Medium-term inflationary pressure has increased only slightly.” and the SNB is “willing to be active in the foreign exchange market” as necessary.",
+     "Why it matters: no signal of an imminent rise; the franc tool remains ready."
+    ]
+   },
+   {
+    "n": "Introductory remarks, news conference",
+    "v": "“adjust our monetary policy if necessary”",
+    "p": "Sep 24 news conference",
+    "r": "Sep 24, 2026",
+    "pv": "—",
+    "s": "Swiss National Bank (Schlegel, Martin, Tschudin)",
+    "u": "https://www.snb.ch/en/publications/communication/speeches-restricted/ref_20260924_mslanmargpe",
+    "now": [
+     "now-info",
+     "Watchful"
+    ],
+    "w": [
+     "What it said: “We will therefore continue to monitor the situation and adjust our monetary policy if necessary,” and “Our monetary policy is appropriate to keep inflation within the range consistent with price stability.”",
+     "Why it matters: the SNB is comfortable today but keeps both doors open."
+    ]
+   },
+   {
+    "n": "On the franc",
+    "v": "“the weakening of the Swiss franc”",
+    "p": "Sep 24 news conference",
+    "r": "Sep 24, 2026",
+    "pv": "June: pressure on the franc “could also increase again”",
+    "s": "Swiss National Bank",
+    "u": "https://www.snb.ch/en/publications/communication/speeches-restricted/ref_20260924_mslanmargpe",
+    "now": [
+     "now-info",
+     "Franc pressure eased"
+    ],
+    "w": [
+     "What it said: the medium-term forecast is slightly higher, “reflecting, among other things, the weakening of the Swiss franc.”",
+     "Why it matters: a weaker franc does some of the SNB’s work, which reduces the need to keep the gas pedal pressed (or to cut)."
+    ]
+   },
+   {
+    "n": "June 18 press release",
+    "v": "Held at 0%",
+    "p": "Jun 2026 assessment",
+    "r": "Jun 18, 2026",
+    "pv": "March: held at 0%",
+    "s": "Swiss National Bank",
+    "u": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260618",
+    "now": [
+     "now-info",
+     "Franc worry"
+    ],
+    "w": [
+     "What it said: “Inflation has risen in recent months as a result of higher energy prices.” and “The upward pressure on the Swiss franc could also increase again.”",
+     "Why it matters: in June the main fear was a too-strong franc, not too-high inflation."
+    ]
+   },
+   {
+    "n": "March 19 press release",
+    "v": "Held at 0%; readier to intervene",
+    "p": "Mar 2026 assessment",
+    "r": "Mar 19, 2026",
+    "pv": "December 2025: held at 0%",
+    "s": "Swiss National Bank",
+    "u": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260319",
+    "now": [
+     "now-info",
+     "Franc defence"
+    ],
+    "w": [
+     "What it said: “The SNB thereby counters a rapid and excessive appreciation of the Swiss franc”.",
+     "Why it matters: shows the SNB’s first line of defence against a safe-haven franc is currency intervention, not negative rates."
+    ]
+   },
+   {
+    "n": "Petra Tschudin, Governing Board",
+    "v": "“Wir publizieren keine Zinsprognosen.”",
+    "p": "Interview, Finanz und Wirtschaft",
+    "r": "Aug 22, 2026",
+    "pv": "—",
+    "s": "Swiss National Bank",
+    "u": "https://www.snb.ch/de/publications/communication/interviews/int_20260824_gpe",
+    "now": [
+     "now-info",
+     "No guidance"
+    ],
+    "w": [
+     "What it said: “We do not publish interest-rate forecasts.” She also said a cut below zero works “etwas anders” (somewhat differently) from a normal cut.",
+     "Why it matters: do not expect the SNB to pre-announce a December move. Surprises are possible."
+    ]
+   },
+   {
+    "n": "KOF Swiss Economic Institute (not the SNB)",
+    "v": "Expects a 0.25-point rise",
+    "p": "Autumn forecast",
+    "r": "Sep 30, 2026",
+    "pv": "—",
+    "s": "KOF (ETH Zurich)",
+    "u": "https://kof.ethz.ch/en/news-and-events/media/press-releases/2026/09/economic-forecast.html",
+    "now": [
+     "now-mixed",
+     "Outside call for a rise"
+    ],
+    "w": [
+     "What it said: KOF “expects the SNB to raise its policy rate by 25 basis points at its next monetary policy assessment.”",
+     "Why it matters: a respected outside forecaster disagrees with our base case. It is the strongest single argument for our 25% Raise chance."
+    ]
+   }
+  ],
+  "gaps": [
+   "<strong>Official FSO inflation release for September.</strong> The FSO website blocked our reading tool, so the September CPI (1.0%), core (0.5%), the category details and the release dates come from Trading Economics, which reports FSO data. August (0.8%) and May (0.6%) are confirmed by the SNB. <em>Why it matters:</em> the headline number is very likely right, but we could not check the FSO’s own wording or its domestic-versus-imported split.",
+   "<strong>The SNB’s September discussion.</strong> The summary of the Governing Board’s September 24 discussion is published on October 22. We also could not find or read summaries for earlier 2026 assessments. <em>Why it matters:</em> it is the best clue to whether a rise is already being debated.",
+   "<strong>Market odds for December.</strong> We found no official source for market-implied chances (from SARON futures or swaps). The 2-year Confederation yield (0.26%) is from Trading Economics; the SNB data portal returned only out-of-date files to our tool. <em>Why it matters:</em> we cannot compare our 25% chance of a rise with what markets price.",
+   "<strong>Currency interventions.</strong> We could not verify how much (if any) the SNB bought or sold in currency markets in 2026; its intervention figures are published with a delay. The CHF 770.47 billion reserves figure is from a secondary calendar. <em>Why it matters:</em> interventions are the SNB’s second pedal.",
+   "<strong>Recent speeches in full.</strong> We read the slides of Antoine Martin’s October 7 lecture and Petra Tschudin’s August 31 talk and her August interview, but not Martin Schlegel’s September 25 (Italian) or July 8 (German) talks, Antoine Martin’s October 8 (French) talk, or the September 24 news conference questions and answers. A Schlegel speech listed for October 15 by a secondary calendar is not on the SNB schedule we read.",
+   "<strong>The exact quarterly inflation forecast.</strong> Our tool read the SNB’s forecast table with garbled columns; we are confident of the annual averages (0.7%, 0.8%, 0.8%) and the roughly 1.2% peak, but not of each quarter.",
+   "<strong>Wages and housing.</strong> The FSO wage index, rents and official house price indices were not collected; we rely on the SNB’s company talks (wages about +1.5% in 2026) and its description of rising home prices. The reference mortgage rate (1.25%) and the 10-year mortgage rate (about 2.0%) are from the SNB bulletin.",
+   "<strong>U.S. tariffs on Switzerland.</strong> We did not verify the current U.S. tariff rate on Swiss goods; we rely on SNB and SECO descriptions (higher tariffs in 2025, lower by December 2025, a U.S. investigation opened March 11, 2026).",
+   "<strong>November CPI and unemployment dates.</strong> Both should come out in early December, before the decision, but we could not confirm the exact days.",
+   "<strong>Consistency with the shared backdrop:</strong> the SNB’s September statement confirms that rates were raised in the euro area and the U.S., and FRED confirms Brent at US$135.51 (Oct 2) and US$125.44 (Oct 6). We found nothing that contradicts the other monitors.",
+   "<strong>How we gathered data:</strong> data was gathered on Oct 14, 2026 with web tools (direct page reads; the search engine itself was blocked for this build), so every number was read directly from the page linked next to it (SNB, SECO, KOF, FRED, and Trading Economics where official FSO pages could not be opened)."
+  ],
+  "group_intros": {
+   "prices": "These numbers tell us how fast things are getting more expensive. The SNB counts prices as stable when consumer prices rise by less than 2% a year and do not fall: a comfort zone of 0% to 2%. Unlike most countries on this site, Swiss inflation is low.",
+   "jobs": "These numbers tell us whether people can find work. The SNB has no jobs target, but a weaker job market usually means slower wage and price growth later.",
+   "growth": "These numbers show how fast the economy is growing and whether people are spending. A hot economy can push prices up; a weak one pulls them down.",
+   "rates": "These numbers show the SNB’s own rate and how markets are reacting. Mortgages, savings and the franc all depend on them.",
+   "said": "SNB officials do not give hints about future moves on purpose, but their words still show what they worry about. Reading them carefully is one of the best ways to guess the next decision.",
+   "global": "Switzerland is a small, open economy. What happens to oil, trade and other central banks matters a lot, and the franc reacts to global fear."
+  }
+ },
+ "copy": {
+  "story_intro": "This is the story of the past year and a bit, in order. Each step explains <strong>what happened</strong>, <strong>why it happened</strong>, and <strong>what it meant for ordinary people</strong>. The line at the bottom of each step (“Because of this…”) shows how it led to the next step, so you can follow cause and effect from start to finish.",
+  "choices_intro": "At every assessment the SNB has three options for its rate (and it can also act on the franc). Below we explain what each one would mean, why it could happen, why it might not, and what it would mean in everyday life. Analysis · our judgement",
+  "report_intro": "Think of this as a school report for the economy in four subjects. <strong>Green</strong> means healthy. <strong>Yellow</strong> means mixed, keep watching. <strong>Red</strong> means a problem the central bank must fix. Each grade is also written in words, so you do not need to see the color. Analysis",
+  "gaps_intro": "Good research is honest about its blind spots. Here is what is missing, delayed or unverified, and why it matters.",
+  "numbers_intro": "Every number we used, grouped by topic. For each one you will see the latest value, the period it covers, when it was published, the previous value, where it came from, and, most importantly, <strong>a plain explanation of what it is and why it matters</strong>. Tap a group to open or close it. Observed facts",
+  "live_before": [
+   {
+    "cls": "",
+    "html": "The numbers on this page are a snapshot taken on October 14, 2026. If you want to see whether anything has changed since then, you can try loading the newest values from <a href=\"https://fred.stlouisfed.org/\">FRED</a>, a free public data service run by the Federal Reserve Bank of St. Louis. Note: FRED does not carry an up-to-date Swiss CPI series (its OECD copy stops in April 2025), and it has no SNB policy rate or SARON series, so for those use the FSO and the SNB directly. Several FRED series below are monthly or quarterly averages from the OECD, Eurostat or the BIS and arrive with a delay, so they may differ from our daily figures. Swiss GDP on FRED is measured in euros.",
+    "style": ""
+   },
+   {
+    "cls": "",
+    "html": "<strong>How it works:</strong> FRED gives anyone a free “API key”, a code that works like a library card for its data. Paste your key below and press <strong>Refresh</strong>. The newest values appear in a <em>separate</em> table, next to our snapshot values so you can compare. The rest of this page stays exactly as it is.",
+    "style": ""
+   },
+   {
+    "cls": "small",
+    "html": "Privacy: your key is saved only in this browser, on this device, and is sent only to FRED. Press “Forget key” to remove it. Get a free key at <a href=\"https://fred.stlouisfed.org/docs/api/api_key.html\">fred.stlouisfed.org</a>.",
+    "style": ""
+   }
+  ],
+  "live_after": [
+   {
+    "cls": "note",
+    "html": "<strong>Good to know:</strong> FRED often does not allow web pages to request its data directly, so many browsers will block this. If that happens, you will see a clear message and nothing on the page will change. You can always check the same numbers yourself on the FRED website.",
+    "style": "margin-top:12px"
+   }
+  ],
+  "live_kind": "Optional live data",
+  "live_caption": "Live values from FRED (raw, not checked by Quant Flow)",
+  "live_snapshot_col": "Our snapshot",
+  "change_caption": "Upcoming reports and events (Swiss local times; CET from Oct 25)",
+  "change_head": [
+   "Date",
+   "Report",
+   "Timing",
+   "What it measures, in plain words",
+   "Why it matters to the decision",
+   "What would change our view"
+  ],
+  "decision_row": {
+   "name": "Monetary policy assessment (news conference 10:00 a.m.)",
+   "publisher": "SNB",
+   "what": "The answer, with a new conditional inflation forecast.",
+   "url": "https://www.snb.ch/en/services-events/digital-services/event-schedule"
+  },
+  "titles": {
+   "verdict": "The verdict: what will the SNB do next?",
+   "story": "How we got here",
+   "choices": "The three choices, from most to least likely",
+   "change": "What could change our view",
+   "report": "Report card",
+   "numbers": "The numbers behind it",
+   "live": "Live check (FRED)",
+   "gaps": "What we could not check"
+  },
+  "verdict_note": "<strong>Please read:</strong> these chances are <strong>Quant Flow’s own judgement</strong>. They are not official Swiss National Bank numbers, not market prices, and not a promise. Nobody knows the answer until the SNB announces it.",
+  "why_title": "Why we think this, step by step",
+  "rough_title": "Rough chances",
+  "rc_labels": {
+   "Prices": "What would change it",
+   "Jobs": "What would change it",
+   "Growth": "What would change it",
+   "Money markets": "What would change it"
+  },
+  "missing": {
+   "prices": [
+    "October CPI: due Nov 3 (before the decision)",
+    "November CPI: early December (before; exact date not confirmed)",
+    "FSO’s domestic vs imported inflation split for September: not collected",
+    "Official FSO release page: could not be opened by our tool"
+   ],
+   "jobs": [
+    "FSO wage index: not collected",
+    "October unemployment: due Nov 5 (before)",
+    "Employment (FSO job statistics, Q3): not collected"
+   ],
+   "growth": [
+    "Q3 GDP: due Nov 30 (before)",
+    "SECO consumer sentiment (latest figures): not collected",
+    "Manufacturing PMI (procure.ch): not collected in detail"
+   ],
+   "rates": [
+    "Market-implied odds for December (SARON futures): not collected",
+    "SNB currency interventions in 2026: not verified",
+    "Sight deposits (weekly): not collected"
+   ],
+   "said": [
+    "Summary of the September 24 discussion: due Oct 22 (before)",
+    "Schlegel speeches of Jul 8 and Sep 25 and Martin’s Oct 8 talk: not read (German, Italian, French only)",
+    "September 24 news conference questions and answers: not read"
+   ],
+   "global": [
+    "Current U.S. tariff rate on Swiss goods: not verified",
+    "Outcome of the U.S. investigation opened Mar 11, 2026: unknown",
+    "European gas prices: not collected"
+   ]
+  },
+  "currency_note": "Prices in Swiss francs (CHF) unless marked US$ or €. Oil prices are in US dollars a barrel."
+ },
+ "overview": {
+  "short": "CH",
+  "country": "Switzerland",
+  "bank": "Swiss National Bank",
+  "abbrev": "SNB",
+  "rate": "0%",
+  "last_move": "Cut to 0% on Jun 19, 2025; held five times since (latest Sep 24, 2026)",
+  "card_why": "Inflation (1.0%) sits inside the SNB’s 0–2% zone and its 0%-rate forecast stays there; strong growth and KOF’s call keep a rise possible.",
+  "mini": {
+   "prices": [
+    "1.0%",
+    "CPI, Sep"
+   ],
+   "jobless": [
+    "3.0%",
+    "Sep (SECO)"
+   ],
+   "10-yr": [
+    "0.56%",
+    "Oct 13"
+   ]
+  },
+  "rate_label": "Current SNB policy rate",
+  "time_label": "9:30 a.m. CET"
+ },
+ "live_series": [
+  {
+   "id": "DEXSZUS",
+   "label": "Swiss francs per U.S. dollar (daily)",
+   "mode": "num",
+   "snap": "0.8308 (Oct 9); SNB had 0.8329 (Oct 13)"
+  },
+  {
+   "id": "IRLTLT01CHM156N",
+   "label": "10-year government bond yield, monthly average",
+   "mode": "pct",
+   "snap": "0.47% (Aug avg); 0.561% on Oct 13"
+  },
+  {
+   "id": "IR3TIB01CHM156N",
+   "label": "3-month interbank rate, monthly",
+   "mode": "pct",
+   "snap": "−0.045% (Aug)"
+  },
+  {
+   "id": "LRUNTTTTCHQ156S",
+   "label": "Unemployment rate, ILO measure (quarterly)",
+   "mode": "pct",
+   "snap": "5.07% (Q1); SNB cites 5.1% (Q2)"
+  },
+  {
+   "id": "CLVMNACSCAB1GQCH",
+   "label": "Real GDP, Switzerland, vs a year ago (in euros)",
+   "mode": "yoy",
+   "snap": "SECO: +2.3% (Q2, sport-adjusted)"
+  },
+  {
+   "id": "RBCHBIS",
+   "label": "Real effective franc (index, BIS)",
+   "mode": "num",
+   "snap": "100.65 (Jul)"
+  },
+  {
+   "id": "DCOILBRENTEU",
+   "label": "Oil price (Brent), $ a barrel",
+   "mode": "usd",
+   "snap": "$125.44 (Oct 6)"
+  },
+  {
+   "id": "ECBDFR",
+   "label": "ECB deposit rate",
+   "mode": "pct",
+   "snap": "2.50% (Oct 9)"
+  },
+  {
+   "id": "DFEDTARU",
+   "label": "US Fed rate, upper end",
+   "mode": "pct",
+   "snap": "4.00%"
+  }
+ ],
+ "quote_bank": [
+  "no need to move",
+  "as necessary to complement the SNB’s interest rate policy",
+  "Erdölprodukte machen nur 2% aus",
+  "Our monetary policy is appropriate to keep inflation within the range consistent with price stability.",
+  "the strongest GDP growth recorded since the third quarter of 2021",
+  "having a supportive effect",
+  "The Swiss National Bank is leaving the SNB policy rate unchanged at 0%.",
+  "a rapid and excessive appreciation of the Swiss franc",
+  "Medium-term inflationary pressure has increased only slightly.",
+  "We will therefore continue to monitor the situation and adjust our monetary policy if necessary,",
+  "Wir publizieren keine Zinsprognosen.",
+  "We do not publish interest-rate forecasts.",
+  "expects the SNB to raise its policy rate by 25 basis points at its next monetary policy assessment",
+  "The economic outlook for Switzerland has deteriorated due to significantly higher US tariffs.",
+  "The SNB thereby counters a rapid and excessive appreciation of the Swiss franc",
+  "Inflation has risen in recent months as a result of higher energy prices.",
+  "threshold factor",
+  "has no impact on the current monetary policy stance",
+  "The upward pressure on the Swiss franc could also increase again.",
+  "Inflation rose slightly, from 0.6% in May to 0.8% in August.",
+  "willing to be active in the foreign exchange market",
+  "no rush, but a December rise is possible",
+  "adjust our monetary policy if necessary",
+  "Erdölprodukte machen nur 2% aus.",
+  "The outlook for the Swiss economy remains favourable.",
+  "has no impact on the current monetary policy stance.",
+  "the conflict in the Middle East remains a major risk to the global economic outlook",
+  "the weakening of the Swiss franc",
+  "could also increase again",
+  "reflecting, among other things, the weakening of the Swiss franc.",
+  "expects the SNB to raise its policy rate by 25 basis points at its next monetary policy assessment."
+ ],
+ "changelog": [],
+ "qa": {
+  "data_errors": [],
+  "ai_errors": [],
+  "coverage": {
+   "automatic": 0,
+   "manual": 38
+  }
+ }
+}

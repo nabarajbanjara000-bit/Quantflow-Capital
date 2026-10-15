@@ -1,0 +1,362 @@
+[
+ {
+  "id": "consumer_price_index_cpi_all_items",
+  "group": "prices",
+  "name": "Consumer Price Index (CPI), all items",
+  "seed_value": "+1.9% vs a year ago",
+  "seed_period": "Aug 2026 (0.0% in the month, seasonally adjusted)",
+  "source": "Statistics Bureau",
+  "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf"
+ },
+ {
+  "id": "core_cpi_without_fresh_food",
+  "group": "prices",
+  "name": "Core CPI (without fresh food)",
+  "seed_value": "+1.7% vs a year ago",
+  "seed_period": "Aug 2026 (+0.1% in the month, s.a.)",
+  "source": "Statistics Bureau",
+  "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf"
+ },
+ {
+  "id": "cpi_without_fresh_food_and_energy",
+  "group": "prices",
+  "name": "CPI without fresh food and energy",
+  "seed_value": "+1.9% vs a year ago",
+  "seed_period": "Aug 2026 (+0.3% in the month, s.a.)",
+  "source": "Statistics Bureau",
+  "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf"
+ },
+ {
+  "id": "cpi_energy",
+  "group": "prices",
+  "name": "CPI energy",
+  "seed_value": "−0.7% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "Statistics Bureau",
+  "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf"
+ },
+ {
+  "id": "cpi_food_without_fresh_food",
+  "group": "prices",
+  "name": "CPI food (without fresh food)",
+  "seed_value": "+2.7% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "Statistics Bureau",
+  "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf"
+ },
+ {
+  "id": "tokyo_core_cpi_without_fresh_food",
+  "group": "prices",
+  "name": "Tokyo core CPI (without fresh food)",
+  "seed_value": "+2.7% vs a year ago",
+  "seed_period": "Sep 2026 (preliminary)",
+  "source": "Statistics Bureau",
+  "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/kubu.pdf"
+ },
+ {
+  "id": "tokyo_cpi_without_fresh_food_and_energ",
+  "group": "prices",
+  "name": "Tokyo CPI without fresh food and energy",
+  "seed_value": "+3.0% vs a year ago",
+  "seed_period": "Sep 2026 (+0.4% in the month, s.a.)",
+  "source": "Statistics Bureau",
+  "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/kubu.pdf"
+ },
+ {
+  "id": "corporate_goods_price_index_business_p",
+  "group": "prices",
+  "name": "Corporate Goods Price Index (business prices)",
+  "seed_value": "+6.8% vs a year ago",
+  "seed_period": "Sep 2026 (−0.3% in the month)",
+  "source": "BoJ",
+  "url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2609.pdf"
+ },
+ {
+  "id": "import_prices_in_yen",
+  "group": "prices",
+  "name": "Import prices (in yen)",
+  "seed_value": "+24.5% vs a year ago",
+  "seed_period": "Sep 2026 (−0.2% in the month)",
+  "source": "BoJ",
+  "url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2609.pdf"
+ },
+ {
+  "id": "unemployment_rate",
+  "group": "jobs",
+  "name": "Unemployment rate",
+  "seed_value": "2.5%",
+  "seed_period": "Aug 2026",
+  "source": "Statistics Bureau",
+  "url": "https://www.stat.go.jp/data/roudou/sokuhou/tsuki/index.html"
+ },
+ {
+  "id": "number_of_people_employed",
+  "group": "jobs",
+  "name": "Number of people employed",
+  "seed_value": "68.49 million",
+  "seed_period": "Aug 2026",
+  "source": "Statistics Bureau",
+  "url": "https://www.stat.go.jp/data/roudou/sokuhou/tsuki/index.html"
+ },
+ {
+  "id": "jobs_per_job_seeker_active_openings_ra",
+  "group": "jobs",
+  "name": "Jobs per job seeker (active openings ratio)",
+  "seed_value": "1.18",
+  "seed_period": "Aug 2026",
+  "source": "MHLW",
+  "url": "https://www.mhlw.go.jp/stf/newpage_76397.html"
+ },
+ {
+  "id": "total_cash_earnings_average_pay",
+  "group": "jobs",
+  "name": "Total cash earnings (average pay)",
+  "seed_value": "+3.8% vs a year ago",
+  "seed_period": "Aug 2026 (preliminary)",
+  "source": "MHLW",
+  "url": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r08/2608p/dl/houdou2608p.pdf"
+ },
+ {
+  "id": "scheduled_base_pay",
+  "group": "jobs",
+  "name": "Scheduled base pay",
+  "seed_value": "+3.8% vs a year ago",
+  "seed_period": "Aug 2026 (preliminary)",
+  "source": "MHLW",
+  "url": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r08/2608p/dl/houdou2608p.pdf"
+ },
+ {
+  "id": "real_wages_pay_after_inflation",
+  "group": "jobs",
+  "name": "Real wages (pay after inflation)",
+  "seed_value": "+1.5% vs a year ago",
+  "seed_period": "Aug 2026 (preliminary)",
+  "source": "MHLW",
+  "url": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r08/2608p/dl/houdou2608p.pdf"
+ },
+ {
+  "id": "spring_wage_talks_shunto_2026_base_pay",
+  "group": "jobs",
+  "name": "Spring wage talks (shunto) 2026, base pay rise",
+  "seed_value": "around 3.5%",
+  "seed_period": "2026 talks",
+  "source": "BoJ Outlook Report",
+  "url": "https://www.boj.or.jp/en/mopo/outlook/gor2607b.pdf"
+ },
+ {
+  "id": "tankan_employment_conditions_all_firms",
+  "group": "jobs",
+  "name": "Tankan employment conditions (all firms)",
+  "seed_value": "−38",
+  "seed_period": "Sep 2026 survey",
+  "source": "BoJ Tankan",
+  "url": "https://www.boj.or.jp/en/statistics/tk/gaiyo/2026/tka2609.pdf"
+ },
+ {
+  "id": "gdp_real_april_june",
+  "group": "growth",
+  "name": "GDP (real), April–June",
+  "seed_value": "+0.4% in the quarter (+1.4% yearly pace)",
+  "seed_period": "Q2 2026, second estimate",
+  "source": "Cabinet Office (ESRI)",
+  "url": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe262_2/pdf/qepoint2622.pdf"
+ },
+ {
+  "id": "household_spending_in_gdp",
+  "group": "growth",
+  "name": "Household spending (in GDP)",
+  "seed_value": "0.0% in the quarter",
+  "seed_period": "Q2 2026",
+  "source": "Cabinet Office (ESRI)",
+  "url": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe262_2/pdf/qepoint2622.pdf"
+ },
+ {
+  "id": "business_investment_in_gdp",
+  "group": "growth",
+  "name": "Business investment (in GDP)",
+  "seed_value": "−0.9% in the quarter",
+  "seed_period": "Q2 2026",
+  "source": "Cabinet Office (ESRI)",
+  "url": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe262_2/pdf/qepoint2622.pdf"
+ },
+ {
+  "id": "net_exports_contribution_to_growth",
+  "group": "growth",
+  "name": "Net exports' contribution to growth",
+  "seed_value": "+0.5 points",
+  "seed_period": "Q2 2026",
+  "source": "Cabinet Office (ESRI)",
+  "url": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe262_2/pdf/qepoint2622.pdf"
+ },
+ {
+  "id": "tankan_large_manufacturers",
+  "group": "growth",
+  "name": "Tankan: large manufacturers",
+  "seed_value": "+24",
+  "seed_period": "Sep 2026 survey",
+  "source": "BoJ Tankan",
+  "url": "https://www.boj.or.jp/en/statistics/tk/gaiyo/2026/tka2609.pdf"
+ },
+ {
+  "id": "tankan_large_non_manufacturers",
+  "group": "growth",
+  "name": "Tankan: large non-manufacturers",
+  "seed_value": "+35",
+  "seed_period": "Sep 2026 survey",
+  "source": "BoJ Tankan",
+  "url": "https://www.boj.or.jp/en/statistics/tk/gaiyo/2026/tka2609.pdf"
+ },
+ {
+  "id": "tankan_output_prices_large_firms",
+  "group": "growth",
+  "name": "Tankan: output prices (large firms)",
+  "seed_value": "Manufacturing 40; non-manufacturing 38",
+  "seed_period": "Sep 2026 survey",
+  "source": "BoJ Tankan",
+  "url": "https://www.boj.or.jp/en/statistics/tk/gaiyo/2026/tka2609.pdf"
+ },
+ {
+  "id": "firms_inflation_expectations_all_firms",
+  "group": "growth",
+  "name": "Firms' inflation expectations (all firms)",
+  "seed_value": "2.6% (1 yr) · 2.6% (3 yrs) · 2.5% (5 yrs)",
+  "seed_period": "Sep 2026 survey",
+  "source": "BoJ Tankan",
+  "url": "https://www.boj.or.jp/en/statistics/tk/gaiyo/2026/tka2609.pdf"
+ },
+ {
+  "id": "boj_forecast_growth_fiscal_2026",
+  "group": "growth",
+  "name": "BoJ forecast: growth, fiscal 2026",
+  "seed_value": "+0.6%",
+  "seed_period": "Jul 2026 Outlook Report",
+  "source": "BoJ",
+  "url": "https://www.boj.or.jp/en/mopo/outlook/gor2607b.pdf"
+ },
+ {
+  "id": "boj_policy_rate_overnight_call_rate_ta",
+  "group": "rates",
+  "name": "BoJ policy rate (overnight call rate target)",
+  "seed_value": "around 1.25%",
+  "seed_period": "From Sep 2026",
+  "source": "BoJ",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf"
+ },
+ {
+  "id": "overnight_call_rate_actual_monthly_ave",
+  "group": "rates",
+  "name": "Overnight call rate (actual, monthly average)",
+  "seed_value": "0.977%",
+  "seed_period": "Aug 2026",
+  "source": "FRED (OECD)",
+  "url": "https://fred.stlouisfed.org/series/IRSTCI01JPM156N"
+ },
+ {
+  "id": "2_year_government_bond_rate",
+  "group": "rates",
+  "name": "2-year government bond rate",
+  "seed_value": "1.91%",
+  "seed_period": "Oct 9, 2026",
+  "source": "Ministry of Finance",
+  "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv"
+ },
+ {
+  "id": "10_year_government_bond_rate",
+  "group": "rates",
+  "name": "10-year government bond rate",
+  "seed_value": "3.03%",
+  "seed_period": "Oct 9, 2026",
+  "source": "Ministry of Finance",
+  "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv"
+ },
+ {
+  "id": "30_year_government_bond_rate",
+  "group": "rates",
+  "name": "30-year government bond rate",
+  "seed_value": "4.09%",
+  "seed_period": "Oct 9, 2026",
+  "source": "Ministry of Finance",
+  "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv"
+ },
+ {
+  "id": "10_year_rate_monthly_average",
+  "group": "rates",
+  "name": "10-year rate, monthly average",
+  "seed_value": "2.94%",
+  "seed_period": "Aug 2026",
+  "source": "FRED (OECD)",
+  "url": "https://fred.stlouisfed.org/series/IRLTLT01JPM156N"
+ },
+ {
+  "id": "yen_per_us_dollar",
+  "group": "rates",
+  "name": "Yen per US dollar",
+  "seed_value": "¥158.10",
+  "seed_period": "Oct 9, 2026 (Tokyo central rate)",
+  "source": "BoJ",
+  "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261009.pdf"
+ },
+ {
+  "id": "exchange_rate_assumed_by_big_exporters",
+  "group": "rates",
+  "name": "Exchange rate assumed by big exporters",
+  "seed_value": "about ¥154 per dollar",
+  "seed_period": "Sep 2026 Tankan, fiscal 2026",
+  "source": "BoJ Tankan",
+  "url": "https://www.boj.or.jp/en/statistics/tk/gaiyo/2026/tka2609.pdf"
+ },
+ {
+  "id": "brent_crude_oil",
+  "group": "global",
+  "name": "Brent crude oil",
+  "seed_value": "$125.44 a barrel",
+  "seed_period": "Oct 6, 2026",
+  "source": "FRED (EIA)",
+  "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
+ },
+ {
+  "id": "wti_crude_oil_us",
+  "group": "global",
+  "name": "WTI crude oil (US)",
+  "seed_value": "$96.24 a barrel",
+  "seed_period": "Oct 6, 2026",
+  "source": "FRED (EIA)",
+  "url": "https://fred.stlouisfed.org/series/DCOILWTICO"
+ },
+ {
+  "id": "import_prices_foreign_currency_terms",
+  "group": "global",
+  "name": "Import prices (foreign-currency terms)",
+  "seed_value": "+17.9% vs a year ago",
+  "seed_period": "Sep 2026",
+  "source": "BoJ",
+  "url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2609.pdf"
+ },
+ {
+  "id": "petroleum_and_coal_products_business_p",
+  "group": "global",
+  "name": "Petroleum and coal products (business prices)",
+  "seed_value": "+11.5% vs a year ago",
+  "seed_period": "Sep 2026 (−2.2% in the month)",
+  "source": "BoJ",
+  "url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2609.pdf"
+ },
+ {
+  "id": "us_federal_reserve_rate_upper_end",
+  "group": "global",
+  "name": "US Federal Reserve rate (upper end)",
+  "seed_value": "4.00%",
+  "seed_period": "Oct 12, 2026",
+  "source": "FRED (Federal Reserve)",
+  "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+ },
+ {
+  "id": "ecb_deposit_rate_euro_area",
+  "group": "global",
+  "name": "ECB deposit rate (euro area)",
+  "seed_value": "2.50%",
+  "seed_period": "Oct 9, 2026",
+  "source": "FRED (ECB)",
+  "url": "https://fred.stlouisfed.org/series/ECBDFR"
+ }
+]

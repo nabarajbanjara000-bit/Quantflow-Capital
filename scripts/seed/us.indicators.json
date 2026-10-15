@@ -1,0 +1,317 @@
+[
+ {
+  "id": "consumer_price_index_cpi_all_items",
+  "group": "prices",
+  "name": "Consumer Price Index (CPI), all items",
+  "seed_value": "+3.4% vs a year ago",
+  "seed_period": "Aug 2026 (+0.4% in the month)",
+  "source": "BLS",
+  "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+ },
+ {
+  "id": "core_cpi_without_food_and_energy",
+  "group": "prices",
+  "name": "Core CPI (without food and energy)",
+  "seed_value": "+2.4% vs a year ago",
+  "seed_period": "Aug 2026 (+0.3% in the month)",
+  "source": "BLS",
+  "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+ },
+ {
+  "id": "cpi_energy",
+  "group": "prices",
+  "name": "CPI energy",
+  "seed_value": "+16.3% vs a year ago",
+  "seed_period": "Aug 2026 (+2.1% in the month)",
+  "source": "BLS",
+  "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+ },
+ {
+  "id": "cpi_shelter_housing_costs",
+  "group": "prices",
+  "name": "CPI shelter (housing costs)",
+  "seed_value": "+3.0% vs a year ago",
+  "seed_period": "Aug 2026 (+0.3% in the month)",
+  "source": "BLS",
+  "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+ },
+ {
+  "id": "pce_prices_the_fed_s_official_target",
+  "group": "prices",
+  "name": "PCE prices (the Fed's official target)",
+  "seed_value": "+3.4% vs a year ago",
+  "seed_period": "Aug 2026 (+0.3% in the month)",
+  "source": "BEA",
+  "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
+ },
+ {
+  "id": "core_pce_without_food_and_energy",
+  "group": "prices",
+  "name": "Core PCE (without food and energy)",
+  "seed_value": "+3.0% vs a year ago",
+  "seed_period": "Aug 2026 (+0.2% in the month)",
+  "source": "BEA",
+  "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
+ },
+ {
+  "id": "producer_price_index_ppi_final_demand",
+  "group": "prices",
+  "name": "Producer Price Index (PPI), final demand",
+  "seed_value": "+5.4% vs a year ago",
+  "seed_period": "Aug 2026 (+0.4% in the month)",
+  "source": "BLS",
+  "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+ },
+ {
+  "id": "10_year_inflation_expectation_from_bon",
+  "group": "prices",
+  "name": "10-year inflation expectation (from bond markets)",
+  "seed_value": "2.33%",
+  "seed_period": "Oct 9, 2026",
+  "source": "FRED (St. Louis Fed)",
+  "url": "https://fred.stlouisfed.org/series/T10YIE"
+ },
+ {
+  "id": "new_jobs_nonfarm_payrolls",
+  "group": "jobs",
+  "name": "New jobs (nonfarm payrolls)",
+  "seed_value": "+29,000",
+  "seed_period": "Sep 2026",
+  "source": "BLS",
+  "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+ },
+ {
+  "id": "unemployment_rate",
+  "group": "jobs",
+  "name": "Unemployment rate",
+  "seed_value": "4.2%",
+  "seed_period": "Sep 2026",
+  "source": "BLS",
+  "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+ },
+ {
+  "id": "average_hourly_pay",
+  "group": "jobs",
+  "name": "Average hourly pay",
+  "seed_value": "+3.0% vs a year ago",
+  "seed_period": "Sep 2026 (+0.1% in the month)",
+  "source": "BLS",
+  "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+ },
+ {
+  "id": "labour_force_participation",
+  "group": "jobs",
+  "name": "Labour force participation",
+  "seed_value": "61.8%",
+  "seed_period": "Sep 2026",
+  "source": "BLS",
+  "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+ },
+ {
+  "id": "weekly_jobless_claims_new",
+  "group": "jobs",
+  "name": "Weekly jobless claims (new)",
+  "seed_value": "197,000",
+  "seed_period": "Week ending Oct 3",
+  "source": "U.S. Department of Labor",
+  "url": "https://www.dol.gov/ui/data.pdf"
+ },
+ {
+  "id": "continuing_jobless_claims",
+  "group": "jobs",
+  "name": "Continuing jobless claims",
+  "seed_value": "1,716,000",
+  "seed_period": "Week ending Sep 26",
+  "source": "U.S. Department of Labor",
+  "url": "https://www.dol.gov/ui/data.pdf"
+ },
+ {
+  "id": "job_openings_jolts",
+  "group": "jobs",
+  "name": "Job openings (JOLTS)",
+  "seed_value": "7.1 million",
+  "seed_period": "Aug 2026",
+  "source": "BLS",
+  "url": "https://www.bls.gov/news.release/jolts.nr0.htm"
+ },
+ {
+  "id": "quit_rate",
+  "group": "jobs",
+  "name": "Quit rate",
+  "seed_value": "1.9%",
+  "seed_period": "Aug 2026",
+  "source": "BLS",
+  "url": "https://www.bls.gov/news.release/jolts.nr0.htm"
+ },
+ {
+  "id": "real_gdp_growth_spring",
+  "group": "growth",
+  "name": "Real GDP growth (spring)",
+  "seed_value": "+2.2% yearly pace",
+  "seed_period": "Q2 2026 (April–June)",
+  "source": "BEA",
+  "url": "https://www.bea.gov/data/gdp/gross-domestic-product"
+ },
+ {
+  "id": "gdpnow_model_estimate_summer",
+  "group": "growth",
+  "name": "GDPNow model estimate (summer)",
+  "seed_value": "+3.6% yearly pace",
+  "seed_period": "Q3 2026 (July–Sept)",
+  "source": "Atlanta Fed",
+  "url": "https://www.atlantafed.org/cqer/research/gdpnow"
+ },
+ {
+  "id": "retail_sales",
+  "group": "growth",
+  "name": "Retail sales",
+  "seed_value": "+1.2% in the month",
+  "seed_period": "Aug 2026 (+6.0% vs a year ago)",
+  "source": "Census Bureau",
+  "url": "https://www.census.gov/retail/sales.html"
+ },
+ {
+  "id": "real_consumer_spending",
+  "group": "growth",
+  "name": "Real consumer spending",
+  "seed_value": "+0.6% in the month",
+  "seed_period": "Aug 2026",
+  "source": "BEA",
+  "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
+ },
+ {
+  "id": "real_after_tax_income",
+  "group": "growth",
+  "name": "Real after-tax income",
+  "seed_value": "0.0% in the month",
+  "seed_period": "Aug 2026",
+  "source": "BEA",
+  "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
+ },
+ {
+  "id": "personal_saving_rate",
+  "group": "growth",
+  "name": "Personal saving rate",
+  "seed_value": "4.1%",
+  "seed_period": "Aug 2026",
+  "source": "BEA",
+  "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
+ },
+ {
+  "id": "fed_s_target_range_federal_funds_rate",
+  "group": "rates",
+  "name": "Fed's target range (federal funds rate)",
+  "seed_value": "3.75% – 4.00%",
+  "seed_period": "Set Sep 16, 2026",
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+ },
+ {
+  "id": "effective_federal_funds_rate",
+  "group": "rates",
+  "name": "Effective federal funds rate",
+  "seed_value": "3.88%",
+  "seed_period": "Oct 8, 2026",
+  "source": "Federal Reserve Bank of New York",
+  "url": "https://www.newyorkfed.org/markets/reference-rates/effr"
+ },
+ {
+  "id": "3_month_treasury_bill",
+  "group": "rates",
+  "name": "3-month Treasury bill",
+  "seed_value": "4.25%",
+  "seed_period": "Oct 9, 2026",
+  "source": "U.S. Treasury",
+  "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
+ },
+ {
+  "id": "2_year_treasury_yield",
+  "group": "rates",
+  "name": "2-year Treasury yield",
+  "seed_value": "4.80%",
+  "seed_period": "Oct 9, 2026",
+  "source": "U.S. Treasury",
+  "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
+ },
+ {
+  "id": "10_year_treasury_yield",
+  "group": "rates",
+  "name": "10-year Treasury yield",
+  "seed_value": "5.24%",
+  "seed_period": "Oct 9, 2026",
+  "source": "U.S. Treasury",
+  "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
+ },
+ {
+  "id": "30_year_treasury_yield",
+  "group": "rates",
+  "name": "30-year Treasury yield",
+  "seed_value": "5.60%",
+  "seed_period": "Oct 9, 2026",
+  "source": "U.S. Treasury",
+  "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
+ },
+ {
+  "id": "high_yield_credit_spread",
+  "group": "rates",
+  "name": "High-yield credit spread",
+  "seed_value": "3.15%",
+  "seed_period": "Oct 8, 2026",
+  "source": "FRED / ICE BofA",
+  "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+ },
+ {
+  "id": "fed_officials_end_2026_rate_forecast_d",
+  "group": "rates",
+  "name": "Fed officials' end-2026 rate forecast (dot plot)",
+  "seed_value": "Median 4.1%",
+  "seed_period": "Sep 2026 projections",
+  "source": "Federal Reserve projections",
+  "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm"
+ },
+ {
+  "id": "futures_market_odds_of_a_rise_by_decem",
+  "group": "rates",
+  "name": "Futures market odds of a rise by December",
+  "seed_value": "About 85%",
+  "seed_period": "Early Oct 2026",
+  "source": "Market data quoted in Gov. Waller's speech",
+  "url": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm"
+ },
+ {
+  "id": "oil_price_wti_crude",
+  "group": "global",
+  "name": "Oil price (WTI crude)",
+  "seed_value": "$96.24 a barrel",
+  "seed_period": "Oct 6, 2026",
+  "source": "EIA via FRED",
+  "url": "https://fred.stlouisfed.org/series/DCOILWTICO"
+ },
+ {
+  "id": "u_s_gasoline_regular",
+  "group": "global",
+  "name": "U.S. gasoline, regular",
+  "seed_value": "$4.354 a gallon",
+  "seed_period": "Week of Oct 5, 2026",
+  "source": "EIA",
+  "url": "https://www.eia.gov/petroleum/gasdiesel/"
+ },
+ {
+  "id": "european_central_bank_deposit_rate",
+  "group": "global",
+  "name": "European Central Bank deposit rate",
+  "seed_value": "2.50%",
+  "seed_period": "Oct 9, 2026",
+  "source": "ECB via FRED",
+  "url": "https://fred.stlouisfed.org/series/ECBDFR"
+ },
+ {
+  "id": "bank_of_england_rate",
+  "group": "global",
+  "name": "Bank of England rate",
+  "seed_value": "3.75% (held in September)",
+  "seed_period": "Sep 2026",
+  "source": "Bank of England",
+  "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
+ }
+]

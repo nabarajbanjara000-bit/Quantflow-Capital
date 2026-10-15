@@ -1,0 +1,335 @@
+[
+ {
+  "id": "consumer_price_index_cpi_all_items",
+  "group": "prices",
+  "name": "Consumer Price Index (CPI), all items",
+  "seed_value": "+3.0% vs a year ago",
+  "seed_period": "Aug 2026 (−0.1% in the month; +0.2% seasonally adjusted)",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm"
+ },
+ {
+  "id": "cpi_trim_boc_core_measure",
+  "group": "prices",
+  "name": "CPI-trim (BoC core measure)",
+  "seed_value": "1.9%",
+  "seed_period": "Aug 2026",
+  "source": "Bank of Canada",
+  "url": "https://www.bankofcanada.ca/rates/price-indexes/cpi/"
+ },
+ {
+  "id": "cpi_median_boc_core_measure",
+  "group": "prices",
+  "name": "CPI-median (BoC core measure)",
+  "seed_value": "2.0%",
+  "seed_period": "Aug 2026",
+  "source": "Bank of Canada",
+  "url": "https://www.bankofcanada.ca/rates/price-indexes/cpi/"
+ },
+ {
+  "id": "cpi_without_food_and_energy_cpi_xfet",
+  "group": "prices",
+  "name": "CPI without food and energy (CPI-XFET)",
+  "seed_value": "2.1%",
+  "seed_period": "Aug 2026",
+  "source": "Bank of Canada",
+  "url": "https://www.bankofcanada.ca/rates/price-indexes/cpi/"
+ },
+ {
+  "id": "cpi_without_gasoline",
+  "group": "prices",
+  "name": "CPI without gasoline",
+  "seed_value": "+2.4% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm"
+ },
+ {
+  "id": "gasoline_prices",
+  "group": "prices",
+  "name": "Gasoline prices",
+  "seed_value": "+22.8% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm"
+ },
+ {
+  "id": "rent",
+  "group": "prices",
+  "name": "Rent",
+  "seed_value": "+2.8% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm"
+ },
+ {
+  "id": "food_from_stores",
+  "group": "prices",
+  "name": "Food from stores",
+  "seed_value": "+2.8% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm"
+ },
+ {
+  "id": "businesses_inflation_expectations_1_an",
+  "group": "prices",
+  "name": "Businesses’ inflation expectations (1 and 2 years ahead)",
+  "seed_value": "3% to 3.5%",
+  "seed_period": "Q2 2026 survey",
+  "source": "BoC Business Outlook Survey",
+  "url": "https://www.bankofcanada.ca/2026/07/business-outlook-survey-second-quarter-of-2026/"
+ },
+ {
+  "id": "employment_change",
+  "group": "jobs",
+  "name": "Employment change",
+  "seed_value": "−68,000",
+  "seed_period": "Sep 2026",
+  "source": "Statistics Canada (Labour Force Survey)",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm"
+ },
+ {
+  "id": "unemployment_rate",
+  "group": "jobs",
+  "name": "Unemployment rate",
+  "seed_value": "6.5%",
+  "seed_period": "Sep 2026",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm"
+ },
+ {
+  "id": "average_hourly_wages",
+  "group": "jobs",
+  "name": "Average hourly wages",
+  "seed_value": "+2.3% vs a year ago",
+  "seed_period": "Sep 2026",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm"
+ },
+ {
+  "id": "participation_rate",
+  "group": "jobs",
+  "name": "Participation rate",
+  "seed_value": "64.8%",
+  "seed_period": "Sep 2026",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm"
+ },
+ {
+  "id": "employment_rate",
+  "group": "jobs",
+  "name": "Employment rate",
+  "seed_value": "60.6%",
+  "seed_period": "Sep 2026",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm"
+ },
+ {
+  "id": "public_sector_jobs",
+  "group": "jobs",
+  "name": "Public sector jobs",
+  "seed_value": "−70,000",
+  "seed_period": "Sep 2026",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm"
+ },
+ {
+  "id": "youth_unemployment_15_24",
+  "group": "jobs",
+  "name": "Youth unemployment (15–24)",
+  "seed_value": "13.0%",
+  "seed_period": "Sep 2026",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm"
+ },
+ {
+  "id": "job_vacancies",
+  "group": "jobs",
+  "name": "Job vacancies",
+  "seed_value": "510,200 (rate 2.8%)",
+  "seed_period": "Q2 2026",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260915/dq260915a-eng.htm"
+ },
+ {
+  "id": "real_gdp_growth_spring",
+  "group": "growth",
+  "name": "Real GDP growth (spring)",
+  "seed_value": "+0.8% in the quarter (about 3.3% yearly pace)",
+  "seed_period": "Q2 2026 (April–June)",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260828/dq260828a-eng.htm"
+ },
+ {
+  "id": "monthly_gdp",
+  "group": "growth",
+  "name": "Monthly GDP",
+  "seed_value": "0.0%",
+  "seed_period": "Jul 2026",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260929/dq260929a-eng.htm"
+ },
+ {
+  "id": "retail_sales",
+  "group": "growth",
+  "name": "Retail sales",
+  "seed_value": "−0.7% in the month",
+  "seed_period": "Jul 2026 (volume −1.1%)",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260924/dq260924a-eng.htm"
+ },
+ {
+  "id": "merchandise_trade_balance",
+  "group": "growth",
+  "name": "Merchandise trade balance",
+  "seed_value": "$4.2 billion surplus",
+  "seed_period": "Aug 2026 (exports +2.5%)",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261006/dq261006a-eng.htm"
+ },
+ {
+  "id": "household_saving_rate",
+  "group": "growth",
+  "name": "Household saving rate",
+  "seed_value": "3.7%",
+  "seed_period": "Q2 2026",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260828/dq260828a-eng.htm"
+ },
+ {
+  "id": "building_permits",
+  "group": "growth",
+  "name": "Building permits",
+  "seed_value": "$12.2 billion (−17.3% in the month)",
+  "seed_period": "Jul 2026",
+  "source": "Statistics Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260916/dq260916a-eng.htm"
+ },
+ {
+  "id": "boc_growth_forecast_for_2026",
+  "group": "growth",
+  "name": "BoC growth forecast for 2026",
+  "seed_value": "0.7%",
+  "seed_period": "July 2026 report",
+  "source": "Bank of Canada",
+  "url": "https://www.bankofcanada.ca/publications/mpr/mpr-2026-07-15/canadian-outlook/"
+ },
+ {
+  "id": "boc_policy_rate_overnight_rate_target",
+  "group": "rates",
+  "name": "BoC policy rate (overnight rate target)",
+  "seed_value": "2.25%",
+  "seed_period": "Set Oct 29, 2025; held Sep 2, 2026",
+  "source": "Bank of Canada",
+  "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
+ },
+ {
+  "id": "corra_overnight_lending_rate",
+  "group": "rates",
+  "name": "CORRA (overnight lending rate)",
+  "seed_value": "2.28%",
+  "seed_period": "Oct 8, 2026",
+  "source": "Bank of Canada",
+  "url": "https://www.bankofcanada.ca/valet/observations/AVG.INTWO/json?recent=6"
+ },
+ {
+  "id": "2_year_government_of_canada_bond",
+  "group": "rates",
+  "name": "2-year Government of Canada bond",
+  "seed_value": "3.24%",
+  "seed_period": "Oct 8, 2026",
+  "source": "Bank of Canada",
+  "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28"
+ },
+ {
+  "id": "5_year_government_of_canada_bond",
+  "group": "rates",
+  "name": "5-year Government of Canada bond",
+  "seed_value": "3.60%",
+  "seed_period": "Oct 8, 2026",
+  "source": "Bank of Canada",
+  "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28"
+ },
+ {
+  "id": "10_year_government_of_canada_bond",
+  "group": "rates",
+  "name": "10-year Government of Canada bond",
+  "seed_value": "3.93%",
+  "seed_period": "Oct 8, 2026",
+  "source": "Bank of Canada",
+  "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28"
+ },
+ {
+  "id": "canadian_dollar_us_1_in_c",
+  "group": "rates",
+  "name": "Canadian dollar (US$1 in C$)",
+  "seed_value": "C$1.4271",
+  "seed_period": "Oct 9, 2026",
+  "source": "Bank of Canada",
+  "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25"
+ },
+ {
+  "id": "market_forecasters_expected_boc_rate_p",
+  "group": "rates",
+  "name": "Market forecasters’ expected BoC rate path",
+  "seed_value": "2.25% until Jan 2027, 2.50% by Mar 2027",
+  "seed_period": "Survey Jun 11–18, 2026",
+  "source": "BoC Market Participants Survey",
+  "url": "https://www.bankofcanada.ca/2026/07/market-participants-survey-second-quarter-of-2026/"
+ },
+ {
+  "id": "boc_estimate_of_the_neutral_rate",
+  "group": "rates",
+  "name": "BoC estimate of the “neutral” rate",
+  "seed_value": "2.25% to 3.25%",
+  "seed_period": "July 2026 report",
+  "source": "Bank of Canada",
+  "url": "https://www.bankofcanada.ca/publications/mpr/mpr-2026-07-15/tariff-assumptions/"
+ },
+ {
+  "id": "oil_price_wti_crude",
+  "group": "global",
+  "name": "Oil price (WTI crude)",
+  "seed_value": "US$96.24 a barrel",
+  "seed_period": "Oct 6, 2026",
+  "source": "EIA via FRED",
+  "url": "https://fred.stlouisfed.org/series/DCOILWTICO"
+ },
+ {
+  "id": "oil_price_brent_crude",
+  "group": "global",
+  "name": "Oil price (Brent crude)",
+  "seed_value": "US$125.44 a barrel",
+  "seed_period": "Oct 6, 2026",
+  "source": "EIA via FRED",
+  "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
+ },
+ {
+  "id": "u_s_federal_reserve_rate",
+  "group": "global",
+  "name": "U.S. Federal Reserve rate",
+  "seed_value": "3.75% – 4.00%",
+  "seed_period": "Raised Sep 16, 2026",
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+ },
+ {
+  "id": "european_central_bank_deposit_rate",
+  "group": "global",
+  "name": "European Central Bank deposit rate",
+  "seed_value": "2.50%",
+  "seed_period": "Oct 9, 2026",
+  "source": "ECB via FRED",
+  "url": "https://fred.stlouisfed.org/series/ECBDFR"
+ },
+ {
+  "id": "average_u_s_tariff_on_canadian_goods",
+  "group": "global",
+  "name": "Average U.S. tariff on Canadian goods",
+  "seed_value": "5.0%",
+  "seed_period": "As of Jul 10, 2026",
+  "source": "Bank of Canada (MPR assumptions)",
+  "url": "https://www.bankofcanada.ca/publications/mpr/mpr-2026-07-15/tariff-assumptions/"
+ }
+]

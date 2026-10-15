@@ -1,0 +1,344 @@
+[
+ {
+  "id": "consumer_price_index_cpi_all_items",
+  "group": "prices",
+  "name": "Consumer Price Index (CPI), all items",
+  "seed_value": "+4.0% vs a year ago",
+  "seed_period": "Aug 2026 (+0.4% in the month; +0.7% seasonally adjusted)",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release"
+ },
+ {
+  "id": "trimmed_mean_inflation_monthly",
+  "group": "prices",
+  "name": "Trimmed mean inflation (monthly)",
+  "seed_value": "3.6% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release"
+ },
+ {
+  "id": "cpi_excluding_volatile_items_and_holid",
+  "group": "prices",
+  "name": "CPI excluding volatile items and holiday travel",
+  "seed_value": "3.9% vs a year ago",
+  "seed_period": "Aug 2026 (+0.2% in the month)",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release"
+ },
+ {
+  "id": "automotive_fuel_prices",
+  "group": "prices",
+  "name": "Automotive fuel prices",
+  "seed_value": "+13.5% vs a year ago",
+  "seed_period": "Aug 2026 (+14.8% in the month)",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release"
+ },
+ {
+  "id": "electricity_prices",
+  "group": "prices",
+  "name": "Electricity prices",
+  "seed_value": "+13.2% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release"
+ },
+ {
+  "id": "rents",
+  "group": "prices",
+  "name": "Rents",
+  "seed_value": "+3.6% vs a year ago",
+  "seed_period": "Aug 2026",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release"
+ },
+ {
+  "id": "services_vs_goods_inflation",
+  "group": "prices",
+  "name": "Services vs goods inflation",
+  "seed_value": "Services +3.7%; goods +4.2%",
+  "seed_period": "Aug 2026",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release"
+ },
+ {
+  "id": "quarterly_cpi_and_trimmed_mean",
+  "group": "prices",
+  "name": "Quarterly CPI and trimmed mean",
+  "seed_value": "CPI +3.9%; trimmed mean +3.6% vs a year ago",
+  "seed_period": "June quarter 2026",
+  "source": "Reserve Bank of Australia",
+  "url": "https://www.rba.gov.au/publications/smp/2026/aug/overview.html"
+ },
+ {
+  "id": "rba_forecast_when_inflation_returns_to",
+  "group": "prices",
+  "name": "RBA forecast: when inflation returns to target",
+  "seed_value": "Midpoint (2.5%) by early 2028",
+  "seed_period": "August 2026 forecasts",
+  "source": "Reserve Bank of Australia",
+  "url": "https://www.rba.gov.au/publications/smp/2026/aug/overview.html"
+ },
+ {
+  "id": "unemployment_rate",
+  "group": "jobs",
+  "name": "Unemployment rate",
+  "seed_value": "4.6%",
+  "seed_period": "Aug 2026 (seasonally adjusted)",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
+ },
+ {
+  "id": "employment_change",
+  "group": "jobs",
+  "name": "Employment change",
+  "seed_value": "+39,500 people",
+  "seed_period": "Aug 2026",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
+ },
+ {
+  "id": "participation_rate",
+  "group": "jobs",
+  "name": "Participation rate",
+  "seed_value": "67.1%",
+  "seed_period": "Aug 2026",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
+ },
+ {
+  "id": "employment_to_population_ratio",
+  "group": "jobs",
+  "name": "Employment-to-population ratio",
+  "seed_value": "63.9%",
+  "seed_period": "Aug 2026",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
+ },
+ {
+  "id": "underemployment_rate",
+  "group": "jobs",
+  "name": "Underemployment rate",
+  "seed_value": "6.2%",
+  "seed_period": "Aug 2026",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
+ },
+ {
+  "id": "wage_price_index",
+  "group": "jobs",
+  "name": "Wage Price Index",
+  "seed_value": "+3.2% vs a year ago (+0.8% in the quarter)",
+  "seed_period": "June quarter 2026",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/wage-price-index-australia/latest-release"
+ },
+ {
+  "id": "rba_forecast_unemployment",
+  "group": "jobs",
+  "name": "RBA forecast: unemployment",
+  "seed_value": "4.5% by Dec 2026; 4.8% by end-2028",
+  "seed_period": "August 2026 forecasts",
+  "source": "Reserve Bank of Australia",
+  "url": "https://www.rba.gov.au/publications/smp/2026/aug/outlook.html"
+ },
+ {
+  "id": "abs_caution_on_recent_data",
+  "group": "jobs",
+  "name": "ABS caution on recent data",
+  "seed_value": "Interpret short-term moves with care",
+  "seed_period": "Aug 2026",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
+ },
+ {
+  "id": "real_gdp_growth",
+  "group": "growth",
+  "name": "Real GDP growth",
+  "seed_value": "+0.4% in the quarter; +2.1% vs a year ago",
+  "seed_period": "June quarter 2026",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release"
+ },
+ {
+  "id": "household_consumption",
+  "group": "growth",
+  "name": "Household consumption",
+  "seed_value": "+0.4% in the quarter",
+  "seed_period": "June quarter 2026",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release"
+ },
+ {
+  "id": "household_spending_indicator",
+  "group": "growth",
+  "name": "Household Spending Indicator",
+  "seed_value": "0.0% in the month; +6.8% vs a year ago",
+  "seed_period": "Aug 2026 (current prices)",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/latest-release"
+ },
+ {
+  "id": "household_saving_ratio",
+  "group": "growth",
+  "name": "Household saving ratio",
+  "seed_value": "6.5%",
+  "seed_period": "June quarter 2026",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release"
+ },
+ {
+  "id": "terms_of_trade",
+  "group": "growth",
+  "name": "Terms of trade",
+  "seed_value": "−1.6% in the quarter",
+  "seed_period": "June quarter 2026",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release"
+ },
+ {
+  "id": "new_housing_loan_commitments_owner_occ",
+  "group": "growth",
+  "name": "New housing loan commitments (owner-occupiers)",
+  "seed_value": "Number −3.3% in the quarter; value −1.9%",
+  "seed_period": "June quarter 2026",
+  "source": "Australian Bureau of Statistics",
+  "url": "https://www.abs.gov.au/statistics/economy/finance/lending-indicators/latest-release"
+ },
+ {
+  "id": "national_house_prices",
+  "group": "growth",
+  "name": "National house prices",
+  "seed_value": "About 1½% below the March peak",
+  "seed_period": "August 2026 (as described by the RBA)",
+  "source": "Reserve Bank of Australia (citing private data)",
+  "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-08-11.html"
+ },
+ {
+  "id": "business_investment",
+  "group": "growth",
+  "name": "Business investment",
+  "seed_value": "Up more than 10% over the year",
+  "seed_period": "Latest (per RBA minutes)",
+  "source": "Reserve Bank of Australia",
+  "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-09-29.html"
+ },
+ {
+  "id": "rba_cash_rate_target",
+  "group": "rates",
+  "name": "RBA cash rate target",
+  "seed_value": "4.60%",
+  "seed_period": "From Sep 30, 2026",
+  "source": "Reserve Bank of Australia",
+  "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
+ },
+ {
+  "id": "market_pricing_for_more_rises",
+  "group": "rates",
+  "name": "Market pricing for more rises",
+  "seed_value": "About +0.15 points by end-2026; +0.30 points more in the first half of 2027",
+  "seed_period": "As of the Sep 28–29 meeting",
+  "source": "Reserve Bank of Australia (minutes)",
+  "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-09-29.html"
+ },
+ {
+  "id": "10_year_government_bond_rate",
+  "group": "rates",
+  "name": "10-year government bond rate",
+  "seed_value": "5.32%",
+  "seed_period": "Oct 14, 2026",
+  "source": "Trading Economics (market data)",
+  "url": "https://tradingeconomics.com/australia/government-bond-yield"
+ },
+ {
+  "id": "2_year_government_bond_rate",
+  "group": "rates",
+  "name": "2-year government bond rate",
+  "seed_value": "4.93%",
+  "seed_period": "Oct 14, 2026",
+  "source": "Trading Economics (market data)",
+  "url": "https://tradingeconomics.com/australia/government-bond-yield"
+ },
+ {
+  "id": "10_year_bond_rate_monthly_average",
+  "group": "rates",
+  "name": "10-year bond rate, monthly average",
+  "seed_value": "5.02%",
+  "seed_period": "Aug 2026",
+  "source": "OECD via FRED",
+  "url": "https://fred.stlouisfed.org/series/IRLTLT01AUM156N"
+ },
+ {
+  "id": "3_month_bank_bill_rate",
+  "group": "rates",
+  "name": "3-month bank bill rate",
+  "seed_value": "4.51%",
+  "seed_period": "Aug 2026 (monthly average)",
+  "source": "OECD via FRED",
+  "url": "https://fred.stlouisfed.org/series/IR3TIB01AUM156N"
+ },
+ {
+  "id": "australian_dollar",
+  "group": "rates",
+  "name": "Australian dollar",
+  "seed_value": "US$0.6961; trade-weighted index 64.7",
+  "seed_period": "Oct 13, 2026",
+  "source": "Reserve Bank of Australia",
+  "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html"
+ },
+ {
+  "id": "mortgage_payments_vs_income",
+  "group": "rates",
+  "name": "Mortgage payments vs income",
+  "seed_value": "About 10% of household disposable income",
+  "seed_period": "Latest (per RBA minutes)",
+  "source": "Reserve Bank of Australia",
+  "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-09-29.html"
+ },
+ {
+  "id": "oil_price_brent",
+  "group": "global",
+  "name": "Oil price (Brent)",
+  "seed_value": "US$125.44 a barrel",
+  "seed_period": "Oct 6, 2026",
+  "source": "U.S. EIA via FRED",
+  "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
+ },
+ {
+  "id": "rba_oil_assumption_august",
+  "group": "global",
+  "name": "RBA oil assumption (August)",
+  "seed_value": "Brent US$81.2 by Dec 2026",
+  "seed_period": "August 2026 forecasts",
+  "source": "Reserve Bank of Australia",
+  "url": "https://www.rba.gov.au/publications/smp/2026/aug/outlook.html"
+ },
+ {
+  "id": "u_s_federal_reserve_rate_top_of_range",
+  "group": "global",
+  "name": "U.S. Federal Reserve rate (top of range)",
+  "seed_value": "4.00%",
+  "seed_period": "Oct 13, 2026",
+  "source": "Federal Reserve via FRED",
+  "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+ },
+ {
+  "id": "ecb_deposit_rate",
+  "group": "global",
+  "name": "ECB deposit rate",
+  "seed_value": "2.50%",
+  "seed_period": "Oct 9, 2026",
+  "source": "European Central Bank via FRED",
+  "url": "https://fred.stlouisfed.org/series/ECBDFR"
+ },
+ {
+  "id": "australian_share_prices",
+  "group": "global",
+  "name": "Australian share prices",
+  "seed_value": "Down about 5% between the August and September meetings",
+  "seed_period": "Aug–Sep 2026",
+  "source": "Reserve Bank of Australia (minutes)",
+  "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-09-29.html"
+ }
+]

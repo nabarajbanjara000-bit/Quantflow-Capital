@@ -1,0 +1,340 @@
+{
+ "generated_at": "2026-10-14T16:20:51.911Z",
+ "asof_label": "Oct 14, 2026",
+ "headline": "Hold at 7 of 8 · Raise at 1 of 8",
+ "paragraph": "The same energy shock is pushing prices up almost everywhere, and five of the eight banks (the Fed, BoJ, ECB, RBNZ and RBA) have already raised rates this year. Our main call is a pause at seven of the eight meetings and a rise in New Zealand, but the chance of a rise is real nearly everywhere: highest in New Zealand, Australia, the UK, the U.S. and the euro area. Switzerland, with inflation of just 1%, is the exception.",
+ "window": [
+  "2026-10-28",
+  "2026-12-10"
+ ],
+ "countries": [
+  {
+   "code": "us",
+   "short": "US",
+   "country": "United States",
+   "bank": "Federal Reserve",
+   "abbrev": "Fed",
+   "rate": "3.75–4.00%",
+   "last_move": "Raised 0.25 on Sep 16, 2026",
+   "why": "Inflation at 3.4% argues for another rise, but weak September hiring and a jump in bond yields let the Fed wait for December.",
+   "mini": {
+    "prices": [
+     "3.4%",
+     "PCE prices, Aug"
+    ],
+    "jobless": [
+     "4.2%",
+     "Sep"
+    ],
+    "10-yr": [
+     "5.24%",
+     "Oct 9"
+    ]
+   },
+   "call": "hold",
+   "headline": "HOLD",
+   "probabilities": {
+    "hold": 55,
+    "raise": 40,
+    "cut": 5
+   },
+   "confidence": "Low",
+   "next_end": "2026-10-28",
+   "next_label": "Wed Oct 28",
+   "time_label": "2:00 p.m. ET",
+   "stale": false,
+   "asof": "Oct 13, 2026",
+   "coverage": {
+    "automatic": 0,
+    "manual": 35
+   }
+  },
+  {
+   "code": "canada",
+   "short": "CA",
+   "country": "Canada",
+   "bank": "Bank of Canada",
+   "abbrev": "BoC",
+   "rate": "2.25%",
+   "last_move": "On hold since the Oct 29, 2025 cut",
+   "why": "Headline inflation is mostly gasoline while core measures sit near 2%, and Canada has lost jobs two months running.",
+   "mini": {
+    "prices": [
+     "3.0%",
+     "CPI, Aug"
+    ],
+    "jobless": [
+     "6.5%",
+     "Sep"
+    ],
+    "10-yr": [
+     "3.93%",
+     "Oct 8"
+    ]
+   },
+   "call": "hold",
+   "headline": "HOLD",
+   "probabilities": {
+    "hold": 75,
+    "raise": 20,
+    "cut": 5
+   },
+   "confidence": "Medium",
+   "next_end": "2026-10-28",
+   "next_label": "Wed Oct 28",
+   "time_label": "9:45 a.m. ET",
+   "stale": false,
+   "asof": "Oct 14, 2026",
+   "coverage": {
+    "automatic": 0,
+    "manual": 37
+   }
+  },
+  {
+   "code": "newzealand",
+   "short": "NZ",
+   "country": "New Zealand",
+   "bank": "Reserve Bank of New Zealand",
+   "abbrev": "RBNZ",
+   "rate": "2.75%",
+   "last_move": "Raised 0.25 pts on Sep 2, 2026 (second rise in a row)",
+   "why": "Oil and a weaker Kiwi push inflation (4.1%) further above target; a fragile economy keeps a pause close behind.",
+   "mini": {
+    "prices": [
+     "4.1%",
+     "CPI, Jun qtr"
+    ],
+    "jobless": [
+     "5.6%",
+     "Jun qtr"
+    ],
+    "10-yr": [
+     "4.98%",
+     "Oct 13"
+    ]
+   },
+   "call": "raise",
+   "headline": "RAISE",
+   "probabilities": {
+    "raise": 55,
+    "hold": 42,
+    "cut": 3
+   },
+   "confidence": "Low",
+   "next_end": "2026-10-28",
+   "next_label": "Wed Oct 28",
+   "time_label": "2:00 p.m. NZDT (9:00 p.m. ET Oct 27)",
+   "stale": false,
+   "asof": "Oct 14, 2026",
+   "coverage": {
+    "automatic": 0,
+    "manual": 39
+   }
+  },
+  {
+   "code": "germany",
+   "short": "DE",
+   "country": "Germany",
+   "bank": "European Central Bank",
+   "abbrev": "ECB",
+   "rate": "2.50%",
+   "last_move": "Raised 0.25 (in force Sep 16, 2026)",
+   "why": "Euro-area inflation jumped to 3.8%, but the ECB has moved only at meetings with new forecasts, and those come in December.",
+   "mini": {
+    "prices": [
+     "3.8%",
+     "Euro-area HICP, Sep flash"
+    ],
+    "jobless": [
+     "6.4%",
+     "Germany, Sep"
+    ],
+    "10-yr": [
+     "3.47%",
+     "Bund, Oct 8"
+    ]
+   },
+   "call": "hold",
+   "headline": "HOLD",
+   "probabilities": {
+    "hold": 60,
+    "raise": 37,
+    "cut": 3
+   },
+   "confidence": "Low",
+   "next_end": "2026-10-29",
+   "next_label": "Thu Oct 29",
+   "time_label": "2:15 p.m. CET",
+   "stale": false,
+   "asof": "Oct 14, 2026",
+   "coverage": {
+    "automatic": 0,
+    "manual": 38
+   }
+  },
+  {
+   "code": "japan",
+   "short": "JP",
+   "country": "Japan",
+   "bank": "Bank of Japan",
+   "abbrev": "BoJ",
+   "rate": "1.25%",
+   "last_move": "Raised 0.25 on Sep 18, 2026",
+   "why": "The BoJ only raised six weeks ago on a split vote and has never moved at back-to-back meetings; national core inflation is 1.7%.",
+   "mini": {
+    "prices": [
+     "1.7%",
+     "Core CPI, Aug"
+    ],
+    "jobless": [
+     "2.5%",
+     "Aug"
+    ],
+    "10-yr": [
+     "3.03%",
+     "Oct 9"
+    ]
+   },
+   "call": "hold",
+   "headline": "HOLD",
+   "probabilities": {
+    "hold": 70,
+    "raise": 27,
+    "cut": 3
+   },
+   "confidence": "Medium",
+   "next_end": "2026-10-30",
+   "next_label": "Fri Oct 30",
+   "time_label": "around noon JST",
+   "stale": false,
+   "asof": "Oct 14, 2026",
+   "coverage": {
+    "automatic": 0,
+    "manual": 40
+   }
+  },
+  {
+   "code": "australia",
+   "short": "AU",
+   "country": "Australia",
+   "bank": "Reserve Bank of Australia",
+   "abbrev": "RBA",
+   "rate": "4.60%",
+   "last_move": "Raised 0.25 pts on Sep 29, 2026 (unanimous)",
+   "why": "Inflation is 4% and oil has spiked, but the RBA raised only five weeks ago and unemployment is rising; Q3 CPI on Oct 28 is decisive.",
+   "mini": {
+    "prices": [
+     "4.0%",
+     "CPI, Aug"
+    ],
+    "jobless": [
+     "4.6%",
+     "Aug"
+    ],
+    "10-yr": [
+     "5.32%",
+     "Oct 14"
+    ]
+   },
+   "call": "hold",
+   "headline": "HOLD",
+   "probabilities": {
+    "hold": 55,
+    "raise": 42,
+    "cut": 3
+   },
+   "confidence": "Low",
+   "next_end": "2026-11-03",
+   "next_label": "Tue Nov 3",
+   "time_label": "2:30 p.m. AEDT (10:30 p.m. ET Nov 2)",
+   "stale": false,
+   "asof": "Oct 14, 2026",
+   "coverage": {
+    "automatic": 0,
+    "manual": 38
+   }
+  },
+  {
+   "code": "uk",
+   "short": "UK",
+   "country": "United Kingdom",
+   "bank": "Bank of England",
+   "abbrev": "BoE",
+   "rate": "3.75%",
+   "last_move": "Cut 0.25 pts on Dec 18, 2025; held since (6–3 on Sep 17, 2026)",
+   "why": "Energy is pushing CPI toward 4%+ and 3 of 9 already vote to raise, but pay and services prices are steady and jobs are softening.",
+   "mini": {
+    "prices": [
+     "3.1%",
+     "CPI, Aug"
+    ],
+    "jobless": [
+     "4.9%",
+     "May–Jul"
+    ],
+    "10-yr": [
+     "5.40%",
+     "Oct 9"
+    ]
+   },
+   "call": "hold",
+   "headline": "HOLD",
+   "probabilities": {
+    "hold": 52,
+    "raise": 45,
+    "cut": 3
+   },
+   "confidence": "Low",
+   "next_end": "2026-11-05",
+   "next_label": "Thu Nov 5",
+   "time_label": "12:00 p.m. GMT (7:00 a.m. ET)",
+   "stale": false,
+   "asof": "Oct 14, 2026",
+   "coverage": {
+    "automatic": 0,
+    "manual": 39
+   }
+  },
+  {
+   "code": "switzerland",
+   "short": "CH",
+   "country": "Switzerland",
+   "bank": "Swiss National Bank",
+   "abbrev": "SNB",
+   "rate": "0%",
+   "last_move": "Cut to 0% on Jun 19, 2025; held five times since (latest Sep 24, 2026)",
+   "why": "Inflation (1.0%) sits inside the SNB’s 0–2% zone and its 0%-rate forecast stays there; strong growth and KOF’s call keep a rise possible.",
+   "mini": {
+    "prices": [
+     "1.0%",
+     "CPI, Sep"
+    ],
+    "jobless": [
+     "3.0%",
+     "Sep (SECO)"
+    ],
+    "10-yr": [
+     "0.56%",
+     "Oct 13"
+    ]
+   },
+   "call": "hold",
+   "headline": "HOLD",
+   "probabilities": {
+    "hold": 70,
+    "raise": 25,
+    "cut": 5
+   },
+   "confidence": "Low",
+   "next_end": "2026-12-10",
+   "next_label": "Thu Dec 10",
+   "time_label": "9:30 a.m. CET",
+   "stale": false,
+   "asof": "Oct 14, 2026",
+   "coverage": {
+    "automatic": 0,
+    "manual": 38
+   }
+  }
+ ]
+}

@@ -1,0 +1,344 @@
+[
+ {
+  "id": "euro_area_inflation_hicp_the_ecb_s_tar",
+  "group": "prices",
+  "name": "Euro-area inflation (HICP), the ECB's target",
+  "seed_value": "+3.8% vs a year ago",
+  "seed_period": "Sep 2026 (flash estimate)",
+  "source": "Eurostat",
+  "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap"
+ },
+ {
+  "id": "euro_area_core_inflation_without_energ",
+  "group": "prices",
+  "name": "Euro-area core inflation (without energy, food, alcohol, tobacco)",
+  "seed_value": "+2.5% vs a year ago",
+  "seed_period": "Sep 2026 (flash)",
+  "source": "Eurostat",
+  "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap"
+ },
+ {
+  "id": "euro_area_energy_prices",
+  "group": "prices",
+  "name": "Euro-area energy prices",
+  "seed_value": "+18.8% vs a year ago",
+  "seed_period": "Sep 2026 (flash)",
+  "source": "Eurostat",
+  "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap"
+ },
+ {
+  "id": "euro_area_services_prices",
+  "group": "prices",
+  "name": "Euro-area services prices",
+  "seed_value": "+3.2% vs a year ago",
+  "seed_period": "Sep 2026 (flash)",
+  "source": "Eurostat",
+  "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap"
+ },
+ {
+  "id": "german_consumer_prices_cpi",
+  "group": "prices",
+  "name": "German consumer prices (CPI)",
+  "seed_value": "+3.3% vs a year ago",
+  "seed_period": "Sep 2026 (+0.6% in the month)",
+  "source": "Destatis",
+  "url": "https://www.destatis.de/EN/Press/2026/10/PE26_364_611.html"
+ },
+ {
+  "id": "german_core_inflation_without_food_and",
+  "group": "prices",
+  "name": "German core inflation (without food and energy)",
+  "seed_value": "+2.4% vs a year ago",
+  "seed_period": "Sep 2026 (+0.2% in the month)",
+  "source": "Destatis",
+  "url": "https://www.destatis.de/EN/Press/2026/10/PE26_364_611.html"
+ },
+ {
+  "id": "german_energy_prices",
+  "group": "prices",
+  "name": "German energy prices",
+  "seed_value": "+14.9% vs a year ago",
+  "seed_period": "Sep 2026 (+3.8% in the month)",
+  "source": "Destatis",
+  "url": "https://www.destatis.de/EN/Press/2026/10/PE26_364_611.html"
+ },
+ {
+  "id": "german_producer_prices_industry",
+  "group": "prices",
+  "name": "German producer prices (industry)",
+  "seed_value": "+4.6% vs a year ago",
+  "seed_period": "Aug 2026 (+1.1% in the month)",
+  "source": "Destatis",
+  "url": "https://www.destatis.de/EN/Press/2026/09/PE26_328_61241.html"
+ },
+ {
+  "id": "german_import_prices",
+  "group": "prices",
+  "name": "German import prices",
+  "seed_value": "+8.3% vs a year ago",
+  "seed_period": "Aug 2026 (+1.0% in the month)",
+  "source": "Destatis",
+  "url": "https://www.destatis.de/EN/Press/2026/09/PE26_344_614.html"
+ },
+ {
+  "id": "euro_area_unemployment_rate",
+  "group": "jobs",
+  "name": "Euro-area unemployment rate",
+  "seed_value": "6.4%",
+  "seed_period": "Aug 2026",
+  "source": "Eurostat",
+  "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-01102026-ap"
+ },
+ {
+  "id": "german_registered_unemployment_nationa",
+  "group": "jobs",
+  "name": "German registered unemployment (national count)",
+  "seed_value": "2,994,000 · 6.4%",
+  "seed_period": "Sep 2026",
+  "source": "Bundesagentur für Arbeit",
+  "url": "https://www.arbeitsagentur.de/presse/2026-37-arbeitsmarkt-im-september-2026"
+ },
+ {
+  "id": "german_unemployment_rate_eu_standard_i",
+  "group": "jobs",
+  "name": "German unemployment rate (EU-standard / ILO)",
+  "seed_value": "4.0%",
+  "seed_period": "Aug 2026 (seasonally adjusted)",
+  "source": "Destatis",
+  "url": "https://www.destatis.de/EN/Press/2026/09/PE26_347_132.html"
+ },
+ {
+  "id": "people_in_work_in_germany",
+  "group": "jobs",
+  "name": "People in work in Germany",
+  "seed_value": "45.41 million",
+  "seed_period": "Aug 2026",
+  "source": "Destatis",
+  "url": "https://www.destatis.de/EN/Press/2026/09/PE26_347_132.html"
+ },
+ {
+  "id": "german_underemployment",
+  "group": "jobs",
+  "name": "German underemployment",
+  "seed_value": "3,615,000",
+  "seed_period": "Sep 2026",
+  "source": "Bundesagentur für Arbeit",
+  "url": "https://www.arbeitsagentur.de/presse/2026-37-arbeitsmarkt-im-september-2026"
+ },
+ {
+  "id": "short_time_work_kurzarbeit",
+  "group": "jobs",
+  "name": "Short-time work (Kurzarbeit)",
+  "seed_value": "118,000 workers",
+  "seed_period": "Sep 2026 (estimate)",
+  "source": "Bundesagentur für Arbeit",
+  "url": "https://www.arbeitsagentur.de/presse/2026-37-arbeitsmarkt-im-september-2026"
+ },
+ {
+  "id": "job_vacancies_registered_in_germany",
+  "group": "jobs",
+  "name": "Job vacancies registered in Germany",
+  "seed_value": "660,000",
+  "seed_period": "Sep 2026",
+  "source": "Bundesagentur für Arbeit",
+  "url": "https://www.arbeitsagentur.de/presse/2026-37-arbeitsmarkt-im-september-2026"
+ },
+ {
+  "id": "euro_area_pay_growth_compensation_per",
+  "group": "jobs",
+  "name": "Euro-area pay growth (compensation per employee)",
+  "seed_value": "+3.3% vs a year ago",
+  "seed_period": "Q2 2026",
+  "source": "ECB monetary policy statement",
+  "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html"
+ },
+ {
+  "id": "german_gdp_growth",
+  "group": "growth",
+  "name": "German GDP growth",
+  "seed_value": "+0.3% on the quarter",
+  "seed_period": "Q2 2026 (April–June)",
+  "source": "Destatis",
+  "url": "https://www.destatis.de/EN/Press/2026/08/PE26_303_811.html"
+ },
+ {
+  "id": "euro_area_gdp_growth",
+  "group": "growth",
+  "name": "Euro-area GDP growth",
+  "seed_value": "+0.6% on the quarter",
+  "seed_period": "Q2 2026",
+  "source": "Eurostat",
+  "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-07092026-ap"
+ },
+ {
+  "id": "ifo_business_climate_germany",
+  "group": "growth",
+  "name": "ifo Business Climate (Germany)",
+  "seed_value": "89.9 points",
+  "seed_period": "Sep 2026",
+  "source": "ifo Institute",
+  "url": "https://www.ifo.de/en/press-release/2026-09-24/ifo-business-climate-rises-september-2026"
+ },
+ {
+  "id": "german_industrial_production",
+  "group": "growth",
+  "name": "German industrial production",
+  "seed_value": "+2.0% in the month",
+  "seed_period": "Aug 2026 (+2.3% vs a year ago)",
+  "source": "Destatis",
+  "url": "https://www.destatis.de/EN/Press/2026/10/PE26_355_421.html"
+ },
+ {
+  "id": "german_factory_orders",
+  "group": "growth",
+  "name": "German factory orders",
+  "seed_value": "−10.6% in the month",
+  "seed_period": "Aug 2026",
+  "source": "Destatis",
+  "url": "https://www.destatis.de/EN/Press/2026/10/PE26_354_421.html"
+ },
+ {
+  "id": "german_exports",
+  "group": "growth",
+  "name": "German exports",
+  "seed_value": "−0.8% in the month",
+  "seed_period": "Aug 2026",
+  "source": "Destatis",
+  "url": "https://www.destatis.de/EN/Press/2026/10/PE26_356_51.html"
+ },
+ {
+  "id": "ecb_staff_growth_forecast_euro_area",
+  "group": "growth",
+  "name": "ECB staff growth forecast (euro area)",
+  "seed_value": "0.9% in 2026",
+  "seed_period": "Sep 2026 projections",
+  "source": "ECB",
+  "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html"
+ },
+ {
+  "id": "german_growth_forecast_joint_economic",
+  "group": "growth",
+  "name": "German growth forecast (Joint Economic Forecast)",
+  "seed_value": "1.3% in 2026",
+  "seed_period": "Autumn 2026 forecast",
+  "source": "Leading economic institutes, via ifo",
+  "url": "https://www.ifo.de/en/press-release/2026-09-24/joint-economic-forecast-autumn-2026-recovery-under-structural-stress"
+ },
+ {
+  "id": "ecb_deposit_facility_rate_the_main_pol",
+  "group": "rates",
+  "name": "ECB deposit facility rate (the main policy rate)",
+  "seed_value": "2.50%",
+  "seed_period": "In force from Sep 16, 2026",
+  "source": "ECB",
+  "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
+ },
+ {
+  "id": "ecb_main_refinancing_rate",
+  "group": "rates",
+  "name": "ECB main refinancing rate",
+  "seed_value": "2.65%",
+  "seed_period": "In force from Sep 16, 2026",
+  "source": "ECB",
+  "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
+ },
+ {
+  "id": "2_year_german_government_bond_schatz",
+  "group": "rates",
+  "name": "2-year German government bond (Schatz)",
+  "seed_value": "3.07%",
+  "seed_period": "Oct 8, 2026",
+  "source": "Bundesbank",
+  "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf"
+ },
+ {
+  "id": "10_year_german_government_bond_bund",
+  "group": "rates",
+  "name": "10-year German government bond (Bund)",
+  "seed_value": "3.47%",
+  "seed_period": "Oct 8, 2026",
+  "source": "Bundesbank",
+  "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf"
+ },
+ {
+  "id": "30_year_german_government_bond",
+  "group": "rates",
+  "name": "30-year German government bond",
+  "seed_value": "3.84%",
+  "seed_period": "Oct 8, 2026",
+  "source": "Bundesbank",
+  "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf"
+ },
+ {
+  "id": "market_expectations_for_ecb_rates",
+  "group": "rates",
+  "name": "Market expectations for ECB rates",
+  "seed_value": "Two to three more rises by end-2027",
+  "seed_period": "At the time of the Sep 9–10 meeting",
+  "source": "Described in the ECB meeting account",
+  "url": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
+ },
+ {
+  "id": "bank_lending_rates_for_firms_and_homes",
+  "group": "rates",
+  "name": "Bank lending rates for firms and homes (euro area)",
+  "seed_value": "Firms 3.8% · mortgages 3.5%",
+  "seed_period": "Jun–Jul 2026",
+  "source": "ECB monetary policy statement",
+  "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html"
+ },
+ {
+  "id": "euro_vs_u_s_dollar",
+  "group": "rates",
+  "name": "Euro vs U.S. dollar",
+  "seed_value": "$1.1188 per euro",
+  "seed_period": "Oct 13, 2026",
+  "source": "ECB reference rate",
+  "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html"
+ },
+ {
+  "id": "oil_price_brent_crude_european_benchma",
+  "group": "global",
+  "name": "Oil price (Brent crude, European benchmark)",
+  "seed_value": "$125.44 a barrel",
+  "seed_period": "Oct 6, 2026",
+  "source": "EIA via FRED",
+  "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
+ },
+ {
+  "id": "oil_price_wti_crude_u_s",
+  "group": "global",
+  "name": "Oil price (WTI crude, U.S.)",
+  "seed_value": "$96.24 a barrel",
+  "seed_period": "Oct 6, 2026",
+  "source": "EIA via FRED",
+  "url": "https://fred.stlouisfed.org/series/DCOILWTICO"
+ },
+ {
+  "id": "natural_gas_price_europe",
+  "group": "global",
+  "name": "Natural gas price, Europe",
+  "seed_value": "$17.93 per million BTU",
+  "seed_period": "Jul 2026 (monthly average)",
+  "source": "IMF via FRED",
+  "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM"
+ },
+ {
+  "id": "german_fuel_tax_cut_tankrabatt",
+  "group": "global",
+  "name": "German fuel tax cut (“Tankrabatt”)",
+  "seed_value": "17 cents a litre",
+  "seed_period": "From Oct 1, 2026",
+  "source": "ifo Institute",
+  "url": "https://www.ifo.de/en/press-release/2026-10-07/oil-companies-germany-only-partially-passing-fuel-discount-so-far"
+ },
+ {
+  "id": "u_s_federal_reserve_rate",
+  "group": "global",
+  "name": "U.S. Federal Reserve rate",
+  "seed_value": "3.75%–4.00% (raised Sep 16)",
+  "seed_period": "Sep 2026",
+  "source": "Federal Reserve (from our Macro Fed Monitor)",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+ }
+]
