@@ -12,6 +12,9 @@ export const AI_KEY = PROVIDER === "gemini" ? GEMINI_KEY : PROVIDER === "anthrop
 // gemini-2.5-* is closed to new API users; 3.8 Flash is Google's recommended model for new projects.
 export const MODEL = PROVIDER === "gemini" ? (process.env.GEMINI_MODEL || "gemini-3.8-flash") : (process.env.CLAUDE_MODEL || "claude-sonnet-5-5");
 export const MODEL_LABEL = `${PROVIDER === "gemini" ? "Google Gemini" : "Anthropic Claude"} (${MODEL})`;
+let busyStreak = 0;
+export const aiUnavailable = () => busyStreak >= 2; // two countries in a row failed: stop asking for the rest of this run
+const FALLBACK_MODELS = (process.env.GEMINI_FALLBACK_MODELS || "gemini-3.5-flash-lite").split(",").filter(Boolean);
 const warn = (...a) => console.warn("[monitor] WARNING:", ...a);
 
 export async function callAI(system, user) {
@@ -19,20 +22,29 @@ export async function callAI(system, user) {
   const t = setTimeout(() => ctl.abort(), 9 * 60 * 1000);
   try {
     if (PROVIDER === "gemini") {
-      const url = `${GEMINI_BASE}/v1beta/models/${encodeURIComponent(MODEL)}:generateContent`;
       const body = JSON.stringify({
         systemInstruction: { parts: [{ text: system }] },
         contents: [{ role: "user", parts: [{ text: user }] }],
         generationConfig: { responseMimeType: "application/json", temperature: 0.3, maxOutputTokens: 32768 }
       });
-      let r, j;
-      // "Busy" answers (429 / 5xx, e.g. "model is experiencing high demand") are usually short-lived: wait and try again.
-      for (let i = 0; i < 4; i++) {
-        if (i) { warn(`Gemini busy (HTTP ${r.status}); waiting ${30 * i}s before trying again`); await sleep(30000 * i); }
-        r = await fetch(url, { method: "POST", signal: ctl.signal, headers: { "content-type": "application/json", "x-goog-api-key": GEMINI_KEY }, body });
-        j = await r.json().catch(() => ({}));
-        if (r.status !== 429 && r.status < 500) break;
+      // Busy (429 / 5xx) or network errors are usually short-lived: try each model twice, then the fallback model.
+      // If everything is busy, throw quickly (err.busy) so the job moves on instead of waiting for minutes per country.
+      let r, j, last = "";
+      for (const model of [MODEL, ...FALLBACK_MODELS.filter(m => m !== MODEL)]) {
+        const url = `${GEMINI_BASE}/v1beta/models/${encodeURIComponent(model)}:generateContent`;
+        for (let i = 0; i < 2; i++) {
+          if (i) await sleep(20000);
+          try {
+            r = await fetch(url, { method: "POST", signal: ctl.signal, headers: { "content-type": "application/json", "x-goog-api-key": GEMINI_KEY }, body });
+            j = await r.json().catch(() => ({}));
+          } catch (e) { r = null; last = `${model}: network error (${e.cause && e.cause.code || e.message})`; warn(last); continue; }
+          if (r.status === 429 || r.status >= 500) { last = `${model}: HTTP ${r.status}`; warn(`Gemini busy (${last})`); continue; }
+          break;
+        }
+        if (r && r.status !== 429 && r.status < 500) break;
       }
+      if (!r || r.status === 429 || r.status >= 500) { busyStreak++; throw Object.assign(new Error(`Gemini unavailable (${last})`), { busy: true }); }
+      busyStreak = 0;
       if (!r.ok) throw new Error(`Gemini API ${r.status}: ${JSON.stringify(j).slice(0, 300)}`);
       const cand = (j.candidates || [])[0];
       if (!cand || !cand.content) throw new Error(`Gemini returned no text (finishReason: ${cand && cand.finishReason}, block: ${j.promptFeedback && j.promptFeedback.blockReason})`);

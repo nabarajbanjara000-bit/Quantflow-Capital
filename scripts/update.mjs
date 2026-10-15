@@ -25,7 +25,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { addDays, computeIndicator, d, daysBetween, longDate, weekday, iso, MONTHS } from "./lib/indicators.mjs";
 import { getText, sleep } from "./lib/http.mjs";
 import { makeCtx } from "./lib/sources.mjs";
-import { AI_KEY, MOCK, MOCK_AI, MODEL_LABEL, PROVIDER, callAI, extractJson } from "./lib/ai.mjs";
+import { AI_KEY, MOCK, MOCK_AI, MODEL_LABEL, PROVIDER, aiUnavailable, callAI, extractJson } from "./lib/ai.mjs";
 import { allStrings, domainOk, normalize, validate } from "./lib/validate.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -231,7 +231,8 @@ async function updateCountry(code) {
   const wantAI = process.env.FORCE_AI === "1" || changes.data.length || changes.market.length || changes.fed.length || age >= NARRATIVE_MAX_AGE_DAYS || prev.narrative_stale || (meeting.days_to_decision ?? 9) <= 1;
   let ranAI = false;
 
-  if (wantAI && (MOCK || AI_KEY)) {
+  if (wantAI && !MOCK && aiUnavailable()) warn(`${code}: Gemini has been unavailable; skipping the rewrite (numbers still updated, old text kept).`);
+  else if (wantAI && (MOCK || AI_KEY)) {
     ranAI = true;
     const system = (await fs.readFile(PROMPT, "utf8")).replace("{{COUNTRY}}", C.name).replace("{{BANK}}", C.bank).replace(/\{\{ABBREV\}\}/g, C.abbrev).replace("{{NOTES}}", cfg.prompt_notes ? "\n" + cfg.prompt_notes : "");
     const ctxV = { indicators: Object.fromEntries(Object.entries(indicators).filter(([, v]) => v.group !== "said")), sources, quoteBank: prev.quote_bank || [], domains: cfg.allowed_domains };
@@ -260,7 +261,7 @@ async function updateCountry(code) {
         narrativeUpdated = new Date().toISOString(); stale = false; aiErrors = []; model = MOCK_AI ? "mock" : MODEL_LABEL;
         prev.quote_bank = Array.from(new Set([...(prev.quote_bank || []), ...quotes])).slice(-400);
         break;
-      } catch (e) { aiErrors = [String(e.message || e)]; warn(`${code}: AI attempt ${attempt} failed: ${e.message}`); }
+      } catch (e) { aiErrors = [String(e.message || e)]; warn(`${code}: AI attempt ${attempt} failed: ${e.message}`); if (e.busy) break; }
     }
     if (aiErrors.length) stale = true;
   } else if (wantAI) warn(`${code}: no AI key (GEMINI_API_KEY): numbers updated, explanations kept from the previous version.`);
