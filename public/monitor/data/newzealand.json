@@ -3,8 +3,8 @@
  "code": "newzealand",
  "asof_date": "2026-10-15",
  "asof_label": "Oct 15, 2026",
- "generated_at": "2026-10-15T12:52:28.633Z",
- "data_updated_at": "2026-10-15T12:52:28.633Z",
+ "generated_at": "2026-10-15T14:46:42.573Z",
+ "data_updated_at": "2026-10-15T14:46:42.573Z",
  "narrative_updated_at": "2026-10-15T12:52:28.633Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -668,7 +668,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
    "value": "$96.24 a barrel",
    "period": "Oct 6, 2026",
-   "released": "Oct 7, 2026",
+   "released": "Oct 15, 2026",
    "previous": "$96.13 (Oct 5, 2026)",
    "tag": "official",
    "manual": false,
@@ -914,7 +914,7 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No major policy news since the last update; preparing for the October 28 review.",
+   "headline": "No important new data since the last update.",
    "items": []
   },
   "verdict": {
@@ -1988,6 +1988,6 @@
    "automatic": 14,
    "manual": 25
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

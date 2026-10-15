@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-15T12:56:49.463Z",
+ "generated_at": "2026-10-15T14:49:12.098Z",
  "asof_label": "Oct 15, 2026",
  "headline": "Hold at 7 of 8 · Raise at 1 of 8",
- "paragraph": "Quant Flow Capital reviews the current stance of eight central banks worldwide. Seven of these monetary authorities are expected to hold rates steady at their upcoming meetings. Meanwhile, New Zealand stands out as the only bank leaning toward a potential rate rise.",
+ "paragraph": "Quant Flow Capital brings you our briefing covering eight central banks from around the world. Right now, seven of these eight institutions are expected to hold their interest rates steady. Only the Reserve Bank of New Zealand stands out with a call to raise rates.",
  "window": [
   "2026-10-28",
   "2026-12-10"
@@ -68,8 +68,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.87%",
-     "Oct 13"
+     "3.85%",
+     "Oct 14"
     ]
    },
    "call": "hold",
@@ -206,7 +206,7 @@
    "next_end": "2026-10-30",
    "next_label": "Fri Oct 30",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
-   "stale": true,
+   "stale": false,
    "asof": "Oct 15, 2026",
    "coverage": {
     "automatic": 27,
@@ -247,7 +247,7 @@
    "next_end": "2026-11-03",
    "next_label": "Tue Nov 3",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference.",
-   "stale": true,
+   "stale": false,
    "asof": "Oct 15, 2026",
    "coverage": {
     "automatic": 24,

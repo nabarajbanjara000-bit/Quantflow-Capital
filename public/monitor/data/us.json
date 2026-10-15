@@ -3,9 +3,9 @@
  "code": "us",
  "asof_date": "2026-10-15",
  "asof_label": "Oct 15, 2026",
- "generated_at": "2026-10-15T12:46:02.365Z",
- "data_updated_at": "2026-10-15T12:46:02.365Z",
- "narrative_updated_at": "2026-10-15T12:46:02.365Z",
+ "generated_at": "2026-10-15T14:44:05.315Z",
+ "data_updated_at": "2026-10-15T14:44:05.315Z",
+ "narrative_updated_at": "2026-10-15T14:44:05.315Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -254,7 +254,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "+3.4% vs a year ago",
    "period": "Aug 2026 (+0.3% in the month)",
-   "released": "Oct 8, 2026",
+   "released": "Sep 30, 2026",
    "previous": "+3.4% a year; +0.1% in the month (Jul 2026)",
    "tag": "official",
    "manual": false,
@@ -273,7 +273,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "+3.0% vs a year ago",
    "period": "Aug 2026 (+0.2% in the month)",
-   "released": "Oct 1, 2026",
+   "released": "Sep 30, 2026",
    "previous": "+3.0% a year; +0.1% in the month (Jul 2026)",
    "tag": "official",
    "manual": false,
@@ -290,16 +290,16 @@
    "name": "Producer Price Index (PPI), final demand",
    "source": "BLS",
    "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
-   "value": "+5.4% vs a year ago",
-   "period": "Aug 2026 (+0.4% in the month)",
-   "released": "Sep 18, 2026",
-   "previous": "+4.8% a year; +0.1% in the month (Jul 2026)",
+   "value": "+6.3% vs a year ago",
+   "period": "Sep 2026 (+1.3% in the month)",
+   "released": "Oct 15, 2026",
+   "previous": "+5.6% a year; +0.5% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "yoy": 5.413622452737954,
-    "mom": 0.3999132564547425
+    "yoy": 6.346301041632008,
+    "mom": 1.3433801423297975
    },
    "estimate": false
   },
@@ -311,7 +311,7 @@
    "url": "https://fred.stlouisfed.org/series/T10YIE",
    "value": "2.35%",
    "period": "Oct 14, 2026",
-   "released": "Oct 14, 2026",
+   "released": "Oct 15, 2026",
    "previous": "2.33% (Oct 13, 2026)",
    "tag": "official",
    "manual": false,
@@ -439,7 +439,7 @@
    "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
    "value": "7.1 million",
    "period": "Aug 2026",
-   "released": "Sep 30, 2026",
+   "released": "Sep 29, 2026",
    "previous": "7.3 million (Jul 2026)",
    "tag": "official",
    "manual": false,
@@ -457,7 +457,7 @@
    "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
    "value": "1.9%",
    "period": "Aug 2026",
-   "released": "Sep 29, 2026",
+   "released": "Oct 13, 2026",
    "previous": "1.9% (Jul 2026)",
    "tag": "official",
    "manual": false,
@@ -475,7 +475,7 @@
    "url": "https://www.bea.gov/data/gdp/gross-domestic-product",
    "value": "2.2%",
    "period": "Q2 2026",
-   "released": "Oct 2, 2026",
+   "released": "Sep 30, 2026",
    "previous": "2.5% (Q1 2026)",
    "tag": "official",
    "manual": false,
@@ -493,7 +493,7 @@
    "url": "https://www.atlantafed.org/cqer/research/gdpnow",
    "value": "3.6% (estimate)",
    "period": "Q3 2026",
-   "released": "Oct 9, 2026",
+   "released": "Oct 13, 2026",
    "previous": "1.5% (Q2 2026)",
    "tag": "official",
    "manual": false,
@@ -530,7 +530,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "+0.6% in the month",
    "period": "Aug 2026",
-   "released": "Sep 30, 2026",
+   "released": "Oct 13, 2026",
    "previous": "+0.1% (Jul 2026)",
    "tag": "official",
    "manual": false,
@@ -548,7 +548,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "−0.0% in the month",
    "period": "Aug 2026",
-   "released": "Sep 30, 2026",
+   "released": "Oct 13, 2026",
    "previous": "+0.3% (Jul 2026)",
    "tag": "official",
    "manual": false,
@@ -566,7 +566,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "4.1%",
    "period": "Aug 2026",
-   "released": "Oct 1, 2026",
+   "released": "Oct 9, 2026",
    "previous": "4.6% (Jul 2026)",
    "tag": "official",
    "manual": false,
@@ -605,12 +605,12 @@
    "source": "Federal Reserve Bank of New York",
    "url": "https://www.newyorkfed.org/markets/reference-rates/effr",
    "value": "3.88%",
-   "period": "Oct 13, 2026",
+   "period": "Oct 14, 2026",
    "released": "Oct 15, 2026",
-   "previous": "3.88% (Oct 9, 2026)",
+   "previous": "3.88% (Oct 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-13",
+   "latest_date": "2026-10-14",
    "raw": {
     "v": 3.88
    },
@@ -642,7 +642,7 @@
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
    "value": "4.79%",
    "period": "Oct 13, 2026",
-   "released": "Oct 14, 2026",
+   "released": "Oct 15, 2026",
    "previous": "4.80% (Oct 9, 2026)",
    "tag": "official",
    "manual": false,
@@ -660,7 +660,7 @@
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609",
    "value": "5.21%",
    "period": "Oct 13, 2026",
-   "released": "Oct 14, 2026",
+   "released": "Oct 15, 2026",
    "previous": "5.24% (Oct 9, 2026)",
    "tag": "official",
    "manual": false,
@@ -678,7 +678,7 @@
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
    "value": "5.56%",
    "period": "Oct 13, 2026",
-   "released": "Oct 14, 2026",
+   "released": "Oct 15, 2026",
    "previous": "5.60% (Oct 9, 2026)",
    "tag": "official",
    "manual": false,
@@ -694,15 +694,15 @@
    "name": "High-yield credit spread",
    "source": "FRED / ICE BofA",
    "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-   "value": "3.16%",
-   "period": "Oct 13, 2026",
-   "released": "Oct 14, 2026",
-   "previous": "3.11% (Oct 12, 2026)",
+   "value": "3.25%",
+   "period": "Oct 14, 2026",
+   "released": "Oct 15, 2026",
+   "previous": "3.16% (Oct 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-13",
+   "latest_date": "2026-10-14",
    "raw": {
-    "v": 3.16
+    "v": 3.25
    },
    "estimate": false
   },
@@ -745,7 +745,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
    "value": "$96.24 a barrel",
    "period": "Oct 6, 2026",
-   "released": "Oct 7, 2026",
+   "released": "Oct 15, 2026",
    "previous": "$96.13 (Oct 5, 2026)",
    "tag": "official",
    "manual": false,
@@ -763,7 +763,7 @@
    "url": "https://www.eia.gov/petroleum/gasdiesel/",
    "value": "$4.331 a gallon",
    "period": "Week ending Oct 12, 2026",
-   "released": "Oct 14, 2026",
+   "released": "Oct 15, 2026",
    "previous": "$4.354 (Week ending Oct 5, 2026)",
    "tag": "official",
    "manual": false,
@@ -1181,8 +1181,10 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "Producer prices jumped +6.3% in September from a year earlier, highlighting ongoing cost pressures.",
+   "items": [
+    "<strong>Producer Price Index (PPI)</strong> rose from +5.4% to +6.3% vs a year ago (September). This measure of prices charged by businesses increased +1.3% in the month, signaling continued pipeline cost pressures."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -1199,7 +1201,7 @@
     "cut": "Cut (down)"
    },
    "confidence": "Low",
-   "confidence_note": "“Low” means this is close to a coin flip. A single report, the September price report due tomorrow (October 14), could be enough to change our answer.",
+   "confidence_note": "“Low” means this is close to a coin flip. A single report, the September price report (CPI), could be enough to change our answer.",
    "short_version": "The Fed has already said it plans to raise rates again. The real question is <em>when</em>. We think it will more likely wait until December than act in October.",
    "card_why": "Inflation at 3.4% argues for another rise, but weak September hiring and a jump in bond yields let the Fed wait for December.",
    "last_move": "Raised 0.25 on Sep 16, 2026"
@@ -1245,8 +1247,8 @@
     "html": "Both sides are strong. What tips us slightly toward <strong>Hold</strong> is that the Fed itself has said timing is flexible, and December gives it more information at almost no cost. That is why we say about 55% Hold and 40% Raise, not something more lopsided."
    },
    {
-    "title": "The one thing to watch: tomorrow's price report",
-    "html": "On <strong>Wednesday, October 14</strong>, the Bureau of Labor Statistics publishes September's Consumer Price Index (<strong>CPI</strong>), a monthly measure of the prices families pay. CPI is not the Fed's official target (that is PCE), but it comes out first and moves in a similar direction, so the Fed watches it closely. If core prices (prices without food and energy, which jump around a lot) rise <strong>0.4% or more in one month</strong>, we would likely switch our main call to <strong>Raise</strong>. A calm reading of 0.2% or less would make us more confident in <strong>Hold</strong>."
+    "title": "The one thing to watch: recent price reports",
+    "html": "The Bureau of Labor Statistics published September's Consumer Price Index (<strong>CPI</strong>), showing headline inflation at 3.7% and core CPI at 2.6%. While CPI is not the Fed's official target (that is PCE), it comes out first and moves in a similar direction. The recent PPI report also showed business costs climbing +6.3% from a year ago. If core prices rise faster than expected, it adds weight to the case for another rate increase."
    }
   ],
   "timeline": [
@@ -1385,10 +1387,10 @@
     "because": "investors expected more rises to come, so longer-term borrowing costs in the market rose too."
    },
    {
-    "date_label": "September 15 → October 13, 2026",
+    "date_label": "September 15 → October 15, 2026",
     "title": "Market interest rates jumped",
     "kind": "down",
-    "what": "The interest rate on 10-year U.S. government bonds (often called the 10-year Treasury yield) rose from <strong>5.00% to 5.21%</strong>. The 2-year rate rose from 4.80% to 4.79%.",
+    "what": "The interest rate on 10-year U.S. government bonds (often called the 10-year Treasury yield) rose from <strong>5.00% to 5.21%</strong>. The 2-year rate stood at 4.79%.",
     "why": "When investors expect the Fed to keep rates high and prices to stay high, they demand more interest to lend money for years at a time.",
     "people": "Mortgage rates and many business loan rates follow the 10-year rate, so buying a house or expanding a business got more expensive within weeks.",
     "sources": [
@@ -1466,8 +1468,8 @@
     "against": [
      "<strong>Inflation is far from the goal.</strong> At 3.4% vs 2%, and the Fed itself calls progress insufficient.",
      "<strong>Most officials expect another rise.</strong> 16 of 18 wrote down at least one more this year. Waiting could look like hesitation.",
-     "<strong>The economy looks strong.</strong> If growth is near 3.6%, the economy can handle a higher rate now.",
-     "<strong>A hot price report on October 14</strong> could make waiting feel too risky."
+     "<strong>The economy looks strong.</strong> If growth is near 3.6%, the economy can handle a higher rate.",
+     "<strong>Recent price reports</strong> like PPI showing +6.3% could make waiting feel too risky."
     ],
     "everyday": "loan and savings rates would stay roughly where they are for now. Markets would then focus on December, where a rise would still be widely expected.",
     "prob": 55
@@ -1574,7 +1576,7 @@
     "grade": "red",
     "one": "Things cost 3.4% more than a year ago, far above the 2% goal.",
     "look": "The Fed's preferred price gauge (PCE, up 3.4%), the same gauge without food and energy (core PCE, up 3.0%), and consumer prices (CPI, up 3.7%).",
-    "why": "The Fed's official measure (PCE) is well above the goal, both with and without energy, and prices have been above target for over five years. Energy is up 20.4% in a year. Business costs (PPI) are up 5.4%, which can reach shop shelves later. Fed officials themselves say the risk is that prices go higher still.",
+    "why": "The Fed's official measure (PCE) is well above the goal, both with and without energy, and prices have been above target for over five years. Energy is up 20.4% in a year. Business costs (PPI) are up 6.3%, which can reach shop shelves later. Fed officials themselves say the risk is that prices go higher still.",
     "change": "Several months of core prices rising 0.2% a month or less, and energy prices falling back.",
     "matters": "This is the main reason the Fed is raising rates at all. As long as this stays red, the Fed leans toward pressing the brake.",
     "change_label": "What would improve it"
@@ -1604,7 +1606,7 @@
     "grade": "amber",
     "one": "Borrowing costs jumped, but lenders are still lending calmly.",
     "look": "U.S. government bond rates (Treasury yields), the extra interest risky companies pay to borrow (credit spreads), and market expectations for inflation.",
-    "why": "<em>Worrying:</em> the 10-year bond rate rose from 5.00% to 5.21% in under a month, making mortgages and loans more expensive. <em>Reassuring:</em> risky companies still borrow easily (spread of 3.16%, which is low), and investors still expect inflation of only about 2.35% a year over the long run.",
+    "why": "<em>Worrying:</em> the 10-year bond rate rose to 5.21%, making mortgages and loans more expensive. <em>Reassuring:</em> risky companies still borrow easily (spread of 3.25%), and investors still expect inflation of only about 2.35% a year over the long run.",
     "change": "Credit spreads widening sharply or stock markets falling hard → red. Bond rates settling down → green.",
     "matters": "Higher market rates are already slowing the economy, which is one reason the Fed may wait. Calm long-term inflation expectations mean the Fed does not need to panic.",
     "change_label": "What would change it"
@@ -1651,7 +1653,7 @@
     "now_label": "Pipeline pressure",
     "now_tone": "bad",
     "what": "prices that businesses charge each other, for example what a factory charges a shop, or what a trucking company charges a supermarket.",
-    "why": "businesses usually pass higher costs on to customers, often a few months later. A 5.4% rise in business costs is an early warning that shop prices could keep rising."
+    "why": "businesses usually pass higher costs on to customers, often a few months later. A 6.3% rise in business costs is an early warning that shop prices could keep rising."
    },
    "10_year_inflation_expectation_from_bon": {
     "now_label": "Calm",
@@ -1783,7 +1785,7 @@
     "now_label": "Lenders calm",
     "now_tone": "good",
     "what": "the extra interest that riskier companies pay to borrow, on top of what the government pays.",
-    "why": "at 3.16%, it is low, which means lenders are calm and businesses can still borrow."
+    "why": "at 3.25%, it is low, which means lenders are calm and businesses can still borrow."
    },
    "fed_officials_end_2026_rate_forecast_d": {
     "now_label": "One more rise expected",
@@ -2196,7 +2198,44 @@
   "The hikes do not need to come at consecutive meetings",
   "some flexibility about when those hikes will occur."
  ],
- "changelog": [],
+ "changelog": [
+  {
+   "date": "2026-10-15",
+   "date_label": "Oct 15, 2026",
+   "since": "2026-10-15",
+   "since_label": "Oct 15, 2026",
+   "summary": {
+    "headline": "Producer prices jumped +6.3% in September from a year earlier, highlighting ongoing cost pressures.",
+    "items": [
+     "<strong>Producer Price Index (PPI)</strong> rose from +5.4% to +6.3% vs a year ago (September). This measure of prices charged by businesses increased +1.3% in the month, signaling continued pipeline cost pressures."
+    ]
+   },
+   "data": [
+    {
+     "id": "producer_price_index_ppi_final_demand",
+     "name": "Producer Price Index (PPI), final demand",
+     "from": "+5.4% vs a year ago",
+     "from_period": "Aug 2026 (+0.4% in the month)",
+     "to": "+6.3% vs a year ago",
+     "to_period": "Sep 2026 (+1.3% in the month)"
+    }
+   ],
+   "market": [
+    {
+     "id": "high_yield_credit_spread",
+     "name": "High-yield credit spread",
+     "from": "3.16%",
+     "from_period": "Oct 13, 2026",
+     "to": "3.25%",
+     "to_period": "Oct 14, 2026",
+     "move": "+0.09 pts"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  }
+ ],
  "qa": {
   "data_errors": [],
   "ai_errors": [],

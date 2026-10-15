@@ -3,9 +3,9 @@
  "code": "uk",
  "asof_date": "2026-10-15",
  "asof_label": "Oct 15, 2026",
- "generated_at": "2026-10-15T12:56:45.493Z",
- "data_updated_at": "2026-10-15T12:56:45.493Z",
- "narrative_updated_at": "2026-10-15T12:56:45.493Z",
+ "generated_at": "2026-10-15T14:49:07.483Z",
+ "data_updated_at": "2026-10-15T14:49:07.483Z",
+ "narrative_updated_at": "2026-10-15T14:49:07.483Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -736,7 +736,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
    "value": "$125.44 a barrel",
    "period": "Oct 6, 2026",
-   "released": "Oct 8, 2026",
+   "released": "Oct 7, 2026",
    "previous": "$125.51 (Oct 5, 2026)",
    "tag": "official",
    "manual": false,
@@ -969,11 +969,9 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Monthly GDP grew 0.1% in August, and the Bank of England released fresh committee and market minutes.",
+   "headline": "Here is what is new since the last update.",
    "items": [
-    "<strong>Monthly GDP</strong> grew <strong>+0.1%</strong> in August, down from +0.4% in July (<a href=\"https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/august2026\">ONS</a>), showing modest economic growth as the November 5 decision approaches.",
-    "<strong>The Bank of England</strong> published minutes from the Money Market Committee and the SONIA Stakeholder Advisory Group (<a href=\"https://www.bankofengland.co.uk/minutes/2026/september/money-markets-committee-minutes-september-2026\">BoE</a>), confirming that short-term funding markets continue to function smoothly despite broader bond market volatility.",
-    "<strong>Victoria Cleland</strong>, Executive Director for Banknotes, delivered a speech on public engagement and trust in cash (<a href=\"https://www.bankofengland.co.uk/speech/2026/october/victoria-cleland-intergraf-currency-identity-conference-demark\">BoE</a>)."
+    "New official item: <a href=\"https://www.bankofengland.co.uk/weekly-report/2026/14-october-2026\">Bank of England Weekly Report 14 October 2026</a> (2026-10-15)."
    ]
   },
   "verdict": {
@@ -1264,7 +1262,7 @@
      "<strong>Oil jumped after the last meeting.</strong> Brent went from about US$106 (Sep 14) to $125.44 in October.",
      "<strong>The forecast is already above 4%</strong> for early 2027, before the latest oil rise.",
      "<strong>Firm words from the top.</strong> Bailey: “Interest rates may need to rise even as economic activity weakens.”",
-     "<strong>A hot September price report</strong> on October 21 could make waiting feel too risky."
+     "<strong>A hot September report</strong> on October 21 could make waiting feel too risky."
     ],
     "everyday": "tracker mortgages and easy-access savings rates would stay roughly where they are. Fixed mortgage deals follow gilt rates, so they could still rise. Markets would then focus on December 17.",
     "prob": 52
@@ -2041,7 +2039,31 @@
   "I cannot take comfort from tighter nominal financial conditions.",
   "the case for further rate increases is not compelling to me unless energy prices remain high for an extended period"
  ],
- "changelog": [],
+ "changelog": [
+  {
+   "date": "2026-10-15",
+   "date_label": "Oct 15, 2026",
+   "since": "2026-10-15",
+   "since_label": "Oct 15, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "New official item: <a href=\"https://www.bankofengland.co.uk/weekly-report/2026/14-october-2026\">Bank of England Weekly Report 14 October 2026</a> (2026-10-15)."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Bank of England Weekly Report 14 October 2026",
+     "date": "2026-10-15",
+     "url": "https://www.bankofengland.co.uk/weekly-report/2026/14-october-2026"
+    }
+   ],
+   "verdict": null,
+   "ai_written": false
+  }
+ ],
  "qa": {
   "data_errors": [],
   "ai_errors": [],
@@ -2107,6 +2129,11 @@
     "url": "https://www.bankofengland.co.uk/speech/2026/october/nathanael-benjamin-speech-at-isda-derivatives-trading-and-treasury-forum"
    },
    {
+    "title": "Bank of England Weekly Report 14 October 2026",
+    "date": "2026-10-15",
+    "url": "https://www.bankofengland.co.uk/weekly-report/2026/14-october-2026"
+   },
+   {
     "title": "Review of CCP collateral rules - letters of credit",
     "date": "2026-10-15",
     "url": "https://www.bankofengland.co.uk/paper/2026/cp/review-of-ccp-collateral-rules-letters-of-credit"
@@ -2130,11 +2157,6 @@
     "title": "Bank of England Weekly Report 7 October 2026",
     "date": "2026-10-08",
     "url": "https://www.bankofengland.co.uk/weekly-report/2026/7-october-2026"
-   },
-   {
-    "title": "Bank Liabilities Survey - 2026 Q3",
-    "date": "2026-10-08",
-    "url": "https://www.bankofengland.co.uk/bank-liabilities-survey/2026/2026-q3"
    }
   ],
   "coverage": {

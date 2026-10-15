@@ -3,8 +3,8 @@
  "code": "switzerland",
  "asof_date": "2026-10-15",
  "asof_label": "Oct 15, 2026",
- "generated_at": "2026-10-15T12:55:42.287Z",
- "data_updated_at": "2026-10-15T12:55:42.287Z",
+ "generated_at": "2026-10-15T14:47:55.581Z",
+ "data_updated_at": "2026-10-15T14:47:55.581Z",
  "narrative_updated_at": "2026-10-15T12:55:42.287Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -779,7 +779,7 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No meaningful change today; starting snapshot remains steady.",
+   "headline": "No important new data since the last update.",
    "items": []
   },
   "verdict": {
@@ -1840,6 +1840,6 @@
    "automatic": 9,
    "manual": 29
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

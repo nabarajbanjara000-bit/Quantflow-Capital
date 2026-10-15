@@ -3,8 +3,8 @@
  "code": "germany",
  "asof_date": "2026-10-15",
  "asof_label": "Oct 15, 2026",
- "generated_at": "2026-10-15T12:48:06.143Z",
- "data_updated_at": "2026-10-15T12:48:06.143Z",
+ "generated_at": "2026-10-15T14:45:39.396Z",
+ "data_updated_at": "2026-10-15T14:45:39.396Z",
  "narrative_updated_at": "2026-10-15T12:48:06.143Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -672,15 +672,15 @@
    "name": "Euro vs U.S. dollar",
    "source": "ECB reference rate",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-   "value": "$1.1195 per euro",
-   "period": "Oct 14, 2026",
+   "value": "$1.1208 per euro",
+   "period": "Oct 15, 2026",
    "released": "Detected Oct 15, 2026",
-   "previous": "$1.1188 per euro (Oct 13, 2026)",
+   "previous": "$1.1195 per euro (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 1.1195
+    "v": 1.1208
    },
    "estimate": false
   },
@@ -937,7 +937,7 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No major policy changes; awaiting final September inflation report on Friday.",
+   "headline": "No important new data since the last update.",
    "items": []
   },
   "verdict": {
@@ -2097,6 +2097,6 @@
    "automatic": 19,
    "manual": 19
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

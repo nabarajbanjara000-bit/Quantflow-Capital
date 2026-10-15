@@ -3,11 +3,11 @@
  "code": "japan",
  "asof_date": "2026-10-15",
  "asof_label": "Oct 15, 2026",
- "generated_at": "2026-10-15T12:46:58.860Z",
- "data_updated_at": "2026-10-15T12:46:58.860Z",
- "narrative_updated_at": null,
- "narrative_stale": true,
- "narrative_model": "hand-checked snapshot",
+ "generated_at": "2026-10-15T14:45:26.485Z",
+ "data_updated_at": "2026-10-15T14:45:26.485Z",
+ "narrative_updated_at": "2026-10-15T14:45:26.485Z",
+ "narrative_stale": false,
+ "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "japan",
   "short": "JP",
@@ -1112,7 +1112,7 @@
    },
    {
     "title": "Reasons the BoJ might wait",
-    "html": "<ul><li><strong>It just raised.</strong> September 18 was only six weeks before this meeting. In the past year the BoJ has never raised at two meetings in a row.</li><li><strong>Two members already said “too soon” in September.</strong> Raising again straight away would deepen that split.</li><li><strong>Consumer prices are below 2%.</strong> National core CPI was 1.7% in August, partly because of government energy support. The full national picture for September only arrives on October 23.</li><li><strong>The economy is growing only slowly.</strong> It grew at a 1.4% yearly pace in spring, but household spending was flat and business investment fell 0.9% in the quarter (<a href=\"https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe262_2/pdf/qepoint2622.pdf\">Cabinet Office</a>). Big companies expect business conditions to get worse over the next three months (<a href=\"https://www.boj.or.jp/en/statistics/tk/gaiyo/2026/tka2609.pdf\">Tankan</a>).</li><li><strong>The Governor did not commit.</strong> Asked about rises at back-to-back meetings, Governor Ueda said the BoJ cannot promise in advance either way; it depends on the outlook and risks (<a href=\"https://www.boj.or.jp/about/press/kaiken_2026/kk260924a.pdf\">press conference, Japanese</a>).</li><li><strong>The market already pressed the brake.</strong> The 10-year government bond rate is about 3%, up from a 2.67% average in June (<a href=\"https://fred.stlouisfed.org/series/IRLTLT01JPM156N\">FRED</a>), so home loans and company borrowing have already become more expensive.</li></ul>"
+    "html": "<ul><li><strong>It just raised.</strong> September 18 was only six weeks before this meeting. In the past year the BoJ has never raised at two meetings in a row.</li><li><strong>Two members already said “too soon” in September.</strong> Raising again straight away would deepen that split.</li><li><strong>Consumer prices are below 2%.</strong> National core CPI was 1.7% in August, partly because of government energy support. The full national picture for September only arrives on October 23.</li><li><strong>The economy is growing only slowly.</strong> It grew at a 1.4% yearly pace in spring, but household spending was flat and business investment fell 0.9% in the quarter (<a href=\"https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe262_2/pdf/qepoint2622.pdf\">Cabinet Office</a>). Big companies expect business conditions to get worse over the next three months (<a href=\"https://www.boj.or.jp/en/statistics/tk/gaiyo/2026/tka2609.pdf\">Tankan</a>).</li><li><strong>The Governor did not commit.</strong> Asked about rises at back-to-back meetings, Governor Ueda said the BoJ cannot promise in advance either way; it depends on the outlook and risks (<a href=\"https://www.boj.or.jp/about/press/kaiken_2026/kk260924a.pdf\">press conference, Japanese</a>).</li><li><strong>The market already pressed the brake.</strong> The 10-year government bond rate is about 3%, up from a 2.67% average in June (FRED), so home loans and company borrowing have already become more expensive.</li></ul>"
    },
    {
     "title": "Reasons the BoJ might raise in October anyway",
@@ -1359,7 +1359,8 @@
      "<strong>The weak yen.</strong> If the yen keeps sliding, waiting gets riskier.",
      "<strong>A hot September CPI on October 23</strong> could make waiting feel too risky."
     ],
-    "everyday": "loan and savings rates would stay roughly where they are for now. Attention would turn to December."
+    "everyday": "loan and savings rates would stay roughly where they are for now. Attention would turn to December.",
+    "prob": 70
    },
    {
     "option": "raise",
@@ -1378,7 +1379,8 @@
      "<strong>Growth is slow.</strong> The BoJ itself forecast only 0.6% growth for fiscal 2026.",
      "<strong>The Governor avoided any promise</strong> of back-to-back rises."
     ],
-    "everyday": "variable-rate home loans and business loans would get a little more expensive again. Deposits would pay a bit more. A rise could also support the yen, which would make imports slightly cheaper."
+    "everyday": "variable-rate home loans and business loans would get a little more expensive again. Deposits would pay a bit more. A rise could also support the yen, which would make imports slightly cheaper.",
+    "prob": 27
    },
    {
     "option": "cut",
@@ -1394,7 +1396,8 @@
      "<strong>Nobody on the Board is asking for it.</strong> In the statements and speeches we read, the most cautious members wanted to <em>hold</em>, not cut.",
      "<strong>Inflation pressure is rising</strong>, not falling."
     ],
-    "everyday": "loans would get slightly cheaper, but the surprise would likely signal that something had gone badly wrong, and the yen would probably fall."
+    "everyday": "loans would get slightly cheaper, but the surprise would likely signal that something had gone badly wrong, and the yen would probably fall.",
+    "prob": 3
    }
   ],
   "change": {
@@ -1449,7 +1452,7 @@
    },
    "other_title": "Other things that could move our view",
    "other": [
-    "<strong>Oil and the Middle East.</strong> Brent oil was about $125 a barrel on Oct 6 (<a href=\"https://fred.stlouisfed.org/series/DCOILBRENTEU\">FRED</a>). A new jump would raise the chance of a rise. A big drop would make waiting easier.",
+    "<strong>Oil and the Middle East.</strong> Brent oil was about $125 a barrel on Oct 6 (FRED). A new jump would raise the chance of a rise. A big drop would make waiting easier.",
     "<strong>The yen.</strong> The yen was about ¥158 per dollar on Oct 9. A slide well past ¥160 would make imported prices rise faster and push the BoJ to act sooner.",
     "<strong>Long-term bond rates.</strong> The 10-year rate is about 3%. A sharp further rise would tighten conditions on its own and make the BoJ more cautious; a fall would remove one reason to wait.",
     "<strong>Government energy support.</strong> Subsidies are holding down household energy prices. Any change to them would move the CPI numbers the BoJ watches.",
@@ -2174,9 +2177,7 @@
  "changelog": [],
  "qa": {
   "data_errors": [],
-  "ai_errors": [
-   "Gemini unavailable (gemini-3.5-flash-lite: HTTP 503)"
-  ],
+  "ai_errors": [],
   "sources_read": [
    {
     "title": "Speech by Board Member KOEDA in Kumamoto (Economic Activity, Prices, and Monetary Policy in Japan)",

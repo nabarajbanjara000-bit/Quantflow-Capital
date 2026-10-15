@@ -3,8 +3,8 @@
  "code": "canada",
  "asof_date": "2026-10-15",
  "asof_label": "Oct 15, 2026",
- "generated_at": "2026-10-15T12:50:55.747Z",
- "data_updated_at": "2026-10-15T12:50:55.747Z",
+ "generated_at": "2026-10-15T14:45:59.418Z",
+ "data_updated_at": "2026-10-15T14:45:59.418Z",
  "narrative_updated_at": "2026-10-15T12:50:55.747Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "3.87%",
+   "value": "3.85%",
    "note": "",
-   "period": "Oct 13, 2026",
+   "period": "Oct 14, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28"
   }
@@ -620,15 +620,15 @@
    "name": "CORRA (overnight lending rate)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/AVG.INTWO/json?recent=6",
-   "value": "2.28%",
-   "period": "Oct 13, 2026",
+   "value": "2.27%",
+   "period": "Oct 14, 2026",
    "released": "Detected Oct 15, 2026",
-   "previous": "2.28% (Oct 9, 2026)",
+   "previous": "2.28% (Oct 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-13",
+   "latest_date": "2026-10-14",
    "raw": {
-    "v": 2.28
+    "v": 2.27
    },
    "estimate": false
   },
@@ -638,15 +638,15 @@
    "name": "2-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.19%",
-   "period": "Oct 13, 2026",
+   "value": "3.21%",
+   "period": "Oct 14, 2026",
    "released": "Detected Oct 15, 2026",
-   "previous": "3.18% (Oct 9, 2026)",
+   "previous": "3.19% (Oct 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-13",
+   "latest_date": "2026-10-14",
    "raw": {
-    "v": 3.19
+    "v": 3.21
    },
    "estimate": false
   },
@@ -657,12 +657,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
    "value": "3.55%",
-   "period": "Oct 13, 2026",
+   "period": "Oct 14, 2026",
    "released": "Detected Oct 15, 2026",
-   "previous": "3.54% (Oct 9, 2026)",
+   "previous": "3.55% (Oct 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-13",
+   "latest_date": "2026-10-14",
    "raw": {
     "v": 3.55
    },
@@ -674,15 +674,15 @@
    "name": "10-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.87%",
-   "period": "Oct 13, 2026",
+   "value": "3.85%",
+   "period": "Oct 14, 2026",
    "released": "Detected Oct 15, 2026",
-   "previous": "3.86% (Oct 9, 2026)",
+   "previous": "3.87% (Oct 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-13",
+   "latest_date": "2026-10-14",
    "raw": {
-    "v": 3.87
+    "v": 3.85
    },
    "estimate": false
   },
@@ -1906,8 +1906,8 @@
     "Sep"
    ],
    "10-yr": [
-    "3.87%",
-    "Oct 13"
+    "3.85%",
+    "Oct 14"
    ]
   },
   "rate_label": "Current BoC rate",
@@ -2059,6 +2059,6 @@
    "automatic": 27,
    "manual": 10
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }
