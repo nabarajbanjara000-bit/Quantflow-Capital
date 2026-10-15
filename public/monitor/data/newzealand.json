@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-10-14",
- "asof_label": "Oct 14, 2026",
- "generated_at": "2026-10-14T16:20:51.879Z",
- "data_updated_at": null,
- "narrative_updated_at": null,
+ "asof_date": "2026-10-15",
+ "asof_label": "Oct 15, 2026",
+ "generated_at": "2026-10-15T12:52:28.633Z",
+ "data_updated_at": "2026-10-15T12:52:28.633Z",
+ "narrative_updated_at": "2026-10-15T12:52:28.633Z",
  "narrative_stale": false,
- "narrative_model": "hand-checked snapshot",
+ "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "newzealand",
   "short": "NZ",
@@ -23,22 +23,58 @@
  },
  "meeting": {
   "next": {
-   "start": null,
+   "start": "2026-10-28",
    "end": "2026-10-28",
-   "time_label": "2:00 p.m. NZDT (9:00 p.m. ET Oct 27)",
    "label": "October 2026 Monetary Policy Review (a shorter decision without a full new forecast; the full forecast document, the Monetary Policy Statement, comes four times a year)",
-   "decision_label": "Wednesday, Oct 28, 2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office."
+   "decision_label": "Wednesday, Oct 28, 2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
+   "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office."
   },
   "after": {
-   "start": null,
-   "end": null,
-   "label": "Wednesday, December 9, 2026 (Monetary Policy Statement, with new forecasts)"
+   "start": "2026-12-09",
+   "end": "2026-12-09",
+   "label": "Wednesday, December 9, 2026 (Monetary Policy Statement, with new forecasts)",
+   "decision_label": "Wednesday, Dec 9, New Zealand time (NZDT)",
+   "time_label": ""
   },
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
-  "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams."
+  "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
+  "days_to_decision": 13
  },
- "kpis": [],
+ "kpis": [
+  {
+   "label": "Official Cash Rate",
+   "value": "2.75%",
+   "note": "",
+   "period": "Since Sep 2, 2026",
+   "source": "Reserve Bank of New Zealand",
+   "url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate"
+  },
+  {
+   "label": "Price rise, past year",
+   "value": "4.1%",
+   "note": "Target band 1–3%",
+   "period": "Q2 2026",
+   "source": "Stats NZ",
+   "url": "https://www.stats.govt.nz/information-releases/consumers-price-index-june-2026-quarter/"
+  },
+  {
+   "label": "Unemployment",
+   "value": "5.6%",
+   "note": "",
+   "period": "Q2 2026",
+   "source": "Stats NZ",
+   "url": "https://www.stats.govt.nz/information-releases/labour-market-statistics-june-2026-quarter/"
+  },
+  {
+   "label": "10-year bond rate",
+   "value": "4.98%",
+   "note": "",
+   "period": "Oct 13, 2026",
+   "source": "Reserve Bank of New Zealand",
+   "url": "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/wholesale-interest-rates"
+  }
+ ],
  "kpis_seed": [
   {
    "label": "Official Cash Rate",
@@ -144,12 +180,17 @@
    "name": "Consumers price index (CPI), all items",
    "source": "Stats NZ",
    "url": "https://www.stats.govt.nz/information-releases/consumers-price-index-june-2026-quarter/",
-   "value": "+4.1% vs a year ago",
-   "period": "Jun 2026 quarter (+1.5% in the quarter)",
-   "released": "Jul 2026 (exact day not collected)",
-   "previous": "+3.1% (Mar 2026 quarter)",
+   "value": "4.1%",
+   "period": "Q2 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.1% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-06-01",
+   "raw": {
+    "v": 4.058192955589579
+   },
+   "estimate": false
   },
   "cpi_excluding_vehicle_fuels": {
    "id": "cpi_excluding_vehicle_fuels",
@@ -184,11 +225,16 @@
    "source": "Reserve Bank of New Zealand",
    "url": "https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/monetary-policy-statements/2026/sep-2926/mps_report_sep2026.pdf",
    "value": "3.4%",
-   "period": "Jun 2026 quarter",
-   "released": "Sep 2, 2026 (MPS)",
-   "previous": "Not collected",
+   "period": "Q2 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.5% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-06-01",
+   "raw": {
+    "v": 3.378864126527681
+   },
+   "estimate": false
   },
   "tradables_inflation": {
    "id": "tradables_inflation",
@@ -196,12 +242,17 @@
    "name": "Tradables inflation",
    "source": "Reserve Bank of New Zealand",
    "url": "https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/monetary-policy-statements/2026/sep-2926/mps_report_sep2026.pdf",
-   "value": "4.9% (2.1% excluding fuel)",
-   "period": "Jun 2026 quarter",
-   "released": "Sep 2, 2026 (MPS)",
-   "previous": "Not collected",
+   "value": "4.9%",
+   "period": "Q2 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "2.5% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-06-01",
+   "raw": {
+    "v": 4.924874791318867
+   },
+   "estimate": false
   },
   "petrol_and_diesel_prices_selected_pric": {
    "id": "petrol_and_diesel_prices_selected_pric",
@@ -222,12 +273,18 @@
    "name": "Food prices (Selected price indexes)",
    "source": "Stats NZ",
    "url": "https://www.stats.govt.nz/information-releases/selected-price-indexes-august-2026/",
-   "value": "+1.9% vs a year ago (+0.3% in the month)",
-   "period": "Aug 2026",
-   "released": "Sep 2026",
-   "previous": "+0.1% in the month (Jul 2026)",
+   "value": "+1.9% vs a year ago",
+   "period": "Aug 2026 (+0.3% in the month)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "+1.9% a year; +0.1% in the month (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "yoy": 1.9117647058823461,
+    "mom": 0.28943560057888007
+   },
+   "estimate": false
   },
   "producers_price_index_outputs": {
    "id": "producers_price_index_outputs",
@@ -235,12 +292,17 @@
    "name": "Producers price index (outputs)",
    "source": "Stats NZ",
    "url": "https://www.stats.govt.nz/information-releases/business-price-indexes-june-2026-quarter/",
-   "value": "+1.6% in the quarter",
-   "period": "Jun 2026 quarter",
-   "released": "Aug 2026 (exact day not collected)",
-   "previous": "Not collected",
+   "value": "1.6%",
+   "period": "Q2 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "0.8% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-06-01",
+   "raw": {
+    "v": 1.6
+   },
+   "estimate": false
   },
   "inflation_expectations_2_years_ahead_r": {
    "id": "inflation_expectations_2_years_ahead_r",
@@ -262,11 +324,16 @@
    "source": "Stats NZ",
    "url": "https://www.stats.govt.nz/information-releases/labour-market-statistics-june-2026-quarter/",
    "value": "5.6%",
-   "period": "Jun 2026 quarter",
-   "released": "Aug 2026 (exact day not collected)",
-   "previous": "5.4% (Mar 2026 quarter)",
+   "period": "Q2 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "5.4% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-06-01",
+   "raw": {
+    "v": 5.6
+   },
+   "estimate": false
   },
   "employment_people_in_work": {
    "id": "employment_people_in_work",
@@ -301,11 +368,16 @@
    "source": "NZ Treasury (Fortnightly Economic Update)",
    "url": "https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf",
    "value": "70.7%",
-   "period": "Jun 2026 quarter",
-   "released": "Aug 2026",
-   "previous": "Not collected",
+   "period": "Q2 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "70.4% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-06-01",
+   "raw": {
+    "v": 70.7
+   },
+   "estimate": false
   },
   "labour_cost_index_salary_and_wage_rate": {
    "id": "labour_cost_index_salary_and_wage_rate",
@@ -352,12 +424,17 @@
    "name": "Gross domestic product (GDP), production measure",
    "source": "Stats NZ",
    "url": "https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/",
-   "value": "+0.2% in the quarter (+1.7% vs a year ago)",
-   "period": "Jun 2026 quarter",
-   "released": "Sep 2026 (exact day not collected)",
-   "previous": "+0.9% (Mar 2026 quarter, revised)",
+   "value": "0.2%",
+   "period": "Q2 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "0.9% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-06-01",
+   "raw": {
+    "v": 0.2
+   },
+   "estimate": false
   },
   "real_household_consumption": {
    "id": "real_household_consumption",
@@ -378,12 +455,17 @@
    "name": "Retail sales volume",
    "source": "Stats NZ",
    "url": "https://www.stats.govt.nz/information-releases/retail-trade-survey-june-2026-quarter/",
-   "value": "−0.5% in the quarter (total $26 billion)",
-   "period": "Jun 2026 quarter",
-   "released": "Aug 2026",
-   "previous": "Not collected",
+   "value": "-0.5%",
+   "period": "Q2 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "1.0% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-06-01",
+   "raw": {
+    "v": -0.5296284924777406
+   },
+   "estimate": false
   },
   "goods_exports": {
    "id": "goods_exports",
@@ -391,12 +473,18 @@
    "name": "Goods exports",
    "source": "Stats NZ",
    "url": "https://www.stats.govt.nz/information-releases/overseas-merchandise-trade-august-2026/",
-   "value": "$6.7 billion, +15% vs a year ago",
-   "period": "Aug 2026",
-   "released": "Sep 2026",
-   "previous": "Not collected",
+   "value": "+15.4% vs a year ago",
+   "period": "Aug 2026 (−7.8% in the month)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "+10.8% a year; −7.8% in the month (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "yoy": 15.40349382960786,
+    "mom": -7.768612994501578
+   },
+   "estimate": false
   },
   "anz_business_confidence": {
    "id": "anz_business_confidence",
@@ -560,12 +648,17 @@
    "name": "Brent crude oil",
    "source": "U.S. EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "US$125.44 a barrel",
+   "value": "$125.44 a barrel",
    "period": "Oct 6, 2026",
    "released": "Oct 7, 2026",
-   "previous": "US$135.51 (Oct 2); US$115.91 (Sep 30)",
+   "previous": "$125.51 (Oct 5, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-06",
+   "raw": {
+    "v": 125.44
+   },
+   "estimate": false
   },
   "wti_crude_oil": {
    "id": "wti_crude_oil",
@@ -573,12 +666,17 @@
    "name": "WTI crude oil",
    "source": "U.S. EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-   "value": "US$96.24 a barrel",
+   "value": "$96.24 a barrel",
    "period": "Oct 6, 2026",
    "released": "Oct 7, 2026",
-   "previous": "US$99.77 (Oct 1)",
+   "previous": "$96.13 (Oct 5, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-06",
+   "raw": {
+    "v": 96.24
+   },
+   "estimate": false
   },
   "rbnz_oil_assumption": {
    "id": "rbnz_oil_assumption",
@@ -600,11 +698,16 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 13, 2026",
-   "released": "Oct 13, 2026",
-   "previous": "Raised Sep 16, 2026",
+   "period": "Oct 15, 2026",
+   "released": "Oct 15, 2026",
+   "previous": "4.00% (Oct 14, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-15",
+   "raw": {
+    "v": 4
+   },
+   "estimate": false
   },
   "ecb_deposit_rate": {
    "id": "ecb_deposit_rate",
@@ -613,11 +716,16 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 9, 2026",
-   "released": "Oct 9, 2026",
-   "previous": "Raised from Sep 16, 2026",
+   "period": "Oct 15, 2026",
+   "released": "Oct 15, 2026",
+   "previous": "2.50% (Oct 14, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-15",
+   "raw": {
+    "v": 2.5
+   },
+   "estimate": false
   },
   "nz_dollar_in_australian_dollars": {
    "id": "nz_dollar_in_australian_dollars",
@@ -648,26 +756,16 @@
  },
  "releases": [
   {
-   "id": "new_mpc_member_starts_rebecca",
-   "name": "New MPC member starts (Rebecca Williams)",
-   "publisher": "RBNZ",
-   "date": "2026-10-15",
-   "date_label": "Thu Oct 15",
-   "time": "",
-   "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/09/new-monetary-policy-committee-member-appointed",
-   "what": "The Committee grows from six to seven members.",
-   "weekly": false
-  },
-  {
    "id": "selected_price_indexes",
    "name": "Selected price indexes, September",
    "publisher": "Stats NZ",
    "date": "2026-10-16",
    "date_label": "Fri Oct 16",
-   "time": "",
+   "time": "10:45 a.m. NZDT",
    "url": "https://www.stats.govt.nz/release-calendar/",
    "what": "Monthly prices for food, rents, petrol, power and some other items.",
-   "weekly": false
+   "weekly": false,
+   "timing": "before"
   },
   {
    "id": "electronic_card_transactions",
@@ -675,91 +773,83 @@
    "publisher": "Stats NZ",
    "date": "2026-10-16",
    "date_label": "Fri Oct 16",
-   "time": "",
+   "time": "10:45 a.m. NZDT",
    "url": "https://www.stats.govt.nz/release-calendar/",
    "what": "How much people spent using debit and credit cards.",
-   "weekly": false
+   "weekly": false,
+   "timing": "before"
   },
   {
-   "id": "bnz_businessnz_manufacturing_s",
-   "name": "BNZ-BusinessNZ manufacturing survey (PMI), September",
-   "publisher": "private",
-   "date": "2026-10-16",
-   "date_label": "Fri Oct 16",
-   "time": "",
-   "url": "https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf",
-   "what": "Whether factories are expanding (above 50) or shrinking (below 50).",
-   "weekly": false
+   "id": "overseas_merchandise_trade",
+   "name": "Overseas merchandise trade, September",
+   "publisher": "Stats NZ",
+   "date": "2026-10-19",
+   "date_label": "Mon Oct 19",
+   "time": "10:45 a.m. NZDT",
+   "url": "https://www.stats.govt.nz/release-calendar/",
+   "what": "Goods exports and imports for the month.",
+   "weekly": false,
+   "timing": "before"
   },
   {
    "id": "consumers_price_index_cpi",
    "name": "Consumers price index (CPI), September quarter",
    "publisher": "Stats NZ",
-   "date": "2026-10-26",
-   "date_label": "Late October",
-   "time": "(date not confirmed)",
-   "url": "https://www.stats.govt.nz/indicators/consumers-price-index-cpi/",
+   "date": "2026-10-22",
+   "date_label": "Thu Oct 22",
+   "time": "10:45 a.m. NZDT",
+   "url": "https://www.stats.govt.nz/release-calendar/",
    "what": "How much the prices families pay changed from July to September, including non-tradables.",
    "weekly": false,
-   "approx": true,
    "timing": "before"
   },
   {
-   "id": "kiwi_dollar",
-   "name": "Kiwi dollar",
-   "publisher": "RBNZ, FRED",
-   "date": "2026-10-14",
-   "date_label": "Every weekday",
-   "time": "",
-   "url": "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index",
-   "what": "The value of the NZ dollar and the price of crude oil.",
-   "weekly": true
+   "id": "employment_indicators",
+   "name": "Employment indicators, September",
+   "publisher": "Stats NZ",
+   "date": "2026-10-28",
+   "date_label": "Wed Oct 28",
+   "time": "10:45 a.m. NZDT",
+   "url": "https://www.stats.govt.nz/release-calendar/",
+   "what": "Monthly filled jobs and earnings from tax data.",
+   "weekly": false,
+   "timing": "day"
   },
   {
-   "id": "voting_opens_for_the_general_e",
-   "name": "Voting opens for the general election",
-   "publisher": "Electoral Commission",
-   "date": "2026-10-26",
-   "date_label": "Mon Oct 26",
-   "time": "",
-   "url": "https://vote.nz/2026-general-election/about/overview/",
-   "what": "New Zealanders can start voting; election day is November 7.",
-   "weekly": false
-  },
-  {
-   "id": "u_s_federal_reserve_decision",
-   "name": "U.S. Federal Reserve decision",
-   "publisher": "Fed",
-   "date": "2026-10-29",
-   "date_label": "Thu Oct 29",
-   "time": "early morning",
-   "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-   "what": "The U.S. rate decision (2:00 p.m. on Oct 28 in Washington).",
-   "weekly": false
+   "id": "monetary_policy_review",
+   "name": "RBNZ Monetary Policy Review (OCR decision)",
+   "publisher": "RBNZ",
+   "date": "2026-10-28",
+   "date_label": "Wed Oct 28",
+   "time": "2:00 p.m. NZDT",
+   "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/10/updates-to-the-october-mpr-and-november-fsr",
+   "what": "The OCR decision and the Committee's reasoning.",
+   "weekly": false,
+   "timing": "day"
   },
   {
    "id": "labour_market_statistics",
    "name": "Labour market statistics, September quarter",
    "publisher": "Stats NZ",
-   "date": "2026-11-05",
-   "date_label": "Early November",
-   "time": "(date not confirmed)",
-   "url": "https://www.stats.govt.nz/indicators/unemployment-rate/",
+   "date": "2026-11-04",
+   "date_label": "Wed Nov 4",
+   "time": "10:45 a.m. NZDT",
+   "url": "https://www.stats.govt.nz/release-calendar/",
    "what": "Unemployment, employment and wage growth.",
    "weekly": false,
-   "approx": true,
    "timing": "after"
   },
   {
-   "id": "general_election_day",
-   "name": "General election day",
-   "publisher": "",
-   "date": "2026-11-07",
-   "date_label": "Sat Nov 7",
-   "time": "",
-   "url": "https://vote.nz/2026-general-election/about/overview/",
-   "what": "New Zealand chooses its next government.",
-   "weekly": false
+   "id": "selected_price_indexes_oct",
+   "name": "Selected price indexes, October",
+   "publisher": "Stats NZ",
+   "date": "2026-11-17",
+   "date_label": "Tue Nov 17",
+   "time": "10:45 a.m. NZDT",
+   "url": "https://www.stats.govt.nz/release-calendar/",
+   "what": "Monthly prices for food, rents, petrol, power and some other items.",
+   "weekly": false,
+   "timing": "after"
   },
   {
    "id": "financial_stability_report",
@@ -770,12 +860,61 @@
    "time": "9:00 a.m.",
    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/10/updates-to-the-october-mpr-and-november-fsr",
    "what": "The RBNZ’s check on the health of banks, borrowers and the financial system.",
-   "weekly": false
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "business_price_indexes",
+   "name": "Business price indexes, September quarter",
+   "publisher": "Stats NZ",
+   "date": "2026-11-18",
+   "date_label": "Wed Nov 18",
+   "time": "10:45 a.m. NZDT",
+   "url": "https://www.stats.govt.nz/release-calendar/",
+   "what": "Producer prices (outputs and inputs).",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "retail_trade_survey",
+   "name": "Retail trade survey, September quarter",
+   "publisher": "Stats NZ",
+   "date": "2026-11-23",
+   "date_label": "Mon Nov 23",
+   "time": "10:45 a.m. NZDT",
+   "url": "https://www.stats.govt.nz/release-calendar/",
+   "what": "How much shops sold, in dollars and in volume.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "balance_of_payments",
+   "name": "Balance of payments, September quarter",
+   "publisher": "Stats NZ",
+   "date": "2026-12-16",
+   "date_label": "Wed Dec 16",
+   "time": "10:45 a.m. NZDT",
+   "url": "https://www.stats.govt.nz/release-calendar/",
+   "what": "The current account: trade and income with the rest of the world.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "gross_domestic_product",
+   "name": "Gross domestic product, September quarter",
+   "publisher": "Stats NZ",
+   "date": "2026-12-17",
+   "date_label": "Thu Dec 17",
+   "time": "10:45 a.m. NZDT",
+   "url": "https://www.stats.govt.nz/release-calendar/",
+   "what": "Size of the economy and growth in the quarter.",
+   "weekly": false,
+   "timing": "after"
   }
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Starting snapshot, checked by hand.",
+   "headline": "No major policy news since the last update; preparing for the October 28 review.",
    "items": []
   },
   "verdict": {
@@ -813,7 +952,7 @@
    },
    {
     "title": "Reasons the RBNZ might raise again in October",
-    "html": "<ul><li><strong>Oil is far above what the RBNZ assumed.</strong> Its September forecasts assumed Dubai oil of about US$85 a barrel for the September quarter. Brent oil hit US$135.51 on October 2 and was US$125.44 on October 6 (<a href=\"https://fred.stlouisfed.org/series/DCOILBRENTEU\">FRED</a>). Governor Breman said on September 22: “If higher oil prices persist, they are expected to result in somewhat higher near-term inflation” (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/09/rbnz-leaders-visit-dunedin-to-understand-how-the-local-economy-is-evolving\">RBNZ</a>).</li><li><strong>The Kiwi dollar is weaker than assumed.</strong> The RBNZ assumed a trade-weighted index of 66.9. On October 14 it was <strong>63.94</strong>, and one NZ dollar bought only US$0.562 (<a href=\"https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index\">RBNZ</a>). A weaker currency makes imported fuel and goods dearer.</li><li><strong>Markets expect it.</strong> In mid-September, Treasury said markets priced about a <strong>70% chance</strong> of an October rise (<a href=\"https://www.treasury.govt.nz/sites/default/files/2026-09/feu-18sep26.pdf\">Treasury</a>). The 90-day bank bill rate (3.23%) is well above the OCR, consistent with that.</li><li><strong>The Committee’s balance has tilted.</strong> Four of six members saw upside inflation risk in September. Chief Economist Paul Conway warned that “businesses pass on cost increases more readily now than in the past” (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/07/speech-by-paul-conway\">speech</a>).</li><li><strong>Other central banks are braking.</strong> The U.S. Fed raised to 3.75%–4.00% and the ECB’s deposit rate is 2.50% after a September rise.</li></ul>"
+    "html": "<ul><li><strong>Oil is far above what the RBNZ assumed.</strong> Its September forecasts assumed Dubai oil of about US$85 a barrel for the September quarter. Brent oil hit US$135.51 on October 2 and was US$125.44 on October 6 (FRED). Governor Breman said on September 22: “If higher oil prices persist, they are expected to result in somewhat higher near-term inflation” (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/09/rbnz-leaders-visit-dunedin-to-understand-how-the-local-economy-is-evolving\">RBNZ</a>).</li><li><strong>The Kiwi dollar is weaker than assumed.</strong> The RBNZ assumed a trade-weighted index of 66.9. On October 14 it was <strong>63.94</strong>, and one NZ dollar bought only US$0.562 (<a href=\"https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index\">RBNZ</a>). A weaker currency makes imported fuel and goods dearer.</li><li><strong>Markets expect it.</strong> In mid-September, Treasury said markets priced about a <strong>70% chance</strong> of an October rise (<a href=\"https://www.treasury.govt.nz/sites/default/files/2026-09/feu-18sep26.pdf\">Treasury</a>). The 90-day bank bill rate (3.23%) is well above the OCR, consistent with that.</li><li><strong>The Committee’s balance has tilted.</strong> Four of six members saw upside inflation risk in September. Chief Economist Paul Conway warned that “businesses pass on cost increases more readily now than in the past” (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/07/speech-by-paul-conway\">speech</a>).</li><li><strong>Other central banks are braking.</strong> The U.S. Fed raised to 3.75%–4.00% and the ECB’s deposit rate is 2.50% after a September rise.</li></ul>"
    },
    {
     "title": "Reasons the RBNZ might wait until December",
@@ -1066,7 +1205,8 @@
      "<strong>Spillover is limited so far.</strong> Food inflation 1.9%, rents flat, pay growth 2.0%–2.8%.",
      "<strong>A soft September CPI</strong> could persuade the Committee to wait for December’s full forecasts."
     ],
-    "everyday": "floating mortgage rates and overdrafts would rise by roughly a quarter point within weeks. On a NZ$500,000 floating mortgage, that is about NZ$1,250 more interest a year (our rough calculation). Term deposits would pay a bit more, and the Kiwi dollar might firm up."
+    "everyday": "floating mortgage rates and overdrafts would rise by roughly a quarter point within weeks. On a NZ$500,000 floating mortgage, that is about NZ$1,250 more interest a year (our rough calculation). Term deposits would pay a bit more, and the Kiwi dollar might firm up.",
+    "prob": 55
    },
    {
     "option": "hold",
@@ -1085,7 +1225,8 @@
      "<strong>Surprising markets is costly.</strong> With a rise largely expected, a hold could push the Kiwi dollar down further, adding to imported inflation.",
      "<strong>A hot September CPI</strong> would make waiting look risky."
     ],
-    "everyday": "floating loan and savings rates would stay about where they are for now. Fixed mortgage rates would keep following wholesale rates, which already expect rises."
+    "everyday": "floating loan and savings rates would stay about where they are for now. Fixed mortgage rates would keep following wholesale rates, which already expect rises.",
+    "prob": 42
    },
    {
     "option": "cut",
@@ -1101,7 +1242,8 @@
      "<strong>Nobody is asking for it.</strong> In the statements and speeches we read since July, no MPC member argued for a cut.",
      "<strong>The RBNZ’s own track points up,</strong> to about 3.2%."
     ],
-    "everyday": "loans would get slightly cheaper, but the surprise itself would signal that something had gone badly wrong in the economy."
+    "everyday": "loans would get slightly cheaper, but the surprise itself would signal that something had gone badly wrong in the economy.",
+    "prob": 3
    }
   ],
   "change": {
@@ -1156,7 +1298,7 @@
    },
    "other_title": "Other things that could move our view",
    "other": [
-    "<strong>Oil and the Middle East.</strong> Fuel is the main driver of today’s inflation. Brent jumped to US$135.51 on October 2 before easing to US$125.44 on October 6 (<a href=\"https://fred.stlouisfed.org/series/DCOILBRENTEU\">FRED</a>). A sustained move back below US$100 would make waiting much easier. Another spike would make a rise more likely, and could even put a 0.50-point rise on the table.",
+    "<strong>Oil and the Middle East.</strong> Fuel is the main driver of today’s inflation. Brent jumped to US$135.51 on October 2 before easing to US$125.44 on October 6 (FRED). A sustained move back below US$100 would make waiting much easier. Another spike would make a rise more likely, and could even put a 0.50-point rise on the table.",
     "<strong>The Kiwi dollar.</strong> A further slide (for example below US$0.55) would add to imported inflation and push toward Raise.",
     "<strong>Final words from the RBNZ.</strong> The last on-the-record comments we found are Governor Breman’s from September 22. Any speech or interview before October 28 is a direct hint. Central banks usually avoid policy comments in the days just before a decision.",
     "<strong>Bond markets.</strong> If the 10-year rate falls back sharply, one argument for Hold (that markets already tightened) weakens. If it rises well above 5%, the RBNZ may feel the market is doing more of the work.",
@@ -1693,11 +1835,11 @@
   "mini": {
    "prices": [
     "4.1%",
-    "CPI, Jun qtr"
+    "CPI, Q2"
    ],
    "jobless": [
     "5.6%",
-    "Jun qtr"
+    "Q2"
    ],
    "10-yr": [
     "4.98%",
@@ -1705,7 +1847,7 @@
    ]
   },
   "rate_label": "Current OCR",
-  "time_label": "2:00 p.m. NZDT (9:00 p.m. ET Oct 27)"
+  "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office."
  },
  "live_series": [
   {
@@ -1800,11 +1942,52 @@
  ],
  "changelog": [],
  "qa": {
-  "data_errors": [],
+  "data_errors": [
+   "nz_dollar_in_us_dollars: HTTP 400 for https://api.stlouisfed.org/fred/series/observations?series_id=DEXNZUS&api_key=***&file_type=json&sort_order=desc&limit=40",
+   "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience",
+   "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/rbnz-and-fma-outline-supervisory-expectations-on-cyber-and-ai-risks: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/rbnz-and-fma-outline-supervisory-expectations-on-cyber-and-ai-risks",
+   "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/recruitment-for-two-new-assistant-governors-and-chief-of-staff-underway: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/recruitment-for-two-new-assistant-governors-and-chief-of-staff-underway",
+   "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/updates-to-the-october-mpr-and-november-fsr: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/updates-to-the-october-mpr-and-november-fsr",
+   "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/consultation-finds-strong-support-for-access-to-cash: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/consultation-finds-strong-support-for-access-to-cash",
+   "page https://www.rbnz.govt.nz/news-and-events/news/2026/09/new-monetary-policy-committee-member-appointed: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/09/new-monetary-policy-committee-member-appointed"
+  ],
   "ai_errors": [],
+  "sources_read": [
+   {
+    "title": "APRA and RBNZ complete joint bank stress test to promote trans-Tasman resilience",
+    "date": "2026-10-14",
+    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience"
+   },
+   {
+    "title": "RBNZ and FMA outline supervisory expectations on cyber and AI risks",
+    "date": "2026-10-14",
+    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/10/rbnz-and-fma-outline-supervisory-expectations-on-cyber-and-ai-risks"
+   },
+   {
+    "title": "Recruitment for two new Assistant Governors and Chief of Staff underway",
+    "date": "2026-10-07",
+    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/10/recruitment-for-two-new-assistant-governors-and-chief-of-staff-underway"
+   },
+   {
+    "title": "Updates to the October Monetary Policy Review and November Financial Stability Report",
+    "date": "2026-10-05",
+    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/10/updates-to-the-october-mpr-and-november-fsr"
+   },
+   {
+    "title": "Consultation finds strong support for access to cash services",
+    "date": "2026-09-30",
+    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/10/consultation-finds-strong-support-for-access-to-cash"
+   },
+   {
+    "title": "New Monetary Policy Committee member appointed",
+    "date": "2026-09-24",
+    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/09/new-monetary-policy-committee-member-appointed"
+   }
+  ],
   "coverage": {
-   "automatic": 0,
-   "manual": 39
-  }
+   "automatic": 14,
+   "manual": 25
+  },
+  "ai_ran": true
  }
 }

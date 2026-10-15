@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "code": "canada",
- "asof_date": "2026-10-14",
- "asof_label": "Oct 14, 2026",
- "generated_at": "2026-10-14T16:20:51.874Z",
- "data_updated_at": null,
- "narrative_updated_at": null,
+ "asof_date": "2026-10-15",
+ "asof_label": "Oct 15, 2026",
+ "generated_at": "2026-10-15T12:50:55.747Z",
+ "data_updated_at": "2026-10-15T12:50:55.747Z",
+ "narrative_updated_at": "2026-10-15T12:50:55.747Z",
  "narrative_stale": false,
- "narrative_model": "hand-checked snapshot",
+ "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "canada",
   "short": "CA",
@@ -25,20 +25,56 @@
   "next": {
    "start": null,
    "end": "2026-10-28",
-   "time_label": "9:45 a.m. ET",
    "label": "Wednesday, October 28, 2026, together with a new Monetary Policy Report (the BoC’s full forecast, published four times a year)",
-   "decision_label": "Wednesday, Oct 28, 9:45 a.m. Eastern Time (when the BoC publishes its press release)"
+   "decision_label": "Wednesday, Oct 28, 9:45 a.m. Eastern Time (when the BoC publishes its press release)",
+   "time_label": "9:45 a.m. Eastern Time"
   },
   "after": {
    "start": null,
-   "end": null,
-   "label": "Wednesday, December 9, 2026"
+   "end": "2026-12-09",
+   "label": "Wednesday, December 9, 2026",
+   "decision_label": "Wednesday, Dec 9, 9:45 a.m. Eastern Time (when the BoC publishes its press release)",
+   "time_label": "9:45 a.m. Eastern Time"
   },
   "calendar_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
   "calendar_label": "Official BoC announcement schedule",
-  "who": "The Bank of Canada (“the BoC”), Canada’s central bank. Its decisions are made by a small group of senior officials called the Governing Council, led by Governor Tiff Macklem. It aims to agree as a group, so there is no published vote count like in the U.S."
+  "who": "The Bank of Canada (“the BoC”), Canada’s central bank. Its decisions are made by a small group of senior officials called the Governing Council, led by Governor Tiff Macklem. It aims to agree as a group, so there is no published vote count like in the U.S.",
+  "days_to_decision": 13
  },
- "kpis": [],
+ "kpis": [
+  {
+   "label": "Bank of Canada rate",
+   "value": "2.25%",
+   "note": "",
+   "period": "Oct 14, 2026",
+   "source": "Bank of Canada",
+   "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
+  },
+  {
+   "label": "Price rise, past year",
+   "value": "3.0%",
+   "note": "",
+   "period": "Aug 2026",
+   "source": "Statistics Canada",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm"
+  },
+  {
+   "label": "Unemployment",
+   "value": "6.5%",
+   "note": "",
+   "period": "Sep 2026",
+   "source": "Statistics Canada",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm"
+  },
+  {
+   "label": "10-year bond rate",
+   "value": "3.87%",
+   "note": "",
+   "period": "Oct 13, 2026",
+   "source": "Bank of Canada",
+   "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28"
+  }
+ ],
  "kpis_seed": [
   {
    "label": "Bank of Canada rate",
@@ -143,11 +179,17 @@
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
    "value": "+3.0% vs a year ago",
-   "period": "Aug 2026 (−0.1% in the month; +0.2% seasonally adjusted)",
-   "released": "Sep 14, 2026",
-   "previous": "+3.0% (July)",
+   "period": "Aug 2026 (−0.1% in the month)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "+3.0% a year; +0.5% in the month (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "yoy": 3.033980582524265,
+    "mom": -0.05885815185402432
+   },
+   "estimate": false
   },
   "cpi_trim_boc_core_measure": {
    "id": "cpi_trim_boc_core_measure",
@@ -157,10 +199,15 @@
    "url": "https://www.bankofcanada.ca/rates/price-indexes/cpi/",
    "value": "1.9%",
    "period": "Aug 2026",
-   "released": "Sep 14, 2026",
-   "previous": "1.9% (July)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "1.9% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 1.9
+   },
+   "estimate": false
   },
   "cpi_median_boc_core_measure": {
    "id": "cpi_median_boc_core_measure",
@@ -170,10 +217,15 @@
    "url": "https://www.bankofcanada.ca/rates/price-indexes/cpi/",
    "value": "2.0%",
    "period": "Aug 2026",
-   "released": "Sep 14, 2026",
-   "previous": "2.0% (July)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "2.0% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 2
+   },
+   "estimate": false
   },
   "cpi_without_food_and_energy_cpi_xfet": {
    "id": "cpi_without_food_and_energy_cpi_xfet",
@@ -183,10 +235,15 @@
    "url": "https://www.bankofcanada.ca/rates/price-indexes/cpi/",
    "value": "2.1%",
    "period": "Aug 2026",
-   "released": "Sep 14, 2026",
-   "previous": "1.9% (July)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "1.9% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 2.1
+   },
+   "estimate": false
   },
   "cpi_without_gasoline": {
    "id": "cpi_without_gasoline",
@@ -195,11 +252,17 @@
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
    "value": "+2.4% vs a year ago",
-   "period": "Aug 2026",
+   "period": "Aug 2026 (+0.0% in the month)",
    "released": "Sep 14, 2026",
-   "previous": "+2.2% (July)",
+   "previous": "+2.2% a year; +0.4% in the month (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "yoy": 2.391171060698971,
+    "mom": 0
+   },
+   "estimate": false
   },
   "gasoline_prices": {
    "id": "gasoline_prices",
@@ -208,11 +271,17 @@
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
    "value": "+22.8% vs a year ago",
-   "period": "Aug 2026",
+   "period": "Aug 2026 (−0.9% in the month)",
    "released": "Sep 14, 2026",
-   "previous": "+25.7% (July)",
+   "previous": "+25.7% a year; +3.6% in the month (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "yoy": 22.784810126582265,
+    "mom": -0.942655145325999
+   },
+   "estimate": false
   },
   "rent": {
    "id": "rent",
@@ -221,11 +290,17 @@
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
    "value": "+2.8% vs a year ago",
-   "period": "Aug 2026",
+   "period": "Aug 2026 (+0.8% in the month)",
    "released": "Sep 14, 2026",
-   "previous": "+2.5% (July)",
+   "previous": "+2.5% a year; −0.5% in the month (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "yoy": 2.810018326206487,
+    "mom": 0.7784431137724646
+   },
+   "estimate": false
   },
   "food_from_stores": {
    "id": "food_from_stores",
@@ -234,11 +309,17 @@
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
    "value": "+2.8% vs a year ago",
-   "period": "Aug 2026",
+   "period": "Aug 2026 (−0.4% in the month)",
    "released": "Sep 14, 2026",
-   "previous": "+3.1% (July)",
+   "previous": "+3.1% a year; +0.1% in the month (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "yoy": 2.780638516992795,
+    "mom": -0.44887780548629186
+   },
+   "estimate": false
   },
   "businesses_inflation_expectations_1_an": {
    "id": "businesses_inflation_expectations_1_an",
@@ -259,12 +340,18 @@
    "name": "Employment change",
    "source": "Statistics Canada (Labour Force Survey)",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm",
-   "value": "−68,000",
+   "value": "−68,300",
    "period": "Sep 2026",
    "released": "Oct 9, 2026",
-   "previous": "−42,000 (Aug)",
+   "previous": "−41,700 (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "chg": -68299.99999999927,
+    "avg3": -11633.333333333818
+   },
+   "estimate": false
   },
   "unemployment_rate": {
    "id": "unemployment_rate",
@@ -275,9 +362,14 @@
    "value": "6.5%",
    "period": "Sep 2026",
    "released": "Oct 9, 2026",
-   "previous": "6.4% (Aug)",
+   "previous": "6.4% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 6.5
+   },
+   "estimate": false
   },
   "average_hourly_wages": {
    "id": "average_hourly_wages",
@@ -285,12 +377,17 @@
    "name": "Average hourly wages",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm",
-   "value": "+2.3% vs a year ago",
+   "value": "2.3%",
    "period": "Sep 2026",
    "released": "Oct 9, 2026",
-   "previous": "+2.0% (Aug)",
+   "previous": "2.0% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 2.3
+   },
+   "estimate": false
   },
   "participation_rate": {
    "id": "participation_rate",
@@ -301,9 +398,14 @@
    "value": "64.8%",
    "period": "Sep 2026",
    "released": "Oct 9, 2026",
-   "previous": "65.0% (Aug)",
+   "previous": "65.0% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 64.8
+   },
+   "estimate": false
   },
   "employment_rate": {
    "id": "employment_rate",
@@ -314,9 +416,14 @@
    "value": "60.6%",
    "period": "Sep 2026",
    "released": "Oct 9, 2026",
-   "previous": "60.8% (Aug)",
+   "previous": "60.8% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 60.6
+   },
+   "estimate": false
   },
   "public_sector_jobs": {
    "id": "public_sector_jobs",
@@ -327,9 +434,15 @@
    "value": "−70,000",
    "period": "Sep 2026",
    "released": "Oct 9, 2026",
-   "previous": "Down for a third month in Aug",
+   "previous": "−20,000 (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "chg": -70000,
+    "avg3": -39000
+   },
+   "estimate": false
   },
   "youth_unemployment_15_24": {
    "id": "youth_unemployment_15_24",
@@ -340,9 +453,14 @@
    "value": "13.0%",
    "period": "Sep 2026",
    "released": "Oct 9, 2026",
-   "previous": "12.9% (Aug)",
+   "previous": "12.9% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 13
+   },
+   "estimate": false
   },
   "job_vacancies": {
    "id": "job_vacancies",
@@ -363,12 +481,17 @@
    "name": "Real GDP growth (spring)",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260828/dq260828a-eng.htm",
-   "value": "+0.8% in the quarter (about 3.3% yearly pace)",
-   "period": "Q2 2026 (April–June)",
+   "value": "0.8%",
+   "period": "Q2 2026",
    "released": "Aug 28, 2026",
-   "previous": "+0.1% (Q1, revised)",
-   "tag": "old",
-   "manual": true
+   "previous": "0.1% (Q1 2026)",
+   "tag": "official",
+   "manual": false,
+   "latest_date": "2026-04-01",
+   "raw": {
+    "v": 0.8
+   },
+   "estimate": false
   },
   "monthly_gdp": {
    "id": "monthly_gdp",
@@ -379,9 +502,14 @@
    "value": "0.0%",
    "period": "Jul 2026",
    "released": "Sep 29, 2026",
-   "previous": "Up three months in a row before July",
-   "tag": "official",
-   "manual": true
+   "previous": "0.4% (Jun 2026)",
+   "tag": "old",
+   "manual": false,
+   "latest_date": "2026-07-01",
+   "raw": {
+    "v": 0
+   },
+   "estimate": false
   },
   "retail_sales": {
    "id": "retail_sales",
@@ -390,11 +518,16 @@
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260924/dq260924a-eng.htm",
    "value": "−0.7% in the month",
-   "period": "Jul 2026 (volume −1.1%)",
+   "period": "Jul 2026",
    "released": "Sep 24, 2026",
-   "previous": "Core retail +1.2% in June",
-   "tag": "official",
-   "manual": true
+   "previous": "+0.6% (Jun 2026)",
+   "tag": "old",
+   "manual": false,
+   "latest_date": "2026-07-01",
+   "raw": {
+    "mom": -0.7394128842345915
+   },
+   "estimate": false
   },
   "merchandise_trade_balance": {
    "id": "merchandise_trade_balance",
@@ -402,12 +535,17 @@
    "name": "Merchandise trade balance",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261006/dq261006a-eng.htm",
-   "value": "$4.2 billion surplus",
-   "period": "Aug 2026 (exports +2.5%)",
+   "value": "$4.2 billion",
+   "period": "Aug 2026",
    "released": "Oct 6, 2026",
-   "previous": "$787 million surplus (July)",
+   "previous": "$0.8 billion (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 4.1988
+   },
+   "estimate": false
   },
   "household_saving_rate": {
    "id": "household_saving_rate",
@@ -418,9 +556,14 @@
    "value": "3.7%",
    "period": "Q2 2026",
    "released": "Aug 28, 2026",
-   "previous": "Not collected",
-   "tag": "old",
-   "manual": true
+   "previous": "3.3% (Q1 2026)",
+   "tag": "official",
+   "manual": false,
+   "latest_date": "2026-04-01",
+   "raw": {
+    "v": 3.7
+   },
+   "estimate": false
   },
   "building_permits": {
    "id": "building_permits",
@@ -428,12 +571,17 @@
    "name": "Building permits",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260916/dq260916a-eng.htm",
-   "value": "$12.2 billion (−17.3% in the month)",
-   "period": "Jul 2026",
-   "released": "Sep 16, 2026",
-   "previous": "About $14.8 billion (June, implied)",
+   "value": "$13.6 billion",
+   "period": "Aug 2026",
+   "released": "Oct 14, 2026",
+   "previous": "$12.5 billion (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 13.571697
+   },
+   "estimate": false
   },
   "boc_growth_forecast_for_2026": {
    "id": "boc_growth_forecast_for_2026",
@@ -455,11 +603,16 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
    "value": "2.25%",
-   "period": "Set Oct 29, 2025; held Sep 2, 2026",
-   "released": "Sep 2, 2026",
-   "previous": "2.50% (before Oct 29, 2025)",
+   "period": "Oct 14, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "2.25% (Oct 13, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-14",
+   "raw": {
+    "v": 2.25
+   },
+   "estimate": false
   },
   "corra_overnight_lending_rate": {
    "id": "corra_overnight_lending_rate",
@@ -468,11 +621,16 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/AVG.INTWO/json?recent=6",
    "value": "2.28%",
-   "period": "Oct 8, 2026",
-   "released": "Daily",
-   "previous": "2.29% (Oct 7)",
+   "period": "Oct 13, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "2.28% (Oct 9, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-13",
+   "raw": {
+    "v": 2.28
+   },
+   "estimate": false
   },
   "2_year_government_of_canada_bond": {
    "id": "2_year_government_of_canada_bond",
@@ -480,12 +638,17 @@
    "name": "2-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.24%",
-   "period": "Oct 8, 2026",
-   "released": "Daily",
-   "previous": "3.01% (Sep 1); peak 3.40% (Sep 23)",
+   "value": "3.19%",
+   "period": "Oct 13, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.18% (Oct 9, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-13",
+   "raw": {
+    "v": 3.19
+   },
+   "estimate": false
   },
   "5_year_government_of_canada_bond": {
    "id": "5_year_government_of_canada_bond",
@@ -493,12 +656,17 @@
    "name": "5-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.60%",
-   "period": "Oct 8, 2026",
-   "released": "Daily",
-   "previous": "3.35% (Sep 1)",
+   "value": "3.55%",
+   "period": "Oct 13, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.54% (Oct 9, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-13",
+   "raw": {
+    "v": 3.55
+   },
+   "estimate": false
   },
   "10_year_government_of_canada_bond": {
    "id": "10_year_government_of_canada_bond",
@@ -506,12 +674,17 @@
    "name": "10-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.93%",
-   "period": "Oct 8, 2026",
-   "released": "Daily",
-   "previous": "3.75% (Sep 1); 3.15% (Oct 29, 2025)",
+   "value": "3.87%",
+   "period": "Oct 13, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.86% (Oct 9, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-13",
+   "raw": {
+    "v": 3.87
+   },
+   "estimate": false
   },
   "canadian_dollar_us_1_in_c": {
    "id": "canadian_dollar_us_1_in_c",
@@ -519,12 +692,17 @@
    "name": "Canadian dollar (US$1 in C$)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25",
-   "value": "C$1.4271",
-   "period": "Oct 9, 2026",
-   "released": "Daily",
-   "previous": "C$1.3896 (Sep 1)",
+   "value": "C$1.4263",
+   "period": "Oct 14, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "C$1.4222 (Oct 13, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-14",
+   "raw": {
+    "v": 1.4263
+   },
+   "estimate": false
   },
   "market_forecasters_expected_boc_rate_p": {
    "id": "market_forecasters_expected_boc_rate_p",
@@ -628,7 +806,8 @@
    "time": "8:30 a.m. ET",
    "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
    "what": "Sales at factories and wholesalers.",
-   "weekly": false
+   "weekly": false,
+   "timing": "after"
   },
   {
    "id": "consumer_price_index_cpi",
@@ -639,7 +818,8 @@
    "time": "8:30 a.m. ET",
    "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
    "what": "How much the prices families pay changed in September, plus the BoC’s core measures.",
-   "weekly": false
+   "weekly": false,
+   "timing": "after"
   },
   {
    "id": "business_outlook_survey_and_co",
@@ -650,7 +830,8 @@
    "time": "11:30 a.m. ET",
    "url": "https://www.bankofcanada.ca/press/upcoming-events/",
    "what": "The BoC’s own interviews with businesses and survey of households: sales, hiring, prices and inflation expectations.",
-   "weekly": false
+   "weekly": false,
+   "timing": "after"
   },
   {
    "id": "new_housing_price_index_and_in",
@@ -661,7 +842,8 @@
    "time": "8:30 a.m. ET",
    "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
    "what": "Prices of new homes, and prices factories pay and charge.",
-   "weekly": false
+   "weekly": false,
+   "timing": "after"
   },
   {
    "id": "retail_trade",
@@ -671,8 +853,9 @@
    "date_label": "Fri Oct 23",
    "time": "8:30 a.m. ET",
    "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
-   "what": "How much people spent in shops. An early estimate said +1.3%.",
-   "weekly": false
+   "what": "How much people spent in shops.",
+   "weekly": false,
+   "timing": "after"
   },
   {
    "id": "gdp_by_industry",
@@ -680,10 +863,23 @@
    "publisher": "StatCan",
    "date": "2026-10-30",
    "date_label": "Fri Oct 30",
-   "time": "",
-   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260929/dq260929a-eng.htm",
-   "what": "How much the economy grew in August (the early estimate was +0.2%).",
-   "weekly": false
+   "time": "8:30 a.m. ET",
+   "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
+   "what": "How much the economy grew in August.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "merchandise_trade",
+   "name": "International merchandise trade, September",
+   "publisher": "StatCan",
+   "date": "2026-11-04",
+   "date_label": "Wed Nov 4",
+   "time": "8:30 a.m. ET",
+   "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
+   "what": "What Canada sold abroad and bought from abroad.",
+   "weekly": false,
+   "timing": "after"
   },
   {
    "id": "labour_force_survey",
@@ -691,10 +887,11 @@
    "publisher": "StatCan",
    "date": "2026-11-06",
    "date_label": "Fri Nov 6",
-   "time": "",
-   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm",
+   "time": "8:30 a.m. ET",
+   "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
    "what": "Jobs and the unemployment rate.",
-   "weekly": false
+   "weekly": false,
+   "timing": "after"
   },
   {
    "id": "market_participants_survey",
@@ -705,7 +902,8 @@
    "time": "10:30 a.m. ET",
    "url": "https://www.bankofcanada.ca/press/upcoming-events/",
    "what": "What financial market professionals expect for rates and inflation.",
-   "weekly": false
+   "weekly": false,
+   "timing": "after"
   },
   {
    "id": "summary_of_deliberations_oct_2",
@@ -716,12 +914,109 @@
    "time": "1:30 p.m. ET",
    "url": "https://www.bankofcanada.ca/press/upcoming-events/",
    "what": "Notes on what officials discussed at the October meeting.",
-   "weekly": false
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "building_permits",
+   "name": "Building permits, September",
+   "publisher": "StatCan",
+   "date": "2026-11-12",
+   "date_label": "Thu Nov 12",
+   "time": "8:30 a.m. ET",
+   "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
+   "what": "How much builders plan to spend on new construction.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "consumer_price_index_cpi_nov",
+   "name": "Consumer Price Index (CPI), October",
+   "publisher": "StatCan",
+   "date": "2026-11-16",
+   "date_label": "Mon Nov 16",
+   "time": "8:30 a.m. ET",
+   "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
+   "what": "How much the prices families pay changed in October, plus the BoC’s core measures.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "retail_trade_nov",
+   "name": "Retail trade, September",
+   "publisher": "StatCan",
+   "date": "2026-11-20",
+   "date_label": "Fri Nov 20",
+   "time": "8:30 a.m. ET",
+   "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
+   "what": "How much people spent in shops.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "senior_loan_officer_survey",
+   "name": "Senior Loan Officer Survey",
+   "publisher": "BoC",
+   "date": "2026-11-20",
+   "date_label": "Fri Nov 20",
+   "time": "10:30 a.m. ET",
+   "url": "https://www.bankofcanada.ca/press/upcoming-events/",
+   "what": "How banks and other lenders are changing their lending to businesses.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "gdp_income_and_expenditure_q3",
+   "name": "GDP, income and expenditure, third quarter",
+   "publisher": "StatCan",
+   "date": "2026-11-30",
+   "date_label": "Mon Nov 30",
+   "time": "8:30 a.m. ET",
+   "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
+   "what": "How much the economy grew in July to September.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "labour_force_survey_dec",
+   "name": "Labour Force Survey, November",
+   "publisher": "StatCan",
+   "date": "2026-12-04",
+   "date_label": "Fri Dec 4",
+   "time": "8:30 a.m. ET",
+   "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
+   "what": "Jobs and the unemployment rate.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "consumer_price_index_cpi_dec",
+   "name": "Consumer Price Index (CPI), November",
+   "publisher": "StatCan",
+   "date": "2026-12-14",
+   "date_label": "Mon Dec 14",
+   "time": "8:30 a.m. ET",
+   "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
+   "what": "How much the prices families pay changed in November, plus the BoC’s core measures.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "summary_of_deliberations_dec",
+   "name": "Summary of deliberations (Dec 9 meeting)",
+   "publisher": "BoC",
+   "date": "2026-12-23",
+   "date_label": "Wed Dec 23",
+   "time": "1:30 p.m. ET",
+   "url": "https://www.bankofcanada.ca/press/upcoming-events/",
+   "what": "Notes on what officials discussed at the December meeting.",
+   "weekly": false,
+   "timing": "after"
   }
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Starting snapshot, checked by hand.",
+   "headline": "No important new data since the last update.",
    "items": []
   },
   "verdict": {
@@ -1007,7 +1302,8 @@
      "The BoC says upside risks “have increased”, and businesses expect 3%–3.5% inflation.",
      "A hot September price report on October 19 could make waiting feel too risky."
     ],
-    "everyday": "variable-rate mortgages, lines of credit and savings rates would stay roughly where they are. Fixed mortgage rates follow bond markets, so they could still move."
+    "everyday": "variable-rate mortgages, lines of credit and savings rates would stay roughly where they are. Fixed mortgage rates follow bond markets, so they could still move.",
+    "prob": 75
    },
    {
     "option": "raise",
@@ -1026,7 +1322,8 @@
      "Jobs fell two months in a row, and pay is rising only 2.3% a year.",
      "In June, professional forecasters surveyed by the BoC expected no rise before March 2027."
     ],
-    "everyday": "variable-rate mortgage payments and line-of-credit costs would rise a little. Savings accounts and GICs would pay a bit more. The loonie might firm up."
+    "everyday": "variable-rate mortgage payments and line-of-credit costs would rise a little. Savings accounts and GICs would pay a bit more. The loonie might firm up.",
+    "prob": 20
    },
    {
     "option": "cut",
@@ -1042,7 +1339,8 @@
      "<strong>Nobody is asking for it.</strong> In the statements and speeches we read since September, no BoC official argued for a cut.",
      "<strong>The BoC has been warning about higher, not lower, rates.</strong>"
     ],
-    "everyday": "loans would get slightly cheaper, but the surprise itself would signal that something had gone badly wrong."
+    "everyday": "loans would get slightly cheaper, but the surprise itself would signal that something had gone badly wrong.",
+    "prob": 5
    }
   ],
   "change": {
@@ -1089,7 +1387,7 @@
    },
    "other_title": "Other things that could move our view",
    "other": [
-    "<strong>Oil and the Middle East.</strong> Fuel is the main driver of today’s inflation. Brent oil jumped to US$135.51 on October 2 before easing to US$125.44 on October 6 (<a href=\"https://fred.stlouisfed.org/series/DCOILBRENTEU\">FRED</a>). A sustained new jump would raise the chance of a rise. A big drop would make waiting easier. Remember it cuts both ways for Canada: higher oil also lifts export income.",
+    "<strong>Oil and the Middle East.</strong> Fuel is the main driver of today’s inflation. Brent oil jumped to US$135.51 on October 2 before easing to US$125.44 on October 6 (FRED). A sustained new jump would raise the chance of a rise. A big drop would make waiting easier. Remember it cuts both ways for Canada: higher oil also lifts export income.",
     "<strong>U.S. tariffs.</strong> A bigger trade fight would hurt jobs and growth, pushing the BoC further toward Hold (and raising the small chance of a cut).",
     "<strong>The loonie.</strong> A further slide in the Canadian dollar would make imports dearer and nudge the BoC toward a rise.",
     "<strong>The quiet period.</strong> The BoC limits public comments on policy in the days before each decision (its “blackout” guidelines), so the mid-October talks are likely the last direct hints."
@@ -1608,12 +1906,12 @@
     "Sep"
    ],
    "10-yr": [
-    "3.93%",
-    "Oct 8"
+    "3.87%",
+    "Oct 13"
    ]
   },
   "rate_label": "Current BoC rate",
-  "time_label": "9:45 a.m. ET"
+  "time_label": "9:45 a.m. Eastern Time"
  },
  "live_series": [
   {
@@ -1715,9 +2013,52 @@
  "qa": {
   "data_errors": [],
   "ai_errors": [],
+  "sources_read": [
+   {
+    "title": "Bank of Canada Board launches process to fill external Deputy Governor position",
+    "date": "2026-09-10",
+    "url": "https://www.bankofcanada.ca/2026/09/bank-canada-board-launches-process-fill-external-deputy-governor-position/"
+   },
+   {
+    "title": "Summary of Governing Council deliberations: Fixed announcement date of September&nbsp;2, 2026",
+    "date": "2026-09-16",
+    "url": "https://www.bankofcanada.ca/2026/09/summary-of-governing-council-deliberations-fixed-announcement-date-of-september-2-2026/"
+   },
+   {
+    "title": "Speech: Greater Victoria Chamber of Commerce and CFA Society Victoria",
+    "date": "2026-10-01",
+    "url": "https://www.bankofcanada.ca/multimedia/speech-greater-victoria-chamber-of-commerce-and-cfa-society-victoria-2026-10-1/"
+   },
+   {
+    "title": "Canada’s housing affordability dilemma",
+    "date": "2026-10-01",
+    "url": "https://www.bankofcanada.ca/2026/10/canadas-housing-affordability-dilemma/"
+   },
+   {
+    "title": "The complexity of housing affordability",
+    "date": "2026-10-01",
+    "url": "https://www.bankofcanada.ca/2026/10/complexity-housing-affordability/"
+   },
+   {
+    "title": "Repo markets and monetary policy implementation",
+    "date": "2026-09-29",
+    "url": "https://www.bankofcanada.ca/2026/09/repo-markets-monetary-policy-implementation/"
+   },
+   {
+    "title": "Media Availability: Halifax Partnership",
+    "date": "2026-09-21",
+    "url": "https://www.bankofcanada.ca/multimedia/media-availability-halifax-partnership/"
+   },
+   {
+    "title": "Speech: Halifax Partnership",
+    "date": "2026-09-21",
+    "url": "https://www.bankofcanada.ca/multimedia/speech-halifax-partnership-2026-09-21/"
+   }
+  ],
   "coverage": {
-   "automatic": 0,
-   "manual": 37
-  }
+   "automatic": 27,
+   "manual": 10
+  },
+  "ai_ran": true
  }
 }

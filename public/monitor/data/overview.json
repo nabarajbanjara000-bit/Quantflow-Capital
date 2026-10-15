@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-14T16:20:51.911Z",
- "asof_label": "Oct 14, 2026",
+ "generated_at": "2026-10-15T12:56:49.463Z",
+ "asof_label": "Oct 15, 2026",
  "headline": "Hold at 7 of 8 · Raise at 1 of 8",
- "paragraph": "The same energy shock is pushing prices up almost everywhere, and five of the eight banks (the Fed, BoJ, ECB, RBNZ and RBA) have already raised rates this year. Our main call is a pause at seven of the eight meetings and a rise in New Zealand, but the chance of a rise is real nearly everywhere: highest in New Zealand, Australia, the UK, the U.S. and the euro area. Switzerland, with inflation of just 1%, is the exception.",
+ "paragraph": "Quant Flow Capital reviews the current stance of eight central banks worldwide. Seven of these monetary authorities are expected to hold rates steady at their upcoming meetings. Meanwhile, New Zealand stands out as the only bank leaning toward a potential rate rise.",
  "window": [
   "2026-10-28",
   "2026-12-10"
@@ -14,21 +14,21 @@
    "country": "United States",
    "bank": "Federal Reserve",
    "abbrev": "Fed",
-   "rate": "3.75–4.00%",
+   "rate": "3.75%–4.00%",
    "last_move": "Raised 0.25 on Sep 16, 2026",
    "why": "Inflation at 3.4% argues for another rise, but weak September hiring and a jump in bond yields let the Fed wait for December.",
    "mini": {
     "prices": [
      "3.4%",
-     "PCE prices, Aug"
+     "PCE, Aug"
     ],
     "jobless": [
      "4.2%",
      "Sep"
     ],
     "10-yr": [
-     "5.24%",
-     "Oct 9"
+     "5.21%",
+     "Oct 13"
     ]
    },
    "call": "hold",
@@ -43,10 +43,10 @@
    "next_label": "Wed Oct 28",
    "time_label": "2:00 p.m. ET",
    "stale": false,
-   "asof": "Oct 13, 2026",
+   "asof": "Oct 15, 2026",
    "coverage": {
-    "automatic": 0,
-    "manual": 35
+    "automatic": 33,
+    "manual": 2
    }
   },
   {
@@ -68,8 +68,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.93%",
-     "Oct 8"
+     "3.87%",
+     "Oct 13"
     ]
    },
    "call": "hold",
@@ -82,12 +82,12 @@
    "confidence": "Medium",
    "next_end": "2026-10-28",
    "next_label": "Wed Oct 28",
-   "time_label": "9:45 a.m. ET",
+   "time_label": "9:45 a.m. Eastern Time",
    "stale": false,
-   "asof": "Oct 14, 2026",
+   "asof": "Oct 15, 2026",
    "coverage": {
-    "automatic": 0,
-    "manual": 37
+    "automatic": 27,
+    "manual": 10
    }
   },
   {
@@ -102,11 +102,11 @@
    "mini": {
     "prices": [
      "4.1%",
-     "CPI, Jun qtr"
+     "CPI, Q2"
     ],
     "jobless": [
      "5.6%",
-     "Jun qtr"
+     "Q2"
     ],
     "10-yr": [
      "4.98%",
@@ -123,12 +123,12 @@
    "confidence": "Low",
    "next_end": "2026-10-28",
    "next_label": "Wed Oct 28",
-   "time_label": "2:00 p.m. NZDT (9:00 p.m. ET Oct 27)",
+   "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
    "stale": false,
-   "asof": "Oct 14, 2026",
+   "asof": "Oct 15, 2026",
    "coverage": {
-    "automatic": 0,
-    "manual": 39
+    "automatic": 14,
+    "manual": 25
    }
   },
   {
@@ -143,15 +143,15 @@
    "mini": {
     "prices": [
      "3.8%",
-     "Euro-area HICP, Sep flash"
+     "Euro-area HICP, Sep"
     ],
     "jobless": [
      "6.4%",
      "Germany, Sep"
     ],
     "10-yr": [
-     "3.47%",
-     "Bund, Oct 8"
+     "3.45%",
+     "Oct 15"
     ]
    },
    "call": "hold",
@@ -164,12 +164,12 @@
    "confidence": "Low",
    "next_end": "2026-10-29",
    "next_label": "Thu Oct 29",
-   "time_label": "2:15 p.m. CET",
+   "time_label": "2:15 p.m. Central European Time",
    "stale": false,
-   "asof": "Oct 14, 2026",
+   "asof": "Oct 15, 2026",
    "coverage": {
-    "automatic": 0,
-    "manual": 38
+    "automatic": 19,
+    "manual": 19
    }
   },
   {
@@ -191,8 +191,8 @@
      "Aug"
     ],
     "10-yr": [
-     "3.03%",
-     "Oct 9"
+     "3.02%",
+     "Oct 14"
     ]
    },
    "call": "hold",
@@ -205,12 +205,12 @@
    "confidence": "Medium",
    "next_end": "2026-10-30",
    "next_label": "Fri Oct 30",
-   "time_label": "around noon JST",
-   "stale": false,
-   "asof": "Oct 14, 2026",
+   "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
+   "stale": true,
+   "asof": "Oct 15, 2026",
    "coverage": {
-    "automatic": 0,
-    "manual": 40
+    "automatic": 27,
+    "manual": 13
    }
   },
   {
@@ -228,12 +228,12 @@
      "CPI, Aug"
     ],
     "jobless": [
-     "4.6%",
-     "Aug"
+     "4.7%",
+     "Sep"
     ],
     "10-yr": [
-     "5.32%",
-     "Oct 14"
+     "5.40%",
+     "Oct 7"
     ]
    },
    "call": "hold",
@@ -246,12 +246,12 @@
    "confidence": "Low",
    "next_end": "2026-11-03",
    "next_label": "Tue Nov 3",
-   "time_label": "2:30 p.m. AEDT (10:30 p.m. ET Nov 2)",
-   "stale": false,
-   "asof": "Oct 14, 2026",
+   "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference.",
+   "stale": true,
+   "asof": "Oct 15, 2026",
    "coverage": {
-    "automatic": 0,
-    "manual": 38
+    "automatic": 24,
+    "manual": 14
    }
   },
   {
@@ -270,11 +270,11 @@
     ],
     "jobless": [
      "4.9%",
-     "May–Jul"
+     "Jul"
     ],
     "10-yr": [
-     "5.40%",
-     "Oct 9"
+     "5.39%",
+     "Oct 13"
     ]
    },
    "call": "hold",
@@ -287,12 +287,12 @@
    "confidence": "Low",
    "next_end": "2026-11-05",
    "next_label": "Thu Nov 5",
-   "time_label": "12:00 p.m. GMT (7:00 a.m. ET)",
+   "time_label": "12:00 p.m. (noon) UK time, which is GMT after the clocks go back on October 25. That is 7:00 a.m. Eastern Time.",
    "stale": false,
-   "asof": "Oct 14, 2026",
+   "asof": "Oct 15, 2026",
    "coverage": {
-    "automatic": 0,
-    "manual": 39
+    "automatic": 25,
+    "manual": 14
    }
   },
   {
@@ -301,21 +301,21 @@
    "country": "Switzerland",
    "bank": "Swiss National Bank",
    "abbrev": "SNB",
-   "rate": "0%",
+   "rate": "0.00%",
    "last_move": "Cut to 0% on Jun 19, 2025; held five times since (latest Sep 24, 2026)",
    "why": "Inflation (1.0%) sits inside the SNB’s 0–2% zone and its 0%-rate forecast stays there; strong growth and KOF’s call keep a rise possible.",
    "mini": {
     "prices": [
-     "1.0%",
-     "CPI, Sep"
+     "0.8%",
+     "CPI, Aug"
     ],
     "jobless": [
      "3.0%",
      "Sep (SECO)"
     ],
     "10-yr": [
-     "0.56%",
-     "Oct 13"
+     "0.530%",
+     "Oct 15"
     ]
    },
    "call": "hold",
@@ -328,12 +328,12 @@
    "confidence": "Low",
    "next_end": "2026-12-10",
    "next_label": "Thu Dec 10",
-   "time_label": "9:30 a.m. CET",
+   "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Oct 14, 2026",
+   "asof": "Oct 15, 2026",
    "coverage": {
-    "automatic": 0,
-    "manual": 38
+    "automatic": 9,
+    "manual": 29
    }
   }
  ]

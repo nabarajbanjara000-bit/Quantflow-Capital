@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-10-14",
- "asof_label": "Oct 14, 2026",
- "generated_at": "2026-10-14T16:20:51.883Z",
- "data_updated_at": null,
+ "asof_date": "2026-10-15",
+ "asof_label": "Oct 15, 2026",
+ "generated_at": "2026-10-15T12:54:37.281Z",
+ "data_updated_at": "2026-10-15T12:54:37.281Z",
  "narrative_updated_at": null,
- "narrative_stale": false,
+ "narrative_stale": true,
  "narrative_model": "hand-checked snapshot",
  "country": {
   "code": "australia",
@@ -23,22 +23,58 @@
  },
  "meeting": {
   "next": {
-   "start": null,
+   "start": "2026-11-02",
    "end": "2026-11-03",
-   "time_label": "2:30 p.m. AEDT (10:30 p.m. ET Nov 2)",
    "label": "Monday–Tuesday, November 2–3, 2026, together with a new Statement on Monetary Policy (the RBA’s full forecast, published four times a year)",
-   "decision_label": "Tuesday, Nov 3, 2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference."
+   "decision_label": "Tuesday, Nov 3, 2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference.",
+   "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference."
   },
   "after": {
-   "start": null,
-   "end": null,
-   "label": "Monday–Tuesday, December 7–8, 2026"
+   "start": "2026-12-07",
+   "end": "2026-12-08",
+   "label": "Monday–Tuesday, December 7–8, 2026",
+   "decision_label": "Tuesday, Dec 8, 2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Dec 8, or 10:30 p.m. U.S. Eastern Time on Monday, Dec 7. The Governor then holds a media conference.",
+   "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Dec 8, or 10:30 p.m. U.S. Eastern Time on Monday, Dec 7. The Governor then holds a media conference."
   },
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
-  "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote)."
+  "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
+  "days_to_decision": 19
  },
- "kpis": [],
+ "kpis": [
+  {
+   "label": "RBA cash rate",
+   "value": "4.60%",
+   "note": "",
+   "period": "Oct 14, 2026",
+   "source": "Reserve Bank of Australia",
+   "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
+  },
+  {
+   "label": "Price rise, past year",
+   "value": "4.0%",
+   "note": "Target band 2–3%",
+   "period": "Aug 2026",
+   "source": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release"
+  },
+  {
+   "label": "Unemployment",
+   "value": "4.7%",
+   "note": "",
+   "period": "Sep 2026",
+   "source": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
+  },
+  {
+   "label": "10-year bond rate",
+   "value": "5.40%",
+   "note": "",
+   "period": "Oct 7, 2026",
+   "source": "Trading Economics (market data)",
+   "url": "https://tradingeconomics.com/australia/government-bond-yield"
+  }
+ ],
  "kpis_seed": [
   {
    "label": "RBA cash rate",
@@ -143,12 +179,17 @@
    "name": "Consumer Price Index (CPI), all items",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "+4.0% vs a year ago",
-   "period": "Aug 2026 (+0.4% in the month; +0.7% seasonally adjusted)",
-   "released": "Sep 30, 2026",
-   "previous": "+3.5% (July)",
+   "value": "4.0%",
+   "period": "Aug 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.5% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 4
+   },
+   "estimate": false
   },
   "trimmed_mean_inflation_monthly": {
    "id": "trimmed_mean_inflation_monthly",
@@ -156,12 +197,17 @@
    "name": "Trimmed mean inflation (monthly)",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "3.6% vs a year ago",
+   "value": "3.6%",
    "period": "Aug 2026",
-   "released": "Sep 30, 2026",
-   "previous": "3.6% (July)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.6% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 3.6
+   },
+   "estimate": false
   },
   "cpi_excluding_volatile_items_and_holid": {
    "id": "cpi_excluding_volatile_items_and_holid",
@@ -169,12 +215,17 @@
    "name": "CPI excluding volatile items and holiday travel",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "3.9% vs a year ago",
-   "period": "Aug 2026 (+0.2% in the month)",
-   "released": "Sep 30, 2026",
-   "previous": "—",
+   "value": "3.9%",
+   "period": "Aug 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.8% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 3.9
+   },
+   "estimate": false
   },
   "automotive_fuel_prices": {
    "id": "automotive_fuel_prices",
@@ -182,12 +233,17 @@
    "name": "Automotive fuel prices",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "+13.5% vs a year ago",
-   "period": "Aug 2026 (+14.8% in the month)",
-   "released": "Sep 30, 2026",
-   "previous": "—",
+   "value": "13.5%",
+   "period": "Aug 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "-0.4% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 13.5
+   },
+   "estimate": false
   },
   "electricity_prices": {
    "id": "electricity_prices",
@@ -195,12 +251,17 @@
    "name": "Electricity prices",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "+13.2% vs a year ago",
+   "value": "13.2%",
    "period": "Aug 2026",
-   "released": "Sep 30, 2026",
-   "previous": "+6.1% (July)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "6.1% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 13.2
+   },
+   "estimate": false
   },
   "rents": {
    "id": "rents",
@@ -208,12 +269,17 @@
    "name": "Rents",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "+3.6% vs a year ago",
+   "value": "3.6%",
    "period": "Aug 2026",
-   "released": "Sep 30, 2026",
-   "previous": "+3.6% (unchanged since May)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.6% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 3.6
+   },
+   "estimate": false
   },
   "services_vs_goods_inflation": {
    "id": "services_vs_goods_inflation",
@@ -260,12 +326,17 @@
    "name": "Unemployment rate",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
-   "value": "4.6%",
-   "period": "Aug 2026 (seasonally adjusted)",
-   "released": "Sep 24, 2026",
-   "previous": "4.5% (July)",
+   "value": "4.7%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "4.7% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 4.71834873
+   },
+   "estimate": false
   },
   "employment_change": {
    "id": "employment_change",
@@ -273,12 +344,18 @@
    "name": "Employment change",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
-   "value": "+39,500 people",
-   "period": "Aug 2026",
-   "released": "Sep 24, 2026",
-   "previous": "—",
+   "value": "−39,329",
+   "period": "Sep 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "+29,282 (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "chg": -39328.72130999931,
+    "avg3": -9032.80189666657
+   },
+   "estimate": false
   },
   "participation_rate": {
    "id": "participation_rate",
@@ -286,12 +363,17 @@
    "name": "Participation rate",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
-   "value": "67.1%",
-   "period": "Aug 2026",
-   "released": "Sep 24, 2026",
-   "previous": "66.9% (July)",
+   "value": "66.8%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "67.0% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 66.76317272
+   },
+   "estimate": false
   },
   "employment_to_population_ratio": {
    "id": "employment_to_population_ratio",
@@ -299,12 +381,17 @@
    "name": "Employment-to-population ratio",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
-   "value": "63.9%",
-   "period": "Aug 2026",
-   "released": "Sep 24, 2026",
-   "previous": "63.8%",
+   "value": "63.6%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "63.9% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 63.6130534
+   },
+   "estimate": false
   },
   "underemployment_rate": {
    "id": "underemployment_rate",
@@ -312,12 +399,17 @@
    "name": "Underemployment rate",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
-   "value": "6.2%",
-   "period": "Aug 2026",
-   "released": "Sep 24, 2026",
-   "previous": "6.3% (July)",
+   "value": "6.3%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "6.2% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 6.3258024
+   },
+   "estimate": false
   },
   "wage_price_index": {
    "id": "wage_price_index",
@@ -325,12 +417,17 @@
    "name": "Wage Price Index",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/wage-price-index-australia/latest-release",
-   "value": "+3.2% vs a year ago (+0.8% in the quarter)",
-   "period": "June quarter 2026",
-   "released": "Aug 19, 2026",
-   "previous": "+3.2% (March quarter)",
+   "value": "3.2%",
+   "period": "Q2 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.2% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-04-01",
+   "raw": {
+    "v": 3.2
+   },
+   "estimate": false
   },
   "rba_forecast_unemployment": {
    "id": "rba_forecast_unemployment",
@@ -364,12 +461,18 @@
    "name": "Real GDP growth",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release",
-   "value": "+0.4% in the quarter; +2.1% vs a year ago",
-   "period": "June quarter 2026",
-   "released": "Sep 2, 2026",
-   "previous": "Revised little",
+   "value": "0.4%",
+   "period": "Q2 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "0.3% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-04-01",
+   "raw": {
+    "v": 0.4
+   },
+   "estimate": false,
+   "note": "quarterly growth shown; year-ended is 4 quarters back"
   },
   "household_consumption": {
    "id": "household_consumption",
@@ -377,12 +480,17 @@
    "name": "Household consumption",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release",
-   "value": "+0.4% in the quarter",
-   "period": "June quarter 2026",
-   "released": "Sep 2, 2026",
-   "previous": "—",
+   "value": "0.4%",
+   "period": "Q2 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "0.4% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-04-01",
+   "raw": {
+    "v": 0.4
+   },
+   "estimate": false
   },
   "household_spending_indicator": {
    "id": "household_spending_indicator",
@@ -390,12 +498,18 @@
    "name": "Household Spending Indicator",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/latest-release",
-   "value": "0.0% in the month; +6.8% vs a year ago",
-   "period": "Aug 2026 (current prices)",
-   "released": "Sep 29, 2026",
-   "previous": "—",
+   "value": "6.8%",
+   "period": "Aug 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "7.0% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 6.8
+   },
+   "estimate": false,
+   "note": "year-ended, current prices"
   },
   "household_saving_ratio": {
    "id": "household_saving_ratio",
@@ -404,11 +518,16 @@
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release",
    "value": "6.5%",
-   "period": "June quarter 2026",
-   "released": "Sep 2, 2026",
-   "previous": "6.4%",
+   "period": "Q2 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "6.4% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-04-01",
+   "raw": {
+    "v": 6.5
+   },
+   "estimate": false
   },
   "terms_of_trade": {
    "id": "terms_of_trade",
@@ -416,12 +535,17 @@
    "name": "Terms of trade",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release",
-   "value": "−1.6% in the quarter",
-   "period": "June quarter 2026",
-   "released": "Sep 2, 2026",
-   "previous": "—",
+   "value": "-1.6%",
+   "period": "Q2 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "1.0% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-04-01",
+   "raw": {
+    "v": -1.6
+   },
+   "estimate": false
   },
   "new_housing_loan_commitments_owner_occ": {
    "id": "new_housing_loan_commitments_owner_occ",
@@ -469,11 +593,16 @@
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
    "value": "4.60%",
-   "period": "From Sep 30, 2026",
-   "released": "Sep 29, 2026",
-   "previous": "4.35%",
+   "period": "Oct 14, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "4.35% (Sep 29, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-14",
+   "raw": {
+    "v": 4.6
+   },
+   "estimate": false
   },
   "market_pricing_for_more_rises": {
    "id": "market_pricing_for_more_rises",
@@ -494,12 +623,17 @@
    "name": "10-year government bond rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield",
-   "value": "5.32%",
-   "period": "Oct 14, 2026",
-   "released": "Oct 14, 2026",
-   "previous": "5.02% (August average, FRED/OECD)",
-   "tag": "secondary",
-   "manual": true
+   "value": "5.40%",
+   "period": "Oct 7, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "5.39% (Oct 6, 2026)",
+   "tag": "official",
+   "manual": false,
+   "latest_date": "2026-10-07",
+   "raw": {
+    "v": 5.404
+   },
+   "estimate": false
   },
   "2_year_government_bond_rate": {
    "id": "2_year_government_bond_rate",
@@ -507,12 +641,17 @@
    "name": "2-year government bond rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield",
-   "value": "4.93%",
-   "period": "Oct 14, 2026",
-   "released": "Oct 14, 2026",
-   "previous": "—",
-   "tag": "secondary",
-   "manual": true
+   "value": "4.94%",
+   "period": "Oct 7, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "4.93% (Oct 6, 2026)",
+   "tag": "official",
+   "manual": false,
+   "latest_date": "2026-10-07",
+   "raw": {
+    "v": 4.94
+   },
+   "estimate": false
   },
   "10_year_bond_rate_monthly_average": {
    "id": "10_year_bond_rate_monthly_average",
@@ -520,12 +659,17 @@
    "name": "10-year bond rate, monthly average",
    "source": "OECD via FRED",
    "url": "https://fred.stlouisfed.org/series/IRLTLT01AUM156N",
-   "value": "5.02%",
-   "period": "Aug 2026",
-   "released": "Sep 15, 2026",
-   "previous": "4.92% (July)",
+   "value": "5.28%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "5.02% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 5.2826818181818185
+   },
+   "estimate": false
   },
   "3_month_bank_bill_rate": {
    "id": "3_month_bank_bill_rate",
@@ -533,12 +677,17 @@
    "name": "3-month bank bill rate",
    "source": "OECD via FRED",
    "url": "https://fred.stlouisfed.org/series/IR3TIB01AUM156N",
-   "value": "4.51%",
-   "period": "Aug 2026 (monthly average)",
-   "released": "Sep 15, 2026",
-   "previous": "4.48% (July)",
+   "value": "4.67%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "4.51% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 4.672727272727272
+   },
+   "estimate": false
   },
   "australian_dollar": {
    "id": "australian_dollar",
@@ -546,12 +695,18 @@
    "name": "Australian dollar",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
-   "value": "US$0.6961; trade-weighted index 64.7",
-   "period": "Oct 13, 2026",
-   "released": "Oct 13, 2026",
-   "previous": "US$0.6979 (Oct 12)",
+   "value": "US$0.6955",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "US$0.7002 (Oct 14, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-15",
+   "raw": {
+    "v": 0.6955
+   },
+   "estimate": false,
+   "note": "AUD/USD only (the snapshot also quotes the trade-weighted index)"
   },
   "mortgage_payments_vs_income": {
    "id": "mortgage_payments_vs_income",
@@ -572,12 +727,17 @@
    "name": "Oil price (Brent)",
    "source": "U.S. EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "US$125.44 a barrel",
+   "value": "$125.44 a barrel",
    "period": "Oct 6, 2026",
-   "released": "Oct 7, 2026",
-   "previous": "US$135.51 (Oct 2); US$115.91 (Sep 30)",
-   "tag": "official",
-   "manual": true
+   "released": "Oct 8, 2026",
+   "previous": "$125.51 (Oct 5, 2026)",
+   "tag": "secondary",
+   "manual": false,
+   "latest_date": "2026-10-06",
+   "raw": {
+    "v": 125.44
+   },
+   "estimate": false
   },
   "rba_oil_assumption_august": {
    "id": "rba_oil_assumption_august",
@@ -639,10 +799,11 @@
    "publisher": "ABS",
    "date": "2026-10-15",
    "date_label": "Thu Oct 15",
-   "time": "11:30 a.m.",
-   "url": "https://www.abs.gov.au/release-calendar/future-releases",
    "what": "Jobs gained or lost, and the unemployment rate.",
-   "weekly": false
+   "weekly": false,
+   "time": "11:30 a.m.",
+   "url": "https://www.abs.gov.au/release-calendar/future-releases/202610",
+   "timing": "before"
   },
   {
    "id": "consumer_price_index",
@@ -650,10 +811,11 @@
    "publisher": "ABS",
    "date": "2026-10-28",
    "date_label": "Wed Oct 28",
-   "time": "11:30 a.m.",
-   "url": "https://www.abs.gov.au/release-calendar/future-releases",
    "what": "How much the prices families pay changed, for the month and the whole quarter, including the trimmed mean.",
-   "weekly": false
+   "weekly": false,
+   "time": "11:30 a.m.",
+   "url": "https://www.abs.gov.au/release-calendar/future-releases/202610",
+   "timing": "before"
   },
   {
    "id": "international_trade_price_inde",
@@ -661,10 +823,11 @@
    "publisher": "ABS",
    "date": "2026-10-29",
    "date_label": "Thu Oct 29",
-   "time": "11:30 a.m.",
-   "url": "https://www.abs.gov.au/release-calendar/future-releases",
    "what": "Prices of goods Australia imports and exports.",
-   "weekly": false
+   "weekly": false,
+   "time": "11:30 a.m.",
+   "url": "https://www.abs.gov.au/release-calendar/future-releases/202610",
+   "timing": "before"
   },
   {
    "id": "producer_price_indexes",
@@ -672,10 +835,11 @@
    "publisher": "ABS",
    "date": "2026-10-30",
    "date_label": "Fri Oct 30",
-   "time": "11:30 a.m.",
-   "url": "https://www.abs.gov.au/release-calendar/future-releases",
    "what": "What businesses pay and charge each other.",
-   "weekly": false
+   "weekly": false,
+   "time": "11:30 a.m.",
+   "url": "https://www.abs.gov.au/release-calendar/future-releases/202610",
+   "timing": "before"
   },
   {
    "id": "building_approvals",
@@ -683,10 +847,11 @@
    "publisher": "ABS",
    "date": "2026-11-02",
    "date_label": "Mon Nov 2",
+   "what": "How many new homes councils approved.",
+   "weekly": false,
    "time": "11:30 a.m.",
    "url": "https://www.abs.gov.au/release-calendar/future-releases/202611",
-   "what": "How many new homes councils approved.",
-   "weekly": false
+   "timing": "day"
   },
   {
    "id": "household_spending_indicator",
@@ -694,10 +859,11 @@
    "publisher": "ABS",
    "date": "2026-11-04",
    "date_label": "Wed Nov 4",
-   "time": "11:30 a.m.",
-   "url": "https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/latest-release",
    "what": "How much households spent in the month.",
-   "weekly": false
+   "weekly": false,
+   "time": "11:30 a.m.",
+   "url": "https://www.abs.gov.au/release-calendar/future-releases/202611",
+   "timing": "after"
   },
   {
    "id": "lending_indicators",
@@ -705,10 +871,11 @@
    "publisher": "ABS",
    "date": "2026-11-11",
    "date_label": "Wed Nov 11",
+   "what": "New home loans and business loans.",
+   "weekly": false,
    "time": "11:30 a.m.",
    "url": "https://www.abs.gov.au/release-calendar/future-releases/202611",
-   "what": "New home loans and business loans.",
-   "weekly": false
+   "timing": "after"
   },
   {
    "id": "minutes_of_the_nov_2_3_meeting",
@@ -716,10 +883,11 @@
    "publisher": "RBA",
    "date": "2026-11-17",
    "date_label": "Tue Nov 17",
+   "what": "Notes on what members discussed.",
+   "weekly": false,
    "time": "11:30 a.m.",
    "url": "https://www.rba.gov.au/schedules-events/",
-   "what": "Notes on what members discussed.",
-   "weekly": false
+   "timing": "after"
   },
   {
    "id": "wage_price_index",
@@ -727,10 +895,11 @@
    "publisher": "ABS",
    "date": "2026-11-18",
    "date_label": "Wed Nov 18",
+   "what": "How fast pay rates are rising.",
+   "weekly": false,
    "time": "11:30 a.m.",
    "url": "https://www.abs.gov.au/release-calendar/future-releases/202611",
-   "what": "How fast pay rates are rising.",
-   "weekly": false
+   "timing": "after"
   },
   {
    "id": "labour_force_2",
@@ -738,10 +907,11 @@
    "publisher": "ABS",
    "date": "2026-11-19",
    "date_label": "Thu Nov 19",
+   "what": "Jobs and the unemployment rate.",
+   "weekly": false,
    "time": "11:30 a.m.",
    "url": "https://www.abs.gov.au/release-calendar/future-releases/202611",
-   "what": "Jobs and the unemployment rate.",
-   "weekly": false
+   "timing": "after"
   },
   {
    "id": "consumer_price_index_2",
@@ -749,10 +919,23 @@
    "publisher": "ABS",
    "date": "2026-11-25",
    "date_label": "Wed Nov 25",
+   "what": "Prices families pay, for October.",
+   "weekly": false,
    "time": "11:30 a.m.",
    "url": "https://www.abs.gov.au/release-calendar/future-releases/202611",
-   "what": "Prices families pay, for October.",
-   "weekly": false
+   "timing": "after"
+  },
+  {
+   "id": "household_spending_indicator_2",
+   "name": "Household Spending Indicator, October",
+   "publisher": "ABS",
+   "date": "2026-11-30",
+   "date_label": "Mon Nov 30",
+   "what": "How much households spent in October.",
+   "weekly": false,
+   "time": "11:30 a.m.",
+   "url": "https://www.abs.gov.au/release-calendar/future-releases/202611",
+   "timing": "after"
   },
   {
    "id": "national_accounts_gdp",
@@ -760,15 +943,40 @@
    "publisher": "ABS",
    "date": "2026-12-02",
    "date_label": "Wed Dec 2",
+   "what": "How fast the whole economy grew over winter.",
+   "weekly": false,
    "time": "11:30 a.m.",
    "url": "https://www.abs.gov.au/release-calendar/future-releases/202612",
-   "what": "How fast the whole economy grew over winter.",
-   "weekly": false
+   "timing": "after"
+  },
+  {
+   "id": "labour_force_3",
+   "name": "Labour Force, November",
+   "publisher": "ABS",
+   "date": "2026-12-17",
+   "date_label": "Thu Dec 17",
+   "what": "Jobs and the unemployment rate.",
+   "weekly": false,
+   "time": "11:30 a.m.",
+   "url": "https://www.abs.gov.au/release-calendar/future-releases/202612",
+   "timing": "after"
+  },
+  {
+   "id": "minutes_of_the_dec_7_8_meeting",
+   "name": "Minutes of the Dec 7–8 meeting",
+   "publisher": "RBA",
+   "date": "2026-12-22",
+   "date_label": "Tue Dec 22",
+   "what": "Notes on what members discussed.",
+   "weekly": false,
+   "time": "11:30 a.m.",
+   "url": "https://www.rba.gov.au/schedules-events/",
+   "timing": "after"
   }
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Starting snapshot, checked by hand.",
+   "headline": "No important new data since the last update.",
    "items": []
   },
   "verdict": {
@@ -1676,16 +1884,16 @@
     "CPI, Aug"
    ],
    "jobless": [
-    "4.6%",
-    "Aug"
+    "4.7%",
+    "Sep"
    ],
    "10-yr": [
-    "5.32%",
-    "Oct 14"
+    "5.40%",
+    "Oct 7"
    ]
   },
   "rate_label": "Current RBA cash rate",
-  "time_label": "2:30 p.m. AEDT (10:30 p.m. ET Nov 2)"
+  "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference."
  },
  "live_series": [
   {
@@ -1802,10 +2010,25 @@
  "changelog": [],
  "qa": {
   "data_errors": [],
-  "ai_errors": [],
+  "ai_errors": [
+   "Expected ',' or '}' after property value in JSON at position 46042 (line 675 column 3)"
+  ],
+  "sources_read": [
+   {
+    "title": "Appointment of Chief Risk Officer",
+    "date": "2026-10-14",
+    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-29.html"
+   },
+   {
+    "title": "Speech: A Wage-price Spiral: What are the Chances?",
+    "date": "2026-09-22",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-mpb-2026-09-22.html"
+   }
+  ],
   "coverage": {
-   "automatic": 0,
-   "manual": 38
-  }
+   "automatic": 24,
+   "manual": 14
+  },
+  "ai_ran": true
  }
 }

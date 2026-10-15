@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-10-14",
- "asof_label": "Oct 14, 2026",
- "generated_at": "2026-10-14T16:20:51.865Z",
- "data_updated_at": null,
+ "asof_date": "2026-10-15",
+ "asof_label": "Oct 15, 2026",
+ "generated_at": "2026-10-15T12:46:58.860Z",
+ "data_updated_at": "2026-10-15T12:46:58.860Z",
  "narrative_updated_at": null,
- "narrative_stale": false,
+ "narrative_stale": true,
  "narrative_model": "hand-checked snapshot",
  "country": {
   "code": "japan",
@@ -23,22 +23,58 @@
  },
  "meeting": {
   "next": {
-   "start": null,
+   "start": "2026-10-29",
    "end": "2026-10-30",
-   "time_label": "around noon JST",
    "label": "Thursday–Friday, October 29–30, 2026 (a meeting that also publishes new forecasts, the “Outlook Report”)",
-   "decision_label": "Friday, Oct 30. The BoJ does not fix the time in advance; in 2026 its statements came out between 11:46 a.m. and 12:19 p.m. Japan time (JST)."
+   "decision_label": "Friday, Oct 30. The BoJ does not fix the time in advance; in 2026 its statements came out between 11:46 a.m. and 12:19 p.m. Japan time (JST).",
+   "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST)."
   },
   "after": {
-   "start": null,
-   "end": null,
-   "label": "December 17–18, 2026"
+   "start": "2026-12-17",
+   "end": "2026-12-18",
+   "label": "Thursday–Friday, December 17–18, 2026",
+   "decision_label": "Friday, Dec 18. The BoJ does not fix the time in advance; in 2026 its statements came out between 11:46 a.m. and 12:19 p.m. Japan time (JST).",
+   "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST)."
   },
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
-  "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members."
+  "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
+  "days_to_decision": 15
  },
- "kpis": [],
+ "kpis": [
+  {
+   "label": "BoJ interest rate",
+   "value": "1.25%",
+   "note": "",
+   "period": "Oct 13, 2026",
+   "source": "BoJ",
+   "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf"
+  },
+  {
+   "label": "Price rise, past year",
+   "value": "1.7%",
+   "note": "",
+   "period": "Aug 2026",
+   "source": "Statistics Bureau",
+   "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf"
+  },
+  {
+   "label": "Unemployment",
+   "value": "2.5%",
+   "note": "",
+   "period": "Aug 2026",
+   "source": "Statistics Bureau",
+   "url": "https://www.stat.go.jp/data/roudou/sokuhou/tsuki/index.html"
+  },
+  {
+   "label": "10-year bond rate",
+   "value": "3.02%",
+   "note": "",
+   "period": "Oct 14, 2026",
+   "source": "Ministry of Finance",
+   "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv"
+  }
+ ],
  "kpis_seed": [
   {
    "label": "BoJ interest rate",
@@ -145,12 +181,17 @@
    "name": "Consumer Price Index (CPI), all items",
    "source": "Statistics Bureau",
    "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf",
-   "value": "+1.9% vs a year ago",
-   "period": "Aug 2026 (0.0% in the month, seasonally adjusted)",
-   "released": "Sep 18, 2026",
-   "previous": "+1.9% (Jul)",
+   "value": "1.9%",
+   "period": "Aug 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "1.9% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 1.8916655032807483
+   },
+   "estimate": false
   },
   "core_cpi_without_fresh_food": {
    "id": "core_cpi_without_fresh_food",
@@ -158,12 +199,17 @@
    "name": "Core CPI (without fresh food)",
    "source": "Statistics Bureau",
    "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf",
-   "value": "+1.7% vs a year ago",
-   "period": "Aug 2026 (+0.1% in the month, s.a.)",
-   "released": "Sep 18, 2026",
-   "previous": "+1.8% (Jul)",
+   "value": "1.7%",
+   "period": "Aug 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "1.8% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 1.7306177787081989
+   },
+   "estimate": false
   },
   "cpi_without_fresh_food_and_energy": {
    "id": "cpi_without_fresh_food_and_energy",
@@ -171,12 +217,17 @@
    "name": "CPI without fresh food and energy",
    "source": "Statistics Bureau",
    "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf",
-   "value": "+1.9% vs a year ago",
-   "period": "Aug 2026 (+0.3% in the month, s.a.)",
-   "released": "Sep 18, 2026",
-   "previous": "+1.9% (Jul)",
+   "value": "1.9%",
+   "period": "Aug 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "1.9% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 1.927840281715354
+   },
+   "estimate": false
   },
   "cpi_energy": {
    "id": "cpi_energy",
@@ -184,12 +235,17 @@
    "name": "CPI energy",
    "source": "Statistics Bureau",
    "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf",
-   "value": "−0.7% vs a year ago",
+   "value": "-0.7%",
    "period": "Aug 2026",
-   "released": "Sep 18, 2026",
-   "previous": "+0.6% (Jul)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "0.6% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": -0.6802929863327534
+   },
+   "estimate": false
   },
   "cpi_food_without_fresh_food": {
    "id": "cpi_food_without_fresh_food",
@@ -197,12 +253,17 @@
    "name": "CPI food (without fresh food)",
    "source": "Statistics Bureau",
    "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf",
-   "value": "+2.7% vs a year ago",
+   "value": "2.7%",
    "period": "Aug 2026",
-   "released": "Sep 18, 2026",
-   "previous": "+3.0% (Jul)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.0% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 2.6971798152942705
+   },
+   "estimate": false
   },
   "tokyo_core_cpi_without_fresh_food": {
    "id": "tokyo_core_cpi_without_fresh_food",
@@ -210,12 +271,17 @@
    "name": "Tokyo core CPI (without fresh food)",
    "source": "Statistics Bureau",
    "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/kubu.pdf",
-   "value": "+2.7% vs a year ago",
-   "period": "Sep 2026 (preliminary)",
-   "released": "Oct 2, 2026",
-   "previous": "+1.8% (Aug)",
+   "value": "2.7%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "1.8% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 2.732754993689035
+   },
+   "estimate": false
   },
   "tokyo_cpi_without_fresh_food_and_energ": {
    "id": "tokyo_cpi_without_fresh_food_and_energ",
@@ -223,12 +289,17 @@
    "name": "Tokyo CPI without fresh food and energy",
    "source": "Statistics Bureau",
    "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/kubu.pdf",
-   "value": "+3.0% vs a year ago",
-   "period": "Sep 2026 (+0.4% in the month, s.a.)",
-   "released": "Oct 2, 2026",
-   "previous": "+2.0% (Aug)",
+   "value": "3.0%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "2.0% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 2.9537298961446634
+   },
+   "estimate": false
   },
   "corporate_goods_price_index_business_p": {
    "id": "corporate_goods_price_index_business_p",
@@ -238,10 +309,16 @@
    "url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2609.pdf",
    "value": "+6.8% vs a year ago",
    "period": "Sep 2026 (−0.3% in the month)",
-   "released": "Oct 13, 2026",
-   "previous": "+7.6% (Aug)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "+7.6% a year; −0.3% in the month (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "yoy": 6.7663257277734035,
+    "mom": -0.29390154298309934
+   },
+   "estimate": false
   },
   "import_prices_in_yen": {
    "id": "import_prices_in_yen",
@@ -251,10 +328,16 @@
    "url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2609.pdf",
    "value": "+24.5% vs a year ago",
    "period": "Sep 2026 (−0.2% in the month)",
-   "released": "Oct 13, 2026",
-   "previous": "+25.1% (Aug)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "+25.1% a year; −2.9% in the month (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "yoy": 24.470134874759175,
+    "mom": -0.1545595054095794
+   },
+   "estimate": false
   },
   "unemployment_rate": {
    "id": "unemployment_rate",
@@ -353,12 +436,17 @@
    "name": "Tankan employment conditions (all firms)",
    "source": "BoJ Tankan",
    "url": "https://www.boj.or.jp/en/statistics/tk/gaiyo/2026/tka2609.pdf",
-   "value": "−38",
-   "period": "Sep 2026 survey",
-   "released": "Oct 1, 2026",
-   "previous": "−37 (Jun); forecast −41",
+   "value": "-38",
+   "period": "Q3 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "-37 (Q2 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-07-01",
+   "raw": {
+    "v": -38
+   },
+   "estimate": false
   },
   "gdp_real_april_june": {
    "id": "gdp_real_april_june",
@@ -366,12 +454,18 @@
    "name": "GDP (real), April–June",
    "source": "Cabinet Office (ESRI)",
    "url": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe262_2/pdf/qepoint2622.pdf",
-   "value": "+0.4% in the quarter (+1.4% yearly pace)",
-   "period": "Q2 2026, second estimate",
-   "released": "Sep 8, 2026",
-   "previous": "+0.3% (+1.1% yearly pace) first estimate",
+   "value": "0.4%",
+   "period": "Q2 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "0.5% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-04-01",
+   "raw": {
+    "v": 0.4
+   },
+   "estimate": false,
+   "note": "Quarter-on-quarter, not annualised"
   },
   "household_spending_in_gdp": {
    "id": "household_spending_in_gdp",
@@ -379,12 +473,18 @@
    "name": "Household spending (in GDP)",
    "source": "Cabinet Office (ESRI)",
    "url": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe262_2/pdf/qepoint2622.pdf",
-   "value": "0.0% in the quarter",
+   "value": "0.0%",
    "period": "Q2 2026",
-   "released": "Sep 8, 2026",
-   "previous": "−0.0% first estimate",
+   "released": "Detected Oct 15, 2026",
+   "previous": "0.4% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-04-01",
+   "raw": {
+    "v": 0
+   },
+   "estimate": false,
+   "note": "Private consumption, quarter-on-quarter"
   },
   "business_investment_in_gdp": {
    "id": "business_investment_in_gdp",
@@ -392,12 +492,18 @@
    "name": "Business investment (in GDP)",
    "source": "Cabinet Office (ESRI)",
    "url": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe262_2/pdf/qepoint2622.pdf",
-   "value": "−0.9% in the quarter",
+   "value": "-0.9%",
    "period": "Q2 2026",
-   "released": "Sep 8, 2026",
-   "previous": "−1.2% first estimate",
+   "released": "Detected Oct 15, 2026",
+   "previous": "-1.0% (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-04-01",
+   "raw": {
+    "v": -0.9
+   },
+   "estimate": false,
+   "note": "Private non-residential investment, quarter-on-quarter"
   },
   "net_exports_contribution_to_growth": {
    "id": "net_exports_contribution_to_growth",
@@ -405,12 +511,17 @@
    "name": "Net exports' contribution to growth",
    "source": "Cabinet Office (ESRI)",
    "url": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe262_2/pdf/qepoint2622.pdf",
-   "value": "+0.5 points",
+   "value": "0.5 points",
    "period": "Q2 2026",
-   "released": "Sep 8, 2026",
-   "previous": "+0.5 points first estimate",
+   "released": "Detected Oct 15, 2026",
+   "previous": "0.3 points (Q1 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-04-01",
+   "raw": {
+    "v": 0.5
+   },
+   "estimate": false
   },
   "tankan_large_manufacturers": {
    "id": "tankan_large_manufacturers",
@@ -418,12 +529,17 @@
    "name": "Tankan: large manufacturers",
    "source": "BoJ Tankan",
    "url": "https://www.boj.or.jp/en/statistics/tk/gaiyo/2026/tka2609.pdf",
-   "value": "+24",
-   "period": "Sep 2026 survey",
-   "released": "Oct 1, 2026",
-   "previous": "+22 (Jun); forecast +21",
+   "value": "24",
+   "period": "Q3 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "22 (Q2 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-07-01",
+   "raw": {
+    "v": 24
+   },
+   "estimate": false
   },
   "tankan_large_non_manufacturers": {
    "id": "tankan_large_non_manufacturers",
@@ -431,12 +547,17 @@
    "name": "Tankan: large non-manufacturers",
    "source": "BoJ Tankan",
    "url": "https://www.boj.or.jp/en/statistics/tk/gaiyo/2026/tka2609.pdf",
-   "value": "+35",
-   "period": "Sep 2026 survey",
-   "released": "Oct 1, 2026",
-   "previous": "+37 (Jun); forecast +30",
+   "value": "35",
+   "period": "Q3 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "37 (Q2 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-07-01",
+   "raw": {
+    "v": 35
+   },
+   "estimate": false
   },
   "tankan_output_prices_large_firms": {
    "id": "tankan_output_prices_large_firms",
@@ -483,12 +604,18 @@
    "name": "BoJ policy rate (overnight call rate target)",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf",
-   "value": "around 1.25%",
-   "period": "From Sep 2026",
-   "released": "Sep 18, 2026",
-   "previous": "around 1.0%",
+   "value": "1.25%",
+   "period": "Oct 13, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "1.25% (Oct 12, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-13",
+   "raw": {
+    "v": 1.25
+   },
+   "estimate": false,
+   "note": "Derived: BoJ Basic Loan Rate minus 0.25 points"
   },
   "overnight_call_rate_actual_monthly_ave": {
    "id": "overnight_call_rate_actual_monthly_ave",
@@ -496,12 +623,17 @@
    "name": "Overnight call rate (actual, monthly average)",
    "source": "FRED (OECD)",
    "url": "https://fred.stlouisfed.org/series/IRSTCI01JPM156N",
-   "value": "0.977%",
-   "period": "Aug 2026",
-   "released": "Sep 15, 2026",
-   "previous": "0.978% (Jul)",
+   "value": "1.043%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "0.977% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 1.043
+   },
+   "estimate": false
   },
   "2_year_government_bond_rate": {
    "id": "2_year_government_bond_rate",
@@ -509,12 +641,17 @@
    "name": "2-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "1.91%",
-   "period": "Oct 9, 2026",
-   "released": "Daily",
-   "previous": "1.94% (Oct 8)",
+   "value": "1.93%",
+   "period": "Oct 14, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "1.93% (Oct 13, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-14",
+   "raw": {
+    "v": 1.929
+   },
+   "estimate": false
   },
   "10_year_government_bond_rate": {
    "id": "10_year_government_bond_rate",
@@ -522,12 +659,17 @@
    "name": "10-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "3.03%",
-   "period": "Oct 9, 2026",
-   "released": "Daily",
-   "previous": "3.09% (Oct 8); 3.11% (Oct 7)",
+   "value": "3.02%",
+   "period": "Oct 14, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.02% (Oct 13, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-14",
+   "raw": {
+    "v": 3.015
+   },
+   "estimate": false
   },
   "30_year_government_bond_rate": {
    "id": "30_year_government_bond_rate",
@@ -535,12 +677,17 @@
    "name": "30-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "4.09%",
-   "period": "Oct 9, 2026",
-   "released": "Daily",
-   "previous": "4.14% (Oct 8)",
+   "value": "4.07%",
+   "period": "Oct 14, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "4.06% (Oct 13, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-14",
+   "raw": {
+    "v": 4.072
+   },
+   "estimate": false
   },
   "10_year_rate_monthly_average": {
    "id": "10_year_rate_monthly_average",
@@ -548,12 +695,18 @@
    "name": "10-year rate, monthly average",
    "source": "FRED (OECD)",
    "url": "https://fred.stlouisfed.org/series/IRLTLT01JPM156N",
-   "value": "2.94%",
-   "period": "Aug 2026",
-   "released": "Sep 15, 2026",
-   "previous": "2.79% (Jul); 2.67% (Jun)",
+   "value": "2.99%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "2.87% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 2.9921578947368426
+   },
+   "estimate": false,
+   "note": "Average of daily Ministry of Finance 10Y yields"
   },
   "yen_per_us_dollar": {
    "id": "yen_per_us_dollar",
@@ -561,12 +714,17 @@
    "name": "Yen per US dollar",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261009.pdf",
-   "value": "¥158.10",
-   "period": "Oct 9, 2026 (Tokyo central rate)",
-   "released": "Oct 9, 2026",
-   "previous": "¥156.15 (Sep 17)",
+   "value": "¥158.49",
+   "period": "Oct 13, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "¥158.10 (Oct 9, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-13",
+   "raw": {
+    "v": 158.49
+   },
+   "estimate": false
   },
   "exchange_rate_assumed_by_big_exporters": {
    "id": "exchange_rate_assumed_by_big_exporters",
@@ -587,12 +745,18 @@
    "name": "Brent crude oil",
    "source": "FRED (EIA)",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "$125.44 a barrel",
+   "value": "$125.44  a barrel",
    "period": "Oct 6, 2026",
    "released": "Oct 7, 2026",
-   "previous": "$115.91 (Sep 30)",
-   "tag": "official",
-   "manual": true
+   "previous": "$125.51 (Oct 5, 2026)",
+   "tag": "secondary",
+   "manual": false,
+   "latest_date": "2026-10-06",
+   "raw": {
+    "v": 125.44
+   },
+   "estimate": false,
+   "note": "EIA via FRED"
   },
   "wti_crude_oil_us": {
    "id": "wti_crude_oil_us",
@@ -600,12 +764,18 @@
    "name": "WTI crude oil (US)",
    "source": "FRED (EIA)",
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-   "value": "$96.24 a barrel",
+   "value": "$96.24  a barrel",
    "period": "Oct 6, 2026",
    "released": "Oct 7, 2026",
-   "previous": "$97.18 (Sep 30)",
-   "tag": "official",
-   "manual": true
+   "previous": "$96.13 (Oct 5, 2026)",
+   "tag": "secondary",
+   "manual": false,
+   "latest_date": "2026-10-06",
+   "raw": {
+    "v": 96.24
+   },
+   "estimate": false,
+   "note": "EIA via FRED"
   },
   "import_prices_foreign_currency_terms": {
    "id": "import_prices_foreign_currency_terms",
@@ -614,11 +784,17 @@
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2609.pdf",
    "value": "+17.9% vs a year ago",
-   "period": "Sep 2026",
-   "released": "Oct 13, 2026",
-   "previous": "+16.8% (Aug)",
+   "period": "Sep 2026 (+1.0% in the month)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "+16.8% a year; −1.0% in the month (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "yoy": 17.898193760262714,
+    "mom": 0.9845288326300938
+   },
+   "estimate": false
   },
   "petroleum_and_coal_products_business_p": {
    "id": "petroleum_and_coal_products_business_p",
@@ -628,10 +804,16 @@
    "url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2609.pdf",
    "value": "+11.5% vs a year ago",
    "period": "Sep 2026 (−2.2% in the month)",
-   "released": "Oct 13, 2026",
-   "previous": "+14.7% (Aug)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "+14.7% a year; −1.7% in the month (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "yoy": 11.494252873563227,
+    "mom": -2.1848739495798353
+   },
+   "estimate": false
   },
   "us_federal_reserve_rate_upper_end": {
    "id": "us_federal_reserve_rate_upper_end",
@@ -669,8 +851,9 @@
    "date_label": "Thu Oct 15",
    "time": "10:30 a.m. JST",
    "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
-   "what": "A Board member&#x27;s views on the economy and policy.",
-   "weekly": false
+   "what": "A Board member's views on the economy and policy.",
+   "weekly": false,
+   "timing": "before"
   },
   {
    "id": "national_cpi",
@@ -681,7 +864,8 @@
    "time": "8:30 a.m. JST",
    "url": "https://www.stat.go.jp/english/data/cpi/1582.html",
    "what": "How much the prices households pay changed, across Japan.",
-   "weekly": false
+   "weekly": false,
+   "timing": "before"
   },
   {
    "id": "services_producer_price_index",
@@ -692,7 +876,8 @@
    "time": "8:50 a.m. JST",
    "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
    "what": "Prices that businesses charge each other for services, like transport and advertising.",
-   "weekly": false
+   "weekly": false,
+   "timing": "before"
   },
   {
    "id": "indicators_for_core_cpi",
@@ -703,7 +888,8 @@
    "time": "2:00 p.m. JST",
    "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
    "what": "BoJ measures of the underlying price trend that strip out unusual price moves.",
-   "weekly": false
+   "weekly": false,
+   "timing": "before"
   },
   {
    "id": "tokyo_cpi",
@@ -713,8 +899,9 @@
    "date_label": "Fri Oct 30",
    "time": "8:30 a.m. JST",
    "url": "https://www.stat.go.jp/english/data/cpi/1582.html",
-   "what": "Prices in Tokyo&#x27;s 23 wards, published early as a preview of the nation.",
-   "weekly": false
+   "what": "Prices in Tokyo's 23 wards, published early as a preview of the nation.",
+   "weekly": false,
+   "timing": "day"
   },
   {
    "id": "labour_force_survey",
@@ -725,7 +912,8 @@
    "time": "8:30 a.m. JST",
    "url": "https://www.stat.go.jp/english/data/roudou/1543.html",
    "what": "The unemployment rate and how many jobs are on offer per job seeker.",
-   "weekly": false
+   "weekly": false,
+   "timing": "day"
   },
   {
    "id": "outlook_report",
@@ -736,7 +924,8 @@
    "time": "2:00 p.m. JST",
    "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
    "what": "The detailed explanation behind the new forecasts.",
-   "weekly": false
+   "weekly": false,
+   "timing": "after"
   },
   {
    "id": "minutes_of_the_september_meeti",
@@ -747,7 +936,8 @@
    "time": "8:50 a.m. JST",
    "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
    "what": "A fuller record of the September debate.",
-   "weekly": false
+   "weekly": false,
+   "timing": "after"
   },
   {
    "id": "summary_of_opinions",
@@ -758,7 +948,8 @@
    "time": "8:50 a.m. JST",
    "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
    "what": "Unnamed comments from each Board member at the October meeting.",
-   "weekly": false
+   "weekly": false,
+   "timing": "after"
   },
   {
    "id": "gdp_july_september",
@@ -768,8 +959,9 @@
    "date_label": "Mon Nov 16",
    "time": "8:50 a.m. JST",
    "url": "https://www.esri.cao.go.jp/jp/sna/kouhyou/kouhyou_top.html",
-   "what": "How fast the whole economy grew in summer.",
-   "weekly": false
+   "what": "How much the whole economy grew or shrank in the quarter.",
+   "weekly": false,
+   "timing": "after"
   },
   {
    "id": "national_cpi_2",
@@ -779,13 +971,110 @@
    "date_label": "Fri Nov 20",
    "time": "8:30 a.m. JST",
    "url": "https://www.stat.go.jp/english/data/cpi/1582.html",
-   "what": "National prices for October.",
-   "weekly": false
+   "what": "How much the prices households pay changed, across Japan.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "tokyo_cpi_2",
+   "name": "Tokyo CPI, November",
+   "publisher": "Statistics Bureau",
+   "date": "2026-11-27",
+   "date_label": "Fri Nov 27",
+   "time": "8:30 a.m. JST",
+   "url": "https://www.stat.go.jp/english/data/cpi/1582.html",
+   "what": "Prices in Tokyo's 23 wards, published early as a preview of the nation.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "labour_force_survey_2",
+   "name": "Labour Force Survey, October",
+   "publisher": "MHLW",
+   "date": "2026-12-01",
+   "date_label": "Tue Dec 1",
+   "time": "8:30 a.m. JST",
+   "url": "https://www.stat.go.jp/english/data/roudou/1543.html",
+   "what": "The unemployment rate and how many jobs are on offer per job seeker.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "gdp_july_september_2",
+   "name": "GDP, July–September, second estimate",
+   "publisher": "Cabinet Office",
+   "date": "2026-12-08",
+   "date_label": "Tue Dec 8",
+   "time": "",
+   "url": "https://www.esri.cao.go.jp/jp/sna/kouhyou/kouhyou_top.html",
+   "what": "A revised reading of how much the economy grew or shrank in the quarter.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "national_cpi_3",
+   "name": "National CPI, November",
+   "publisher": "Statistics Bureau",
+   "date": "2026-12-18",
+   "date_label": "Fri Dec 18",
+   "time": "8:30 a.m. JST",
+   "url": "https://www.stat.go.jp/english/data/cpi/1582.html",
+   "what": "How much the prices households pay changed, across Japan.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "minutes_of_the_october_meeting",
+   "name": "Minutes of the October meeting",
+   "publisher": "BoJ",
+   "date": "2026-12-23",
+   "date_label": "Wed Dec 23",
+   "time": "8:50 a.m. JST",
+   "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "what": "A fuller record of the October debate.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "tokyo_cpi_3",
+   "name": "Tokyo CPI, December",
+   "publisher": "Statistics Bureau",
+   "date": "2026-12-25",
+   "date_label": "Fri Dec 25",
+   "time": "8:30 a.m. JST",
+   "url": "https://www.stat.go.jp/english/data/cpi/1582.html",
+   "what": "Prices in Tokyo's 23 wards, published early as a preview of the nation.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "labour_force_survey_3",
+   "name": "Labour Force Survey, November",
+   "publisher": "MHLW",
+   "date": "2026-12-25",
+   "date_label": "Fri Dec 25",
+   "time": "8:30 a.m. JST",
+   "url": "https://www.stat.go.jp/english/data/roudou/1543.html",
+   "what": "The unemployment rate and how many jobs are on offer per job seeker.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "summary_of_opinions_2",
+   "name": "Summary of Opinions, December meeting",
+   "publisher": "BoJ",
+   "date": "2026-12-28",
+   "date_label": "Mon Dec 28",
+   "time": "8:50 a.m. JST",
+   "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "what": "Unnamed comments from each Board member at the December meeting.",
+   "weekly": false,
+   "timing": "after"
   }
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Starting snapshot, checked by hand.",
+   "headline": "No important new data since the last update.",
    "items": []
   },
   "verdict": {
@@ -1750,12 +2039,12 @@
     "Aug"
    ],
    "10-yr": [
-    "3.03%",
-    "Oct 9"
+    "3.02%",
+    "Oct 14"
    ]
   },
   "rate_label": "Current BoJ rate",
-  "time_label": "around noon JST"
+  "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST)."
  },
  "live_series": [
   {
@@ -1885,10 +2174,45 @@
  "changelog": [],
  "qa": {
   "data_errors": [],
-  "ai_errors": [],
+  "ai_errors": [
+   "Gemini unavailable (gemini-3.5-flash-lite: HTTP 503)"
+  ],
+  "sources_read": [
+   {
+    "title": "Speech by Board Member KOEDA in Kumamoto (Economic Activity, Prices, and Monetary Policy in Japan)",
+    "date": "2026-10-15",
+    "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261015a.htm"
+   },
+   {
+    "title": "Summary of the \"Meeting on Market Operations\" (October 2026)",
+    "date": "2026-10-15",
+    "url": "http://www.boj.or.jp/en/paym/market/mkt261015a.pdf"
+   },
+   {
+    "title": "The Fifteenth Tripartite Governors' Meeting among PBOC, BOJ, and BOK",
+    "date": "2026-10-14",
+    "url": "http://www.boj.or.jp/en/intl_finance/cooperate/coop261014a.pdf"
+   },
+   {
+    "title": "Japanese Government Bonds Held by the Bank of Japan",
+    "date": "2026-10-14",
+    "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei261009.xlsx"
+   },
+   {
+    "title": "Bank of Japan Accounts (October 10)",
+    "date": "2026-10-14",
+    "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac261010.htm"
+   },
+   {
+    "title": "Money Stock (Sept.)",
+    "date": "2026-10-13",
+    "url": "http://www.boj.or.jp/en/statistics/money/ms/ms2609.pdf"
+   }
+  ],
   "coverage": {
-   "automatic": 0,
-   "manual": 40
-  }
+   "automatic": 27,
+   "manual": 13
+  },
+  "ai_ran": true
  }
 }

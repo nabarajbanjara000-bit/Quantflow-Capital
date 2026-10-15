@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "code": "germany",
- "asof_date": "2026-10-14",
- "asof_label": "Oct 14, 2026",
- "generated_at": "2026-10-14T16:20:51.870Z",
- "data_updated_at": null,
- "narrative_updated_at": null,
+ "asof_date": "2026-10-15",
+ "asof_label": "Oct 15, 2026",
+ "generated_at": "2026-10-15T12:48:06.143Z",
+ "data_updated_at": "2026-10-15T12:48:06.143Z",
+ "narrative_updated_at": "2026-10-15T12:48:06.143Z",
  "narrative_stale": false,
- "narrative_model": "hand-checked snapshot",
+ "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "germany",
   "short": "DE",
@@ -23,22 +23,58 @@
  },
  "meeting": {
   "next": {
-   "start": null,
+   "start": "2026-10-28",
    "end": "2026-10-29",
-   "time_label": "2:15 p.m. CET",
    "label": "Wednesday–Thursday, October 28–29, 2026, in Frankfurt",
-   "decision_label": "Thursday, Oct 29, 2:15 p.m. Central European Time (when the ECB publishes its decision), followed by President Lagarde's press conference"
+   "decision_label": "Thursday, Oct 29, 2:15 p.m. Central European Time (when the ECB publishes its decision), followed by President Lagarde's press conference",
+   "time_label": "2:15 p.m. Central European Time"
   },
   "after": {
-   "start": null,
-   "end": null,
-   "label": "December 16–17, 2026 (decision on Dec 17, with new staff forecasts)"
+   "start": "2026-12-16",
+   "end": "2026-12-17",
+   "label": "Wednesday–Thursday, December 16–17, 2026, in Frankfurt",
+   "decision_label": "Thursday, Dec 17, 2:15 p.m. Central European Time (when the ECB publishes its decision), followed by President Lagarde's press conference",
+   "time_label": "2:15 p.m. Central European Time"
   },
   "calendar_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
   "calendar_label": "Official ECB meeting calendar",
-  "who": "The European Central Bank (“the ECB”) in Frankfurt, which sets one interest rate for every country that uses the euro, including Germany. Its decision-making group is the Governing Council: the 6 members of the ECB's Executive Board (led by President Christine Lagarde) plus the heads of the 21 national central banks. Germany's voice is Joachim Nagel, President of the Deutsche Bundesbank."
+  "who": "The European Central Bank (“the ECB”) in Frankfurt, which sets one interest rate for every country that uses the euro, including Germany. Its decision-making group is the Governing Council: the 6 members of the ECB's Executive Board (led by President Christine Lagarde) plus the heads of the 21 national central banks. Germany's voice is Joachim Nagel, President of the Deutsche Bundesbank.",
+  "days_to_decision": 14
  },
- "kpis": [],
+ "kpis": [
+  {
+   "label": "ECB interest rate",
+   "value": "2.50%",
+   "note": "Deposit rate",
+   "period": "Oct 15, 2026",
+   "source": "ECB",
+   "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
+  },
+  {
+   "label": "Price rise, past year (euro area)",
+   "value": "3.8%",
+   "note": "Goal is 2%",
+   "period": "Sep 2026",
+   "source": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap"
+  },
+  {
+   "label": "Unemployment (Germany)",
+   "value": "2,994,000 · 6.4%",
+   "note": "National count",
+   "period": "Sep 2026",
+   "source": "Bundesagentur für Arbeit",
+   "url": "https://www.arbeitsagentur.de/presse/2026-37-arbeitsmarkt-im-september-2026"
+  },
+  {
+   "label": "10-year Bund rate",
+   "value": "3.45%",
+   "note": "",
+   "period": "Oct 15, 2026",
+   "source": "Bundesbank",
+   "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf"
+  }
+ ],
  "kpis_seed": [
   {
    "label": "ECB interest rate",
@@ -143,12 +179,17 @@
    "name": "Euro-area inflation (HICP), the ECB's target",
    "source": "Eurostat",
    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap",
-   "value": "+3.8% vs a year ago",
-   "period": "Sep 2026 (flash estimate)",
-   "released": "Oct 2, 2026",
-   "previous": "+3.2% (Aug)",
+   "value": "3.8%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.2% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 3.8
+   },
+   "estimate": false
   },
   "euro_area_core_inflation_without_energ": {
    "id": "euro_area_core_inflation_without_energ",
@@ -156,12 +197,17 @@
    "name": "Euro-area core inflation (without energy, food, alcohol, tobacco)",
    "source": "Eurostat",
    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap",
-   "value": "+2.5% vs a year ago",
-   "period": "Sep 2026 (flash)",
-   "released": "Oct 2, 2026",
-   "previous": "+2.4% (Aug)",
+   "value": "2.5%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "2.4% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 2.5
+   },
+   "estimate": false
   },
   "euro_area_energy_prices": {
    "id": "euro_area_energy_prices",
@@ -169,12 +215,17 @@
    "name": "Euro-area energy prices",
    "source": "Eurostat",
    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap",
-   "value": "+18.8% vs a year ago",
-   "period": "Sep 2026 (flash)",
-   "released": "Oct 2, 2026",
-   "previous": "+14.3% (Aug)",
+   "value": "18.8%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "14.3% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 18.8
+   },
+   "estimate": false
   },
   "euro_area_services_prices": {
    "id": "euro_area_services_prices",
@@ -182,12 +233,17 @@
    "name": "Euro-area services prices",
    "source": "Eurostat",
    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap",
-   "value": "+3.2% vs a year ago",
-   "period": "Sep 2026 (flash)",
-   "released": "Oct 2, 2026",
-   "previous": "+3.0% (Aug)",
+   "value": "3.2%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.0% (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "v": 3.2
+   },
+   "estimate": false
   },
   "german_consumer_prices_cpi": {
    "id": "german_consumer_prices_cpi",
@@ -197,10 +253,16 @@
    "url": "https://www.destatis.de/EN/Press/2026/10/PE26_364_611.html",
    "value": "+3.3% vs a year ago",
    "period": "Sep 2026 (+0.6% in the month)",
-   "released": "Oct 13, 2026",
-   "previous": "+2.9% (Aug)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "+2.9% a year; +0.2% in the month (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "yoy": 3.262642740619892,
+    "mom": 0.6359300476947549
+   },
+   "estimate": false
   },
   "german_core_inflation_without_food_and": {
    "id": "german_core_inflation_without_food_and",
@@ -223,10 +285,16 @@
    "url": "https://www.destatis.de/EN/Press/2026/10/PE26_364_611.html",
    "value": "+14.9% vs a year ago",
    "period": "Sep 2026 (+3.8% in the month)",
-   "released": "Oct 13, 2026",
-   "previous": "+10.5% (Aug)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "+10.5% a year; +1.7% in the month (Aug 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-09-01",
+   "raw": {
+    "yoy": 14.929577464788736,
+    "mom": 3.8167938931297662
+   },
+   "estimate": false
   },
   "german_producer_prices_industry": {
    "id": "german_producer_prices_industry",
@@ -262,10 +330,15 @@
    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-01102026-ap",
    "value": "6.4%",
    "period": "Aug 2026",
-   "released": "Oct 1, 2026",
-   "previous": "6.4% (Jul); 6.3% (Aug 2025)",
+   "released": "Detected Oct 15, 2026",
+   "previous": "6.4% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 6.4
+   },
+   "estimate": false
   },
   "german_registered_unemployment_nationa": {
    "id": "german_registered_unemployment_nationa",
@@ -287,11 +360,16 @@
    "source": "Destatis",
    "url": "https://www.destatis.de/EN/Press/2026/09/PE26_347_132.html",
    "value": "4.0%",
-   "period": "Aug 2026 (seasonally adjusted)",
-   "released": "Sep 30, 2026",
-   "previous": "4.0% (Jul); 3.8% (Aug 2025, Eurostat)",
+   "period": "Aug 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "4.0% (Jul 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-08-01",
+   "raw": {
+    "v": 4
+   },
+   "estimate": false
   },
   "people_in_work_in_germany": {
    "id": "people_in_work_in_germany",
@@ -364,12 +442,17 @@
    "name": "German GDP growth",
    "source": "Destatis",
    "url": "https://www.destatis.de/EN/Press/2026/08/PE26_303_811.html",
-   "value": "+0.3% on the quarter",
-   "period": "Q2 2026 (April–June)",
-   "released": "Aug 25, 2026",
-   "previous": "+0.4% (Q1); first estimate for Q2 was +0.2%",
-   "tag": "old",
-   "manual": true
+   "value": "0.3%",
+   "period": "Q2 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "0.4% (Q1 2026)",
+   "tag": "official",
+   "manual": false,
+   "latest_date": "2026-04-01",
+   "raw": {
+    "v": 0.3
+   },
+   "estimate": false
   },
   "euro_area_gdp_growth": {
    "id": "euro_area_gdp_growth",
@@ -377,12 +460,17 @@
    "name": "Euro-area GDP growth",
    "source": "Eurostat",
    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-07092026-ap",
-   "value": "+0.6% on the quarter",
+   "value": "0.6%",
    "period": "Q2 2026",
-   "released": "Sep 7, 2026",
-   "previous": "Not collected",
-   "tag": "old",
-   "manual": true
+   "released": "Detected Oct 15, 2026",
+   "previous": "0.0% (Q1 2026)",
+   "tag": "official",
+   "manual": false,
+   "latest_date": "2026-04-01",
+   "raw": {
+    "v": 0.6
+   },
+   "estimate": false
   },
   "ifo_business_climate_germany": {
    "id": "ifo_business_climate_germany",
@@ -469,11 +557,16 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.50%",
-   "period": "In force from Sep 16, 2026",
-   "released": "Sep 10, 2026",
-   "previous": "2.25% (from Jun 17, 2026)",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "2.50% (Oct 14, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-15",
+   "raw": {
+    "v": 2.5
+   },
+   "estimate": false
   },
   "ecb_main_refinancing_rate": {
    "id": "ecb_main_refinancing_rate",
@@ -482,11 +575,16 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.65%",
-   "period": "In force from Sep 16, 2026",
-   "released": "Sep 10, 2026",
-   "previous": "2.40%",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "2.65% (Oct 14, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-15",
+   "raw": {
+    "v": 2.65
+   },
+   "estimate": false
   },
   "2_year_german_government_bond_schatz": {
    "id": "2_year_german_government_bond_schatz",
@@ -495,11 +593,16 @@
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
    "value": "3.07%",
-   "period": "Oct 8, 2026",
-   "released": "Daily",
-   "previous": "3.03% (Sep 8); 3.01% (Oct 1)",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.11% (Oct 14, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-15",
+   "raw": {
+    "v": 3.07
+   },
+   "estimate": false
   },
   "10_year_german_government_bond_bund": {
    "id": "10_year_german_government_bond_bund",
@@ -507,12 +610,17 @@
    "name": "10-year German government bond (Bund)",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.47%",
-   "period": "Oct 8, 2026",
-   "released": "Daily",
-   "previous": "3.39% (Sep 8); 3.43% (Oct 1)",
+   "value": "3.45%",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.51% (Oct 14, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-15",
+   "raw": {
+    "v": 3.45
+   },
+   "estimate": false
   },
   "30_year_german_government_bond": {
    "id": "30_year_german_government_bond",
@@ -521,11 +629,16 @@
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
    "value": "3.84%",
-   "period": "Oct 8, 2026",
-   "released": "Daily",
-   "previous": "3.82% (Oct 1)",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "3.90% (Oct 14, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-15",
+   "raw": {
+    "v": 3.84
+   },
+   "estimate": false
   },
   "market_expectations_for_ecb_rates": {
    "id": "market_expectations_for_ecb_rates",
@@ -559,12 +672,17 @@
    "name": "Euro vs U.S. dollar",
    "source": "ECB reference rate",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-   "value": "$1.1188 per euro",
-   "period": "Oct 13, 2026",
-   "released": "Daily",
-   "previous": "$1.1539 (Sep 15)",
+   "value": "$1.1195 per euro",
+   "period": "Oct 14, 2026",
+   "released": "Detected Oct 15, 2026",
+   "previous": "$1.1188 per euro (Oct 13, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-14",
+   "raw": {
+    "v": 1.1195
+   },
+   "estimate": false
   },
   "oil_price_brent_crude_european_benchma": {
    "id": "oil_price_brent_crude_european_benchma",
@@ -575,9 +693,14 @@
    "value": "$125.44 a barrel",
    "period": "Oct 6, 2026",
    "released": "Oct 7, 2026",
-   "previous": "$135.51 (Oct 2); $115.91 (Sep 30)",
+   "previous": "$125.51 (Oct 5, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-06",
+   "raw": {
+    "v": 125.44
+   },
+   "estimate": false
   },
   "oil_price_wti_crude_u_s": {
    "id": "oil_price_wti_crude_u_s",
@@ -588,9 +711,14 @@
    "value": "$96.24 a barrel",
    "period": "Oct 6, 2026",
    "released": "Oct 7, 2026",
-   "previous": "$97.18 (Sep 30)",
+   "previous": "$96.13 (Oct 5, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-06",
+   "raw": {
+    "v": 96.24
+   },
+   "estimate": false
   },
   "natural_gas_price_europe": {
    "id": "natural_gas_price_europe",
@@ -599,11 +727,16 @@
    "source": "IMF via FRED",
    "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM",
    "value": "$17.93 per million BTU",
-   "period": "Jul 2026 (monthly average)",
-   "released": "Aug 17, 2026",
-   "previous": "$15.09 (Jun)",
+   "period": "Jul 2026",
+   "released": "Oct 7, 2026",
+   "previous": "$15.09 (Jun 2026)",
    "tag": "old",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-07-01",
+   "raw": {
+    "v": 17.93
+   },
+   "estimate": false
   },
   "german_fuel_tax_cut_tankrabatt": {
    "id": "german_fuel_tax_cut_tankrabatt",
@@ -635,49 +768,75 @@
  "releases": [
   {
    "id": "euro_area_inflation_hicp",
-   "name": "Euro-area inflation (HICP), September final",
+   "name": "Euro-area inflation (HICP), September final · Eurostat",
    "publisher": "Eurostat",
    "date": "2026-10-16",
    "date_label": "Fri Oct 16",
    "time": "",
-   "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap",
-   "what": "The final, detailed version of September&#x27;s 3.8% price rise, by category and country.",
-   "weekly": false
+   "url": "https://ec.europa.eu/eurostat/news/release-calendar",
+   "what": "The final, detailed version of September's price rise, by category and country.",
+   "weekly": false,
+   "timing": "before"
   },
   {
-   "id": "brent_oil_price",
-   "name": "Brent oil price",
-   "publisher": "EIA via FRED",
-   "date": "2026-10-14",
-   "date_label": "Every business day",
+   "id": "german_producer_prices",
+   "name": "German producer prices (industry), September · Destatis",
+   "publisher": "Destatis",
+   "date": "2026-10-20",
+   "date_label": "Tue Oct 20",
    "time": "",
-   "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "what": "The price of a barrel of European benchmark crude oil.",
-   "weekly": true
+   "url": "https://www.destatis.de/SiteGlobals/Forms/Suche/Termine/EN/Terminsuche_Formular.html",
+   "what": "What German factories charge for their products.",
+   "weekly": false,
+   "timing": "before"
   },
   {
-   "id": "ifo_business_climate",
-   "name": "ifo Business Climate, October",
-   "publisher": "ifo Institute",
-   "date": "2026-10-26",
-   "date_label": "Mon Oct 26",
-   "time": "10:30 a.m. CET",
-   "url": "https://www.ifo.de/en/survey/ifo-business-climate-index-germany",
-   "what": "A survey of German companies&#x27; mood: how business is now and what they expect.",
-   "weekly": false
+   "id": "euro_area_sentiment",
+   "name": "Euro-area economic sentiment, October · Eurostat",
+   "publisher": "Eurostat",
+   "date": "2026-10-29",
+   "date_label": "Thu Oct 29",
+   "time": "",
+   "url": "https://ec.europa.eu/eurostat/news/release-calendar",
+   "what": "A European Commission survey of how firms and households see the economy.",
+   "weekly": false,
+   "timing": "day"
+  },
+  {
+   "id": "euro_area_and_german_gdp_q3_fi",
+   "name": "Euro-area GDP, Q3 first estimate · Eurostat",
+   "publisher": "Eurostat",
+   "date": "2026-10-30",
+   "date_label": "Fri Oct 30",
+   "time": "",
+   "url": "https://ec.europa.eu/eurostat/news/release-calendar",
+   "what": "How fast the euro-area economy grew in July–September.",
+   "weekly": false,
+   "timing": "after"
   },
   {
    "id": "german_consumer_prices_cpi_oct",
    "name": "German consumer prices (CPI), October flash · Destatis",
    "publisher": "Destatis",
-   "date": "2026-10-26",
-   "date_label": "Late October",
-   "time": "(date not confirmed)",
-   "url": "",
-   "what": "Germany&#x27;s first estimate of October prices.",
+   "date": "2026-10-30",
+   "date_label": "Fri Oct 30",
+   "time": "",
+   "url": "https://www.destatis.de/SiteGlobals/Forms/Suche/Termine/EN/Terminsuche_Formular.html",
+   "what": "Germany's first estimate of October prices.",
    "weekly": false,
-   "approx": true,
-   "timing": "day"
+   "timing": "after"
+  },
+  {
+   "id": "euro_area_unemployment",
+   "name": "Euro-area unemployment, September · Eurostat",
+   "publisher": "Eurostat",
+   "date": "2026-10-30",
+   "date_label": "Fri Oct 30",
+   "time": "",
+   "url": "https://ec.europa.eu/eurostat/news/release-calendar",
+   "what": "The share of people without a job in the euro area and each country.",
+   "weekly": false,
+   "timing": "after"
   },
   {
    "id": "german_labour_market",
@@ -685,35 +844,46 @@
    "publisher": "Bundesagentur für Arbeit",
    "date": "2026-10-30",
    "date_label": "Fri Oct 30",
-   "time": "",
+   "time": "10:00 a.m. CET",
    "url": "https://www.arbeitsagentur.de/en/press",
    "what": "Registered unemployment and job vacancies in Germany.",
-   "weekly": false
-  },
-  {
-   "id": "euro_area_and_german_gdp_q3_fi",
-   "name": "Euro-area and German GDP, Q3 first estimate · Eurostat / Destatis",
-   "publisher": "Eurostat / Destatis",
-   "date": "2026-10-26",
-   "date_label": "Late Oct / early Nov",
-   "time": "(date not confirmed)",
-   "url": "",
-   "what": "How fast the economy grew in July–September.",
    "weekly": false,
-   "approx": true,
    "timing": "after"
   },
   {
    "id": "euro_area_inflation_hicp_octob",
    "name": "Euro-area inflation (HICP), October flash · Eurostat",
    "publisher": "Eurostat",
-   "date": "2026-11-05",
-   "date_label": "Early November",
-   "time": "(date not confirmed)",
-   "url": "",
+   "date": "2026-11-04",
+   "date_label": "Wed Nov 4",
+   "time": "",
+   "url": "https://ec.europa.eu/eurostat/news/release-calendar",
    "what": "The first estimate of October prices for the euro area.",
    "weekly": false,
-   "approx": true,
+   "timing": "after"
+  },
+  {
+   "id": "euro_area_gdp_q3_flash",
+   "name": "Euro-area GDP and employment, Q3 flash · Eurostat",
+   "publisher": "Eurostat",
+   "date": "2026-11-13",
+   "date_label": "Fri Nov 13",
+   "time": "",
+   "url": "https://ec.europa.eu/eurostat/news/release-calendar",
+   "what": "A fuller estimate of July–September growth, with employment.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "euro_area_inflation_hicp_oct_final",
+   "name": "Euro-area inflation (HICP), October final · Eurostat",
+   "publisher": "Eurostat",
+   "date": "2026-11-18",
+   "date_label": "Wed Nov 18",
+   "time": "",
+   "url": "https://ec.europa.eu/eurostat/news/release-calendar",
+   "what": "The final, detailed version of October's price rise.",
+   "weekly": false,
    "timing": "after"
   },
   {
@@ -722,15 +892,52 @@
    "publisher": "Bundesagentur für Arbeit",
    "date": "2026-11-27",
    "date_label": "Fri Nov 27",
-   "time": "",
+   "time": "10:00 a.m. CET",
    "url": "https://www.arbeitsagentur.de/en/press",
    "what": "Registered unemployment in Germany.",
-   "weekly": false
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "euro_area_inflation_hicp_nov_flash",
+   "name": "Euro-area inflation (HICP), November flash · Eurostat",
+   "publisher": "Eurostat",
+   "date": "2026-12-01",
+   "date_label": "Tue Dec 1",
+   "time": "",
+   "url": "https://ec.europa.eu/eurostat/news/release-calendar",
+   "what": "The first estimate of November prices for the euro area.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "euro_area_unemployment_2",
+   "name": "Euro-area unemployment, October · Eurostat",
+   "publisher": "Eurostat",
+   "date": "2026-12-02",
+   "date_label": "Wed Dec 2",
+   "time": "",
+   "url": "https://ec.europa.eu/eurostat/news/release-calendar",
+   "what": "The share of people without a job in the euro area and each country.",
+   "weekly": false,
+   "timing": "after"
+  },
+  {
+   "id": "euro_area_gdp_q3_update",
+   "name": "Euro-area GDP and employment, Q3 update · Eurostat",
+   "publisher": "Eurostat",
+   "date": "2026-12-07",
+   "date_label": "Mon Dec 7",
+   "time": "",
+   "url": "https://ec.europa.eu/eurostat/news/release-calendar",
+   "what": "The full breakdown of July–September growth.",
+   "weekly": false,
+   "timing": "after"
   }
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Starting snapshot, checked by hand.",
+   "headline": "No major policy changes; awaiting final September inflation report on Friday.",
    "items": []
   },
   "verdict": {
@@ -1044,7 +1251,8 @@
      "<strong>The euro is weaker,</strong> which makes imported energy dearer still.",
      "A hot final price report on October 16 could make waiting feel too risky."
     ],
-    "everyday": "loan and savings rates in Germany would stay roughly where they are for now. Attention would then shift to December, when new forecasts arrive."
+    "everyday": "loan and savings rates in Germany would stay roughly where they are for now. Attention would then shift to December, when new forecasts arrive.",
+    "prob": 60
    },
    {
     "option": "raise",
@@ -1063,7 +1271,8 @@
      "<strong>Core inflation is still moderate</strong> at 2.5% in the euro area and 2.4% in Germany.",
      "<strong>Germany's economy is weak,</strong> and a third rise in five months would hit it hard."
     ],
-    "everyday": "variable loans and new mortgages would get a little dearer, and savings accounts would pay a bit more. The euro might firm slightly, which would make fuel and imports a little cheaper."
+    "everyday": "variable loans and new mortgages would get a little dearer, and savings accounts would pay a bit more. The euro might firm slightly, which would make fuel and imports a little cheaper.",
+    "prob": 37
    },
    {
     "option": "cut",
@@ -1079,7 +1288,8 @@
      "<strong>Nobody is asking for it.</strong> In the speeches and interviews we read since September, no ECB official argued for a cut.",
      "<strong>Inflation is rising.</strong> Cutting would add fuel to it."
     ],
-    "everyday": "loans would get slightly cheaper, but the surprise itself would likely signal that something had gone badly wrong."
+    "everyday": "loans would get slightly cheaper, but the surprise itself would likely signal that something had gone badly wrong.",
+    "prob": 3
    }
   ],
   "change": {
@@ -1091,32 +1301,56 @@
      "why": "The most important report before the meeting. It shows whether price pressure is spreading beyond energy.",
      "trigger": "Core revised to 2.6% or more, or services 3.4% or more → <strong>Raise</strong> becomes our top pick. Core at 2.5% or less → more confident in <strong>Hold</strong>."
     },
-    "brent_oil_price": {
-     "why": "Energy is the main driver of today&#x27;s inflation, and the ECB says energy is already above its assumptions.",
-     "trigger": "Brent staying above about $130 → leans <strong>Raise</strong>. Falling back below about $110 → leans <strong>Hold</strong>."
+    "german_producer_prices": {
+     "why": "Shows factory-gate price pressures in Germany before the October meeting.",
+     "trigger": "A sharp jump in industrial producer prices → pushes towards <strong>Raise</strong>."
     },
-    "ifo_business_climate": {
-     "why": "The fastest read on whether German firms are coping with high energy costs and higher rates.",
-     "trigger": "A sharp fall → leans <strong>Hold</strong>. A third rise in a row → small push toward <strong>Raise</strong>."
-    },
-    "german_consumer_prices_cpi_oct": {
-     "why": "It will show the first effect of the 17-cent fuel tax cut from October 1, which should lower German prices at the pump. We could not confirm whether it is published before or after the decision.",
-     "trigger": "If out before the decision: a big drop from 3.3% (thanks to the fuel tax cut) would make waiting easier."
-    },
-    "german_labour_market": {
-     "why": "Too late for October, but shows whether Germany&#x27;s jobs market is weakening further.",
-     "trigger": "Shapes our December view."
+    "euro_area_sentiment": {
+     "why": "Published on the day of the decision, showing economic sentiment across the euro area.",
+     "trigger": "Significant drop in sentiment → leans <strong>Hold</strong>."
     },
     "euro_area_and_german_gdp_q3_fi": {
      "why": "Shows whether the economy can handle more rate rises.",
      "trigger": "Shapes our December view."
     },
+    "german_consumer_prices_cpi_oct": {
+     "why": "It will show the first effect of the 17-cent fuel tax cut from October 1, which should lower German prices at the pump.",
+     "trigger": "Shapes our December view."
+    },
+    "euro_area_unemployment": {
+     "why": "Too late for October, but tracks euro-area labour market strength.",
+     "trigger": "Shapes our December view."
+    },
+    "german_labour_market": {
+     "why": "Too late for October, but shows whether Germany's jobs market is weakening further.",
+     "trigger": "Shapes our December view."
+    },
     "euro_area_inflation_hicp_octob": {
-     "why": "Key input for December. Will show whether September&#x27;s jump was a peak.",
+     "why": "Key input for December. Will show whether September's jump was a peak.",
+     "trigger": "December."
+    },
+    "euro_area_gdp_q3_flash": {
+     "why": "First flash estimate of Q3 euro-area GDP.",
+     "trigger": "December."
+    },
+    "euro_area_inflation_hicp_oct_final": {
+     "why": "Final October inflation figures for the euro area.",
      "trigger": "December."
     },
     "german_labour_market_2": {
-     "why": "Another check on Germany&#x27;s jobs market before December.",
+     "why": "Another check on Germany's jobs market before December.",
+     "trigger": "December."
+    },
+    "euro_area_inflation_hicp_nov_flash": {
+     "why": "First flash estimate of November euro-area inflation.",
+     "trigger": "December."
+    },
+    "euro_area_unemployment_2": {
+     "why": "October euro-area unemployment report.",
+     "trigger": "December."
+    },
+    "euro_area_gdp_q3_update": {
+     "why": "Updated Q3 euro-area GDP and employment numbers.",
      "trigger": "December."
     }
    },
@@ -1143,7 +1377,7 @@
    {
     "area": "Jobs",
     "grade": "amber",
-    "one": "Euro-area unemployment is low, but Germany&#x27;s jobs market is slowly weakening.",
+    "one": "Euro-area unemployment is low, but Germany's jobs market is slowly weakening.",
     "look": "Euro-area unemployment (Eurostat), German registered unemployment (Bundesagentur für Arbeit), German employment (Destatis), short-time work and vacancies.",
     "why": "Good news: euro-area unemployment is 6.4%, close to historic lows, and German short-time work is falling. Bad news: Germany has 2.994 million registered unemployed (40,000 more than a year earlier), and 235,000 fewer people in work than a year ago. The head of Germany's employment agency said the autumn pick-up started “schwunglos” (without momentum).",
     "change": "Rising unemployment across the euro area → red. German hiring picking up → green.",
@@ -1677,19 +1911,19 @@
   "mini": {
    "prices": [
     "3.8%",
-    "Euro-area HICP, Sep flash"
+    "Euro-area HICP, Sep"
    ],
    "jobless": [
     "6.4%",
     "Germany, Sep"
    ],
    "10-yr": [
-    "3.47%",
-    "Bund, Oct 8"
+    "3.45%",
+    "Oct 15"
    ]
   },
   "rate_label": "Current ECB rate",
-  "time_label": "2:15 p.m. CET"
+  "time_label": "2:15 p.m. Central European Time"
  },
  "live_series": [
   {
@@ -1827,9 +2061,42 @@
  "qa": {
   "data_errors": [],
   "ai_errors": [],
+  "sources_read": [
+   {
+    "title": "Frank Elderson: Ensuring resilience in the face of uncertainty",
+    "date": "2026-10-14",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html"
+   },
+   {
+    "title": "Philip R. Lane: The AI opportunity for Europe",
+    "date": "2026-10-13",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261013~9db9bf4fd6.en.html"
+   },
+   {
+    "title": "Meeting of 9-10 September 2026",
+    "date": "2026-10-08",
+    "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
+   },
+   {
+    "title": "Piero Cipollone: Interview with Corriere della Sera",
+    "date": "2026-10-08",
+    "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261008~3184e7d0d0.en.html"
+   },
+   {
+    "title": "Results of the September 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
+    "date": "2026-10-07",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261007~6447350434.en.html"
+   },
+   {
+    "title": "Frank Elderson: Effective supervision through timely remediation",
+    "date": "2026-10-06",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006_1~0df91e4e44.en.html"
+   }
+  ],
   "coverage": {
-   "automatic": 0,
-   "manual": 38
-  }
+   "automatic": 19,
+   "manual": 19
+  },
+  "ai_ran": true
  }
 }
