@@ -1,4 +1,5 @@
 // Switzerland: SNB data portal + SNB public chart JSON (official), ECB data API (official, for the ECB rate), SNB event schedule/RSS.
+import { teYield } from "../lib/tradingeconomics.mjs";
 const SNB_SCHEDULE = "https://www.snb.ch/en/services-events/digital-services/event-schedule";
 
 // SNB data portal cube (key-less CSV, ';' separated): rows [date, ...dims, value]. Returns [{date, value}] for rows whose dims match.
@@ -32,7 +33,7 @@ export default {
     { id: "monetary_policy", url: "https://www.snb.ch/public/rss/en/mopo" },
     { id: "speeches", url: "https://www.snb.ch/public/rss/en/speeches" },
   ],
-  allowed_domains: ["snb.ch", "data.snb.ch", "bfs.admin.ch", "seco.admin.ch", "admin.ch", "arbeit.swiss", "kof.ethz.ch", "ecb.europa.eu", "federalreserve.gov"],
+  allowed_domains: ["snb.ch", "data.snb.ch", "bfs.admin.ch", "seco.admin.ch", "admin.ch", "arbeit.swiss", "kof.ethz.ch", "ecb.europa.eu", "federalreserve.gov", "tradingeconomics.com"],
   indicators: [
     // CPI: SNB data portal republishes the FSO national index (official; lags the FSO release by about a month, so the snapshot's Sep value is newer).
     { id: "consumer_price_index_cpi_all_items", kind: "yoy_mom", freq: "m", decimals: 1, note: "FSO index via SNB data portal (cube plkopr)", get: cube("plkopr", ["LD2010100"]) },
@@ -40,6 +41,7 @@ export default {
     { id: "rate_on_banks_deposits_above_the_thres", kind: "pct", freq: "d", decimals: 2, get: cube("snbgwdzid", ["ZIG"]) },
     { id: "saron_overnight_rate", kind: "pct", freq: "d", decimals: 2, get: snbChart("interestRates", "sarh") },
     { id: "10_year_confederation_bond_yield", kind: "pct", freq: "d", decimals: 3, get: snbChart("interestRates", "r10") },
+    { id: "2_year_confederation_bond_yield", ...teYield("/switzerland/2-year-note-yield", 2) },
     { id: "euro_in_francs", kind: "level", freq: "d", decimals: 4, prefix: "CHF ", get: snbChart("exchangeRates", "eur") },
     { id: "u_s_dollar_in_francs", kind: "level", freq: "d", decimals: 4, prefix: "CHF ", get: snbChart("exchangeRates", "usd") },
     // KOF tsdb API (official KOF/ETH data service; link published on the KOF barometer page)

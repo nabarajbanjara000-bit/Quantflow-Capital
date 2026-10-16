@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-10-15",
- "asof_label": "Oct 15, 2026",
- "generated_at": "2026-10-15T14:46:42.573Z",
- "data_updated_at": "2026-10-15T14:46:42.573Z",
+ "asof_date": "2026-10-16",
+ "asof_label": "Oct 16, 2026",
+ "generated_at": "2026-10-16T16:40:59.239Z",
+ "data_updated_at": "2026-10-16T16:40:59.239Z",
  "narrative_updated_at": "2026-10-15T12:52:28.633Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 13
+  "days_to_decision": 12
  },
  "kpis": [
   {
    "label": "Official Cash Rate",
    "value": "2.75%",
    "note": "",
-   "period": "Since Sep 2, 2026",
+   "period": "Sep 2, 2026",
    "source": "Reserve Bank of New Zealand",
    "url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate"
   },
@@ -68,11 +68,11 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "4.98%",
+   "value": "5.01%",
    "note": "",
-   "period": "Oct 13, 2026",
-   "source": "Reserve Bank of New Zealand",
-   "url": "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/wholesale-interest-rates"
+   "period": "Oct 16, 2026",
+   "source": "Trading Economics (market data)",
+   "url": "https://tradingeconomics.com/new-zealand/government-bond-yield"
   }
  ],
  "kpis_seed": [
@@ -273,16 +273,16 @@
    "name": "Food prices (Selected price indexes)",
    "source": "Stats NZ",
    "url": "https://www.stats.govt.nz/information-releases/selected-price-indexes-august-2026/",
-   "value": "+1.9% vs a year ago",
-   "period": "Aug 2026 (+0.3% in the month)",
-   "released": "Detected Oct 15, 2026",
-   "previous": "+1.9% a year; +0.1% in the month (Jul 2026)",
+   "value": "+2.4% vs a year ago",
+   "period": "Sep 2026 (+0.0% in the month)",
+   "released": "Detected Oct 16, 2026",
+   "previous": "+1.9% a year; +0.3% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "yoy": 1.9117647058823461,
-    "mom": 0.28943560057888007
+    "yoy": 2.363367799113747,
+    "mom": 0
    },
    "estimate": false
   },
@@ -545,50 +545,70 @@
    "source": "Reserve Bank of New Zealand",
    "url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
    "value": "2.75%",
-   "period": "Since Sep 2, 2026",
-   "released": "Sep 2, 2026, 2:00 p.m.",
-   "previous": "2.50% (from Jul 8, 2026)",
-   "tag": "official",
-   "manual": true
+   "period": "Sep 2, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "2.50% (Jul 8, 2026)",
+   "tag": "old",
+   "manual": false,
+   "latest_date": "2026-09-02",
+   "raw": {
+    "v": 2.75
+   },
+   "estimate": false
   },
   "90_day_bank_bill_rate": {
    "id": "90_day_bank_bill_rate",
    "group": "rates",
    "name": "90-day bank bill rate",
-   "source": "Reserve Bank of New Zealand",
-   "url": "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/wholesale-interest-rates",
-   "value": "3.23%",
-   "period": "Oct 13, 2026",
-   "released": "Oct 13, 2026",
-   "previous": "3.24% (Sep 29, Treasury)",
+   "source": "Trading Economics (market data)",
+   "url": "https://tradingeconomics.com/new-zealand/3-month-bill-yield",
+   "value": "3.29%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "3.26% (Oct 15, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-16",
+   "raw": {
+    "v": 3.29
+   },
+   "estimate": false
   },
   "2_year_government_bond_yield": {
    "id": "2_year_government_bond_yield",
    "group": "rates",
    "name": "2-year government bond yield",
-   "source": "Reserve Bank of New Zealand",
-   "url": "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/wholesale-interest-rates",
-   "value": "3.80%",
-   "period": "Oct 13, 2026",
-   "released": "Oct 13, 2026",
-   "previous": "3.85% (Sep 30)",
+   "source": "Trading Economics (market data)",
+   "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
+   "value": "3.92%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "3.83% (Oct 15, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-16",
+   "raw": {
+    "v": 3.92
+   },
+   "estimate": false
   },
   "10_year_government_bond_yield": {
    "id": "10_year_government_bond_yield",
    "group": "rates",
    "name": "10-year government bond yield",
-   "source": "Reserve Bank of New Zealand",
-   "url": "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/wholesale-interest-rates",
-   "value": "4.98%",
-   "period": "Oct 13, 2026",
-   "released": "Oct 13, 2026",
-   "previous": "5.04% (Sep 30); 4.46% June average (FRED)",
+   "source": "Trading Economics (market data)",
+   "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
+   "value": "5.01%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "4.96% (Oct 15, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-16",
+   "raw": {
+    "v": 5.012
+   },
+   "estimate": false
   },
   "market_odds_of_an_october_rise": {
    "id": "market_odds_of_an_october_rise",
@@ -652,13 +672,14 @@
    "period": "Oct 6, 2026",
    "released": "Oct 7, 2026",
    "previous": "$125.51 (Oct 5, 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-06",
    "raw": {
     "v": 125.44
    },
-   "estimate": false
+   "estimate": false,
+   "note": "Could not refresh today; showing last collected value."
   },
   "wti_crude_oil": {
    "id": "wti_crude_oil",
@@ -670,13 +691,14 @@
    "period": "Oct 6, 2026",
    "released": "Oct 15, 2026",
    "previous": "$96.13 (Oct 5, 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-06",
    "raw": {
     "v": 96.24
    },
-   "estimate": false
+   "estimate": false,
+   "note": "Could not refresh today; showing last collected value."
   },
   "rbnz_oil_assumption": {
    "id": "rbnz_oil_assumption",
@@ -698,12 +720,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 15, 2026",
-   "released": "Oct 15, 2026",
-   "previous": "4.00% (Oct 14, 2026)",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "4.00% (Sep 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
     "v": 4
    },
@@ -716,12 +738,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 15, 2026",
-   "released": "Oct 15, 2026",
-   "previous": "2.50% (Oct 14, 2026)",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "2.50% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
     "v": 2.5
    },
@@ -1842,8 +1864,8 @@
     "Q2"
    ],
    "10-yr": [
-    "4.98%",
-    "Oct 13"
+    "5.01%",
+    "Oct 16"
    ]
   },
   "rate_label": "Current OCR",
@@ -1940,10 +1962,39 @@
   "anchored inflation expectations cannot be taken for granted",
   "late October, before the decision"
  ],
- "changelog": [],
+ "changelog": [
+  {
+   "date": "2026-10-16",
+   "date_label": "Oct 16, 2026",
+   "since": "2026-10-15",
+   "since_label": "Oct 15, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "<strong>Food prices (Selected price indexes)</strong>: now +2.4% vs a year ago, for Sep 2026 (+0.0% in the month). Before: +1.9% vs a year ago, for Aug 2026 (+0.3% in the month)."
+    ]
+   },
+   "data": [
+    {
+     "id": "food_prices_selected_price_indexes",
+     "name": "Food prices (Selected price indexes)",
+     "from": "+1.9% vs a year ago",
+     "from_period": "Aug 2026 (+0.3% in the month)",
+     "to": "+2.4% vs a year ago",
+     "to_period": "Sep 2026 (+0.0% in the month)"
+    }
+   ],
+   "market": [],
+   "fed": [],
+   "verdict": null,
+   "ai_written": false
+  }
+ ],
  "qa": {
   "data_errors": [
-   "nz_dollar_in_us_dollars: HTTP 400 for https://api.stlouisfed.org/fred/series/observations?series_id=DEXNZUS&api_key=***&file_type=json&sort_order=desc&limit=40",
+   "nz_dollar_in_us_dollars: FRED_API_KEY is not set",
+   "brent_crude_oil: FRED_API_KEY is not set",
+   "wti_crude_oil: FRED_API_KEY is not set",
    "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience",
    "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/rbnz-and-fma-outline-supervisory-expectations-on-cyber-and-ai-risks: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/rbnz-and-fma-outline-supervisory-expectations-on-cyber-and-ai-risks",
    "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/recruitment-for-two-new-assistant-governors-and-chief-of-staff-underway: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/recruitment-for-two-new-assistant-governors-and-chief-of-staff-underway",
@@ -1985,8 +2036,8 @@
    }
   ],
   "coverage": {
-   "automatic": 14,
-   "manual": 25
+   "automatic": 18,
+   "manual": 21
   },
   "ai_ran": false
  }

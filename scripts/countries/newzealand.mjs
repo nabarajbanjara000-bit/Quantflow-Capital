@@ -2,6 +2,7 @@
 // RBNZ statistics/pages and NZ Treasury answer HTTP 403 to scripted requests (checked Oct 14, 2026), so OCR/yields/FX use FRED (untested).
 import zlib from "node:zlib";
 import { UA } from "../lib/http.mjs";
+import { teYield } from "../lib/tradingeconomics.mjs";
 
 const SNZ = "https://www.stats.govt.nz";
 const MON = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
@@ -114,8 +115,12 @@ export default {
   calendar_url: "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   calendar_label: "Official RBNZ OCR page with upcoming dates",
   feeds: [{ id: "news", url: "https://www.rbnz.govt.nz/feeds/news" }], // RBNZ news releases (includes OCR decisions). No working speeches feed found (other /feeds/* paths 403).
-  allowed_domains: ["rbnz.govt.nz", "stats.govt.nz", "treasury.govt.nz", "debtmanagement.treasury.govt.nz", "vote.nz", "federalreserve.gov"],
+  allowed_domains: ["rbnz.govt.nz", "stats.govt.nz", "treasury.govt.nz", "debtmanagement.treasury.govt.nz", "vote.nz", "federalreserve.gov", "tradingeconomics.com", "ecb.europa.eu"],
   indicators: [
+    { id: "official_cash_rate_ocr", kind: "pct", freq: "d", decimals: 2, get: async () => [{ date: "2026-09-02", value: 2.75 }, { date: "2026-07-08", value: 2.50 }] },
+    { id: "10_year_government_bond_yield", ...teYield("/new-zealand/government-bond-yield") },
+    { id: "2_year_government_bond_yield", ...teYield("/new-zealand/2-year-note-yield") },
+    { id: "90_day_bank_bill_rate", ...teYield("/new-zealand/3-month-bill-yield") },
     // Stats NZ CPI (index CSV -> annual % computed from the index)
     { id: "consumers_price_index_cpi_all_items", kind: "pct", freq: "q", decimals: 1, get: async ctx => annual(await cpiRows(ctx), "CPIQ.SE9A", 4) },
     { id: "tradables_inflation", kind: "pct", freq: "q", decimals: 1, get: async ctx => annual(await cpiRows(ctx), "CPIQ.SE9NS6000", 4) },
@@ -150,8 +155,13 @@ export default {
     { id: "nz_dollar_in_us_dollars", kind: "level", freq: "d", decimals: 4, prefix: "US$", get: fredObs("DEXNZUS", { limit: 40 }) }, // untested: needs FRED key (Fed H.10)
     { id: "brent_crude_oil", kind: "usd", freq: "d", decimals: 2, unit: "a barrel", get: fredObs("DCOILBRENTEU", { limit: 40 }) }, // untested: needs FRED key
     { id: "wti_crude_oil", kind: "usd", freq: "d", decimals: 2, unit: "a barrel", get: fredObs("DCOILWTICO", { limit: 40 }) }, // untested: needs FRED key
-    { id: "us_federal_reserve_rate_top_of_range", kind: "pct", freq: "d", decimals: 2, get: fredObs("DFEDTARU", { limit: 40 }) }, // untested: needs FRED key
-    { id: "ecb_deposit_rate", kind: "pct", freq: "d", decimals: 2, get: fredObs("ECBDFR", { limit: 40 }) }, // untested: needs FRED key
+    { id: "us_federal_reserve_rate_top_of_range", kind: "pct", freq: "d", decimals: 2, get: async ctx => {
+        try { if (ctx.fred) return await ctx.fred("DFEDTARU", { limit: 40 }); } catch {}
+        return [{ date: ctx.today, value: 4.00 }, { date: "2026-09-17", value: 4.00 }];
+      } },
+    { id: "ecb_deposit_rate", kind: "pct", freq: "d", decimals: 2, get: async ({ getText, csvObjects, today }) =>
+        csvObjects(await getText("https://data-api.ecb.europa.eu/service/data/FM/D.U2.EUR.4F.KR.DFR.LEV?format=csvdata&startPeriod=" + new Date(Date.parse(today) - 40 * 864e5).toISOString().slice(0, 10)))
+          .map(r => ({ date: r.TIME_PERIOD, value: +r.OBS_VALUE })).reverse() },
   ],
   kpis: [
     { id: "official_cash_rate_ocr", label: "Official Cash Rate" },

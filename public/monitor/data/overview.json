@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-15T14:49:12.098Z",
- "asof_label": "Oct 15, 2026",
+ "generated_at": "2026-10-16T16:41:57.999Z",
+ "asof_label": "Oct 16, 2026",
  "headline": "Hold at 7 of 8 · Raise at 1 of 8",
  "paragraph": "Quant Flow Capital brings you our briefing covering eight central banks from around the world. Right now, seven of these eight institutions are expected to hold their interest rates steady. Only the Reserve Bank of New Zealand stands out with a call to raise rates.",
  "window": [
@@ -68,8 +68,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.85%",
-     "Oct 14"
+     "3.83%",
+     "Oct 15"
     ]
    },
    "call": "hold",
@@ -84,7 +84,7 @@
    "next_label": "Wed Oct 28",
    "time_label": "9:45 a.m. Eastern Time",
    "stale": false,
-   "asof": "Oct 15, 2026",
+   "asof": "Oct 16, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 10
@@ -109,8 +109,8 @@
      "Q2"
     ],
     "10-yr": [
-     "4.98%",
-     "Oct 13"
+     "5.01%",
+     "Oct 16"
     ]
    },
    "call": "raise",
@@ -125,10 +125,10 @@
    "next_label": "Wed Oct 28",
    "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
    "stale": false,
-   "asof": "Oct 15, 2026",
+   "asof": "Oct 16, 2026",
    "coverage": {
-    "automatic": 14,
-    "manual": 25
+    "automatic": 18,
+    "manual": 21
    }
   },
   {
@@ -146,12 +146,12 @@
      "Euro-area HICP, Sep"
     ],
     "jobless": [
-     "6.4%",
-     "Germany, Sep"
+     "2,994,000 · 6.4%",
+     "Sep"
     ],
     "10-yr": [
-     "3.45%",
-     "Oct 15"
+     "3.48%",
+     "Oct 16"
     ]
    },
    "call": "hold",
@@ -166,7 +166,7 @@
    "next_label": "Thu Oct 29",
    "time_label": "2:15 p.m. Central European Time",
    "stale": false,
-   "asof": "Oct 15, 2026",
+   "asof": "Oct 16, 2026",
    "coverage": {
     "automatic": 19,
     "manual": 19
@@ -191,8 +191,8 @@
      "Aug"
     ],
     "10-yr": [
-     "3.02%",
-     "Oct 14"
+     "2.95%",
+     "Oct 15"
     ]
    },
    "call": "hold",
@@ -207,7 +207,7 @@
    "next_label": "Fri Oct 30",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
    "stale": false,
-   "asof": "Oct 15, 2026",
+   "asof": "Oct 16, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 13
@@ -232,8 +232,8 @@
      "Sep"
     ],
     "10-yr": [
-     "5.40%",
-     "Oct 7"
+     "5.31%",
+     "Oct 14"
     ]
    },
    "call": "hold",
@@ -248,10 +248,10 @@
    "next_label": "Tue Nov 3",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference.",
    "stale": false,
-   "asof": "Oct 15, 2026",
+   "asof": "Oct 16, 2026",
    "coverage": {
-    "automatic": 24,
-    "manual": 14
+    "automatic": 25,
+    "manual": 13
    }
   },
   {
@@ -273,8 +273,8 @@
      "Jul"
     ],
     "10-yr": [
-     "5.39%",
-     "Oct 13"
+     "5.38%",
+     "Oct 14"
     ]
    },
    "call": "hold",
@@ -289,7 +289,7 @@
    "next_label": "Thu Nov 5",
    "time_label": "12:00 p.m. (noon) UK time, which is GMT after the clocks go back on October 25. That is 7:00 a.m. Eastern Time.",
    "stale": false,
-   "asof": "Oct 15, 2026",
+   "asof": "Oct 16, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 14
@@ -311,11 +311,11 @@
     ],
     "jobless": [
      "3.0%",
-     "Sep (SECO)"
+     "Sep"
     ],
     "10-yr": [
-     "0.530%",
-     "Oct 15"
+     "0.572%",
+     "Oct 16"
     ]
    },
    "call": "hold",
@@ -330,10 +330,10 @@
    "next_label": "Thu Dec 10",
    "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Oct 15, 2026",
+   "asof": "Oct 16, 2026",
    "coverage": {
-    "automatic": 9,
-    "manual": 29
+    "automatic": 10,
+    "manual": 28
    }
   }
  ]

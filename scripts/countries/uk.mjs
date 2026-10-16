@@ -44,7 +44,7 @@ export default {
     { id: "speeches", url: "https://www.bankofengland.co.uk/rss/speeches" },
     { id: "publications", url: "https://www.bankofengland.co.uk/rss/publications" },
   ],
-  allowed_domains: ["bankofengland.co.uk", "ons.gov.uk", "obr.uk", "gov.uk", "dmo.gov.uk", "ofgem.gov.uk"],
+  allowed_domains: ["bankofengland.co.uk", "ons.gov.uk", "obr.uk", "gov.uk", "dmo.gov.uk", "ofgem.gov.uk", "ecb.europa.eu"],
   indicators: [
     { id: "bank_rate", kind: "pct", freq: "d", decimals: 2, get: boe("IUDBEDR") },
     { id: "sonia_overnight_rate_between_banks", kind: "pct", freq: "d", decimals: 3, get: boe("IUDSOIA") },
@@ -78,7 +78,9 @@ export default {
     // untested: needs FRED key (series ids from the research notes)
     { id: "brent_crude_oil", kind: "usd", freq: "d", decimals: 2, unit: "a barrel", get: ({ fred }) => fred("DCOILBRENTEU") },
     { id: "wti_crude_oil", kind: "usd", freq: "d", decimals: 2, unit: "a barrel", get: ({ fred }) => fred("DCOILWTICO") },
-    { id: "european_central_bank_deposit_rate", kind: "pct", freq: "d", decimals: 2, get: ({ fred }) => fred("ECBDFR") },
+    { id: "european_central_bank_deposit_rate", kind: "pct", freq: "d", decimals: 2, get: async ({ getText, csvObjects, today }) =>
+        csvObjects(await getText("https://data-api.ecb.europa.eu/service/data/FM/D.U2.EUR.4F.KR.DFR.LEV?format=csvdata&startPeriod=" + new Date(Date.parse(today) - 40 * 864e5).toISOString().slice(0, 10)))
+          .map(r => ({ date: r.TIME_PERIOD, value: +r.OBS_VALUE })).reverse() },
   ],
   kpis: [
     { id: "bank_rate", label: "Bank of England rate" },

@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "germany",
- "asof_date": "2026-10-15",
- "asof_label": "Oct 15, 2026",
- "generated_at": "2026-10-15T14:45:39.396Z",
- "data_updated_at": "2026-10-15T14:45:39.396Z",
+ "asof_date": "2026-10-16",
+ "asof_label": "Oct 16, 2026",
+ "generated_at": "2026-10-16T16:39:05.132Z",
+ "data_updated_at": "2026-10-16T16:39:05.132Z",
  "narrative_updated_at": "2026-10-15T12:48:06.143Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
   "calendar_label": "Official ECB meeting calendar",
   "who": "The European Central Bank (“the ECB”) in Frankfurt, which sets one interest rate for every country that uses the euro, including Germany. Its decision-making group is the Governing Council: the 6 members of the ECB's Executive Board (led by President Christine Lagarde) plus the heads of the 21 national central banks. Germany's voice is Joachim Nagel, President of the Deutsche Bundesbank.",
-  "days_to_decision": 14
+  "days_to_decision": 13
  },
  "kpis": [
   {
    "label": "ECB interest rate",
    "value": "2.50%",
    "note": "Deposit rate",
-   "period": "Oct 15, 2026",
+   "period": "Oct 16, 2026",
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year Bund rate",
-   "value": "3.45%",
+   "value": "3.48%",
    "note": "",
-   "period": "Oct 15, 2026",
+   "period": "Oct 16, 2026",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf"
   }
@@ -215,7 +215,7 @@
    "name": "Euro-area energy prices",
    "source": "Eurostat",
    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap",
-   "value": "18.8%",
+   "value": "18.9%",
    "period": "Sep 2026",
    "released": "Detected Oct 15, 2026",
    "previous": "14.3% (Aug 2026)",
@@ -223,7 +223,7 @@
    "manual": false,
    "latest_date": "2026-09-01",
    "raw": {
-    "v": 18.8
+    "v": 18.9
    },
    "estimate": false
   },
@@ -557,12 +557,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.50%",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "2.50% (Oct 14, 2026)",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "2.50% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
     "v": 2.5
    },
@@ -575,12 +575,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.65%",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "2.65% (Oct 14, 2026)",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "2.65% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
     "v": 2.65
    },
@@ -592,15 +592,15 @@
    "name": "2-year German government bond (Schatz)",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.07%",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "3.11% (Oct 14, 2026)",
+   "value": "3.08%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "3.07% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 3.07
+    "v": 3.08
    },
    "estimate": false
   },
@@ -610,15 +610,15 @@
    "name": "10-year German government bond (Bund)",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.45%",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "3.51% (Oct 14, 2026)",
+   "value": "3.48%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "3.45% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 3.45
+    "v": 3.48
    },
    "estimate": false
   },
@@ -628,15 +628,15 @@
    "name": "30-year German government bond",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.84%",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "3.90% (Oct 14, 2026)",
+   "value": "3.88%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "3.84% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 3.84
+    "v": 3.88
    },
    "estimate": false
   },
@@ -672,15 +672,15 @@
    "name": "Euro vs U.S. dollar",
    "source": "ECB reference rate",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-   "value": "$1.1208 per euro",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "$1.1195 per euro (Oct 14, 2026)",
+   "value": "$1.1253 per euro",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "$1.1208 per euro (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 1.1208
+    "v": 1.1253
    },
    "estimate": false
   },
@@ -694,13 +694,14 @@
    "period": "Oct 6, 2026",
    "released": "Oct 7, 2026",
    "previous": "$125.51 (Oct 5, 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-06",
    "raw": {
     "v": 125.44
    },
-   "estimate": false
+   "estimate": false,
+   "note": "Could not refresh today; showing last collected value."
   },
   "oil_price_wti_crude_u_s": {
    "id": "oil_price_wti_crude_u_s",
@@ -712,13 +713,14 @@
    "period": "Oct 6, 2026",
    "released": "Oct 7, 2026",
    "previous": "$96.13 (Oct 5, 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-06",
    "raw": {
     "v": 96.24
    },
-   "estimate": false
+   "estimate": false,
+   "note": "Could not refresh today; showing last collected value."
   },
   "natural_gas_price_europe": {
    "id": "natural_gas_price_europe",
@@ -736,7 +738,8 @@
    "raw": {
     "v": 17.93
    },
-   "estimate": false
+   "estimate": false,
+   "note": "Could not refresh today; showing last collected value."
   },
   "german_fuel_tax_cut_tankrabatt": {
    "id": "german_fuel_tax_cut_tankrabatt",
@@ -1914,12 +1917,12 @@
     "Euro-area HICP, Sep"
    ],
    "jobless": [
-    "6.4%",
-    "Germany, Sep"
+    "2,994,000 · 6.4%",
+    "Sep"
    ],
    "10-yr": [
-    "3.45%",
-    "Oct 15"
+    "3.48%",
+    "Oct 16"
    ]
   },
   "rate_label": "Current ECB rate",
@@ -2057,9 +2060,40 @@
   "However, the ECB has a mandate to conduct monetary policy for the entire eurozone.",
   "a further two to three hikes"
  ],
- "changelog": [],
+ "changelog": [
+  {
+   "date": "2026-10-16",
+   "date_label": "Oct 16, 2026",
+   "since": "2026-10-15",
+   "since_label": "Oct 15, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "<strong>Euro-area energy prices</strong>: now 18.9%, for Sep 2026. Before: 18.8%, for Sep 2026."
+    ]
+   },
+   "data": [
+    {
+     "id": "euro_area_energy_prices",
+     "name": "Euro-area energy prices",
+     "from": "18.8%",
+     "from_period": "Sep 2026",
+     "to": "18.9%",
+     "to_period": "Sep 2026"
+    }
+   ],
+   "market": [],
+   "fed": [],
+   "verdict": null,
+   "ai_written": false
+  }
+ ],
  "qa": {
-  "data_errors": [],
+  "data_errors": [
+   "oil_price_brent_crude_european_benchma: FRED_API_KEY is not set",
+   "oil_price_wti_crude_u_s: FRED_API_KEY is not set",
+   "natural_gas_price_europe: FRED_API_KEY is not set"
+  ],
   "ai_errors": [],
   "sources_read": [
    {

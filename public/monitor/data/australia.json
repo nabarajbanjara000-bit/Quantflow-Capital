@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-10-15",
- "asof_label": "Oct 15, 2026",
- "generated_at": "2026-10-15T14:47:45.512Z",
- "data_updated_at": "2026-10-15T14:47:45.512Z",
+ "asof_date": "2026-10-16",
+ "asof_label": "Oct 16, 2026",
+ "generated_at": "2026-10-16T16:41:22.767Z",
+ "data_updated_at": "2026-10-16T16:41:22.767Z",
  "narrative_updated_at": "2026-10-15T14:47:45.512Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 19
+  "days_to_decision": 18
  },
  "kpis": [
   {
    "label": "RBA cash rate",
    "value": "4.60%",
    "note": "",
-   "period": "Oct 14, 2026",
+   "period": "Oct 15, 2026",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "5.40%",
+   "value": "5.31%",
    "note": "",
-   "period": "Oct 7, 2026",
+   "period": "Oct 14, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield"
   }
@@ -593,12 +593,12 @@
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
    "value": "4.60%",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 15, 2026",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 16, 2026",
    "previous": "4.35% (Sep 29, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
     "v": 4.6
    },
@@ -623,15 +623,15 @@
    "name": "10-year government bond rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield",
-   "value": "5.40%",
-   "period": "Oct 7, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "5.39% (Oct 6, 2026)",
+   "value": "5.31%",
+   "period": "Oct 14, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "5.29% (Oct 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-07",
+   "latest_date": "2026-10-14",
    "raw": {
-    "v": 5.404
+    "v": 5.314
    },
    "estimate": false
   },
@@ -641,15 +641,15 @@
    "name": "2-year government bond rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield",
-   "value": "4.94%",
-   "period": "Oct 7, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "4.93% (Oct 6, 2026)",
+   "value": "4.92%",
+   "period": "Oct 14, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "4.89% (Oct 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-07",
+   "latest_date": "2026-10-14",
    "raw": {
-    "v": 4.94
+    "v": 4.919
    },
    "estimate": false
   },
@@ -695,15 +695,15 @@
    "name": "Australian dollar",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
-   "value": "US$0.6955",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "US$0.7002 (Oct 14, 2026)",
+   "value": "US$0.6947",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "US$0.6955 (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 0.6955
+    "v": 0.6947
    },
    "estimate": false,
    "note": "AUD/USD only (the snapshot also quotes the trade-weighted index)"
@@ -731,13 +731,14 @@
    "period": "Oct 6, 2026",
    "released": "Oct 7, 2026",
    "previous": "$125.51 (Oct 5, 2026)",
-   "tag": "secondary",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-06",
    "raw": {
     "v": 125.44
    },
-   "estimate": false
+   "estimate": false,
+   "note": "Could not refresh today; showing last collected value."
   },
   "rba_oil_assumption_august": {
    "id": "rba_oil_assumption_august",
@@ -759,11 +760,16 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 13, 2026",
-   "released": "Oct 13, 2026",
-   "previous": "3.75% before Sep 16",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "4.00% (Sep 17, 2026)",
    "tag": "official",
-   "manual": true
+   "manual": false,
+   "latest_date": "2026-10-16",
+   "raw": {
+    "v": 4
+   },
+   "estimate": false
   },
   "ecb_deposit_rate": {
    "id": "ecb_deposit_rate",
@@ -793,18 +799,6 @@
   }
  },
  "releases": [
-  {
-   "id": "labour_force",
-   "name": "Labour Force, September",
-   "publisher": "ABS",
-   "date": "2026-10-15",
-   "date_label": "Thu Oct 15",
-   "what": "Jobs gained or lost, and the unemployment rate.",
-   "weekly": false,
-   "time": "11:30 a.m.",
-   "url": "https://www.abs.gov.au/release-calendar/future-releases/202610",
-   "timing": "before"
-  },
   {
    "id": "consumer_price_index",
    "name": "Consumer Price Index, September and September quarter",
@@ -976,12 +970,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "New labour force data shows the unemployment rate at 4.7% for September.",
-   "items": [
-    "<strong>Unemployment rate</strong> moved from 4.6% in August to 4.7% in September (ABS).",
-    "<strong>Employment change</strong> was -39,329 in September, down from +29,282 in August.",
-    "<strong>Participation rate</strong> eased to 66.8% in September from 67.0% in August."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -1895,8 +1885,8 @@
     "Sep"
    ],
    "10-yr": [
-    "5.40%",
-    "Oct 7"
+    "5.31%",
+    "Oct 14"
    ]
   },
   "rate_label": "Current RBA cash rate",
@@ -2014,9 +2004,39 @@
   "not expected to return to around the midpoint of the target range until late 2027",
   "by the end of the year"
  ],
- "changelog": [],
+ "changelog": [
+  {
+   "date": "2026-10-16",
+   "date_label": "Oct 16, 2026",
+   "since": "2026-10-15",
+   "since_label": "Oct 15, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "<strong>10-year government bond rate</strong> moved −0.09 pts: now 5.31%, was 5.40%."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "10_year_government_bond_rate",
+     "name": "10-year government bond rate",
+     "from": "5.40%",
+     "from_period": "Oct 7, 2026",
+     "to": "5.31%",
+     "to_period": "Oct 14, 2026",
+     "move": "−0.09 pts"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": false
+  }
+ ],
  "qa": {
-  "data_errors": [],
+  "data_errors": [
+   "oil_price_brent: FRED_API_KEY is not set"
+  ],
   "ai_errors": [],
   "sources_read": [
    {
@@ -2031,9 +2051,9 @@
    }
   ],
   "coverage": {
-   "automatic": 24,
-   "manual": 14
+   "automatic": 25,
+   "manual": 13
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

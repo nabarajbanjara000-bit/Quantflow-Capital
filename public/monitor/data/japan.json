@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-10-15",
- "asof_label": "Oct 15, 2026",
- "generated_at": "2026-10-15T14:45:26.485Z",
- "data_updated_at": "2026-10-15T14:45:26.485Z",
+ "asof_date": "2026-10-16",
+ "asof_label": "Oct 16, 2026",
+ "generated_at": "2026-10-16T16:38:50.889Z",
+ "data_updated_at": "2026-10-16T16:38:50.889Z",
  "narrative_updated_at": "2026-10-15T14:45:26.485Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 15
+  "days_to_decision": 14
  },
  "kpis": [
   {
    "label": "BoJ interest rate",
    "value": "1.25%",
    "note": "",
-   "period": "Oct 13, 2026",
+   "period": "Oct 14, 2026",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "3.02%",
+   "value": "2.95%",
    "note": "",
-   "period": "Oct 14, 2026",
+   "period": "Oct 15, 2026",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv"
   }
@@ -605,12 +605,12 @@
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf",
    "value": "1.25%",
-   "period": "Oct 13, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "1.25% (Oct 12, 2026)",
+   "period": "Oct 14, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "1.25% (Oct 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-13",
+   "latest_date": "2026-10-14",
    "raw": {
     "v": 1.25
    },
@@ -641,15 +641,15 @@
    "name": "2-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "1.93%",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "1.93% (Oct 13, 2026)",
+   "value": "1.91%",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "1.93% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 1.929
+    "v": 1.913
    },
    "estimate": false
   },
@@ -659,15 +659,15 @@
    "name": "10-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "3.02%",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "3.02% (Oct 13, 2026)",
+   "value": "2.95%",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "3.02% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 3.015
+    "v": 2.948
    },
    "estimate": false
   },
@@ -677,15 +677,15 @@
    "name": "30-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "4.07%",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "4.06% (Oct 13, 2026)",
+   "value": "4.02%",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "4.07% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 4.072
+    "v": 4.024
    },
    "estimate": false
   },
@@ -714,15 +714,15 @@
    "name": "Yen per US dollar",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261009.pdf",
-   "value": "¥158.49",
-   "period": "Oct 13, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "¥158.10 (Oct 9, 2026)",
+   "value": "¥158.44",
+   "period": "Oct 14, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "¥158.49 (Oct 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-13",
+   "latest_date": "2026-10-14",
    "raw": {
-    "v": 158.49
+    "v": 158.44
    },
    "estimate": false
   },
@@ -749,14 +749,14 @@
    "period": "Oct 6, 2026",
    "released": "Oct 7, 2026",
    "previous": "$125.51 (Oct 5, 2026)",
-   "tag": "secondary",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-06",
    "raw": {
     "v": 125.44
    },
    "estimate": false,
-   "note": "EIA via FRED"
+   "note": "Could not refresh today; showing last collected value."
   },
   "wti_crude_oil_us": {
    "id": "wti_crude_oil_us",
@@ -768,14 +768,14 @@
    "period": "Oct 6, 2026",
    "released": "Oct 7, 2026",
    "previous": "$96.13 (Oct 5, 2026)",
-   "tag": "secondary",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-06",
    "raw": {
     "v": 96.24
    },
    "estimate": false,
-   "note": "EIA via FRED"
+   "note": "Could not refresh today; showing last collected value."
   },
   "import_prices_foreign_currency_terms": {
    "id": "import_prices_foreign_currency_terms",
@@ -843,18 +843,6 @@
   }
  },
  "releases": [
-  {
-   "id": "speech_by_board_member_koeda_k",
-   "name": "Speech by Board member Koeda (Kumamoto)",
-   "publisher": "BoJ",
-   "date": "2026-10-15",
-   "date_label": "Thu Oct 15",
-   "time": "10:30 a.m. JST",
-   "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
-   "what": "A Board member's views on the economy and policy.",
-   "weekly": false,
-   "timing": "before"
-  },
   {
    "id": "national_cpi",
    "name": "National CPI, September",
@@ -2042,8 +2030,8 @@
     "Aug"
    ],
    "10-yr": [
-    "3.02%",
-    "Oct 14"
+    "2.95%",
+    "Oct 15"
    ]
   },
   "rate_label": "Current BoJ rate",
@@ -2174,46 +2162,124 @@
   "the Bank should continue to raise the policy interest rate and adjust the degree of monetary accommodation.",
   "There is a risk that it will deviate upward to a level above the price stability target of 2 percent."
  ],
- "changelog": [],
+ "changelog": [
+  {
+   "date": "2026-10-16",
+   "date_label": "Oct 16, 2026",
+   "since": "2026-10-15",
+   "since_label": "Oct 15, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "<strong>10-year government bond rate</strong> moved −0.07 pts: now 2.95%, was 3.02%.",
+     "<strong>30-year government bond rate</strong> moved −0.05 pts: now 4.02%, was 4.07%.",
+     "New official item: <a href=\"http://www.boj.or.jp/en/statistics/boj/other/cabs/cabs.xlsx\" target=\"_blank\" rel=\"noopener noreferrer\">BOJ Current Account Balances by Sector (Sept.)</a> (2026-10-16).",
+     "New official item: <a href=\"http://www.boj.or.jp/en/about/press/koen_2026/ko261015a.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Speech by Board Member KOEDA in Kumamoto (Economic Activity, Prices, and Monetary Policy in Japan)</a> (2026-10-15).",
+     "New official item: <a href=\"http://www.boj.or.jp/en/paym/market/mkt261015a.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Summary of the \"Meeting on Market Operations\" (October 2026)</a> (2026-10-15).",
+     "New official item: <a href=\"http://www.boj.or.jp/en/intl_finance/cooperate/coop261014a.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">The Fifteenth Tripartite Governors' Meeting among PBOC, BOJ, and BOK</a> (2026-10-14).",
+     "New official item: <a href=\"http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei261009.xlsx\" target=\"_blank\" rel=\"noopener noreferrer\">Japanese Government Bonds Held by the Bank of Japan</a> (2026-10-14).",
+     "New official item: <a href=\"http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac261010.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Bank of Japan Accounts (October 10)</a> (2026-10-14)."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "10_year_government_bond_rate",
+     "name": "10-year government bond rate",
+     "from": "3.02%",
+     "from_period": "Oct 14, 2026",
+     "to": "2.95%",
+     "to_period": "Oct 15, 2026",
+     "move": "−0.07 pts"
+    },
+    {
+     "id": "30_year_government_bond_rate",
+     "name": "30-year government bond rate",
+     "from": "4.07%",
+     "from_period": "Oct 14, 2026",
+     "to": "4.02%",
+     "to_period": "Oct 15, 2026",
+     "move": "−0.05 pts"
+    }
+   ],
+   "fed": [
+    {
+     "title": "BOJ Current Account Balances by Sector (Sept.)",
+     "date": "2026-10-16",
+     "url": "http://www.boj.or.jp/en/statistics/boj/other/cabs/cabs.xlsx"
+    },
+    {
+     "title": "Speech by Board Member KOEDA in Kumamoto (Economic Activity, Prices, and Monetary Policy in Japan)",
+     "date": "2026-10-15",
+     "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261015a.htm"
+    },
+    {
+     "title": "Summary of the \"Meeting on Market Operations\" (October 2026)",
+     "date": "2026-10-15",
+     "url": "http://www.boj.or.jp/en/paym/market/mkt261015a.pdf"
+    },
+    {
+     "title": "The Fifteenth Tripartite Governors' Meeting among PBOC, BOJ, and BOK",
+     "date": "2026-10-14",
+     "url": "http://www.boj.or.jp/en/intl_finance/cooperate/coop261014a.pdf"
+    },
+    {
+     "title": "Japanese Government Bonds Held by the Bank of Japan",
+     "date": "2026-10-14",
+     "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei261009.xlsx"
+    },
+    {
+     "title": "Bank of Japan Accounts (October 10)",
+     "date": "2026-10-14",
+     "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac261010.htm"
+    }
+   ],
+   "verdict": null,
+   "ai_written": false
+  }
+ ],
  "qa": {
-  "data_errors": [],
+  "data_errors": [
+   "brent_crude_oil: FRED_API_KEY is not set",
+   "wti_crude_oil_us: FRED_API_KEY is not set"
+  ],
   "ai_errors": [],
   "sources_read": [
    {
+    "title": "BOJ Current Account Balances by Sector (Sept.)",
+    "date": "2026-10-16",
+    "url": "http://www.boj.or.jp/en/statistics/boj/other/cabs/cabs.xlsx"
+   },
+   {
     "title": "Speech by Board Member KOEDA in Kumamoto (Economic Activity, Prices, and Monetary Policy in Japan)",
     "date": "2026-10-15",
-    "url": "https://www.boj.or.jp/en/about/press/koen_2026/ko261015a.htm"
+    "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261015a.htm"
    },
    {
     "title": "Summary of the \"Meeting on Market Operations\" (October 2026)",
     "date": "2026-10-15",
-    "url": "https://www.boj.or.jp/en/paym/market/mkt261015a.pdf"
+    "url": "http://www.boj.or.jp/en/paym/market/mkt261015a.pdf"
    },
    {
     "title": "The Fifteenth Tripartite Governors' Meeting among PBOC, BOJ, and BOK",
     "date": "2026-10-14",
-    "url": "https://www.boj.or.jp/en/intl_finance/cooperate/coop261014a.pdf"
+    "url": "http://www.boj.or.jp/en/intl_finance/cooperate/coop261014a.pdf"
    },
    {
     "title": "Japanese Government Bonds Held by the Bank of Japan",
     "date": "2026-10-14",
-    "url": "https://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei261009.xlsx"
+    "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei261009.xlsx"
    },
    {
     "title": "Bank of Japan Accounts (October 10)",
     "date": "2026-10-14",
-    "url": "https://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac261010.htm"
-   },
-   {
-    "title": "Money Stock (Sept.)",
-    "date": "2026-10-13",
-    "url": "https://www.boj.or.jp/en/statistics/money/ms/ms2609.pdf"
+    "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac261010.htm"
    }
   ],
   "coverage": {
    "automatic": 27,
    "manual": 13
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

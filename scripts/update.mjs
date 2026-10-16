@@ -199,7 +199,7 @@ function overviewBlock(cfg, prev, indicators, narrative, meeting) {
   const mini = { ...o.mini };
   for (const [key, dest] of [["prices", "prices"], ["jobless", "jobless"], ["tenyr", "10-yr"]]) {
     const s = m[key], x = s && indicators[s.id];
-    if (x && !x.manual) mini[dest] = [cleanVal(x.value), key === "prices" ? `${s.label}, ${shortPeriod(x.period)}` : shortPeriod(x.period)]; // cards are narrow: only the price tile names its measure
+    if (x && x.value) mini[dest] = [cleanVal(x.value), key === "prices" ? `${s.label}, ${shortPeriod(x.period)}` : shortPeriod(x.period)]; // cards are narrow: only the price tile names its measure
   }
   o.mini = mini;
   if (meeting.next) o.time_label = meeting.next.time_label || prev.overview.time_label;

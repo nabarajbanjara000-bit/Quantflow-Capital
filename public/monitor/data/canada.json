@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "canada",
- "asof_date": "2026-10-15",
- "asof_label": "Oct 15, 2026",
- "generated_at": "2026-10-15T14:45:59.418Z",
- "data_updated_at": "2026-10-15T14:45:59.418Z",
+ "asof_date": "2026-10-16",
+ "asof_label": "Oct 16, 2026",
+ "generated_at": "2026-10-16T16:39:22.790Z",
+ "data_updated_at": "2026-10-16T16:39:22.790Z",
  "narrative_updated_at": "2026-10-15T12:50:55.747Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
   "calendar_label": "Official BoC announcement schedule",
   "who": "The Bank of Canada (“the BoC”), Canada’s central bank. Its decisions are made by a small group of senior officials called the Governing Council, led by Governor Tiff Macklem. It aims to agree as a group, so there is no published vote count like in the U.S.",
-  "days_to_decision": 13
+  "days_to_decision": 12
  },
  "kpis": [
   {
    "label": "Bank of Canada rate",
    "value": "2.25%",
    "note": "",
-   "period": "Oct 14, 2026",
+   "period": "Oct 15, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "3.85%",
+   "value": "3.83%",
    "note": "",
-   "period": "Oct 14, 2026",
+   "period": "Oct 15, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28"
   }
@@ -603,12 +603,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
    "value": "2.25%",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "2.25% (Oct 13, 2026)",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "2.25% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
     "v": 2.25
    },
@@ -621,12 +621,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/AVG.INTWO/json?recent=6",
    "value": "2.27%",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "2.28% (Oct 13, 2026)",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "2.27% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
     "v": 2.27
    },
@@ -638,15 +638,15 @@
    "name": "2-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.21%",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "3.19% (Oct 13, 2026)",
+   "value": "3.20%",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "3.21% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 3.21
+    "v": 3.2
    },
    "estimate": false
   },
@@ -656,15 +656,15 @@
    "name": "5-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.55%",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "3.55% (Oct 13, 2026)",
+   "value": "3.53%",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "3.55% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 3.55
+    "v": 3.53
    },
    "estimate": false
   },
@@ -674,15 +674,15 @@
    "name": "10-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.85%",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "3.87% (Oct 13, 2026)",
+   "value": "3.83%",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "3.85% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 3.85
+    "v": 3.83
    },
    "estimate": false
   },
@@ -692,15 +692,15 @@
    "name": "Canadian dollar (US$1 in C$)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25",
-   "value": "C$1.4263",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "C$1.4222 (Oct 13, 2026)",
+   "value": "C$1.4196",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "C$1.4263 (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 1.4263
+    "v": 1.4196
    },
    "estimate": false
   },
@@ -797,18 +797,6 @@
   }
  },
  "releases": [
-  {
-   "id": "manufacturing_and_wholesale_tr",
-   "name": "Manufacturing and wholesale trade, August",
-   "publisher": "StatCan",
-   "date": "2026-10-15",
-   "date_label": "Thu Oct 15",
-   "time": "8:30 a.m. ET",
-   "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
-   "what": "Sales at factories and wholesalers.",
-   "weekly": false,
-   "timing": "after"
-  },
   {
    "id": "consumer_price_index_cpi",
    "name": "Consumer Price Index (CPI), September",
@@ -1906,8 +1894,8 @@
     "Sep"
    ],
    "10-yr": [
-    "3.85%",
-    "Oct 14"
+    "3.83%",
+    "Oct 15"
    ]
   },
   "rate_label": "Current BoC rate",
@@ -2014,11 +2002,6 @@
   "data_errors": [],
   "ai_errors": [],
   "sources_read": [
-   {
-    "title": "Bank of Canada Board launches process to fill external Deputy Governor position",
-    "date": "2026-09-10",
-    "url": "https://www.bankofcanada.ca/2026/09/bank-canada-board-launches-process-fill-external-deputy-governor-position/"
-   },
    {
     "title": "Summary of Governing Council deliberations: Fixed announcement date of September&nbsp;2, 2026",
     "date": "2026-09-16",

@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-10-15",
- "asof_label": "Oct 15, 2026",
- "generated_at": "2026-10-15T14:49:07.483Z",
- "data_updated_at": "2026-10-15T14:49:07.483Z",
+ "asof_date": "2026-10-16",
+ "asof_label": "Oct 16, 2026",
+ "generated_at": "2026-10-16T16:41:54.981Z",
+ "data_updated_at": "2026-10-16T16:41:54.981Z",
  "narrative_updated_at": "2026-10-15T14:49:07.483Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 21
+  "days_to_decision": 20
  },
  "kpis": [
   {
    "label": "Bank of England rate",
    "value": "3.75%",
    "note": "",
-   "period": "Oct 14, 2026",
+   "period": "Oct 15, 2026",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year gilt rate",
-   "value": "5.39%",
+   "value": "5.38%",
    "note": "",
-   "period": "Oct 13, 2026",
+   "period": "Oct 14, 2026",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y"
   }
@@ -601,12 +601,12 @@
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
    "value": "3.75%",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "3.75% (Oct 13, 2026)",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "3.75% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
     "v": 3.75
    },
@@ -619,14 +619,14 @@
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
    "value": "3.732%",
-   "period": "Oct 13, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "3.732% (Oct 12, 2026)",
+   "period": "Oct 14, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "3.732% (Oct 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-13",
+   "latest_date": "2026-10-14",
    "raw": {
-    "v": 3.7319
+    "v": 3.7324
    },
    "estimate": false
   },
@@ -636,15 +636,15 @@
    "name": "10-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "5.39%",
-   "period": "Oct 13, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "5.39% (Oct 12, 2026)",
+   "value": "5.38%",
+   "period": "Oct 14, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "5.39% (Oct 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-13",
+   "latest_date": "2026-10-14",
    "raw": {
-    "v": 5.3928
+    "v": 5.383
    },
    "estimate": false
   },
@@ -654,15 +654,15 @@
    "name": "5-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "4.98%",
-   "period": "Oct 13, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "4.97% (Oct 12, 2026)",
+   "value": "4.97%",
+   "period": "Oct 14, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "4.98% (Oct 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-13",
+   "latest_date": "2026-10-14",
    "raw": {
-    "v": 4.9831
+    "v": 4.9692
    },
    "estimate": false
   },
@@ -685,15 +685,15 @@
    "name": "Pound vs U.S. dollar",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "US$1.3160",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "US$1.3249 (Oct 13, 2026)",
+   "value": "US$1.3253",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "US$1.3160 (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 1.316
+    "v": 1.3253
    },
    "estimate": false
   },
@@ -703,15 +703,15 @@
    "name": "Pound vs euro / trade-weighted index",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "€1.1832",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "€1.1835 (Oct 13, 2026)",
+   "value": "€1.1830",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "€1.1832 (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 1.1832
+    "v": 1.183
    },
    "estimate": false
   },
@@ -738,13 +738,14 @@
    "period": "Oct 6, 2026",
    "released": "Oct 7, 2026",
    "previous": "$125.51 (Oct 5, 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-06",
    "raw": {
     "v": 125.44
    },
-   "estimate": false
+   "estimate": false,
+   "note": "Could not refresh today; showing last collected value."
   },
   "wti_crude_oil": {
    "id": "wti_crude_oil",
@@ -756,13 +757,14 @@
    "period": "Oct 6, 2026",
    "released": "Oct 7, 2026",
    "previous": "$96.13 (Oct 5, 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-06",
    "raw": {
     "v": 96.24
    },
-   "estimate": false
+   "estimate": false,
+   "note": "Could not refresh today; showing last collected value."
   },
   "uk_wholesale_gas": {
    "id": "uk_wholesale_gas",
@@ -797,12 +799,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 15, 2026",
-   "released": "Oct 15, 2026",
-   "previous": "2.50% (Oct 14, 2026)",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 16, 2026",
+   "previous": "2.50% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
     "v": 2.5
    },
@@ -810,18 +812,6 @@
   }
  },
  "releases": [
-  {
-   "id": "gdp_monthly_estimate",
-   "name": "GDP monthly estimate, August",
-   "publisher": "ONS",
-   "date": "2026-10-15",
-   "date_label": "Thu Oct 15",
-   "time": "7:00 a.m.",
-   "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukaugust2026",
-   "what": "How much the whole economy grew in August (July was +0.4%).",
-   "weekly": false,
-   "timing": "before"
-  },
   {
    "id": "uk_labour_market",
    "name": "UK labour market, October",
@@ -969,10 +959,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Here is what is new since the last update.",
-   "items": [
-    "New official item: <a href=\"https://www.bankofengland.co.uk/weekly-report/2026/14-october-2026\">Bank of England Weekly Report 14 October 2026</a> (2026-10-15)."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -1925,8 +1913,8 @@
     "Jul"
    ],
    "10-yr": [
-    "5.39%",
-    "Oct 13"
+    "5.38%",
+    "Oct 14"
    ]
   },
   "rate_label": "Current Bank Rate",
@@ -2041,6 +2029,29 @@
  ],
  "changelog": [
   {
+   "date": "2026-10-16",
+   "date_label": "Oct 16, 2026",
+   "since": "2026-10-15",
+   "since_label": "Oct 15, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "New official item: <a href=\"https://www.bankofengland.co.uk/minutes/2026/july/banknote-advisory-minutes-15-july\" target=\"_blank\" rel=\"noopener noreferrer\">Banknote imagery advisory group minutes – 15 July 2026</a> (2026-10-16)."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Banknote imagery advisory group minutes – 15 July 2026",
+     "date": "2026-10-16",
+     "url": "https://www.bankofengland.co.uk/minutes/2026/july/banknote-advisory-minutes-15-july"
+    }
+   ],
+   "verdict": null,
+   "ai_written": false
+  },
+  {
    "date": "2026-10-15",
    "date_label": "Oct 15, 2026",
    "since": "2026-10-15",
@@ -2065,9 +2076,17 @@
   }
  ],
  "qa": {
-  "data_errors": [],
+  "data_errors": [
+   "brent_crude_oil: FRED_API_KEY is not set",
+   "wti_crude_oil: FRED_API_KEY is not set"
+  ],
   "ai_errors": [],
   "sources_read": [
+   {
+    "title": "Banknote imagery advisory group minutes – 15 July 2026",
+    "date": "2026-10-16",
+    "url": "https://www.bankofengland.co.uk/minutes/2026/july/banknote-advisory-minutes-15-july"
+   },
    {
     "title": "David Roberts CV and questionnaire for the Treasury Select Committee",
     "date": "2026-10-15",
@@ -2092,11 +2111,6 @@
     "title": "Bank of England announces the four animals that will feature on our next series of banknotes",
     "date": "2026-10-07",
     "url": "https://www.bankofengland.co.uk/news/2026/october/boe-announces-the-four-animals-that-will-feature-on-next-series-of-banknotes"
-   },
-   {
-    "title": "Minutes of the London FXJSC Legal Sub Committee Meeting – 16 June 2026",
-    "date": "2026-10-07",
-    "url": "https://www.bankofengland.co.uk/minutes/2026/june/fxjsc-legal-sub-committee-meeting-16-june-26"
    },
    {
     "title": "The importance of public engagement in maintaining trust in banknotes - Speech by Victoria Cleland",
@@ -2163,6 +2177,6 @@
    "automatic": 25,
    "manual": 14
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

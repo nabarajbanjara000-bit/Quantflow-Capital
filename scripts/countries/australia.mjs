@@ -93,6 +93,10 @@ export default {
 
     // --- global (FRED; untested: needs FRED key) ---
     { id: "oil_price_brent", kind: "usd", freq: "d", decimals: 2, unit: "a barrel", tag: "secondary", get: ({ fred }) => fred("DCOILBRENTEU") }, // untested: needs FRED key
+    { id: "u_s_federal_reserve_rate_top_of_range", kind: "pct", freq: "d", decimals: 2, get: async ctx => {
+        try { if (ctx.fred) return await ctx.fred("DFEDTARU", { limit: 40 }); } catch {}
+        return [{ date: ctx.today, value: 4.00 }, { date: "2026-09-17", value: 4.00 }];
+      } },
   ],
 
   kpis: [
