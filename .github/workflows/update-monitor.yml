@@ -2,11 +2,9 @@ name: Update Central Bank Monitor
 
 on:
   schedule:
-    # Every day at 14:15 UTC = 10:15 a.m. New York time in summer (9:15 a.m. in winter),
-    # after the 8:30 a.m. government data releases.
-    - cron: "15 14 * * *"
-    # Wednesdays a second run at 19:30 UTC to catch 2:00 p.m. Fed decisions.
-    - cron: "30 19 * * 3"
+    # Every day at 12:00 a.m. (midnight) Nepal Time (NPT = UTC+5:45), right at the start of the day.
+    # 12:00 a.m. NPT = 18:15 UTC.
+    - cron: "15 18 * * *"
   workflow_dispatch: {}   # adds a "Run workflow" button for manual updates
 
 permissions:

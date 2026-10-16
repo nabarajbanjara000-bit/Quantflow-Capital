@@ -4,7 +4,7 @@
  "asof_date": "2026-10-15",
  "asof_label": "Oct 15, 2026",
  "generated_at": "2026-10-15T14:44:05.315Z",
- "data_updated_at": "2026-10-15T14:44:05.315Z",
+ "data_updated_at": "2026-10-16T12:30:00.000Z",
  "narrative_updated_at": "2026-10-15T14:44:05.315Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -68,11 +68,11 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "5.21%",
+   "value": "5.10%",
    "note": "",
-   "period": "Oct 13, 2026",
+   "period": "Oct 15, 2026",
    "source": "U.S. Treasury",
-   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
+   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
   }
  ],
  "kpis_seed": [
@@ -622,15 +622,15 @@
    "name": "3-month Treasury bill",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "4.26%",
-   "period": "Oct 13, 2026",
-   "released": "Oct 14, 2026",
-   "previous": "4.25% (Oct 9, 2026)",
+   "value": "4.28%",
+   "period": "Oct 15, 2026",
+   "released": "Oct 15, 2026",
+   "previous": "4.28% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-13",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 4.26
+    "v": 4.28
    },
    "estimate": false
   },
@@ -640,15 +640,15 @@
    "name": "2-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "4.79%",
-   "period": "Oct 13, 2026",
+   "value": "4.77%",
+   "period": "Oct 15, 2026",
    "released": "Oct 15, 2026",
-   "previous": "4.80% (Oct 9, 2026)",
+   "previous": "4.82% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-13",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 4.79
+    "v": 4.77
    },
    "estimate": false
   },
@@ -657,16 +657,16 @@
    "group": "rates",
    "name": "10-year Treasury yield",
    "source": "U.S. Treasury",
-   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609",
-   "value": "5.21%",
-   "period": "Oct 13, 2026",
+   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
+   "value": "5.10%",
+   "period": "Oct 15, 2026",
    "released": "Oct 15, 2026",
-   "previous": "5.24% (Oct 9, 2026)",
+   "previous": "5.19% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-13",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 5.21
+    "v": 5.1
    },
    "estimate": false
   },
@@ -676,15 +676,15 @@
    "name": "30-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "5.56%",
-   "period": "Oct 13, 2026",
+   "value": "5.43%",
+   "period": "Oct 15, 2026",
    "released": "Oct 15, 2026",
-   "previous": "5.60% (Oct 9, 2026)",
+   "previous": "5.52% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-13",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 5.56
+    "v": 5.43
    },
    "estimate": false
   },
@@ -1221,7 +1221,7 @@
    },
    {
     "title": "Reasons the Fed might wait until December",
-    "html": "<ul><li><strong>Hiring has slowed sharply.</strong> Only 29,000 jobs were added in September, and July was revised to a loss of 10,000 jobs. When hiring is weak, pressing the brake again right away raises the risk of layoffs.</li><li><strong>The market already pressed the brake for them.</strong> The interest rate on 10-year U.S. government bonds rose from 5.00% to 5.21% in less than a month. Mortgages and many business loans follow that rate. So borrowing has already become more expensive, which cools the economy without the Fed doing anything.</li><li><strong>Senior officials hinted there is no rush.</strong> Governor Christopher Waller said rate rises do not need to come at consecutive meetings. Vice Chair Philip Jefferson said reaching a decision may take more time.</li><li><strong>The brake takes time to work.</strong> A rate change takes many months to fully affect the economy. The Fed only raised six weeks ago and may want to see the effect first.</li><li><strong>Important reports come out just after the meeting.</strong> The first official look at summer economic growth and the September PCE price report are both released on October 29, the day <em>after</em> the decision. December's meeting will have all of this, plus two more jobs and price reports and fresh forecasts.</li></ul>"
+    "html": "<ul><li><strong>Hiring has slowed sharply.</strong> Only 29,000 jobs were added in September, and July was revised to a loss of 10,000 jobs. When hiring is weak, pressing the brake again right away raises the risk of layoffs.</li><li><strong>The market already pressed the brake for them.</strong> The interest rate on 10-year U.S. government bonds rose from 5.00% to 5.10% in less than a month. Mortgages and many business loans follow that rate. So borrowing has already become more expensive, which cools the economy without the Fed doing anything.</li><li><strong>Senior officials hinted there is no rush.</strong> Governor Christopher Waller said rate rises do not need to come at consecutive meetings. Vice Chair Philip Jefferson said reaching a decision may take more time.</li><li><strong>The brake takes time to work.</strong> A rate change takes many months to fully affect the economy. The Fed only raised six weeks ago and may want to see the effect first.</li><li><strong>Important reports come out just after the meeting.</strong> The first official look at summer economic growth and the September PCE price report are both released on October 29, the day <em>after</em> the decision. December's meeting will have all of this, plus two more jobs and price reports and fresh forecasts.</li></ul>"
    },
    {
     "title": "Reasons the Fed might raise in October anyway",
@@ -1390,7 +1390,7 @@
     "date_label": "September 15 → October 15, 2026",
     "title": "Market interest rates jumped",
     "kind": "down",
-    "what": "The interest rate on 10-year U.S. government bonds (often called the 10-year Treasury yield) rose from <strong>5.00% to 5.21%</strong>. The 2-year rate stood at 4.79%.",
+    "what": "The interest rate on 10-year U.S. government bonds (often called the 10-year Treasury yield) rose from <strong>5.00% to 5.10%</strong>. The 2-year rate stood at 4.77%.",
     "why": "When investors expect the Fed to keep rates high and prices to stay high, they demand more interest to lend money for years at a time.",
     "people": "Mortgage rates and many business loan rates follow the 10-year rate, so buying a house or expanding a business got more expensive within weeks.",
     "sources": [
@@ -1606,7 +1606,7 @@
     "grade": "amber",
     "one": "Borrowing costs jumped, but lenders are still lending calmly.",
     "look": "U.S. government bond rates (Treasury yields), the extra interest risky companies pay to borrow (credit spreads), and market expectations for inflation.",
-    "why": "<em>Worrying:</em> the 10-year bond rate rose to 5.21%, making mortgages and loans more expensive. <em>Reassuring:</em> risky companies still borrow easily (spread of 3.25%), and investors still expect inflation of only about 2.35% a year over the long run.",
+    "why": "<em>Worrying:</em> the 10-year bond rate rose to 5.10%, making mortgages and loans more expensive. <em>Reassuring:</em> risky companies still borrow easily (spread of 3.25%), and investors still expect inflation of only about 2.35% a year over the long run.",
     "change": "Credit spreads widening sharply or stock markets falling hard → red. Bond rates settling down → green.",
     "matters": "Higher market rates are already slowing the economy, which is one reason the Fed may wait. Calm long-term inflation expectations mean the Fed does not need to panic.",
     "change_label": "What would change it"
@@ -1761,25 +1761,25 @@
     "now_label": "Pricing in rises",
     "now_tone": "mixed",
     "what": "the interest rate the U.S. government pays to borrow for three months.",
-    "why": "at 4.26%, it is higher than the Fed's rate. That gap tells us investors expect the Fed to raise rates within the next few months."
+    "why": "at 4.28%, it is higher than the Fed's rate. That gap tells us investors expect the Fed to raise rates within the next few months."
    },
    "2_year_treasury_yield": {
     "now_label": "Rising",
     "now_tone": "mixed",
     "what": "the interest the government pays to borrow for two years.",
-    "why": "at 4.79%, this rate is mostly driven by what investors think the Fed will do over the next two years."
+    "why": "at 4.77%, this rate is mostly driven by what investors think the Fed will do over the next two years."
    },
    "10_year_treasury_yield": {
     "now_label": "Big jump",
     "now_tone": "bad",
     "what": "the interest the government pays to borrow for ten years. It is one of the most important interest rates in the world.",
-    "why": "at 5.21%, mortgage rates and many business loans follow this rate. It makes buying homes and expanding businesses more expensive, which slows the economy on its own."
+    "why": "at 5.10%, mortgage rates and many business loans follow this rate. It makes buying homes and expanding businesses more expensive, which slows the economy on its own."
    },
    "30_year_treasury_yield": {
     "now_label": "High, steady",
     "now_tone": "info",
     "what": "the interest the government pays to borrow for thirty years.",
-    "why": "at 5.56%, it shows the long-term cost of government borrowing."
+    "why": "at 5.43%, it shows the long-term cost of government borrowing."
    },
    "high_yield_credit_spread": {
     "now_label": "Lenders calm",
@@ -2069,8 +2069,8 @@
     "Sep"
    ],
    "10-yr": [
-    "5.21%",
-    "Oct 13"
+    "5.10%",
+    "Oct 15"
    ]
   },
   "rate_label": "Current Fed rate",

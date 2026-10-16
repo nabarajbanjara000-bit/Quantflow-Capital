@@ -23,7 +23,50 @@ const meetings = FOMC.map(([start, end]) => {
 });
 
 const BLS_CPI = "https://www.bls.gov/news.release/cpi.nr0.htm", BEA_PIO = "https://www.bea.gov/data/income-saving/personal-income";
+const TREASURY_URL = "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610";
 const f = (id, kind, freq, series, extra = {}) => ({ id, kind, freq, ...extra, get: ({ fred, today }) => fred(series, { limit: kind === "range" ? 1200 : freq === "d" ? 40 : 30 }) });
+
+// Primary source fetcher directly from U.S. Department of the Treasury (always latest daily rates; no API key needed)
+let treasuryYieldsCache = null;
+async function fetchTreasuryYields({ getText, parseCsv, today }) {
+  if (treasuryYieldsCache) return treasuryYieldsCache;
+  try {
+    const year = (today || new Date().toISOString()).slice(0, 4);
+    const url = `https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/${year}/all?type=daily_treasury_yield_curve&field_tdr_date_value=${year}&page&_format=csv`;
+    const text = await getText(url);
+    const [header, ...rows] = parseCsv(text.replace(/^\uFEFF/, ""));
+    const h = (header || []).map(k => k.trim());
+    const dateIdx = h.indexOf("Date");
+    const c3m = h.indexOf("3 Mo");
+    const c2y = h.indexOf("2 Yr");
+    const c10y = h.indexOf("10 Yr");
+    const c30y = h.indexOf("30 Yr");
+    const res = { "3_month_treasury_bill": [], "2_year_treasury_yield": [], "10_year_treasury_yield": [], "30_year_treasury_yield": [] };
+    for (const r of rows) {
+      if (r.length <= 1) continue;
+      const rawDate = r[dateIdx];
+      const m = rawDate ? rawDate.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/) : null;
+      if (!m) continue;
+      const date = `${m[3]}-${m[1].padStart(2, "0")}-${m[2].padStart(2, "0")}`;
+      if (c3m >= 0 && Number.isFinite(+r[c3m])) res["3_month_treasury_bill"].push({ date, value: +r[c3m] });
+      if (c2y >= 0 && Number.isFinite(+r[c2y])) res["2_year_treasury_yield"].push({ date, value: +r[c2y] });
+      if (c10y >= 0 && Number.isFinite(+r[c10y])) res["10_year_treasury_yield"].push({ date, value: +r[c10y] });
+      if (c30y >= 0 && Number.isFinite(+r[c30y])) res["30_year_treasury_yield"].push({ date, value: +r[c30y] });
+    }
+    treasuryYieldsCache = res;
+    return res;
+  } catch (e) {
+    return null;
+  }
+}
+const trYield = (id, series) => ({
+  id, kind: "pct", freq: "d", url: TREASURY_URL,
+  get: async (ctx) => {
+    const tr = await fetchTreasuryYields(ctx);
+    if (tr && tr[id] && tr[id].length) return tr[id];
+    return ctx.fred(series, { limit: 40 });
+  }
+});
 
 export default {
   code: "us",
@@ -61,10 +104,10 @@ export default {
     f("personal_saving_rate", "pct", "m", "PSAVERT"),
     { id: "fed_s_target_range_federal_funds_rate", kind: "range", freq: "d", get: ({ fred }) => fred("DFEDTARL", { limit: 1200 }), get2: ({ fred }) => fred("DFEDTARU", { limit: 1200 }) },
     f("effective_federal_funds_rate", "pct", "d", "EFFR"),
-    f("3_month_treasury_bill", "pct", "d", "DGS3MO"),
-    f("2_year_treasury_yield", "pct", "d", "DGS2"),
-    f("10_year_treasury_yield", "pct", "d", "DGS10"),
-    f("30_year_treasury_yield", "pct", "d", "DGS30"),
+    trYield("3_month_treasury_bill", "DGS3MO"),
+    trYield("2_year_treasury_yield", "DGS2"),
+    trYield("10_year_treasury_yield", "DGS10"),
+    trYield("30_year_treasury_yield", "DGS30"),
     f("high_yield_credit_spread", "pct", "d", "BAMLH0A0HYM2"),
     f("fed_officials_end_2026_rate_forecast_d", "proj", "a", "FEDTARMD", { name: "Fed officials' median rate forecast for this year (dot plot)", get: ({ fred, today }) => fred("FEDTARMD", { limit: 6, start: `${today.slice(0, 4)}-01-01` }) }),
     f("oil_price_wti_crude", "usd", "d", "DCOILWTICO", { unit: "a barrel" }),
