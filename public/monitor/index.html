@@ -69,6 +69,13 @@ em{font-style:italic}
 .brand-text b{display:block;font-family:var(--serif);font-size:19px;font-weight:600;letter-spacing:-.01em;line-height:1.1}
 .brand-text small{display:block;color:var(--muted);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;margin-top:3px}
 .mast-right{margin-left:auto;display:flex;align-items:center;gap:12px}
+.mast-nav{display:flex;align-items:center;gap:6px;margin-left:24px}
+.mast-nav a{color:var(--ink-2);font-size:13px;font-weight:550;padding:7px 12px;border-radius:6px;transition:all .15s}
+.mast-nav a:hover{color:var(--accent);background:rgba(30,79,184,.06);text-decoration:none}
+.mast-nav a.active{color:var(--accent);font-weight:650;background:var(--accent-soft)}
+.mast-nav a.cta{background:var(--navy);color:#fff!important;font-weight:600}
+.mast-nav a.cta:hover{background:var(--accent)}
+@media(max-width:920px){.mast-nav{display:none}}
 .chip-live{display:inline-flex;align-items:center;gap:7px;font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--down);background:var(--down-soft);border-radius:999px;padding:6px 12px;white-space:nowrap}
 .chip-live i{width:7px;height:7px;border-radius:50%;background:#d33b42;animation:pulse 2s infinite}
 @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(229,72,77,.55)}70%{box-shadow:0 0 0 7px rgba(229,72,77,0)}100%{box-shadow:0 0 0 0 rgba(229,72,77,0)}}
@@ -284,7 +291,7 @@ button[disabled]{opacity:.6;cursor:wait}
 
 /* ---------- Footer ---------- */
 .site-footer{margin-top:88px;background:var(--navy);color:#9fadc0;padding:56px 0 28px;font-size:13px}
-.footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:40px}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:36px}
 .footer-brand{display:flex;align-items:center;gap:12px;font-family:var(--serif);color:#fff;font-size:21px;font-weight:500;margin-bottom:12px}
 .footer-brand img{width:48px;height:32px;object-fit:cover;border-radius:5px}
 .site-footer p{margin:0;line-height:1.7;max-width:46ch}
@@ -461,17 +468,28 @@ table.compare td{color:var(--ink);font-variant-numeric:tabular-nums}
     </div>
   </div>
   <div class="topbar-right">
-    <span>Educational briefing · Not investment advice</span>
+    <a href="/">Research home</a>
     <span class="divider" aria-hidden="true"></span>
-    <a href="#calendar" data-country="overview">Decisions: Oct 28 – Dec 10</a>
+    <a href="/geopolitics/">Macro &amp; Geopolitics</a>
+    <span class="divider" aria-hidden="true"></span>
+    <a href="/about/">About</a>
+    <span class="divider" aria-hidden="true"></span>
+    <a href="/connect/">Connect with Us</a>
   </div>
 </div></div>
 
 <header class="masthead"><div class="wrap masthead-inner">
-  <a class="brand" href="#overview" data-country="overview" aria-label="Quant Flow Capital, overview">
+  <a class="brand" href="/" aria-label="Quant Flow Capital, home">
     <img class="brand-logo" src="/assets/img/dfbe985c4e.jpg" alt="">
     <span class="brand-text"><b>Quant Flow Capital</b><small>Macro &amp; Markets Research</small></span>
   </a>
+  <nav class="mast-nav" aria-label="Main Navigation">
+    <a href="/">Research Home</a>
+    <a class="active" href="/monitor/">Central Banks</a>
+    <a href="/geopolitics/">Macro &amp; Geopolitics</a>
+    <a href="/about/">About</a>
+    <a class="cta" href="/connect/">Connect with Us</a>
+  </nav>
   <div class="mast-right">
     <span class="chip-live"><i aria-hidden="true"></i>8 decisions · Oct 28 – Dec 10</span>
     <button type="button" class="btn-print" onclick="window.print()">
@@ -520,6 +538,16 @@ table.compare td{color:var(--ink);font-variant-numeric:tabular-nums}
           <li><a href="https://www.rba.gov.au/schedules-events/calendar.html" target="_blank" rel="noopener noreferrer">Reserve Bank of Australia ↗</a></li>
           <li><a href="https://www.snb.ch/en/services-events/digital-services/event-schedule" target="_blank" rel="noopener noreferrer">Swiss National Bank ↗</a></li>
           <li><a href="https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates" target="_blank" rel="noopener noreferrer">Bank of England ↗</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Quant Flow Portal</h4>
+        <ul>
+          <li><a href="/">Research Home</a></li>
+          <li><a href="/geopolitics/">Macro &amp; Geopolitics</a></li>
+          <li><a href="/about/">About Quant Flow</a></li>
+          <li><a href="/connect/">Connect with Us</a></li>
+          <li><a href="mailto:research@quantflowcapital.com">research@quantflowcapital.com</a></li>
         </ul>
       </div>
     </div>

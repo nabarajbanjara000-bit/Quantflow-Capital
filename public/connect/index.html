@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Connect With Us | Quant Flow Capital · Macroeconomics &amp; Geopolitics</title>
+<meta name="description" content="Connect with Quant Flow Capital's macroeconomics and geopolitics research desk. Institutional advisory, central bank policy analysis, sovereign risk dialogues, and bespoke briefings.">
+<link rel="icon" type="image/png" href="/assets/img/6da887eca7.png">
+<link rel="apple-touch-icon" href="/assets/img/6da887eca7.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Quant Flow Capital">
+<meta property="og:title" content="Connect With Us | Quant Flow Capital">
+<meta property="og:description" content="Engage with our research desk on global macroeconomics, central bank trajectory, and geopolitical capital flows.">
+<meta name="theme-color" content="#0a1729">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/site.css">
+<style>
+/* Page specific styling */
+.hero-connect {
+  background: radial-gradient(circle at 80% 20%, rgba(30, 79, 184, 0.15) 0%, transparent 60%),
+              linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
+  border-bottom: 1px solid var(--line);
+  padding: 64px 0 54px;
+}
+.hero-connect h1 {
+  font-family: var(--serif);
+  font-size: clamp(34px, 4.4vw, 54px);
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin: 16px 0 18px;
+  max-width: 24ch;
+}
+.hero-connect p.lead {
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--ink-2);
+  max-width: 68ch;
+  margin: 0 0 28px;
+}
+.hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.hero-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 550;
+  color: var(--ink-2);
+  box-shadow: var(--shadow-sm);
+}
+.hero-tag i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.connect-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 48px;
+  margin-top: 52px;
+}
+
+/* Form card */
+.form-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 38px 40px;
+  box-shadow: var(--shadow-md);
+  position: relative;
+}
+.form-card-head {
+  border-bottom: 1px solid var(--line-2);
+  padding-bottom: 22px;
+  margin-bottom: 26px;
+}
+.form-card-head h2 {
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 500;
+  margin: 0 0 6px;
+  color: var(--ink);
+}
+.form-card-head p {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0;
+}
+
+.interest-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+.pill-check {
+  cursor: pointer;
+}
+.pill-check input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.pill-check span {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  font-size: 12.5px;
+  font-weight: 550;
+  color: var(--ink-2);
+  background: var(--paper);
+  transition: all 0.15s ease;
+  user-select: none;
+}
+.pill-check input:checked + span {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(30, 79, 184, 0.25);
+}
+.pill-check:hover span {
+  border-color: var(--accent);
+}
+
+.newsletter-opt {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  background: var(--paper);
+  border: 1px solid var(--line-2);
+  border-radius: 8px;
+  margin: 18px 0 24px;
+  cursor: pointer;
+}
+.newsletter-opt input {
+  margin-top: 3px;
+  width: 17px;
+  height: 17px;
+  accent-color: var(--accent);
+}
+.newsletter-opt div {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+.newsletter-opt b {
+  display: block;
+  color: var(--ink);
+  font-size: 13.5px;
+  margin-bottom: 2px;
+}
+
+.form-submit-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-top: 24px;
+}
+.form-secure-note {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.form-secure-note svg {
+  color: var(--up);
+}
+
+/* Success state */
+.form-success {
+  display: none;
+  text-align: center;
+  padding: 40px 20px;
+}
+.form-success.show {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+.form-success-icon {
+  width: 60px;
+  height: 60px;
+  background: var(--up-soft);
+  color: var(--up);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.form-success h3 {
+  font-family: var(--serif);
+  font-size: 26px;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+.form-success p {
+  color: var(--muted);
+  max-width: 44ch;
+  margin: 0 auto 24px;
+  line-height: 1.6;
+}
+
+/* Sidebar cards */
+.connect-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.desk-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 24px 26px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.desk-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+.desk-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold-ink);
+  background: var(--gold-soft);
+  padding: 4px 9px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.desk-card h3 {
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 8px;
+  color: var(--ink);
+}
+.desk-card p {
+  font-size: 13.5px;
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 0 0 14px;
+}
+.desk-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--line-2);
+  padding-top: 12px;
+  font-size: 12px;
+  color: var(--faint);
+  font-family: var(--mono);
+}
+
+.direct-banner {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%);
+  color: #ffffff;
+  border-radius: var(--radius);
+  padding: 28px;
+  position: relative;
+  overflow: hidden;
+}
+.direct-banner::after {
+  content: "";
+  position: absolute;
+  right: -30px;
+  bottom: -30px;
+  width: 140px;
+  height: 140px;
+  background: radial-gradient(circle, rgba(30, 79, 184, 0.4) 0%, transparent 70%);
+}
+.direct-banner h4 {
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 10px;
+  color: #ffffff;
+}
+.direct-banner p {
+  color: #b0c2db;
+  font-size: 13.5px;
+  line-height: 1.6;
+  margin: 0 0 18px;
+}
+.direct-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #9cb9f5;
+  font-size: 13.5px;
+  font-weight: 600;
+  font-family: var(--mono);
+}
+.direct-link:hover {
+  color: #ffffff;
+}
+
+/* FAQ section */
+.faq-section {
+  margin-top: 80px;
+  border-top: 1px solid var(--line);
+  padding-top: 60px;
+}
+.faq-head {
+  text-align: center;
+  max-width: 56ch;
+  margin: 0 auto 48px;
+}
+.faq-head h2 {
+  font-family: var(--serif);
+  font-size: 32px;
+  font-weight: 500;
+  margin: 10px 0 12px;
+  color: var(--ink);
+}
+.faq-head p {
+  color: var(--muted);
+  font-size: 15px;
+}
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+.faq-item {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 26px 28px;
+}
+.faq-item h4 {
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+.faq-item p {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.65;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 900px) {
+  .connect-grid {
+    grid-template-columns: 1fr;
+  }
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+  .form-card {
+    padding: 28px 24px;
+  }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- Top utility bar -->
+<div class="topbar"><div class="wrap topbar-inner">
+  <div class="topbar-left">
+    <time id="today"></time>
+    <span class="divider" aria-hidden="true"></span>
+    <div class="clocks" aria-label="Market time zones">
+      <span>New York<b data-tz="America/New_York">--:--</b></span>
+      <span>London<b data-tz="Europe/London">--:--</b></span>
+      <span>Tokyo<b data-tz="Asia/Tokyo">--:--</b></span>
+    </div>
+  </div>
+  <div class="topbar-right">
+    <a href="/monitor/">Central bank monitor</a>
+    <span class="divider" aria-hidden="true"></span>
+    <a href="/geopolitics/">Macro &amp; Geopolitics</a>
+    <span class="divider" aria-hidden="true"></span>
+    <a href="/about/">About Quant Flow</a>
+  </div>
+</div></div>
+
+<!-- Masthead navigation -->
+<header class="masthead"><div class="wrap masthead-inner">
+  <a class="brand" href="/" aria-label="Quant Flow Capital home">
+    <img class="brand-logo" src="/assets/img/2f2890412a.png" alt="Quant Flow Capital">
+    <span class="brand-text"><b>Quant Flow Capital</b><small>Macro &amp; Markets Research</small></span>
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+  </button>
+  <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+    <a href="/">Research</a>
+    <a href="/monitor/">Central Banks</a>
+    <a href="/geopolitics/">Macro &amp; Geopolitics</a>
+    <a href="/about/">About</a>
+    <a class="nav-cta active" href="/connect/">Connect with Us</a>
+  </nav>
+</div></header>
+
+<main id="main">
+  <!-- Hero Section -->
+  <section class="hero-connect">
+    <div class="wrap">
+      <span class="eyebrow">Institutional Access &amp; Collaboration</span>
+      <h1>Connect With Our Macro &amp; Geopolitics Desk</h1>
+      <p class="lead">
+        Quant Flow Capital works closely with portfolio managers, sovereign wealth institutions, family offices, and macroeconomic researchers seeking unhedged clarity on interest rate trajectories, sovereign yield curves, and geopolitical supply chain realignments.
+      </p>
+      <div class="hero-tags">
+        <span class="hero-tag"><i></i>Central Bank Reaction Functions</span>
+        <span class="hero-tag"><i></i>Sovereign Debt Term Premia</span>
+        <span class="hero-tag"><i></i>Geopolitical Energy Corridors</span>
+        <span class="hero-tag"><i></i>Cross-Border Capital Flows</span>
+        <span class="hero-tag"><i></i>FX Reserve Architecture</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Connect Form and Desks Grid -->
+  <div class="wrap">
+    <div class="connect-grid">
+      
+      <!-- Left Column: Form -->
+      <div class="form-card">
+        <div class="form-card-head">
+          <span class="eyebrow gold">Direct Research Inquiry</span>
+          <h2>Initiate a Dialogue</h2>
+          <p>Complete the form below to connect with our macro strategists or request access to institutional dossiers.</p>
+        </div>
+
+        <form id="connectForm" onsubmit="handleConnectSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fullName">Full Name <span style="color:var(--down)">*</span></label>
+              <input type="text" id="fullName" required placeholder="e.g. Sarah Jenkins">
+            </div>
+            <div class="form-group">
+              <label for="workEmail">Work / Professional Email <span style="color:var(--down)">*</span></label>
+              <input type="email" id="workEmail" required placeholder="name@institution.com">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="organization">Institution / Firm Name <span style="color:var(--down)">*</span></label>
+              <input type="text" id="organization" required placeholder="e.g. Vanguard Asset Mgmt, Family Office">
+            </div>
+            <div class="form-group">
+              <label for="roleType">Primary Role</label>
+              <select id="roleType">
+                <option value="portfolio_manager">Portfolio Manager / Fund Manager</option>
+                <option value="macro_strategist">Macro Strategist / Fixed Income Analyst</option>
+                <option value="family_office">Family Office Principal / CIO</option>
+                <option value="corporate_treasury">Corporate Treasurer / CFO</option>
+                <option value="sovereign_wealth">Sovereign Wealth / Public Pension</option>
+                <option value="academic_researcher">Economist / Academic Researcher</option>
+                <option value="independent_trader">Independent Macro Trader</option>
+                <option value="other">Other Professional</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Primary Areas of Interest (Select all that apply)</label>
+            <div class="interest-pills">
+              <label class="pill-check">
+                <input type="checkbox" name="interest" value="Central Bank Policy" checked>
+                <span>Central Bank Policy &amp; Rate Hikes/Cuts</span>
+              </label>
+              <label class="pill-check">
+                <input type="checkbox" name="interest" value="Sovereign Yield Curves" checked>
+                <span>Sovereign Yield Curves (10Y/2Y Spreads)</span>
+              </label>
+              <label class="pill-check">
+                <input type="checkbox" name="interest" value="Geopolitics & Energy" checked>
+                <span>Geopolitical Risk &amp; Oil/LNG Corridors</span>
+              </label>
+              <label class="pill-check">
+                <input type="checkbox" name="interest" value="FX & De-Dollarization">
+                <span>FX Liquidity &amp; Reserve Diversification</span>
+              </label>
+              <label class="pill-check">
+                <input type="checkbox" name="interest" value="Bespoke Macro Advisory">
+                <span>Bespoke Macro Advisory &amp; Briefings</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inquiryType">Nature of Engagement</label>
+            <select id="inquiryType">
+              <option value="research_subscription">Institutional Research Access &amp; Daily Monitor</option>
+              <option value="macro_dialogue">Direct Macro Consultation / Strategy Discussion</option>
+              <option value="bespoke_mandate">Commission Bespoke Macroeconomic / Geopolitical Dossier</option>
+              <option value="speaking_briefing">Executive Briefing / Guest Keynote</option>
+              <option value="media_inquiry">Media, Press &amp; Data Attribution</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">How can we assist your research or positioning? <span style="color:var(--down)">*</span></label>
+            <textarea id="message" required rows="4" placeholder="Detail the questions, asset classes, or geopolitical scenarios you are evaluating..."></textarea>
+          </div>
+
+          <label class="newsletter-opt">
+            <input type="checkbox" id="newsletterOpt" checked>
+            <div>
+              <b>Subscribe to Quant Flow Macro &amp; Geopolitics Dispatch</b>
+              <span>Receive weekly data updates, central bank probabilities, and strategic geopolitical alerts directly to your inbox.</span>
+            </div>
+          </label>
+
+          <div class="form-submit-row">
+            <div class="form-secure-note">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              <span>Encrypted &amp; confidential. No third-party data sharing.</span>
+            </div>
+            <button type="submit" class="btn btn-primary" id="submitBtn">
+              <span>Send Message</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </form>
+
+        <!-- Confirmation State -->
+        <div class="form-success" id="formSuccess">
+          <div class="form-success-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
+          </div>
+          <h3>Inquiry Received</h3>
+          <p id="successMsg">Thank you. A member of our macro research team has received your message and will follow up within one business day.</p>
+          <button type="button" class="btn btn-outline" onclick="resetConnectForm()">Send Another Inquiry</button>
+        </div>
+      </div>
+
+      <!-- Right Column: Coverage Desks & Contact Channels -->
+      <div class="connect-sidebar">
+        
+        <div class="direct-banner">
+          <span class="eyebrow light">Direct Inquiries</span>
+          <h4>Research Desk Dispatch</h4>
+          <p>For urgent market commentaries, institutional data verification, or press queries, contact our desk directly:</p>
+          <a class="direct-link" href="mailto:research@quantflowcapital.com">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            research@quantflowcapital.com
+          </a>
+        </div>
+
+        <div class="desk-card">
+          <span class="desk-badge">Americas</span>
+          <h3>New York Macro Desk</h3>
+          <p>FOMC monetary policy paths, US Treasury supply dynamics, TIPS breakevens, and domestic dollar liquidity operations.</p>
+          <div class="desk-meta">
+            <span>Trading Hours: 08:00 – 18:00 ET</span>
+            <span>NYC · UTC-4</span>
+          </div>
+        </div>
+
+        <div class="desk-card">
+          <span class="desk-badge">EMEA &amp; Geopolitics</span>
+          <h3>London Geopolitical Desk</h3>
+          <p>ECB and Bank of England reaction matrices, Middle East energy chokepoint vulnerability, EU fiscal constraints, and sovereign spreads.</p>
+          <div class="desk-meta">
+            <span>Trading Hours: 07:30 – 17:30 GMT</span>
+            <span>LDN · UTC+0</span>
+          </div>
+        </div>
+
+        <div class="desk-card">
+          <span class="desk-badge">Asia-Pacific</span>
+          <h3>Tokyo &amp; Singapore Desk</h3>
+          <p>Bank of Japan yield curve normalization, PBOC targeted credit easing, Asian dollar bond markets, and semiconductor corridor supply shifts.</p>
+          <div class="desk-meta">
+            <span>Trading Hours: 08:30 – 18:30 JST</span>
+            <span>TYO · UTC+9</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+      <div class="faq-head">
+        <span class="eyebrow">Frequently Asked Questions</span>
+        <h2>How We Collaborate With Institutional Capital</h2>
+        <p>Everything you need to know about our research methodology, data distribution, and engagement formats.</p>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h4>What makes Quant Flow Capital's macro research distinct?</h4>
+          <p>We do not rely on lagging anecdotal narratives. Every view is anchored by automated empirical indicators (yield curves, breakevens, money supply, central bank balance sheets) combined with first-principles geopolitical risk tracking.</p>
+        </div>
+        <div class="faq-item">
+          <h4>How frequently is the Central Bank Monitor updated?</h4>
+          <p>The monitor is refreshed daily via automated data pipelines directly connecting to official central banks, national statistical agencies, and bond yield series across 8 major currency jurisdictions.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Can institutional clients request custom research or scenario models?</h4>
+          <p>Yes. We frequently develop bespoke sovereign risk briefs, interest-rate sensitivity stress tests, and geopolitical supply shock scenarios tailored to specific portfolio positioning mandates.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Is Quant Flow Capital an asset manager or a research firm?</h4>
+          <p>Quant Flow Capital is an independent macroeconomics and geopolitical research intelligence firm. We deliver uncompromised analytical clarity for capital allocators, hedge funds, family offices, and market participants globally.</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <div class="footer-brand">Quant Flow Capital</div>
+        <p>A global macroeconomic and geopolitical research firm chasing absolute clarity for capital positioning across sovereign debt, policy rates, and global markets.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="/">Research Home</a></li>
+          <li><a href="/monitor/">Central Bank Monitor</a></li>
+          <li><a href="/geopolitics/">Macro &amp; Geopolitics</a></li>
+          <li><a href="/about/">About Quant Flow</a></li>
+          <li><a href="/connect/">Connect with Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Central Banks</h4>
+        <ul>
+          <li><a href="/monitor/#us">Federal Reserve</a></li>
+          <li><a href="/monitor/#germany">European Central Bank</a></li>
+          <li><a href="/monitor/#japan">Bank of Japan</a></li>
+          <li><a href="/monitor/#uk">Bank of England</a></li>
+          <li><a href="/monitor/#canada">Bank of Canada</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Intelligence</h4>
+        <ul>
+          <li><a href="/geopolitics/#chokepoints">Energy Chokepoints</a></li>
+          <li><a href="/geopolitics/#de-dollarization">Currency Alliances</a></li>
+          <li><a href="/geopolitics/#sovereign-debt">Fiscal Dominance</a></li>
+          <li><a href="/connect/">Request Dossier</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Direct Desk</h4>
+        <ul>
+          <li><a href="mailto:research@quantflowcapital.com">research@quantflowcapital.com</a></li>
+          <li><span style="color:var(--muted);font-size:13px">Coverage: NY · LDN · TYO</span></li>
+          <li><a href="/connect/" style="color:var(--accent);font-weight:600">Schedule Dialogue →</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="disclaimer">
+      <p><strong>Important information.</strong> Content published by Quant Flow Capital is for informational and educational purposes only. It does not constitute investment, tax, or legal advice, or an offer or solicitation to buy or sell any security or financial instrument. Past performance is not a reliable indicator of future results.</p>
+    </div>
+    <div class="copyright">
+      <span>© <span id="year">2026</span> Quant Flow Capital. All rights reserved.</span>
+      <span>Global Macro &amp; Geopolitical Intelligence</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Clocks and date
+(function(){
+  const today = document.getElementById("today");
+  function tick(){
+    const now = new Date();
+    if(today) {
+      today.textContent = now.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" });
+      today.dateTime = now.toISOString().slice(0, 10);
+    }
+    document.querySelectorAll(".clocks b[data-tz]").forEach(el => {
+      try { el.textContent = now.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit", timeZone: el.dataset.tz }); } catch(e){}
+    });
+  }
+  tick();
+  setInterval(tick, 15000);
+  document.getElementById("year").textContent = new Date().getFullYear();
+})();
+
+// Mobile navigation toggle
+document.getElementById("navToggle")?.addEventListener("click", function(){
+  const nav = document.getElementById("primaryNav");
+  const open = nav.classList.toggle("open");
+  this.setAttribute("aria-expanded", open);
+});
+
+// Form submission handler
+function handleConnectSubmit(e){
+  e.preventDefault();
+  const form = document.getElementById("connectForm");
+  const btn = document.getElementById("submitBtn");
+  
+  const name = document.getElementById("fullName").value.trim();
+  const email = document.getElementById("workEmail").value.trim();
+  const org = document.getElementById("organization").value.trim();
+  const role = document.getElementById("roleType").value;
+  const inquiry = document.getElementById("inquiryType").value;
+  const msg = document.getElementById("message").value.trim();
+  const newsletter = document.getElementById("newsletterOpt").checked;
+  
+  const interests = Array.from(document.querySelectorAll('input[name="interest"]:checked')).map(cb => cb.value);
+  
+  btn.disabled = true;
+  btn.innerHTML = '<span>Transmitting...</span>';
+  
+  const submission = {
+    id: "inq-" + Date.now(),
+    date: new Date().toISOString(),
+    name, email, org, role, inquiry, interests, msg, newsletter
+  };
+  
+  // Persist locally
+  try {
+    const list = JSON.parse(localStorage.getItem("qfc_inquiries") || "[]");
+    list.unshift(submission);
+    localStorage.setItem("qfc_inquiries", JSON.stringify(list));
+  } catch(err){}
+  
+  setTimeout(() => {
+    form.style.display = "none";
+    const succ = document.getElementById("formSuccess");
+    succ.classList.add("show");
+    document.getElementById("successMsg").textContent = `Thank you, ${name}. Your message regarding ${inquiry.replace(/_/g, ' ')} has been routed to our research desk. We will respond to ${email} promptly.`;
+  }, 600);
+}
+
+function resetConnectForm(){
+  const form = document.getElementById("connectForm");
+  form.reset();
+  form.style.display = "block";
+  document.getElementById("submitBtn").disabled = false;
+  document.getElementById("submitBtn").innerHTML = '<span>Send Message</span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
+  document.getElementById("formSuccess").classList.remove("show");
+}
+</script>
+</body>
+</html>
