@@ -163,38 +163,35 @@ button{cursor:pointer}
 .primary-nav a.nav-cta{background:var(--navy);color:#fff!important;padding:7px 14px;border-radius:6px;font-weight:600;margin-left:6px;transition:background .15s,transform .15s}
 .primary-nav a.nav-cta:hover{background:var(--accent);transform:translateY(-1px)}
 
-/* ---------- Simple Connect With Us Section ---------- */
-.connect-sec{background:linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:60px 0;margin:56px 0}
-.connect-card-simple{max-width:680px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:40px 44px;box-shadow:var(--shadow-md)}
-.connect-head-simple{text-align:center;margin-bottom:28px}
-.connect-head-simple .eyebrow{margin-bottom:8px}
-.connect-head-simple h2{font-family:var(--serif);font-size:clamp(24px, 3.2vw, 32px);font-weight:500;color:var(--ink);margin:0 0 10px;line-height:1.25}
-.connect-head-simple p{color:var(--ink-2);font-size:14.5px;line-height:1.6;margin:0 auto;max-width:52ch}
-.connect-form-simple{display:grid;gap:16px}
-.form-row-simple{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.field-simple{display:grid;gap:6px}
-.field-simple label{font-size:12.5px;font-weight:600;color:var(--ink)}
-.field-simple input,.field-simple textarea{width:100%;border:1px solid var(--line);border-radius:6px;padding:11px 13px;background:#fff;font-size:14px;color:var(--ink);font-family:inherit;transition:border-color .15s,box-shadow .15s}
-.field-simple textarea{resize:vertical;min-height:110px}
-.field-simple input:focus,.field-simple textarea:focus{border-color:var(--accent);outline:none;box-shadow:0 0 0 3px rgba(30,79,184,.1)}
-.form-bottom-simple{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-top:6px}
-.btn-simple-submit{display:inline-flex;align-items:center;gap:8px;background:var(--navy);color:#fff;border:0;border-radius:6px;padding:11px 22px;font-size:13.5px;font-weight:600;cursor:pointer;transition:background .15s}
-.btn-simple-submit:hover{background:var(--accent)}
-.direct-email{font-size:13px;color:var(--muted)}
-.direct-email a{color:var(--accent);font-weight:600;text-decoration:none}
-.direct-email a:hover{text-decoration:underline}
-.connect-success-simple{text-align:center;padding:32px 16px}
-.connect-success-simple[hidden]{display:none}
-.success-icon-simple{width:48px;height:48px;border-radius:50%;background:var(--up-soft);color:var(--up);display:inline-flex;align-items:center;justify-content:center;font-size:22px;font-weight:700;margin-bottom:12px}
-.connect-success-simple h3{font-family:var(--serif);font-size:22px;margin:0 0 8px;color:var(--ink)}
-.connect-success-simple p{color:var(--muted);font-size:14px;margin:0 0 18px}
-.btn-simple-reset{font:inherit;font-size:13px;font-weight:600;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:8px 16px;color:var(--ink-2);cursor:pointer}
-@media(max-width:640px){
-  .connect-card-simple{padding:26px 18px}
-  .form-row-simple{grid-template-columns:1fr}
-  .form-bottom-simple{flex-direction:column;align-items:stretch;text-align:center}
-  .btn-simple-submit{justify-content:center}
-}
+/* ---------- Connect With Us section ---------- */
+.connect-sec{background:linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:68px 0;margin:64px 0}
+.connect-sec-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:48px;align-items:start}
+.connect-form-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:36px;box-shadow:var(--shadow-md)}
+.connect-form-card h3{font-family:var(--serif);font-size:24px;margin:0 0 8px;font-weight:500;color:var(--ink)}
+.connect-form-card p{color:var(--muted);font-size:14px;margin:0 0 22px}
+.c-form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.c-field{display:grid;gap:6px;margin-bottom:14px}
+.c-field label{font-size:12.5px;font-weight:600;color:var(--ink)}
+.c-field input,.c-field select,.c-field textarea{width:100%;border:1px solid var(--line);border-radius:6px;padding:10px 12px;background:#fff;font-size:14px;color:var(--ink)}
+.c-field textarea{min-height:95px;resize:vertical;font-family:inherit}
+.c-field input:focus,.c-field select:focus,.c-field textarea:focus{border-color:var(--accent);outline:none;box-shadow:0 0 0 3px rgba(30,79,184,.1)}
+.c-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.c-chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--paper);color:var(--ink-2);cursor:pointer;user-select:none;transition:all .15s}
+.c-chip input{display:none}
+.c-chip.selected{background:var(--accent);color:#fff;border-color:var(--accent)}
+.c-opt{display:flex;align-items:flex-start;gap:10px;font-size:12.5px;color:var(--ink-2);margin:16px 0 20px}
+.c-opt input{margin-top:3px;accent-color:var(--accent)}
+.c-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;background:var(--accent);color:#fff;border:0;border-radius:6px;padding:12px 18px;font-size:14px;font-weight:600;cursor:pointer;transition:background .15s}
+.c-btn:hover{background:var(--accent-ink)}
+.c-success{display:none;text-align:center;padding:32px 16px}
+.c-success.show{display:block}
+.c-success-icon{width:52px;height:52px;border-radius:50%;background:var(--up-soft);color:var(--up);display:inline-flex;align-items:center;justify-content:center;margin-bottom:16px}
+.connect-info-panel{display:flex;flex-direction:column;gap:20px}
+.connect-info-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px 28px;box-shadow:var(--shadow-sm)}
+.connect-info-card h4{font-family:var(--serif);font-size:19px;font-weight:500;margin:0 0 8px;color:var(--ink)}
+.connect-info-card p{color:var(--muted);font-size:13.5px;line-height:1.6;margin:0 0 14px}
+.connect-meta-row{display:flex;justify-content:space-between;border-top:1px solid var(--line-2);padding-top:10px;font-size:12px;color:var(--faint);font-family:var(--mono)}
+@media(max-width:900px){.connect-sec-grid{grid-template-columns:1fr}.c-form-row{grid-template-columns:1fr}}
 .search{position:relative;display:flex;align-items:center;width:300px;height:40px;border:1px solid var(--line);border-radius:8px;background:var(--surface);transition:border-color .15s,box-shadow .15s}
 .search:focus-within{border-color:#9fb4e3;box-shadow:0 0 0 4px rgba(30,79,184,.1)}
 .search svg{position:absolute;left:12px;width:16px;height:16px;color:var(--faint)}
@@ -733,46 +730,150 @@ button{cursor:pointer}
     <div class="grid" id="grid"></div>
   </section>
 
-  <!-- Connect With Us Section -->
+  <!-- Connect With Us Section (Macro & Geopolitics) -->
   <section class="connect-sec" id="connect" aria-labelledby="connectHeading">
     <div class="wrap">
-      <div class="connect-card-simple">
-        <div class="connect-head-simple">
-          <span class="eyebrow">Connect With Us</span>
-          <h2 id="connectHeading">Interested in Macroeconomics &amp; Geopolitics?</h2>
-          <p>Whether you want to discuss central bank policy, macroeconomic research, or explore collaboration with our team, get in touch with us.</p>
-        </div>
+      <div class="connect-sec-grid">
+        
+        <!-- Left: Form -->
+        <div class="connect-form-card">
+          <span class="eyebrow">Institutional Access</span>
+          <h3 id="connectHeading">Connect With Our Macro &amp; Geopolitics Desk</h3>
+          <p>Are you tracking interest rate divergence, sovereign bond term premia, or geopolitical capital realignments? Initiate a direct dialogue with our strategists.</p>
+          
+          <form id="homeConnectForm" onsubmit="handleHomeConnect(event)">
+            <div class="c-form-row">
+              <div class="c-field">
+                <label for="hcName">Your Name <span style="color:var(--down)">*</span></label>
+                <input type="text" id="hcName" required placeholder="e.g. David Sterling">
+              </div>
+              <div class="c-field">
+                <label for="hcEmail">Work Email <span style="color:var(--down)">*</span></label>
+                <input type="email" id="hcEmail" required placeholder="name@fund.com">
+              </div>
+            </div>
 
-        <form id="simpleConnectForm" class="connect-form-simple" onsubmit="handleSimpleConnect(event)">
-          <div class="form-row-simple">
-            <div class="field-simple">
-              <label for="cName">Your Name</label>
-              <input type="text" id="cName" required placeholder="Name">
+            <div class="c-form-row">
+              <div class="c-field">
+                <label for="hcOrg">Institution / Entity <span style="color:var(--down)">*</span></label>
+                <input type="text" id="hcOrg" required placeholder="e.g. Hedge Fund, Family Office, Asset Mgmt">
+              </div>
+              <div class="c-field">
+                <label for="hcRole">Role / Perspective</label>
+                <select id="hcRole">
+                  <option value="portfolio_manager">Portfolio Manager / CIO</option>
+                  <option value="macro_trader">Macro Trader / Rates Strategist</option>
+                  <option value="family_office">Family Office Allocator</option>
+                  <option value="corporate_treasury">Corporate Treasury</option>
+                  <option value="analyst_researcher">Macro Analyst / Academic</option>
+                  <option value="independent">Independent Investor</option>
+                </select>
+              </div>
             </div>
-            <div class="field-simple">
-              <label for="cEmail">Email Address</label>
-              <input type="email" id="cEmail" required placeholder="name@email.com">
+
+            <div class="c-field">
+              <label>Areas of Core Interest</label>
+              <div class="c-chips">
+                <label class="c-chip selected" onclick="this.classList.toggle('selected')">
+                  <input type="checkbox" name="hcInterest" value="Central Bank Policy" checked> Central Bank Policy (Fed, ECB, BoJ)
+                </label>
+                <label class="c-chip selected" onclick="this.classList.toggle('selected')">
+                  <input type="checkbox" name="hcInterest" value="Sovereign Yield Curves" checked> Sovereign Yield Curves (2s10s)
+                </label>
+                <label class="c-chip" onclick="this.classList.toggle('selected')">
+                  <input type="checkbox" name="hcInterest" value="Geopolitics & Energy"> Geopolitical Energy Chokepoints
+                </label>
+                <label class="c-chip" onclick="this.classList.toggle('selected')">
+                  <input type="checkbox" name="hcInterest" value="De-Dollarization"> De-Dollarization &amp; FX Reserves
+                </label>
+                <label class="c-chip" onclick="this.classList.toggle('selected')">
+                  <input type="checkbox" name="hcInterest" value="Bespoke Briefings"> Bespoke Institutional Briefings
+                </label>
+              </div>
             </div>
-          </div>
-          <div class="field-simple">
-            <label for="cMessage">Message</label>
-            <textarea id="cMessage" rows="4" required placeholder="How can we help you or what topics would you like to discuss?"></textarea>
-          </div>
-          <div class="form-bottom-simple">
-            <button type="submit" class="btn-simple-submit" id="cSubmitBtn">
-              <span>Send Message</span>
+
+            <div class="c-field">
+              <label for="hcMsg">Message / Research Inquiry <span style="color:var(--down)">*</span></label>
+              <textarea id="hcMsg" required rows="3" placeholder="Tell us what macro themes or geopolitical scenarios you are evaluating..."></textarea>
+            </div>
+
+            <label class="c-opt">
+              <input type="checkbox" id="hcNewsletter" checked>
+              <span>Subscribe to the weekly <b>Quant Flow Macro &amp; Geopolitics Dispatch</b> (probabilistic rate outlooks &amp; sovereign risk alerts).</span>
+            </label>
+
+            <button type="submit" class="c-btn" id="hcBtn">
+              <span>Send Research Inquiry</span>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </button>
-            <span class="direct-email">Or email us directly at <a href="mailto:research@quantflowcapital.com">research@quantflowcapital.com</a></span>
-          </div>
-        </form>
+          </form>
 
-        <div class="connect-success-simple" id="cSuccess" hidden>
-          <div class="success-icon-simple">✓</div>
-          <h3>Thank you for reaching out</h3>
-          <p>Your message has been received. Our team will get back to you shortly.</p>
-          <button type="button" class="btn-simple-reset" onclick="resetSimpleConnect()">Send another message</button>
+          <div class="c-success" id="hcSuccess">
+            <div class="c-success-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <h4 style="font-family:var(--serif);font-size:22px;color:var(--ink);margin:0 0 8px">Inquiry Transmitted</h4>
+            <p style="color:var(--muted);font-size:14px;max-width:38ch;margin:0 auto 18px" id="hcSuccessText">Thank you. Our macro desk has received your note and will reply promptly.</p>
+            <button type="button" class="btn btn-outline" onclick="resetHomeConnect()" style="font-size:13px;padding:8px 16px">Send Another Note</button>
+          </div>
         </div>
+
+        <!-- Right: Desks & Direct Channels -->
+        <div class="connect-info-panel">
+          
+          <div class="connect-info-card" style="background:linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%);color:#fff">
+            <span class="eyebrow light">Direct Research Desks</span>
+            <h4 style="color:#fff">Institutional Coverage</h4>
+            <p style="color:#b3c5dd">Our research desks monitor real-time policy moves, balance sheets, and geopolitical choke points across global trading zones:</p>
+            <div style="display:grid;gap:12px;margin:18px 0 22px">
+              <div style="display:flex;align-items:center;gap:10px;font-size:13.5px">
+                <span style="color:#9cb9f5;font-weight:600">Americas:</span> <span>New York Desk (Fed &amp; US Treasuries)</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:10px;font-size:13.5px">
+                <span style="color:#9cb9f5;font-weight:600">EMEA:</span> <span>London Desk (ECB, BoE &amp; Energy Chokepoints)</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:10px;font-size:13.5px">
+                <span style="color:#9cb9f5;font-weight:600">Asia-Pac:</span> <span>Tokyo/Singapore (BoJ &amp; Supply Chains)</span>
+              </div>
+            </div>
+            <div style="border-top:1px solid rgba(255,255,255,0.12);padding-top:14px">
+              <a href="mailto:research@quantflowcapital.com" style="color:#9cb9f5;font-family:var(--mono);font-size:13px;display:inline-flex;align-items:center;gap:8px">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                research@quantflowcapital.com
+              </a>
+            </div>
+          </div>
+
+          <div class="connect-info-card">
+            <span class="eyebrow gold">Dedicated Multipage Portal</span>
+            <h4>Explore Our Full Coverage</h4>
+            <p>Visit our dedicated sections for specialized intelligence:</p>
+            <div style="display:grid;gap:10px">
+              <a href="/monitor/" style="display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border:1px solid var(--line);border-radius:6px;font-size:13.5px;font-weight:600;color:var(--ink)">
+                <span>Global Central Bank Monitor</span>
+                <span style="color:var(--accent)">Explore →</span>
+              </a>
+              <a href="/markets/" style="display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border:1px solid var(--line);border-radius:6px;font-size:13.5px;font-weight:600;color:var(--ink)">
+                <span>Markets &amp; Economic Calendar</span>
+                <span style="color:var(--accent)">Explore →</span>
+              </a>
+              <a href="/library/" style="display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border:1px solid var(--line);border-radius:6px;font-size:13.5px;font-weight:600;color:var(--ink)">
+                <span>Full Research Library</span>
+                <span style="color:var(--accent)">Explore →</span>
+              </a>
+              <a href="/about/" style="display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border:1px solid var(--line);border-radius:6px;font-size:13.5px;font-weight:600;color:var(--ink)">
+                <span>About Our Empirical Framework</span>
+                <span style="color:var(--accent)">Read →</span>
+              </a>
+              <a href="/connect/" style="display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border:1px solid var(--line);border-radius:6px;font-size:13.5px;font-weight:600;color:var(--ink);background:var(--accent-soft)">
+                <span>Institutional Connect Portal</span>
+                <span style="color:var(--accent)">Connect →</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
       </div>
     </div>
   </section>
@@ -1160,36 +1261,43 @@ window.addEventListener("hashchange",syncMonitor);window.addEventListener("popst
 syncMonitor();
 </script>
 <script>
-function handleSimpleConnect(e){
+function handleHomeConnect(e){
   e.preventDefault();
-  const name=document.getElementById("cName").value.trim();
-  const email=document.getElementById("cEmail").value.trim();
-  const msg=document.getElementById("cMessage").value.trim();
-  const btn=document.getElementById("cSubmitBtn");
+  const name=document.getElementById("hcName").value.trim();
+  const email=document.getElementById("hcEmail").value.trim();
+  const org=document.getElementById("hcOrg").value.trim();
+  const role=document.getElementById("hcRole").value;
+  const msg=document.getElementById("hcMsg").value.trim();
+  const newsletter=document.getElementById("hcNewsletter").checked;
+  const interests=Array.from(document.querySelectorAll('input[name="hcInterest"]:checked')).map(cb=>cb.value);
+  const btn=document.getElementById("hcBtn");
   btn.disabled=true;
-  btn.innerHTML='<span>Sending...</span>';
+  btn.innerHTML='<span>Transmitting...</span>';
   
+  const payload={
+    id:"inq-home-"+Date.now(),
+    date:new Date().toISOString(),
+    name,email,org,role,msg,newsletter,interests
+  };
   try{
     const list=JSON.parse(localStorage.getItem("qfc_inquiries")||"[]");
-    list.unshift({id:"msg-"+Date.now(),date:new Date().toISOString(),name,email,msg});
+    list.unshift(payload);
     localStorage.setItem("qfc_inquiries",JSON.stringify(list));
   }catch(err){}
 
   setTimeout(()=>{
-    document.getElementById("simpleConnectForm").style.display="none";
-    const s=document.getElementById("cSuccess");
-    if(s) s.hidden=false;
-  },400);
+    document.getElementById("homeConnectForm").style.display="none";
+    document.getElementById("hcSuccess").classList.add("show");
+    document.getElementById("hcSuccessText").textContent=`Thank you, ${name}. Your inquiry on ${org} has been dispatched to our research desk. We will reach out to ${email} promptly.`;
+  },500);
 }
-function resetSimpleConnect(){
-  const f=document.getElementById("simpleConnectForm");
+function resetHomeConnect(){
+  const f=document.getElementById("homeConnectForm");
   f.reset();
-  f.style.display="grid";
-  const s=document.getElementById("cSuccess");
-  if(s) s.hidden=true;
-  const btn=document.getElementById("cSubmitBtn");
-  btn.disabled=false;
-  btn.innerHTML='<span>Send Message</span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
+  f.style.display="block";
+  document.getElementById("hcSuccess").classList.remove("show");
+  document.getElementById("hcBtn").disabled=false;
+  document.getElementById("hcBtn").innerHTML='<span>Send Research Inquiry</span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
 }
 </script>
 </body>

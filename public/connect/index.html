@@ -19,174 +19,365 @@
 <style>
 /* Page specific styling */
 .hero-connect {
-  background: radial-gradient(circle at 80% 20%, rgba(30, 79, 184, 0.1) 0%, transparent 60%),
+  background: radial-gradient(circle at 80% 20%, rgba(30, 79, 184, 0.15) 0%, transparent 60%),
               linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
   border-bottom: 1px solid var(--line);
-  padding: 56px 0 42px;
-  text-align: center;
+  padding: 64px 0 54px;
 }
 .hero-connect h1 {
   font-family: var(--serif);
-  font-size: clamp(32px, 4.2vw, 46px);
+  font-size: clamp(34px, 4.4vw, 54px);
   font-weight: 500;
-  line-height: 1.15;
-  letter-spacing: -0.015em;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
   color: var(--ink);
-  margin: 14px auto 16px;
+  margin: 16px 0 18px;
   max-width: 24ch;
 }
 .hero-connect p.lead {
-  font-size: 16.5px;
+  font-size: 18px;
   line-height: 1.65;
   color: var(--ink-2);
-  max-width: 58ch;
-  margin: 0 auto;
+  max-width: 68ch;
+  margin: 0 0 28px;
 }
-
-.connect-container {
-  padding: 48px 0 88px;
+.hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-
-.connect-card-simple {
-  max-width: 680px;
-  margin: 0 auto;
+.hero-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
   background: var(--surface);
   border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 40px 44px;
-  box-shadow: var(--shadow-md);
-}
-.connect-form-simple {
-  display: grid;
-  gap: 16px;
-}
-.form-row-simple {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px;
-}
-.field-simple {
-  display: grid;
-  gap: 6px;
-}
-.field-simple label {
+  border-radius: 999px;
   font-size: 12.5px;
-  font-weight: 600;
-  color: var(--ink);
+  font-weight: 550;
+  color: var(--ink-2);
+  box-shadow: var(--shadow-sm);
 }
-.field-simple input, .field-simple textarea {
-  width: 100%;
+.hero-tag i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.connect-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 48px;
+  margin-top: 52px;
+}
+
+/* Form card */
+.form-card {
+  background: var(--surface);
   border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 11px 13px;
-  background: #fff;
-  font-size: 14px;
+  border-radius: var(--radius-lg);
+  padding: 38px 40px;
+  box-shadow: var(--shadow-md);
+  position: relative;
+}
+.form-card-head {
+  border-bottom: 1px solid var(--line-2);
+  padding-bottom: 22px;
+  margin-bottom: 26px;
+}
+.form-card-head h2 {
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 500;
+  margin: 0 0 6px;
   color: var(--ink);
-  font-family: inherit;
-  transition: border-color .15s, box-shadow .15s;
 }
-.field-simple textarea {
-  resize: vertical;
-  min-height: 120px;
+.form-card-head p {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0;
 }
-.field-simple input:focus, .field-simple textarea:focus {
+
+.interest-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+.pill-check {
+  cursor: pointer;
+}
+.pill-check input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.pill-check span {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  font-size: 12.5px;
+  font-weight: 550;
+  color: var(--ink-2);
+  background: var(--paper);
+  transition: all 0.15s ease;
+  user-select: none;
+}
+.pill-check input:checked + span {
+  background: var(--accent);
   border-color: var(--accent);
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(30, 79, 184, .1);
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(30, 79, 184, 0.25);
 }
-.form-bottom-simple {
+.pill-check:hover span {
+  border-color: var(--accent);
+}
+
+.newsletter-opt {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  background: var(--paper);
+  border: 1px solid var(--line-2);
+  border-radius: 8px;
+  margin: 18px 0 24px;
+  cursor: pointer;
+}
+.newsletter-opt input {
+  margin-top: 3px;
+  width: 17px;
+  height: 17px;
+  accent-color: var(--accent);
+}
+.newsletter-opt div {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+.newsletter-opt b {
+  display: block;
+  color: var(--ink);
+  font-size: 13.5px;
+  margin-bottom: 2px;
+}
+
+.form-submit-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 18px;
-  flex-wrap: wrap;
-  margin-top: 6px;
+  margin-top: 24px;
 }
-.btn-simple-submit {
-  display: inline-flex;
+.form-secure-note {
+  display: flex;
   align-items: center;
-  gap: 8px;
-  background: var(--navy);
-  color: #fff;
-  border: 0;
-  border-radius: 6px;
-  padding: 11px 22px;
-  font-size: 13.5px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background .15s;
-}
-.btn-simple-submit:hover {
-  background: var(--accent);
-}
-.direct-email {
-  font-size: 13px;
+  gap: 6px;
+  font-size: 12px;
   color: var(--muted);
 }
-.direct-email a {
-  color: var(--accent);
-  font-weight: 600;
-  text-decoration: none;
+.form-secure-note svg {
+  color: var(--up);
 }
-.direct-email a:hover {
-  text-decoration: underline;
-}
-.connect-success-simple {
-  text-align: center;
-  padding: 32px 16px;
-}
-.connect-success-simple[hidden] {
+
+/* Success state */
+.form-success {
   display: none;
+  text-align: center;
+  padding: 40px 20px;
 }
-.success-icon-simple {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
+.form-success.show {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+.form-success-icon {
+  width: 60px;
+  height: 60px;
   background: var(--up-soft);
   color: var(--up);
+  border-radius: 50%;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 22px;
+  margin-bottom: 20px;
+}
+.form-success h3 {
+  font-family: var(--serif);
+  font-size: 26px;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+.form-success p {
+  color: var(--muted);
+  max-width: 44ch;
+  margin: 0 auto 24px;
+  line-height: 1.6;
+}
+
+/* Sidebar cards */
+.connect-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.desk-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 24px 26px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.desk-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+.desk-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10.5px;
   font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold-ink);
+  background: var(--gold-soft);
+  padding: 4px 9px;
+  border-radius: 4px;
   margin-bottom: 12px;
 }
-.connect-success-simple h3 {
+.desk-card h3 {
   font-family: var(--serif);
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: 500;
   margin: 0 0 8px;
   color: var(--ink);
 }
-.connect-success-simple p {
+.desk-card p {
+  font-size: 13.5px;
   color: var(--muted);
-  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 14px;
+}
+.desk-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--line-2);
+  padding-top: 12px;
+  font-size: 12px;
+  color: var(--faint);
+  font-family: var(--mono);
+}
+
+.direct-banner {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%);
+  color: #ffffff;
+  border-radius: var(--radius);
+  padding: 28px;
+  position: relative;
+  overflow: hidden;
+}
+.direct-banner::after {
+  content: "";
+  position: absolute;
+  right: -30px;
+  bottom: -30px;
+  width: 140px;
+  height: 140px;
+  background: radial-gradient(circle, rgba(30, 79, 184, 0.4) 0%, transparent 70%);
+}
+.direct-banner h4 {
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 10px;
+  color: #ffffff;
+}
+.direct-banner p {
+  color: #b0c2db;
+  font-size: 13.5px;
+  line-height: 1.6;
   margin: 0 0 18px;
 }
-.btn-simple-reset {
-  font: inherit;
-  font-size: 13px;
+.direct-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #9cb9f5;
+  font-size: 13.5px;
   font-weight: 600;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 8px 16px;
-  color: var(--ink-2);
-  cursor: pointer;
+  font-family: var(--mono);
 }
-@media(max-width:640px) {
-  .connect-card-simple {
-    padding: 26px 18px;
-  }
-  .form-row-simple {
+.direct-link:hover {
+  color: #ffffff;
+}
+
+/* FAQ section */
+.faq-section {
+  margin-top: 80px;
+  border-top: 1px solid var(--line);
+  padding-top: 60px;
+}
+.faq-head {
+  text-align: center;
+  max-width: 56ch;
+  margin: 0 auto 48px;
+}
+.faq-head h2 {
+  font-family: var(--serif);
+  font-size: 32px;
+  font-weight: 500;
+  margin: 10px 0 12px;
+  color: var(--ink);
+}
+.faq-head p {
+  color: var(--muted);
+  font-size: 15px;
+}
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+.faq-item {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 26px 28px;
+}
+.faq-item h4 {
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+.faq-item p {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.65;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 900px) {
+  .connect-grid {
     grid-template-columns: 1fr;
   }
-  .form-bottom-simple {
-    flex-direction: column;
-    align-items: stretch;
-    text-align: center;
+  .faq-grid {
+    grid-template-columns: 1fr;
   }
-  .btn-simple-submit {
-    justify-content: center;
+  .form-card {
+    padding: 28px 24px;
   }
 }
 </style>
@@ -239,50 +430,213 @@
   <!-- Hero Section -->
   <section class="hero-connect">
     <div class="wrap">
-      <span class="eyebrow">Connect With Us</span>
-      <h1>Interested in Macroeconomics &amp; Geopolitics?</h1>
+      <span class="eyebrow">Institutional Access &amp; Collaboration</span>
+      <h1>Connect With Our Macro &amp; Geopolitics Desk</h1>
       <p class="lead">
-        Connect with us to share perspectives, ask questions about global central banks, or discuss macroeconomic research.
+        Quant Flow Capital works closely with portfolio managers, sovereign wealth institutions, family offices, and macroeconomic researchers seeking unhedged clarity on interest rate trajectories, sovereign yield curves, and geopolitical supply chain realignments.
       </p>
+      <div class="hero-tags">
+        <span class="hero-tag"><i></i>Central Bank Reaction Functions</span>
+        <span class="hero-tag"><i></i>Sovereign Debt Term Premia</span>
+        <span class="hero-tag"><i></i>Geopolitical Energy Corridors</span>
+        <span class="hero-tag"><i></i>Cross-Border Capital Flows</span>
+        <span class="hero-tag"><i></i>FX Reserve Architecture</span>
+      </div>
     </div>
   </section>
 
-  <!-- Connect Form -->
-  <div class="connect-container">
-    <div class="wrap">
-      <div class="connect-card-simple">
-        <form id="connectForm" class="connect-form-simple" onsubmit="handleConnectSubmit(event)">
-          <div class="form-row-simple">
-            <div class="field-simple">
-              <label for="fullName">Your Name</label>
-              <input type="text" id="fullName" required placeholder="Name">
+  <!-- Connect Form and Desks Grid -->
+  <div class="wrap">
+    <div class="connect-grid">
+      
+      <!-- Left Column: Form -->
+      <div class="form-card">
+        <div class="form-card-head">
+          <span class="eyebrow gold">Direct Research Inquiry</span>
+          <h2>Initiate a Dialogue</h2>
+          <p>Complete the form below to connect with our macro strategists or request access to institutional dossiers.</p>
+        </div>
+
+        <form id="connectForm" onsubmit="handleConnectSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fullName">Full Name <span style="color:var(--down)">*</span></label>
+              <input type="text" id="fullName" required placeholder="e.g. Sarah Jenkins">
             </div>
-            <div class="field-simple">
-              <label for="workEmail">Email Address</label>
-              <input type="email" id="workEmail" required placeholder="name@email.com">
+            <div class="form-group">
+              <label for="workEmail">Work / Professional Email <span style="color:var(--down)">*</span></label>
+              <input type="email" id="workEmail" required placeholder="name@institution.com">
             </div>
           </div>
-          <div class="field-simple">
-            <label for="message">Message</label>
-            <textarea id="message" rows="5" required placeholder="How can we help you or what topics would you like to discuss?"></textarea>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="organization">Institution / Firm Name <span style="color:var(--down)">*</span></label>
+              <input type="text" id="organization" required placeholder="e.g. Vanguard Asset Mgmt, Family Office">
+            </div>
+            <div class="form-group">
+              <label for="roleType">Primary Role</label>
+              <select id="roleType">
+                <option value="portfolio_manager">Portfolio Manager / Fund Manager</option>
+                <option value="macro_strategist">Macro Strategist / Fixed Income Analyst</option>
+                <option value="family_office">Family Office Principal / CIO</option>
+                <option value="corporate_treasury">Corporate Treasurer / CFO</option>
+                <option value="sovereign_wealth">Sovereign Wealth / Public Pension</option>
+                <option value="academic_researcher">Economist / Academic Researcher</option>
+                <option value="independent_trader">Independent Macro Trader</option>
+                <option value="other">Other Professional</option>
+              </select>
+            </div>
           </div>
-          <div class="form-bottom-simple">
-            <button type="submit" class="btn-simple-submit" id="submitBtn">
+
+          <div class="form-group">
+            <label>Primary Areas of Interest (Select all that apply)</label>
+            <div class="interest-pills">
+              <label class="pill-check">
+                <input type="checkbox" name="interest" value="Central Bank Policy" checked>
+                <span>Central Bank Policy &amp; Rate Hikes/Cuts</span>
+              </label>
+              <label class="pill-check">
+                <input type="checkbox" name="interest" value="Sovereign Yield Curves" checked>
+                <span>Sovereign Yield Curves (10Y/2Y Spreads)</span>
+              </label>
+              <label class="pill-check">
+                <input type="checkbox" name="interest" value="Geopolitics & Energy" checked>
+                <span>Geopolitical Risk &amp; Oil/LNG Corridors</span>
+              </label>
+              <label class="pill-check">
+                <input type="checkbox" name="interest" value="FX & De-Dollarization">
+                <span>FX Liquidity &amp; Reserve Diversification</span>
+              </label>
+              <label class="pill-check">
+                <input type="checkbox" name="interest" value="Bespoke Macro Advisory">
+                <span>Bespoke Macro Advisory &amp; Briefings</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inquiryType">Nature of Engagement</label>
+            <select id="inquiryType">
+              <option value="research_subscription">Institutional Research Access &amp; Daily Monitor</option>
+              <option value="macro_dialogue">Direct Macro Consultation / Strategy Discussion</option>
+              <option value="bespoke_mandate">Commission Bespoke Macroeconomic / Geopolitical Dossier</option>
+              <option value="speaking_briefing">Executive Briefing / Guest Keynote</option>
+              <option value="media_inquiry">Media, Press &amp; Data Attribution</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">How can we assist your research or positioning? <span style="color:var(--down)">*</span></label>
+            <textarea id="message" required rows="4" placeholder="Detail the questions, asset classes, or geopolitical scenarios you are evaluating..."></textarea>
+          </div>
+
+          <label class="newsletter-opt">
+            <input type="checkbox" id="newsletterOpt" checked>
+            <div>
+              <b>Subscribe to Quant Flow Macro &amp; Geopolitics Dispatch</b>
+              <span>Receive weekly data updates, central bank probabilities, and strategic geopolitical alerts directly to your inbox.</span>
+            </div>
+          </label>
+
+          <div class="form-submit-row">
+            <div class="form-secure-note">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              <span>Encrypted &amp; confidential. No third-party data sharing.</span>
+            </div>
+            <button type="submit" class="btn btn-primary" id="submitBtn">
               <span>Send Message</span>
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </button>
-            <span class="direct-email">Or email us directly at <a href="mailto:research@quantflowcapital.com">research@quantflowcapital.com</a></span>
           </div>
         </form>
 
-        <div class="connect-success-simple" id="formSuccess" hidden>
-          <div class="success-icon-simple">✓</div>
-          <h3>Thank you for reaching out</h3>
-          <p id="successMsg">Your message has been received. Our team will get back to you shortly.</p>
-          <button type="button" class="btn-simple-reset" onclick="resetConnectForm()">Send another message</button>
+        <!-- Confirmation State -->
+        <div class="form-success" id="formSuccess">
+          <div class="form-success-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
+          </div>
+          <h3>Inquiry Received</h3>
+          <p id="successMsg">Thank you. A member of our macro research team has received your message and will follow up within one business day.</p>
+          <button type="button" class="btn btn-outline" onclick="resetConnectForm()">Send Another Inquiry</button>
         </div>
       </div>
+
+      <!-- Right Column: Coverage Desks & Contact Channels -->
+      <div class="connect-sidebar">
+        
+        <div class="direct-banner">
+          <span class="eyebrow light">Direct Inquiries</span>
+          <h4>Research Desk Dispatch</h4>
+          <p>For urgent market commentaries, institutional data verification, or press queries, contact our desk directly:</p>
+          <a class="direct-link" href="mailto:research@quantflowcapital.com">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            research@quantflowcapital.com
+          </a>
+        </div>
+
+        <div class="desk-card">
+          <span class="desk-badge">Americas</span>
+          <h3>New York Macro Desk</h3>
+          <p>FOMC monetary policy paths, US Treasury supply dynamics, TIPS breakevens, and domestic dollar liquidity operations.</p>
+          <div class="desk-meta">
+            <span>Trading Hours: 08:00 – 18:00 ET</span>
+            <span>NYC · UTC-4</span>
+          </div>
+        </div>
+
+        <div class="desk-card">
+          <span class="desk-badge">EMEA &amp; Geopolitics</span>
+          <h3>London Geopolitical Desk</h3>
+          <p>ECB and Bank of England reaction matrices, Middle East energy chokepoint vulnerability, EU fiscal constraints, and sovereign spreads.</p>
+          <div class="desk-meta">
+            <span>Trading Hours: 07:30 – 17:30 GMT</span>
+            <span>LDN · UTC+0</span>
+          </div>
+        </div>
+
+        <div class="desk-card">
+          <span class="desk-badge">Asia-Pacific</span>
+          <h3>Tokyo &amp; Singapore Desk</h3>
+          <p>Bank of Japan yield curve normalization, PBOC targeted credit easing, Asian dollar bond markets, and semiconductor corridor supply shifts.</p>
+          <div class="desk-meta">
+            <span>Trading Hours: 08:30 – 18:30 JST</span>
+            <span>TYO · UTC+9</span>
+          </div>
+        </div>
+
+      </div>
+
     </div>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+      <div class="faq-head">
+        <span class="eyebrow">Frequently Asked Questions</span>
+        <h2>How We Collaborate With Institutional Capital</h2>
+        <p>Everything you need to know about our research methodology, data distribution, and engagement formats.</p>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h4>What makes Quant Flow Capital's macro research distinct?</h4>
+          <p>We do not rely on lagging anecdotal narratives. Every view is anchored by automated empirical indicators (yield curves, breakevens, money supply, central bank balance sheets) combined with first-principles geopolitical risk tracking.</p>
+        </div>
+        <div class="faq-item">
+          <h4>How frequently is the Central Bank Monitor updated?</h4>
+          <p>The monitor is refreshed daily via automated data pipelines directly connecting to official central banks, national statistical agencies, and bond yield series across 8 major currency jurisdictions.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Can institutional clients request custom research or scenario models?</h4>
+          <p>Yes. We frequently develop bespoke sovereign risk briefs, interest-rate sensitivity stress tests, and geopolitical supply shock scenarios tailored to specific portfolio positioning mandates.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Is Quant Flow Capital an asset manager or a research firm?</h4>
+          <p>Quant Flow Capital is an independent macroeconomics and geopolitical research intelligence firm. We deliver uncompromised analytical clarity for capital allocators, hedge funds, family offices, and market participants globally.</p>
+        </div>
+      </div>
+    </section>
+
   </div>
 </main>
 
@@ -379,15 +733,21 @@ function handleConnectSubmit(e){
   
   const name = document.getElementById("fullName").value.trim();
   const email = document.getElementById("workEmail").value.trim();
+  const org = document.getElementById("organization").value.trim();
+  const role = document.getElementById("roleType").value;
+  const inquiry = document.getElementById("inquiryType").value;
   const msg = document.getElementById("message").value.trim();
+  const newsletter = document.getElementById("newsletterOpt").checked;
+  
+  const interests = Array.from(document.querySelectorAll('input[name="interest"]:checked')).map(cb => cb.value);
   
   btn.disabled = true;
-  btn.innerHTML = '<span>Sending...</span>';
+  btn.innerHTML = '<span>Transmitting...</span>';
   
   const submission = {
     id: "inq-" + Date.now(),
     date: new Date().toISOString(),
-    name, email, msg
+    name, email, org, role, inquiry, interests, msg, newsletter
   };
   
   // Persist locally
@@ -400,18 +760,18 @@ function handleConnectSubmit(e){
   setTimeout(() => {
     form.style.display = "none";
     const succ = document.getElementById("formSuccess");
-    succ.hidden = false;
-    document.getElementById("successMsg").textContent = `Thank you, ${name}. Your message has been received. We will respond to ${email} shortly.`;
-  }, 400);
+    succ.classList.add("show");
+    document.getElementById("successMsg").textContent = `Thank you, ${name}. Your message regarding ${inquiry.replace(/_/g, ' ')} has been routed to our research desk. We will respond to ${email} promptly.`;
+  }, 600);
 }
 
 function resetConnectForm(){
   const form = document.getElementById("connectForm");
   form.reset();
-  form.style.display = "grid";
+  form.style.display = "block";
   document.getElementById("submitBtn").disabled = false;
-  document.getElementById("submitBtn").innerHTML = '<span>Send Message</span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
-  document.getElementById("formSuccess").hidden = true;
+  document.getElementById("submitBtn").innerHTML = '<span>Send Message</span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
+  document.getElementById("formSuccess").classList.remove("show");
 }
 </script>
 </body>
