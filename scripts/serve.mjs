@@ -33,10 +33,6 @@ const server = http.createServer((req, res) => {
     res.writeHead(302, { Location: "/connect/" });
     return res.end();
   }
-  if (reqPath === "/macro") {
-    res.writeHead(302, { Location: "/geopolitics/" });
-    return res.end();
-  }
 
   let filePath = path.join(PUBLIC_DIR, reqPath);
 
@@ -76,10 +72,11 @@ server.listen(PORT, () => {
   console.log(`\n======================================================`);
   console.log(`  Quant Flow Capital — Local Dev Server Running`);
   console.log(`======================================================`);
-  console.log(`  > Local:       http://localhost:${PORT}/`);
+  console.log(`  > Overview:    http://localhost:${PORT}/`);
   console.log(`  > Monitor:     http://localhost:${PORT}/monitor/`);
-  console.log(`  > Geopolitics: http://localhost:${PORT}/geopolitics/`);
-  console.log(`  > Connect:     http://localhost:${PORT}/connect/`);
+  console.log(`  > Markets:     http://localhost:${PORT}/markets/`);
+  console.log(`  > Library:     http://localhost:${PORT}/library/`);
   console.log(`  > About:       http://localhost:${PORT}/about/`);
+  console.log(`  > Connect:     http://localhost:${PORT}/connect/`);
   console.log(`======================================================\n`);
 });
