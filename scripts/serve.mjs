@@ -28,12 +28,6 @@ const MIME_TYPES = {
 const server = http.createServer((req, res) => {
   let reqPath = decodeURI(req.url.split("?")[0]);
 
-  // Convenience redirects matching vercel.json
-  if (reqPath === "/contact") {
-    res.writeHead(302, { Location: "/connect/" });
-    return res.end();
-  }
-
   let filePath = path.join(PUBLIC_DIR, reqPath);
 
   // Clean URLs & directory resolution
@@ -76,7 +70,5 @@ server.listen(PORT, () => {
   console.log(`  > Monitor:     http://localhost:${PORT}/monitor/`);
   console.log(`  > Markets:     http://localhost:${PORT}/markets/`);
   console.log(`  > Library:     http://localhost:${PORT}/library/`);
-  console.log(`  > About:       http://localhost:${PORT}/about/`);
-  console.log(`  > Connect:     http://localhost:${PORT}/connect/`);
   console.log(`======================================================\n`);
 });

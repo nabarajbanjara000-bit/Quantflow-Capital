@@ -19,7 +19,6 @@
     }
   ],
   "redirects": [
-    { "source": "/macro-fed-monitor/:path*", "destination": "/monitor/#us", "permanent": true },
-    { "source": "/contact", "destination": "/connect/", "permanent": false }
+    { "source": "/macro-fed-monitor/:path*", "destination": "/monitor/#us", "permanent": true }
   ]
 }
