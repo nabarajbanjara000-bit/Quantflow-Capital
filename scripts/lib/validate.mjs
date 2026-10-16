@@ -9,7 +9,7 @@ export const domainOk = (u, domains) => { try { const h = new URL(u).hostname.re
 
 // Only these tags survive in AI text; links must be https and on an official domain.
 export function scrubLinks(s, domains) {
-  return s.replace(/<a\s+[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi, (m, href, inner) => (href.startsWith("https://") && domainOk(href, domains)) ? `<a href="${href}">${inner}</a>` : inner)
+  return s.replace(/<a\s+[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi, (m, href, inner) => (href.startsWith("https://") && domainOk(href, domains)) ? `<a href="${href}" target="_blank" rel="noopener noreferrer">${inner}</a>` : inner)
           .replace(/<(?!\/?(strong|em|b|i|a|br|ul|li)\b)[^>]*>/gi, "");
 }
 export function deepMap(o, f) { if (typeof o === "string") return f(o); if (Array.isArray(o)) return o.map(x => deepMap(x, f)); if (o && typeof o === "object") { const r = {}; for (const k in o) r[k] = deepMap(o[k], f); return r; } return o; }

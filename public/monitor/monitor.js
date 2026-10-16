@@ -14,8 +14,8 @@ var CAP = { hold: "Hold", raise: "Raise", cut: "Cut" };
 
 /* ---------- helpers ---------- */
 function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" }[c]; }); }
-function okUrl(u) { try { var x = new URL(u); return x.protocol === "https:"; } catch (e) { return false; } } // domains are checked by the daily job
-// Safe rich text: only strong/em/b/i/br/ul/li and https links survive.
+function okUrl(u) { try { var x = new URL(u, window.location.href); return x.protocol === "https:" || x.protocol === "http:"; } catch (e) { return false; } } // domains are checked by the daily job
+// Safe rich text: only strong/em/b/i/br/ul/li and https/http links survive.
 function rich(s) {
   var doc = new DOMParser().parseFromString("<div>" + String(s == null ? "" : s) + "</div>", "text/html");
   function walk(n) {
@@ -29,7 +29,12 @@ function rich(s) {
       else if (t === "br") out += "<br>";
       else if (t === "ul") out += "<ul>" + inner + "</ul>";
       else if (t === "li") out += "<li>" + inner + "</li>";
-      else if (t === "a") { var h = c.getAttribute("href") || ""; out += okUrl(h) ? '<a href="' + esc(h) + '">' + inner + "</a>" : inner; }
+      else if (t === "a") {
+        var h = c.getAttribute("href") || "";
+        if (okUrl(h)) out += '<a href="' + esc(h) + '" target="_blank" rel="noopener noreferrer">' + inner + "</a>";
+        else if (h.charAt(0) === "#") out += '<a href="' + esc(h) + '">' + inner + "</a>";
+        else out += inner;
+      }
       else out += inner;
     });
     return out;
@@ -38,7 +43,7 @@ function rich(s) {
 }
 function paras(s) { return String(s || "").split(/\n\s*\n/).map(function (p) { p = p.trim(); return /^<ul>/i.test(p) ? rich(p) : "<p>" + rich(p) + "</p>"; }).join(""); }
 function para(s) { return rich(s).replace(/^(What it is:|Why it matters:|What it said:|What he said:|What she said:|What they said:)/, "<strong>$1</strong>"); }
-function link(label, url) { return okUrl(url) ? '<a href="' + esc(url) + '">' + esc(label) + "</a>" : esc(label); }
+function link(label, url) { return okUrl(url) ? '<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + esc(label) + "</a>" : esc(label); }
 function when(iso) { if (!iso) return "—"; return new Date(iso).toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit", timeZone: "America/New_York", timeZoneName: "short" }); }
 function dt(iso) { return new Date(iso + "T12:00:00Z"); }
 function dShort(iso) { var t = dt(iso); return MONTHS[t.getUTCMonth()] + " " + t.getUTCDate(); }
@@ -369,12 +374,23 @@ function go(h) {
   try { history.replaceState(null, "", "#" + h); } catch (e) {}
 }
 document.addEventListener("click", function (ev) {
-  var a = ev.target.closest ? ev.target.closest('a[href^="#"]') : null;
+  var a = ev.target.closest ? ev.target.closest("a") : null;
   if (!a) return;
-  var h = decodeURIComponent(a.getAttribute("href").slice(1));
-  if (!h) return;
-  ev.preventDefault();
-  go(h);
+  var href = a.getAttribute("href") || "";
+  if (!href) return;
+  if (href.charAt(0) === "#") {
+    var h = decodeURIComponent(href.slice(1));
+    if (!h) return;
+    ev.preventDefault();
+    go(h);
+    return;
+  }
+  if (/^https?:\/\//i.test(href)) {
+    if (a.getAttribute("target") !== "_blank") {
+      a.setAttribute("target", "_blank");
+      a.setAttribute("rel", "noopener noreferrer");
+    }
+  }
 });
 window.addEventListener("hashchange", function () { route(true); });
 route(false);

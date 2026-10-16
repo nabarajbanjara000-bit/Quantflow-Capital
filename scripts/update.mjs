@@ -180,7 +180,7 @@ function autoSummary(ch, verdictChange) {
   const items = [];
   for (const c of ch.data) items.push(`<strong>${c.name}</strong>: now ${c.to}, for ${c.to_period}. Before: ${c.from}, for ${c.from_period}.`);
   for (const c of ch.market) items.push(`<strong>${c.name}</strong> moved ${c.move}: now ${c.to}, was ${c.from}.`);
-  for (const f of ch.fed) items.push(`New official item: <a href="${f.url}">${f.title}</a> (${f.date}).`);
+  for (const f of ch.fed) items.push(`New official item: <a href="${f.url}" target="_blank" rel="noopener noreferrer">${f.title}</a> (${f.date}).`);
   if (verdictChange) items.push(`<strong>Our verdict changed</strong>: ${verdictChange.from_text} → ${verdictChange.to_text}.`);
   return { headline: items.length ? "Here is what is new since the last update." : "No important new data since the last update.", items };
 }
