@@ -8,7 +8,9 @@
     "update": "node scripts/update.mjs",
     "seed": "node scripts/tools/build-seed.mjs",
     "check": "node scripts/tools/check-country.mjs",
-    "test": "MOCK=1 MONITOR_TODAY=2026-10-14 node scripts/update.mjs"
+    "test": "MOCK=1 MONITOR_TODAY=2026-10-14 node scripts/update.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs"
   },
   "engines": { "node": ">=20" }
 }
