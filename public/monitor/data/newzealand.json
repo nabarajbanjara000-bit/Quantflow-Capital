@@ -3,9 +3,9 @@
  "code": "newzealand",
  "asof_date": "2026-10-16",
  "asof_label": "Oct 16, 2026",
- "generated_at": "2026-10-16T16:40:59.239Z",
- "data_updated_at": "2026-10-16T16:40:59.239Z",
- "narrative_updated_at": "2026-10-15T12:52:28.633Z",
+ "generated_at": "2026-10-16T18:55:59.848Z",
+ "data_updated_at": "2026-10-16T18:55:59.848Z",
+ "narrative_updated_at": "2026-10-16T18:55:59.848Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -668,18 +668,17 @@
    "name": "Brent crude oil",
    "source": "U.S. EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "$125.44 a barrel",
-   "period": "Oct 6, 2026",
-   "released": "Oct 7, 2026",
-   "previous": "$125.51 (Oct 5, 2026)",
-   "tag": "old",
+   "value": "$126.55 a barrel",
+   "period": "Oct 14, 2026",
+   "released": "Oct 15, 2026",
+   "previous": "$125.78 (Oct 13, 2026)",
+   "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-06",
+   "latest_date": "2026-10-14",
    "raw": {
-    "v": 125.44
+    "v": 126.55
    },
-   "estimate": false,
-   "note": "Could not refresh today; showing last collected value."
+   "estimate": false
   },
   "wti_crude_oil": {
    "id": "wti_crude_oil",
@@ -687,18 +686,17 @@
    "name": "WTI crude oil",
    "source": "U.S. EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-   "value": "$96.24 a barrel",
-   "period": "Oct 6, 2026",
+   "value": "$101.91 a barrel",
+   "period": "Oct 14, 2026",
    "released": "Oct 15, 2026",
-   "previous": "$96.13 (Oct 5, 2026)",
-   "tag": "old",
+   "previous": "$100.86 (Oct 13, 2026)",
+   "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-06",
+   "latest_date": "2026-10-14",
    "raw": {
-    "v": 96.24
+    "v": 101.91
    },
-   "estimate": false,
-   "note": "Could not refresh today; showing last collected value."
+   "estimate": false
   },
   "rbnz_oil_assumption": {
    "id": "rbnz_oil_assumption",
@@ -721,8 +719,8 @@
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
    "period": "Oct 16, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "4.00% (Sep 17, 2026)",
+   "released": "Oct 16, 2026",
+   "previous": "4.00% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
    "latest_date": "2026-10-16",
@@ -936,8 +934,10 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "No important new official data since the last update, but oil prices edged higher.",
+   "items": [
+    "<strong>WTI crude oil</strong> rose from $96.24 a barrel (Oct 6) to $101.91 a barrel (Oct 14), keeping fuel cost pressures high ahead of the October 28 review."
+   ]
   },
   "verdict": {
    "most_likely": "raise",
@@ -962,23 +962,23 @@
   "why_steps": [
    {
     "title": "The RBNZ has one main job, and one main tool",
-    "html": "The Reserve Bank’s main job is to keep prices steady. Its target is that prices should rise between <strong>1% and 3% a year</strong>, aiming for the <strong>2% midpoint</strong> over the medium term. It also tries to avoid unnecessary swings in jobs and output, so it watches unemployment closely.\n\nIts main tool is the <strong>Official Cash Rate</strong>, or <strong>OCR</strong>. In the RBNZ’s words, it is “the interest rate that banks earn on their deposits with us”, and it also sets what banks pay when they borrow from the Reserve Bank. That flows through to floating mortgages, business loans and savings accounts. Think of it like the pedals of a car. <strong>Raising</strong> the OCR is pressing the <strong>brake</strong>: loans get more expensive, so people and companies borrow and spend less, and prices cool down. <strong>Cutting</strong> is pressing the <strong>gas</strong>. <strong>Holding</strong> means keeping your foot where it is. Today the OCR is <strong>2.75%</strong>. In July the RBNZ described the rate as still “accommodative”, meaning it is still giving the economy a little gas (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/07/ocr-increased-to-2-50-to-return-inflation-to-2-percent\">July record</a>)."
+    "html": "The Reserve Bank’s main job is to keep prices steady. Its target is that prices should rise between <strong>1% and 3% a year</strong>, aiming for the <strong>2% midpoint</strong> over the medium term. It also tries to avoid unnecessary swings in jobs and output, so it watches unemployment closely.\n\nIts main tool is the <strong>Official Cash Rate</strong>, or <strong>OCR</strong>. In the RBNZ’s words, it is “the interest rate that banks earn on their deposits with us”, and it also sets what banks pay when they borrow from the Reserve Bank. That flows through to floating mortgages, business loans and savings accounts. Think of it like the pedals of a car. <strong>Raising</strong> the OCR is pressing the <strong>brake</strong>: loans get more expensive, so people and companies borrow and spend less, and prices cool down. <strong>Cutting</strong> is pressing the <strong>gas</strong>. <strong>Holding</strong> means keeping your foot where it is. Today the OCR is <strong>2.75%</strong>. In July the RBNZ described the rate as still “accommodative”, meaning it is still giving the economy a little gas (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/07/ocr-increased-to-2-50-to-return-inflation-to-2-percent\" target=\"_blank\" rel=\"noopener noreferrer\">July record</a>)."
    },
    {
     "title": "Prices are above the band, and mostly because of fuel",
-    "html": "Consumer prices (the <strong>CPI</strong>, or consumers price index, from Stats NZ) were <strong>4.1% higher</strong> in the June 2026 quarter than a year earlier, up from 3.1% in March (<a href=\"https://www.stats.govt.nz/information-releases/consumers-price-index-june-2026-quarter/\">Stats NZ</a>). In simple terms: a basket of everyday things that cost NZ$100 a year ago now costs about <strong>NZ$104.10</strong>. The goal would be about NZ$102. Unlike most countries, New Zealand measures the CPI only <strong>once every three months</strong>, so each report is a big event.\n\nLook underneath. Without petrol and diesel, prices rose <strong>2.9%</strong>. Prices of imported and traded goods rose 4.9%, but only 2.1% without fuel. In August, petrol was up 17.9% and diesel 45.8% on a year earlier (<a href=\"https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf\">Treasury</a>). The worry is the home-grown part: prices of things that cannot be imported, like rent, insurance and services (“non-tradables”), are rising <strong>3.4%</strong>, and the average of the RBNZ’s “core” measures, which strip out jumpy prices, rose from 2.4% to <strong>2.7%</strong> (<a href=\"https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/monetary-policy-statements/2026/sep-2926/mps_report_sep2026.pdf\">RBNZ September MPS</a>). One example of a core measure is a <em>trimmed mean</em>: drop the biggest price rises and falls each quarter and average the rest."
+    "html": "Consumer prices (the <strong>CPI</strong>, or consumers price index, from Stats NZ) were <strong>4.1% higher</strong> in the June 2026 quarter than a year earlier, up from 3.1% in March (<a href=\"https://www.stats.govt.nz/information-releases/consumers-price-index-june-2026-quarter/\" target=\"_blank\" rel=\"noopener noreferrer\">Stats NZ</a>). In simple terms: a basket of everyday things that cost NZ$100 a year ago now costs about <strong>NZ$104.10</strong>. The goal would be about NZ$102. Unlike most countries, New Zealand measures the CPI only <strong>once every three months</strong>, so each report is a big event.\n\nLook underneath. Without petrol and diesel, prices rose <strong>2.9%</strong>. Prices of imported and traded goods rose 4.9%, but only 2.1% without fuel. In August, petrol was up 17.9% and diesel 45.8% on a year earlier (<a href=\"https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Treasury</a>). The worry is the home-grown part: prices of things that cannot be imported, like rent, insurance and services (“non-tradables”), are rising <strong>3.4%</strong>, and the average of the RBNZ’s “core” measures, which strip out jumpy prices, rose from 2.4% to <strong>2.7%</strong> (<a href=\"https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/monetary-policy-statements/2026/sep-2926/mps_report_sep2026.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">RBNZ September MPS</a>). One example of a core measure is a <em>trimmed mean</em>: drop the biggest price rises and falls each quarter and average the rest."
    },
    {
     "title": "So the RBNZ has pressed the brake twice",
-    "html": "After cutting the OCR to 2.25% in late 2025, the RBNZ held through May. In May the Committee split <strong>3–3</strong>, and Governor Breman’s casting vote kept the rate on hold (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/05/ocr-held-at-2-25-percent\">RBNZ</a>). It then raised to <strong>2.50% on July 8</strong> and to <strong>2.75% on September 2</strong>, both times by consensus. In September it said: “Conditional on the central economic outlook, members judged that the OCR may need to increase further.” Its own projection has the OCR rising to about <strong>3.2%</strong> over the next two years, which implies roughly two more 0.25-point rises (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/09/ocr-increased-by-25-basis-points-to-2-75\">RBNZ</a>).\n\nThe mood inside the Committee has also shifted. In July, two of six members saw the risks to inflation as tilted upward. By September it was <strong>four of six</strong> (Gourley, Silk, Gai and Governor Breman), with Conway and Hansen seeing risks as balanced."
+    "html": "After cutting the OCR to 2.25% in late 2025, the RBNZ held through May. In May the Committee split <strong>3–3</strong>, and Governor Breman’s casting vote kept the rate on hold (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/05/ocr-held-at-2-25-percent\" target=\"_blank\" rel=\"noopener noreferrer\">RBNZ</a>). It then raised to <strong>2.50% on July 8</strong> and to <strong>2.75% on September 2</strong>, both times by consensus. In September it said: “Conditional on the central economic outlook, members judged that the OCR may need to increase further.” Its own projection has the OCR rising to about <strong>3.2%</strong> over the next two years, which implies roughly two more 0.25-point rises (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/09/ocr-increased-by-25-basis-points-to-2-75\" target=\"_blank\" rel=\"noopener noreferrer\">RBNZ</a>).\n\nThe mood inside the Committee has also shifted. In July, two of six members saw the risks to inflation as tilted upward. By September it was <strong>four of six</strong> (Gourley, Silk, Gai and Governor Breman), with Conway and Hansen seeing risks as balanced."
    },
    {
     "title": "Reasons the RBNZ might raise again in October",
-    "html": "<ul><li><strong>Oil is far above what the RBNZ assumed.</strong> Its September forecasts assumed Dubai oil of about US$85 a barrel for the September quarter. Brent oil hit US$135.51 on October 2 and was US$125.44 on October 6 (FRED). Governor Breman said on September 22: “If higher oil prices persist, they are expected to result in somewhat higher near-term inflation” (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/09/rbnz-leaders-visit-dunedin-to-understand-how-the-local-economy-is-evolving\">RBNZ</a>).</li><li><strong>The Kiwi dollar is weaker than assumed.</strong> The RBNZ assumed a trade-weighted index of 66.9. On October 14 it was <strong>63.94</strong>, and one NZ dollar bought only US$0.562 (<a href=\"https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index\">RBNZ</a>). A weaker currency makes imported fuel and goods dearer.</li><li><strong>Markets expect it.</strong> In mid-September, Treasury said markets priced about a <strong>70% chance</strong> of an October rise (<a href=\"https://www.treasury.govt.nz/sites/default/files/2026-09/feu-18sep26.pdf\">Treasury</a>). The 90-day bank bill rate (3.23%) is well above the OCR, consistent with that.</li><li><strong>The Committee’s balance has tilted.</strong> Four of six members saw upside inflation risk in September. Chief Economist Paul Conway warned that “businesses pass on cost increases more readily now than in the past” (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/07/speech-by-paul-conway\">speech</a>).</li><li><strong>Other central banks are braking.</strong> The U.S. Fed raised to 3.75%–4.00% and the ECB’s deposit rate is 2.50% after a September rise.</li></ul>"
+    "html": "<ul><li><strong>Oil is far above what the RBNZ assumed.</strong> Its September forecasts assumed Dubai oil of about US$85 a barrel for the September quarter. Brent oil hit US$135.51 on October 2 and was US$125.44 on October 6 (FRED). Governor Breman said on September 22: “If higher oil prices persist, they are expected to result in somewhat higher near-term inflation” (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/09/rbnz-leaders-visit-dunedin-to-understand-how-the-local-economy-is-evolving\" target=\"_blank\" rel=\"noopener noreferrer\">RBNZ</a>).</li><li><strong>The Kiwi dollar is weaker than assumed.</strong> The RBNZ assumed a trade-weighted index of 66.9. On October 14 it was <strong>63.94</strong>, and one NZ dollar bought only US$0.562 (<a href=\"https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index\" target=\"_blank\" rel=\"noopener noreferrer\">RBNZ</a>). A weaker currency makes imported fuel and goods dearer.</li><li><strong>Markets expect it.</strong> In mid-September, Treasury said markets priced about a <strong>70% chance</strong> of an October rise (<a href=\"https://www.treasury.govt.nz/sites/default/files/2026-09/feu-18sep26.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Treasury</a>). The 90-day bank bill rate (3.29%) is well above the OCR, consistent with that.</li><li><strong>The Committee’s balance has tilted.</strong> Four of six members saw upside inflation risk in September. Chief Economist Paul Conway warned that “businesses pass on cost increases more readily now than in the past” (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/07/speech-by-paul-conway\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>).</li><li><strong>Other central banks are braking.</strong> The U.S. Fed raised to 3.75%–4.00% and the ECB’s deposit rate is 2.50% after a September rise.</li></ul>"
    },
    {
     "title": "Reasons the RBNZ might wait until December",
-    "html": "<ul><li><strong>The economy is weak.</strong> GDP grew only <strong>0.2%</strong> in the June quarter and household spending was flat (<a href=\"https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/\">Stats NZ</a>). Unemployment is <strong>5.6%</strong>, and the RBNZ expects it to stay above 5% until 2028.</li><li><strong>Fuel has not clearly spread.</strong> Food inflation slowed to 1.9% in August and rents were flat (<a href=\"https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf\">Treasury</a>). Pay is rising only 2.0%–2.8% a year. Treasury found “little evidence so far of spillover into wider domestic and non-fuel prices.”</li><li><strong>Markets already pressed the brake.</strong> The 10-year government bond rate rose from a 4.46% June average to about 5% (4.98% on October 13). Fixed mortgage rates follow these wholesale rates.</li><li><strong>December brings full forecasts.</strong> October is a shorter Review. December’s Statement will have new forecasts, the September quarter jobs report and another quarter of inflation-expectations surveys.</li><li><strong>“May”, not “will”.</strong> September’s wording (“may need to increase further”) was softer than July’s (“further OCR increases appear likely”).</li></ul>"
+    "html": "<ul><li><strong>The economy is weak.</strong> GDP grew only <strong>0.2%</strong> in the June quarter and household spending was flat (<a href=\"https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/\" target=\"_blank\" rel=\"noopener noreferrer\">Stats NZ</a>). Unemployment is <strong>5.6%</strong>, and the RBNZ expects it to stay above 5% until 2028.</li><li><strong>Fuel has not clearly spread.</strong> Food inflation slowed to 1.9% in August and rents were flat (<a href=\"https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Treasury</a>). Pay is rising only 2.0%–2.8% a year. Treasury found “little evidence so far of spillover into wider domestic and non-fuel prices.”</li><li><strong>Markets already pressed the brake.</strong> The 10-year government bond rate rose from a 4.46% June average to about 5% (5.01% on October 16). Fixed mortgage rates follow these wholesale rates.</li><li><strong>December brings full forecasts.</strong> October is a shorter Review. December’s Statement will have new forecasts, the September quarter jobs report and another quarter of inflation-expectations surveys.</li><li><strong>“May”, not “will”.</strong> September’s wording (“may need to increase further”) was softer than July’s (“further OCR increases appear likely”).</li></ul>"
    },
    {
     "title": "Weighing both sides",
@@ -1004,7 +1004,7 @@
    },
    {
     "title": "The one thing to watch: September quarter prices",
-    "html": "Before the meeting, Stats NZ publishes the CPI for July–September (we could not confirm the exact date on its calendar). The RBNZ forecast annual inflation of <strong>3.9%</strong> for that quarter (<a href=\"https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/monetary-policy-statements/2026/sep-2926/mps_report_sep2026.pdf\">MPS</a>). If inflation comes in at <strong>4.2% or more</strong>, or non-tradables inflation stays at <strong>3.4% or higher</strong>, we would move to about 70% Raise. If it comes in at <strong>3.7% or less</strong> with non-tradables easing, Hold would become our main call. Monthly price data on October 16 (petrol, food, rents) will give an early hint."
+    "html": "Before the meeting, Stats NZ publishes the CPI for July–September (we could not confirm the exact date on its calendar). The RBNZ forecast annual inflation of <strong>3.9%</strong> for that quarter (<a href=\"https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/monetary-policy-statements/2026/sep-2926/mps_report_sep2026.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">MPS</a>). If inflation comes in at <strong>4.2% or more</strong>, or non-tradables inflation stays at <strong>3.4% or higher</strong>, we would move to about 70% Raise. If it comes in at <strong>3.7% or less</strong> with non-tradables easing, Hold would become our main call. Monthly price data on October 16 (petrol, food, rents) will give an early hint."
    }
   ],
   "timeline": [
@@ -1184,10 +1184,10 @@
     "because": "the case for a third rise strengthened just as the RBNZ entered the run-up to October."
    },
    {
-    "date_label": "October 6 – 15, 2026",
+    "date_label": "October 6 – 16, 2026",
     "title": "Setting the stage for October 28",
     "kind": "now",
-    "what": "The RBNZ confirmed the October Review will be published on October 28 at 2 p.m., with a media conference in Auckland. Rebecca Williams joins the Committee on October 15. The OCR is 2.75%, the 2-year government bond rate 3.80%, the 10-year 4.98%, and the trade-weighted index 63.94. A general election follows on November 7.",
+    "what": "The RBNZ confirmed the October Review will be published on October 28 at 2 p.m., with a media conference in Auckland. Rebecca Williams joined the Committee on October 15. The OCR is 2.75%, the 2-year government bond yield 3.92%, the 10-year 5.01%, and the trade-weighted index 63.94. A general election follows on November 7.",
     "sources": [
      {
       "label": "Timing notice",
@@ -1219,12 +1219,12 @@
      "<strong>Oil is much higher than planned.</strong> Brent was US$125.44 on October 6, against an RBNZ assumption of about US$85 (Dubai) for the September quarter.",
      "<strong>The Kiwi dollar is weaker.</strong> The trade-weighted index is 63.94, versus the 66.9 the RBNZ assumed. Imports cost more.",
      "<strong>The Committee leans hawkish.</strong> Four of six members saw upside inflation risk in September, and the RBNZ’s own track points to about 3.2%.",
-     "<strong>Markets expect it.</strong> About 70% priced in mid-September (Treasury); the 90-day bank bill rate is 3.23%, almost half a point above the OCR.",
+     "<strong>Markets expect it.</strong> About 70% priced in mid-September (Treasury); the 90-day bank bill rate is 3.29%, well above the OCR.",
      "<strong>Inflation is far above target.</strong> 4.1% in the June quarter, with non-tradables at 3.4% and core measures rising."
     ],
     "against": [
      "<strong>The economy is fragile.</strong> GDP +0.2%, household spending flat, unemployment 5.6%.",
-     "<strong>Spillover is limited so far.</strong> Food inflation 1.9%, rents flat, pay growth 2.0%–2.8%.",
+     "<strong>Spillover is limited so far.</strong> Food inflation 2.4%, rents flat, pay growth modest.",
      "<strong>A soft September CPI</strong> could persuade the Committee to wait for December’s full forecasts."
     ],
     "everyday": "floating mortgage rates and overdrafts would rise by roughly a quarter point within weeks. On a NZ$500,000 floating mortgage, that is about NZ$1,250 more interest a year (our rough calculation). Term deposits would pay a bit more, and the Kiwi dollar might firm up.",
@@ -1237,7 +1237,7 @@
     "meaning": "the RBNZ keeps its foot where it is for now, while signalling that more rises are likely. It would be a “not yet”, not a “we are done”.",
     "for": [
      "<strong>Weak growth and high unemployment.</strong> Braking harder could push unemployment above 6%.",
-     "<strong>Bond markets did some of the work.</strong> The 10-year rate rose from a 4.46% June average to about 5%. That makes fixed mortgages and business loans dearer.",
+     "<strong>Bond markets did some of the work.</strong> The 10-year rate rose from a 4.46% June average to about 5% (5.01% on Oct 16). That makes fixed mortgages and business loans dearer.",
      "<strong>December is a better moment.</strong> The December Statement brings full new forecasts and the September quarter jobs data.",
      "<strong>Softer wording.</strong> September’s “may need to increase further” is less firm than July’s “appear likely”.",
      "<strong>Two rises are still working through.</strong> It takes many months for a rate change to have its full effect."
@@ -1273,10 +1273,6 @@
    "intro_title": "Why “before” and “after” the meeting matters",
    "intro": "The RBNZ can only react to information it has <strong>already seen</strong>. A report released <strong>before October 28</strong> can change the October decision. A report released <strong>after</strong> it can only shape what happens on <strong>December 9</strong>. That is why the reports in the first part of the table matter most right now. Note that New Zealand is many hours ahead of Europe and America: the RBNZ decides before the U.S. Fed, which announces later the same calendar day in Washington.",
    "reports": {
-    "new_mpc_member_starts_rebecca": {
-     "why": "An odd number makes a tied vote less likely. Her views on policy are not yet public.",
-     "trigger": "Any public comments from her would be read closely. Small effect on its own."
-    },
     "selected_price_indexes": {
      "why": "The first look at September prices, and a preview of the quarterly CPI.",
      "trigger": "Petrol up sharply again and rents rising → leans Raise. Food and rents still flat → small push toward Hold."
@@ -1285,45 +1281,57 @@
      "why": "Shows whether households are still cutting back.",
      "trigger": "A strong rise → small push toward Raise. A fall → leans Hold."
     },
-    "bnz_businessnz_manufacturing_s": {
-     "why": "An early sign of whether the recovery Breman expects is happening.",
-     "trigger": "Small effect on its own."
+    "overseas_merchandise_trade": {
+     "why": "Shows export strength and import costs.",
+     "trigger": "Higher trade deficit or weaker exports → leans Hold."
     },
     "consumers_price_index_cpi": {
      "why": "The single most important report before the meeting. The RBNZ forecast 3.9% annual inflation.",
      "trigger": "Annual CPI <strong>4.2% or more</strong>, or non-tradables <strong>3.4% or higher</strong> → Raise about 70%. CPI <strong>3.7% or less</strong> with non-tradables easing → Hold becomes our top pick."
     },
-    "kiwi_dollar": {
-     "why": "The two biggest changes since the September forecasts.",
-     "trigger": "Brent back below US$100 and the TWI back above 66 → leans Hold. Brent above US$130 → leans Raise."
+    "employment_indicators": {
+     "why": "Monthly employment data released on decision day.",
+     "trigger": "A sharp drop in filled jobs → leans Hold."
     },
-    "voting_opens_for_the_general_e": {
-     "why": "The RBNZ sets the OCR independently of politics, so we do not expect the election to change its decision.",
-     "trigger": "No effect expected."
-    },
-    "u_s_federal_reserve_decision": {
-     "why": "Too late for October. A U.S. rise could weaken the Kiwi dollar further.",
-     "trigger": "Shapes our December view."
+    "monetary_policy_review": {
+     "why": "The actual RBNZ policy decision.",
+     "trigger": "Sets the official rate."
     },
     "labour_market_statistics": {
      "why": "Will show whether the job market is turning up, as filled-jobs data suggest.",
      "trigger": "December."
     },
-    "general_election_day": {
-     "why": "Could change government spending plans, which affect demand and inflation over time.",
-     "trigger": "December, at most."
+    "selected_price_indexes_oct": {
+     "why": "Post-decision inflation indicator.",
+     "trigger": "December."
     },
     "financial_stability_report": {
      "why": "Shows how households are coping with higher rates.",
      "trigger": "December."
+    },
+    "business_price_indexes": {
+     "why": "Input and output producer price pressures.",
+     "trigger": "December."
+    },
+    "retail_trade_survey": {
+     "why": "Quarterly retail volumes and spending.",
+     "trigger": "December."
+    },
+    "balance_of_payments": {
+     "why": "Current account and external borrowing.",
+     "trigger": "Next year."
+    },
+    "gross_domestic_product": {
+     "why": "Quarterly GDP growth update.",
+     "trigger": "Next year."
     }
    },
    "other_title": "Other things that could move our view",
    "other": [
-    "<strong>Oil and the Middle East.</strong> Fuel is the main driver of today’s inflation. Brent jumped to US$135.51 on October 2 before easing to US$125.44 on October 6 (FRED). A sustained move back below US$100 would make waiting much easier. Another spike would make a rise more likely, and could even put a 0.50-point rise on the table.",
+    "<strong>Oil and the Middle East.</strong> Fuel is the main driver of today’s inflation. Brent jumped to US$135.51 on October 2 before easing. WTI is at $101.91 a barrel. A sustained move back below US$100 would make waiting much easier. Another spike would make a rise more likely.",
     "<strong>The Kiwi dollar.</strong> A further slide (for example below US$0.55) would add to imported inflation and push toward Raise.",
-    "<strong>Final words from the RBNZ.</strong> The last on-the-record comments we found are Governor Breman’s from September 22. Any speech or interview before October 28 is a direct hint. Central banks usually avoid policy comments in the days just before a decision.",
-    "<strong>Bond markets.</strong> If the 10-year rate falls back sharply, one argument for Hold (that markets already tightened) weakens. If it rises well above 5%, the RBNZ may feel the market is doing more of the work.",
+    "<strong>Final words from the RBNZ.</strong> The last on-the-record comments we found are Governor Breman’s from September 22. Any speech or interview before October 28 is a direct hint.",
+    "<strong>Bond markets.</strong> If the 10-year rate (5.01%) falls back sharply, one argument for Hold weakens.",
     "<strong>A financial shock.</strong> A sudden market fall or trouble at a bank would almost certainly push the RBNZ to hold."
    ]
   },
@@ -1333,7 +1341,7 @@
     "grade": "red",
     "one": "Prices are 4.1% higher than a year ago, above the 1%–3% band.",
     "look": "Consumer prices (CPI, up 4.1%), CPI without fuel (2.9%), the RBNZ’s core measures (average 2.7%), non-tradables (3.4%), and inflation expectations (2.3% two years ahead).",
-    "why": "Headline inflation is well above the band and the RBNZ expects it to stay above for several quarters. Home-grown (non-tradables) inflation is 3.4%, and core measures rose. Oil has jumped again and the Kiwi dollar is weaker than assumed. Some comfort: expectations are near 2%, food inflation is under 2%, and rents were flat in August.",
+    "why": "Headline inflation is well above the band and the RBNZ expects it to stay above for several quarters. Home-grown (non-tradables) inflation is 3.4%, and core measures rose. Oil has jumped again and the Kiwi dollar is weaker than assumed. Some comfort: expectations are near 2%, food inflation is 2.4%, and rents were flat.",
     "change": "Oil falling back, and non-tradables inflation easing toward 3% or below.",
     "matters": "This is the main reason the RBNZ is raising rates at all. As long as this stays red, it leans toward pressing the brake.",
     "change_label": "What would improve it"
@@ -1343,7 +1351,7 @@
     "grade": "amber",
     "one": "Unemployment is high at 5.6%, but hiring is slowly picking up.",
     "look": "The quarterly unemployment rate, monthly filled jobs, job ads, and wage growth.",
-    "why": "<em>Bad news:</em> unemployment rose to 5.6%, and the RBNZ says job growth has not been enough to absorb new workers. Real pay is falling. <em>Better news:</em> employment rose 0.4% in the June quarter, filled jobs are up 0.9% on a year ago (August), and job ads are up 9.7%. Not bad enough to be red, not healthy enough to be green.",
+    "why": "<em>Bad news:</em> unemployment rose to 5.6%, and the RBNZ says job growth has not been enough to absorb new workers. Real pay is falling. <em>Better news:</em> employment rose 0.4% in the June quarter, filled jobs are up 0.2% (+5,391) in August, and job ads are up 9.7%. Not bad enough to be red, not healthy enough to be green.",
     "change": "Unemployment rising toward 6% → red. Unemployment falling and job ads rising further → green.",
     "matters": "This is the main reason the RBNZ might wait. Slow wage growth also means wages are not driving inflation.",
     "change_label": "What would change it"
@@ -1353,7 +1361,7 @@
     "grade": "amber",
     "one": "Exporters are doing well, but households are holding back.",
     "look": "GDP (the total value of everything the country produces), household spending, retail sales, exports, business confidence and house prices.",
-    "why": "GDP rose only 0.2% in the June quarter (1.7% on a year ago) and household spending was flat. Retail volumes fell 0.5%. House prices are slipping. On the other side, goods exports were up 15% in August from a year earlier, and business confidence is high (ANZ +51.9). The RBNZ expects growth of 0.5% in the September quarter.",
+    "why": "GDP rose only 0.2% in the June quarter and household spending was flat. Retail volumes fell 0.5%. House prices are slipping (−0.9% vs a year ago). On the other side, goods exports were up 15.4% in August from a year earlier, and business confidence is high (ANZ +51.9).",
     "change": "Clear signs of a household spending pick-up → green. Falling business confidence or a weak September quarter → red.",
     "matters": "A weak economy makes each rate rise more painful. The RBNZ estimates spare capacity (an “output gap”) of about −1.5% of GDP, which should slowly pull inflation down.",
     "change_label": "What would change it"
@@ -1363,7 +1371,7 @@
     "grade": "amber",
     "one": "Borrowing costs have jumped, and the Kiwi dollar is weak.",
     "look": "Wholesale interest rates (90-day bank bills, 2-year and 10-year government bonds), and the NZ dollar.",
-    "why": "<em>Worrying:</em> the 10-year government bond rate rose from a 4.46% June average to about 5% (4.98% on October 13). The NZ dollar fell to about US$0.56, and the trade-weighted index (63.94) is well below the RBNZ’s 66.9 assumption. <em>Reassuring:</em> markets are orderly, and the 2-year rate (3.80%) shows investors trust the RBNZ to keep raising if needed.",
+    "why": "<em>Worrying:</em> the 10-year government bond rate rose to 5.01%. The NZ dollar fell to US$0.5621, and the trade-weighted index (63.94) is well below the RBNZ’s 66.9 assumption. <em>Reassuring:</em> markets are orderly, and the 2-year rate (3.92%) shows investors trust the RBNZ to keep raising if needed.",
     "change": "A further slide in the currency or a disorderly jump in bond rates → red. A calmer currency and lower long rates → green.",
     "matters": "Higher market rates already cool borrowing, which helps the case for waiting. A weak currency pushes the other way.",
     "change_label": "What would change it"
@@ -1374,7 +1382,7 @@
     "now_label": "Above the band",
     "now_tone": "bad",
     "what": "Stats NZ checks the prices of hundreds of everyday things, like food, rent, petrol and power, every three months, and compares them with a year earlier. A 4.1% rise means a basket that cost NZ$100 a year ago now costs about NZ$104.10.",
-    "why": "this is the number the RBNZ’s 1%–3% target is based on. At 4.1% it is well above the top of the band, mainly because of fuel. The September quarter figure is due before the October 28 decision (exact date not confirmed)."
+    "why": "this is the number the RBNZ’s 1%–3% target is based on. At 4.1% it is well above the top of the band, mainly because of fuel. The September quarter figure is due before the October 28 decision."
    },
    "cpi_excluding_vehicle_fuels": {
     "now_label": "Inside the band",
@@ -1386,7 +1394,7 @@
     "now_label": "Rising",
     "now_tone": "mixed",
     "what": "“core” measures strip out the jumpiest prices (like fuel) to show the underlying trend. The RBNZ looks at several (for example a <em>trimmed mean</em>, which drops the biggest rises and falls each quarter). We only collected their average, not each one.",
-    "why": "the underlying trend rose from 2.4% to 2.7% in one quarter. It is still inside the band (the RBNZ says “all except one” core measure is), but moving the wrong way."
+    "why": "the underlying trend rose from 2.4% to 2.7% in one quarter. It is still inside the band, but moving the wrong way."
    },
    "non_tradables_inflation": {
     "now_label": "Sticky",
@@ -1398,19 +1406,19 @@
     "now_label": "Fuel-driven",
     "now_tone": "bad",
     "what": "prices of things that are traded internationally or compete with imports, like petrol, cars, electronics and some food.",
-    "why": "almost all of the 4.9% is fuel; without fuel it is 2.1%. That is the classic sign of an imported energy shock. A weaker Kiwi dollar can push this up further."
+    "why": "almost all of the 4.9% is fuel. That is the classic sign of an imported energy shock. A weaker Kiwi dollar can push this up further."
    },
    "petrol_and_diesel_prices_selected_pric": {
     "now_label": "Pump pain",
     "now_tone": "bad",
     "what": "Stats NZ now publishes monthly price indexes for some items between the quarterly CPI reports. Treasury summarised the August figures.",
-    "why": "fuel is the main source of today’s inflation. Brent oil jumped again in late September and early October, so the September and December quarters may still see high fuel prices."
+    "why": "fuel is the main source of today’s inflation. Brent oil is at $126.55 a barrel, so the September and December quarters may still see high fuel prices."
    },
    "food_prices_selected_price_indexes": {
     "now_label": "Cooling",
     "now_tone": "good",
-    "what": "the monthly change in prices at the supermarket and for takeaways. The yearly figure (1.9%) comes from Treasury’s summary.",
-    "why": "food inflation has slowed from 4.5% in February to below 2%, and rents were flat in August. That is evidence fuel has not spread into everything."
+    "what": "the monthly change in prices at the supermarket and for takeaways. The yearly figure (+2.4%) comes from Stats NZ.",
+    "why": "food inflation is +2.4% vs a year ago and +0.0% in the month, showing food price pressures remain moderate."
    },
    "producers_price_index_outputs": {
     "now_label": "Cost pressure",
@@ -1434,19 +1442,19 @@
     "now_label": "Growing slowly",
     "now_tone": "mixed",
     "what": "the number of people with jobs, from the same survey.",
-    "why": "jobs are being added, but not fast enough to absorb new workers. The RBNZ: “Employment growth has not been sufficient to fully absorb new entrants into the labour market”."
+    "why": "jobs are being added (+0.4% in the quarter), but not fast enough to absorb new workers."
    },
    "filled_jobs_monthly_employment_indicat": {
     "now_label": "Improving",
     "now_tone": "good",
     "what": "a monthly count of jobs from tax records, which comes out faster than the quarterly survey.",
-    "why": "yearly job growth turned from −1.9% in April to +0.9% in August (Treasury). Hiring is slowly picking up."
+    "why": "+0.2% (+5,391) to 2.36 million in August. Hiring is slowly picking up."
    },
    "participation_rate": {
     "now_label": "High",
     "now_tone": "info",
     "what": "the share of adults who are working or looking for work.",
-    "why": "a high share means plenty of people are available to work, which keeps wage pressure low."
+    "why": "at 70.7%, a high share means plenty of people are available to work, which keeps wage pressure low."
    },
    "labour_cost_index_salary_and_wage_rate": {
     "now_label": "Modest",
@@ -1458,154 +1466,205 @@
     "now_label": "Slowing",
     "now_tone": "good",
     "what": "average pay per hour across all jobs, from a survey of businesses.",
-    "why": "it is slowing, and real (after-inflation) pay fell in the June quarter. That makes it less likely that wages keep inflation high."
+    "why": "at +2.8% vs a year ago, it is slowing from previous quarters. That makes it less likely that wages keep inflation high."
    },
    "online_job_ads_seek": {
     "now_label": "Recovering",
     "now_tone": "mixed",
     "what": "a private count of job advertisements, reported by Treasury.",
-    "why": "rising job ads usually come before rising employment. But with about 420 applicants per ad, competition for jobs is still fierce."
+    "why": "rising +5.3% in the month and +9.7% vs a year ago. Rising job ads usually come before rising employment."
    },
    "gross_domestic_product_gdp_production": {
     "now_label": "Sluggish",
     "now_tone": "mixed",
     "what": "GDP is the total value of everything the country produces. A 0.2% quarterly rise is slow but positive.",
-    "why": "the RBNZ had expected about flat to 0.2%, so this was no surprise. It forecasts 0.5% for the September quarter. A weak economy makes raising rates riskier."
+    "why": "a weak economy makes raising rates riskier."
    },
    "real_household_consumption": {
     "now_label": "Flat",
     "now_tone": "bad",
     "what": "the after-inflation value of what households spent, from the expenditure measure of GDP.",
-    "why": "households are cautious, squeezed by fuel costs, weak pay growth and falling house prices. This is the part of the economy the OCR hits hardest."
+    "why": "at 0.0% in the quarter, households are cautious, squeezed by fuel costs, weak pay growth and falling house prices."
    },
    "retail_sales_volume": {
     "now_label": "Falling",
     "now_tone": "bad",
     "what": "how much shops sold, after removing price changes.",
-    "why": "falling volumes mean people are buying fewer things, even if they are paying more for them."
+    "why": "falling 0.5% in Q2, meaning people are buying fewer things, even if they are paying more for them."
    },
    "goods_exports": {
     "now_label": "Strong",
     "now_tone": "good",
     "what": "the value of goods sold overseas, like dairy, meat and fruit.",
-    "why": "exporters are the bright spot. A cheap Kiwi dollar helps them. Governor Breman expects a “resilient export sector” to lead the recovery."
+    "why": "up +15.4% vs a year ago in August. Exporters are the bright spot, helped by a cheap Kiwi dollar."
    },
    "anz_business_confidence": {
     "now_label": "Upbeat",
     "now_tone": "good",
-    "what": "a private monthly survey asking firms whether they expect business conditions to improve (a positive net number means more optimists than pessimists).",
-    "why": "firms remain optimistic despite fuel costs, which hints growth may pick up in the second half of the year."
+    "what": "a private monthly survey asking firms whether they expect business conditions to improve.",
+    "why": "at +51.9 (net) in September, firms remain optimistic despite fuel costs, hinting growth may pick up."
    },
    "house_prices_reinz_index": {
     "now_label": "Slipping",
     "now_tone": "bad",
-    "what": "an index of house sale prices from the Real Estate Institute of New Zealand, reported by Treasury. House sales were down 13% from a year earlier.",
-    "why": "most New Zealand households hold their wealth in houses. Falling prices make people feel poorer and spend less. Higher mortgage rates add to the pressure."
+    "what": "an index of house sale prices from the Real Estate Institute of New Zealand, reported by Treasury.",
+    "why": "down −0.9% vs a year ago in August. Falling prices make people feel poorer and spend less."
    },
    "real_house_prices_bis_index_on_fred": {
-    "now_label": "Down 3.7% in a year",
+    "now_label": "Down in a year",
     "now_tone": "info",
     "what": "house prices adjusted for inflation, compiled by the Bank for International Settlements.",
-    "why": "it confirms the longer trend of slowly falling real house prices. It is several months out of date."
+    "why": "at 156.6 (2010=100) in Q1 2026, it confirms the longer trend of slowly falling real house prices."
    },
    "current_account_balance": {
     "now_label": "Gap widening",
     "now_tone": "mixed",
-    "what": "the difference between what New Zealand earns from the rest of the world and what it pays out. A deficit means it relies on overseas borrowing.",
-    "why": "a wider deficit can weigh on the Kiwi dollar. Merchandise terms of trade fell 9.4% in a year, partly because imported fuel got dearer."
+    "what": "the difference between what New Zealand earns from the rest of the world and what it pays out.",
+    "why": "at −3.2% of GDP (yearly total) in the June quarter, a wider deficit can weigh on the Kiwi dollar."
    },
    "official_cash_rate_ocr": {
     "now_label": "Two rises in a row",
     "now_tone": "info",
-    "what": "the interest rate banks earn on money they leave at the Reserve Bank, and close to what they pay to borrow from it. It flows through to floating mortgage rates and savings accounts.",
-    "why": "it is the gas and brake pedal. It was cut to 2.25% in November 2025, then raised in July and September 2026."
+    "what": "the interest rate banks earn on money they leave at the Reserve Bank, and close to what they pay to borrow from it.",
+    "why": "at 2.75%, it is the gas and brake pedal. It was raised in July and September 2026."
    },
    "90_day_bank_bill_rate": {
     "now_label": "Prices more rises",
     "now_tone": "bad",
     "what": "the rate banks charge each other to borrow for three months.",
-    "why": "it sits about 0.48 points above the OCR. Since three-month lending covers both the October and December decisions, this gap says markets expect the OCR to rise soon (our reading)."
+    "why": "at 3.29%, it sits above the OCR, signaling markets expect the OCR to rise soon."
    },
    "2_year_government_bond_yield": {
     "now_label": "Well above OCR",
     "now_tone": "bad",
     "what": "the interest rate the government pays to borrow for two years.",
-    "why": "at more than a full point above the OCR, it shows investors expect several OCR rises over the next two years. Two-year fixed mortgages follow similar wholesale rates."
+    "why": "at 3.92%, it shows investors expect several OCR rises over the next two years."
    },
    "10_year_government_bond_yield": {
     "now_label": "Near 5%",
     "now_tone": "bad",
     "what": "the interest rate the government pays to borrow for ten years.",
-    "why": "it jumped about half a point since June, following global bond rates up. Treasury called 5.13% in late September a high. Higher long rates cool the economy without the RBNZ doing anything."
+    "why": "at 5.01%, it jumped following global bond rates up. Higher long rates cool the economy."
    },
    "market_odds_of_an_october_rise": {
     "now_label": "Rise expected",
     "now_tone": "info",
-    "what": "Treasury’s reading of financial market pricing. Markets also priced the OCR at 3.75% by end-2027.",
-    "why": "it is the only market-odds figure we found, and it is about four weeks old. Oil has risen further since then."
+    "what": "Treasury’s reading of financial market pricing from mid-September.",
+    "why": "about 70% priced an October rise back then, though oil has risen further since."
    },
    "rbnz_s_own_ocr_projection": {
     "now_label": "More rises",
     "now_tone": "info",
-    "what": "the path for the OCR the RBNZ thinks fits its central forecast. It is a forecast, not a promise.",
-    "why": "3.2% implies roughly two more 0.25-point rises. The RBNZ also noted market pricing of about 3% by end-2026."
+    "what": "the path for the OCR the RBNZ thinks fits its central forecast from the September MPS.",
+    "why": "rising to about 3.2% over two years implies roughly two more 0.25-point rises."
    },
    "nz_dollar_in_us_dollars": {
     "now_label": "Weak",
     "now_tone": "bad",
     "what": "how many US dollars one New Zealand dollar buys.",
-    "why": "a weaker Kiwi dollar makes imports like fuel, cars and electronics dearer in NZ dollars, adding to inflation."
+    "why": "at US$0.5621, a weaker Kiwi dollar makes imports like fuel and electronics dearer, adding to inflation."
    },
    "trade_weighted_index_twi": {
     "now_label": "Below RBNZ assumption",
     "now_tone": "bad",
     "what": "the Kiwi dollar measured against a basket of 17 trading partners’ currencies.",
-    "why": "the RBNZ’s September forecasts assumed 66.9. Today’s 63.94 is about 4% weaker, which, other things equal, means more imported inflation than the RBNZ planned for (our calculation)."
+    "why": "at 63.94, it is about 4% weaker than the RBNZ’s 66.9 assumption, meaning more imported inflation."
    },
    "brent_crude_oil": {
     "now_label": "Spiking",
     "now_tone": "bad",
     "what": "the world benchmark price of crude oil, in US dollars.",
-    "why": "the RBNZ’s September forecasts assumed Dubai oil of about US$85 a barrel for the September quarter. Oil is now far above that, so fuel inflation may last longer than the RBNZ expected."
+    "why": "at $126.55 a barrel, oil is far above the RBNZ’s US$85 assumption, so fuel inflation may last longer."
    },
    "wti_crude_oil": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "the US benchmark oil price.",
-    "why": "it is also near US$100, confirming that energy remains expensive worldwide."
+    "why": "at $101.91 a barrel, it confirms that energy remains expensive worldwide."
    },
    "rbnz_oil_assumption": {
     "now_label": "Now too low",
     "now_tone": "info",
     "what": "the oil price the RBNZ built into its September forecasts.",
-    "why": "comparing it with today’s prices is the simplest way to see that inflation risks have grown since the last decision."
+    "why": "Dubai oil about US$85 (Sep qtr) is well below current market prices."
    },
    "us_federal_reserve_rate_top_of_range": {
     "now_label": "Tightening",
     "now_tone": "info",
     "what": "the top of the US central bank’s target range.",
-    "why": "higher US rates pull money toward the US dollar and weaken the Kiwi. The Fed decides on Oct 28 US time, which is after the RBNZ in New Zealand time."
+    "why": "at 4.00%, higher US rates pull money toward the US dollar and weaken the Kiwi."
    },
    "ecb_deposit_rate": {
     "now_label": "Tightening",
     "now_tone": "info",
     "what": "the European Central Bank’s main policy rate.",
-    "why": "major central banks are raising rates into the energy shock, which supports the case for the RBNZ to keep going too."
+    "why": "at 2.50%, major central banks are raising rates into the energy shock."
    },
    "nz_dollar_in_australian_dollars": {
     "now_label": "Slipping",
     "now_tone": "mixed",
-    "what": "how many Australian dollars one Kiwi dollar buys. Australia is New Zealand’s biggest trading partner after China.",
-    "why": "a weaker Kiwi against the Aussie makes Australian goods dearer and New Zealand holidays cheaper for Australians."
+    "what": "how many Australian dollars one Kiwi dollar buys.",
+    "why": "at A$0.8041, a weaker Kiwi against the Aussie makes Australian goods dearer."
    },
    "oecd_world_growth_forecast": {
     "now_label": "Resilient",
     "now_tone": "good",
     "what": "the OECD’s projection for global growth, as summarised by Treasury.",
-    "why": "steady world growth supports demand for New Zealand exports. The OECD also raised its G20 inflation forecast to 4.1% for 2026."
+    "why": "2.9% in 2026 and 3.0% in 2027 supports demand for New Zealand exports."
    }
   },
   "said": [
+   {
+    "n": "APRA and RBNZ stress test",
+    "v": "Completed 2026 Trans-Tasman Stress Test",
+    "p": "Financial stability",
+    "r": "Oct 14, 2026",
+    "pv": "Prior stress test in 2017",
+    "s": "Reserve Bank of New Zealand",
+    "u": "https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience",
+    "now": [
+     "now-info",
+     "Bank resilience"
+    ],
+    "w": [
+     "What it said: “The Australian Prudential Regulation Authority (APRA) and the Reserve Bank of New Zealand – Te Pūtea Matua (RBNZ) have completed the 2026 Trans-Tasman Stress Test, their first joint stress testing exercise since 2017.”",
+     "Why it matters: highlights ongoing cross-border banking cooperation and financial stability checks."
+    ]
+   },
+   {
+    "n": "Cyber and AI supervisory expectations",
+    "v": "RBNZ and FMA outline AI risks",
+    "p": "Supervision",
+    "r": "Oct 14, 2026",
+    "pv": "Not collected",
+    "s": "Reserve Bank of New Zealand",
+    "u": "https://www.rbnz.govt.nz/news-and-events/news/2026/10/rbnz-and-fma-outline-supervisory-expectations-on-cyber-and-ai-risks",
+    "now": [
+     "now-info",
+     "AI risks"
+    ],
+    "w": [
+     "What it said: “The Reserve Bank of New Zealand – Te Pūtea Matua (RBNZ) and the Financial Markets Authority – Te Mana Tātai Hokohoko (FMA) have today outlined their supervisory expectations on cyber risks associated with frontier Artificial Intelligence (AI).”",
+     "Why it matters: shows regulators actively guiding financial institutions on emerging technology risks."
+    ]
+   },
+   {
+    "n": "New MPC member appointment",
+    "v": "Rebecca Williams appointed",
+    "p": "Committee structure",
+    "r": "Sep 24, 2026",
+    "pv": "Seat vacant",
+    "s": "Reserve Bank of New Zealand",
+    "u": "https://www.rbnz.govt.nz/news-and-events/news/2026/09/new-monetary-policy-committee-member-appointed",
+    "now": [
+     "now-info",
+     "New voice"
+    ],
+    "w": [
+     "What it said: A new internal member of the Monetary Policy Committee (MPC), Rebecca Williams, has been appointed by the Minister of Finance, Nicola Willis, on the recommendation of the RBNZ Board.",
+     "Why it matters: brings a fresh internal economic voice to the October decision table."
+    ]
+   },
    {
     "n": "September 2 Monetary Policy Statement",
     "v": "Raised to 2.75%",
@@ -1641,40 +1700,6 @@
     ]
    },
    {
-    "n": "July 8 Monetary Policy Review",
-    "v": "Raised to 2.50%",
-    "p": "Jul 2026 decision",
-    "r": "Jul 8, 2026",
-    "pv": "May: held at 2.25%",
-    "s": "Reserve Bank of New Zealand",
-    "u": "https://www.rbnz.govt.nz/news-and-events/news/2026/07/ocr-increased-to-2-50-to-return-inflation-to-2-percent",
-    "now": [
-     "now-info",
-     "Rises likely"
-    ],
-    "w": [
-     "What it said: “while further OCR increases appear likely at upcoming meetings, their timing is highly uncertain.”",
-     "Why it matters: this line framed the September rise. October is the next “upcoming meeting”."
-    ]
-   },
-   {
-    "n": "May 27 vote",
-    "v": "3–3, Governor’s casting vote to hold",
-    "p": "May 2026 decision",
-    "r": "May 27, 2026",
-    "pv": "Not applicable",
-    "s": "Reserve Bank of New Zealand",
-    "u": "https://www.rbnz.govt.nz/news-and-events/news/2026/05/ocr-held-at-2-25-percent",
-    "now": [
-     "now-info",
-     "Split"
-    ],
-    "w": [
-     "What it said: Breman, Silk and Conway voted to hold; Hansen, Gourley and Gai voted to raise to 2.50%. The Chair’s casting vote decided it.",
-     "Why it matters: it shows how divided the Committee can be. Votes have been named since May 2026 when a vote is taken."
-    ]
-   },
-   {
     "n": "Governor Breman, Dunedin",
     "v": "Oil and long rates a challenge",
     "p": "Sep 22, 2026",
@@ -1707,23 +1732,6 @@
      "What it said: “businesses pass on cost increases more readily now than in the past” and “anchored inflation expectations cannot be taken for granted”.",
      "Why it matters: it explains why the RBNZ does not simply ignore a fuel shock, even though Conway was one of the members seeing balanced risks in September."
     ]
-   },
-   {
-    "n": "New MPC member",
-    "v": "Rebecca Williams joins Oct 15",
-    "p": "Oct 2026 meeting onward",
-    "r": "Sep 25, 2026",
-    "pv": "Seat vacant since Mar 2025",
-    "s": "Reserve Bank of New Zealand",
-    "u": "https://www.rbnz.govt.nz/news-and-events/news/2026/09/new-monetary-policy-committee-member-appointed",
-    "now": [
-     "now-info",
-     "New voice"
-    ],
-    "w": [
-     "What it said: Senior Manager Economics Rebecca Williams joins the Committee as an internal member from October 15, 2026 for one year. Assistant Governor Karen Silk leaves the Bank in mid-December.",
-     "Why it matters: the October decision will likely be made by seven members, not six (our reading), so a 3–3 split like May’s is less likely."
-    ]
    }
   ],
   "gaps": [
@@ -1736,7 +1744,7 @@
    "<strong>Mortgage rates, building consents, card spending for September, the Quarterly Survey of Business Opinion and dairy prices</strong> were not collected.",
    "<strong>Oil figures differ by source.</strong> Treasury quoted WTI at US$89.4 on September 29, while FRED shows US$97.18 on September 30. We used FRED. We did not collect the Dubai price the RBNZ uses.",
    "<strong>The RBNZ’s neutral OCR estimate</strong> and the full September projection tables were not in the parts of the Statement we could read.",
-   "<strong>How we gathered data:</strong> the data were gathered with web search and direct page reads on Oct 14, 2026. The search engine itself was blocked in our tools, so every number was read directly from the official or named page linked next to it (RBNZ, Stats NZ, NZ Treasury, the Electoral Commission and FRED)."
+   "<strong>How we gathered data:</strong> the data were gathered with web search and direct page reads on Oct 16, 2026. The search engine itself was blocked in our tools, so every number was read directly from the official or named page linked next to it (RBNZ, Stats NZ, NZ Treasury, the Electoral Commission and FRED)."
   ],
   "group_intros": {
    "prices": "These numbers tell us how fast things are getting more expensive in New Zealand. The RBNZ’s job is to keep yearly inflation between 1% and 3%, aiming for the 2% midpoint over the medium term. New Zealand measures consumer prices only once every three months (quarterly), so each CPI report carries a lot of weight.",
@@ -1960,41 +1968,42 @@
   "upcoming meeting",
   "As always, we will assess incoming data and global developments ahead of our next decision in October",
   "anchored inflation expectations cannot be taken for granted",
-  "late October, before the decision"
+  "late October, before the decision",
+  "The Australian Prudential Regulation Authority (APRA) and the Reserve Bank of New Zealand – Te Pūtea Matua (RBNZ) have completed the 2026 Trans-Tasman Stress Test, their first joint stress testing exercise since 2017.",
+  "The Reserve Bank of New Zealand – Te Pūtea Matua (RBNZ) and the Financial Markets Authority – Te Mana Tātai Hokohoko (FMA) have today outlined their supervisory expectations on cyber risks associated with frontier Artificial Intelligence (AI)."
  ],
  "changelog": [
   {
    "date": "2026-10-16",
    "date_label": "Oct 16, 2026",
-   "since": "2026-10-15",
-   "since_label": "Oct 15, 2026",
+   "since": "2026-10-16",
+   "since_label": "Oct 16, 2026",
    "summary": {
-    "headline": "Here is what is new since the last update.",
+    "headline": "No important new official data since the last update, but oil prices edged higher.",
     "items": [
-     "<strong>Food prices (Selected price indexes)</strong>: now +2.4% vs a year ago, for Sep 2026 (+0.0% in the month). Before: +1.9% vs a year ago, for Aug 2026 (+0.3% in the month)."
+     "<strong>WTI crude oil</strong> rose from $96.24 a barrel (Oct 6) to $101.91 a barrel (Oct 14), keeping fuel cost pressures high ahead of the October 28 review."
     ]
    },
-   "data": [
+   "data": [],
+   "market": [
     {
-     "id": "food_prices_selected_price_indexes",
-     "name": "Food prices (Selected price indexes)",
-     "from": "+1.9% vs a year ago",
-     "from_period": "Aug 2026 (+0.3% in the month)",
-     "to": "+2.4% vs a year ago",
-     "to_period": "Sep 2026 (+0.0% in the month)"
+     "id": "wti_crude_oil",
+     "name": "WTI crude oil",
+     "from": "$96.24 a barrel",
+     "from_period": "Oct 6, 2026",
+     "to": "$101.91 a barrel",
+     "to_period": "Oct 14, 2026",
+     "move": "5.9%"
     }
    ],
-   "market": [],
    "fed": [],
    "verdict": null,
-   "ai_written": false
+   "ai_written": true
   }
  ],
  "qa": {
   "data_errors": [
-   "nz_dollar_in_us_dollars: FRED_API_KEY is not set",
-   "brent_crude_oil: FRED_API_KEY is not set",
-   "wti_crude_oil: FRED_API_KEY is not set",
+   "nz_dollar_in_us_dollars: HTTP 400 for https://api.stlouisfed.org/fred/series/observations?series_id=DEXNZUS&api_key=***&file_type=json&sort_order=desc&limit=40",
    "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience",
    "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/rbnz-and-fma-outline-supervisory-expectations-on-cyber-and-ai-risks: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/rbnz-and-fma-outline-supervisory-expectations-on-cyber-and-ai-risks",
    "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/recruitment-for-two-new-assistant-governors-and-chief-of-staff-underway: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/recruitment-for-two-new-assistant-governors-and-chief-of-staff-underway",
@@ -2039,6 +2048,6 @@
    "automatic": 18,
    "manual": 21
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }

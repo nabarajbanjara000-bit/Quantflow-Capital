@@ -3,8 +3,8 @@
  "code": "australia",
  "asof_date": "2026-10-16",
  "asof_label": "Oct 16, 2026",
- "generated_at": "2026-10-16T16:41:22.767Z",
- "data_updated_at": "2026-10-16T16:41:22.767Z",
+ "generated_at": "2026-10-16T18:56:28.669Z",
+ "data_updated_at": "2026-10-16T18:56:28.669Z",
  "narrative_updated_at": "2026-10-15T14:47:45.512Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -727,18 +727,17 @@
    "name": "Oil price (Brent)",
    "source": "U.S. EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "$125.44 a barrel",
-   "period": "Oct 6, 2026",
-   "released": "Oct 7, 2026",
-   "previous": "$125.51 (Oct 5, 2026)",
-   "tag": "old",
+   "value": "$126.55 a barrel",
+   "period": "Oct 14, 2026",
+   "released": "Oct 15, 2026",
+   "previous": "$125.78 (Oct 13, 2026)",
+   "tag": "secondary",
    "manual": false,
-   "latest_date": "2026-10-06",
+   "latest_date": "2026-10-14",
    "raw": {
-    "v": 125.44
+    "v": 126.55
    },
-   "estimate": false,
-   "note": "Could not refresh today; showing last collected value."
+   "estimate": false
   },
   "rba_oil_assumption_august": {
    "id": "rba_oil_assumption_august",
@@ -761,8 +760,8 @@
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
    "period": "Oct 16, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "4.00% (Sep 17, 2026)",
+   "released": "Oct 16, 2026",
+   "previous": "4.00% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
    "latest_date": "2026-10-16",
@@ -2034,9 +2033,7 @@
   }
  ],
  "qa": {
-  "data_errors": [
-   "oil_price_brent: FRED_API_KEY is not set"
-  ],
+  "data_errors": [],
   "ai_errors": [],
   "sources_read": [
    {

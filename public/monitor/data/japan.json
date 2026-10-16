@@ -3,8 +3,8 @@
  "code": "japan",
  "asof_date": "2026-10-16",
  "asof_label": "Oct 16, 2026",
- "generated_at": "2026-10-16T16:38:50.889Z",
- "data_updated_at": "2026-10-16T16:38:50.889Z",
+ "generated_at": "2026-10-16T18:53:00.043Z",
+ "data_updated_at": "2026-10-16T18:53:00.043Z",
  "narrative_updated_at": "2026-10-15T14:45:26.485Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -745,18 +745,18 @@
    "name": "Brent crude oil",
    "source": "FRED (EIA)",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "$125.44  a barrel",
-   "period": "Oct 6, 2026",
-   "released": "Oct 7, 2026",
-   "previous": "$125.51 (Oct 5, 2026)",
-   "tag": "old",
+   "value": "$126.55  a barrel",
+   "period": "Oct 14, 2026",
+   "released": "Oct 15, 2026",
+   "previous": "$125.78 (Oct 13, 2026)",
+   "tag": "secondary",
    "manual": false,
-   "latest_date": "2026-10-06",
+   "latest_date": "2026-10-14",
    "raw": {
-    "v": 125.44
+    "v": 126.55
    },
    "estimate": false,
-   "note": "Could not refresh today; showing last collected value."
+   "note": "EIA via FRED"
   },
   "wti_crude_oil_us": {
    "id": "wti_crude_oil_us",
@@ -764,18 +764,18 @@
    "name": "WTI crude oil (US)",
    "source": "FRED (EIA)",
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-   "value": "$96.24  a barrel",
-   "period": "Oct 6, 2026",
-   "released": "Oct 7, 2026",
-   "previous": "$96.13 (Oct 5, 2026)",
-   "tag": "old",
+   "value": "$101.91  a barrel",
+   "period": "Oct 14, 2026",
+   "released": "Oct 15, 2026",
+   "previous": "$100.86 (Oct 13, 2026)",
+   "tag": "secondary",
    "manual": false,
-   "latest_date": "2026-10-06",
+   "latest_date": "2026-10-14",
    "raw": {
-    "v": 96.24
+    "v": 101.91
    },
    "estimate": false,
-   "note": "Could not refresh today; showing last collected value."
+   "note": "EIA via FRED"
   },
   "import_prices_foreign_currency_terms": {
    "id": "import_prices_foreign_currency_terms",
@@ -2239,10 +2239,7 @@
   }
  ],
  "qa": {
-  "data_errors": [
-   "brent_crude_oil: FRED_API_KEY is not set",
-   "wti_crude_oil_us: FRED_API_KEY is not set"
-  ],
+  "data_errors": [],
   "ai_errors": [],
   "sources_read": [
    {

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-16T16:41:57.999Z",
+ "generated_at": "2026-10-16T18:57:50.055Z",
  "asof_label": "Oct 16, 2026",
  "headline": "Hold at 7 of 8 · Raise at 1 of 8",
- "paragraph": "Quant Flow Capital brings you our briefing covering eight central banks from around the world. Right now, seven of these eight institutions are expected to hold their interest rates steady. Only the Reserve Bank of New Zealand stands out with a call to raise rates.",
+ "paragraph": "Quant Flow Capital reviews the current stance of eight central banks worldwide. Seven of these monetary authorities are expected to hold rates steady at their upcoming meetings. Meanwhile, New Zealand stands out as the only bank leaning toward a potential rate rise.",
  "window": [
   "2026-10-28",
   "2026-12-10"
@@ -43,7 +43,7 @@
    "next_label": "Wed Oct 28",
    "time_label": "2:00 p.m. ET",
    "stale": false,
-   "asof": "Oct 15, 2026",
+   "asof": "Oct 16, 2026",
    "coverage": {
     "automatic": 33,
     "manual": 2
