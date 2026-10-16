@@ -1,0 +1,903 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research Library | Quant Flow Capital</title>
+<meta name="description" content="Explore Quant Flow Capital's complete macroeconomic and financial markets research library. In-depth explainers, empirical data, and frameworks.">
+<link rel="icon" type="image/png" href="/assets/img/6da887eca7.png">
+<link rel="apple-touch-icon" href="/assets/img/6da887eca7.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Quant Flow Capital">
+<meta property="og:title" content="Research Library | Quant Flow Capital">
+<meta property="og:description" content="Complete research library of macroeconomic indicators, central bank policies, and financial markets explainers.">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0a1729">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* Article reader styles (bundled research) */
+.article-text{font-family:Georgia,serif;font-size:18px;line-height:1.9;color:#29384b;white-space:pre-wrap;overflow-wrap:anywhere}
+.article-text h2{font-family:Georgia,serif}
+.form-panel{max-width:760px}.form{padding:25px;display:grid;gap:15px}.form label{font-size:12px;font-weight:700;color:#475569;display:grid;gap:7px}
+.form input,.form textarea,.form select{width:100%;border:1px solid #dce3eb;border-radius:6px;padding:12px;background:#fff;color:var(--ink);font-size:14px}
+.form textarea{min-height:230px;resize:vertical;line-height:1.6}.form .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.form-actions{display:flex;gap:10px;justify-content:flex-end}.btn-dark{background:var(--ink);color:#fff}.btn-light{background:#edf1f5;color:#334155}
+.note{font-size:11px;color:#7b8796;line-height:1.5}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{padding-top:58px}}
+@media(max-width:600px){.grid{grid-template-columns:1fr}.nav{height:68px}.nav-link{display:none}.hero{padding:52px 6%}.hero-meta{gap:14px;flex-wrap:wrap}main{padding:35px 16px 60px}.search{width:100%}.toolbar{align-items:flex-start}.form .row{grid-template-columns:1fr}.cover{height:220px}}
+
+.article-text .article-header{padding:35px 0 25px;border-bottom:1px solid #e5eaf0;text-align:left}
+.article-text .kicker{font-size:12px;color:#2563eb;font-weight:600;margin-bottom:12px}
+.article-text .article-title{font-family:Georgia,serif;font-size:clamp(28px,4vw,42px);line-height:1.2;font-weight:500;margin:0 0 12px}
+.article-text .article-sub{font-family:Georgia,serif;font-style:italic;font-size:18px;color:#5b6472;margin:0 0 12px}
+.article-text .byline{font-size:12px;color:#7c8494}
+.article-text article{padding:20px 0}
+.article-text article h2{font-family:Georgia,serif;font-size:25px;margin:38px 0 16px;padding-top:22px;border-top:1px solid #e5eaf0}
+.article-text article p,.article-text article li{font-family:Inter,Arial,sans-serif;font-size:15px;line-height:1.8;color:#3a4150;margin:0 0 15px}
+.article-text figure{margin:25px 0;border:1px solid #e5eaf0;background:#f6f7f9;padding:18px}
+.article-text figure svg{width:100%;height:auto;display:block}
+.article-text figcaption{font:12px/1.6 Inter,Arial,sans-serif;color:#7c8494;margin-top:12px;text-align:center}
+.article-text .pull-callout{border-left:2px solid #2563eb;padding:4px 0 4px 18px;font:italic 18px/1.6 Georgia,serif;color:#161a22}
+
+/* Full original article presentation for all bundled research pages */
+#articleOverlay .panel:has(.embedded-rich){max-width:1000px;border-radius:0;margin:0 auto}
+.embedded-rich{max-width:760px;margin:0 auto;padding:0 24px 65px;background:#fff;color:#161a22;font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.5}
+.embedded-rich .article-header{padding:48px 0 35px;border-bottom:1px solid rgba(20,24,32,.08);text-align:left}
+.embedded-rich .kicker{font-size:13px;color:#2563eb;font-weight:600;margin-bottom:18px}
+.embedded-rich h1.article-title{font-family:Georgia,serif;font-weight:500;font-size:clamp(30px,4.2vw,44px);line-height:1.2;margin:0;letter-spacing:-.01em;max-width:none;color:#161a22}
+.embedded-rich .article-sub{font-family:Georgia,serif;font-style:italic;font-size:19px;color:#5b6472;margin:16px 0 0}
+.embedded-rich .byline{font-size:13px;color:#7c8494;margin:24px 0 0}
+.embedded-rich article{padding:42px 0 0}
+.embedded-rich article h2{font-family:Georgia,serif;font-weight:500;font-size:26px;margin:56px 0 22px;padding-top:28px;border-top:1px solid rgba(20,24,32,.08);max-width:none;color:#161a22}
+.embedded-rich article h3{font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:600;font-size:15.5px;color:#5b6472;text-transform:uppercase;letter-spacing:.05em;margin:30px 0 14px}
+.embedded-rich article>*:first-child{margin-top:0;padding-top:0;border-top:none}
+.embedded-rich article p,.embedded-rich article li{font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif;font-size:17px;color:#3a4150;line-height:1.75;margin:0 0 20px;max-width:66ch;white-space:normal}
+.embedded-rich article ul,.embedded-rich article ol{margin:0 0 20px;padding-left:24px}
+.embedded-rich article li{margin-bottom:8px}
+.embedded-rich article strong{color:#161a22;font-weight:600}
+.embedded-rich figure{margin:38px 0;border:1px solid rgba(20,24,32,.08);background:#f6f7f9;padding:24px}
+.embedded-rich figure svg{width:100%;height:auto;display:block}
+.embedded-rich figcaption{font-size:13px;color:#7c8494;margin-top:16px;text-align:center}
+.embedded-rich .pull-callout{border-left:2px solid #2563eb;padding:4px 0 4px 22px;margin:32px 0;font-family:Georgia,serif;font-size:19px;color:#161a22;line-height:1.6;max-width:60ch}
+.embedded-rich .formula-line{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:15.5px;color:#161a22;background:#f6f7f9;border:1px solid rgba(20,24,32,.14);padding:16px 20px;margin:22px 0;text-align:center}
+.embedded-rich .calc-block{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:14.5px;color:#5b6472;background:#f6f7f9;border:1px solid rgba(20,24,32,.08);padding:16px 20px;margin:18px 0;line-height:1.9}
+.embedded-rich .calc-block .final{color:#161a22;font-weight:600}
+.embedded-rich.editing h1,.embedded-rich.editing h2,.embedded-rich.editing h3,.embedded-rich.editing p,.embedded-rich.editing li,.embedded-rich.editing figcaption{cursor:text}
+.embedded-rich.editing h1:hover,.embedded-rich.editing h2:hover,.embedded-rich.editing h3:hover,.embedded-rich.editing p:hover,.embedded-rich.editing li:hover,.embedded-rich.editing figcaption:hover{background:rgba(37,99,235,.06)}
+.embedded-rich.editing{outline:1px dashed rgba(37,99,235,.5);outline-offset:12px}
+.embedded-rich-actions{position:sticky;bottom:0;z-index:5;padding:14px 24px 18px;display:flex;gap:10px;justify-content:center;border-top:1px solid #e5eaf0;background:#fff}
+@media(max-width:640px){.embedded-rich{padding:0 16px 45px}.embedded-rich article h2{font-size:22px}.embedded-rich article p,.embedded-rich article li{font-size:16px}.embedded-rich figure{padding:18px}}
+
+/* Full original bond-article presentation inside its Research Library detail view */
+#articleOverlay .panel:has(.embedded-bond){max-width:1000px;border-radius:0;margin:0 auto}
+.embedded-bond{max-width:760px;margin:0 auto;padding:0 24px 65px;background:#fff;color:#161a22;font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.5}
+.embedded-bond .article-header{padding:48px 0 35px;border-bottom:1px solid rgba(20,24,32,.08);text-align:left}
+.embedded-bond .kicker{font-size:13px;color:#2563eb;font-weight:600;margin-bottom:18px}
+.embedded-bond h1.article-title{font-family:Georgia,serif;font-weight:500;font-size:clamp(30px,4.2vw,44px);line-height:1.2;margin:0;letter-spacing:-.01em;max-width:none;color:#161a22}
+.embedded-bond .article-sub{font-family:Georgia,serif;font-style:italic;font-size:19px;color:#5b6472;margin:16px 0 0}
+.embedded-bond .byline{font-size:13px;color:#7c8494;margin:24px 0 0}
+.embedded-bond article{padding:42px 0 0}
+.embedded-bond article h2{font-family:Georgia,serif;font-weight:500;font-size:26px;margin:56px 0 22px;padding-top:28px;border-top:1px solid rgba(20,24,32,.08);max-width:none;color:#161a22}
+.embedded-bond article>*:first-child{margin-top:0;padding-top:0;border-top:none}
+.embedded-bond article p,.embedded-bond article li{font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif;font-size:17px;color:#3a4150;line-height:1.75;margin:0 0 20px;max-width:66ch;white-space:normal}
+.embedded-bond article ul,.embedded-bond article ol{margin:0 0 20px;padding-left:24px}
+.embedded-bond article li{margin-bottom:8px}
+.embedded-bond article strong{color:#161a22;font-weight:600}
+.embedded-bond figure{margin:38px 0;border:1px solid rgba(20,24,32,.08);background:#f6f7f9;padding:24px}
+.embedded-bond figure svg{width:100%;height:auto;display:block}
+.embedded-bond figcaption{font-size:13px;color:#7c8494;margin-top:16px;text-align:center}
+.embedded-bond .pull-callout{border-left:2px solid #2563eb;padding:4px 0 4px 22px;margin:32px 0;font-family:Georgia,serif;font-size:19px;color:#161a22;line-height:1.6;max-width:60ch}
+.embedded-bond-actions{padding:16px 24px 24px;display:flex;gap:10px;justify-content:center;border-top:1px solid #e5eaf0}
+@media(max-width:640px){.embedded-bond{padding:0 16px 45px}.embedded-bond article h2{font-size:22px}.embedded-bond article p,.embedded-bond article li{font-size:16px}.embedded-bond figure{padding:12px}}
+#articleOverlay{opacity:0;visibility:hidden;display:block;pointer-events:none;transition:opacity .28s ease,visibility .28s ease;}
+#articleOverlay.show{opacity:1;visibility:visible;pointer-events:auto;}
+#articleOverlay .panel{opacity:0;transform:translateY(28px) scale(.975);transition:transform .42s cubic-bezier(.22,1,.36,1),opacity .3s ease;will-change:transform,opacity;}
+#articleOverlay.show .panel{opacity:1;transform:translateY(0) scale(1);}
+#articleOverlay .article-cover,#articleOverlay .embedded-rich,#articleOverlay .embedded-bond,#articleOverlay .article-content{animation:articleContentIn .5s .08s both cubic-bezier(.22,1,.36,1);}
+@keyframes articleContentIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@media (prefers-reduced-motion:reduce){#articleOverlay,#articleOverlay .panel{transition:none}#articleOverlay .article-cover,#articleOverlay .embedded-rich,#articleOverlay .embedded-bond,#articleOverlay .article-content{animation:none}}
+.cover.oil-map-cover img{object-fit:contain;object-position:center}
+#richArticleRoot.oil-article figure.photo{
+  width:100%;max-width:100%;height:auto;margin:38px 0;padding:0;
+  position:static;left:auto;transform:none;overflow:visible;
+  border:0;background:none;border-radius:0;
+}
+#richArticleRoot.oil-article figure.photo img{
+  display:block;width:100%;max-width:100%;height:auto !important;
+  object-fit:contain !important;object-position:center;
+}
+</style>
+<style>
+/* ==========================================================
+   Quant Flow Capital — design system
+   ========================================================== */
+:root{
+  --navy:#0a1729;--navy-2:#11233b;--navy-line:#1f3350;
+  --ink:#0e1a2b;--ink-2:#2c3a4d;--muted:#5f6b7a;--faint:#8a94a3;
+  --paper:#f6f5f1;--surface:#ffffff;--line:#e4e1d9;--line-2:#eeece6;
+  --accent:#1e4fb8;--accent-ink:#163c8f;--accent-soft:#e8eefb;
+  --gold:#b08d57;--up:#0f7a4f;--down:#b42335;
+  --serif:"Source Serif 4","Source Serif Pro",Georgia,"Times New Roman",serif;
+  --sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --radius:10px;--radius-sm:6px;
+  --shadow-sm:0 1px 2px rgba(14,26,43,.05),0 1px 1px rgba(14,26,43,.03);
+  --shadow-md:0 10px 30px -12px rgba(14,26,43,.18),0 2px 6px rgba(14,26,43,.05);
+  --wrap:1200px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:96px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img{max-width:100%}
+a{color:inherit}
+button,input,textarea,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 28px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--surface);padding:8px 14px;z-index:50;border-radius:6px}
+.skip:focus{left:12px}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--accent);font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+.eyebrow::before{content:"";width:18px;height:1px;background:currentColor}
+
+/* ---------- Top utility bar ---------- */
+.topbar{background:var(--navy);color:#a9b6c8;font-size:12px}
+.topbar-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;height:36px}
+.topbar-left,.topbar-right{display:flex;align-items:center;gap:18px;min-width:0}
+.topbar time{color:#dbe3ee;font-weight:500}
+.clocks{display:flex;gap:16px;font-variant-numeric:tabular-nums}
+.clocks span b{color:#dbe3ee;font-weight:600;margin-left:5px}
+.topbar a{color:#c9d4e2;text-decoration:none}
+.topbar a:hover{color:#fff}
+.topbar .divider{width:1px;height:14px;background:var(--navy-line)}
+
+/* ---------- Masthead ---------- */
+.masthead{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:saturate(160%) blur(12px);-webkit-backdrop-filter:saturate(160%) blur(12px);border-bottom:1px solid var(--line)}
+.masthead-inner{display:flex;align-items:center;gap:36px;height:72px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);flex:0 0 auto}
+.brand-logo{width:56px;height:38px;object-fit:cover;border-radius:6px;display:block}
+.brand-text b{display:block;font-family:var(--serif);font-size:19px;font-weight:600;letter-spacing:-.01em;line-height:1.1}
+.brand-text small{display:block;color:var(--muted);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;margin-top:3px}
+.primary-nav{display:flex;gap:4px;margin-right:auto}
+.primary-nav a{position:relative;font-size:13.5px;font-weight:550;color:var(--ink-2);text-decoration:none;padding:8px 12px;border-radius:6px;transition:color .15s,background .15s}
+.primary-nav a:hover{color:var(--ink);background:#f1f0eb}
+.primary-nav a.nav-cta{background:var(--navy);color:#fff!important;padding:7px 14px;border-radius:6px;font-weight:600;margin-left:6px;transition:background .15s,transform .15s}
+.primary-nav a.nav-cta:hover{background:var(--accent);transform:translateY(-1px)}
+
+/* ---------- Connect With Us section ---------- */
+.connect-sec{background:linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:68px 0;margin:64px 0}
+.connect-sec-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:48px;align-items:start}
+.connect-form-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:36px;box-shadow:var(--shadow-md)}
+.connect-form-card h3{font-family:var(--serif);font-size:24px;margin:0 0 8px;font-weight:500;color:var(--ink)}
+.connect-form-card p{color:var(--muted);font-size:14px;margin:0 0 22px}
+.c-form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.c-field{display:grid;gap:6px;margin-bottom:14px}
+.c-field label{font-size:12.5px;font-weight:600;color:var(--ink)}
+.c-field input,.c-field select,.c-field textarea{width:100%;border:1px solid var(--line);border-radius:6px;padding:10px 12px;background:#fff;font-size:14px;color:var(--ink)}
+.c-field textarea{min-height:95px;resize:vertical;font-family:inherit}
+.c-field input:focus,.c-field select:focus,.c-field textarea:focus{border-color:var(--accent);outline:none;box-shadow:0 0 0 3px rgba(30,79,184,.1)}
+.c-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.c-chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--paper);color:var(--ink-2);cursor:pointer;user-select:none;transition:all .15s}
+.c-chip input{display:none}
+.c-chip.selected{background:var(--accent);color:#fff;border-color:var(--accent)}
+.c-opt{display:flex;align-items:flex-start;gap:10px;font-size:12.5px;color:var(--ink-2);margin:16px 0 20px}
+.c-opt input{margin-top:3px;accent-color:var(--accent)}
+.c-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;background:var(--accent);color:#fff;border:0;border-radius:6px;padding:12px 18px;font-size:14px;font-weight:600;cursor:pointer;transition:background .15s}
+.c-btn:hover{background:var(--accent-ink)}
+.c-success{display:none;text-align:center;padding:32px 16px}
+.c-success.show{display:block}
+.c-success-icon{width:52px;height:52px;border-radius:50%;background:var(--up-soft);color:var(--up);display:inline-flex;align-items:center;justify-content:center;margin-bottom:16px}
+.connect-info-panel{display:flex;flex-direction:column;gap:20px}
+.connect-info-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px 28px;box-shadow:var(--shadow-sm)}
+.connect-info-card h4{font-family:var(--serif);font-size:19px;font-weight:500;margin:0 0 8px;color:var(--ink)}
+.connect-info-card p{color:var(--muted);font-size:13.5px;line-height:1.6;margin:0 0 14px}
+.connect-meta-row{display:flex;justify-content:space-between;border-top:1px solid var(--line-2);padding-top:10px;font-size:12px;color:var(--faint);font-family:var(--mono)}
+@media(max-width:900px){.connect-sec-grid{grid-template-columns:1fr}.c-form-row{grid-template-columns:1fr}}
+.search{position:relative;display:flex;align-items:center;width:300px;height:40px;border:1px solid var(--line);border-radius:8px;background:var(--surface);transition:border-color .15s,box-shadow .15s}
+.search:focus-within{border-color:#9fb4e3;box-shadow:0 0 0 4px rgba(30,79,184,.1)}
+.search svg{position:absolute;left:12px;width:16px;height:16px;color:var(--faint)}
+.search input{flex:1;height:100%;border:0;outline:0;background:transparent;padding:0 40px 0 38px;font-size:13.5px}
+.search input::placeholder{color:var(--faint)}
+.search input::-webkit-search-cancel-button{display:none}
+.search kbd{position:absolute;right:9px;font:600 11px var(--mono);color:var(--faint);border:1px solid var(--line);border-radius:4px;padding:1px 6px;background:#faf9f6}
+
+/* ---------- Live ticker ---------- */
+.ticker{background:var(--navy-2);border-bottom:1px solid var(--navy-line);display:flex;align-items:stretch}
+.ticker-tag{flex:0 0 auto;display:flex;align-items:center;gap:8px;padding:0 18px 0 28px;color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;border-right:1px solid var(--navy-line);background:var(--navy)}
+.live-dot{width:7px;height:7px;border-radius:50%;background:#e5484d;box-shadow:0 0 0 0 rgba(229,72,77,.6);animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(229,72,77,.55)}70%{box-shadow:0 0 0 7px rgba(229,72,77,0)}100%{box-shadow:0 0 0 0 rgba(229,72,77,0)}}
+.ticker .tradingview-widget-container{flex:1;min-width:0}
+.ticker .tradingview-widget-container__widget{min-height:46px}
+
+/* ---------- Intro ---------- */
+.intro{padding-top:56px;padding-bottom:40px;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:56px;align-items:end;border-bottom:1px solid var(--line)}
+.intro h1{font-family:var(--serif);font-weight:500;font-size:clamp(34px,4.4vw,54px);line-height:1.08;letter-spacing:-.022em;margin:16px 0 0;max-width:15ch}
+.intro-lede{color:var(--ink-2);font-size:16.5px;line-height:1.7;margin:0 0 22px;max-width:46ch}
+.intro-stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}
+.intro-stats div{padding:14px 0 0}
+.intro-stats div+div{padding-left:18px;border-left:1px solid var(--line);margin-left:-1px}
+.intro-stats b{display:block;font-family:var(--serif);font-size:26px;font-weight:500;letter-spacing:-.01em;line-height:1.1}
+.intro-stats span{color:var(--muted);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase}
+
+/* ---------- Section headings ---------- */
+.section{padding-top:56px}
+.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid var(--ink)}
+.section-head h2{font-family:var(--serif);font-size:30px;font-weight:500;letter-spacing:-.015em;line-height:1.15;margin:8px 0 0}
+.section-head p{margin:0;color:var(--muted);font-size:13px;max-width:46ch;text-align:right}
+.block-title{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);margin:0 0 4px;padding-bottom:12px;border-bottom:2px solid var(--ink)}
+
+/* ---------- Shared meta + media ---------- */
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;font-size:11.5px;color:var(--muted);letter-spacing:.02em}
+.meta .topic{color:var(--accent);font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:10.5px}
+.meta span+span::before{content:"";display:inline-block;width:3px;height:3px;border-radius:50%;background:#b9bec6;vertical-align:middle;margin-right:14px;margin-left:-0px}
+.cover{position:relative;overflow:hidden;background:linear-gradient(145deg,#0f1f35,#1a2f4c);display:grid;place-items:center;isolation:isolate}
+.cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center;z-index:1;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.cover.has-image::before{content:"";position:absolute;inset:-20px;background-image:var(--cover-image);background-size:cover;background-position:center;filter:blur(20px) saturate(1.1);transform:scale(1.1);opacity:.55;z-index:0}
+.cover.business-cycle-cover img{object-fit:cover}
+.cover-placeholder{position:relative;z-index:1;font-family:var(--serif);color:#c9ab78;font-size:22px;letter-spacing:.16em}
+.clickable{cursor:pointer}
+.clickable:hover .cover img{transform:scale(1.025)}
+.clickable:hover h2,.clickable:hover h3,.clickable:hover b{color:var(--accent-ink)}
+
+/* ---------- Featured layout ---------- */
+.featured-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:44px;padding-top:40px}
+.featured{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:32px}
+.lead{display:flex;flex-direction:column}
+.lead .cover{aspect-ratio:16/10;border-radius:var(--radius)}
+.lead-body{padding-top:20px}
+.lead h2{font-family:var(--serif);font-size:clamp(26px,2.6vw,34px);font-weight:500;line-height:1.16;letter-spacing:-.015em;margin:12px 0 12px;transition:color .15s}
+.lead p{color:var(--ink-2);font-size:15.5px;line-height:1.65;margin:0 0 18px;max-width:52ch}
+.cta{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:650;color:var(--accent)}
+.cta svg{width:14px;height:14px;transition:transform .2s}
+.clickable:hover .cta svg{transform:translateX(3px)}
+.secondary{display:flex;flex-direction:column;gap:26px}
+.sec{display:flex;flex-direction:column}
+.sec+.sec{padding-top:26px;border-top:1px solid var(--line)}
+.sec .cover{aspect-ratio:16/9;border-radius:8px}
+.sec h3{font-family:var(--serif);font-size:20px;font-weight:500;line-height:1.25;letter-spacing:-.008em;margin:10px 0 6px;transition:color .15s}
+.sec p{color:var(--muted);font-size:13.5px;line-height:1.6;margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.sec .meta{margin-top:14px}
+
+.essential ol{list-style:none;margin:0;padding:0}
+.essential li a{display:grid;grid-template-columns:34px 1fr;gap:10px;padding:16px 0;border-bottom:1px solid var(--line);text-decoration:none}
+.essential .rank{font-family:var(--serif);font-size:22px;line-height:1;color:var(--gold);font-variant-numeric:tabular-nums}
+.essential b{display:block;font-family:var(--serif);font-weight:500;font-size:16.5px;line-height:1.3;transition:color .15s}
+.essential small{display:block;margin-top:6px;color:var(--muted);font-size:11.5px}
+.essential li a:hover b{color:var(--accent-ink)}
+.subscribe{margin-top:22px;padding:20px;border-radius:var(--radius);background:var(--navy);color:#c3cedd}
+.subscribe b{display:block;color:#fff;font-family:var(--serif);font-weight:500;font-size:18px;margin-bottom:6px}
+.subscribe p{margin:0 0 14px;font-size:13px;line-height:1.6}
+.subscribe a{display:inline-flex;align-items:center;gap:8px;color:#fff;font-size:12.5px;font-weight:650;text-decoration:none;padding:9px 14px;border:1px solid #3a5174;border-radius:7px;transition:background .15s,border-color .15s}
+.subscribe a:hover{background:#17304f;border-color:#55709a}
+
+/* ---------- Markets panels ---------- */
+.markets-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:24px}
+.panel-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);display:flex;flex-direction:column;overflow:hidden}
+.panel-card-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 20px;border-bottom:1px solid var(--line-2)}
+.panel-card-head h3{margin:0;font-size:14px;font-weight:700;letter-spacing:-.005em}
+.panel-card-head small{display:block;color:var(--muted);font-size:12px;font-weight:450;margin-top:2px}
+.impact{display:inline-flex;align-items:center;gap:7px;font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--down);background:#fbecee;border-radius:999px;padding:5px 10px;white-space:nowrap}
+.impact i{width:7px;height:7px;border-radius:50%;background:#d33b42}
+.chip-live{display:inline-flex;align-items:center;gap:7px;font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--up);background:#e6f4ee;border-radius:999px;padding:5px 10px}
+.chip-live i{width:7px;height:7px;border-radius:50%;background:var(--up)}
+.widget-frame{height:540px;padding:4px 8px}
+.widget-frame .tradingview-widget-container,.widget-frame .tradingview-widget-container__widget{height:100%}
+.panel-card-foot{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:13px 20px;border-top:1px solid var(--line-2);background:#fbfaf7;font-size:12px;color:var(--muted)}
+.panel-card-foot a{flex:0 0 auto;color:var(--accent);font-weight:650;text-decoration:none}
+.panel-card-foot a:hover{text-decoration:underline}
+
+/* ---------- Library ---------- */
+.library-tools{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:-6px 0 26px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink-2);border-radius:999px;padding:7px 14px;font-size:12.5px;font-weight:550;transition:all .15s}
+.chip:hover{border-color:#c9c5ba;color:var(--ink)}
+.chip.active{background:var(--ink);border-color:var(--ink);color:#fff}
+.lib-count{color:var(--muted);font-size:12.5px;font-variant-numeric:tabular-nums}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow-sm);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md);border-color:#d6d2c7}
+.card .cover{aspect-ratio:16/9}
+.card-body{padding:20px 22px 20px;display:flex;flex-direction:column;flex:1}
+.card h3{font-family:var(--serif);font-size:20px;font-weight:500;line-height:1.25;letter-spacing:-.008em;margin:12px 0 8px;transition:color .15s}
+.card p{color:var(--muted);font-size:13.5px;line-height:1.6;margin:0 0 18px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.read{margin-top:auto;display:flex;justify-content:space-between;align-items:center;padding:14px 0 0;border:0;border-top:1px solid var(--line-2);background:none;color:var(--accent);font-size:12.5px;font-weight:650;text-align:left}
+.read svg{width:14px;height:14px;transition:transform .2s}
+.card:hover .read svg{transform:translateX(3px)}
+.empty{grid-column:1/-1;padding:56px 24px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed #d3cfc4;border-radius:var(--radius)}
+.empty b{display:block;color:var(--ink);font-family:var(--serif);font-weight:500;font-size:20px;margin-bottom:6px}
+
+/* ---------- Footer ---------- */
+.site-footer{margin-top:88px;background:var(--navy);color:#9fadc0;padding:56px 0 28px;font-size:13px}
+.footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
+.footer-brand{font-family:var(--serif);color:#fff;font-size:21px;font-weight:500;margin-bottom:10px}
+.site-footer p{margin:0;line-height:1.7;max-width:40ch}
+.site-footer h4{margin:0 0 14px;color:#fff;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+.site-footer ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.site-footer a{color:#b8c5d6;text-decoration:none}
+.site-footer a:hover{color:#fff}
+.disclaimer{margin-top:44px;padding-top:22px;border-top:1px solid var(--navy-line);font-size:11.5px;line-height:1.7;color:#7f8ea3}
+.disclaimer p{max-width:none}
+.copyright{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:16px;color:#6f7f95;font-size:11.5px}
+
+/* ---------- Overlays / reader ---------- */
+.overlay{position:fixed;inset:0;z-index:40;background:rgba(7,15,27,.72);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);overflow:auto;padding:28px 16px;display:none}
+.overlay.show{display:block}
+.panel{background:var(--surface);max-width:900px;margin:0 auto;border-radius:12px;overflow:hidden;box-shadow:0 40px 100px -20px rgba(2,8,23,.5)}
+.panel-head{position:sticky;top:0;z-index:6;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 22px;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line-2)}
+.panel-head .eyebrow::before{display:none}
+.panel-brand{display:flex;align-items:center;gap:10px;font-family:var(--serif);font-size:15px;font-weight:600;color:var(--ink)}
+.panel-brand span{font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);padding-left:10px;border-left:1px solid var(--line)}
+.close{display:grid;place-items:center;border:1px solid var(--line);background:var(--surface);border-radius:8px;width:36px;height:36px;font-size:20px;line-height:1;color:var(--ink-2);transition:background .15s}
+.close:hover{background:#f1f0eb}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid transparent;border-radius:8px;padding:10px 16px;font-weight:600;font-size:13px;transition:background .15s,border-color .15s}
+.btn-light{background:var(--surface);border-color:var(--line);color:var(--ink-2)}
+.btn-light:hover{background:#f4f3ef}
+.btn-dark{background:var(--ink);color:#fff}
+.btn-dark:hover{background:#1c2b42}
+.article-cover{position:relative;height:min(380px,42vw);min-height:220px;background:linear-gradient(145deg,#0f1f35,#1a2f4c);display:grid;place-items:center;overflow:hidden}
+.article-cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;z-index:1}
+.article-cover.has-image::before{content:"";position:absolute;inset:-20px;background-image:var(--cover-image);background-size:cover;background-position:center;filter:blur(22px);transform:scale(1.1);opacity:.5}
+.article-content{max-width:720px;margin:auto;padding:44px 25px 60px}
+.article-content h1{font-family:var(--serif);font-weight:500;font-size:clamp(32px,4.6vw,44px);line-height:1.15;margin:14px 0}
+.article-content .deck{font-size:17px;color:var(--muted);line-height:1.7}
+.card-meta{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.form-panel{max-width:760px}
+.form{padding:25px;display:grid;gap:15px}
+.form label{font-size:12px;font-weight:650;color:var(--ink-2);display:grid;gap:7px}
+.form input,.form textarea,.form select{width:100%;border:1px solid var(--line);border-radius:8px;padding:11px 12px;background:#fff;font-size:14px}
+.form input:focus,.form textarea:focus{outline:none;border-color:#9fb4e3;box-shadow:0 0 0 4px rgba(30,79,184,.1)}
+.form textarea{min-height:230px;resize:vertical;line-height:1.6}
+.form-actions{display:flex;gap:10px;justify-content:flex-end}
+.note{font-size:11.5px;color:var(--muted);line-height:1.5}
+
+/* Reader typography aligned to the design system */
+.embedded-rich,.embedded-bond{font-family:var(--sans)}
+.embedded-rich h1.article-title,.embedded-bond h1.article-title,
+.embedded-rich article h2,.embedded-bond article h2,
+.embedded-rich .article-sub,.embedded-bond .article-sub,
+.embedded-rich .pull-callout,.embedded-bond .pull-callout{font-family:var(--serif)}
+.embedded-rich .kicker,.embedded-bond .kicker{color:var(--accent);font-size:11.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.embedded-rich h1.article-title{font-size:clamp(32px,4.4vw,46px);letter-spacing:-.02em;line-height:1.12}
+.embedded-rich .pull-callout{border-left-color:var(--gold);font-size:21px}
+.embedded-rich figure{border-radius:8px}
+.embedded-rich-actions{background:rgba(255,255,255,.96);backdrop-filter:blur(10px)}
+
+/* ---------- Responsive ---------- */
+@media(max-width:1100px){
+  .featured-layout{grid-template-columns:minmax(0,1fr)}
+  .essential{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px;align-items:start}
+  .essential .block-title{grid-column:1/-1}
+  .subscribe{margin-top:16px}
+  .primary-nav{display:none}
+  .masthead-inner{justify-content:space-between}
+}
+@media(max-width:900px){
+  .intro{grid-template-columns:1fr;gap:24px;padding-top:40px}
+  .featured{grid-template-columns:minmax(0,1fr)}
+  .secondary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+  .sec+.sec{padding-top:0;border-top:0}
+  .markets-grid{grid-template-columns:1fr}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .footer-grid>div:first-child{grid-column:1/-1}
+  .clocks span:nth-child(3){display:none}
+}
+@media(max-width:640px){
+  .wrap{padding:0 16px}
+  .topbar-right{display:none}
+  .topbar time,.topbar-left>.divider{display:none}
+  .clocks{gap:14px;white-space:nowrap}
+  .clocks span:nth-child(3){display:inline}
+  .intro-stats span{font-size:10.5px;letter-spacing:.04em}
+  .intro-stats div+div{padding-left:12px}
+  .masthead-inner{height:auto;padding-top:12px;padding-bottom:12px;flex-wrap:wrap;gap:12px}
+  .search{width:100%}
+  .search kbd{display:none}
+  .ticker-tag{padding:0 12px 0 16px}
+  .ticker-tag span{display:none}
+  .intro h1{font-size:34px}
+  .intro-stats b{font-size:22px}
+  .section{padding-top:44px}
+  .section-head{flex-direction:column;align-items:flex-start;gap:6px}
+  .section-head p{text-align:left}
+  .section-head h2{font-size:26px}
+  .secondary,.essential{grid-template-columns:minmax(0,1fr)}
+  .grid{grid-template-columns:1fr}
+  .widget-frame{height:480px}
+  .panel-card-foot{flex-direction:column;align-items:flex-start}
+  .footer-grid{grid-template-columns:1fr}
+  .overlay{padding:0}
+  .panel{border-radius:0}
+  .panel-brand span{display:none}
+  .form .row{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}.live-dot{animation:none}.card,.cover img{transition:none}}
+
+
+/* ---------- Central bank watch (homepage) ---------- */
+#central-banks,#research,#markets,#library{scroll-margin-top:84px}
+.cbw-banner{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr) auto;gap:32px;align-items:center;background:var(--navy);color:#c3cedd;border-radius:var(--radius);padding:28px 32px;margin-bottom:24px}
+.cbw-kicker{font-size:10.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#d9b45a}
+.cbw-banner h3{font-family:var(--serif);font-weight:500;font-size:26px;line-height:1.2;color:#fff;margin:8px 0 10px}
+.cbw-banner p{margin:0;font-size:14px;line-height:1.65;max-width:60ch}
+.cbw-stats{display:grid;gap:12px;margin:0}
+.cbw-stats div{display:flex;justify-content:space-between;gap:16px;border-bottom:1px solid #22395a;padding-bottom:10px}
+.cbw-stats dt{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#8fa1b8}
+.cbw-stats dd{margin:0;font-family:var(--serif);font-size:17px;color:#fff;text-align:right}
+.cbw-cta{display:inline-flex;align-items:center;gap:8px;white-space:nowrap;background:#fff;color:var(--navy);font-weight:650;font-size:13.5px;text-decoration:none;padding:12px 18px;border-radius:8px;transition:transform .15s,box-shadow .15s}
+.cbw-cta:hover{transform:translateY(-1px);box-shadow:0 8px 24px -10px rgba(0,0,0,.6)}
+.cbw-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.cbw-card{display:flex;flex-direction:column;gap:14px;background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--navy);border-radius:var(--radius);padding:18px 18px 16px;color:var(--ink);text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.cbw-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md);text-decoration:none}
+.cbw-card:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.cbw-top{display:flex;align-items:center;gap:12px}
+.cbw-top b{display:block;font-family:var(--serif);font-weight:500;font-size:18px;line-height:1.2}
+.cbw-top small{display:block;color:var(--muted);font-size:12px}
+.cbw-code{flex:0 0 auto;display:grid;place-items:center;width:34px;height:34px;border-radius:7px;background:var(--navy);color:#fff;font-family:var(--mono);font-size:11px;font-weight:600}
+.cbw-rate,.cbw-next{display:flex;justify-content:space-between;align-items:baseline;gap:10px;border-top:1px solid var(--line-2);padding-top:10px}
+.cbw-rate span,.cbw-next span{font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.cbw-rate b{font-family:var(--serif);font-weight:500;font-size:24px;font-variant-numeric:tabular-nums}
+.cbw-next b{font-size:13.5px;font-weight:600}
+.cbw-call{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.cbw-call small{color:var(--muted);font-size:11.5px}
+.cbw-pill{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;border-radius:999px;padding:5px 10px}
+.cbw-hold{background:#e8eefb;color:#1d3f91}.cbw-raise{background:#f6eedb;color:#7a5512}.cbw-cut{background:#e6f4ee;color:#11633f}
+.cbw-stack{display:flex;height:6px;border-radius:999px;overflow:hidden;background:var(--line-2)}
+.cbw-stack i,.cbw-legend i{display:block}
+.cbw-stack .h,.cbw-legend .h{background:#2346a8}.cbw-stack .r,.cbw-legend .r{background:#b98a2e}.cbw-stack .c,.cbw-legend .c{background:#9aa5b4}
+.cbw-open{margin-top:auto;display:inline-flex;align-items:center;gap:7px;color:var(--accent);font-size:12.5px;font-weight:650}
+.cbw-card:hover .cbw-open svg{transform:translateX(3px)}.cbw-open svg{transition:transform .15s}
+.cbw-legend{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px;margin-top:16px;font-size:12px;color:var(--muted)}
+.cbw-legend span{display:inline-flex;align-items:center;gap:6px}.cbw-legend i{width:10px;height:10px;border-radius:2px}
+.cbw-legend em{font-style:normal;margin-left:auto}
+@media(max-width:1100px){.cbw-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cbw-banner{grid-template-columns:1fr 1fr}.cbw-cta{grid-column:1/-1;justify-self:start}}
+@media(max-width:640px){.cbw-grid{grid-template-columns:1fr}.cbw-banner{grid-template-columns:1fr;padding:22px}.cbw-legend em{margin-left:0}}
+/* ---------- Central bank monitor view ---------- */
+.cbm-view{position:fixed;inset:0;z-index:60;display:flex;flex-direction:column;background:#f6f5f1}
+.cbm-view[hidden]{display:none}
+.cbm-bar{flex:0 0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px;height:58px;padding:0 20px;background:var(--navy);color:#fff}
+.cbm-bar button{display:inline-flex;align-items:center;gap:8px;font:inherit;font-size:13px;font-weight:600;color:#fff;background:transparent;border:1px solid #2f4768;border-radius:7px;padding:8px 13px;cursor:pointer;transition:background .15s,border-color .15s}
+.cbm-bar button:hover{background:#17304f;border-color:#55709a}
+.cbm-title{display:flex;align-items:center;gap:12px;min-width:0}
+.cbm-title img{width:42px;height:28px;object-fit:cover;border-radius:5px}
+.cbm-title b{display:block;font-family:var(--serif);font-weight:500;font-size:17px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cbm-title small{display:block;color:#8fa1b8;font-size:11.5px}
+#cbmFrame{flex:1 1 auto;width:100%;border:0;background:#f6f5f1}
+.cbm-fail{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);max-width:440px;width:calc(100% - 32px);background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-md);padding:24px;text-align:center}
+.cbm-fail[hidden]{display:none}.cbm-fail b{font-family:var(--serif);font-weight:500;font-size:19px}.cbm-fail p{color:var(--muted);font-size:14px;line-height:1.6}.cbm-fail button{font:inherit;font-weight:650;font-size:13.5px;color:#fff;background:var(--navy);border:0;border-radius:8px;padding:11px 16px;cursor:pointer}
+@media(max-width:640px){.cbm-bar{padding:0 10px;gap:8px}.cbm-bar button span{display:none}.cbm-title img,.cbm-title small{display:none}.cbm-title b{font-size:15px}}
+@media print{body.cbm-open>*:not(.cbm-view){display:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="topbar"><div class="wrap topbar-inner">
+  <div class="topbar-left">
+    <time id="today"></time>
+    <span class="divider" aria-hidden="true"></span>
+    <div class="clocks" aria-label="Market time zones">
+      <span>New York<b data-tz="America/New_York">--:--</b></span>
+      <span>London<b data-tz="Europe/London">--:--</b></span>
+      <span>Tokyo<b data-tz="Asia/Tokyo">--:--</b></span>
+    </div>
+  </div>
+  <div class="topbar-right">
+    <a href="/monitor/">Central bank monitor</a>
+    <span class="divider" aria-hidden="true"></span>
+    <a href="/markets/">Markets</a>
+    <span class="divider" aria-hidden="true"></span>
+    <a href="/library/" class="active">Research library</a>
+    <span class="divider" aria-hidden="true"></span>
+    <a href="/about/">About Quant Flow</a>
+    <span class="divider" aria-hidden="true"></span>
+    <a href="/connect/">Connect with Us</a>
+  </div>
+</div></div>
+
+<header class="masthead"><div class="wrap masthead-inner">
+  <a class="brand" href="/" aria-label="Quant Flow Capital home">
+    <img class="brand-logo" src="/assets/img/2f2890412a.png" alt="">
+    <span class="brand-text"><b>Quant Flow Capital</b><small>Macro &amp; Markets Research</small></span>
+  </a>
+  <nav class="primary-nav" aria-label="Primary">
+    <a href="/">Research</a>
+    <a href="/monitor/">Central Banks</a>
+    <a href="/markets/">Markets</a>
+    <a class="active" href="/library/">Library</a>
+    <a href="/about/">About</a>
+    <a class="nav-cta" href="/connect/">Connect with Us</a>
+  </nav>
+  <label class="search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="search" type="search" placeholder="Search research" autocomplete="off" oninput="render()" aria-label="Search research">
+    <kbd>/</kbd>
+  </label>
+</div></header>
+
+<section class="ticker" aria-label="Live market prices">
+  <div class="ticker-tag"><i class="live-dot" aria-hidden="true"></i><span>Live</span></div>
+  <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+      "symbols": [
+        {"proName":"FOREXCOM:SPXUSD","title":"S&P 500"},
+        {"proName":"FOREXCOM:NSXUSD","title":"Nasdaq 100"},
+        {"proName":"FOREXCOM:DJI","title":"Dow Jones"},
+        {"proName":"INDEX:DEU40","title":"DAX 40"},
+        {"proName":"FOREXCOM:UKXGBP","title":"FTSE 100"},
+        {"proName":"INDEX:NKY","title":"Nikkei 225"},
+        {"proName":"FX:EURUSD","title":"EUR/USD"},
+        {"proName":"FX:GBPUSD","title":"GBP/USD"},
+        {"proName":"FX:USDJPY","title":"USD/JPY"},
+        {"proName":"FX:USDCHF","title":"USD/CHF"},
+        {"proName":"FX:USDCAD","title":"USD/CAD"},
+        {"proName":"FX:AUDUSD","title":"AUD/USD"},
+        {"proName":"FX:NZDUSD","title":"NZD/USD"},
+        {"proName":"TVC:GOLD","title":"Gold"},
+        {"proName":"TVC:SILVER","title":"Silver"},
+        {"proName":"TVC:USOIL","title":"WTI Crude"},
+        {"proName":"TVC:UKOIL","title":"Brent Crude"},
+        {"proName":"CAPITALCOM:NATURALGAS","title":"Natural Gas"}
+      ],
+      "showSymbolLogo": false,
+      "colorTheme": "dark",
+      "isTransparent": true,
+      "displayMode": "adaptive",
+      "locale": "en"
+    }
+    </script>
+  </div>
+</section>
+
+<main id="main">
+  <section class="wrap intro">
+    <div>
+      <span class="eyebrow">Research Library</span>
+      <h1 style="font-size:clamp(28px,3.4vw,40px);line-height:1.2;max-width:24ch">Empirical macroeconomic &amp; financial markets intelligence</h1>
+    </div>
+    <div>
+      <div class="intro-stats">
+        <div><b id="statReports">–</b><span>Reports</span></div>
+        <div><b id="statTopics">–</b><span>Topics</span></div>
+        <div><b>100%</b><span>Empirical</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section" id="library" aria-labelledby="libraryTitle" style="padding-top:16px;">
+    <div class="section-head">
+      <div><span class="eyebrow">Explainers &amp; Indicators</span><h2 id="libraryTitle">All Research Reports</h2></div>
+      <p>Plain-language explainers on the indicators, central banks, and capital markets behind the headlines.</p>
+    </div>
+    <div class="library-tools">
+      <div class="chips" id="topicFilters" role="group" aria-label="Filter by topic"></div>
+      <span class="lib-count" id="libCount" aria-live="polite"></span>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <!-- Institutional Dialogue Callout -->
+  <section class="wrap" style="padding:48px 0 64px">
+    <div style="background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:40px;display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap">
+      <div style="max-width:54ch">
+        <span class="eyebrow">Institutional Dialogue</span>
+        <h3 style="font-family:var(--serif);font-size:24px;margin:8px 0 10px;color:var(--ink)">Looking for bespoke macro briefings or custom datasets?</h3>
+        <p style="color:var(--ink-2);margin:0;font-size:15px;line-height:1.6">Initiate a dialogue with our strategy desks across New York, London, and Tokyo.</p>
+      </div>
+      <div>
+        <a class="c-btn" href="/connect/" style="display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:var(--navy);color:#fff;border-radius:6px;font-weight:600;text-decoration:none">
+          <span>Connect With Our Desk</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="about">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Quant Flow Capital</div>
+        <p>A global macroeconomic and geopolitical research firm chasing absolute clarity for capital positioning across sovereign debt, policy rates, and global markets.</p>
+      </div>
+      <div>
+        <h4>Research &amp; Monitors</h4>
+        <ul>
+          <li><a href="/">Featured Research</a></li>
+          <li><a href="/monitor/">Central Bank Monitor</a></li>
+          <li><a href="/markets/">Markets</a></li>
+          <li><a href="/library/">Research Library</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Institutional</h4>
+        <ul>
+          <li><a href="/about/">About Quant Flow</a></li>
+          <li><a href="/about/#methodology">3-Pillar Methodology</a></li>
+          <li><a href="/connect/">Connect with Us</a></li>
+          <li><a href="/connect/#desks">Coverage Desks</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/connect/">Institutional Inquiries</a></li>
+          <li><a href="mailto:research@quantflowcapital.com">research@quantflowcapital.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="disclaimer">
+      <p><strong>Important information.</strong> Content published by Quant Flow Capital is for informational and educational purposes only. It does not constitute investment, tax or legal advice, or an offer or solicitation to buy or sell any security or financial instrument. Past performance is not a reliable indicator of future results. Market data is provided by third parties, including TradingView, and may be delayed or inaccurate.</p>
+    </div>
+    <div class="copyright"><span>© <span id="year">2026</span> Quant Flow Capital. All rights reserved.</span><span>Macro &amp; Financial Markets Research</span></div>
+  </div>
+</footer>
+
+
+<div class="overlay" id="articleOverlay" onclick="if(event.target===this)closeArticle()"><div class="panel" role="dialog" aria-modal="true" aria-label="Research article">
+  <div class="panel-head"><div class="panel-brand">Quant Flow Capital<span>Research</span></div><button class="close" onclick="closeArticle()" aria-label="Close article">×</button></div>
+  <div id="articleView"></div>
+</div></div>
+<div class="overlay" id="formOverlay" onclick="if(event.target===this)closeForm()"><div class="panel form-panel" role="dialog" aria-modal="true" aria-label="Research manager">
+  <div class="panel-head"><span class="eyebrow">Research Manager</span><button class="close" onclick="closeForm()">×</button></div>
+  <form class="form" id="articleForm">
+    <input type="hidden" id="editId">
+    <label>Article title<input id="title" required="" placeholder="e.g. Understanding the Bond Market"></label>
+    <label>Publication date<input id="date" type="date"></label>
+    <label>Short description<textarea id="description" rows="3" required="" placeholder="A short introduction shown on the article card..."></textarea></label>
+    <label>Cover image URL<input id="image" placeholder="Paste an image URL (optional)"></label>
+    <label>Or upload a cover image<input id="imageFile" type="file" accept="image/*"></label>
+    <label>Full article<textarea id="content" required="" placeholder="Paste your full article here. Use blank lines to separate paragraphs."></textarea></label>
+    <p class="note">Your articles are saved in this browser on this device. This standalone version is a prototype: articles added here do not automatically sync to other devices or publish for every website visitor. For a shared live publishing system, connect a CMS or database.</p>
+    <div class="form-actions"><button type="button" class="btn btn-light" onclick="closeForm()">Cancel</button><button class="btn btn-dark" type="submit">Save Article</button></div>
+  </form>
+</div></div>
+
+<script>
+function applyAdaptiveCoverImages(root=document){
+  root.querySelectorAll('.cover, .article-cover').forEach(box=>{
+    const img=box.querySelector('img');
+    if(!img) return;
+    const src=img.currentSrc || img.getAttribute('src');
+    if(!src) return;
+    box.classList.add('has-image');
+    const safe=src.replace(/"/g,'\\"');
+    box.style.setProperty('--cover-image', `url("${safe}")`);
+    img.addEventListener('error',()=>{box.classList.remove('has-image');box.style.removeProperty('--cover-image')},{once:true});
+  });
+}
+const coverObserver=new MutationObserver(()=>applyAdaptiveCoverImages());
+window.addEventListener('DOMContentLoaded',()=>{
+  applyAdaptiveCoverImages();
+  coverObserver.observe(document.body,{childList:true,subtree:true});
+});
+const seed = [{"id":"sample-bonds","title":"Understanding the Bond Market","date":"","description":"A simple guide to how bonds work, how yields are formed, and why the bond market matters to the wider economy.","content":"\n<div class=\"article-header\">\n<div class=\"kicker\">Market Insights  ·  Fixed Income</div>\n<h1 class=\"article-title\">Understanding the Bond Market</h1>\n<p class=\"article-sub\">A Simple Guide to How Bonds Work</p>\n<p class=\"byline\">By Quant Flow Capital</p>\n</div>\n<figure style=\"margin-top:44px;\">\n<svg viewbox=\"0 0 760 260\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#f6f7f9\" height=\"260\" width=\"760\" x=\"0\" y=\"0\"></rect>\n<line stroke=\"rgba(20,24,32,0.12)\" stroke-width=\"1\" x1=\"0\" x2=\"760\" y1=\"220\" y2=\"220\"></line>\n<g opacity=\"0.85\" stroke=\"#1e4fb8\" stroke-width=\"1.2\">\n<line x1=\"120\" x2=\"120\" y1=\"80\" y2=\"220\"></line>\n<line x1=\"175\" x2=\"175\" y1=\"80\" y2=\"220\"></line>\n<line x1=\"230\" x2=\"230\" y1=\"80\" y2=\"220\"></line>\n<line x1=\"285\" x2=\"285\" y1=\"80\" y2=\"220\"></line>\n<line x1=\"340\" x2=\"340\" y1=\"80\" y2=\"220\"></line>\n</g>\n<polygon fill=\"none\" points=\"80,80 380,80 355,40 105,40\" stroke=\"#2563eb\" stroke-width=\"1.4\"></polygon>\n<polygon fill=\"none\" points=\"105,40 355,40 230,10\" stroke=\"#2563eb\" stroke-width=\"1.4\"></polygon>\n<g fill=\"none\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\">\n<rect height=\"70\" width=\"14\" x=\"435\" y=\"150\"></rect>\n<rect height=\"100\" width=\"14\" x=\"463\" y=\"120\"></rect>\n<rect height=\"50\" width=\"14\" x=\"491\" y=\"170\"></rect>\n</g>\n<circle cx=\"442\" cy=\"150\" fill=\"#2563eb\" r=\"5\"></circle>\n<circle cx=\"470\" cy=\"120\" fill=\"#2563eb\" r=\"5\"></circle>\n<circle cx=\"498\" cy=\"170\" fill=\"#2563eb\" r=\"5\"></circle>\n<polyline fill=\"none\" points=\"580,190 620,150 660,165 700,110\" stroke=\"#2563eb\" stroke-width=\"1.6\"></polyline>\n<circle cx=\"700\" cy=\"110\" fill=\"#2563eb\" r=\"3.5\"></circle>\n<text fill=\"#7c8494\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"30\" y=\"245\">GOVERNMENT DEBT &amp; PRIVATE CAPITAL MARKETS</text>\n</svg>\n<figcaption>Government issuance, institutional capital, and market yields — the three forces that move the bond market.</figcaption>\n</figure>\n<article>\n<h2>1. What Is a Bond?</h2>\n<p>A bond is simply an agreement between someone who needs money and someone who is willing to give it.</p>\n<p>When a government needs money, it can borrow money from investors by issuing bonds. In return, the government promises to pay interest according to the bond's terms and return the borrowed money when the bond reaches its maturity date.</p>\n<p>In simple words, you lend money to the government today, receive interest over time as per contract terms , and get your original money back at the end.</p>\n<p>Let's say the government issues a bond with a face value of $1,000 and a coupon rate of 5%.</p>\n<p>Here:</p>\n<ul>\n<li>$1,000 is the face value of the bond.</li>\n<li>5% is the coupon rate.</li>\n<li>$50 is the annual coupon payment (5% of $1,000).</li>\n</ul>\n<figure>\n<svg viewbox=\"0 0 640 220\" xmlns=\"http://www.w3.org/2000/svg\">\n<text fill=\"#3a4150\" font-family=\"Source Serif 4, serif\" font-size=\"15\" x=\"70\" y=\"45\">Investor</text>\n<rect fill=\"none\" height=\"80\" stroke=\"#2563eb\" stroke-width=\"1.2\" width=\"130\" x=\"30\" y=\"60\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"60\" y=\"105\">$1,000</text>\n<text fill=\"#3a4150\" font-family=\"Source Serif 4, serif\" font-size=\"15\" x=\"450\" y=\"45\">Government</text>\n<rect fill=\"none\" height=\"80\" stroke=\"#2563eb\" stroke-width=\"1.2\" width=\"140\" x=\"470\" y=\"60\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"495\" y=\"105\">Bond issuer</text>\n<line marker-end=\"url(#arrow)\" stroke=\"#2563eb\" stroke-width=\"1.4\" x1=\"160\" x2=\"470\" y1=\"85\" y2=\"85\"></line>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12\" x=\"230\" y=\"76\">lends $1,000</text>\n<line marker-end=\"url(#arrow2)\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.4\" x1=\"470\" x2=\"160\" y1=\"115\" y2=\"115\"></line>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"11.5\" x=\"185\" y=\"126\">pays $50 / year</text>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"11.5\" x=\"185\" y=\"141\">and returns $1,000 at maturity</text>\n<defs>\n<marker id=\"arrow\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2563eb\"></path></marker>\n<marker id=\"arrow2\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.35)\"></path></marker>\n</defs>\n<text fill=\"#7c8494\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"80\" y=\"185\">Face value: $1,000</text>\n<text fill=\"#7c8494\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"80\" y=\"205\">Coupon rate: 5%  ·  Annual coupon: $50</text>\n</svg>\n<figcaption>A bond is a loan: the investor lends money, the issuer repays interest over time and the principal at maturity.</figcaption>\n</figure>\n<p>For a typical fixed-rate bond, the coupon payment remains the same until maturity.</p>\n<p>However, the bond's market price can change. As its price changes, its yield changes too.</p>\n<p>For example, if you buy this bond for $1,000, you receive $50 annually, giving you a 5% current yield.</p>\n<p>But if you buy the same bond for $900, you still receive $50 annually. Since you paid less to receive the same coupon payment, your current yield rises to approximately 5.56%.</p>\n<p class=\"pull-callout\"><strong>In simple words: The coupon payment stays the same, but the yield changes as the price you pay for the bond changes.</strong></p>\n<h2>2. Who Influences the Bond Market?</h2>\n<p>The bond market is heavily influenced by big investors, such as banks, pension funds, and hedge funds.</p>\n<p>These investors lend huge amounts of money to governments. At the same time, they closely watch what's happening in the economy.</p>\n<p>Before buying bonds, they look at things like inflation, interest rates, and central bank decisions.</p>\n<p>For example, imagine the government is issuing a bond with a face value of $1,000 and an annual coupon payment of $50.</p>\n<p>But big investors believe inflation will rise and interest rates may increase. They might not be happy with the return they would receive by buying the bond at $1,000.</p>\n<p>Instead of asking the government to change the coupon rate, they may bid a lower price for the bond.</p>\n<p>For example, they might be willing to pay only $900 for the bond that pays $50 annually.</p>\n<p>The coupon payment remains $50, but because investors are paying less for the bond, their current yield increases to approximately 5.56%.</p>\n<p>When many investors demand higher yields, their bids can push bond prices lower at the auction.</p>\n<figure>\n<svg viewbox=\"0 0 640 190\" xmlns=\"http://www.w3.org/2000/svg\">\n<g fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.2\">\n<rect height=\"90\" width=\"70\" x=\"50\" y=\"60\"></rect>\n<rect height=\"110\" width=\"70\" x=\"140\" y=\"40\"></rect>\n<rect height=\"75\" width=\"70\" x=\"230\" y=\"75\"></rect>\n</g>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"10.5\" x=\"60\" y=\"52\">Banks</text>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"10.5\" x=\"145\" y=\"32\">Pension Funds</text>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"10.5\" x=\"238\" y=\"67\">Hedge Funds</text>\n<line marker-end=\"url(#a3)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"300\" x2=\"420\" y1=\"100\" y2=\"100\"></line>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"11\" x=\"320\" y=\"90\">bids at auction</text>\n<rect fill=\"none\" height=\"90\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"150\" x=\"430\" y=\"60\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"450\" y=\"90\">Government</text>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"450\" y=\"112\">Bond Auction</text>\n<defs><marker id=\"a3\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker></defs>\n</svg>\n<figcaption>Large institutional investors set the tone at government bond auctions, pricing in their view of inflation and rates.</figcaption>\n</figure>\n<h2>3. Why Are Government Bonds So Important to the Economy?</h2>\n<p>Imagine the government needs money. Many investors are willing to lend it money because they believe the government is highly likely to pay them back.</p>\n<p>This is why bonds issued by financially strong governments, such as US Treasury bonds, are considered among the safest investments in the financial market.</p>\n<p>Now, here's where things get interesting.</p>\n<p>Because government bonds are considered relatively safe, their yields become an important benchmark for interest rates across the economy.</p>\n<p>Let's understand this with a simple example.</p>\n<p>Imagine you have $1,000 to invest.</p>\n<p>You have two choices:</p>\n<ul>\n<li>Lend your money to the US government by buying a Treasury bond that offers a 4% yield.</li>\n<li>Lend your money to someone who wants to buy a house.</li>\n</ul>\n<figure>\n<svg viewbox=\"0 0 640 200\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"none\" height=\"120\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"240\" x=\"40\" y=\"40\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"15\" x=\"60\" y=\"70\">US Treasury Bond</text>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"60\" y=\"100\">Risk: Low</text>\n<text fill=\"#2563eb\" font-family=\"IBM Plex Mono, monospace\" font-size=\"20\" x=\"60\" y=\"122\">4% yield</text>\n<rect fill=\"none\" height=\"120\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"240\" x=\"360\" y=\"40\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"15\" x=\"380\" y=\"70\">Personal Mortgage Loan</text>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"380\" y=\"100\">Risk: Higher</text>\n<text fill=\"#2563eb\" font-family=\"IBM Plex Mono, monospace\" font-size=\"20\" x=\"380\" y=\"122\">Requires &gt; 4%</text>\n</svg>\n<figcaption>Because government debt is considered safer, lenders demand a higher return to take on the extra risk of lending elsewhere.</figcaption>\n</figure>\n<p>Now, would you be willing to lend your money to someone for the same 4% return when lending to the government is generally considered safer?</p>\n<p>Probably not.</p>\n<p>You would likely want a higher return for taking the additional risk of lending to a person.</p>\n<p>This is one reason why mortgage rates and many other borrowing rates are generally higher than comparable government bond yields.</p>\n<h2>4. Why Do Bond Yields Rise and Fall?</h2>\n<p>Once a bond is issued in the primary market, it can be bought and sold in the secondary market.</p>\n<p>As investors buy and sell bonds, their market prices change. And when bond prices change, their yields change too.</p>\n<p>Remember, the coupon payment on a typical fixed-rate bond stays the same. What changes is the price investors are willing to pay for it.</p>\n<p>Now, let's understand why bond yields rise.</p>\n<p>Imagine you own a bond worth $1,000 that pays you $50 every year.</p>\n<p>Suddenly, you hear that inflation may rise in the future and the central bank may increase interest rates.</p>\n<p>Investors begin thinking:</p>\n<p class=\"pull-callout\">\"If interest rates are going to rise, why should I lock my money into a bond that pays only $50 a year?</p>\n<p>Because of this, some investors may decide to sell their existing bonds.</p>\n<p>When more investors want to sell and buyers are only willing to pay lower prices, the bond's price falls.</p>\n<p>For example, the bond that was worth $1,000 may now be worth $900.</p>\n<p>But remember, the bond still pays $50 every year.</p>\n<p>Since a new buyer is paying less to receive the same $50 annual payment, the bond's current yield rises from 5% to approximately 5.56%.</p>\n<p>This is why bond prices and yields move in opposite directions.</p>\n<figure>\n<svg viewbox=\"0 0 640 230\" xmlns=\"http://www.w3.org/2000/svg\">\n<line stroke=\"rgba(20,24,32,0.16)\" stroke-width=\"1\" x1=\"60\" x2=\"580\" y1=\"115\" y2=\"115\"></line>\n<line stroke=\"rgba(20,24,32,0.16)\" stroke-width=\"1\" x1=\"320\" x2=\"320\" y1=\"40\" y2=\"190\"></line>\n<line stroke=\"#2563eb\" stroke-width=\"2\" x1=\"90\" x2=\"320\" y1=\"70\" y2=\"115\"></line>\n<line stroke=\"#2563eb\" stroke-width=\"2\" x1=\"320\" x2=\"550\" y1=\"115\" y2=\"160\"></line>\n<circle cx=\"320\" cy=\"115\" fill=\"#2563eb\" r=\"4\"></circle>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"70\" y=\"55\">Price: $1,000</text>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"70\" y=\"90\">Yield: 5%</text>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"470\" y=\"150\">Price: $900</text>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"470\" y=\"185\">Yield: 5.56%</text>\n</svg>\n<figcaption>As a bond's price falls, its yield rises — and vice versa. The coupon payment itself never changes.</figcaption>\n</figure>\n<p>However, if investors believe inflation will remain under control and interest rates are unlikely to rise significantly, they may be comfortable holding bonds with lower yields.</p>\n<h2>5. Why Do Treasury Bond Yields Matter to Everyone?</h2>\n<p>Now that we understand how bond yields work, let's look at why they matter to the entire economy.</p>\n<p>Remember, US Treasury bond yields act as a benchmark for many interest rates across the economy.</p>\n<p>When Treasury yields rise, borrowing money can become more expensive for people, businesses, and even the government.</p>\n<p>For example, mortgage rates may rise, businesses may face higher borrowing costs, and people may have to pay more to borrow money.</p>\n<p>But why would the US Treasury care about falling bond prices and rising yields?</p>\n<p>Because higher Treasury yields can increase the government's borrowing costs when it issues new debt , cause the old bonds are giving already higher yields .</p>\n<p>To manage its debt, the US Treasury sometimes buys back its own previously issued bonds from investors. This is called a <strong>Treasury buyback</strong>.</p>\n<p>so demand increase  and  bond's price rises, its yield falls.</p>\n<figure>\n<svg viewbox=\"0 0 640 180\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"none\" height=\"70\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"150\" x=\"40\" y=\"55\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"58\" y=\"95\">US Treasury</text>\n<path d=\"M210 90 C 260 40, 340 40, 390 90\" fill=\"none\" marker-end=\"url(#a4)\" stroke=\"#2563eb\" stroke-width=\"1.4\"></path>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"11\" x=\"240\" y=\"35\">buys back existing bonds</text>\n<rect fill=\"none\" height=\"70\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"150\" x=\"400\" y=\"55\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13\" x=\"418\" y=\"87\">Bondholders</text>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"11\" x=\"418\" y=\"107\">(investors)</text>\n<path d=\"M390 130 C 340 165, 260 165, 210 130\" fill=\"none\" marker-end=\"url(#a5)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\"></path>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"11\" x=\"245\" y=\"170\">receive cash</text>\n<defs>\n<marker id=\"a4\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2563eb\"></path></marker>\n<marker id=\"a5\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n</defs>\n</svg>\n<figcaption>A Treasury buyback: the government repurchases outstanding bonds, adding demand back into the market.</figcaption>\n</figure>\n<p>However, Treasury buybacks are mainly used to help manage government debt and improve the functioning of the Treasury market. They are not a guaranteed way to lower interest rates across the economy.</p>\n<h2>6. Bond Yields Tell the Story of Investors' Expectations About Future Inflation and Interest Rates</h2>\n<p>Bond yield clearly shows how investors are thinking about inflation and interest rates in the upcoming days. Because if investors think that interest rates and inflation are going to rise in the future, they may not want to hold bonds that are paying them lower yields right now.</p>\n<p>As a result, selling (supply) of the bonds increases, and the bond price falls. As the bond price falls, its yield increases.</p>\n<p>So, this increasing yield tells us a story that investors may be expecting inflation and interest rates to rise in the future, and they are demanding higher returns on their investments.</p>\n<figure>\n<svg viewbox=\"0 0 640 200\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"none\" height=\"90\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"170\" x=\"20\" y=\"55\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13.5\" x=\"36\" y=\"90\">Investors expect</text>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13.5\" x=\"36\" y=\"110\">rising inflation</text>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13.5\" x=\"36\" y=\"130\">&amp; interest rates</text>\n<path d=\"M195 100 L 230 100\" fill=\"none\" marker-end=\"url(#p7a)\" stroke=\"#2563eb\" stroke-width=\"1.4\"></path>\n<rect fill=\"none\" height=\"90\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"170\" x=\"235\" y=\"55\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13.5\" x=\"251\" y=\"90\">Investors sell</text>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13.5\" x=\"251\" y=\"110\">bonds — supply</text>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13.5\" x=\"251\" y=\"130\">increases</text>\n<path d=\"M410 100 L 445 100\" fill=\"none\" marker-end=\"url(#p7b)\" stroke=\"#2563eb\" stroke-width=\"1.4\"></path>\n<rect fill=\"none\" height=\"90\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"170\" x=\"450\" y=\"55\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13.5\" x=\"466\" y=\"90\">Bond price falls,</text>\n<text fill=\"#2563eb\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" x=\"466\" y=\"110\">yield rises</text>\n<defs>\n<marker id=\"p7a\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2563eb\"></path></marker>\n<marker id=\"p7b\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2563eb\"></path></marker>\n</defs>\n</svg>\n<figcaption>Rising expectations for inflation and interest rates push bond yields higher, as investors sell bonds paying today's lower rates.</figcaption>\n</figure>\n<p>In simple words, bond yield changes as the price of the bond changes, and the bond price changes because of the demand and supply of bonds. And this demand and supply changes as investors' perceptions and predictions regarding future inflation and interest rates change.</p>\n<p>Therefore, by observing bond yields, we can get an idea of what investors are expecting about the future economy, inflation, and interest rates.</p>\n<h2>7. The Relationship Between the Stock and Bond Markets</h2>\n<ol>\n<li>Increasing bond yields increase borrowing costs in the economy, as we discussed above. Because when the base rate (bond rate) increases, other interest rates in the economy also tend to increase due to the additional risk premium.</li>\n<li>So, theoretically, as bond yields rise, borrowing costs increase across the economy. This can directly affect companies because, as their borrowing costs increase, their interest expenses may also increase, which can eventually reduce their net profits.</li>\n</ol>\n<p class=\"pull-callout\">Bond Yields Rise → Corporate Borrowing Costs Rise → Interest Expenses Increase → Net Profit May Decline</p>\n<ol start=\"3\">\n<li>But in practical life, even when bond yields rise, the stock market can still rise due to many other factors that influence stock prices. The relationship between the stock and bond markets is not always straightforward, and rising bond yields do not necessarily mean that stock prices are going to fall.</li>\n</ol>\n<p>There are many factors that influence this relationship, which we are going to explore in the upcoming days.</p>\n</article>\n","image":"/assets/img/6b1e9df6f6.svg","htmlContent":true},{"id":"understanding-cpi","title":"Understanding CPI","date":"","description":"The Number Behind Every Inflation Headline","content":"\n<div class=\"article-header\">\n<div class=\"kicker\">Macro Concepts  ·  Inflation</div>\n<h1 class=\"article-title\">Understanding CPI</h1>\n<p class=\"article-sub\">The Number Behind Every Inflation Headline</p>\n<p class=\"byline\">By Quant Flow Capital</p>\n</div>\n<figure style=\"margin-top:44px;\">\n<svg viewbox=\"0 0 760 240\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#f6f7f9\" height=\"240\" width=\"760\" x=\"0\" y=\"0\"></rect>\n<line stroke=\"rgba(20,24,32,0.12)\" stroke-width=\"1\" x1=\"0\" x2=\"760\" y1=\"205\" y2=\"205\"></line>\n<g fill=\"none\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\">\n<rect height=\"70\" width=\"110\" x=\"60\" y=\"60\"></rect>\n<rect height=\"70\" width=\"110\" x=\"195\" y=\"60\"></rect>\n<rect height=\"70\" width=\"110\" x=\"330\" y=\"60\"></rect>\n<rect height=\"70\" width=\"110\" x=\"465\" y=\"60\"></rect>\n</g>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12\" x=\"78\" y=\"92\">Housing</text>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12\" x=\"213\" y=\"92\">Transport</text>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12\" x=\"348\" y=\"92\">Food &amp; Bev</text>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12\" x=\"483\" y=\"92\">Medical</text>\n<line stroke=\"#2563eb\" stroke-width=\"1.2\" x1=\"115\" x2=\"115\" y1=\"130\" y2=\"160\"></line>\n<line stroke=\"#2563eb\" stroke-width=\"1.2\" x1=\"250\" x2=\"250\" y1=\"130\" y2=\"160\"></line>\n<line stroke=\"#2563eb\" stroke-width=\"1.2\" x1=\"385\" x2=\"385\" y1=\"130\" y2=\"160\"></line>\n<line stroke=\"#2563eb\" stroke-width=\"1.2\" x1=\"520\" x2=\"520\" y1=\"130\" y2=\"160\"></line>\n<line stroke=\"#2563eb\" stroke-width=\"1.2\" x1=\"115\" x2=\"520\" y1=\"160\" y2=\"160\"></line>\n<line marker-end=\"url(#heroArrow)\" stroke=\"#2563eb\" stroke-width=\"1.2\" x1=\"332\" x2=\"332\" y1=\"160\" y2=\"182\"></line>\n<rect fill=\"#f6f7f9\" height=\"30\" stroke=\"#2563eb\" stroke-width=\"1.3\" width=\"185\" x=\"240\" y=\"188\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"255\" y=\"208\">CPI, tracked monthly</text>\n<defs><marker id=\"heroArrow\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2563eb\"></path></marker></defs>\n<text fill=\"#7c8494\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"30\" y=\"235\">A BASKET OF HOUSEHOLD GOODS &amp; SERVICES</text>\n</svg>\n<figcaption>CPI tracks the combined cost of a representative basket of everyday goods and services.</figcaption>\n</figure>\n<article>\n<h2>1. What Is CPI?</h2>\n<p>The Consumer Price Index (CPI) is a statistical measure of the average change in prices over time for a basket of goods and services purchased by households.</p>\n<h2>2. How Is CPI Calculated?</h2>\n<p>To calculate CPI, the Bureau of Labor Statistics (BLS) mainly looks at categories such as housing, transportation, food and beverages, and medical care, along with other goods and services purchased by households.</p>\n<figure>\n<svg viewbox=\"0 0 640 200\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#f6f7f9\" height=\"60\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"260\" x=\"30\" y=\"30\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"48\" y=\"65\">Housing</text>\n<rect fill=\"#f6f7f9\" height=\"60\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"260\" x=\"350\" y=\"30\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"368\" y=\"65\">Transportation</text>\n<rect fill=\"#f6f7f9\" height=\"60\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"260\" x=\"30\" y=\"110\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"48\" y=\"145\">Food &amp; Beverages</text>\n<rect fill=\"#f6f7f9\" height=\"60\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"260\" x=\"350\" y=\"110\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"368\" y=\"145\">Medical Care</text>\n</svg>\n<figcaption>The BLS blends price changes across major household spending categories into a single index.</figcaption>\n</figure>\n<h2>3. What Does CPI Measure?</h2>\n<p>CPI mainly measures how much inflation households are facing on average.</p>\n<h2>4. How Does the BLS Collect CPI Data?</h2>\n<p>The Bureau of Labor Statistics employs over 450 workers who track the prices of approximately 100,000 goods and services and collect data from around 8,000 housing units every month.</p>\n<figure>\n<svg viewbox=\"0 0 640 190\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#f6f7f9\" height=\"70\" stroke=\"#2563eb\" stroke-width=\"1.2\" width=\"160\" x=\"30\" y=\"60\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13.5\" x=\"48\" y=\"90\">450+ Data</text>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13.5\" x=\"48\" y=\"110\">Collectors</text>\n<line marker-end=\"url(#bA)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"190\" x2=\"235\" y1=\"95\" y2=\"95\"></line>\n<rect fill=\"#f6f7f9\" height=\"50\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"180\" x=\"240\" y=\"50\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" x=\"256\" y=\"80\">~100,000 prices tracked</text>\n<rect fill=\"#f6f7f9\" height=\"50\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"180\" x=\"240\" y=\"110\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" x=\"256\" y=\"140\">~8,000 housing units</text>\n<line stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"420\" x2=\"465\" y1=\"75\" y2=\"95\"></line>\n<line marker-end=\"url(#bB)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"420\" x2=\"465\" y1=\"135\" y2=\"95\"></line>\n<rect fill=\"#f6f7f9\" height=\"60\" stroke=\"#2563eb\" stroke-width=\"1.2\" width=\"140\" x=\"470\" y=\"65\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13\" x=\"486\" y=\"90\">Monthly</text>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13\" x=\"486\" y=\"108\">CPI release</text>\n<defs>\n<marker id=\"bA\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n<marker id=\"bB\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n</defs>\n</svg>\n<figcaption>Every month, a nationwide data-collection effort feeds into a single published CPI figure.</figcaption>\n</figure>\n<h2>5. What Is Core CPI?</h2>\n<p>Core CPI is a measure of inflation, just like CPI, but it excludes food and energy prices, because these can fluctuate significantly due to factors such as geopolitical conflicts, weather conditions, and supply disruptions.</p>\n<p>By excluding these volatile categories, Core CPI helps economists and the Federal Reserve understand underlying inflation trends and determine whether inflationary pressures are spreading across the broader economy.</p>\n<figure>\n<svg viewbox=\"0 0 640 240\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"320\" cy=\"130\" fill=\"none\" r=\"85\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.3\"></circle>\n<circle cx=\"320\" cy=\"130\" fill=\"none\" r=\"45\" stroke=\"#2563eb\" stroke-width=\"1.6\"></circle>\n<rect fill=\"#f6f7f9\" height=\"20\" width=\"150\" x=\"245\" y=\"8\"></rect>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" text-anchor=\"middle\" x=\"320\" y=\"23\">HEADLINE CPI</text>\n<rect fill=\"#f6f7f9\" height=\"20\" width=\"140\" x=\"250\" y=\"53\"></rect>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12.5\" text-anchor=\"middle\" x=\"320\" y=\"68\">Food &amp; Energy</text>\n<rect fill=\"#f6f7f9\" height=\"22\" width=\"100\" x=\"270\" y=\"112\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"16\" text-anchor=\"middle\" x=\"320\" y=\"128\">Core CPI</text>\n<rect fill=\"#f6f7f9\" height=\"18\" width=\"160\" x=\"240\" y=\"136\"></rect>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"11.5\" text-anchor=\"middle\" x=\"320\" y=\"150\">(ex. food &amp; energy)</text>\n</svg>\n<figcaption>Core CPI sits inside Headline CPI, stripping out the two most volatile categories.</figcaption>\n</figure>\n<p class=\"pull-callout\">Core CPI helps the Fed see the trend underneath the noise of volatile food and energy prices.</p>\n<h2>6. Actual Data vs. Forecast Data</h2>\n<p>Actual economic data is the officially reported figure released by the relevant statistical agency, such as the Bureau of Labor Statistics for US CPI. Forecast data, on the other hand, is generally prepared by economists and analysts from banks, hedge funds, investment firms, and other institutions. Economic calendars often display a consensus forecast based on estimates from multiple analysts and institutions.</p>\n<p>When the actual data is released, it is compared with the forecast to determine whether the result came in higher or lower than expected.</p>\n<figure>\n<svg viewbox=\"0 0 640 220\" xmlns=\"http://www.w3.org/2000/svg\">\n<line stroke=\"rgba(20,24,32,0.16)\" stroke-width=\"1\" x1=\"60\" x2=\"580\" y1=\"175\" y2=\"175\"></line>\n<rect fill=\"none\" height=\"80\" stroke=\"rgba(20,24,32,0.4)\" stroke-width=\"1.3\" width=\"80\" x=\"150\" y=\"95\"></rect>\n<rect fill=\"#f6f7f9\" height=\"24\" width=\"120\" x=\"130\" y=\"55\"></rect>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" text-anchor=\"middle\" x=\"190\" y=\"72\">Forecast</text>\n<rect fill=\"#f6f7f9\" height=\"20\" width=\"120\" x=\"130\" y=\"182\"></rect>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"190\" y=\"197\">consensus estimate</text>\n<rect fill=\"none\" height=\"110\" stroke=\"#2563eb\" stroke-width=\"1.6\" width=\"80\" x=\"390\" y=\"65\"></rect>\n<rect fill=\"#f6f7f9\" height=\"24\" width=\"120\" x=\"370\" y=\"25\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" text-anchor=\"middle\" x=\"430\" y=\"42\">Actual</text>\n<rect fill=\"#f6f7f9\" height=\"20\" width=\"120\" x=\"370\" y=\"182\"></rect>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"430\" y=\"197\">official release</text>\n</svg>\n<figcaption>The gap between the consensus forecast and the actual release is what tends to move markets.</figcaption>\n</figure>\n<p class=\"pull-callout\">Economic calendars often use green and red colors to highlight these differences, but the color does not automatically indicate whether the data is positive or negative.</p>\n<h2>7. CPI Month-over-Month vs. Year-over-Year</h2>\n<p>CPI Month-over-Month (MoM) measures the percentage change in the Consumer Price Index compared with the previous month. For example, if CPI MoM is 0.2%, it means the overall consumer price index has increased by 0.2% compared with the previous month.</p>\n<p>CPI Year-over-Year (YoY), on the other hand, measures the percentage change in the Consumer Price Index compared with the same month in the previous year. For example, if CPI YoY is 3.0%, it means the overall consumer price index is 3.0% higher than it was in the same month one year ago.</p>\n<figure>\n<svg viewbox=\"0 0 640 230\" xmlns=\"http://www.w3.org/2000/svg\">\n<line stroke=\"rgba(20,24,32,0.16)\" stroke-width=\"1\" x1=\"60\" x2=\"580\" y1=\"185\" y2=\"185\"></line>\n<rect fill=\"none\" height=\"22\" stroke=\"rgba(20,24,32,0.4)\" stroke-width=\"1.3\" width=\"80\" x=\"160\" y=\"163\"></rect>\n<rect fill=\"#f6f7f9\" height=\"24\" width=\"140\" x=\"130\" y=\"120\"></rect>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" text-anchor=\"middle\" x=\"200\" y=\"137\">MoM: +0.2%</text>\n<rect fill=\"#f6f7f9\" height=\"20\" width=\"160\" x=\"120\" y=\"192\"></rect>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"200\" y=\"207\">vs. last month</text>\n<rect fill=\"none\" height=\"130\" stroke=\"#2563eb\" stroke-width=\"1.6\" width=\"80\" x=\"400\" y=\"55\"></rect>\n<rect fill=\"#f6f7f9\" height=\"24\" width=\"150\" x=\"365\" y=\"18\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" text-anchor=\"middle\" x=\"440\" y=\"35\">YoY: +3.0%</text>\n<rect fill=\"#f6f7f9\" height=\"20\" width=\"170\" x=\"355\" y=\"192\"></rect>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"440\" y=\"207\">vs. one year ago</text>\n</svg>\n<figcaption>YoY compares against the same month last year, so it captures a full year of price changes rather than just one month's move.</figcaption>\n</figure>\n<h2>8. What Is PCE?</h2>\n<p>PCE, or Personal Consumption Expenditures, measures the change in prices of goods and services consumed by households, including those paid for directly by households and those paid for on their behalf by employers or government programs.</p>\n<figure>\n<svg viewbox=\"0 0 640 210\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#f6f7f9\" height=\"50\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"180\" x=\"20\" y=\"20\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13\" x=\"36\" y=\"42\">Paid directly by</text>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13\" x=\"36\" y=\"59\">households</text>\n<rect fill=\"#f6f7f9\" height=\"50\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"180\" x=\"20\" y=\"80\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13\" x=\"36\" y=\"110\">Paid by employers</text>\n<rect fill=\"#f6f7f9\" height=\"50\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"180\" x=\"20\" y=\"140\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13\" x=\"36\" y=\"163\">Paid by government</text>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13\" x=\"36\" y=\"180\">programs</text>\n<line marker-end=\"url(#pceA)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"200\" x2=\"270\" y1=\"45\" y2=\"95\"></line>\n<line marker-end=\"url(#pceB)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"200\" x2=\"270\" y1=\"105\" y2=\"105\"></line>\n<line marker-end=\"url(#pceC)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"200\" x2=\"270\" y1=\"165\" y2=\"115\"></line>\n<rect fill=\"none\" height=\"80\" stroke=\"#2563eb\" stroke-width=\"1.6\" width=\"150\" x=\"275\" y=\"65\"></rect>\n<rect fill=\"#f6f7f9\" height=\"30\" width=\"120\" x=\"290\" y=\"90\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" text-anchor=\"middle\" x=\"350\" y=\"110\">PCE</text>\n<defs>\n<marker id=\"pceA\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n<marker id=\"pceB\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n<marker id=\"pceC\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n</defs>\n</svg>\n<figcaption>PCE combines household spending from all three payment sources into one measure of consumption prices.</figcaption>\n</figure>\n<h2>9. What Does PCE Actually Measure?</h2>\n<p>PCE (Personal Consumption Expenditures Price Index) is an indicator that measures the estimated change in prices of goods and services consumed by people, including those paid for by themselves and by others, such as employers or the government, on their behalf.</p>\n<figure>\n<svg viewbox=\"0 0 640 220\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#f6f7f9\" height=\"55\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"130\" x=\"20\" y=\"25\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"35\" y=\"58\">You</text>\n<rect fill=\"#f6f7f9\" height=\"55\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"150\" x=\"170\" y=\"25\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"185\" y=\"58\">Your Employer</text>\n<rect fill=\"#f6f7f9\" height=\"55\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"160\" x=\"340\" y=\"25\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"355\" y=\"58\">Government</text>\n<line marker-end=\"url(#pce9A)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"85\" x2=\"270\" y1=\"80\" y2=\"140\"></line>\n<line marker-end=\"url(#pce9B)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"245\" x2=\"290\" y1=\"80\" y2=\"140\"></line>\n<line marker-end=\"url(#pce9C)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"420\" x2=\"315\" y1=\"80\" y2=\"140\"></line>\n<rect fill=\"none\" height=\"60\" stroke=\"#2563eb\" stroke-width=\"1.6\" width=\"170\" x=\"235\" y=\"145\"></rect>\n<rect fill=\"#f6f7f9\" height=\"24\" width=\"130\" x=\"255\" y=\"165\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" text-anchor=\"middle\" x=\"320\" y=\"182\">PCE Price Index</text>\n<defs>\n<marker id=\"pce9A\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n<marker id=\"pce9B\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n<marker id=\"pce9C\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n</defs>\n</svg>\n<figcaption>Whether you pay out of pocket or someone pays on your behalf, PCE counts it as consumption.</figcaption>\n</figure>\n<h2>10. CPI vs. PCE: How Often the Basket Weights Change</h2>\n<p>The CPI basket's expenditure weights are updated annually, whereas the PCE adjusts its basket's weights monthly based on changes in consumer spending patterns and trends.</p>\n<figure>\n<svg viewbox=\"0 0 640 210\" xmlns=\"http://www.w3.org/2000/svg\">\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"20\" y=\"30\">CPI</text>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12\" x=\"20\" y=\"48\">Weights updated annually</text>\n<rect fill=\"#f6f7f9\" height=\"14\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"14\" x=\"170\" y=\"14\"></rect>\n<rect fill=\"#f6f7f9\" height=\"14\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"14\" x=\"190\" y=\"14\"></rect>\n<rect fill=\"#f6f7f9\" height=\"14\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"14\" x=\"210\" y=\"14\"></rect>\n<rect fill=\"#f6f7f9\" height=\"14\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"14\" x=\"230\" y=\"14\"></rect>\n<rect fill=\"#f6f7f9\" height=\"14\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"14\" x=\"250\" y=\"14\"></rect>\n<rect fill=\"#f6f7f9\" height=\"14\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"14\" x=\"270\" y=\"14\"></rect>\n<rect fill=\"#f6f7f9\" height=\"14\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"14\" x=\"290\" y=\"14\"></rect>\n<rect fill=\"#f6f7f9\" height=\"14\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"14\" x=\"310\" y=\"14\"></rect>\n<rect fill=\"#f6f7f9\" height=\"14\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"14\" x=\"330\" y=\"14\"></rect>\n<rect fill=\"#f6f7f9\" height=\"14\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"14\" x=\"350\" y=\"14\"></rect>\n<rect fill=\"#f6f7f9\" height=\"14\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"14\" x=\"370\" y=\"14\"></rect>\n<rect fill=\"#2563eb\" height=\"14\" stroke=\"#2563eb\" stroke-width=\"1.2\" width=\"14\" x=\"390\" y=\"14\"></rect>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"390\" y=\"52\">one update</text>\n<line stroke=\"rgba(20,24,32,0.12)\" stroke-width=\"1\" x1=\"20\" x2=\"580\" y1=\"90\" y2=\"90\"></line>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"20\" y=\"120\">PCE</text>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12\" x=\"20\" y=\"138\">Weights updated monthly</text>\n<rect fill=\"#2563eb\" height=\"14\" width=\"14\" x=\"170\" y=\"104\"></rect>\n<rect fill=\"#2563eb\" height=\"14\" width=\"14\" x=\"190\" y=\"104\"></rect>\n<rect fill=\"#2563eb\" height=\"14\" width=\"14\" x=\"210\" y=\"104\"></rect>\n<rect fill=\"#2563eb\" height=\"14\" width=\"14\" x=\"230\" y=\"104\"></rect>\n<rect fill=\"#2563eb\" height=\"14\" width=\"14\" x=\"250\" y=\"104\"></rect>\n<rect fill=\"#2563eb\" height=\"14\" width=\"14\" x=\"270\" y=\"104\"></rect>\n<rect fill=\"#2563eb\" height=\"14\" width=\"14\" x=\"290\" y=\"104\"></rect>\n<rect fill=\"#2563eb\" height=\"14\" width=\"14\" x=\"310\" y=\"104\"></rect>\n<rect fill=\"#2563eb\" height=\"14\" width=\"14\" x=\"330\" y=\"104\"></rect>\n<rect fill=\"#2563eb\" height=\"14\" width=\"14\" x=\"350\" y=\"104\"></rect>\n<rect fill=\"#2563eb\" height=\"14\" width=\"14\" x=\"370\" y=\"104\"></rect>\n<rect fill=\"#2563eb\" height=\"14\" width=\"14\" x=\"390\" y=\"104\"></rect>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"280\" y=\"142\">twelve updates a year</text>\n</svg>\n<figcaption>Each square represents a month. CPI weights move once a year; PCE weights move every month.</figcaption>\n</figure>\n</article>\n","htmlContent":true},{"id":"understanding-pmi","title":"Understanding PMI","date":"","description":"The Signal Behind Every Growth Headline","content":"\n<div class=\"article-header\">\n<div class=\"kicker\">Macro Concepts  ·  Business Activity</div>\n<h1 class=\"article-title\">Understanding PMI</h1>\n<p class=\"article-sub\">The Signal Behind Every Growth Headline</p>\n<p class=\"byline\">By Quant Flow Capital</p>\n</div>\n<figure style=\"margin-top:44px;\">\n<svg viewbox=\"0 0 760 240\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#f6f7f9\" height=\"240\" width=\"760\" x=\"0\" y=\"0\"></rect>\n<line stroke=\"rgba(20,24,32,0.12)\" stroke-width=\"1\" x1=\"0\" x2=\"760\" y1=\"205\" y2=\"205\"></line>\n<rect fill=\"none\" height=\"70\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"230\" x=\"60\" y=\"60\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"78\" y=\"90\">Purchasing managers</text>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"78\" y=\"110\">surveyed monthly</text>\n<line marker-end=\"url(#heroArrow)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"290\" x2=\"345\" y1=\"95\" y2=\"95\"></line>\n<rect fill=\"none\" height=\"70\" stroke=\"#2563eb\" stroke-width=\"1.6\" width=\"230\" x=\"350\" y=\"60\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"368\" y=\"90\">New orders, output,</text>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"368\" y=\"108\">employment, activity</text>\n<line marker-end=\"url(#heroArrow2)\" stroke=\"#2563eb\" stroke-width=\"1.2\" x1=\"465\" x2=\"465\" y1=\"130\" y2=\"160\"></line>\n<rect fill=\"#f6f7f9\" height=\"30\" stroke=\"#2563eb\" stroke-width=\"1.3\" width=\"190\" x=\"370\" y=\"166\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"385\" y=\"186\">PMI, tracked monthly</text>\n<defs>\n<marker id=\"heroArrow\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n<marker id=\"heroArrow2\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2563eb\"></path></marker>\n</defs>\n<text fill=\"#7c8494\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"30\" y=\"235\">A MONTHLY READ ON EXPANDING OR CONTRACTING ACTIVITY</text>\n</svg>\n<figcaption>Each month, surveys of purchasing managers roll up into a single PMI reading.</figcaption>\n</figure>\n<article>\n<h2>1. What Is PMI?</h2>\n<p>PMI, or the Purchasing Managers' Index, is an economic indicator that helps us understand whether business activity in an economy is expanding or contracting. In simple words, PMI tells us whether businesses are doing better or worse compared with the previous month.</p>\n<h2>2. A Simple Way to Picture It</h2>\n<p>Imagine a bakery that receives more customer orders, produces more bread, and purchases more ingredients than it did last month. This means its business activity is <strong>expanding</strong>.</p>\n<p>But if customer orders decline and the bakery starts producing less bread, its business activity is <strong>contracting</strong>. PMI applies this same idea across an entire economy, not just one bakery.</p>\n<h2>3. How Is PMI Data Collected?</h2>\n<p>Organizations such as ISM and S&amp;P Global survey purchasing managers from businesses across the US to understand whether new orders, production, employment, and overall business activity are increasing or decreasing.</p>\n<figure>\n<svg viewbox=\"0 0 640 200\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#f6f7f9\" height=\"60\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"260\" x=\"30\" y=\"30\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"48\" y=\"65\">New Orders</text>\n<rect fill=\"#f6f7f9\" height=\"60\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"260\" x=\"350\" y=\"30\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"368\" y=\"65\">Production</text>\n<rect fill=\"#f6f7f9\" height=\"60\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"260\" x=\"30\" y=\"110\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"48\" y=\"145\">Employment</text>\n<rect fill=\"#f6f7f9\" height=\"60\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"260\" x=\"350\" y=\"110\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"368\" y=\"145\">Overall Activity</text>\n</svg>\n<figcaption>Surveys ask purchasing managers about these four areas, then blend the responses into one index.</figcaption>\n</figure>\n<h2>4. Reading the Number: The 50-Point Threshold</h2>\n<p>PMI readings are interpreted using a fixed 50-point threshold, not a moving average:</p>\n<ul>\n<li><strong>Above 50</strong> means business activity is expanding.</li>\n<li><strong>Below 50</strong> means business activity is contracting.</li>\n<li><strong>At 50</strong> means business activity is broadly unchanged.</li>\n</ul>\n<figure>\n<svg viewbox=\"0 0 640 200\" xmlns=\"http://www.w3.org/2000/svg\">\n<line stroke=\"rgba(20,24,32,0.16)\" stroke-width=\"1\" x1=\"60\" x2=\"580\" y1=\"160\" y2=\"160\"></line>\n<rect fill=\"none\" height=\"70\" stroke=\"rgba(20,24,32,0.4)\" stroke-width=\"1.3\" width=\"190\" x=\"80\" y=\"60\"></rect>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"98\" y=\"90\">Below 50</text>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"98\" y=\"110\">Contraction</text>\n<line stroke=\"#2563eb\" stroke-width=\"1.6\" x1=\"320\" x2=\"320\" y1=\"50\" y2=\"150\"></line>\n<rect fill=\"#f6f7f9\" height=\"24\" width=\"100\" x=\"270\" y=\"18\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" text-anchor=\"middle\" x=\"320\" y=\"35\">50</text>\n<rect fill=\"none\" height=\"70\" stroke=\"#2563eb\" stroke-width=\"1.6\" width=\"190\" x=\"370\" y=\"60\"></rect>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"388\" y=\"90\">Above 50</text>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"388\" y=\"110\">Expansion</text>\n<rect fill=\"#f6f7f9\" height=\"20\" width=\"120\" x=\"150\" y=\"168\"></rect>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"210\" y=\"183\">shrinking activity</text>\n<rect fill=\"#f6f7f9\" height=\"20\" width=\"120\" x=\"370\" y=\"168\"></rect>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"430\" y=\"183\">growing activity</text>\n</svg>\n<figcaption>The 50-point line separates expansion from contraction, regardless of how far the reading moves in either direction.</figcaption>\n</figure>\n<h2>5. Example: PMI Rising From 48 to 53</h2>\n<p>If the US PMI rises from 48 to 53, it indicates that business activity has moved from contraction into expansion.</p>\n<figure>\n<svg viewbox=\"0 0 640 220\" xmlns=\"http://www.w3.org/2000/svg\">\n<line stroke=\"rgba(20,24,32,0.16)\" stroke-width=\"1\" x1=\"60\" x2=\"580\" y1=\"175\" y2=\"175\"></line>\n<rect fill=\"none\" height=\"60\" stroke=\"rgba(20,24,32,0.4)\" stroke-width=\"1.3\" width=\"80\" x=\"150\" y=\"115\"></rect>\n<rect fill=\"#f6f7f9\" height=\"24\" width=\"120\" x=\"130\" y=\"75\"></rect>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" text-anchor=\"middle\" x=\"190\" y=\"92\">PMI: 48</text>\n<rect fill=\"#f6f7f9\" height=\"20\" width=\"120\" x=\"130\" y=\"182\"></rect>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"190\" y=\"197\">previous month</text>\n<rect fill=\"none\" height=\"110\" stroke=\"#2563eb\" stroke-width=\"1.6\" width=\"80\" x=\"390\" y=\"65\"></rect>\n<rect fill=\"#f6f7f9\" height=\"24\" width=\"130\" x=\"365\" y=\"25\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" text-anchor=\"middle\" x=\"430\" y=\"42\">PMI: 53</text>\n<rect fill=\"#f6f7f9\" height=\"20\" width=\"130\" x=\"365\" y=\"182\"></rect>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"430\" y=\"197\">latest release</text>\n</svg>\n<figcaption>Crossing the 50 line is what changes the read from contraction to expansion — not just the size of the move.</figcaption>\n</figure>\n<p class=\"pull-callout\">A PMI move across 50 tells you the direction of activity has actually flipped, not just that the pace has changed.</p>\n<h2>6. Why PMI Matters for Markets</h2>\n<p>For financial-market participants, PMI is important because stronger business activity may indicate improving economic conditions, while weakening business activity may signal an economic slowdown.</p>\n<p>Traders monitor PMI alongside other economic indicators to understand the direction of economic growth and potential changes in central-bank interest-rate expectations.</p>\n</article>\n","htmlContent":true},{"id":"us-labor-market","title":"Tools Used to Understand the US Labor Market","date":"","description":"The Data Behind Every Jobs Report","image":"/assets/img/3f9f02472e.avif","content":"\n<div class=\"article-header\">\n<div class=\"kicker\">Macro Concepts  ·  Labor Market</div>\n<h1 class=\"article-title\">Tools Used to Understand the US Labor Market</h1>\n<p class=\"article-sub\">The Data Behind Every Jobs Report</p>\n<p class=\"byline\">By Quant Flow Capital</p>\n</div>\n<figure style=\"margin-top:44px;\">\n<svg viewbox=\"0 0 760 240\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#f6f7f9\" height=\"240\" width=\"760\" x=\"0\" y=\"0\"></rect>\n<line stroke=\"rgba(20,24,32,0.12)\" stroke-width=\"1\" x1=\"0\" x2=\"760\" y1=\"205\" y2=\"205\"></line>\n<rect fill=\"none\" height=\"90\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"600\" x=\"80\" y=\"55\"></rect>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"100\" y=\"45\">LABOR FORCE</text>\n<rect fill=\"#ffffff\" height=\"50\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.1\" width=\"230\" x=\"105\" y=\"75\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"122\" y=\"105\">Employed</text>\n<rect fill=\"#ffffff\" height=\"50\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.1\" width=\"250\" x=\"405\" y=\"75\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"14\" x=\"422\" y=\"105\">Unemployed, seeking work</text>\n<line stroke=\"#2563eb\" stroke-width=\"1.2\" x1=\"220\" x2=\"220\" y1=\"145\" y2=\"170\"></line>\n<line stroke=\"#2563eb\" stroke-width=\"1.2\" x1=\"530\" x2=\"530\" y1=\"145\" y2=\"170\"></line>\n<line stroke=\"#2563eb\" stroke-width=\"1.2\" x1=\"220\" x2=\"530\" y1=\"170\" y2=\"170\"></line>\n<line marker-end=\"url(#heroArrow)\" stroke=\"#2563eb\" stroke-width=\"1.2\" x1=\"375\" x2=\"375\" y1=\"170\" y2=\"188\"></line>\n<rect fill=\"#f6f7f9\" height=\"30\" stroke=\"#2563eb\" stroke-width=\"1.3\" width=\"340\" x=\"205\" y=\"190\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11.5\" text-anchor=\"middle\" x=\"375\" y=\"209\">Unemployment Rate, tracked monthly</text>\n<defs><marker id=\"heroArrow\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2563eb\"></path></marker></defs>\n<text fill=\"#7c8494\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"80\" y=\"235\">EMPLOYED + UNEMPLOYED = LABOR FORCE</text>\n</svg>\n<figcaption>The labor force splits into two groups — employed and unemployed — and their ratio drives the headline number.</figcaption>\n</figure>\n<article>\n<h2>1. What Is the Labor Force?</h2>\n<p>The <strong>labor force</strong> is the total number of people who are either working or actively looking for a job.</p>\n<p>It consists of two groups:</p>\n<ol>\n<li><strong>Employed people</strong> — People who currently have a job.</li>\n<li><strong>Unemployed people</strong> — People who don't currently have a job but are actively looking for work.</li>\n</ol>\n<h2>2. What Is the Unemployment Rate?</h2>\n<p>The unemployment rate measures the percentage of people in the labor force who are unemployed but actively looking for work.</p>\n<p>The unemployment rate is calculated by dividing the number of unemployed people by the total labor force and multiplying by 100.</p>\n<h3>Formula</h3>\n<div class=\"formula-line\">Unemployment Rate = (Unemployed People ÷ Total Labor Force) × 100</div>\n<figure>\n<svg viewbox=\"0 0 640 210\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#f6f7f9\" height=\"50\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"180\" x=\"20\" y=\"30\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" x=\"36\" y=\"60\">Unemployed = 10</text>\n<rect fill=\"#f6f7f9\" height=\"50\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"180\" x=\"20\" y=\"120\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" x=\"36\" y=\"150\">Labor Force = 100</text>\n<line marker-end=\"url(#uA)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"200\" x2=\"270\" y1=\"55\" y2=\"95\"></line>\n<line marker-end=\"url(#uB)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"200\" x2=\"270\" y1=\"145\" y2=\"105\"></line>\n<rect fill=\"none\" height=\"60\" stroke=\"#2563eb\" stroke-width=\"1.6\" width=\"150\" x=\"275\" y=\"75\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13\" text-anchor=\"middle\" x=\"350\" y=\"100\">÷, then ×100</text>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" text-anchor=\"middle\" x=\"350\" y=\"118\">10 ÷ 100 = 0.10</text>\n<line marker-end=\"url(#uC)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"425\" x2=\"470\" y1=\"105\" y2=\"105\"></line>\n<rect fill=\"#f6f7f9\" height=\"50\" stroke=\"#2563eb\" stroke-width=\"1.3\" width=\"140\" x=\"475\" y=\"80\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" text-anchor=\"middle\" x=\"545\" y=\"110\">= 10%</text>\n<defs>\n<marker id=\"uA\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n<marker id=\"uB\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n<marker id=\"uC\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n</defs>\n</svg>\n<figcaption>With 90 employed and 10 unemployed and looking, the labor force is 100 and the unemployment rate is 10%.</figcaption>\n</figure>\n<div class=\"calc-block\">\n      Employed = 90<br/>\n      Unemployed and actively looking for work = 10<br/>\n      Total Labor Force = 100<br/><br/>\n      10 ÷ 100 = 0.10<br/>\n      0.10 × 100 = 10%<br/><br/>\n<span class=\"final\">Final Answer: The unemployment rate is 10%, meaning 10 out of every 100 people in the labor force are unemployed and actively looking for work.</span>\n</div>\n<p>The unemployment rate is calculated based on the <strong>labor force, not the total population.</strong></p>\n<h2>3. How Do We Understand the Unemployment Rate?</h2>\n<p>There is no single unemployment rate at which the US economy is automatically in trouble. We need to look at the unemployment rate, how quickly it is rising, and whether the increase continues over time.</p>\n<p>As a rough guide:</p>\n<ul>\n<li><strong>Around 4%–4.5%:</strong> Close to the Fed's longer-run estimate.</li>\n<li><strong>Around 4.5%–5%:</strong> Worth monitoring, especially if the rate is rising.</li>\n<li><strong>Around 5%–6%:</strong> May signal meaningful labor-market weakening if sustained.</li>\n<li><strong>Above 6%:</strong> Often indicates substantial labor-market weakness, depending on the broader economic conditions.</li>\n</ul>\n<figure>\n<svg viewbox=\"0 0 640 150\" xmlns=\"http://www.w3.org/2000/svg\">\n<line stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.3\" x1=\"40\" x2=\"600\" y1=\"90\" y2=\"90\"></line>\n<line stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"40\" x2=\"40\" y1=\"82\" y2=\"98\"></line>\n<line stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"180\" x2=\"180\" y1=\"82\" y2=\"98\"></line>\n<line stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"320\" x2=\"320\" y1=\"82\" y2=\"98\"></line>\n<line stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"460\" x2=\"460\" y1=\"82\" y2=\"98\"></line>\n<line stroke=\"#2563eb\" stroke-width=\"1.4\" x1=\"600\" x2=\"600\" y1=\"82\" y2=\"98\"></line>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" text-anchor=\"middle\" x=\"40\" y=\"70\">4%</text>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" text-anchor=\"middle\" x=\"180\" y=\"70\">4.5%</text>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" text-anchor=\"middle\" x=\"320\" y=\"70\">5%</text>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" text-anchor=\"middle\" x=\"460\" y=\"70\">6%</text>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" text-anchor=\"middle\" x=\"600\" y=\"70\">rising</text>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"11.5\" text-anchor=\"middle\" x=\"110\" y=\"118\">Near Fed estimate</text>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"11.5\" text-anchor=\"middle\" x=\"250\" y=\"118\">Worth monitoring</text>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"11.5\" text-anchor=\"middle\" x=\"390\" y=\"118\">Possible weakening</text>\n<text fill=\"#161a22\" font-family=\"Inter, sans-serif\" font-size=\"11.5\" text-anchor=\"middle\" x=\"530\" y=\"118\">Substantial weakness</text>\n</svg>\n<figcaption>These bands are rough guideposts, not official Fed thresholds — the direction of travel matters as much as the level.</figcaption>\n</figure>\n<p class=\"pull-callout\">These are approximate guideposts, not official Federal Reserve thresholds or automatic recession signals. We should also look at job growth, labor-force participation, and initial jobless claims to understand the overall labor market.</p>\n<h2>4. Nonfarm Payrolls (NFP)</h2>\n<h3>What Does Nonfarm Mean?</h3>\n<p>Nonfarm refers to employment in sectors other than farming or agriculture. For example, teachers, doctors, software engineers, waiters, and construction workers are examples of people working in nonfarm sectors.</p>\n<h3>What Does Payroll Mean?</h3>\n<p>Payroll refers to employees who work for an employer and receive payment for their work. For example, nurses, doctors, and administrative workers working at a hospital are on the hospital's payroll because the hospital pays them for their work.</p>\n<figure>\n<svg viewbox=\"0 0 640 150\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#f6f7f9\" height=\"60\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"160\" x=\"30\" y=\"45\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13.5\" x=\"46\" y=\"70\">Employer</text>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"11.5\" x=\"46\" y=\"90\">e.g. a hospital</text>\n<line marker-end=\"url(#pA)\" stroke=\"#2563eb\" stroke-width=\"1.3\" x1=\"190\" x2=\"255\" y1=\"75\" y2=\"75\"></line>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" text-anchor=\"middle\" x=\"222\" y=\"65\">pays</text>\n<rect fill=\"#f6f7f9\" height=\"60\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"160\" x=\"260\" y=\"45\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13.5\" x=\"276\" y=\"70\">Employee</text>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"11.5\" x=\"276\" y=\"90\">nurse, doctor, admin</text>\n<line marker-end=\"url(#pB)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"420\" x2=\"465\" y1=\"75\" y2=\"75\"></line>\n<rect fill=\"none\" height=\"60\" stroke=\"#2563eb\" stroke-width=\"1.6\" width=\"145\" x=\"470\" y=\"45\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" text-anchor=\"middle\" x=\"542\" y=\"70\">On the</text>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" text-anchor=\"middle\" x=\"542\" y=\"88\">payroll</text>\n<defs>\n<marker id=\"pA\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2563eb\"></path></marker>\n<marker id=\"pB\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n</defs>\n</svg>\n<figcaption>Anyone an employer pays directly for their work is counted on that employer's payroll.</figcaption>\n</figure>\n<h3>What Is Nonfarm Payrolls (NFP)?</h3>\n<p>Nonfarm Payrolls (NFP) measures the monthly change in the number of paid employee jobs in the US, excluding agricultural workers, private household employees, unincorporated self-employed workers, and unpaid family workers.</p>\n<p>For example, if the US economy had 150 million nonfarm payroll jobs last month and 150.2 million this month, it means the number of nonfarm payroll jobs increased by approximately 200,000.</p>\n<p class=\"pull-callout\">200,000 jobs added means there were approximately 200,000 more nonfarm payroll jobs this month than the previous month. It does not mean that 200,000 job vacancies were created.</p>\n<figure>\n<svg viewbox=\"0 0 640 170\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#f6f7f9\" height=\"60\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"190\" x=\"30\" y=\"55\"></rect>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"46\" y=\"80\">Last month</text>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"46\" y=\"100\">150.0M jobs</text>\n<line marker-end=\"url(#nA)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"220\" x2=\"270\" y1=\"85\" y2=\"85\"></line>\n<rect fill=\"none\" height=\"60\" stroke=\"#2563eb\" stroke-width=\"1.6\" width=\"190\" x=\"275\" y=\"45\"></rect>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"291\" y=\"70\">This month</text>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"291\" y=\"90\">150.2M jobs</text>\n<line marker-end=\"url(#nB)\" stroke=\"#2563eb\" stroke-width=\"1.2\" x1=\"370\" x2=\"370\" y1=\"105\" y2=\"130\"></line>\n<rect fill=\"#f6f7f9\" height=\"26\" stroke=\"#2563eb\" stroke-width=\"1.3\" width=\"160\" x=\"290\" y=\"135\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" text-anchor=\"middle\" x=\"370\" y=\"153\">NFP: +200,000</text>\n<defs>\n<marker id=\"nA\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n<marker id=\"nB\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2563eb\"></path></marker>\n</defs>\n</svg>\n<figcaption>NFP reports the change between two monthly snapshots, not the number of new openings.</figcaption>\n</figure>\n<h2>5. JOLTS Job Openings</h2>\n<p><strong>JOLTS</strong> stands for <strong>Job Openings and Labor Turnover Survey</strong>. It is a monthly survey conducted by the US Bureau of Labor Statistics (BLS).</p>\n<p>JOLTS Job Openings measures the number of <strong>unfilled positions that employers are actively seeking to fill</strong> in the US economy.</p>\n<p>For example, if the JOLTS Job Openings data comes in at 7.3 million, it means there are approximately 7.3 million unfilled job positions that employers are actively looking to fill in the US economy.</p>\n<p>JOLTS Job Openings data covers nonfarm sectors of the US economy, including private-sector and government job openings, but excludes farm employment.</p>\n<figure>\n<svg viewbox=\"0 0 640 170\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"none\" height=\"110\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"580\" x=\"30\" y=\"30\"></rect>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"46\" y=\"20\">US NONFARM SECTORS</text>\n<rect fill=\"#f6f7f9\" height=\"60\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.1\" width=\"240\" x=\"55\" y=\"55\"></rect>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13.5\" x=\"72\" y=\"82\">Private sector</text>\n<text fill=\"#161a22\" font-family=\"Source Serif 4, serif\" font-size=\"13.5\" x=\"72\" y=\"100\">Government</text>\n<rect fill=\"none\" height=\"60\" stroke=\"#2563eb\" stroke-width=\"1.6\" width=\"255\" x=\"330\" y=\"55\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" text-anchor=\"middle\" x=\"457\" y=\"80\">7.3M openings</text>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"11.5\" text-anchor=\"middle\" x=\"457\" y=\"98\">unfilled &amp; actively sought</text>\n</svg>\n<figcaption>JOLTS covers both private and government nonfarm employers, but not farm employment.</figcaption>\n</figure>\n<h2>6. Hot Labor Market vs. Cool Labor Market</h2>\n<h3>What Is a Hot Labor Market?</h3>\n<p>A hot labor market means there are many jobs available in the economy, and employers are hiring employees fast.</p>\n<h3>What Is a Cool Labor Market?</h3>\n<p>A cool labor market means there are many jobs available, but employers are hiring employees slowly.</p>\n<figure>\n<svg viewbox=\"0 0 640 160\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"none\" height=\"100\" stroke=\"#2563eb\" stroke-width=\"1.6\" width=\"270\" x=\"30\" y=\"30\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" x=\"50\" y=\"55\">HOT MARKET</text>\n<line stroke=\"#2563eb\" stroke-width=\"2\" x1=\"50\" x2=\"90\" y1=\"75\" y2=\"75\"></line>\n<line stroke=\"#2563eb\" stroke-width=\"2\" x1=\"50\" x2=\"110\" y1=\"88\" y2=\"88\"></line>\n<line stroke=\"#2563eb\" stroke-width=\"2\" x1=\"50\" x2=\"130\" y1=\"101\" y2=\"101\"></line>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"11.5\" x=\"50\" y=\"120\">Many jobs, hired fast</text>\n<rect fill=\"none\" height=\"100\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"270\" x=\"340\" y=\"30\"></rect>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" x=\"360\" y=\"55\">COOL MARKET</text>\n<line stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.6\" x1=\"360\" x2=\"400\" y1=\"75\" y2=\"75\"></line>\n<line stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.6\" x1=\"360\" x2=\"385\" y1=\"90\" y2=\"90\"></line>\n<line stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.6\" x1=\"360\" x2=\"375\" y1=\"105\" y2=\"105\"></line>\n<text fill=\"#5b6472\" font-family=\"Inter, sans-serif\" font-size=\"11.5\" x=\"360\" y=\"122\">Many jobs, hired slowly</text>\n</svg>\n<figcaption>Both markets can show plenty of open jobs — the difference is the pace at which employers are actually hiring.</figcaption>\n</figure>\n<h2>7. Average Hourly Earnings (AHE)</h2>\n<h3>What is Average Hourly Earnings?</h3>\n<p>Average Hourly Earnings (AHE) is an economic indicator that measures how much money workers earn, on average, for each hour they work.</p>\n<h3>Why is Average Hourly Earnings important?</h3>\n<p>AHE helps us understand whether workers' wages are increasing and how wage growth may affect inflation.</p>\n<p>Let's connect the dots with a simple example.</p>\n<p>Imagine a worker earns $20 per hour. After a year, the company increases the worker's pay to $22 per hour.</p>\n<p>Now the worker has more money coming in for every hour worked. If many workers across the US experience similar wage increases, households may have more money to spend on goods and services.</p>\n<figure>\n<svg viewbox=\"0 0 640 170\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#f6f7f9\" height=\"60\" stroke=\"rgba(20,24,32,0.35)\" stroke-width=\"1.2\" width=\"190\" x=\"30\" y=\"55\"></rect>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"46\" y=\"80\">Last year</text>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"46\" y=\"100\">$20 per hour</text>\n<line marker-end=\"url(#aA)\" stroke=\"rgba(20,24,32,0.3)\" stroke-width=\"1.2\" x1=\"220\" x2=\"270\" y1=\"85\" y2=\"85\"></line>\n<rect fill=\"none\" height=\"60\" stroke=\"#2563eb\" stroke-width=\"1.6\" width=\"190\" x=\"275\" y=\"45\"></rect>\n<text fill=\"#5b6472\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" x=\"291\" y=\"70\">This year</text>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" x=\"291\" y=\"90\">$22 per hour</text>\n<line marker-end=\"url(#aB)\" stroke=\"#2563eb\" stroke-width=\"1.2\" x1=\"370\" x2=\"370\" y1=\"105\" y2=\"130\"></line>\n<rect fill=\"#f6f7f9\" height=\"26\" stroke=\"#2563eb\" stroke-width=\"1.3\" width=\"200\" x=\"270\" y=\"135\"></rect>\n<text fill=\"#161a22\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" text-anchor=\"middle\" x=\"370\" y=\"153\">+$2 per hour earned</text>\n<defs>\n<marker id=\"aA\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"rgba(20,24,32,0.45)\"></path></marker>\n<marker id=\"aB\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2563eb\"></path></marker>\n</defs>\n</svg>\n<figcaption>A rise from $20 to $22 an hour means more income for every hour the worker puts in.</figcaption>\n</figure>\n<p>That can create the following chain:</p>\n<div class=\"formula-line\">Wages rise → Workers have more income → Consumer spending may increase → Demand for goods and services may rise → Inflationary pressure may increase.</div>\n</article>\n","htmlContent":true},{"id":"strait-closes-gulf-oil","title":"How Middle East Conflicts Put Global Oil Supplies at Risk","date":"","description":"Saudi Arabia Between Hormuz and the Red Sea","category":"Energy & Geopolitics","content":"\n  <div class=\"article-header\">\n    <div class=\"kicker\">Geopolitics &nbsp;·&nbsp; Energy</div>\n    <h1 class=\"article-title\">How Middle East Conflicts Put Global Oil Supplies at Risk</h1>\n    <p class=\"article-sub\">Saudi Arabia Between Hormuz and the Red Sea</p>\n    <p class=\"byline\">By Quant Flow Capital</p>\n  </div>\n\n  <figure class=\"photo\" style=\"margin-top:44px;\">\n    <img src=\"/assets/img/5185febc3a.jpg\" alt=\"LNG tanker at sea\">\n  </figure>\n\n  <article>\n\n    <h2>1. Why the Strait of Hormuz Matters</h2>\n    <ul>\n      <li>The Strait of Hormuz is one of the world’s most important maritime routes. Around 20 million barrels of oil pass through it each day, and about one-fifth of the world’s liquefied natural gas trade also flows through it.</li>\n      <li>Around 20 percent of the world’s daily oil consumption passes through this chokepoint, the Strait of Hormuz.</li>\n      <li>The Strait of Hormuz is also the only maritime route for several Gulf countries, including the UAE, Qatar, Bahrain, Kuwait, and Iraq. Any disruption to the strait can cause severe supply shortages.</li>\n      <li>Saudi Arabia and the UAE are major oil exporters, and they mainly use the Strait of Hormuz to supply oil to Asian countries such as India, China, Japan, and South Korea.</li>\n    </ul>\n\n    <h2>2. Saudi Arabia’s Oil Routes</h2>\n  <figure class=\"photo\">\n    <img src=\"/assets/img/3904f41fb2.jpg\" alt=\"Map of the Strait of Hormuz, the East–West Pipeline to Yanbu, the Houthi-held area of Yemen and Bab el-Mandeb\">\n  </figure>\n\n    <ul>\n      <li>For many years, Saudi Arabia and many gulf countries had a problem: most of its oil was produced in the eastern part of the country, near the Strait of Hormuz. The easiest route for sending that oil to the world was through the strait. Almost all of Saudi Arabia’s and other main gulf countries oil industries are near it.</li>\n      <li>Iran is sitting exactly opposite the Strait of Hormuz. It has military forces nearby and can threaten ships with drones and missiles.</li>\n      <li>Since Israel and the USA attacked Iran, Iran has closed the Strait of Hormuz. According to the source mentioned earlier, around 100 ships used to pass through the strait. After the war, some estimates say that only 7 ships are coming through per day .</li>\n      <li>If the Strait of Hormuz gets stuck, the world doesn’t have an alternative backup instantly.</li>\n      <li>To create an alternative oil route, Saudi Arabia built the East–West Pipeline. It carries oil from the oil-producing areas and refineries in the east to the Red Sea in the west. It is roughly 1,200 km long.</li>\n      <li>Even if Saudi Arabia uses this alternative route at maximum capacity, it can supply only a maximum of 3 million barrels of oil per day through the pipeline toward the Red Sea. By comparison, around 20 million barrels of oil can pass through the Strait of Hormuz per day.</li>\n      <li>Saudi Arabia has spent billions of dollars building a complex energy system. A huge amount of oil has to pass through a small number of critical facilities called pumping stations. A single drone or missile can threaten infrastructure worth billions of dollars.</li>\n    </ul>\n  <figure class=\"photo\">\n    <img src=\"/assets/img/a29088e857.jpg\" alt=\"Damaged pumping station facility, ground view and satellite view\">\n  </figure>\n\n    <h2>3. The Houthis and Yemen</h2>\n    <ul>\n      <li>The Houthis began in northern Yemen as a Zaidi Shia revivalist movement. Over time, they grew into a powerful political and military group.</li>\n      <li>Iran has supported the Houthis with weapons, technology, training, and other forms of help. So, Iran has a partner that can threaten Saudi Arabia, Israel, and shipping in the Red Sea.</li>\n      <li>In 2014, the Houthis captured Yemen’s capital, Sana’a. Saudi Arabia later intervened, and the conflict between Saudi Arabia and the Houthis grew into a war.</li>\n    </ul>\n\n    <h2>4. The Red Sea and Saudi Arabia</h2>\n    <ul>\n      <li>On the other side, the Houthis are capable of threatening another important maritime route: the Bab el-Mandeb, near the Red Sea.</li>\n      <li>By controlling the Bab el-Mandeb and nearby territory, the Houthis are trying to gain bargaining power with Saudi Arabia. They also want to push Saudi influence out of Yemen.</li>\n      <li>Iran wants to put more pressure on Saudi Arabia through the Strait of Hormuz. The Houthis want more control over the Red Sea and Bab el-Mandeb.</li>\n      <li>This means that both routes—the Strait of Hormuz and Bab el-Mandeb—create a strategic problem for Saudi Arabia.</li>\n      <li>Meanwhile, the Houthis have a partner in Iran that provides them with technology, weapons, training, and much more.</li>\n    </ul>\n\n  <figure class=\"photo\">\n    <img src=\"/assets/img/2032cac586.jpg\" alt=\"Man holding a sign protesting an oil price hike next to a fuel price board\">\n  </figure>\n\n    <p>The Strait of Hormuz and Bab el-Mandeb are vital routes for global oil and gas supplies. If shipping through either route is disrupted, supplies can be delayed or reduced, while transport costs rise. This can push up energy and other prices, causing inflation to heat up around the world.</p>\n\n  </article>\n","image":"/assets/img/5185febc3a.jpg","htmlContent":true},{"id":"business-cycle","title":"The Business Cycle","date":"","description":"How Growth, Booms, Slowdowns, and Recessions Shape the Economy","category":"Macro Concepts","content":"\n  <div class=\"article-header\">\n    <div class=\"kicker\">Macro Concepts &nbsp;·&nbsp; Business Cycle</div>\n    <h1 class=\"article-title\">The Business Cycle</h1>\n    <p class=\"article-sub\">How Growth, Booms, Slowdowns, and Recessions Shape the Economy</p>\n    <p class=\"byline\">By Quant Flow Capital</p>\n  </div>\n\n  <figure style=\"margin-top:44px;\">\n    <svg viewBox=\"0 0 760 260\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect x=\"0\" y=\"0\" width=\"760\" height=\"260\" fill=\"#f6f7f9\"/>\n      <text x=\"40\" y=\"34\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" fill=\"#5b6472\">THE BUSINESS CYCLE</text>\n\n      <line x1=\"40\" y1=\"220\" x2=\"720\" y2=\"220\" stroke=\"rgba(20,24,32,0.16)\" stroke-width=\"1\"/>\n\n      <path d=\"M40,190 C120,190 140,80 220,80 C300,80 320,60 380,60 C440,60 460,150 520,150 C580,150 600,205 680,205 C700,205 710,200 720,198\"\n            fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/>\n\n      <circle cx=\"40\" cy=\"190\" r=\"4\" fill=\"#161a22\"/>\n      <circle cx=\"220\" cy=\"80\" r=\"4\" fill=\"#161a22\"/>\n      <circle cx=\"380\" cy=\"60\" r=\"4\" fill=\"#2563eb\"/>\n      <circle cx=\"520\" cy=\"150\" r=\"4\" fill=\"#161a22\"/>\n      <circle cx=\"680\" cy=\"205\" r=\"4\" fill=\"#161a22\"/>\n\n      <text x=\"40\" y=\"238\" font-family=\"Inter, sans-serif\" font-size=\"11\" fill=\"#5b6472\" text-anchor=\"middle\">Bottom</text>\n      <text x=\"220\" y=\"238\" font-family=\"Inter, sans-serif\" font-size=\"11\" fill=\"#5b6472\" text-anchor=\"middle\">Expansion</text>\n      <text x=\"380\" y=\"238\" font-family=\"Inter, sans-serif\" font-size=\"11\" fill=\"#2563eb\" text-anchor=\"middle\">Boom</text>\n      <text x=\"520\" y=\"238\" font-family=\"Inter, sans-serif\" font-size=\"11\" fill=\"#5b6472\" text-anchor=\"middle\">Contraction</text>\n      <text x=\"680\" y=\"238\" font-family=\"Inter, sans-serif\" font-size=\"11\" fill=\"#5b6472\" text-anchor=\"middle\">Recession</text>\n    </svg>\n    <figcaption>The economy moves through phases — from the bottom of the cycle, through expansion, to a boom, then contraction, and into recession — before the cycle begins again.</figcaption>\n  </figure>\n\n  <article>\n\n    <h2>The bottom of the business cycle</h2>\n    <p>At the bottom of the business cycle, the economy is very weak because people and businesses are buying, selling, and producing less than usual.</p><figure aria-hidden=\"true\" style=\"padding:16px; margin:24px 0 34px;\"><svg viewBox=\"0 0 760 190\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"bg0\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop stop-color=\"#f6f8fb\"/><stop offset=\"1\" stop-color=\"#eaf0f8\"/></lineargradient><linearGradient id=\"area0\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop stop-color=\"#2563eb\" stop-opacity=\".18\"/><stop offset=\"1\" stop-color=\"#2563eb\" stop-opacity=\"0\"/></lineargradient></defs><rect width=\"760\" height=\"190\" rx=\"8\" fill=\"url(#bg0)\"/><path d=\"M30 160H730M30 112H730M30 64H730\" stroke=\"#d8e0ea\" stroke-width=\"1\"/><path d=\"M35 118 C120 118 145 95 205 95 S290 92 350 92 S450 116 530 132 S650 148 725 150 L725 160 L35 160Z\" fill=\"url(#area0)\"/><path d=\"M35 118 C120 118 145 95 205 95 S290 92 350 92 S450 116 530 132 S650 148 725 150\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"80\" cy=\"116\" r=\"9\" fill=\"#fff\" stroke=\"#2563eb\" stroke-width=\"4\"/><g fill=\"#fff\" stroke=\"#9aa9bc\" stroke-width=\"2\"><rect x=\"86\" y=\"119\" width=\"72\" height=\"41\" rx=\"3\"/><path d=\"M80 119l42-30 42 30\"/><rect x=\"104\" y=\"134\" width=\"13\" height=\"26\"/><rect x=\"130\" y=\"132\" width=\"16\" height=\"12\"/><rect x=\"600\" y=\"100\" width=\"90\" height=\"60\" rx=\"3\"/><path d=\"M591 100h108l-54-32z\"/><path d=\"M619 116v26m26-26v26m26-26v26\"/><path d=\"M609 150h72\"/></g><g fill=\"#2563eb\"><circle cx=\"215\" cy=\"120\" r=\"11\"/><path d=\"M197 156q3-24 18-24t18 24z\"/><circle cx=\"260\" cy=\"113\" r=\"11\"/><path d=\"M242 156q3-24 18-24t18 24z\"/></g><g fill=\"none\" stroke=\"#c6a15b\" stroke-width=\"3\" stroke-linecap=\"round\"><path d=\"M340 142v-21m-8 8 8-8 8 8\"/><path d=\"M390 142v-34m-8 8 8-8 8 8\"/><path d=\"M440 142V96m-8 8 8-8 8 8\"/></g></svg></figure>\n\n    <h3>Point 1: How individuals are affected</h3>\n    <ol>\n      <li><strong>Finding a job can be difficult.</strong> During a slowdown, businesses may have fewer customers and earn less money. To reduce costs, some businesses may stop hiring or lay off workers. As a result, more people may be looking for jobs while fewer jobs are available.</li>\n      <li><strong>People may spend less.</strong> People who lose their jobs or worry about their income may cut back on spending. When people buy less, businesses earn less from sales. This can lower their profits. If investors expect a company to earn less, its share price may fall.</li>\n    </ol>\n\n    <h3>Point 2: How businesses are affected</h3>\n    <ol>\n      <li><strong>They make fewer sales.</strong> When people and businesses spend less, companies have fewer customers. This means they sell fewer goods and services and earn less money.</li>\n      <li><strong>Some businesses struggle to stay open.</strong> When a business earns less, it may cut costs by laying off workers, making fewer products, or closing some locations. Some businesses may lower prices to attract customers. Because people are buying less, prices across the economy may rise more slowly. This means inflation may slow down.</li>\n    </ol>\n\n    <h3>Point 3: How the country is affected</h3>\n    <ol>\n      <li><strong>Low GDP:</strong> The country may produce fewer goods and services because people and businesses are buying and making less.</li>\n      <li><strong>Less government revenue:</strong> The government may collect less money from taxes because people earn less and businesses make less profit.</li>\n      <li><strong>A budget deficit:</strong> If the government spends more money than it collects, it has a budget deficit.</li>\n    </ol>\n\n    <h3>The US government's goals</h3>\n    <p>The US government has two main economic goals: <strong>high employment</strong> and <strong>stable prices</strong>. At the bottom of the business cycle, prices are stable, but unemployment is often high. This makes unemployment a major concern for the government.</p>\n\n    <p>When the economy is very slow, people may worry about spending money, and businesses may have fewer customers. To encourage more spending, the central bank may lower interest rates. This makes it cheaper to borrow money.</p>\n\n    <p>For example, a person may decide to borrow money to buy a car, or a business may borrow money to buy equipment or hire workers. When people and businesses spend more, shops and companies get more customers and earn more money. Businesses may then make more products, offer more services, and hire more workers. More people have jobs and income, so they may spend more too.</p>\n\n    <p class=\"pull-callout\">In this way, one change leads to another: lower interest rates can make borrowing cheaper; cheaper borrowing can encourage spending; more spending can bring businesses more customers; and growing business activity can help the economy grow.</p>\n\n    <h2>The expansion phase of the business cycle</h2>\n    <p>During the expansion phase, the economy becomes stronger because people and businesses are buying, selling, and producing more than before.</p><figure aria-hidden=\"true\" style=\"padding:16px; margin:24px 0 34px;\"><svg viewBox=\"0 0 760 190\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"bg1\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop stop-color=\"#f6f8fb\"/><stop offset=\"1\" stop-color=\"#eaf0f8\"/></lineargradient><linearGradient id=\"area1\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop stop-color=\"#2563eb\" stop-opacity=\".18\"/><stop offset=\"1\" stop-color=\"#2563eb\" stop-opacity=\"0\"/></lineargradient></defs><rect width=\"760\" height=\"190\" rx=\"8\" fill=\"url(#bg1)\"/><path d=\"M30 160H730M30 112H730M30 64H730\" stroke=\"#d8e0ea\" stroke-width=\"1\"/><path d=\"M35 150 C120 145 150 120 220 118 S300 90 380 94 S490 68 560 56 S660 30 725 24 L725 160 L35 160Z\" fill=\"url(#area1)\"/><path d=\"M35 150 C120 145 150 120 220 118 S300 90 380 94 S490 68 560 56 S660 30 725 24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"560\" cy=\"56\" r=\"9\" fill=\"#fff\" stroke=\"#2563eb\" stroke-width=\"4\"/><g fill=\"#fff\" stroke=\"#9aa9bc\" stroke-width=\"2\"><rect x=\"86\" y=\"119\" width=\"72\" height=\"41\" rx=\"3\"/><path d=\"M80 119l42-30 42 30\"/><rect x=\"104\" y=\"134\" width=\"13\" height=\"26\"/><rect x=\"130\" y=\"132\" width=\"16\" height=\"12\"/><rect x=\"600\" y=\"100\" width=\"90\" height=\"60\" rx=\"3\"/><path d=\"M591 100h108l-54-32z\"/><path d=\"M619 116v26m26-26v26m26-26v26\"/><path d=\"M609 150h72\"/></g><g fill=\"#2563eb\"><circle cx=\"215\" cy=\"120\" r=\"11\"/><path d=\"M197 156q3-24 18-24t18 24z\"/><circle cx=\"260\" cy=\"113\" r=\"11\"/><path d=\"M242 156q3-24 18-24t18 24z\"/></g><g fill=\"none\" stroke=\"#c6a15b\" stroke-width=\"3\" stroke-linecap=\"round\"><path d=\"M340 142v-21m-8 8 8-8 8 8\"/><path d=\"M390 142v-34m-8 8 8-8 8 8\"/><path d=\"M440 142V96m-8 8 8-8 8 8\"/></g></svg></figure>\n\n    <h3>Point 1: How individuals are affected</h3>\n    <ol>\n      <li><strong>Finding a job can be easier.</strong> As businesses get more customers and sell more, they may need more workers. They may hire new employees, so more people can find jobs.</li>\n      <li><strong>People may spend more.</strong> When people have jobs and earn money, they may feel more comfortable spending on things they need or want. This spending brings more customers to businesses.</li>\n    </ol>\n\n    <h3>Point 2: How businesses are affected</h3>\n    <ol>\n      <li><strong>They make more sales.</strong> When people and businesses spend more, companies may have more customers. They can sell more goods and services and earn more money.</li>\n      <li><strong>Businesses may grow.</strong> When businesses earn more, they may hire more workers, make more products, or open new locations. As customers buy more, prices may start rising faster, and inflation may increase.</li>\n    </ol>\n\n    <h3>Point 3: How the country is affected</h3>\n    <ol>\n      <li><strong>GDP may rise:</strong> The country may produce more goods and services as businesses make and sell more.</li>\n      <li><strong>Government revenue may increase:</strong> The government may collect more money from taxes as people earn more and businesses make more profit.</li>\n      <li><strong>The budget deficit may shrink:</strong> If the government collects more money and spends less than it collects, its budget deficit may become smaller.</li>\n    </ol>\n\n    <p>During a <strong>boom</strong>, many people have jobs, and businesses are selling a lot. People and businesses may spend more, so demand for goods and services can grow faster than the amount available. This can push prices up and cause high inflation.</p>\n\n    <p>To help control inflation, the central bank may raise interest rates. This makes borrowing more expensive for people and businesses. For example, loans for homes, cars, or business plans may cost more. Because borrowing costs more, people and businesses may borrow and spend less. Some people may also choose to save more because savings can earn higher interest.</p>\n\n    <p>When people and businesses spend less, demand may slow down. Businesses may then find it harder to keep raising prices, which can help reduce inflation.</p>\n\n    <p class=\"pull-callout\">In simple terms: during a boom, high spending can push prices up. The central bank may raise interest rates to make borrowing more expensive and encourage saving. This can slow spending and help control rising prices.</p>\n\n    <h2>The contraction phase of the business cycle</h2>\n    <p>During the contraction phase, the economy starts to slow down. People and businesses may spend less, so businesses sell less and produce less than before.</p><figure aria-hidden=\"true\" style=\"padding:16px; margin:24px 0 34px;\"><svg viewBox=\"0 0 760 190\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"bg2\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop stop-color=\"#f6f8fb\"/><stop offset=\"1\" stop-color=\"#eaf0f8\"/></lineargradient><linearGradient id=\"area2\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop stop-color=\"#2563eb\" stop-opacity=\".18\"/><stop offset=\"1\" stop-color=\"#2563eb\" stop-opacity=\"0\"/></lineargradient></defs><rect width=\"760\" height=\"190\" rx=\"8\" fill=\"url(#bg2)\"/><path d=\"M30 160H730M30 112H730M30 64H730\" stroke=\"#d8e0ea\" stroke-width=\"1\"/><path d=\"M35 30 C120 32 160 48 225 48 S320 76 390 78 S495 112 560 119 S660 145 725 151 L725 160 L35 160Z\" fill=\"url(#area2)\"/><path d=\"M35 30 C120 32 160 48 225 48 S320 76 390 78 S495 112 560 119 S660 145 725 151\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"390\" cy=\"78\" r=\"9\" fill=\"#fff\" stroke=\"#2563eb\" stroke-width=\"4\"/><g fill=\"#fff\" stroke=\"#9aa9bc\" stroke-width=\"2\"><rect x=\"86\" y=\"119\" width=\"72\" height=\"41\" rx=\"3\"/><path d=\"M80 119l42-30 42 30\"/><rect x=\"104\" y=\"134\" width=\"13\" height=\"26\"/><rect x=\"130\" y=\"132\" width=\"16\" height=\"12\"/><rect x=\"600\" y=\"100\" width=\"90\" height=\"60\" rx=\"3\"/><path d=\"M591 100h108l-54-32z\"/><path d=\"M619 116v26m26-26v26m26-26v26\"/><path d=\"M609 150h72\"/></g><g fill=\"#2563eb\"><circle cx=\"215\" cy=\"120\" r=\"11\"/><path d=\"M197 156q3-24 18-24t18 24z\"/><circle cx=\"260\" cy=\"113\" r=\"11\"/><path d=\"M242 156q3-24 18-24t18 24z\"/></g><g fill=\"none\" stroke=\"#c6a15b\" stroke-width=\"3\" stroke-linecap=\"round\"><path d=\"M340 142v-21m-8 8 8-8 8 8\"/><path d=\"M390 142v-34m-8 8 8-8 8 8\"/><path d=\"M440 142V96m-8 8 8-8 8 8\"/></g></svg></figure>\n\n    <h3>Point 1: How individuals are affected</h3>\n    <ol>\n      <li><strong>Finding a job can become harder.</strong> When businesses have fewer customers, they may stop hiring or lay off some workers. More people may be looking for jobs while fewer jobs are available.</li>\n      <li><strong>People may spend less.</strong> People who lose their jobs or worry about their income may cut back on spending. When people spend less, businesses may get fewer customers.</li>\n    </ol>\n\n    <h3>Point 2: How businesses are affected</h3>\n    <ol>\n      <li><strong>They may make fewer sales.</strong> When people and businesses spend less, companies may have fewer customers. They may sell fewer goods and services and earn less money.</li>\n      <li><strong>They may cut back.</strong> To manage lower earnings, businesses may reduce costs, make fewer products, or delay plans to grow. Some may lay off workers or close locations.</li>\n    </ol>\n\n    <h3>Point 3: How the country is affected</h3>\n    <ol>\n      <li><strong>GDP may fall:</strong> The country may produce fewer goods and services as people and businesses buy and make less.</li>\n      <li><strong>Government revenue may fall:</strong> The government may collect less money from taxes if people earn less and businesses make less profit.</li>\n      <li><strong>The budget deficit may grow:</strong> If the government collects less money but keeps spending the same amount or spends more, its budget deficit may grow.</li>\n    </ol>\n\n    <h2>The recession phase of the business cycle</h2>\n    <p>A recession happens when the economy keeps slowing down for a while. People and businesses spend less, so businesses sell less and may make fewer products or provide fewer services.</p><figure aria-hidden=\"true\" style=\"padding:16px; margin:24px 0 34px;\"><svg viewBox=\"0 0 760 190\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"bg3\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop stop-color=\"#f6f8fb\"/><stop offset=\"1\" stop-color=\"#eaf0f8\"/></lineargradient><linearGradient id=\"area3\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop stop-color=\"#2563eb\" stop-opacity=\".18\"/><stop offset=\"1\" stop-color=\"#2563eb\" stop-opacity=\"0\"/></lineargradient></defs><rect width=\"760\" height=\"190\" rx=\"8\" fill=\"url(#bg3)\"/><path d=\"M30 160H730M30 112H730M30 64H730\" stroke=\"#d8e0ea\" stroke-width=\"1\"/><path d=\"M35 48 C120 48 145 74 215 78 S300 108 375 113 S490 145 555 147 S660 153 725 153 L725 160 L35 160Z\" fill=\"url(#area3)\"/><path d=\"M35 48 C120 48 145 74 215 78 S300 108 375 113 S490 145 555 147 S660 153 725 153\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"555\" cy=\"147\" r=\"9\" fill=\"#fff\" stroke=\"#2563eb\" stroke-width=\"4\"/><g fill=\"#fff\" stroke=\"#9aa9bc\" stroke-width=\"2\"><rect x=\"86\" y=\"119\" width=\"72\" height=\"41\" rx=\"3\"/><path d=\"M80 119l42-30 42 30\"/><rect x=\"104\" y=\"134\" width=\"13\" height=\"26\"/><rect x=\"130\" y=\"132\" width=\"16\" height=\"12\"/><rect x=\"600\" y=\"100\" width=\"90\" height=\"60\" rx=\"3\"/><path d=\"M591 100h108l-54-32z\"/><path d=\"M619 116v26m26-26v26m26-26v26\"/><path d=\"M609 150h72\"/></g><g fill=\"#2563eb\"><circle cx=\"215\" cy=\"120\" r=\"11\"/><path d=\"M197 156q3-24 18-24t18 24z\"/><circle cx=\"260\" cy=\"113\" r=\"11\"/><path d=\"M242 156q3-24 18-24t18 24z\"/></g><g fill=\"none\" stroke=\"#c6a15b\" stroke-width=\"3\" stroke-linecap=\"round\"><path d=\"M340 142v-21m-8 8 8-8 8 8\"/><path d=\"M390 142v-34m-8 8 8-8 8 8\"/><path d=\"M440 142V96m-8 8 8-8 8 8\"/></g></svg></figure>\n\n    <h3>Point 1: How individuals are affected</h3>\n    <ol>\n      <li><strong>Finding a job can be difficult.</strong> Businesses with fewer customers may stop hiring or lay off workers. More people may be looking for jobs while fewer jobs are available.</li>\n      <li><strong>People may have less money to spend.</strong> People who lose their jobs or work fewer hours may have less income. They may cut back on spending, even on some things they want.</li>\n    </ol>\n\n    <h3>Point 2: How businesses are affected</h3>\n    <ol>\n      <li><strong>They may have fewer customers and lower sales.</strong> When people and businesses spend less, companies may sell fewer goods and services and earn less money.</li>\n      <li><strong>Some businesses may struggle to stay open.</strong> Businesses may cut costs, make fewer products, lay off workers, or close some locations. Some may have to close completely.</li>\n    </ol>\n\n    <h3>Point 3: How the country is affected</h3>\n    <ol>\n      <li><strong>The country may produce less:</strong> Businesses may make fewer goods and provide fewer services.</li>\n      <li><strong>The government may collect less tax:</strong> People may earn less, and businesses may make less profit.</li>\n      <li><strong>The budget deficit may grow:</strong> If the government collects less money but keeps spending the same amount or spends more, its budget deficit may grow.</li>\n    </ol>\n\n  </article>\n\n","image":"/assets/img/ed84c3dd53.jpg","htmlContent":true}];
+let storedArticles=[{"id":"sample-bonds","__bundledPatch":true,"image":"/assets/img/4bfbeafdee.jpg"},{"id":"understanding-cpi","__bundledPatch":true,"image":"/assets/img/4586ef85ae.jpg"},{"id":"understanding-pmi","__bundledPatch":true,"image":"/assets/img/bb418b1d30.jpg"},{"id":"us-labor-market","__bundledPatch":true}];
+try{ if(!storedArticles) storedArticles=JSON.parse(localStorage.getItem("qfc_articles")||"null"); }catch(e){ storedArticles=storedArticles||null; }
+let articles;
+if(Array.isArray(storedArticles)){
+  const removedSampleIds=new Set(["sample-inflation","sample-forex"]);
+  const custom=storedArticles.filter(a=>!removedSampleIds.has(a.id)&&!seed.some(s=>s.id===a.id));
+  const bundled=seed.map(original=>{
+    const saved=storedArticles.find(a=>a.id===original.id);
+    return saved ? {...original,...saved,...(original.id==="us-labor-market"?{image:original.image}:{}),__bundledPatch:undefined} : {...original};
+  });
+  articles=[...custom,...bundled];
+}else{
+  articles=seed.map(a=>({...a}));
+}
+// Cover images are stored in IndexedDB (not localStorage), avoiding the small localStorage quota.
+const coverObjectURLs = new Map();
+function openCoverDB(){
+  return new Promise((resolve,reject)=>{
+    const req=indexedDB.open("qfc_cover_images",1);
+    req.onupgradeneeded=()=>{ if(!req.result.objectStoreNames.contains("covers")) req.result.createObjectStore("covers"); };
+    req.onsuccess=()=>resolve(req.result); req.onerror=()=>reject(req.error);
+  });
+}
+async function putCoverBlob(key,blob){const db=await openCoverDB();return new Promise((res,rej)=>{const tx=db.transaction("covers","readwrite");tx.objectStore("covers").put(blob,key);tx.oncomplete=()=>{db.close();res()};tx.onerror=()=>{db.close();rej(tx.error)}})}
+async function getCoverBlob(key){const db=await openCoverDB();return new Promise((res,rej)=>{const tx=db.transaction("covers","readonly");const r=tx.objectStore("covers").get(key);r.onsuccess=()=>{db.close();res(r.result||null)};r.onerror=()=>{db.close();rej(r.error)}})}
+async function deleteCoverBlob(key){const db=await openCoverDB();return new Promise((res)=>{const tx=db.transaction("covers","readwrite");tx.objectStore("covers").delete(key);tx.oncomplete=()=>{db.close();res()};tx.onerror=()=>{db.close();res()}})}
+function coverSrc(value){
+  if(!value) return "";
+  if(!String(value).startsWith("idb:")) return value;
+  return coverObjectURLs.get(String(value).slice(4))||"";
+}
+async function hydrateStoredCovers(){
+  const keys=[...new Set(articles.map(a=>a.image).filter(v=>String(v||"").startsWith("idb:")).map(v=>String(v).slice(4)))];
+  let changed=false;
+  for(const key of keys){ if(coverObjectURLs.has(key)) continue; const blob=await getCoverBlob(key); if(blob){coverObjectURLs.set(key,URL.createObjectURL(blob));changed=true;} }
+  if(changed) render();
+}
+let uploadedImage="";
+let uploadedImageBlob=null;
+const cats=["All",...new Set(articles.map(a=>a.category))];
+// Save only user-created articles and changes to bundled articles.
+// The bundled article HTML already exists inside this file, so storing it again
+// wastes several MB of localStorage and can trigger QuotaExceededError.
+function compactArticlesForStorage(){
+  return articles.map(a=>{
+    const original=seed.find(s=>s.id===a.id);
+    if(!original) return a;
+    const patch={id:a.id,__bundledPatch:true};
+    ["title","date","description","image","content","htmlContent"].forEach(k=>{
+      if(a[k]!==original[k]) patch[k]=a[k];
+    });
+    return patch;
+  });
+}
+function save(){localStorage.setItem("qfc_articles",JSON.stringify(compactArticlesForStorage()))}
+
+// Migrate older versions that stored every large bundled article in localStorage.
+// This immediately frees most of the browser storage used by this page.
+try{ save(); }catch(e){
+  try{ localStorage.removeItem("qfc_articles"); save(); }catch(_){}
+}
+function esc(s=""){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function fmtDate(d){if(!d)return "";let x=new Date(d+"T12:00:00");return isNaN(x)?"":x.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"})}
+const TOPICS={"sample-bonds":"Fixed Income","understanding-cpi":"Inflation","understanding-pmi":"Growth","us-labor-market":"Labor Market","strait-closes-gulf-oil":"Energy & Geopolitics","business-cycle":"Macro Concepts"};
+function topicOf(a){return a.category||TOPICS[a.id]||"Research"}
+const readTimeCache=new Map();
+function readTime(a){
+  const raw=String(a.content||""),key=a.id+":"+raw.length;
+  if(!readTimeCache.has(key)){
+    const words=raw.replace(/<(style|script|svg)[\s\S]*?<\/\1>/gi," ").replace(/<[^>]*>/g," ").split(/\s+/).filter(Boolean).length;
+    readTimeCache.set(key,Math.max(2,Math.round(words/230))+" min read");
+  }
+  return readTimeCache.get(key);
+}
+let activeTopic="All";
+function setTopic(t){activeTopic=t;render()}
+const ARROW=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>`;
+function render(){
+ const q=document.getElementById("search").value.trim().toLowerCase();
+ const all=articles.filter(a=>`${a.title} ${a.description} ${topicOf(a)}`.toLowerCase().includes(q));
+ const topics=["All",...new Set(articles.map(topicOf))];
+ if(!topics.includes(activeTopic))activeTopic="All";
+ const list=activeTopic==="All"?all:all.filter(a=>topicOf(a)===activeTopic);
+ const cover=(a,cls="")=>{const src=coverSrc(a.image);const extra=a.id==="strait-closes-gulf-oil"?" oil-map-cover":a.id==="business-cycle"?" business-cycle-cover":"";return `<div class="cover ${cls}${extra}">${src?`<img src="${esc(src)}" alt="" loading="lazy">`:`<div class="cover-placeholder">QFC</div>`}</div>`};
+ const meta=a=>`<div class="meta"><span class="topic">${esc(topicOf(a))}</span><span>${readTime(a)}</span>${a.date?`<span>${fmtDate(a.date)}</span>`:""}</div>`;
+ const open=a=>`onclick="openArticle('${a.id}')" onkeydown="if(event.key==='Enter'){openArticle('${a.id}')}" tabindex="0" role="link" aria-label="${esc(a.title)}"`;
+ const elRecent=document.getElementById("recentPosts");
+ if(elRecent){
+   const [lead,...rest]=all;
+   elRecent.innerHTML=lead?`<article class="lead clickable" ${open(lead)}>${cover(lead)}<div class="lead-body">${meta(lead)}<h2>${esc(lead.title)}</h2><p>${esc(lead.description)}</p><span class="cta">Read the report ${ARROW}</span></div></article><div class="secondary">${rest.slice(0,2).map(a=>`<article class="sec clickable" ${open(a)}>${cover(a)}<div><h3>${esc(a.title)}</h3><p>${esc(a.description)}</p>${meta(a)}</div></article>`).join("")}</div>`:`<div class="empty"><b>No matching research</b>Try a different search term.</div>`;
+ }
+ const elPopular=document.getElementById("popularPosts");
+ if(elPopular){
+   elPopular.innerHTML=all.slice(0,5).map((a,i)=>`<li><a href="#" onclick="openArticle('${a.id}');return false"><span class="rank">${String(i+1).padStart(2,"0")}</span><span><b>${esc(a.title)}</b><small>${esc(topicOf(a))} · ${readTime(a)}</small></span></a></li>`).join("");
+ }
+ const elTopics=document.getElementById("topicFilters");
+ if(elTopics) elTopics.innerHTML=topics.map(t=>`<button type="button" class="chip${t===activeTopic?" active":""}" data-topic="${esc(t)}" aria-pressed="${t===activeTopic}" onclick="setTopic(this.dataset.topic)">${esc(t)}</button>`).join("");
+ const elCount=document.getElementById("libCount");
+ if(elCount) elCount.textContent=`${list.length} ${list.length===1?"report":"reports"}`;
+ const elStatR=document.getElementById("statReports");
+ if(elStatR) elStatR.textContent=articles.length;
+ const elStatT=document.getElementById("statTopics");
+ if(elStatT) elStatT.textContent=topics.length-1;
+ const elGrid=document.getElementById("grid");
+ if(elGrid) elGrid.innerHTML=list.length?list.map(a=>`<article class="card clickable" ${open(a)}>
+   ${cover(a)}
+   <div class="card-body">${meta(a)}<h3>${esc(a.title)}</h3><p>${esc(a.description)}</p><span class="read">Read report ${ARROW}</span></div>
+ </article>`).join(""):`<div class="empty"><b>No reports found</b>Try another topic or search term.</div>`;
+}
+async function setCoverImage(id,input){
+  const file=input && input.files ? input.files[0] : null;
+  if(!file)return;
+  try{
+    const blob=await compressCoverFile(file);
+    const idx=articles.findIndex(x=>x.id===id); if(idx<0)return;
+    const old=articles[idx].image||"";
+    const key="cover-"+id+"-"+Date.now();
+    await putCoverBlob(key,blob);
+    coverObjectURLs.set(key,URL.createObjectURL(blob));
+    articles[idx].image="idb:"+key;
+    save();
+    if(String(old).startsWith("idb:")){const oldKey=old.slice(4);await deleteCoverBlob(oldKey);if(coverObjectURLs.has(oldKey)){URL.revokeObjectURL(coverObjectURLs.get(oldKey));coverObjectURLs.delete(oldKey)}}
+    render();
+  }catch(err){input.value="";alert("Cover photo could not be saved. "+(err?.message||"Please try a JPG, PNG or WebP image."));}
+}
+function isBundledRichArticle(a){
+  return !!(a && (a.htmlContent || ["sample-bonds","understanding-cpi","understanding-pmi","us-labor-market"].includes(a.id)));
+}
+function richEditable(root,on){
+  root.querySelectorAll('h1,h2,h3,p,li,figcaption').forEach(function(el){
+    el.setAttribute('contenteditable', on ? 'true' : 'false');
+  });
+}
+function openArticle(id){
+ let a=articles.find(x=>x.id===id);if(!a)return;
+ if(isBundledRichArticle(a)){
+   document.getElementById("articleView").innerHTML=`<div class="embedded-rich${a.id==="strait-closes-gulf-oil"?" oil-article":""}" id="richArticleRoot">${a.content}</div><div class="embedded-rich-actions"><button class="btn btn-light" onclick="closeArticle()">← Back to Research</button></div>`;
+ }else{
+   document.getElementById("articleView").innerHTML=`<div class="article-cover">${coverSrc(a.image)?`<img src="${esc(coverSrc(a.image))}" alt="">`:`<div class="cover-placeholder">QF / RESEARCH</div>`}</div><div class="article-content"><div class="card-meta"><span>${fmtDate(a.date)}</span></div><h1>${esc(a.title)}</h1><p class="deck">${esc(a.description)}</p><div class="article-text">${esc(a.content)}</div><div style="margin-top:35px;padding-top:20px;border-top:1px solid #e5eaf0;color:#8792a2;font-size:11px;letter-spacing:.1em">QUANT FLOW CAPITAL · RESEARCH & EDUCATION</div></div>`;
+ }
+ document.getElementById("articleOverlay").classList.add("show");document.body.style.overflow="hidden";
+}
+function startRichEdit(id){
+  const root=document.getElementById("richArticleRoot");
+  if(!root)return;
+  root.classList.add("editing");
+  richEditable(root,true);
+  document.querySelector('.embedded-rich-actions').innerHTML=`<button class="btn btn-light" onclick="cancelRichEdit('${id}')">Cancel</button><button class="btn btn-light" onclick="resetRichEdit('${id}')">Reset to Original</button><button class="btn btn-dark" onclick="saveRichEdit('${id}')">Save Changes</button>`;
+}
+function cancelRichEdit(id){ openArticle(id); }
+function resetRichEdit(id){
+  const original=seed.find(x=>x.id===id); const root=document.getElementById("richArticleRoot");
+  if(!original||!root)return;
+  root.innerHTML=original.content;
+}
+function saveRichEdit(id){
+  const root=document.getElementById("richArticleRoot");
+  const idx=articles.findIndex(x=>x.id===id);
+  if(!root||idx<0)return;
+  richEditable(root,false);
+  articles[idx].content=root.innerHTML;
+  articles[idx].htmlContent=true;
+  save();
+  openArticle(id);
+}
+function closeArticle(){document.getElementById("articleOverlay").classList.remove("show");document.body.style.overflow=""}
+function openForm(a=null){
+ closeArticle();document.getElementById("articleForm").reset();uploadedImage="";uploadedImageBlob=null;
+ document.getElementById("editId").value=a?.id||"";document.getElementById("title").value=a?.title||"";
+ document.getElementById("date").value=a?.date||new Date().toISOString().slice(0,10);
+ document.getElementById("description").value=a?.description||"";document.getElementById("image").value=a?.image||"";document.getElementById("content").value=a?.content||"";
+ document.getElementById("formOverlay").classList.add("show");document.body.style.overflow="hidden";
+}
+function closeForm(){document.getElementById("formOverlay").classList.remove("show");document.body.style.overflow=""}
+function editArticle(id){let a=articles.find(x=>x.id===id);if(a)openForm(a)}
+function deleteArticle(id){if(!confirm("Delete this article?"))return;articles=articles.filter(a=>a.id!==id);save();closeArticle();render()}
+async function compressCoverFile(file){
+  if(!file || !file.type.startsWith("image/")) throw new Error("Please choose a valid image file (JPG, PNG, WebP, etc.).");
+  const raw=await new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(r.result);r.onerror=()=>reject(new Error("The image could not be read."));r.readAsDataURL(file)});
+  const img=await new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=()=>reject(new Error("This image format cannot be opened by your browser. Try JPG, PNG or WebP."));im.src=raw});
+  const maxW=1200,maxH=800; let w=img.naturalWidth||img.width,h=img.naturalHeight||img.height;
+  const scale=Math.min(1,maxW/w,maxH/h); w=Math.max(1,Math.round(w*scale)); h=Math.max(1,Math.round(h*scale));
+  const canvas=document.createElement("canvas"); canvas.width=w; canvas.height=h;
+  const ctx=canvas.getContext("2d"); ctx.fillStyle="#f2f4f5"; ctx.fillRect(0,0,w,h); ctx.drawImage(img,0,0,w,h);
+  const blob=await new Promise((resolve,reject)=>canvas.toBlob(b=>b?resolve(b):reject(new Error("Could not process this image.")),"image/jpeg",0.78));
+  return blob;
+}
+document.getElementById("imageFile").addEventListener("change",async e=>{
+  const f=e.target.files[0]; if(!f)return;
+  try{uploadedImageBlob=await compressCoverFile(f);uploadedImage="__pending_idb__";document.getElementById("image").value="";}
+  catch(err){uploadedImage="";uploadedImageBlob=null;e.target.value="";alert(err.message||"The image could not be uploaded.");}
+});
+document.getElementById("articleForm").addEventListener("submit",async e=>{
+ e.preventDefault();let id=document.getElementById("editId").value||"qfc-"+Date.now();
+ let old=articles.find(a=>a.id===id);let image=document.getElementById("image").value.trim()||(old?.image||"");
+ if(uploadedImageBlob){try{const key="cover-"+id+"-"+Date.now();await putCoverBlob(key,uploadedImageBlob);coverObjectURLs.set(key,URL.createObjectURL(uploadedImageBlob));image="idb:"+key;}catch(err){alert("Cover photo could not be saved. "+(err?.message||""));return;}}
+ let a={id,title:document.getElementById("title").value.trim(),date:document.getElementById("date").value,description:document.getElementById("description").value.trim(),image,content:document.getElementById("content").value.trim(),htmlContent:!!old?.htmlContent};
+ const before=articles.slice();
+ if(old)articles=articles.map(x=>x.id===id?a:x);else articles.unshift(a);
+ try{save();closeForm();render();}
+ catch(err){articles=before;alert("The article could not be saved because browser storage is full. Try a smaller cover image or remove an older uploaded cover.");}
+});
+function goHome(){closeArticle();closeForm();window.scrollTo({top:0,behavior:"smooth"})}
+document.getElementById("year").textContent=new Date().getFullYear();render();hydrateStoredCovers().catch(()=>{});
+</script>
+<script>
+(function(){
+  const today=document.getElementById("today");
+  function tick(){
+    const now=new Date();
+    today.textContent=now.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric",year:"numeric"});
+    today.dateTime=now.toISOString().slice(0,10);
+    document.querySelectorAll(".clocks b[data-tz]").forEach(el=>{
+      try{el.textContent=now.toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit",timeZone:el.dataset.tz})}catch(e){}
+    });
+  }
+  tick();setInterval(tick,15000);
+  document.addEventListener("keydown",e=>{
+    if(e.key==="Escape"){closeArticle();closeForm();return}
+    const t=e.target,typing=t.isContentEditable||/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName);
+    if(e.key==="/"&&!typing){e.preventDefault();document.getElementById("search").focus()}
+  });
+})();
+</script>
+</body>
+</html>

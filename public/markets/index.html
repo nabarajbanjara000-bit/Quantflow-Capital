@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Markets: Economic Calendar &amp; Headlines | Quant Flow Capital</title>
+<meta name="description" content="High-impact economic calendar and live market headlines across global asset classes, monitored continuously by Quant Flow Capital.">
+<link rel="icon" type="image/png" href="/assets/img/6da887eca7.png">
+<link rel="apple-touch-icon" href="/assets/img/6da887eca7.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Quant Flow Capital">
+<meta property="og:title" content="Markets: Economic Calendar &amp; Headlines | Quant Flow Capital">
+<meta property="og:description" content="Real-time economic releases and breaking global market headlines.">
+<meta name="theme-color" content="#0a1729">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/site.css">
+<style>
+/* Page specific styling for Markets */
+.hero-markets {
+  background: linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
+  border-bottom: 1px solid var(--line);
+  padding: 56px 0 42px;
+}
+.hero-markets h1 {
+  font-family: var(--serif);
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin: 14px 0 16px;
+}
+.hero-markets p.lead {
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--ink-2);
+  max-width: 66ch;
+  margin: 0;
+}
+
+/* Ticker styles */
+.ticker {
+  background: var(--navy-2);
+  border-bottom: 1px solid var(--navy-line);
+  display: flex;
+  align-items: stretch;
+}
+.ticker-tag {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 18px 0 28px;
+  color: #fff;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  border-right: 1px solid var(--navy-line);
+  background: var(--navy);
+}
+.live-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #e5484d;
+  box-shadow: 0 0 0 0 rgba(229, 72, 77, 0.6);
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(229, 72, 77, 0.55); }
+  70% { box-shadow: 0 0 0 7px rgba(229, 72, 77, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(229, 72, 77, 0); }
+}
+
+/* Markets Grid */
+.markets-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin: 48px 0 64px;
+}
+.panel-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+}
+.panel-card-head {
+  padding: 18px 24px;
+  border-bottom: 1px solid var(--line-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #faf9f6;
+}
+.panel-card-head h3 {
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 500;
+  margin: 0;
+  color: var(--ink);
+}
+.panel-card-head small {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 2px;
+}
+.impact {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background: var(--down-soft);
+  color: var(--down);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+.impact i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.chip-live {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background: var(--up-soft);
+  color: var(--up);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+.chip-live i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.widget-frame {
+  height: 620px;
+  background: #ffffff;
+}
+.panel-card-foot {
+  padding: 14px 22px;
+  border-top: 1px solid var(--line-2);
+  background: #faf9f6;
+  font-size: 12px;
+  color: var(--faint);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.panel-card-foot a {
+  color: var(--accent);
+  font-weight: 600;
+}
+@media (max-width: 900px) {
+  .markets-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- Top utility bar -->
+<div class="topbar"><div class="wrap topbar-inner">
+  <div class="topbar-left">
+    <time id="today"></time>
+    <span class="divider" aria-hidden="true"></span>
+    <div class="clocks" aria-label="Market time zones">
+      <span>New York<b data-tz="America/New_York">--:--</b></span>
+      <span>London<b data-tz="Europe/London">--:--</b></span>
+      <span>Tokyo<b data-tz="Asia/Tokyo">--:--</b></span>
+    </div>
+  </div>
+  <div class="topbar-right">
+    <a href="/monitor/">Central bank monitor</a>
+    <span class="divider" aria-hidden="true"></span>
+    <a href="/library/">Research library</a>
+    <span class="divider" aria-hidden="true"></span>
+    <a href="/about/">About Quant Flow</a>
+    <span class="divider" aria-hidden="true"></span>
+    <a href="/connect/">Connect</a>
+  </div>
+</div></div>
+
+<!-- Masthead navigation -->
+<header class="masthead"><div class="wrap masthead-inner">
+  <a class="brand" href="/" aria-label="Quant Flow Capital home">
+    <img class="brand-logo" src="/assets/img/2f2890412a.png" alt="Quant Flow Capital">
+    <span class="brand-text"><b>Quant Flow Capital</b><small>Macro &amp; Markets Research</small></span>
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+  </button>
+  <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+    <a href="/">Research</a>
+    <a href="/monitor/">Central Banks</a>
+    <a class="active" href="/markets/">Markets</a>
+    <a href="/library/">Library</a>
+    <a href="/about/">About</a>
+    <a class="nav-cta" href="/connect/">Connect with Us</a>
+  </nav>
+</div></header>
+
+<!-- Live market ticker tape -->
+<section class="ticker" aria-label="Live market prices">
+  <div class="ticker-tag"><i class="live-dot" aria-hidden="true"></i><span>Live</span></div>
+  <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+      "symbols": [
+        {"proName":"FOREXCOM:SPXUSD","title":"S&P 500"},
+        {"proName":"FOREXCOM:NSXUSD","title":"Nasdaq 100"},
+        {"proName":"FOREXCOM:DJI","title":"Dow Jones"},
+        {"proName":"INDEX:DEU40","title":"DAX 40"},
+        {"proName":"FOREXCOM:UKXGBP","title":"FTSE 100"},
+        {"proName":"INDEX:NKY","title":"Nikkei 225"},
+        {"proName":"FX:EURUSD","title":"EUR/USD"},
+        {"proName":"FX:GBPUSD","title":"GBP/USD"},
+        {"proName":"FX:USDJPY","title":"USD/JPY"},
+        {"proName":"FX:USDCHF","title":"USD/CHF"},
+        {"proName":"FX:USDCAD","title":"USD/CAD"},
+        {"proName":"FX:AUDUSD","title":"AUD/USD"},
+        {"proName":"FX:NZDUSD","title":"NZD/USD"},
+        {"proName":"TVC:GOLD","title":"Gold"},
+        {"proName":"TVC:SILVER","title":"Silver"},
+        {"proName":"TVC:USOIL","title":"WTI Crude"},
+        {"proName":"TVC:UKOIL","title":"Brent Crude"},
+        {"proName":"CAPITALCOM:NATURALGAS","title":"Natural Gas"}
+      ],
+      "showSymbolLogo": false,
+      "colorTheme": "dark",
+      "isTransparent": true,
+      "displayMode": "adaptive",
+      "locale": "en"
+    }
+    </script>
+  </div>
+</section>
+
+<main id="main">
+  <!-- Hero Section -->
+  <section class="hero-markets">
+    <div class="wrap">
+      <span class="eyebrow">Real-Time Data Feeds</span>
+      <h1>Economic Calendar &amp; Market Headlines</h1>
+      <p class="lead">
+        Continuous monitoring of high-impact macroeconomic data releases, central bank decisions, and global market headlines across G10 currencies, equities, fixed income, and commodities.
+      </p>
+    </div>
+  </section>
+
+  <!-- Widgets Section -->
+  <div class="wrap">
+    <div class="markets-grid" id="markets">
+      
+      <!-- Economic Calendar -->
+      <article class="panel-card">
+        <div class="panel-card-head">
+          <div>
+            <h3>Economic Calendar</h3>
+            <small>Major economies · High-impact releases</small>
+          </div>
+          <span class="impact"><i aria-hidden="true"></i>High impact</span>
+        </div>
+        <div class="widget-frame">
+          <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+            {
+              "colorTheme": "light",
+              "isTransparent": true,
+              "width": "100%",
+              "height": "100%",
+              "locale": "en",
+              "importanceFilter": "1",
+              "countryFilter": "us,eu,gb,jp,cn,ca,au,ch,de"
+            }
+            </script>
+          </div>
+        </div>
+        <div class="panel-card-foot">
+          <span>Event times can change. Verify time zone before execution.</span>
+          <a href="https://www.forexfactory.com/calendar?impacts=3" target="_blank" rel="noopener noreferrer">Forex Factory ↗</a>
+        </div>
+      </article>
+
+      <!-- Market Headlines -->
+      <article class="panel-card">
+        <div class="panel-card-head">
+          <div>
+            <h3>Market Headlines</h3>
+            <small>Global real-time news across asset classes</small>
+          </div>
+          <span class="chip-live"><i aria-hidden="true"></i>Live</span>
+        </div>
+        <div class="widget-frame">
+          <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
+            {
+              "feedMode": "all_symbols",
+              "isTransparent": true,
+              "displayMode": "regular",
+              "width": "100%",
+              "height": "100%",
+              "colorTheme": "light",
+              "locale": "en"
+            }
+            </script>
+          </div>
+        </div>
+        <div class="panel-card-foot">
+          <span>Quotes and news provided by TradingView. Delays vary by exchange.</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <div class="footer-brand">Quant Flow Capital</div>
+        <p>A global macroeconomic research firm chasing absolute clarity for positioning capital across sovereign debt, central bank policy, and financial markets.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="/">Research Home</a></li>
+          <li><a href="/monitor/">Central Bank Monitor</a></li>
+          <li><a href="/markets/">Markets</a></li>
+          <li><a href="/library/">Research Library</a></li>
+          <li><a href="/about/">About Quant Flow</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Central Banks</h4>
+        <ul>
+          <li><a href="/monitor/#us">Federal Reserve</a></li>
+          <li><a href="/monitor/#germany">European Central Bank</a></li>
+          <li><a href="/monitor/#japan">Bank of Japan</a></li>
+          <li><a href="/monitor/#uk">Bank of England</a></li>
+          <li><a href="/monitor/#canada">Bank of Canada</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="/connect/">Connect With Us</a></li>
+          <li><a href="mailto:research@quantflowcapital.com">research@quantflowcapital.com</a></li>
+          <li><span style="color:var(--muted);font-size:13px">Coverage: NY · LDN · TYO</span></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="disclaimer">
+      <p><strong>Important information.</strong> Content published by Quant Flow Capital is for informational and educational purposes only. It does not constitute investment, tax, or legal advice, or an offer or solicitation to buy or sell any security or financial instrument.</p>
+    </div>
+    <div class="copyright">
+      <span>© <span id="year">2026</span> Quant Flow Capital. All rights reserved.</span>
+      <span>Markets &amp; Economic Intelligence</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Clocks and date
+(function(){
+  const today = document.getElementById("today");
+  function tick(){
+    const now = new Date();
+    if(today) {
+      today.textContent = now.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" });
+      today.dateTime = now.toISOString().slice(0, 10);
+    }
+    document.querySelectorAll(".clocks b[data-tz]").forEach(el => {
+      try { el.textContent = now.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit", timeZone: el.dataset.tz }); } catch(e){}
+    });
+  }
+  tick();
+  setInterval(tick, 15000);
+  document.getElementById("year").textContent = new Date().getFullYear();
+})();
+
+// Mobile navigation toggle
+document.getElementById("navToggle")?.addEventListener("click", function(){
+  const nav = document.getElementById("primaryNav");
+  const open = nav.classList.toggle("open");
+  this.setAttribute("aria-expanded", open);
+});
+
+// TradingView widget fallback
+(function(){
+  var links = {
+    0: ["Open economic calendar on TradingView", "https://www.tradingview.com/economic-calendar/"],
+    1: ["Open market news on TradingView", "https://www.tradingview.com/news/"]
+  };
+  setTimeout(function(){
+    var frames = document.querySelectorAll('.widget-frame');
+    frames.forEach(function(f, i){
+      if(f.querySelector('iframe')) return;
+      var d = document.createElement('div');
+      d.style.cssText = 'height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;padding:24px;color:#5b6b7c;font-size:14px;line-height:1.6';
+      var l = links[i] || links[0];
+      d.innerHTML = '<span>Live feed could not load. Ad blockers or restricted networks may block it.</span><a href="'+l[1]+'" target="_blank" rel="noopener noreferrer" style="color:#0a1729;font-weight:700">'+l[0]+' &#8599;</a>';
+      f.appendChild(d);
+    });
+  }, 10000);
+})();
+</script>
+</body>
+</html>
