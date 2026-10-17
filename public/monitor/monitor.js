@@ -48,7 +48,7 @@ function when(iso) { if (!iso) return "—"; return new Date(iso).toLocaleString
 function dt(iso) { return new Date(iso + "T12:00:00Z"); }
 function dShort(iso) { var t = dt(iso); return MONTHS[t.getUTCMonth()] + " " + t.getUTCDate(); }
 function secHead(n, id, title) { return '<div class="sec-head"><span class="sec-num">' + n + '</span><h2 id="' + id + '-h">' + esc(title) + "</h2></div>"; }
-function getJson(name) { return fetch(BASE + name, { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+function getJson(name) { return fetch(BASE + name).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
 var TAG = { official: ["Official", "t-official"], secondary: ["Secondary", "t-secondary"], old: ["Old", "t-old"], nc: ["Not collected", "t-nc"] };
 var TONE_OK = { bad: 1, mixed: 1, good: 1, info: 1 };
 function cleanVal(v) { return String(v || "—").replace(" vs a year ago", "").replace(/^\+/, ""); }
@@ -334,6 +334,13 @@ function ensure(country) {
     .catch(function () { loaded[country] = null; panel.innerHTML = '<p class="note" style="margin-top:30px">Sorry, the latest data could not be loaded. Please refresh the page in a minute.</p>'; });
   return loaded[country];
 }
+
+// Pre-load all country tabs in the background so switching tabs is 0ms instant
+setTimeout(function () {
+  CODES.forEach(function (c) {
+    if (!loaded[c]) ensure(c);
+  });
+}, 250);
 
 /* ---------- routing: overview + one country at a time ---------- */
 var tabs = [].slice.call(document.querySelectorAll(".ctabs a"));

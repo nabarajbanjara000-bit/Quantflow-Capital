@@ -14,6 +14,10 @@
 <meta name="theme-color" content="#0a1729">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://s3.tradingview.com" crossorigin>
+<link rel="preconnect" href="https://scanner.tradingview.com" crossorigin>
+<link rel="dns-prefetch" href="https://s3.tradingview.com">
+<link rel="dns-prefetch" href="https://scanner.tradingview.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/site.css">
 <style>
@@ -220,7 +224,20 @@
 <section class="ticker" aria-label="Live market prices">
   <div class="ticker-tag"><i class="live-dot" aria-hidden="true"></i><span>Live</span></div>
   <div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-container__widget">
+      <div class="ticker-placeholder" style="display:flex;align-items:center;height:46px;gap:24px;overflow:hidden;white-space:nowrap;font-family:Inter,ui-sans-serif,sans-serif;font-size:12.5px;color:#c9d4e2;padding:0 16px;">
+        <span><b>S&P 500</b> 5,864.67 <span style="color:#0f7a4f">+0.41%</span></span>
+        <span><b>Nasdaq 100</b> 20,324.18 <span style="color:#0f7a4f">+0.63%</span></span>
+        <span><b>Dow Jones</b> 43,275.91 <span style="color:#0f7a4f">+0.09%</span></span>
+        <span><b>DAX 40</b> 19,657.37 <span style="color:#0f7a4f">+0.38%</span></span>
+        <span><b>Nikkei 225</b> 38,981.75 <span style="color:#0f7a4f">+0.18%</span></span>
+        <span><b>EUR/USD</b> 1.0866 <span style="color:#b42335">-0.29%</span></span>
+        <span><b>USD/JPY</b> 149.52 <span style="color:#0f7a4f">+0.34%</span></span>
+        <span><b>Gold</b> 2,721.40 <span style="color:#0f7a4f">+1.07%</span></span>
+        <span><b>Brent Crude</b> 73.06 <span style="color:#b42335">-1.87%</span></span>
+        <span><b>US 10Y Yield</b> 4.08% <span style="color:#0f7a4f">+0.02%</span></span>
+      </div>
+    </div>
     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
     {
       "symbols": [
@@ -246,7 +263,7 @@
       "showSymbolLogo": false,
       "colorTheme": "dark",
       "isTransparent": true,
-      "displayMode": "adaptive",
+      "displayMode": "regular",
       "locale": "en"
     }
     </script>
@@ -425,6 +442,7 @@ document.getElementById("navToggle")?.addEventListener("click", function(){
   }, 10000);
 })();
 </script>
+<script src="/assets/js/instant-nav.js" defer></script>
 <script src="/assets/js/popup.js" defer></script>
 </body>
 </html>

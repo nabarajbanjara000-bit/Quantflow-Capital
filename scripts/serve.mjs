@@ -58,6 +58,12 @@ const server = http.createServer((req, res) => {
   res.setHeader("X-Content-Type-Options", "nosniff");
   res.setHeader("Access-Control-Allow-Origin", "*");
 
+  if (ext === ".html") {
+    res.setHeader("Cache-Control", "public, max-age=0, must-revalidate");
+  } else {
+    res.setHeader("Cache-Control", "public, max-age=3600");
+  }
+
   const stream = fs.createReadStream(filePath);
   stream.pipe(res);
 });
