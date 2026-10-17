@@ -165,7 +165,7 @@
           </svg>
         </button>
         <div class="qfc-popup-tag">01 / RESEARCH COLLABORATION</div>
-        <h3 class="qfc-popup-title">Interested in macro and geopolitics?</h3>
+        <h3 class="qfc-popup-title">Interested in macroeconomics and geopolitics?</h3>
         <p class="qfc-popup-desc">We want to meet people who enjoy investigating how economic policy and world events affect the market, and who can support their views with clear reasoning and credible sources:</p>
         <ul class="qfc-popup-list">
           <li>Macroeconomics and central bank policy</li>
