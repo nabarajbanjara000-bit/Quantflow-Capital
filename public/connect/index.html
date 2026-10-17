@@ -1,180 +1,257 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Connect | Quant Flow Capital · Macro &amp; Geopolitical Research</title>
-<meta name="description" content="Connect with Quant Flow Capital. Independent macroeconomic and geopolitical research, collaboration opportunities, and professional dialogues.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Connect with us | Quant Flow Capital · Macro &amp; Geopolitical Research</title>
+<meta name="description" content="Connect with Quant Flow Capital. Independent macroeconomic and geopolitical research and research collaboration opportunities.">
 <link rel="icon" type="image/png" href="/assets/img/6da887eca7.png">
 <link rel="apple-touch-icon" href="/assets/img/6da887eca7.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Quant Flow Capital">
+<meta property="og:title" content="Connect with us | Quant Flow Capital">
+<meta property="og:description" content="Connect with Quant Flow Capital on macroeconomic and geopolitical research.">
+<meta name="theme-color" content="#0a1729">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/site.css">
 <style>
-:root{--bg:#09131e;--surface:#101e2b;--surface2:#142433;--line:#283b4c;--text:#edf1f2;--muted:#a1afbb;--gold:#d3b078;--mint:#83c7a5;--blue:#88abc6}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--text);font:15px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,sans-serif}
-a{color:inherit;text-decoration:none}
-.shell{width:min(1120px,calc(100% - 44px));margin:auto}
-.topline{border-bottom:1px solid var(--line);color:#91a0ad;font-size:10px;letter-spacing:.1em;padding:9px 0}
-.topline span:last-child{float:right}
-.header{position:sticky;z-index:5;top:0;background:#09131eeb;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-.nav{height:76px;display:flex;align-items:center;justify-content:space-between}
-.brand{font:700 18px Georgia,serif;letter-spacing:.035em}
-.brand i{color:var(--gold);font-style:normal}
-.navlinks{display:flex;gap:28px;color:#bac4cc;font-size:12px}
-.navlinks a:hover,.navlinks a.active{color:var(--gold)}
-.navcta{font-size:11px;border:1px solid #526576;padding:9px 13px;transition:border-color .15s,color .15s}
-.navcta:hover{border-color:var(--gold);color:var(--gold)}
-.kicker{font-size:10px;letter-spacing:.2em;color:var(--gold);font-weight:700}
-.btn{display:inline-block;background:var(--gold);color:#111b24;padding:12px 17px;font-size:11px;font-weight:700;transition:opacity .15s}
-.btn:hover{opacity:.9}
-.btn.secondary{background:transparent;color:var(--text);border:1px solid #516575;transition:border-color .15s}
-.btn.secondary:hover{border-color:var(--gold)}
-.contact-hero{padding:67px 0 42px}
-.contact-hero h1{font:500 clamp(43px,5.5vw,66px)/1.05 Georgia,serif;letter-spacing:-.035em;margin:14px 0}
-.contact-hero p{max-width:680px;color:#b1bdc6;font-size:15px;line-height:1.7}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.connect-card{background:linear-gradient(150deg,#142433,#101a25);border:1px solid var(--line);padding:27px;min-height:255px;display:flex;flex-direction:column;align-items:flex-start}
-.connect-card .num{font:italic 14px Georgia,serif;color:var(--gold)}
-.connect-card h2{font:500 27px Georgia,serif;margin:13px 0 8px;letter-spacing:-.02em}
-.connect-card p{color:var(--muted);font-size:12px;margin:0;max-width:470px;line-height:1.65}
-.connect-card ul{padding-left:17px;color:#bbc5cd;font-size:11px;margin:16px 0;line-height:1.7}
-.connect-card .btn{margin-top:auto}
-.section{padding:52px 0;border-top:1px solid var(--line);margin-top:20px}
-.section-title{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:23px}
-.section-title h2{font:500 34px Georgia,serif;margin:5px 0 0;letter-spacing:-.02em}
-.section-title p{margin:0;color:var(--muted);max-width:520px;font-size:12px}
-.example{display:grid;grid-template-columns:1.15fr .85fr;border:1px solid var(--line);background:var(--surface)}
-.example-copy{padding:26px}
-.example-copy .tag{font-size:9px;color:var(--gold);letter-spacing:.17em;font-weight:700}
-.example-copy h3{font:500 25px Georgia,serif;margin:8px 0}
-.example-copy p{font-size:12px;color:var(--muted);margin:0 0 16px;line-height:1.65}
-.example-copy .more{display:inline-block;color:var(--gold);font-size:11px;font-weight:600}
-.example-panel{background:linear-gradient(140deg,#183042,#101b27);padding:23px;display:flex;flex-direction:column;justify-content:center}
-.datum{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid #344555;padding:10px 0;font-size:10px;color:#b4c0c8}
-.datum:last-child{border-bottom:none}
-.datum span:first-child{color:var(--muted)}
-.datum span:last-child{color:#edf1f2;font-weight:500}
-.disclaimer{font-size:10px;color:#7f8f9c;margin-top:14px}
-.footer{margin-top:57px;padding:25px 0 35px;border-top:1px solid var(--line);color:#8d9ba7;font-size:10px}
-.footer-inner{display:flex;justify-content:space-between;gap:20px}
-.footer-links{display:flex;gap:20px}
-.footer-links a:hover{color:var(--text)}
-@media(max-width:760px){
-  .shell{width:calc(100% - 32px)}
-  .nav{height:66px}
-  .navlinks{gap:12px;font-size:10px}
-  .navcta{display:none}
-  .section{padding:38px 0}
-  .section-title{align-items:start;flex-direction:column}
-  .section-title h2{font-size:29px}
-  .contact-hero{padding:48px 0 30px}
-  .contact-hero h1{font-size:42px}
-  .contact-grid{grid-template-columns:1fr}
-  .connect-card{min-height:230px}
-  .example{grid-template-columns:1fr}
-  .footer-inner{flex-direction:column}
-  .footer-links{flex-wrap:wrap}
+/* Page-specific styling for Connect with Us matching Home page aesthetics */
+.connect-hero {
+  padding: 56px 0 36px;
+  text-align: center;
+}
+.connect-hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(32px, 4.2vw, 48px);
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin: 12px 0 0;
+}
+.connect-container {
+  max-width: 720px;
+  margin: 0 auto 80px;
+}
+.connect-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 42px 44px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.connect-card:hover {
+  box-shadow: var(--shadow-md);
+}
+.connect-card .num {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  color: var(--gold);
+  text-transform: uppercase;
+}
+.connect-card h2 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--ink);
+  margin: 14px 0 12px;
+  letter-spacing: -0.015em;
+}
+.connect-card p {
+  color: var(--ink-2);
+  font-size: 15px;
+  line-height: 1.68;
+  margin: 0 0 16px;
+}
+.connect-card ul {
+  padding-left: 20px;
+  color: var(--ink-2);
+  font-size: 14.5px;
+  margin: 0 0 32px;
+  line-height: 1.75;
+}
+.connect-card ul li {
+  margin-bottom: 6px;
+}
+.connect-card .btn-connect {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--navy);
+  color: #ffffff;
+  padding: 13px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+.connect-card .btn-connect:hover {
+  background: var(--navy-2);
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(10, 23, 41, 0.2);
+}
+@media (max-width: 640px) {
+  .connect-hero {
+    padding: 38px 0 24px;
+  }
+  .connect-card {
+    padding: 28px 22px;
+  }
+  .connect-card h2 {
+    font-size: 23px;
+  }
 }
 </style>
 </head>
 <body>
-<div class="topline">
-  <div class="shell">
-    <span>INDEPENDENT MACRO &amp; GEOPOLITICAL RESEARCH</span>
-    <span>GLOBAL PERSPECTIVE · CLEAR PROCESS</span>
-  </div>
-</div>
+<a class="skip" href="#mainContent">Skip to content</a>
 
-<header class="header">
-  <div class="shell nav">
-    <a class="brand" href="/">QUANT FLOW <i>CAPITAL</i></a>
-    <nav class="navlinks" aria-label="Primary">
-      <a href="/">Home</a>
-      <a href="/monitor/">Central Banks</a>
-      <a href="/markets/">Markets</a>
-      <a href="/library/">Research</a>
-      <a class="active" href="/connect/">Connect</a>
-    </nav>
-    <a class="navcta" href="mailto:research@quantflowcapital.com?subject=Inquiry%20%E2%80%94%20Quant%20Flow">Start a conversation ↗</a>
-  </div>
-</header>
-
-<main class="shell">
-  <article class="page" id="connect">
-    <section class="contact-hero">
-      <div class="kicker">CONNECT WITH QUANT FLOW</div>
-      <h1>Good research starts with good conversations.</h1>
-      <p>We’re building a thoughtful community around macroeconomics, geopolitics, and the forces that shape financial markets. Whether you want to contribute research or learn more about our approach, we’d be glad to hear from you.</p>
-    </section>
-
-    <section class="contact-grid">
-      <div class="connect-card">
-        <div class="num">01 / RESEARCH COLLABORATORS</div>
-        <h2>Interested in macro and geopolitics?</h2>
-        <p>We want to meet people who enjoy investigating how economic policy and world events affect markets, and who can support their views with clear reasoning and credible sources.</p>
-        <ul>
-          <li>Macroeconomics and central bank policy</li>
-          <li>Geopolitics, trade, energy, and supply chains</li>
-          <li>Market implications, scenarios, and research writing</li>
-        </ul>
-        <a class="btn" href="mailto:research@quantflowcapital.com?subject=Research%20collaboration%20%E2%80%94%20Quant%20Flow">Discuss research collaboration ↗</a>
-      </div>
-
-      <div class="connect-card">
-        <div class="num">02 / INVESTORS &amp; INDUSTRY</div>
-        <h2>Want to understand our approach?</h2>
-        <p>We welcome professional conversations about our research framework, how we form a market outlook, and the process we’re building.</p>
-        <ul>
-          <li>Learn how our research framework works</li>
-          <li>Discuss macro and geopolitical research</li>
-          <li>Explore relevant professional connections</li>
-        </ul>
-        <a class="btn secondary" href="mailto:research@quantflowcapital.com?subject=Professional%20conversation%20%E2%80%94%20Quant%20Flow">Start a professional conversation ↗</a>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="section-title">
-        <div>
-          <div class="kicker">A GOOD FIRST NOTE</div>
-          <h2>Tell us what you’re curious about.</h2>
-        </div>
-        <p>A short introduction is enough. Share the topics you follow, the kind of work you enjoy, and what prompted you to reach out.</p>
-      </div>
-      <div class="example">
-        <div class="example-copy">
-          <div class="tag">RESEARCH@QUANTFLOWCAPITAL.COM</div>
-          <h3>Clear, direct, and human.</h3>
-          <p>We’re especially interested in conversations grounded in curiosity, evidence, and a genuine interest in how macro and geopolitical events affect markets.</p>
-          <a class="more" href="mailto:research@quantflowcapital.com">research@quantflowcapital.com ↗</a>
-        </div>
-        <div class="example-panel">
-          <div class="datum"><span>What are you following?</span><span>Topics or regions</span></div>
-          <div class="datum"><span>How would you like to connect?</span><span>Research · professional</span></div>
-          <div class="datum"><span>What perspective do you bring?</span><span>Experience or curiosity</span></div>
-        </div>
-      </div>
-      <p class="disclaimer">Contact links open your email client; no information is collected or stored on this server.</p>
-    </section>
-  </article>
-</main>
-
-<footer class="footer">
-  <div class="shell footer-inner">
-    <span>QUANT FLOW CAPITAL · MACRO &amp; GEOPOLITICAL RESEARCH</span>
-    <div class="footer-links">
-      <a href="/">Home</a>
-      <a href="/monitor/">Central Banks</a>
-      <a href="/markets/">Markets</a>
-      <a href="/library/">Research</a>
-      <a href="/connect/">Connect</a>
-      <a href="mailto:research@quantflowcapital.com">Contact</a>
+<!-- Top utility bar -->
+<div class="topbar"><div class="wrap topbar-inner">
+  <div class="topbar-left">
+    <time id="today"></time>
+    <div class="clocks" aria-label="Global financial centers">
+      <span>NYC<b data-tz="America/New_York">--:--</b></span>
+      <span>LDN<b data-tz="Europe/London">--:--</b></span>
+      <span>TYO<b data-tz="Asia/Tokyo">--:--</b></span>
     </div>
   </div>
-  <div class="shell" style="margin-top:15px">Research and educational content only. Nothing on this page is investment advice or an offer to transact.</div>
+  <div class="topbar-right">
+    <a href="/">Home</a>
+    <span class="divider" aria-hidden="true"></span>
+    <a href="/monitor/">Central Banks</a>
+    <span class="divider" aria-hidden="true"></span>
+    <a href="/markets/">Markets</a>
+    <span class="divider" aria-hidden="true"></span>
+    <a href="/library/">Research</a>
+    <span class="divider" aria-hidden="true"></span>
+    <a href="/connect/" class="active">Connect with us</a>
+  </div>
+</div></div>
+
+<!-- Masthead navigation -->
+<header class="masthead"><div class="wrap masthead-inner">
+  <a class="brand" href="/" aria-label="Quant Flow Capital home">
+    <img class="brand-logo" src="/assets/img/2f2890412a.png" alt="Quant Flow Capital">
+    <span class="brand-text"><b>Quant Flow Capital</b><small>Macro &amp; Markets Research</small></span>
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+  </button>
+  <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+    <a href="/">Home</a>
+    <a href="/monitor/">Central Banks</a>
+    <a href="/markets/">Markets</a>
+    <a href="/library/">Research</a>
+    <a class="active" href="/connect/">Connect with us</a>
+  </nav>
+</div></header>
+
+<main class="wrap" id="mainContent">
+  <section class="connect-hero">
+    <span class="eyebrow">Connect with Quant Flow</span>
+    <h1>Connect with Quant Flow</h1>
+  </section>
+
+  <section class="connect-container">
+    <div class="connect-card">
+      <div class="num">01 / RESEARCH COLLABORATION</div>
+      <h2>Interested in macro and geopolitics?</h2>
+      <p>We want to meet people who enjoy investigating how economic policy and world events affect the market, and who can support their views with clear reasoning and credible sources:</p>
+      <ul>
+        <li>Macroeconomics and central bank policy</li>
+        <li>Geopolitics, trade, energy, and supply chains</li>
+        <li>Market implications, scenarios, and research writing</li>
+      </ul>
+      <div>
+        <a class="btn-connect" href="mailto:research@quantflowcapital.com?subject=Research%20Collaboration%20%E2%80%94%20Quant%20Flow">
+          <span>Discuss Research Collaboration</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <div class="footer-brand"><img class="brand-logo" src="/assets/img/2f2890412a.png" alt="" style="width:36px;height:26px;display:inline-block;vertical-align:middle;margin-right:8px;border-radius:4px">Quant Flow Capital</div>
+        <p>A global macroeconomic research firm chasing absolute clarity for positioning capital across sovereign debt, central bank policy, and financial markets.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/monitor/">Central Bank Monitor</a></li>
+          <li><a href="/markets/">Markets</a></li>
+          <li><a href="/library/">Research Library</a></li>
+          <li><a href="/connect/">Connect with us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Central Banks</h4>
+        <ul>
+          <li><a href="/monitor/#us">Federal Reserve</a></li>
+          <li><a href="/monitor/#germany">European Central Bank</a></li>
+          <li><a href="/monitor/#japan">Bank of Japan</a></li>
+          <li><a href="/monitor/#uk">Bank of England</a></li>
+          <li><a href="/monitor/#canada">Bank of Canada</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="/connect/">Connect with us</a></li>
+          <li><a href="mailto:research@quantflowcapital.com">research@quantflowcapital.com</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="disclaimer">
+      <p><strong>Important information.</strong> Content published by Quant Flow Capital is for informational and educational purposes only. It does not constitute investment, tax, or legal advice, or an offer or solicitation to buy or sell any security or financial instrument.</p>
+    </div>
+    <div class="copyright">
+      <span>© <span id="year">2026</span> Quant Flow Capital. All rights reserved.</span>
+      <span>Macro &amp; Geopolitical Research</span>
+    </div>
+  </div>
 </footer>
+
+<script>
+// Clocks and date
+(function(){
+  const today = document.getElementById("today");
+  function tick(){
+    const now = new Date();
+    if(today) {
+      today.textContent = now.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" });
+      today.dateTime = now.toISOString().slice(0, 10);
+    }
+    document.querySelectorAll(".clocks b[data-tz]").forEach(el => {
+      try { el.textContent = now.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit", timeZone: el.dataset.tz }); } catch(e){}
+    });
+  }
+  tick();
+  setInterval(tick, 15000);
+  document.getElementById("year").textContent = new Date().getFullYear();
+})();
+
+// Mobile navigation toggle
+document.getElementById("navToggle")?.addEventListener("click", function(){
+  const nav = document.getElementById("primaryNav");
+  const open = nav?.classList.toggle("open");
+  this.setAttribute("aria-expanded", open ? "true" : "false");
+});
+</script>
 </body>
 </html>
