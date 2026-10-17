@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-10-16",
- "asof_label": "Oct 16, 2026",
- "generated_at": "2026-10-16T18:57:42.294Z",
- "data_updated_at": "2026-10-16T18:57:42.294Z",
- "narrative_updated_at": "2026-10-16T18:57:42.294Z",
+ "asof_date": "2026-10-17",
+ "asof_label": "Oct 17, 2026",
+ "generated_at": "2026-10-17T18:49:22.796Z",
+ "data_updated_at": "2026-10-17T18:49:22.796Z",
+ "narrative_updated_at": "2026-10-17T18:49:22.796Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 20
+  "days_to_decision": 19
  },
  "kpis": [
   {
@@ -797,12 +797,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 16, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "2.50% (Oct 15, 2026)",
+   "period": "Oct 17, 2026",
+   "released": "Detected Oct 17, 2026",
+   "previous": "2.50% (Oct 16, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-16",
+   "latest_date": "2026-10-17",
    "raw": {
     "v": 2.5
    },
@@ -957,9 +957,10 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Monthly GDP grew +0.1% in August, showing steady modest growth.",
+   "headline": "Monthly GDP grew +0.1% in August, and Catherine Mann spoke on financial innovation and policy.",
    "items": [
-    "<strong>Monthly GDP</strong> grew +0.1% in August, following a +0.4% rise in July (ONS)."
+    "<strong>Monthly GDP</strong> grew +0.1% in August, following a +0.4% rise in July (ONS).",
+    "<strong>External MPC member Catherine Mann</strong> published a paper and spoke at Jackson Hole on financial innovation, dollar dominance, and their UK monetary policy implications (<a href=\"https://www.bankofengland.co.uk/speech/2026/october/financial-innovation-dollar-dominance-and-their-uk-monetary-policy-implications\" target=\"_blank\" rel=\"noopener noreferrer\">BoE</a>)."
    ]
   },
   "verdict": {
@@ -2025,6 +2026,30 @@
  ],
  "changelog": [
   {
+   "date": "2026-10-17",
+   "date_label": "Oct 17, 2026",
+   "since": "2026-10-16",
+   "since_label": "Oct 16, 2026",
+   "summary": {
+    "headline": "Monthly GDP grew +0.1% in August, and Catherine Mann spoke on financial innovation and policy.",
+    "items": [
+     "<strong>Monthly GDP</strong> grew +0.1% in August, following a +0.4% rise in July (ONS).",
+     "<strong>External MPC member Catherine Mann</strong> published a paper and spoke at Jackson Hole on financial innovation, dollar dominance, and their UK monetary policy implications (<a href=\"https://www.bankofengland.co.uk/speech/2026/october/financial-innovation-dollar-dominance-and-their-uk-monetary-policy-implications\" target=\"_blank\" rel=\"noopener noreferrer\">BoE</a>)."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Financial innovation, dollar dominance and their UK monetary policy implications",
+     "date": "2026-10-16",
+     "url": "https://www.bankofengland.co.uk/speech/2026/october/financial-innovation-dollar-dominance-and-their-uk-monetary-policy-implications"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
+  {
    "date": "2026-10-16",
    "date_label": "Oct 16, 2026",
    "since": "2026-10-16",
@@ -2110,6 +2135,11 @@
     "url": "https://www.bankofengland.co.uk/news/2026/october/boe-announces-the-four-animals-that-will-feature-on-next-series-of-banknotes"
    },
    {
+    "title": "Financial innovation, dollar dominance and their UK monetary policy implications",
+    "date": "2026-10-16",
+    "url": "https://www.bankofengland.co.uk/speech/2026/october/financial-innovation-dollar-dominance-and-their-uk-monetary-policy-implications"
+   },
+   {
     "title": "The importance of public engagement in maintaining trust in banknotes - Speech by Victoria Cleland",
     "date": "2026-10-15",
     "url": "https://www.bankofengland.co.uk/speech/2026/october/victoria-cleland-intergraf-currency-identity-conference-demark"
@@ -2133,11 +2163,6 @@
     "title": "Financial conditions: what’s priced in? − speech by Catherine L. Mann",
     "date": "2026-10-01",
     "url": "https://www.bankofengland.co.uk/speech/2026/october/catherine-mann-nomura-investor-conference"
-   },
-   {
-    "title": "A unique vantage point − speech by Nathanaël Benjamin",
-    "date": "2026-10-01",
-    "url": "https://www.bankofengland.co.uk/speech/2026/october/nathanael-benjamin-speech-at-isda-derivatives-trading-and-treasury-forum"
    },
    {
     "title": "Bank of England Weekly Report 14 October 2026",

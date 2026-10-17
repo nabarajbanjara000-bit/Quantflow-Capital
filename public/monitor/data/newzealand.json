@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-10-16",
- "asof_label": "Oct 16, 2026",
- "generated_at": "2026-10-16T18:55:59.848Z",
- "data_updated_at": "2026-10-16T18:55:59.848Z",
+ "asof_date": "2026-10-17",
+ "asof_label": "Oct 17, 2026",
+ "generated_at": "2026-10-17T18:47:23.673Z",
+ "data_updated_at": "2026-10-17T18:47:23.673Z",
  "narrative_updated_at": "2026-10-16T18:55:59.848Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 12
+  "days_to_decision": 11
  },
  "kpis": [
   {
@@ -718,12 +718,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 16, 2026",
-   "released": "Oct 16, 2026",
-   "previous": "4.00% (Oct 15, 2026)",
+   "period": "Oct 17, 2026",
+   "released": "Oct 17, 2026",
+   "previous": "4.00% (Oct 16, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-16",
+   "latest_date": "2026-10-17",
    "raw": {
     "v": 4
    },
@@ -736,12 +736,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 16, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "2.50% (Oct 15, 2026)",
+   "period": "Oct 17, 2026",
+   "released": "Detected Oct 17, 2026",
+   "previous": "2.50% (Oct 16, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-16",
+   "latest_date": "2026-10-17",
    "raw": {
     "v": 2.5
    },
@@ -775,30 +775,6 @@
   }
  },
  "releases": [
-  {
-   "id": "selected_price_indexes",
-   "name": "Selected price indexes, September",
-   "publisher": "Stats NZ",
-   "date": "2026-10-16",
-   "date_label": "Fri Oct 16",
-   "time": "10:45 a.m. NZDT",
-   "url": "https://www.stats.govt.nz/release-calendar/",
-   "what": "Monthly prices for food, rents, petrol, power and some other items.",
-   "weekly": false,
-   "timing": "before"
-  },
-  {
-   "id": "electronic_card_transactions",
-   "name": "Electronic card transactions, September",
-   "publisher": "Stats NZ",
-   "date": "2026-10-16",
-   "date_label": "Fri Oct 16",
-   "time": "10:45 a.m. NZDT",
-   "url": "https://www.stats.govt.nz/release-calendar/",
-   "what": "How much people spent using debit and credit cards.",
-   "weekly": false,
-   "timing": "before"
-  },
   {
    "id": "overseas_merchandise_trade",
    "name": "Overseas merchandise trade, September",
@@ -934,10 +910,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new official data since the last update, but oil prices edged higher.",
-   "items": [
-    "<strong>WTI crude oil</strong> rose from $96.24 a barrel (Oct 6) to $101.91 a barrel (Oct 14), keeping fuel cost pressures high ahead of the October 28 review."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "raise",
@@ -2048,6 +2022,6 @@
    "automatic": 18,
    "manual": 21
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

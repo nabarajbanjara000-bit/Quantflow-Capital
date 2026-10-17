@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "us",
- "asof_date": "2026-10-16",
- "asof_label": "Oct 16, 2026",
- "generated_at": "2026-10-16T18:52:37.333Z",
- "data_updated_at": "2026-10-16T18:52:37.333Z",
+ "asof_date": "2026-10-17",
+ "asof_label": "Oct 17, 2026",
+ "generated_at": "2026-10-17T18:44:01.371Z",
+ "data_updated_at": "2026-10-17T18:44:01.371Z",
  "narrative_updated_at": "2026-10-16T18:52:37.333Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
   "calendar_label": "Official Fed meeting calendar",
   "who": "The Federal Reserve (“the Fed”), America's central bank. Its 12-person voting group is called the FOMC (Federal Open Market Committee).",
-  "days_to_decision": 12
+  "days_to_decision": 11
  },
  "kpis": [
   {
    "label": "Fed interest rate",
    "value": "3.75% – 4.00%",
    "note": "",
-   "period": "In effect Oct 16, 2026",
+   "period": "In effect Oct 17, 2026",
    "source": "Federal Reserve",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "5.10%",
+   "value": "5.09%",
    "note": "",
-   "period": "Oct 15, 2026",
+   "period": "Oct 16, 2026",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
   }
@@ -235,7 +235,7 @@
    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
    "value": "+3.2% vs a year ago",
    "period": "Sep 2026 (+0.4% in the month)",
-   "released": "Oct 14, 2026",
+   "released": "Oct 15, 2026",
    "previous": "+3.0% a year; +0.3% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -254,7 +254,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "+3.4% vs a year ago",
    "period": "Aug 2026 (+0.3% in the month)",
-   "released": "Sep 30, 2026",
+   "released": "Oct 2, 2026",
    "previous": "+3.4% a year; +0.1% in the month (Jul 2026)",
    "tag": "official",
    "manual": false,
@@ -273,7 +273,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "+3.0% vs a year ago",
    "period": "Aug 2026 (+0.2% in the month)",
-   "released": "Sep 30, 2026",
+   "released": "Oct 1, 2026",
    "previous": "+3.0% a year; +0.1% in the month (Jul 2026)",
    "tag": "official",
    "manual": false,
@@ -292,7 +292,7 @@
    "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
    "value": "+6.3% vs a year ago",
    "period": "Sep 2026 (+1.3% in the month)",
-   "released": "Oct 16, 2026",
+   "released": "Oct 15, 2026",
    "previous": "+5.6% a year; +0.5% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -309,15 +309,15 @@
    "name": "10-year inflation expectation (from bond markets)",
    "source": "FRED (St. Louis Fed)",
    "url": "https://fred.stlouisfed.org/series/T10YIE",
-   "value": "2.32%",
-   "period": "Oct 15, 2026",
-   "released": "Oct 15, 2026",
-   "previous": "2.35% (Oct 14, 2026)",
+   "value": "2.35%",
+   "period": "Oct 16, 2026",
+   "released": "Oct 16, 2026",
+   "previous": "2.32% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 2.32
+    "v": 2.35
    },
    "estimate": false
   },
@@ -385,7 +385,7 @@
    "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
    "value": "61.8%",
    "period": "Sep 2026",
-   "released": "Oct 15, 2026",
+   "released": "Oct 9, 2026",
    "previous": "61.6% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -439,7 +439,7 @@
    "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
    "value": "7.1 million",
    "period": "Aug 2026",
-   "released": "Sep 29, 2026",
+   "released": "Sep 30, 2026",
    "previous": "7.3 million (Jul 2026)",
    "tag": "official",
    "manual": false,
@@ -493,7 +493,7 @@
    "url": "https://www.atlantafed.org/cqer/research/gdpnow",
    "value": "3.6% (estimate)",
    "period": "Q3 2026",
-   "released": "Oct 16, 2026",
+   "released": "Oct 15, 2026",
    "previous": "1.5% (Q2 2026)",
    "tag": "official",
    "manual": false,
@@ -583,12 +583,12 @@
    "source": "Federal Reserve",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
    "value": "3.75% – 4.00%",
-   "period": "In effect Oct 16, 2026",
+   "period": "In effect Oct 17, 2026",
    "released": "Changed Sep 17, 2026",
    "previous": "3.50% – 3.75% (before Sep 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-16",
+   "latest_date": "2026-10-17",
    "raw": {
     "lo": 3.75,
     "hi": 4,
@@ -622,15 +622,15 @@
    "name": "3-month Treasury bill",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "4.28%",
-   "period": "Oct 15, 2026",
-   "released": "Oct 15, 2026",
-   "previous": "4.28% (Oct 14, 2026)",
+   "value": "4.26%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 17, 2026",
+   "previous": "4.28% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 4.28
+    "v": 4.26
    },
    "estimate": false
   },
@@ -640,15 +640,15 @@
    "name": "2-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "4.77%",
-   "period": "Oct 15, 2026",
-   "released": "Oct 15, 2026",
-   "previous": "4.82% (Oct 14, 2026)",
+   "value": "4.74%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 17, 2026",
+   "previous": "4.77% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 4.77
+    "v": 4.74
    },
    "estimate": false
   },
@@ -658,15 +658,15 @@
    "name": "10-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "5.10%",
-   "period": "Oct 15, 2026",
-   "released": "Oct 15, 2026",
-   "previous": "5.19% (Oct 14, 2026)",
+   "value": "5.09%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 17, 2026",
+   "previous": "5.10% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 5.1
+    "v": 5.09
    },
    "estimate": false
   },
@@ -677,12 +677,12 @@
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
    "value": "5.43%",
-   "period": "Oct 15, 2026",
-   "released": "Oct 15, 2026",
-   "previous": "5.52% (Oct 14, 2026)",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 17, 2026",
+   "previous": "5.43% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
     "v": 5.43
    },
@@ -714,7 +714,7 @@
    "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
    "value": "Median 3.6%",
    "period": "End of 2029",
-   "released": "Oct 16, 2026",
+   "released": "Oct 10, 2026",
    "previous": "—",
    "tag": "official",
    "manual": false,
@@ -1157,11 +1157,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Crude oil rose to $101.91 a barrel, keeping energy cost pressures high as the Fed's October meeting approaches.",
-   "items": [
-    "<strong>Oil price (WTI crude)</strong> rose from $96.24 a barrel to $101.91 a barrel. Higher energy costs continue to feed through the economy and keep inflation elevated.",
-    "<strong>Producer Price Index (PPI)</strong> remained at +6.3% vs a year ago (September), with prices charged by businesses increasing +1.3% in the month."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2046,8 +2043,8 @@
     "Sep"
    ],
    "10-yr": [
-    "5.10%",
-    "Oct 15"
+    "5.09%",
+    "Oct 16"
    ]
   },
   "rate_label": "Current Fed rate",
@@ -2300,6 +2297,6 @@
    "automatic": 33,
    "manual": 2
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }
