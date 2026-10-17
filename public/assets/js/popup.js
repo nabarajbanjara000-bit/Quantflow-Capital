@@ -173,7 +173,7 @@
           <li>Market implications, scenarios, and research writing</li>
         </ul>
         <div class="qfc-popup-actions">
-          <a class="qfc-popup-btn" href="mailto:research@quantflowcapital.com?subject=Research%20Collaboration%20%E2%80%94%20Quant%20Flow">
+          <a class="qfc-popup-btn" href="mailto:quantflowcapital7@gmail.com?subject=Research%20Collaboration%20%E2%80%94%20Quant%20Flow">
             <span>Discuss Research Collaboration</span>
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
               <line x1="5" y1="12" x2="19" y2="12"></line>
