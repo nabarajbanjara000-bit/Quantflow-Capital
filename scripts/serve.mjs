@@ -70,5 +70,6 @@ server.listen(PORT, () => {
   console.log(`  > Monitor:     http://localhost:${PORT}/monitor/`);
   console.log(`  > Markets:     http://localhost:${PORT}/markets/`);
   console.log(`  > Library:     http://localhost:${PORT}/library/`);
+  console.log(`  > Connect:     http://localhost:${PORT}/connect/`);
   console.log(`======================================================\n`);
 });
