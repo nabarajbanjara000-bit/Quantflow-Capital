@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "germany",
- "asof_date": "2026-10-17",
- "asof_label": "Oct 17, 2026",
- "generated_at": "2026-10-17T18:46:32.449Z",
- "data_updated_at": "2026-10-17T18:46:32.449Z",
+ "asof_date": "2026-10-18",
+ "asof_label": "Oct 18, 2026",
+ "generated_at": "2026-10-18T18:45:15.742Z",
+ "data_updated_at": "2026-10-18T18:45:15.742Z",
  "narrative_updated_at": "2026-10-17T18:46:32.449Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
   "calendar_label": "Official ECB meeting calendar",
   "who": "The European Central Bank (“the ECB”) in Frankfurt, which sets one interest rate for every country that uses the euro, including Germany. Its decision-making group is the Governing Council: the 6 members of the ECB's Executive Board (led by President Christine Lagarde) plus the heads of the 21 national central banks. Germany's voice is Joachim Nagel, President of the Deutsche Bundesbank.",
-  "days_to_decision": 12
+  "days_to_decision": 11
  },
  "kpis": [
   {
    "label": "ECB interest rate",
    "value": "2.50%",
    "note": "Deposit rate",
-   "period": "Oct 17, 2026",
+   "period": "Oct 18, 2026",
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
   },
@@ -557,12 +557,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.50%",
-   "period": "Oct 17, 2026",
-   "released": "Detected Oct 17, 2026",
-   "previous": "2.50% (Oct 16, 2026)",
+   "period": "Oct 18, 2026",
+   "released": "Detected Oct 18, 2026",
+   "previous": "2.50% (Oct 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-17",
+   "latest_date": "2026-10-18",
    "raw": {
     "v": 2.5
    },
@@ -575,12 +575,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.65%",
-   "period": "Oct 17, 2026",
-   "released": "Detected Oct 17, 2026",
-   "previous": "2.65% (Oct 16, 2026)",
+   "period": "Oct 18, 2026",
+   "released": "Detected Oct 18, 2026",
+   "previous": "2.65% (Oct 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-17",
+   "latest_date": "2026-10-18",
    "raw": {
     "v": 2.65
    },
@@ -728,7 +728,7 @@
    "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM",
    "value": "$17.93 per million BTU",
    "period": "Jul 2026",
-   "released": "Oct 7, 2026",
+   "released": "Oct 15, 2026",
    "previous": "$15.09 (Jun 2026)",
    "tag": "old",
    "manual": false,
@@ -925,11 +925,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "ECB President Christine Lagarde delivered an IMFC statement on October 17 as markets await the October 28–29 meeting.",
-   "items": [
-    "<strong>Official statements</strong> continued ahead of the upcoming meeting, with ECB President Christine Lagarde releasing an <a href=\"https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">IMFC Statement</a> on October 17, 2026.",
-    "Our verdict and probabilities remain unchanged at <strong>60% Hold</strong> and <strong>37% Raise</strong> as the October 29 decision approaches."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2121,6 +2118,6 @@
    "automatic": 19,
    "manual": 19
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

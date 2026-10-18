@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "canada",
- "asof_date": "2026-10-17",
- "asof_label": "Oct 17, 2026",
- "generated_at": "2026-10-17T18:46:44.336Z",
- "data_updated_at": "2026-10-17T18:46:44.336Z",
+ "asof_date": "2026-10-18",
+ "asof_label": "Oct 18, 2026",
+ "generated_at": "2026-10-18T18:45:27.795Z",
+ "data_updated_at": "2026-10-18T18:45:27.795Z",
  "narrative_updated_at": "2026-10-15T12:50:55.747Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
   "calendar_label": "Official BoC announcement schedule",
   "who": "The Bank of Canada (“the BoC”), Canada’s central bank. Its decisions are made by a small group of senior officials called the Governing Council, led by Governor Tiff Macklem. It aims to agree as a group, so there is no published vote count like in the U.S.",
-  "days_to_decision": 11
+  "days_to_decision": 10
  },
  "kpis": [
   {

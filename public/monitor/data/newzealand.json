@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-10-17",
- "asof_label": "Oct 17, 2026",
- "generated_at": "2026-10-17T18:47:23.673Z",
- "data_updated_at": "2026-10-17T18:47:23.673Z",
+ "asof_date": "2026-10-18",
+ "asof_label": "Oct 18, 2026",
+ "generated_at": "2026-10-18T18:46:03.840Z",
+ "data_updated_at": "2026-10-18T18:46:03.840Z",
  "narrative_updated_at": "2026-10-16T18:55:59.848Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 11
+  "days_to_decision": 10
  },
  "kpis": [
   {
@@ -718,12 +718,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 17, 2026",
-   "released": "Oct 17, 2026",
-   "previous": "4.00% (Oct 16, 2026)",
+   "period": "Oct 18, 2026",
+   "released": "Oct 18, 2026",
+   "previous": "4.00% (Oct 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-17",
+   "latest_date": "2026-10-18",
    "raw": {
     "v": 4
    },
@@ -736,12 +736,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 17, 2026",
-   "released": "Detected Oct 17, 2026",
-   "previous": "2.50% (Oct 16, 2026)",
+   "period": "Oct 18, 2026",
+   "released": "Detected Oct 18, 2026",
+   "previous": "2.50% (Oct 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-17",
+   "latest_date": "2026-10-18",
    "raw": {
     "v": 2.5
    },
