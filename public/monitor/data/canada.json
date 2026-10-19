@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "canada",
- "asof_date": "2026-10-18",
- "asof_label": "Oct 18, 2026",
- "generated_at": "2026-10-18T18:45:27.795Z",
- "data_updated_at": "2026-10-18T18:45:27.795Z",
- "narrative_updated_at": "2026-10-15T12:50:55.747Z",
+ "asof_date": "2026-10-19",
+ "asof_label": "Oct 19, 2026",
+ "generated_at": "2026-10-19T19:01:29.187Z",
+ "data_updated_at": "2026-10-19T19:01:29.187Z",
+ "narrative_updated_at": "2026-10-19T19:01:29.187Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,22 +39,22 @@
   "calendar_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
   "calendar_label": "Official BoC announcement schedule",
   "who": "The Bank of Canada (“the BoC”), Canada’s central bank. Its decisions are made by a small group of senior officials called the Governing Council, led by Governor Tiff Macklem. It aims to agree as a group, so there is no published vote count like in the U.S.",
-  "days_to_decision": 10
+  "days_to_decision": 9
  },
  "kpis": [
   {
    "label": "Bank of Canada rate",
    "value": "2.25%",
    "note": "",
-   "period": "Oct 15, 2026",
+   "period": "Oct 16, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
   },
   {
    "label": "Price rise, past year",
-   "value": "3.0%",
+   "value": "3.1%",
    "note": "",
-   "period": "Aug 2026",
+   "period": "Sep 2026",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "3.83%",
+   "value": "3.84%",
    "note": "",
-   "period": "Oct 15, 2026",
+   "period": "Oct 16, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28"
   }
@@ -178,16 +178,16 @@
    "name": "Consumer Price Index (CPI), all items",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
-   "value": "+3.0% vs a year ago",
-   "period": "Aug 2026 (−0.1% in the month)",
-   "released": "Detected Oct 15, 2026",
-   "previous": "+3.0% a year; +0.5% in the month (Jul 2026)",
+   "value": "+3.1% vs a year ago",
+   "period": "Sep 2026 (+0.1% in the month)",
+   "released": "Detected Oct 19, 2026",
+   "previous": "+3.0% a year; −0.1% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "yoy": 3.033980582524265,
-    "mom": -0.05885815185402432
+    "yoy": 3.092783505154628,
+    "mom": 0.11778563015312216
    },
    "estimate": false
   },
@@ -197,15 +197,15 @@
    "name": "CPI-trim (BoC core measure)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/rates/price-indexes/cpi/",
-   "value": "1.9%",
-   "period": "Aug 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "1.9% (Jul 2026)",
+   "value": "1.8%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 19, 2026",
+   "previous": "1.9% (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "v": 1.9
+    "v": 1.8
    },
    "estimate": false
   },
@@ -215,15 +215,15 @@
    "name": "CPI-median (BoC core measure)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/rates/price-indexes/cpi/",
-   "value": "2.0%",
-   "period": "Aug 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "2.0% (Jul 2026)",
+   "value": "1.9%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 19, 2026",
+   "previous": "2.0% (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "v": 2
+    "v": 1.9
    },
    "estimate": false
   },
@@ -234,12 +234,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/rates/price-indexes/cpi/",
    "value": "2.1%",
-   "period": "Aug 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "1.9% (Jul 2026)",
+   "period": "Sep 2026",
+   "released": "Detected Oct 19, 2026",
+   "previous": "2.1% (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
     "v": 2.1
    },
@@ -251,16 +251,16 @@
    "name": "CPI without gasoline",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
-   "value": "+2.4% vs a year ago",
-   "period": "Aug 2026 (+0.0% in the month)",
-   "released": "Sep 14, 2026",
-   "previous": "+2.2% a year; +0.4% in the month (Jul 2026)",
+   "value": "+2.2% vs a year ago",
+   "period": "Sep 2026 (−0.1% in the month)",
+   "released": "Oct 19, 2026",
+   "previous": "+2.4% a year; +0.0% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "yoy": 2.391171060698971,
-    "mom": 0
+    "yoy": 2.205882352941191,
+    "mom": -0.11976047904190823
    },
    "estimate": false
   },
@@ -270,16 +270,16 @@
    "name": "Gasoline prices",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
-   "value": "+22.8% vs a year ago",
-   "period": "Aug 2026 (−0.9% in the month)",
-   "released": "Sep 14, 2026",
-   "previous": "+25.7% a year; +3.6% in the month (Jul 2026)",
+   "value": "+27.8% vs a year ago",
+   "period": "Sep 2026 (+6.1% in the month)",
+   "released": "Oct 19, 2026",
+   "previous": "+22.8% a year; −0.9% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "yoy": 22.784810126582265,
-    "mom": -0.942655145325999
+    "yoy": 27.793696275071646,
+    "mom": 6.10626486915149
    },
    "estimate": false
   },
@@ -290,15 +290,15 @@
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
    "value": "+2.8% vs a year ago",
-   "period": "Aug 2026 (+0.8% in the month)",
-   "released": "Sep 14, 2026",
-   "previous": "+2.5% a year; −0.5% in the month (Jul 2026)",
+   "period": "Sep 2026 (+0.5% in the month)",
+   "released": "Oct 19, 2026",
+   "previous": "+2.8% a year; +0.8% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "yoy": 2.810018326206487,
-    "mom": 0.7784431137724646
+    "yoy": 2.7963525835866143,
+    "mom": 0.4753416518122222
    },
    "estimate": false
   },
@@ -308,16 +308,16 @@
    "name": "Food from stores",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
-   "value": "+2.8% vs a year ago",
-   "period": "Aug 2026 (−0.4% in the month)",
-   "released": "Sep 14, 2026",
-   "previous": "+3.1% a year; +0.1% in the month (Jul 2026)",
+   "value": "+1.7% vs a year ago",
+   "period": "Sep 2026 (−0.7% in the month)",
+   "released": "Oct 19, 2026",
+   "previous": "+2.8% a year; −0.4% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "yoy": 2.780638516992795,
-    "mom": -0.44887780548629186
+    "yoy": 1.692307692307704,
+    "mom": -0.6513026052104132
    },
    "estimate": false
   },
@@ -485,7 +485,7 @@
    "period": "Q2 2026",
    "released": "Aug 28, 2026",
    "previous": "0.1% (Q1 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-04-01",
    "raw": {
@@ -557,7 +557,7 @@
    "period": "Q2 2026",
    "released": "Aug 28, 2026",
    "previous": "3.3% (Q1 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-04-01",
    "raw": {
@@ -603,12 +603,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
    "value": "2.25%",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "2.25% (Oct 14, 2026)",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 19, 2026",
+   "previous": "2.25% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
     "v": 2.25
    },
@@ -620,15 +620,15 @@
    "name": "CORRA (overnight lending rate)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/AVG.INTWO/json?recent=6",
-   "value": "2.27%",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "2.27% (Oct 14, 2026)",
+   "value": "2.26%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 19, 2026",
+   "previous": "2.27% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 2.27
+    "v": 2.26
    },
    "estimate": false
   },
@@ -638,15 +638,15 @@
    "name": "2-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.20%",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "3.21% (Oct 14, 2026)",
+   "value": "3.21%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 19, 2026",
+   "previous": "3.20% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 3.2
+    "v": 3.21
    },
    "estimate": false
   },
@@ -656,15 +656,15 @@
    "name": "5-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.53%",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "3.55% (Oct 14, 2026)",
+   "value": "3.54%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 19, 2026",
+   "previous": "3.53% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 3.53
+    "v": 3.54
    },
    "estimate": false
   },
@@ -674,15 +674,15 @@
    "name": "10-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.83%",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "3.85% (Oct 14, 2026)",
+   "value": "3.84%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 19, 2026",
+   "previous": "3.83% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 3.83
+    "v": 3.84
    },
    "estimate": false
   },
@@ -1004,8 +1004,17 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "Here is what is new since the last update.",
+   "items": [
+    "<strong>Consumer Price Index (CPI), all items</strong>: now +3.1% vs a year ago, for Sep 2026 (+0.1% in the month). Before: +3.0% vs a year ago, for Aug 2026 (−0.1% in the month).",
+    "<strong>CPI-trim (BoC core measure)</strong>: now 1.8%, for Sep 2026. Before: 1.9%, for Aug 2026.",
+    "<strong>CPI-median (BoC core measure)</strong>: now 1.9%, for Sep 2026. Before: 2.0%, for Aug 2026.",
+    "<strong>CPI without food and energy (CPI-XFET)</strong>: now 2.1%, for Sep 2026. Before: 2.1%, for Aug 2026.",
+    "<strong>CPI without gasoline</strong>: now +2.2% vs a year ago, for Sep 2026 (−0.1% in the month). Before: +2.4% vs a year ago, for Aug 2026 (+0.0% in the month).",
+    "<strong>Gasoline prices</strong>: now +27.8% vs a year ago, for Sep 2026 (+6.1% in the month). Before: +22.8% vs a year ago, for Aug 2026 (−0.9% in the month).",
+    "<strong>Rent</strong>: now +2.8% vs a year ago, for Sep 2026 (+0.5% in the month). Before: +2.8% vs a year ago, for Aug 2026 (+0.8% in the month).",
+    "<strong>Food from stores</strong>: now +1.7% vs a year ago, for Sep 2026 (−0.7% in the month). Before: +2.8% vs a year ago, for Aug 2026 (−0.4% in the month)."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -1023,26 +1032,26 @@
    },
    "confidence": "Medium",
    "confidence_note": "“Medium” means we have a clear favourite, but two reports on Monday, October 19 (September consumer prices and the BoC’s own business and consumer surveys) could still shift the odds noticeably.",
-   "short_version": "Prices in Canada are rising about 3% a year, but almost all of the extra comes from gasoline. Without it, prices are rising close to the 2% goal. At the same time, Canada lost jobs in August and September and faces new U.S. tariffs. The BoC has warned it is ready to raise rates if fuel costs start pushing up everything else, but so far that has not clearly happened. So we think it will most likely wait.",
+   "short_version": "Prices in Canada are rising about 3% a year, but almost all of the extra comes from gasoline. Without it, prices are rising close to the 2% goal. At the same time, Canada lost jobs in August and September and faces new U.S. tariffs. The BoC has warned it is ready to raise rates if fuel costs start pushing up everything else, but so far that has not clearly helped spark broader inflation. So we think it will most likely wait.",
    "card_why": "Headline inflation is mostly gasoline while core measures sit near 2%, and Canada has lost jobs two months running.",
    "last_move": "On hold since the Oct 29, 2025 cut"
   },
   "why_steps": [
    {
     "title": "The BoC has one main job, and one main tool",
-    "html": "The Bank of Canada’s main job is to keep prices steady. Its target is that things should cost about <strong>2% more each year</strong>, with a comfort zone of 1% to 3%. Unlike the U.S. Fed, it does not have a second official job about jobs, but it watches jobs closely because a weak job market usually pulls prices down later.\n\nIts main tool is its <strong>interest rate</strong> (officially the “overnight rate”), the cost of borrowing money between banks, which flows through to mortgages, car loans and savings accounts. Think of it like the pedals of a car. Raising the rate is pressing the <strong>brake</strong>: loans get more expensive, so people and companies borrow and spend less, and prices cool down. Cutting the rate is pressing the <strong>gas</strong>. Holding means keeping your foot where it is. Today the rate is <strong>2.25%</strong>, where it has been since October 2025. The BoC thinks a “neutral” rate, one that neither brakes nor speeds up the economy, is somewhere between 2.25% and 3.25% (<a href=\"https://www.bankofcanada.ca/publications/mpr/mpr-2026-07-15/tariff-assumptions/\">July 2026 report</a>). So today’s rate is at the gentle end of neutral."
+    "html": "The Bank of Canada’s main job is to keep prices steady. Its target is that things should cost about <strong>2% more each year</strong>, with a comfort zone of 1% to 3%. Unlike the U.S. Fed, it does not have a second official job about jobs, but it watches jobs closely because a weak job market usually pulls prices down later.\n\nIts main tool is its <strong>interest rate</strong> (officially the “overnight rate”), the cost of borrowing money between banks, which flows through to mortgages, car loans and savings accounts. Think of it like the pedals of a car. Raising the rate is pressing the <strong>brake</strong>: loans get more expensive, so people and companies borrow and spend less, and prices cool down. Cutting the rate is pressing the <strong>gas</strong>. Holding means keeping your foot where it is. Today the rate is <strong>2.25%</strong>, where it has been since October 2025. The BoC thinks a “neutral” rate, one that neither brakes nor speeds up the economy, is somewhere between 2.25% and 3.25% (<a href=\"https://www.bankofcanada.ca/publications/mpr/mpr-2026-07-15/tariff-assumptions/\" target=\"_blank\" rel=\"noopener noreferrer\">July 2026 report</a>). So today’s rate is at the gentle end of neutral."
    },
    {
     "title": "Prices look high, but it is mostly gasoline",
-    "html": "Consumer prices (the <strong>CPI</strong>, or Consumer Price Index from Statistics Canada) were <strong>3.0% higher</strong> in August than a year earlier, the same as in July (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm\">StatCan</a>). In simple terms: a basket of everyday things that cost $100 a year ago now costs about <strong>$103</strong>. The goal would be about $102. That puts Canada right at the top edge of the BoC’s 1%–3% comfort zone.\n\nBut look underneath. Gasoline is up <strong>22.8%</strong> in a year because of the war in the Middle East. Take gasoline out and prices are up only <strong>2.4%</strong>. The BoC’s two favourite “core” measures, which strip out the most jumpy prices, are at <strong>1.9% (CPI-trim)</strong> and <strong>2.0% (CPI-median)</strong>, right on target (<a href=\"https://www.bankofcanada.ca/rates/price-indexes/cpi/\">BoC</a>). Food from stores rose 2.8%, slower than overall prices for the first time since July 2024. So the problem today is mostly one item, not everything."
+    "html": "Consumer prices (the <strong>CPI</strong>, or Consumer Price Index from Statistics Canada) were <strong>3.0% higher</strong> in August than a year earlier, the same as in July (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>). In simple terms: a basket of everyday things that cost $100 a year ago now costs about <strong>$103</strong>. The goal would be about $102. That puts Canada right at the top edge of the BoC’s 1%–3% comfort zone.\n\nBut look underneath. Gasoline is up <strong>22.8%</strong> in a year because of the war in the Middle East. Take gasoline out and prices are up only <strong>2.4%</strong>. The BoC’s two favourite “core” measures, which strip out the most jumpy prices, are at <strong>1.9% (CPI-trim)</strong> and <strong>2.0% (CPI-median)</strong>, right on target (<a href=\"https://www.bankofcanada.ca/rates/price-indexes/cpi/\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>). Food from stores rose 2.8%, slower than overall prices for the first time since July 2024. So the problem today is mostly one item, not everything."
    },
    {
     "title": "Expensive oil cuts both ways for Canada",
-    "html": "This is where Canada is different from the U.S. or Europe. Canada is a big <strong>oil producer and exporter</strong>. When oil is expensive, two things happen at once:\n\n<ul><li><strong>It hurts as a shopper.</strong> Families pay more at the pump and for heating, and trucking and flying cost more. That pushes the CPI up and leaves less money for other things. The BoC estimated that at the peak, higher gasoline prices added roughly 1.4 percentage points to inflation (<a href=\"https://www.bankofcanada.ca/publications/mpr/mpr-2026-07-15/in-focus-1/\">BoC</a>).</li><li><strong>It helps as a seller.</strong> Oil companies, workers and governments in producing provinces earn more. The BoC’s July report expects “improved terms of trade” (Canada gets more for what it sells abroad compared with what it buys) and says “Elevated oil prices support conventional oil production” (<a href=\"https://www.bankofcanada.ca/publications/mpr/mpr-2026-07-15/canadian-outlook/\">BoC</a>). In August, energy exports rose 4.7% (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261006/dq261006a-eng.htm\">StatCan</a>), and in September Alberta added 23,000 jobs while the country as a whole lost jobs (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm\">StatCan</a>).</li><li><strong>An unusual twist: the loonie fell.</strong> Normally expensive oil lifts the Canadian dollar. This time one U.S. dollar went from about C$1.386 on September 2 to C$1.427 on October 9 (<a href=\"https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25\">BoC</a>). One likely reason (our reading) is that the U.S. raised rates in September while Canada did not. A weaker loonie makes imported goods dearer, which adds a little to inflation risk.</li></ul>"
+    "html": "This is where Canada is different from the U.S. or Europe. Canada is a big <strong>oil producer and exporter</strong>. When oil is expensive, two things happen at once:\n\n<ul><li><strong>It hurts as a shopper.</strong> Families pay more at the pump and for heating, and trucking and flying cost more. That pushes the CPI up and leaves less money for other things. The BoC estimated that at the peak, higher gasoline prices added roughly 1.4 percentage points to inflation (<a href=\"https://www.bankofcanada.ca/publications/mpr/mpr-2026-07-15/in-focus-1/\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>).</li><li><strong>It helps as a seller.</strong> Oil companies, workers and governments in producing provinces earn more. The BoC’s July report expects “improved terms of trade” (Canada gets more for what it sells abroad compared with what it buys) and says “Elevated oil prices support conventional oil production” (<a href=\"https://www.bankofcanada.ca/publications/mpr/mpr-2026-07-15/canadian-outlook/\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>). In August, energy exports rose 4.7% (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261006/dq261006a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>), and in September Alberta added 23,000 jobs while the country as a whole lost jobs (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>).</li><li><strong>An unusual twist: the loonie fell.</strong> Normally expensive oil lifts the Canadian dollar. This time one U.S. dollar went from about C$1.386 on September 2 to C$1.427 on October 9 (<a href=\"https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>). One likely reason (our reading) is that the U.S. raised rates in September while Canada did not. A weaker loonie makes imported goods dearer, which adds a little to inflation risk.</li></ul>"
    },
    {
     "title": "Jobs are weakening, and new U.S. tariffs add a worry",
-    "html": "Canada lost <strong>42,000 jobs in August</strong> and <strong>68,000 in September</strong>. Unemployment rose to <strong>6.5%</strong>. The share of adults working or looking for work fell to 64.8%, the lowest since December 1997 if you leave out 2020, partly because the population is ageing (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm\">StatCan</a>). Pay is rising only <strong>2.3%</strong> a year, slower than prices, so many workers are losing buying power.\n\nOn top of that, the BoC said in September that “new US tariffs and Canadian counter-measures have been announced following the breakdown of trade talks” (<a href=\"https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/\">BoC</a>). The new tariffs cover about 5% of Canada’s goods exports to the U.S. Governor Macklem said that if they stay, growth could fall below 1% in the last three months of the year (<a href=\"https://www.bankofcanada.ca/2026/09/navigating-uncertainty-and-adapting-to-change/\">speech</a>). A weaker economy makes it harder for shops and firms to raise prices, which works against inflation."
+    "html": "Canada lost <strong>42,000 jobs in August</strong> and <strong>68,000 in September</strong>. Unemployment rose to <strong>6.5%</strong>. The share of adults working or looking for work fell to 64.8%, the lowest since December 1997 if you leave out 2020, partly because the population is ageing (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>). Pay is rising only <strong>2.3%</strong> a year, slower than prices, so many workers are losing buying power.\n\nOn top of that, the BoC said in September that “new US tariffs and Canadian counter-measures have been announced following the breakdown of trade talks” (<a href=\"https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>). The new tariffs cover about 5% of Canada’s goods exports to the U.S. Governor Macklem said that if they stay, growth could fall below 1% in the last three months of the year (<a href=\"https://www.bankofcanada.ca/2026/09/navigating-uncertainty-and-adapting-to-change/\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>). A weaker economy makes it harder for shops and firms to raise prices, which works against inflation."
    },
    {
     "title": "Weighing both sides",
@@ -1068,7 +1077,7 @@
    },
    {
     "title": "What the BoC has been saying",
-    "html": "The BoC’s words have slowly become firmer. In April and June it promised it “will not let higher energy prices become persistent inflation” (<a href=\"https://www.bankofcanada.ca/2026/06/fad-press-release-2026-06-10/\">June release</a>). On September 2 it added that “the upside risks to inflation have increased” and that it “is prepared to adjust monetary policy as needed” (<a href=\"https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/\">BoC</a>). The notes from that meeting say a rise in energy costs, if it spreads, “could require a monetary policy response to prevent broad-based inflation from setting in” (<a href=\"https://www.bankofcanada.ca/2026/09/summary-of-governing-council-deliberations-fixed-announcement-date-of-september-2-2026/\">deliberations</a>). None of the published notes mention a member arguing for a rise or a cut.\n\nOn September 21 Governor Macklem gave both sides in one breath: “if oil prices stay near $100 per barrel, we would expect inflation to edge up in the coming months”, but also “We don’t want to raise our policy rate and restrain growth if inflationary pressures are contained.” (<a href=\"https://www.bankofcanada.ca/2026/09/navigating-uncertainty-and-adapting-to-change/\">speech</a>). Our reading: the BoC is preparing people for a possible rise, but wants proof first. The latest survey of financial market professionals we could find (June 2026) expected the rate to stay at 2.25% until early 2027 (<a href=\"https://www.bankofcanada.ca/2026/07/market-participants-survey-second-quarter-of-2026/\">BoC survey</a>)."
+    "html": "The BoC’s words have slowly become firmer. In April and June it promised it “will not let higher energy prices become persistent inflation” (<a href=\"https://www.bankofcanada.ca/2026/06/fad-press-release-2026-06-10/\" target=\"_blank\" rel=\"noopener noreferrer\">June release</a>). On September 2 it added that “the upside risks to inflation have increased” and that it “is prepared to adjust monetary policy as needed” (<a href=\"https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>). The notes from that meeting say a rise in energy costs, if it spreads, “could require a monetary policy response to prevent broad-based inflation from setting in” (<a href=\"https://www.bankofcanada.ca/2026/09/summary-of-governing-council-deliberations-fixed-announcement-date-of-september-2-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">deliberations</a>). None of the published notes mention a member arguing for a rise or a cut.\n\nOn September 21 Governor Macklem gave both sides in one breath: “if oil prices stay near $100 per barrel, we would expect inflation to edge up in the coming months”, but also “We don’t want to raise our policy rate and restrain growth if inflationary pressures are contained.” (<a href=\"https://www.bankofcanada.ca/2026/09/navigating-uncertainty-and-adapting-to-change/\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>). Our reading: the BoC is preparing people for a possible rise, but wants proof first. The latest survey of financial market professionals we could find (June 2026) expected the rate to stay at 2.25% until early 2027 (<a href=\"https://www.bankofcanada.ca/2026/07/market-participants-survey-second-quarter-of-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">BoC survey</a>)."
    },
    {
     "title": "The one thing to watch: prices on October 19",
@@ -1389,8 +1398,7 @@
     "look": "Consumer prices (CPI, up 3.0%), the BoC’s core measures (CPI-trim 1.9%, CPI-median 2.0%), CPI without gasoline (2.4%), and what businesses and households expect.",
     "why": "Headline inflation is at the top of the 1%–3% zone and gasoline is up 22.8%, which hurts family budgets. But the core measures the BoC trusts most are on target, and the BoC sees little sign yet of fuel costs spreading. Worries: businesses expect 3%–3.5% inflation, and the weaker loonie makes imports dearer. Not red, because the underlying trend is fine; not green, because the headline is high and risks point up.",
     "change": "Gasoline prices falling back, with core measures staying near 2%.",
-    "matters": "This is the main reason a rise is on the table at all. If core measures start climbing, the color would turn red and a rise would become likely.",
-    "change_label": "What would improve it"
+    "matters": "This is the main reason a rise is on the table at all. If core measures start climbing, the color would turn red and a rise would become likely."
    },
    {
     "area": "Jobs",
@@ -1399,8 +1407,7 @@
     "look": "Jobs gained or lost each month, the unemployment rate, pay growth, the share of adults working, and job vacancies.",
     "why": "Employment fell 42,000 in August and 68,000 in September. Unemployment rose to 6.5%. Pay is up only 2.3% in a year. The share of adults in the job market (64.8%) is the lowest since 1997 outside 2020. Some comfort: unemployment is still below the 7.1% reached in 2025, and the layoff rate (0.7%) is not high.",
     "change": "Two or more months of solid job gains → yellow.",
-    "matters": "This is the main reason the BoC is likely to wait. Raising rates into a weakening job market risks more layoffs, and weak pay growth means wages are not pushing prices up.",
-    "change_label": "What would change it"
+    "matters": "This is the main reason the BoC is likely to wait. Raising rates into a weakening job market risks more layoffs, and weak pay growth means wages are not pushing prices up."
    },
    {
     "area": "Growth",
@@ -1409,8 +1416,7 @@
     "look": "GDP (the total value of everything the country produces), monthly GDP, retail sales and trade.",
     "why": "The economy grew 0.8% in April–June (about 3.3% a year), but was flat in July (0.0%) with an early +0.2% estimate for August. Shop sales fell 0.7% in July (an early estimate says +1.3% in August). Exports did well in August and the trade surplus widened to $4.2 billion. New U.S. tariffs and a low household saving rate (3.7%) are risks.",
     "change": "Confirmed solid growth in August and September → green. A clear tariff-driven slowdown → red.",
-    "matters": "A middling economy does not need a brake. The BoC still judges there is some spare capacity (“excess supply”), which keeps a lid on prices.",
-    "change_label": "What would change it"
+    "matters": "A middling economy does not need a brake. The BoC still judges there is some spare capacity (“excess supply”), which keeps a lid on prices."
    },
    {
     "area": "Money markets",
@@ -1419,8 +1425,7 @@
     "look": "Government of Canada bond rates (2-year and 10-year), the overnight lending rate between banks (CORRA), and the Canadian dollar.",
     "why": "The 2-year bond rate (3.24% on Oct 8) is about one point above the BoC’s 2.25%, a sign that investors expect rate rises over the next two years. The 10-year rose from 3.75% to 3.93% since September 1. The loonie fell from about C$1.386 to C$1.427 per U.S. dollar. Reassuring: the overnight rate (CORRA, 2.28%) sits right where the BoC wants it, and Canadian yields rose less than in several other countries, according to the BoC.",
     "change": "A sharp further jump in bond rates or slide in the loonie → red. Calmer markets → green.",
-    "matters": "Higher market rates already cool borrowing, which helps the case for waiting. A falling loonie pushes the other way.",
-    "change_label": "What would change it"
+    "matters": "Higher market rates already cool borrowing, which helps the case for waiting. A falling loonie pushes the other way."
    }
   ],
   "indicators": {
@@ -1718,7 +1723,7 @@
    },
    {
     "n": "Senior Deputy Governor Carolyn Rogers",
-    "v": "“interest rates cannot directly address supply constraints.”",
+    "v": "Housing affordability and policy tools",
     "p": "Speech in Victoria on housing",
     "r": "Oct 1, 2026",
     "pv": "—",
@@ -1729,8 +1734,8 @@
      "No rate hint"
     ],
     "w": [
-     "What she said: housing affordability is complex, interest rates are too blunt a tool for it, and “the tool we use to reduce inflation can, for a time, add to the inflation number itself” (because mortgage interest costs are in the CPI).",
-     "Why it matters: it gave no direct hint about October, but reminds us that a rate rise would briefly push measured shelter costs up."
+     "What she said: housing affordability is complex, interest rates are too blunt a tool for it, and other factors drive the market beyond what monetary policy alone can touch.",
+     "Why it matters: it gave no direct hint about October, but reminds us that broader structural issues influence housing alongside borrowing costs."
     ]
    },
    {
@@ -1886,16 +1891,16 @@
   "card_why": "Headline inflation is mostly gasoline while core measures sit near 2%, and Canada has lost jobs two months running.",
   "mini": {
    "prices": [
-    "3.0%",
-    "CPI, Aug"
+    "3.1%",
+    "CPI, Sep"
    ],
    "jobless": [
     "6.5%",
     "Sep"
    ],
    "10-yr": [
-    "3.83%",
-    "Oct 15"
+    "3.84%",
+    "Oct 16"
    ]
   },
   "rate_label": "Current BoC rate",
@@ -1997,7 +2002,97 @@
   "interest rates cannot directly address supply constraints.",
   "the tool we use to reduce inflation can, for a time, add to the inflation number itself"
  ],
- "changelog": [],
+ "changelog": [
+  {
+   "date": "2026-10-19",
+   "date_label": "Oct 19, 2026",
+   "since": "2026-10-18",
+   "since_label": "Oct 18, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "<strong>Consumer Price Index (CPI), all items</strong>: now +3.1% vs a year ago, for Sep 2026 (+0.1% in the month). Before: +3.0% vs a year ago, for Aug 2026 (−0.1% in the month).",
+     "<strong>CPI-trim (BoC core measure)</strong>: now 1.8%, for Sep 2026. Before: 1.9%, for Aug 2026.",
+     "<strong>CPI-median (BoC core measure)</strong>: now 1.9%, for Sep 2026. Before: 2.0%, for Aug 2026.",
+     "<strong>CPI without food and energy (CPI-XFET)</strong>: now 2.1%, for Sep 2026. Before: 2.1%, for Aug 2026.",
+     "<strong>CPI without gasoline</strong>: now +2.2% vs a year ago, for Sep 2026 (−0.1% in the month). Before: +2.4% vs a year ago, for Aug 2026 (+0.0% in the month).",
+     "<strong>Gasoline prices</strong>: now +27.8% vs a year ago, for Sep 2026 (+6.1% in the month). Before: +22.8% vs a year ago, for Aug 2026 (−0.9% in the month).",
+     "<strong>Rent</strong>: now +2.8% vs a year ago, for Sep 2026 (+0.5% in the month). Before: +2.8% vs a year ago, for Aug 2026 (+0.8% in the month).",
+     "<strong>Food from stores</strong>: now +1.7% vs a year ago, for Sep 2026 (−0.7% in the month). Before: +2.8% vs a year ago, for Aug 2026 (−0.4% in the month)."
+    ]
+   },
+   "data": [
+    {
+     "id": "consumer_price_index_cpi_all_items",
+     "name": "Consumer Price Index (CPI), all items",
+     "from": "+3.0% vs a year ago",
+     "from_period": "Aug 2026 (−0.1% in the month)",
+     "to": "+3.1% vs a year ago",
+     "to_period": "Sep 2026 (+0.1% in the month)"
+    },
+    {
+     "id": "cpi_trim_boc_core_measure",
+     "name": "CPI-trim (BoC core measure)",
+     "from": "1.9%",
+     "from_period": "Aug 2026",
+     "to": "1.8%",
+     "to_period": "Sep 2026"
+    },
+    {
+     "id": "cpi_median_boc_core_measure",
+     "name": "CPI-median (BoC core measure)",
+     "from": "2.0%",
+     "from_period": "Aug 2026",
+     "to": "1.9%",
+     "to_period": "Sep 2026"
+    },
+    {
+     "id": "cpi_without_food_and_energy_cpi_xfet",
+     "name": "CPI without food and energy (CPI-XFET)",
+     "from": "2.1%",
+     "from_period": "Aug 2026",
+     "to": "2.1%",
+     "to_period": "Sep 2026"
+    },
+    {
+     "id": "cpi_without_gasoline",
+     "name": "CPI without gasoline",
+     "from": "+2.4% vs a year ago",
+     "from_period": "Aug 2026 (+0.0% in the month)",
+     "to": "+2.2% vs a year ago",
+     "to_period": "Sep 2026 (−0.1% in the month)"
+    },
+    {
+     "id": "gasoline_prices",
+     "name": "Gasoline prices",
+     "from": "+22.8% vs a year ago",
+     "from_period": "Aug 2026 (−0.9% in the month)",
+     "to": "+27.8% vs a year ago",
+     "to_period": "Sep 2026 (+6.1% in the month)"
+    },
+    {
+     "id": "rent",
+     "name": "Rent",
+     "from": "+2.8% vs a year ago",
+     "from_period": "Aug 2026 (+0.8% in the month)",
+     "to": "+2.8% vs a year ago",
+     "to_period": "Sep 2026 (+0.5% in the month)"
+    },
+    {
+     "id": "food_from_stores",
+     "name": "Food from stores",
+     "from": "+2.8% vs a year ago",
+     "from_period": "Aug 2026 (−0.4% in the month)",
+     "to": "+1.7% vs a year ago",
+     "to_period": "Sep 2026 (−0.7% in the month)"
+    }
+   ],
+   "market": [],
+   "fed": [],
+   "verdict": null,
+   "ai_written": false
+  }
+ ],
  "qa": {
   "data_errors": [],
   "ai_errors": [],
@@ -2042,6 +2137,6 @@
    "automatic": 27,
    "manual": 10
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }

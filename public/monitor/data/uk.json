@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-10-18",
- "asof_label": "Oct 18, 2026",
- "generated_at": "2026-10-18T18:47:05.563Z",
- "data_updated_at": "2026-10-18T18:47:05.563Z",
- "narrative_updated_at": "2026-10-17T18:49:22.796Z",
+ "asof_date": "2026-10-19",
+ "asof_label": "Oct 19, 2026",
+ "generated_at": "2026-10-19T19:10:04.611Z",
+ "data_updated_at": "2026-10-19T19:10:04.611Z",
+ "narrative_updated_at": "2026-10-19T19:10:04.611Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 18
+  "days_to_decision": 17
  },
  "kpis": [
   {
    "label": "Bank of England rate",
    "value": "3.75%",
    "note": "",
-   "period": "Oct 15, 2026",
+   "period": "Oct 16, 2026",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year gilt rate",
-   "value": "5.38%",
+   "value": "5.31%",
    "note": "",
-   "period": "Oct 14, 2026",
+   "period": "Oct 15, 2026",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y"
   }
@@ -478,7 +478,7 @@
    "period": "Q2 2026",
    "released": "Sep 30, 2026",
    "previous": "0.6% (Q1 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-04-01",
    "raw": {
@@ -533,7 +533,7 @@
    "period": "Q2 2026",
    "released": "Sep 30, 2026",
    "previous": "0.5% (Q1 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-04-01",
    "raw": {
@@ -601,12 +601,12 @@
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
    "value": "3.75%",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "3.75% (Oct 14, 2026)",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 19, 2026",
+   "previous": "3.75% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
     "v": 3.75
    },
@@ -618,15 +618,15 @@
    "name": "SONIA (overnight rate between banks)",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "3.732%",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "3.732% (Oct 13, 2026)",
+   "value": "3.733%",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 19, 2026",
+   "previous": "3.732% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 3.7324
+    "v": 3.7335
    },
    "estimate": false
   },
@@ -636,15 +636,15 @@
    "name": "10-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "5.38%",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "5.39% (Oct 13, 2026)",
+   "value": "5.31%",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 19, 2026",
+   "previous": "5.38% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 5.383
+    "v": 5.3092
    },
    "estimate": false
   },
@@ -654,15 +654,15 @@
    "name": "5-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "4.97%",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "4.98% (Oct 13, 2026)",
+   "value": "4.92%",
+   "period": "Oct 15, 2026",
+   "released": "Detected Oct 19, 2026",
+   "previous": "4.97% (Oct 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-15",
    "raw": {
-    "v": 4.9692
+    "v": 4.9187
    },
    "estimate": false
   },
@@ -685,15 +685,15 @@
    "name": "Pound vs U.S. dollar",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "US$1.3253",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "US$1.3160 (Oct 14, 2026)",
+   "value": "US$1.3353",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 19, 2026",
+   "previous": "US$1.3253 (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 1.3253
+    "v": 1.3353
    },
    "estimate": false
   },
@@ -703,15 +703,15 @@
    "name": "Pound vs euro / trade-weighted index",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "€1.1830",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "€1.1832 (Oct 14, 2026)",
+   "value": "€1.1866",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 19, 2026",
+   "previous": "€1.1830 (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 1.183
+    "v": 1.1866
    },
    "estimate": false
   },
@@ -797,12 +797,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 18, 2026",
-   "released": "Detected Oct 18, 2026",
-   "previous": "2.50% (Oct 17, 2026)",
+   "period": "Oct 19, 2026",
+   "released": "Detected Oct 19, 2026",
+   "previous": "2.50% (Oct 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-18",
+   "latest_date": "2026-10-19",
    "raw": {
     "v": 2.5
    },
@@ -957,8 +957,11 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "No major new economic data released since the last update; 10-year gilt yield edged down slightly from 5.38% to 5.31% (October 15).",
+   "items": [
+    "<strong>10-year gilt yield</strong> fell from 5.38% to 5.31% (October 15), reflecting slight movements in government borrowing costs.",
+    "No official statements or central bank policy decisions occurred; the next major decision remains November 5."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -995,7 +998,7 @@
    },
    {
     "title": "Reasons the BoE might wait again in November",
-    "html": "<ul><li><strong>The majority set a clear test, and it has not been met yet.</strong> In September six of nine members voted to hold. Deputy Governor Clare Lombardelli said on September 24 that “a majority of the MPC have not judged that an increase in Bank Rate is needed” (<a href=\"https://www.bankofengland.co.uk/speech/2026/september/clare-lombardelli-speech-at-the-sixth-biennial-conference-poland\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>).</li><li><strong>Pay growth is slowing.</strong> Private-sector regular pay is rising <strong>2.9%</strong> a year, down from 3.3% at the start of the year (<a href=\"https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026\" target=\"_blank\" rel=\"noopener noreferrer\">BoE</a>). That is the opposite of a wage-price spiral.</li><li><strong>The job market is softening.</strong> Unemployment is <strong>4.9%</strong>, up from 4.7% a year ago, and the number of employees on payrolls fell in July and again in the early August estimate (<a href=\"https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026\" target=\"_blank\" rel=\"noopener noreferrer\">ONS</a>). External member Alan Taylor says “excess demand has given way to excess supply” (<a href=\"https://www.bankofengland.co.uk/speech/2026/september/searching-for-signposts-speech-by-alan-taylor\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>).</li><li><strong>Markets already pressed the brake.</strong> The 10-year government bond rate (the “gilt” yield) is <strong>5.38%</strong>. Fixed mortgages follow these market rates, and lenders already reported a sharp fall in demand for home loans (<a href=\"https://www.bankofengland.co.uk/credit-conditions-survey/2026/2026-q3\" target=\"_blank\" rel=\"noopener noreferrer\">BoE survey</a>).</li><li><strong>The Budget comes first.</strong> The government presents its Budget on October 28, a week before the decision (<a href=\"https://obr.uk/autumn-2026-forecast-date-announced/\" target=\"_blank\" rel=\"noopener noreferrer\">OBR</a>). Tax and spending changes, or help with energy bills, could change the inflation picture, and the MPC may want to study them.</li></ul>"
+    "html": "<ul><li><strong>The majority set a clear test, and it has not been met yet.</strong> In September six of nine members voted to hold. Deputy Governor Clare Lombardelli said on September 24 that “a majority of the MPC have not judged that an increase in Bank Rate is needed” (<a href=\"https://www.bankofengland.co.uk/speech/2026/september/clare-lombardelli-speech-at-the-sixth-biennial-conference-poland\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>).</li><li><strong>Pay growth is slowing.</strong> Private-sector regular pay is rising <strong>2.9%</strong> a year, down from 3.3% at the start of the year (<a href=\"https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026\" target=\"_blank\" rel=\"noopener noreferrer\">BoE</a>). That is the opposite of a wage-price spiral.</li><li><strong>The job market is softening.</strong> Unemployment is <strong>4.9%</strong>, up from 4.7% a year ago, and the number of employees on payrolls fell in July and again in the early August estimate (<a href=\"https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026\" target=\"_blank\" rel=\"noopener noreferrer\">ONS</a>). External member Alan Taylor says “excess demand has given way to excess supply” (<a href=\"https://www.bankofengland.co.uk/speech/2026/september/searching-for-signposts-speech-by-alan-taylor\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>).</li><li><strong>Markets already pressed the brake.</strong> The 10-year government bond rate (the “gilt” yield) is <strong>5.31%</strong>. Fixed mortgages follow these market rates, and lenders already reported a sharp fall in demand for home loans (<a href=\"https://www.bankofengland.co.uk/credit-conditions-survey/2026/2026-q3\" target=\"_blank\" rel=\"noopener noreferrer\">BoE survey</a>).</li><li><strong>The Budget comes first.</strong> The government presents its Budget on October 28, a week before the decision (<a href=\"https://obr.uk/autumn-2026-forecast-date-announced/\" target=\"_blank\" rel=\"noopener noreferrer\">OBR</a>). Tax and spending changes, or help with energy bills, could change the inflation picture, and the MPC may want to study them.</li></ul>"
    },
    {
     "title": "Reasons the BoE might raise in November",
@@ -1183,7 +1186,7 @@
     "date_label": "September 16 → October 14, 2026",
     "title": "Oil spikes, gilt rates climb, the pound slips",
     "kind": "down",
-    "what": "Brent oil reached <strong>$126.55 a barrel</strong> and WTI reached <strong>$101.91 a barrel</strong>. The 10-year gilt rate is <strong>5.38%</strong>; the 5-year is <strong>4.97%</strong>. One pound is <strong>US$1.3253</strong> and <strong>€1.1830</strong>.",
+    "what": "Brent oil reached <strong>$126.55 a barrel</strong> and WTI reached <strong>$101.91 a barrel</strong>. The 10-year gilt rate is <strong>5.31%</strong>; the 5-year is <strong>4.92%</strong>. One pound is <strong>US$1.3353</strong> and <strong>€1.1866</strong>.",
     "why": "Higher oil means higher expected inflation, so investors demand more interest to lend to the government for years. Before the meeting, the BoE noted market rates were pricing Bank Rate “peaking at around 4.9% by end-2027”.",
     "people": "Fixed-rate mortgage deals are priced off these market rates, so new fixes get dearer. Lenders reported demand for house-purchase loans fell sharply in the third quarter.",
     "sources": [
@@ -1240,7 +1243,7 @@
     "for": [
      "<strong>No clear spreading yet.</strong> Core inflation (2.6%) and services inflation (3.4%) were unchanged in August, and firms’ expected wage growth (3.4%) has been stable since before the conflict.",
      "<strong>Pay and jobs are cooling.</strong> Private-sector regular pay growth is down to 2.9%; unemployment is 4.9% and payrolls have been falling.",
-     "<strong>Markets did some of the work.</strong> The 10-year gilt rate is 5.38%, up from 5.24% at the September meeting, which makes new fixed mortgages dearer.",
+     "<strong>Markets did some of the work.</strong> The 10-year gilt rate is 5.31%, which makes new fixed mortgages dearer.",
      "<strong>The majority’s own test.</strong> Lombardelli said a rise is likely if energy prices persist “absent clear evidence of disinflation or weaker activity”; weaker activity is showing up.",
      "<strong>The Budget.</strong> Coming on October 28, it could change energy bills or taxes in ways that move the inflation forecast either way."
     ],
@@ -1386,7 +1389,7 @@
     "grade": "red",
     "one": "Government borrowing costs are high and rising, and the pound has slipped.",
     "look": "Gilt (UK government bond) rates for 5 and 10 years, SONIA (the overnight rate banks charge each other), the pound, and lending conditions.",
-    "why": "The 10-year gilt rate is 5.38%, up from 4.74% a year earlier. Mann says much of this is a premium for inflation risk and uncertainty, not a forecast. Lenders cut mortgage availability in the third quarter and demand for house-purchase loans fell sharply. The pound is US$1.3253 and €1.1830. Reassuring: SONIA (3.73%) sits right where the BoE wants it.",
+    "why": "The 10-year gilt rate is 5.31%, down from 5.38% previously. Mann says much of this is a premium for inflation risk and uncertainty, not a forecast. Lenders cut mortgage availability in the third quarter and demand for house-purchase loans fell sharply. The pound is US$1.3353 and €1.1866. Reassuring: SONIA (3.733%) sits right where the BoE wants it.",
     "change": "Gilt rates settling back toward 5% → yellow.",
     "matters": "Higher market rates already slow the economy, which argues for waiting. But Greene warns “we cannot rely on premia to do our work for us”, and Mann says she “cannot take comfort” from it.",
     "change_label": "What would change it"
@@ -1777,7 +1780,7 @@
    "<strong>Dates of the next Decision Maker Panel and Agents’ summary</strong>, and the exact start of the BoE’s pre-meeting quiet period, were not confirmed.",
    "<strong>Household inflation expectations.</strong> The BoE/Savanta survey changed provider in August 2026, which lowered the figures, so the drop from May to August is partly a change of method, not a change of mood.",
    "<strong>Other central banks.</strong> The Fed’s 3.75%–4.00% range and the ECB’s 2.50% deposit rate are from FRED; we did not independently check the Bank of Japan’s latest decision for this page.",
-   "<strong>How we gathered data:</strong> the data was gathered with web search tools on Oct 16, 2026. The search-engine tool itself was blocked, so we fetched each official page directly (Bank of England, ONS, OBR and FRED) and followed links from the BoE’s own news and speech feeds. Every number links to the page it was read from."
+   "<strong>How we gathered data:</strong> the data was gathered with web search tools on Oct 19, 2026. The search-engine tool itself was blocked, so we fetched each official page directly (Bank of England, ONS, OBR and FRED) and followed links from the BoE’s own news and speech feeds. Every number links to the page it was read from."
   ],
   "group_intros": {
    "prices": "These numbers tell us how fast things are getting more expensive. The BoE’s target is 2% a year for CPI. If CPI is more than 1 point away from 2%, the Governor must write an open letter to the Chancellor. The BoE watches services and core prices to see whether energy costs are spreading.",
@@ -1907,8 +1910,8 @@
     "Jul"
    ],
    "10-yr": [
-    "5.38%",
-    "Oct 14"
+    "5.31%",
+    "Oct 15"
    ]
   },
   "rate_label": "Current Bank Rate",
@@ -2022,6 +2025,34 @@
   "the case for further rate increases is not compelling to me unless energy prices remain high for an extended period"
  ],
  "changelog": [
+  {
+   "date": "2026-10-19",
+   "date_label": "Oct 19, 2026",
+   "since": "2026-10-18",
+   "since_label": "Oct 18, 2026",
+   "summary": {
+    "headline": "No major new economic data released since the last update; 10-year gilt yield edged down slightly from 5.38% to 5.31% (October 15).",
+    "items": [
+     "<strong>10-year gilt yield</strong> fell from 5.38% to 5.31% (October 15), reflecting slight movements in government borrowing costs.",
+     "No official statements or central bank policy decisions occurred; the next major decision remains November 5."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "10_year_gilt_yield",
+     "name": "10-year gilt yield",
+     "from": "5.38%",
+     "from_period": "Oct 14, 2026",
+     "to": "5.31%",
+     "to_period": "Oct 15, 2026",
+     "move": "−0.07 pts"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-10-17",
    "date_label": "Oct 17, 2026",
@@ -2196,6 +2227,6 @@
    "automatic": 25,
    "manual": 14
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }
