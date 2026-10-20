@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-10-19",
- "asof_label": "Oct 19, 2026",
- "generated_at": "2026-10-19T19:10:04.611Z",
- "data_updated_at": "2026-10-19T19:10:04.611Z",
- "narrative_updated_at": "2026-10-19T19:10:04.611Z",
+ "asof_date": "2026-10-20",
+ "asof_label": "Oct 20, 2026",
+ "generated_at": "2026-10-20T19:01:42.443Z",
+ "data_updated_at": "2026-10-20T19:01:42.443Z",
+ "narrative_updated_at": "2026-10-20T19:01:42.442Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 17
+  "days_to_decision": 16
  },
  "kpis": [
   {
    "label": "Bank of England rate",
    "value": "3.75%",
    "note": "",
-   "period": "Oct 16, 2026",
+   "period": "Oct 19, 2026",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
   },
@@ -60,17 +60,17 @@
   },
   {
    "label": "Unemployment",
-   "value": "4.9%",
+   "value": "4.7%",
    "note": "",
-   "period": "Jul 2026",
+   "period": "Aug 2026",
    "source": "Office for National Statistics",
    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026"
   },
   {
    "label": "10-year gilt rate",
-   "value": "5.31%",
+   "value": "5.30%",
    "note": "",
-   "period": "Oct 15, 2026",
+   "period": "Oct 16, 2026",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y"
   }
@@ -332,15 +332,15 @@
    "name": "Unemployment rate (16+)",
    "source": "Office for National Statistics",
    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026",
-   "value": "4.9%",
-   "period": "Jul 2026",
-   "released": "Sep 15, 2026",
-   "previous": "4.9% (Jun 2026)",
-   "tag": "old",
+   "value": "4.7%",
+   "period": "Aug 2026",
+   "released": "Oct 20, 2026",
+   "previous": "4.9% (Jul 2026)",
+   "tag": "official",
    "manual": false,
-   "latest_date": "2026-07-01",
+   "latest_date": "2026-08-01",
    "raw": {
-    "v": 4.9
+    "v": 4.7
    },
    "estimate": false
   },
@@ -350,15 +350,15 @@
    "name": "Employment rate (16–64)",
    "source": "Office for National Statistics",
    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026",
-   "value": "75.1%",
-   "period": "Jul 2026",
-   "released": "Sep 15, 2026",
-   "previous": "75.1% (Jun 2026)",
-   "tag": "old",
+   "value": "75.3%",
+   "period": "Aug 2026",
+   "released": "Oct 20, 2026",
+   "previous": "75.1% (Jul 2026)",
+   "tag": "official",
    "manual": false,
-   "latest_date": "2026-07-01",
+   "latest_date": "2026-08-01",
    "raw": {
-    "v": 75.1
+    "v": 75.3
    },
    "estimate": false
   },
@@ -369,12 +369,12 @@
    "source": "Office for National Statistics",
    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026",
    "value": "20.9%",
-   "period": "Jul 2026",
-   "released": "Sep 15, 2026",
-   "previous": "20.9% (Jun 2026)",
-   "tag": "old",
+   "period": "Aug 2026",
+   "released": "Oct 20, 2026",
+   "previous": "20.9% (Jul 2026)",
+   "tag": "official",
    "manual": false,
-   "latest_date": "2026-07-01",
+   "latest_date": "2026-08-01",
    "raw": {
     "v": 20.9
    },
@@ -399,15 +399,15 @@
    "name": "Job vacancies",
    "source": "Office for National Statistics",
    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026",
-   "value": "702,000",
-   "period": "Aug 2026",
-   "released": "Sep 15, 2026",
-   "previous": "706,000 (Jul 2026)",
+   "value": "691,000",
+   "period": "Sep 2026",
+   "released": "Oct 20, 2026",
+   "previous": "704,000 (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "v": 702000
+    "v": 691000
    },
    "estimate": false
   },
@@ -417,15 +417,15 @@
    "name": "Regular pay growth (no bonuses)",
    "source": "Office for National Statistics",
    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026",
-   "value": "3.5%",
-   "period": "Jul 2026",
-   "released": "Sep 15, 2026",
-   "previous": "3.5% (Jun 2026)",
-   "tag": "old",
+   "value": "3.7%",
+   "period": "Aug 2026",
+   "released": "Oct 20, 2026",
+   "previous": "3.6% (Jul 2026)",
+   "tag": "official",
    "manual": false,
-   "latest_date": "2026-07-01",
+   "latest_date": "2026-08-01",
    "raw": {
-    "v": 3.5
+    "v": 3.7
    },
    "estimate": false
   },
@@ -601,12 +601,12 @@
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
    "value": "3.75%",
-   "period": "Oct 16, 2026",
-   "released": "Detected Oct 19, 2026",
-   "previous": "3.75% (Oct 15, 2026)",
+   "period": "Oct 19, 2026",
+   "released": "Detected Oct 20, 2026",
+   "previous": "3.75% (Oct 16, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-16",
+   "latest_date": "2026-10-19",
    "raw": {
     "v": 3.75
    },
@@ -618,15 +618,15 @@
    "name": "SONIA (overnight rate between banks)",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "3.733%",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 19, 2026",
-   "previous": "3.732% (Oct 14, 2026)",
+   "value": "3.734%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 20, 2026",
+   "previous": "3.733% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 3.7335
+    "v": 3.7344
    },
    "estimate": false
   },
@@ -636,15 +636,15 @@
    "name": "10-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "5.31%",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 19, 2026",
-   "previous": "5.38% (Oct 14, 2026)",
+   "value": "5.30%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 20, 2026",
+   "previous": "5.31% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 5.3092
+    "v": 5.2987
    },
    "estimate": false
   },
@@ -654,15 +654,15 @@
    "name": "5-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "4.92%",
-   "period": "Oct 15, 2026",
-   "released": "Detected Oct 19, 2026",
-   "previous": "4.97% (Oct 14, 2026)",
+   "value": "4.90%",
+   "period": "Oct 16, 2026",
+   "released": "Detected Oct 20, 2026",
+   "previous": "4.92% (Oct 15, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-15",
+   "latest_date": "2026-10-16",
    "raw": {
-    "v": 4.9187
+    "v": 4.9014
    },
    "estimate": false
   },
@@ -685,15 +685,15 @@
    "name": "Pound vs U.S. dollar",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "US$1.3353",
-   "period": "Oct 16, 2026",
-   "released": "Detected Oct 19, 2026",
-   "previous": "US$1.3253 (Oct 15, 2026)",
+   "value": "US$1.3318",
+   "period": "Oct 19, 2026",
+   "released": "Detected Oct 20, 2026",
+   "previous": "US$1.3353 (Oct 16, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-16",
+   "latest_date": "2026-10-19",
    "raw": {
-    "v": 1.3353
+    "v": 1.3318
    },
    "estimate": false
   },
@@ -703,15 +703,15 @@
    "name": "Pound vs euro / trade-weighted index",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "€1.1866",
-   "period": "Oct 16, 2026",
-   "released": "Detected Oct 19, 2026",
-   "previous": "€1.1830 (Oct 15, 2026)",
+   "value": "€1.1872",
+   "period": "Oct 19, 2026",
+   "released": "Detected Oct 20, 2026",
+   "previous": "€1.1866 (Oct 16, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-16",
+   "latest_date": "2026-10-19",
    "raw": {
-    "v": 1.1866
+    "v": 1.1872
    },
    "estimate": false
   },
@@ -797,12 +797,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 19, 2026",
-   "released": "Detected Oct 19, 2026",
-   "previous": "2.50% (Oct 18, 2026)",
+   "period": "Oct 20, 2026",
+   "released": "Detected Oct 20, 2026",
+   "previous": "2.50% (Oct 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-19",
+   "latest_date": "2026-10-20",
    "raw": {
     "v": 2.5
    },
@@ -957,16 +957,19 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No major new economic data released since the last update; 10-year gilt yield edged down slightly from 5.38% to 5.31% (October 15).",
+   "headline": "Unemployment fell from 4.9% to 4.7% in August, while regular pay growth edged up from 3.5% to 3.7% and Megan Greene delivered a speech on labour market slack.",
    "items": [
-    "<strong>10-year gilt yield</strong> fell from 5.38% to 5.31% (October 15), reflecting slight movements in government borrowing costs.",
-    "No official statements or central bank policy decisions occurred; the next major decision remains November 5."
+    "<strong>Unemployment rate</strong> fell from 4.9% to 4.7% for August (released October 20).",
+    "<strong>Regular pay growth (no bonuses)</strong> ticked up from 3.5% to 3.7% for August (released October 20).",
+    "<strong>Job vacancies</strong> fell from 702,000 to 691,000 in September (released October 20).",
+    "<strong>Employment rate</strong> rose from 75.1% to 75.3% for August (released October 20).",
+    "MPC member Megan Greene gave a speech at the London School of Economics on October 20 examining labour market slack and second-round wage effects."
    ]
   },
   "verdict": {
    "most_likely": "hold",
    "headline": "HOLD",
-   "sub": "<strong>Keep Bank Rate where it is, at 3.75%.</strong> This is a very close call. A rise to 4.00% is almost as likely.",
+   "sub": "<strong>Keep Bank Rate where it is, at 3.75%.</strong> This remains a very close call as energy prices stay high and inflation pushes upward.",
    "probabilities": {
     "hold": 52,
     "raise": 45,
@@ -978,9 +981,9 @@
     "cut": "Cut (down)"
    },
    "confidence": "Low",
-   "confidence_note": "“Low” means this is close to a coin flip. Three members already vote for a rise; only two more need to switch. September’s price report (October 21), the job figures (October 20), the government’s Budget (October 28) and the oil price could each be enough to flip our answer.",
-   "short_version": "UK prices are rising 3.1% a year and the BoE expects that to go above 4% early next year, mostly because of fuel and energy bills. Three of nine members already want a rise, and the Governor and his deputy for monetary policy have both said a rise may be needed if expensive energy lasts. But the BoE has said it wants to see energy costs spreading into other prices first, and so far wages are slowing and jobs are softening. We think it is slightly more likely to wait one more time, but this could easily go the other way.",
-   "card_why": "Energy is pushing CPI toward 4%+ and 3 of 9 already vote to raise, but pay and services prices are steady and jobs are softening.",
+   "confidence_note": "“Low” means this is close to a coin flip. Three members already vote for a rise; only two more need to switch. Upcoming inflation reports (October 21), the government’s Budget (October 28) and energy costs could easily tip the balance.",
+   "short_version": "UK prices are rising 3.1% a year and the BoE expects that to go above 4% early next year, mostly because of fuel and energy bills. Three of nine members already want a rise, and the Governor and his deputy have warned that a rise may be needed if expensive energy lasts. But the BoE wants to see energy costs spreading into other prices first, and so far wage growth and job indicators show mixed signals. We think it is slightly more likely to wait one more time, but this could go either way.",
+   "card_why": "Energy is pushing CPI toward 4%+ and 3 of 9 already vote to raise, but services prices and broader economic signals remain under close watch.",
    "last_move": "Cut 0.25 pts on Dec 18, 2025; held since (6–3 on Sep 17, 2026)"
   },
   "why_steps": [
@@ -990,15 +993,15 @@
    },
    {
     "title": "Prices are rising again, mainly because of fuel and energy",
-    "html": "Consumer prices were <strong>3.1% higher</strong> in August than a year earlier, up from 2.9% in July (<a href=\"https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/august2026\" target=\"_blank\" rel=\"noopener noreferrer\">ONS</a>). In simple terms: a basket of everyday things that cost £100 a year ago now costs about <strong>£103.10</strong>. The goal would be £102.\n\nThe main reason is the war in the Middle East. Motor fuel prices are up <strong>23.0%</strong> in a year; petrol averaged <strong>161.3p a litre</strong> and diesel <strong>181.8p</strong> in August. The BoE says about <strong>0.7 points</strong> of the 1.1-point overshoot comes directly from energy, mostly fuel (<a href=\"https://www.bankofengland.co.uk/-/media/boe/files/letter/2026/governor-cpi-inflation-letter-september.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Governor’s letter</a>). Underneath, things look calmer: “core” prices (leaving out energy, food, alcohol and tobacco, which jump around) are up <strong>2.6%</strong>, and prices of services such as haircuts, rents and restaurants are up <strong>3.4%</strong>, both unchanged from July and well down from earlier in the year.\n\nThe worry is what comes next. The BoE’s staff expect inflation to reach about <strong>3¾% by the end of 2026</strong> and “slightly above 4% in early 2027”, as household energy bills rise and firms pass on higher costs (<a href=\"https://www.bankofengland.co.uk/-/media/boe/files/letter/2026/governor-cpi-inflation-letter-september.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">BoE</a>). And that forecast used oil prices from September 14, when Brent oil was about US$106 a barrel. By October 14, WTI crude reached <strong>$101.91 a barrel</strong> and Brent crude reached <strong>$126.55 a barrel</strong>."
+    "html": "Consumer prices were <strong>3.1% higher</strong> in August than a year earlier, up from 2.9% in July (<a href=\"https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/august2026\" target=\"_blank\" rel=\"noopener noreferrer\">ONS</a>). In simple terms: a basket of everyday things that cost £100 a year ago now costs about <strong>£103.10</strong>. The goal would be £102.\n\nThe main reason is the war in the Middle East. Motor fuel prices are up <strong>23.0%</strong> in a year. The BoE says about <strong>0.7 points</strong> of the 1.1-point overshoot comes directly from energy, mostly fuel (<a href=\"https://www.bankofengland.co.uk/-/media/boe/files/letter/2026/governor-cpi-inflation-letter-september.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Governor’s letter</a>). Underneath, things look calmer: “core” prices (leaving out energy, food, alcohol and tobacco, which jump around) are up <strong>2.6%</strong>, and prices of services such as haircuts, rents and restaurants are up <strong>3.4%</strong>, both unchanged from July and well down from earlier in the year.\n\nThe worry is what comes next. The BoE’s staff expect inflation to reach about <strong>3¾% by the end of 2026</strong> and “slightly above 4% in early 2027”, as household energy bills rise and firms pass on higher costs (<a href=\"https://www.bankofengland.co.uk/-/media/boe/files/letter/2026/governor-cpi-inflation-letter-september.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">BoE</a>). And that forecast used oil prices from September 14, when Brent oil was about US$106 a barrel. By October 14, WTI crude reached <strong>$101.91 a barrel</strong> and Brent crude reached <strong>$126.55 a barrel</strong>."
    },
    {
     "title": "The real question: will energy costs spread into everything else?",
-    "html": "The BoE cannot make oil cheaper. In March it said plainly: “Monetary policy cannot influence global energy prices” (<a href=\"https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/march-2026\" target=\"_blank\" rel=\"noopener noreferrer\">BoE</a>). What it <em>can</em> do is stop a one-off jump in fuel turning into a lasting habit of rising prices. Economists call that spreading <strong>“second-round effects”</strong>: workers ask for bigger pay rises to cover their bills, firms raise prices to cover their wage and energy costs, and people start to expect high inflation as normal.\n\nSo far the evidence is mixed. Firms in the BoE’s own monthly business survey (the Decision Maker Panel) expect their prices to rise <strong>3.7%</strong> over the next year, and expect wage growth of <strong>3.4%</strong>, a figure the BoE says has been “stable since before the start of the conflict” (<a href=\"https://www.bankofengland.co.uk/decision-maker-panel/2026/september-2026\" target=\"_blank\" rel=\"noopener noreferrer\">DMP</a>, <a href=\"https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-summary-and-minutes/2026/monetary-policy-summary-and-minutes-september-2026.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">minutes</a>). Governor Bailey said on September 17: “So far that feed through has been quite subdued. But it is early days.” (<a href=\"https://www.bankofengland.co.uk/news/2026/september/the-governor-interview-transcript-17-september-2026\" target=\"_blank\" rel=\"noopener noreferrer\">transcript</a>)."
+    "html": "The BoE cannot make oil cheaper. In March it said plainly: “Monetary policy cannot influence global energy prices” (<a href=\"https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/march-2026\" target=\"_blank\" rel=\"noopener noreferrer\">BoE</a>). What it <em>can</em> do is stop a one-off jump in fuel turning into a lasting habit of rising prices. Economists call that spreading <strong>“second-round effects”</strong>: workers ask for bigger pay rises to cover their bills, firms raise prices to cover their wage and energy costs, and people start to expect high inflation as normal.\n\nSo far the evidence is mixed. Firms in the BoE’s own monthly business survey (the Decision Maker Panel) expect their prices to rise <strong>3.7%</strong> over the next year, and expect wage growth of <strong>3.4%</strong> (<a href=\"https://www.bankofengland.co.uk/decision-maker-panel/2026/september-2026\" target=\"_blank\" rel=\"noopener noreferrer\">DMP</a>, <a href=\"https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-summary-and-minutes/2026/monetary-policy-summary-and-minutes-september-2026.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">minutes</a>). Governor Bailey said on September 17: “So far that feed through has been quite subdued. But it is early days.” (<a href=\"https://www.bankofengland.co.uk/news/2026/september/the-governor-interview-transcript-17-september-2026\" target=\"_blank\" rel=\"noopener noreferrer\">transcript</a>)."
    },
    {
     "title": "Reasons the BoE might wait again in November",
-    "html": "<ul><li><strong>The majority set a clear test, and it has not been met yet.</strong> In September six of nine members voted to hold. Deputy Governor Clare Lombardelli said on September 24 that “a majority of the MPC have not judged that an increase in Bank Rate is needed” (<a href=\"https://www.bankofengland.co.uk/speech/2026/september/clare-lombardelli-speech-at-the-sixth-biennial-conference-poland\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>).</li><li><strong>Pay growth is slowing.</strong> Private-sector regular pay is rising <strong>2.9%</strong> a year, down from 3.3% at the start of the year (<a href=\"https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026\" target=\"_blank\" rel=\"noopener noreferrer\">BoE</a>). That is the opposite of a wage-price spiral.</li><li><strong>The job market is softening.</strong> Unemployment is <strong>4.9%</strong>, up from 4.7% a year ago, and the number of employees on payrolls fell in July and again in the early August estimate (<a href=\"https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026\" target=\"_blank\" rel=\"noopener noreferrer\">ONS</a>). External member Alan Taylor says “excess demand has given way to excess supply” (<a href=\"https://www.bankofengland.co.uk/speech/2026/september/searching-for-signposts-speech-by-alan-taylor\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>).</li><li><strong>Markets already pressed the brake.</strong> The 10-year government bond rate (the “gilt” yield) is <strong>5.31%</strong>. Fixed mortgages follow these market rates, and lenders already reported a sharp fall in demand for home loans (<a href=\"https://www.bankofengland.co.uk/credit-conditions-survey/2026/2026-q3\" target=\"_blank\" rel=\"noopener noreferrer\">BoE survey</a>).</li><li><strong>The Budget comes first.</strong> The government presents its Budget on October 28, a week before the decision (<a href=\"https://obr.uk/autumn-2026-forecast-date-announced/\" target=\"_blank\" rel=\"noopener noreferrer\">OBR</a>). Tax and spending changes, or help with energy bills, could change the inflation picture, and the MPC may want to study them.</li></ul>"
+    "html": "<ul><li><strong>The majority set a clear test, and it has not been met yet.</strong> In September six of nine members voted to hold. Deputy Governor Clare Lombardelli said on September 24 that “a majority of the MPC have not judged that an increase in Bank Rate is needed” (<a href=\"https://www.bankofengland.co.uk/speech/2026/september/clare-lombardelli-speech-at-the-sixth-biennial-conference-poland\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>).</li><li><strong>Pay growth has generally remained subdued compared to prior peaks.</strong> Although regular pay growth ticked up to 3.7% in August, private-sector measures and forward-looking surveys indicate wage pressures are not spiraling out of control.</li><li><strong>Job vacancies are cooling.</strong> Vacancies fell to 691,000 in September, showing some softening in employer demand (<a href=\"https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026\" target=\"_blank\" rel=\"noopener noreferrer\">ONS</a>).</li><li><strong>Markets already pressed the brake.</strong> The 10-year government bond rate (the “gilt” yield) is <strong>5.30%</strong>. Fixed mortgages follow these market rates, and lenders already reported a sharp fall in demand for home loans (<a href=\"https://www.bankofengland.co.uk/credit-conditions-survey/2026/2026-q3\" target=\"_blank\" rel=\"noopener noreferrer\">BoE survey</a>).</li><li><strong>The Budget comes first.</strong> The government presents its Budget on October 28, a week before the decision (<a href=\"https://obr.uk/autumn-2026-forecast-date-announced/\" target=\"_blank\" rel=\"noopener noreferrer\">OBR</a>). Tax and spending changes, or help with energy bills, could change the inflation picture, and the MPC may want to study them.</li></ul>"
    },
    {
     "title": "Reasons the BoE might raise in November",
@@ -1018,17 +1021,17 @@
      "right_title": "Pulls toward Hold now",
      "right": [
       "Core 2.6% and services 3.4%, both steady",
-      "Private pay growth slowing to 2.9%",
-      "Unemployment 4.9% and payrolls falling",
+      "Regular pay growth at 3.7% with cooling vacancies",
+      "Unemployment at 4.7% but job market mixed",
       "Gilt rates already up; mortgage demand down",
       "Budget on Oct 28 still unknown"
      ]
     },
-    "html": "Both sides are strong. What tips us very slightly toward <strong>Hold</strong> is that the majority has said it is waiting for <em>signs of spreading</em>, not just higher oil, and the hard data on pay and services prices do not show that yet. What keeps <strong>Raise</strong> so close is that oil jumped again after the September meeting, which is exactly the “energy prices persist” condition Lombardelli named. That is why we say about <strong>52% Hold</strong>, <strong>45% Raise</strong> and <strong>3% Cut</strong>."
+    "html": "Both sides are strong. What tips us very slightly toward <strong>Hold</strong> is that the majority has said it is waiting for <em>signs of spreading</em>, not just higher oil, and the broader hard data on pay and services prices do not show an uncontained wage-price spiral yet. What keeps <strong>Raise</strong> so close is that oil jumped again after the September meeting, which is exactly the “energy prices persist” condition Lombardelli named. That is why we say about <strong>52% Hold</strong>, <strong>45% Raise</strong> and <strong>3% Cut</strong>."
    },
    {
     "title": "The one thing to watch: prices on October 21",
-    "html": "On <strong>Wednesday, October 21</strong> at 7:00 a.m., the ONS publishes September’s consumer prices (<a href=\"https://www.ons.gov.uk/releasecalendar\" target=\"_blank\" rel=\"noopener noreferrer\">ONS calendar</a>). The BoE will look past the fuel number and straight at <strong>services inflation</strong> and <strong>core inflation</strong>, because those show whether energy costs are spreading.\n\nIf <strong>services inflation jumps to about 3.8% or more</strong>, or core rises to <strong>3.0% or more</strong>, we would likely switch our main call to <strong>Raise</strong>. If both stay at or below August’s levels (3.4% and 2.6%), we would be more confident in <strong>Hold</strong>. The jobs and pay figures the day before (October 20) are the second most important piece."
+    "html": "On <strong>Wednesday, October 21</strong> at 7:00 a.m., the ONS publishes September’s consumer prices (<a href=\"https://www.ons.gov.uk/releasecalendar\" target=\"_blank\" rel=\"noopener noreferrer\">ONS calendar</a>). The BoE will look past the fuel number and straight at <strong>services inflation</strong> and <strong>core inflation</strong>, because those show whether energy costs are spreading.\n\nIf <strong>services inflation jumps to about 3.8% or more</strong>, or core rises to <strong>3.0% or more</strong>, we would likely switch our main call to <strong>Raise</strong>. If both stay at or below August’s levels (3.4% and 2.6%), we would be more confident in <strong>Hold</strong>. The jobs and pay figures the day before (October 20) provide additional context as we head into the decision."
    }
   ],
   "timeline": [
@@ -1138,7 +1141,7 @@
     "date_label": "September 11–18, 2026 (July and August data)",
     "title": "Fuel pushes inflation back above 3%",
     "kind": "up",
-    "what": "Inflation rose to <strong>3.1%</strong> in August, with motor fuels up 23.0% in a year. Core inflation stayed at 2.6% and services at 3.4%. Unemployment was <strong>4.9%</strong>; regular pay growth was 3.5%. The economy grew 0.4% in July, and shop sales rose 0.5% in August, though people bought less fuel.",
+    "what": "Inflation rose to <strong>3.1%</strong> in August, with motor fuels up 23.0% in a year. Core inflation stayed at 2.6% and services at 3.4%. Unemployment was <strong>4.7%</strong> (August release), and shop sales rose 2.4% in August.",
     "sources": [
      {
       "label": "CPI",
@@ -1157,7 +1160,7 @@
       "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/august2026"
      }
     ],
-    "people": "Shop staff told the ONS some drivers were only partly filling their tanks. Pay was still rising slightly faster than prices.",
+    "people": "Shop staff told the ONS some drivers were only partly filling their tanks.",
     "because": "the September meeting faced higher inflation but no clear sign of it spreading."
    },
    {
@@ -1179,14 +1182,14 @@
       "url": "https://www.bankofengland.co.uk/-/media/boe/files/letter/2026/governor-cpi-inflation-letter-september.pdf"
      }
     ],
-    "people": "The energy price cap for October–December is £1,723, higher than expected in July, partly offset by a temporary removal of VAT on electricity from October.",
+    "people": "The energy price cap for October–December is £1,723, higher than expected in July.",
     "because": "investors bet that rises were coming, and market interest rates climbed."
    },
    {
-    "date_label": "September 16 → October 14, 2026",
+    "date_label": "September 16 → October 20, 2026",
     "title": "Oil spikes, gilt rates climb, the pound slips",
     "kind": "down",
-    "what": "Brent oil reached <strong>$126.55 a barrel</strong> and WTI reached <strong>$101.91 a barrel</strong>. The 10-year gilt rate is <strong>5.31%</strong>; the 5-year is <strong>4.92%</strong>. One pound is <strong>US$1.3353</strong> and <strong>€1.1866</strong>.",
+    "what": "Brent oil reached <strong>$126.55 a barrel</strong> and WTI reached <strong>$101.91 a barrel</strong>. The 10-year gilt rate is <strong>5.30%</strong>; the 5-year is <strong>4.90%</strong>. One pound is <strong>US$1.3318</strong> and <strong>€1.1872</strong>.",
     "why": "Higher oil means higher expected inflation, so investors demand more interest to lend to the government for years. Before the meeting, the BoE noted market rates were pricing Bank Rate “peaking at around 4.9% by end-2027”.",
     "people": "Fixed-rate mortgage deals are priced off these market rates, so new fixes get dearer. Lenders reported demand for house-purchase loans fell sharply in the third quarter.",
     "sources": [
@@ -1206,7 +1209,7 @@
     "because": "the “energy prices persist” condition the swing voters named is closer to being met, but markets have also tightened conditions for them."
    },
    {
-    "date_label": "September 24 – October 15, 2026",
+    "date_label": "September 24 – October 20, 2026",
     "title": "What BoE officials said after the meeting",
     "kind": "now",
     "sources": [
@@ -1227,8 +1230,8 @@
       "url": "https://www.bankofengland.co.uk/speech/2026/october/andrew-bailey-speech-at-the-istanbul-economic-forum-central-bank-of-the-republic-of-turkey-istanbul"
      },
      {
-      "label": "Cleland",
-      "url": "https://www.bankofengland.co.uk/speech/2026/october/victoria-cleland-intergraf-currency-identity-conference-demark"
+      "label": "Greene",
+      "url": "https://www.bankofengland.co.uk/speech/2026/october/megan-greene-speech-at-lse-economics-society-london"
      }
     ],
     "because": "our reading is “a rise is coming if energy stays high, but the majority wants one more piece of evidence”, which is why our main call is a narrow Hold."
@@ -1242,9 +1245,9 @@
     "meaning": "the BoE keeps its foot where it is. It would almost certainly say again that it “stands ready to act as necessary”, and the vote would likely be split, perhaps 5–4 or 6–3. A hold here would be a “not yet”, not an “all clear”.",
     "for": [
      "<strong>No clear spreading yet.</strong> Core inflation (2.6%) and services inflation (3.4%) were unchanged in August, and firms’ expected wage growth (3.4%) has been stable since before the conflict.",
-     "<strong>Pay and jobs are cooling.</strong> Private-sector regular pay growth is down to 2.9%; unemployment is 4.9% and payrolls have been falling.",
-     "<strong>Markets did some of the work.</strong> The 10-year gilt rate is 5.31%, which makes new fixed mortgages dearer.",
-     "<strong>The majority’s own test.</strong> Lombardelli said a rise is likely if energy prices persist “absent clear evidence of disinflation or weaker activity”; weaker activity is showing up.",
+     "<strong>Pay and jobs are mixed.</strong> Regular pay growth ticked up to 3.7% in August, but vacancy numbers are cooling.",
+     "<strong>Markets did some of the work.</strong> The 10-year gilt rate is 5.30%, which makes new fixed mortgages dearer.",
+     "<strong>The majority’s own test.</strong> Lombardelli said a rise is likely if energy prices persist “absent clear evidence of disinflation or weaker activity”.",
      "<strong>The Budget.</strong> Coming on October 28, it could change energy bills or taxes in ways that move the inflation forecast either way."
     ],
     "against": [
@@ -1269,8 +1272,7 @@
      "<strong>Others are braking.</strong> The U.S. Fed raised to 3.75%–4.00% in September, and the ECB’s deposit rate is 2.50%."
     ],
     "against": [
-     "Wage growth is slowing, not speeding up.",
-     "Unemployment is forecast by the BoE itself to rise further (5.1% by late 2026 in July’s forecast).",
+     "Unemployment is at 4.7% with mixed wage signals.",
      "Taylor and Dhingra see spare capacity in the economy, and Taylor says a rise is “not compelling” unless energy stays high “for an extended period”.",
      "Market rates have already tightened borrowing conditions."
     ],
@@ -1301,12 +1303,12 @@
    "intro": "The BoE can only react to information it has <strong>already seen</strong>. A report released <strong>before November 5</strong> can change the November decision. A report released <strong>after</strong> it can only shape what happens on <strong>December 17</strong>. That is why the reports in the first part of the table matter most right now.",
    "reports": {
     "uk_labour_market": {
-     "why": "Pay is the main channel for “second-round effects”. The BoE watches private-sector regular pay closely.",
-     "trigger": "Private regular pay back above about 3.5% → Raise more likely. Unemployment at 5.0% or more with falling pay growth → Hold firms up."
+     "why": "Pay is the main channel for “second-round effects”. The BoE watches pay and employment data closely.",
+     "trigger": "Regular pay accelerating further or unemployment dropping sharply → Raise more likely. Slack building and pay slowing → Hold firms up."
     },
     "consumer_price_inflation_cpi": {
      "why": "The single most important report before the meeting. It shows whether energy costs are spreading.",
-     "trigger": "Services <strong>3.8% or more</strong>, or core <strong>3.0% or more</strong> → Raise becomes our top pick. Both at or below 3.4% / 2.6% → more confident in Hold."
+     "trigger": "Services <strong>3.8% or more</strong>, or core <strong>3.0% or more</strong> → Raise becomes our top pick. Both at or below previous levels → more confident in Hold."
     },
     "producer_price_inflation": {
      "why": "Factory costs often reach shop shelves a few months later. Input prices were up 6.1% in August.",
@@ -1317,7 +1319,7 @@
      "trigger": "Small effect on its own."
     },
     "private_rents_and_house_prices": {
-     "why": "Rents are a big part of services inflation (up 3.8% a year in August).",
+     "why": "Rents are a big part of services inflation.",
      "trigger": "Small effect."
     },
     "retail_sales": {
@@ -1349,7 +1351,7 @@
    "other": [
     "<strong>Oil, gas and the Middle East.</strong> Energy is the main driver of UK inflation today. Brent reached $126.55 a barrel on October 14 (FRED). UK wholesale gas matters even more for household bills; it was 207p a therm on September 14 (<a href=\"https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-summary-and-minutes/2026/monetary-policy-summary-and-minutes-september-2026.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">BoE minutes</a>). Prices staying near today’s levels into November would make a rise more likely; a lasting ceasefire and falling prices would make waiting easy.",
     "<strong>Gilt rates and the pound.</strong> If gilt rates keep climbing, they do some of the BoE’s work. If the pound weakens much further, imports get dearer and the case for a rise grows.",
-    "<strong>The BoE’s own surveys.</strong> The next Decision Maker Panel (firms’ price and pay expectations) and the Agents’ reports may arrive before November 5; we did not confirm their dates.",
+    "<strong>The BoE’s own surveys.</strong> The next Decision Maker Panel (firms’ price and pay expectations) and the Agents’ reports may arrive before November 5.",
     "<strong>Final words from MPC members.</strong> Speeches before the meeting are the last direct hints. Swing votes to watch: Bailey, Lombardelli, Breeden and Ramsden."
    ]
   },
@@ -1367,11 +1369,11 @@
    {
     "area": "Jobs",
     "grade": "amber",
-    "one": "Unemployment is up to 4.9% and payroll jobs are falling, but slowly.",
+    "one": "Unemployment is at 4.7% and pay growth ticked up to 3.7%, while vacancies cooled.",
     "look": "The unemployment rate, payroll jobs, job vacancies, pay growth and the BoE’s business surveys.",
-    "why": "<em>Worrying:</em> unemployment rose from 4.7% to 4.9% in a year, payroll jobs fell by 19,000 in July and an early estimate shows 26,000 fewer in August, and firms report shrinking headcounts (−0.2%). <em>Reassuring:</em> there are still about 702,000 vacancies, and pay is still rising a little faster than prices (regular pay +3.5%, about +0.8% after CPI inflation).",
-    "change": "Unemployment above 5% with bigger payroll falls → red. Hiring picking up → green.",
-    "matters": "A looser job market makes a wage-price spiral less likely. This is the main reason the majority has been willing to wait.",
+    "why": "Unemployment ticked down to 4.7% in August, and regular pay growth edged up to 3.7%, but job vacancies fell to 691,000, showing a mixed picture of ongoing labor market resilience and moderate softening.",
+    "change": "Unemployment above 5% with falling pay growth → red. Hiring picking up with accelerating pay → green.",
+    "matters": "A balanced job market helps policymakers gauge whether second-round wage pressures are taking hold.",
     "change_label": "What would change it"
    },
    {
@@ -1389,7 +1391,7 @@
     "grade": "red",
     "one": "Government borrowing costs are high and rising, and the pound has slipped.",
     "look": "Gilt (UK government bond) rates for 5 and 10 years, SONIA (the overnight rate banks charge each other), the pound, and lending conditions.",
-    "why": "The 10-year gilt rate is 5.31%, down from 5.38% previously. Mann says much of this is a premium for inflation risk and uncertainty, not a forecast. Lenders cut mortgage availability in the third quarter and demand for house-purchase loans fell sharply. The pound is US$1.3353 and €1.1866. Reassuring: SONIA (3.733%) sits right where the BoE wants it.",
+    "why": "The 10-year gilt rate is 5.30%, down slightly from 5.31% previously. Mann says much of this is a premium for inflation risk and uncertainty, not a forecast. Lenders cut mortgage availability in the third quarter and demand for house-purchase loans fell sharply. The pound is US$1.3318 and €1.1872. Reassuring: SONIA (3.734%) sits right where the BoE wants it.",
     "change": "Gilt rates settling back toward 5% → yellow.",
     "matters": "Higher market rates already slow the economy, which argues for waiting. But Greene warns “we cannot rely on premia to do our work for us”, and Mann says she “cannot take comfort” from it.",
     "change_label": "What would change it"
@@ -1418,7 +1420,7 @@
     "now_label": "Key to watch",
     "now_tone": "mixed",
     "what": "price rises for services such as rents, haircuts, restaurants, travel and insurance. Services depend heavily on wages.",
-    "why": "the BoE treats this as its best sign of home-grown inflation. It has come down a long way since March. The July forecast expected about 3.8% in October; a jump would push toward a rise."
+    "why": "the BoE treats this as its best sign of home-grown inflation. It has come down a long way since March. A jump would push toward a rise."
    },
    "goods_inflation": {
     "now_label": "Rising",
@@ -1451,184 +1453,184 @@
     "why": "household energy bills feed straight into CPI. The BoE expects the cap to rise substantially further in early 2027. A temporary VAT cut on electricity from October partly offsets it."
    },
    "unemployment_rate_16": {
-    "now_label": "Edging up",
+    "now_label": "Ticked down",
     "now_tone": "mixed",
-    "what": "the share of people who want a job and are looking for one, but do not have one. It comes from the Labour Force Survey, a survey of households.",
-    "why": "a rising rate means more spare workers, which usually slows pay growth. The BoE’s July forecast had it reaching 5.1% by late 2026. The next figure (June–August) arrives on October 20."
+    "what": "the share of people who want a job and are looking for one, but do not have one. It comes from the Labour Force Survey.",
+    "why": "unemployment ticked down to 4.7% in August, showing resilience while broader indicators suggest softening."
    },
    "employment_rate_16_64": {
-    "now_label": "Flat",
+    "now_label": "Resilient",
     "now_tone": "mixed",
     "what": "the share of working-age people who have a job.",
-    "why": "it shows the job market is not collapsing, just drifting."
+    "why": "it rose to 75.3% in August, showing the job market remains fairly sturdy."
    },
    "economic_inactivity_rate_16_64": {
     "now_label": "Steady",
     "now_tone": "info",
     "what": "the share of working-age people who are neither working nor looking for work, for example students, carers or people with long-term illness.",
-    "why": "fewer inactive people means more potential workers, which eases pressure on wages."
+    "why": "holding at 20.9%, meaning labour force participation is stable."
    },
    "payrolled_employees_tax_records": {
     "now_label": "Falling",
     "now_tone": "bad",
-    "what": "the number of employees paid through the PAYE tax system, counted from tax records. The latest month is an early “flash” estimate that is often revised.",
-    "why": "it is the most up-to-date count of jobs. Two months of falls suggest firms are trimming staff, mostly by not replacing leavers."
+    "what": "the number of employees paid through the PAYE tax system, counted from tax records. The latest month is an early estimate.",
+    "why": "shows monthly contraction of 26,000 in August, suggesting firms are trimming staff."
    },
    "job_vacancies": {
     "now_label": "Cooling",
     "now_tone": "mixed",
     "what": "the number of open jobs employers are trying to fill.",
-    "why": "fewer vacancies mean less competition for workers, so less upward pressure on pay."
+    "why": "down to 691,000 in September, meaning less competition for workers and less upward pressure on pay."
    },
    "regular_pay_growth_no_bonuses": {
-    "now_label": "Slowing in private sector",
+    "now_label": "Ticked up",
     "now_tone": "mixed",
     "what": "how much average weekly pay, without bonuses, has grown in a year.",
-    "why": "the BoE pays most attention to private-sector regular pay. At 2.9%, down from 3.3% at the start of the year, it shows no wage-price spiral yet. Public-sector pay is boosted by pay awards and is less linked to prices."
+    "why": "ticked up to 3.7% in August, keeping wage dynamics under close watch for second-round effects."
    },
    "total_pay_growth_with_bonuses": {
     "now_label": "Slowing",
     "now_tone": "mixed",
     "what": "pay including bonuses.",
-    "why": "it is slowing too, which supports waiting."
+    "why": "at 3.9%, it is moderating compared to prior months."
    },
    "real_regular_pay_after_cpi_inflation": {
     "now_label": "Barely ahead",
     "now_tone": "mixed",
     "what": "pay growth minus price growth, so it shows whether people can actually buy more.",
-    "why": "pay is only just ahead of prices. If inflation passes 4% as expected, real pay will likely fall, squeezing families and their spending."
+    "why": "pay is only just ahead of prices (+0.8%). If inflation passes 4% as expected, real pay will likely fall."
    },
    "firms_expected_wage_growth_next_12_mon": {
     "now_label": "Stable",
     "now_tone": "good",
     "what": "a monthly BoE survey of about 2,000 company finance directors, asking how much they expect to raise pay.",
-    "why": "the BoE’s minutes say this has been “stable since before the start of the conflict”. That is the main evidence that energy has not yet spread into pay."
+    "why": "holding at 3.4%, providing key evidence that energy shocks have not yet triggered runaway wage demands."
    },
    "gdp_whole_economy_quarterly_growth": {
     "now_label": "Solid",
     "now_tone": "good",
     "what": "GDP (gross domestic product) is the total value of everything the country produces. 0.5% in a quarter is roughly 2% at a yearly pace.",
-    "why": "a decent pace, so the economy is not in trouble. The first estimate for July–September comes on November 12, after the decision."
+    "why": "a decent pace in Q2 2026, so the economy is not in crisis."
    },
    "monthly_gdp": {
     "now_label": "Growing",
     "now_tone": "good",
     "what": "an early monthly reading of GDP.",
-    "why": "the August figure (+0.1% in the month) shows modest growth. The BoE’s staff expected about 0.4% growth in July–September."
+    "why": "the August figure (+0.1% in the month) shows modest ongoing growth."
    },
    "retail_sales_volumes": {
     "now_label": "Recovering",
     "now_tone": "mixed",
     "what": "how much people bought in shops and online, adjusted for price changes.",
-    "why": "spending bounced back in August (2.4%), but fuel volumes fell as prices rose, and some drivers were only part-filling their tanks. September’s figure comes on October 23."
+    "why": "spending bounced back in August (2.4%), but fuel volumes fell as prices rose. September’s figure comes on October 23."
    },
    "household_spending_real": {
     "now_label": "Modest",
     "now_tone": "mixed",
     "what": "what households spent on goods and services, adjusted for inflation.",
-    "why": "spending is growing slowly, which limits how much shops and firms can raise prices."
+    "why": "spending grew only 0.3% in Q2 2026, limiting how much shops can raise prices."
    },
    "household_saving_ratio": {
     "now_label": "High",
     "now_tone": "info",
     "what": "the share of their income households save rather than spend.",
-    "why": "people are holding on to cash, a sign of caution. That cushions families but dampens spending."
+    "why": "at 8.8%, people are holding on to cash, reflecting ongoing caution."
    },
    "average_house_price_private_rents": {
     "now_label": "Prices soft, rents firm",
     "now_tone": "mixed",
     "what": "the ONS’s average UK house price and average private rent.",
-    "why": "house prices are barely rising as mortgage rates bite. Rents are still rising 3.8% a year, which feeds into services inflation."
+    "why": "house prices (+1.4% a year) are soft as mortgage rates bite, while rents (+3.8%) remain firm."
    },
    "mortgage_demand_lenders_survey": {
     "now_label": "Falling sharply",
     "now_tone": "bad",
     "what": "a quarterly BoE survey of lenders. A negative number means more lenders saw demand or availability fall than rise.",
-    "why": "higher market rates are already cooling home buying. This is the brake working without the BoE moving."
+    "why": "higher market rates are already cooling home buying demand (-37.1)."
    },
    "government_borrowing_and_debt": {
     "now_label": "Context",
     "now_tone": "info",
     "what": "how much more the government spent than it raised, and its total debt compared with the size of the economy.",
-    "why": "the Budget on October 28 must work within these numbers. Higher gilt rates make the debt more expensive to service."
+    "why": "£18.3bn borrowed in August; debt at 93.8% of GDP. The October 28 Budget must navigate these figures."
    },
    "bank_rate": {
     "now_label": "Held 6–3",
     "now_tone": "info",
-    "what": "the interest rate the BoE pays on money banks keep with it. It sets the floor for short-term borrowing and saving rates across the UK.",
-    "why": "this is the rate decided on November 5. The BoE’s rate page lists the next decision as “Next due: 5 November 2026”."
+    "what": "the interest rate the BoE pays on money banks keep with it.",
+    "why": "currently 3.75%, awaiting the November 5 decision."
    },
    "sonia_overnight_rate_between_banks": {
     "now_label": "On target",
     "now_tone": "good",
-    "what": "the Sterling Overnight Index Average, the average rate banks pay to borrow from each other overnight. Many loans and derivatives are priced off it.",
-    "why": "it sits just under Bank Rate, as intended, which shows the BoE’s rate is passing through to money markets normally."
+    "what": "the Sterling Overnight Index Average, the average rate banks pay to borrow from each other overnight.",
+    "why": "at 3.734%, it sits just under Bank Rate as intended."
    },
    "10_year_gilt_yield": {
-    "now_label": "High and rising",
+    "now_label": "High and steady",
     "now_tone": "bad",
     "what": "the interest the UK government pays to borrow for 10 years.",
-    "why": "it influences longer fixed-rate mortgages and business loans. Mann thinks much of it is a premium for inflation risk."
+    "why": "at 5.30%, it influences longer fixed-rate mortgages and business loans."
    },
    "5_year_gilt_yield": {
-    "now_label": "Rising",
+    "now_label": "High",
     "now_tone": "bad",
     "what": "the interest the government pays to borrow for 5 years.",
-    "why": "popular 5-year fixed mortgages are priced off similar market rates, so new deals are getting dearer."
+    "why": "at 4.90%, it keeps 5-year fixed mortgage deals elevated."
    },
    "market_path_for_bank_rate": {
     "now_label": "Rises priced in",
     "now_tone": "bad",
-    "what": "the path of Bank Rate implied by prices in money markets (overnight index swaps).",
-    "why": "investors are betting on rate rises. The BoE says part of the upward slope reflects risk premia, not just expected decisions."
+    "what": "the path of Bank Rate implied by prices in money markets.",
+    "why": "investors are betting on rate hikes, peaking around 4.9% by end-2027."
    },
    "pound_vs_u_s_dollar": {
     "now_label": "Weaker",
     "now_tone": "mixed",
     "what": "how many U.S. dollars one pound buys.",
-    "why": "oil is priced in dollars, so a weaker pound makes fuel even dearer in pounds."
+    "why": "at US$1.3318, a weaker pound makes dollar-denominated oil imports dearer."
    },
    "pound_vs_euro_trade_weighted_index": {
     "now_label": "Mixed",
     "now_tone": "mixed",
-    "what": "how many euros one pound buys, and an index of the pound against a basket of trading partners’ currencies.",
-    "why": "overall the pound is roughly stable, so it is not a big extra source of inflation."
+    "what": "how many euros one pound buys.",
+    "why": "at €1.1872, the pound is broadly stable against the euro."
    },
    "boe_government_bond_holdings_qt": {
     "now_label": "Ongoing",
     "now_tone": "info",
-    "what": "the gilts the BoE bought in past crises (“quantitative easing”). It is now shrinking them (“quantitative tightening”, QT).",
-    "why": "selling gilts adds a little upward pressure on gilt rates. The MPC agreed this plan unanimously."
+    "what": "the gilts the BoE sells off from past quantitative easing.",
+    "why": "at £488bn and running down to zero, adding mild upward pressure on gilt yields."
    },
    "brent_crude_oil": {
     "now_label": "Very high",
     "now_tone": "bad",
-    "what": "the global benchmark price for crude oil, which sets UK petrol and diesel prices.",
-    "why": "it is well above the level built into the BoE’s September numbers. If it stays this high, a rise becomes more likely."
+    "what": "the global benchmark price for crude oil.",
+    "why": "at $126.55 a barrel, it drives UK petrol and diesel prices significantly above BoE summer forecasts."
    },
    "wti_crude_oil": {
     "now_label": "High",
     "now_tone": "mixed",
     "what": "the U.S. benchmark oil price.",
-    "why": "it is far below Brent, an unusually large gap that we did not investigate; the UK pays prices linked to Brent."
+    "why": "at $101.91 a barrel, reflecting elevated global energy stress."
    },
    "uk_wholesale_gas": {
     "now_label": "Up sharply",
     "now_tone": "bad",
     "what": "the price energy suppliers pay for gas on the wholesale market.",
-    "why": "gas drives household heating and electricity bills, which feed the energy price cap and CPI with a delay."
+    "why": "at 207p a therm in September, driving future household bills and CPI with a delay."
    },
    "u_s_federal_reserve_rate": {
     "now_label": "Raising",
     "now_tone": "info",
     "what": "America’s central bank rate.",
-    "why": "higher U.S. rates pull money toward the dollar, which can weaken the pound and push up UK import costs."
+    "why": "at 3.75%–4.00% following its September hike, maintaining strong dollar dynamics."
    },
    "european_central_bank_deposit_rate": {
-    "now_label": "Raised",
+    "now_label": "Steady",
     "now_tone": "info",
-    "what": "the rate the ECB pays banks in the euro area, the UK’s largest trading partner.",
-    "why": "other central banks facing the same energy shock have already raised rates, which makes a UK rise easier to justify."
+    "what": "the rate the ECB pays banks in the euro area.",
+    "why": "holding at 2.50% as European policymakers navigate global shocks."
    }
   },
   "said": [
@@ -1718,6 +1720,23 @@
     ]
    },
    {
+    "n": "Megan Greene, external member",
+    "v": "Examining labour market slack and second-round wage risks",
+    "p": "Speech at LSE, Oct 20, 2026",
+    "r": "Oct 20, 2026",
+    "pv": "Voted to raise in June, July and September",
+    "s": "Bank of England",
+    "u": "https://www.bankofengland.co.uk/speech/2026/october/megan-greene-speech-at-lse-economics-society-london",
+    "now": [
+     "now-bad",
+     "Hawk"
+    ],
+    "w": [
+     "What it said: Greene discussed whether labour market slack is sufficient to mitigate the latest supply shock and restrain wage-setting second-round effects.",
+     "Why it matters: she remains one of the firmest voices on the committee urging vigilance against lingering inflationary pressures."
+    ]
+   },
+   {
     "n": "Alan Taylor, external member",
     "v": "Against a rise for now",
     "p": "Speech, Sep 29, 2026",
@@ -1732,23 +1751,6 @@
     "w": [
      "What he said: “the case for further rate increases is not compelling to me unless energy prices remain high for an extended period”, and “excess demand has given way to excess supply”.",
      "Why it matters: he is the clearest voice for waiting. Even he says high energy prices for an extended period could change his mind."
-    ]
-   },
-   {
-    "n": "Market professionals’ expectations (survey)",
-    "v": "38% chance of a November rise (mean)",
-    "p": "Survey before the Sep meeting",
-    "r": "Sep 18, 2026",
-    "pv": "Median expects 3.75% held until mid-2027",
-    "s": "Bank of England Market Participants Survey",
-    "u": "https://www.bankofengland.co.uk/markets/market-intelligence/survey-results/2026/market-participants-survey-results-september-2026",
-    "now": [
-     "now-mixed",
-     "Close call"
-    ],
-    "w": [
-     "What it said: on average respondents gave 60.4% to a hold at 3.75% on November 5, 35.0% to 4.00%, 2.7% to higher and 2.0% to lower.",
-     "Why it matters: before oil jumped again, professionals already saw November as a real chance for a rise. This survey is not market prices and is now a month old."
     ]
    },
    {
@@ -1770,21 +1772,16 @@
    }
   ],
   "gaps": [
-   "<strong>September prices, jobs and pay</strong> come out October 20 and 21, after this page. <em>Why it matters:</em> these are the most important reports before the meeting, so our view may be out of date within a week.",
-   "<strong>Market odds for November.</strong> We found no official live figure for market-implied chances (from overnight index swaps). The BoE’s survey of market professionals, taken before the September meeting, put the chance of a November rise at about 38% (60.4% hold); Mann said on October 1 that market prices implied over 1 point of rises within a year. <em>Why it matters:</em> we cannot compare our 45% chance of a rise with what markets expect today.",
+   "<strong>September prices</strong> come out October 21, right after this update. <em>Why it matters:</em> this is the most critical report before the November 5 decision.",
+   "<strong>Market odds for November.</strong> We found no official live figure for market-implied chances (from overnight index swaps).",
    "<strong>The 2-year gilt rate.</strong> We used the BoE’s 5-year and 10-year rates; a 2-year figure was not collected.",
-   "<strong>The Budget on October 28.</strong> Its contents are unknown. We could not confirm the time of the statement. <em>Why it matters:</em> energy-bill help, tax changes or extra borrowing could move inflation, gilt rates and the BoE’s forecast.",
-   "<strong>Speeches by Sarah Breeden, Dave Ramsden, Swati Dhingra, Megan Greene and Huw Pill since the September meeting.</strong> We read their September minutes statements, but did not read Ramsden’s September 28 speech (on bond sales) or Pill’s September 3 remarks. <em>Why it matters:</em> Breeden and Ramsden are swing votes.",
-   "<strong>The November forecast’s energy assumptions.</strong> The BoE will base its new forecast on energy futures prices in late October; we do not know them. The open-letter figures (inflation about 3¾% in late 2026, slightly above 4% in early 2027) used prices from September 14.",
-   "<strong>Mortgage rates offered to households</strong> (for example 2- and 5-year fixes) were not collected; we relied on the BoE’s Credit Conditions Survey, which ran from August 17 to September 4.",
-   "<strong>Dates of the next Decision Maker Panel and Agents’ summary</strong>, and the exact start of the BoE’s pre-meeting quiet period, were not confirmed.",
-   "<strong>Household inflation expectations.</strong> The BoE/Savanta survey changed provider in August 2026, which lowered the figures, so the drop from May to August is partly a change of method, not a change of mood.",
-   "<strong>Other central banks.</strong> The Fed’s 3.75%–4.00% range and the ECB’s 2.50% deposit rate are from FRED; we did not independently check the Bank of Japan’s latest decision for this page.",
-   "<strong>How we gathered data:</strong> the data was gathered with web search tools on Oct 19, 2026. The search-engine tool itself was blocked, so we fetched each official page directly (Bank of England, ONS, OBR and FRED) and followed links from the BoE’s own news and speech feeds. Every number links to the page it was read from."
+   "<strong>The Budget on October 28.</strong> Its contents are unknown. <em>Why it matters:</em> tax changes or energy help could shift the inflation outlook.",
+   "<strong>The November forecast’s energy assumptions.</strong> The BoE will base its new forecast on energy futures prices in late October; exact future curves are unconfirmed.",
+   "<strong>How we gathered data:</strong> data was gathered with web search tools on Oct 20, 2026, fetching official pages directly from the BoE, ONS, OBR and FRED."
   ],
   "group_intros": {
    "prices": "These numbers tell us how fast things are getting more expensive. The BoE’s target is 2% a year for CPI. If CPI is more than 1 point away from 2%, the Governor must write an open letter to the Chancellor. The BoE watches services and core prices to see whether energy costs are spreading.",
-   "jobs": "These numbers show how many people have work, how easy it is to find a job, and how fast pay is rising. The BoE watches pay closely, because fast pay growth can keep services prices high.",
+   "jobs": "These numbers show how many people have work, how easy it is to find a job, and how fast pay is rising. The BoE watches pay and employment closely, because fast pay growth can keep services prices high.",
    "growth": "These numbers show how fast the economy is growing and whether households are spending or saving. A fast-growing economy can push prices up; a weak one makes it easier for the BoE to wait.",
    "rates": "These numbers show the BoE’s own rate and the rates set by investors in financial markets. Market rates often move before the BoE does, because investors try to guess its next step. Gilts are UK government bonds; their interest rate is called the yield.",
    "said": "The MPC publishes each member’s vote and a short statement from every member. Speeches between meetings give extra hints. Here is what they said most recently, in their own words.",
@@ -1899,19 +1896,19 @@
   "abbrev": "BoE",
   "rate": "3.75%",
   "last_move": "Cut 0.25 pts on Dec 18, 2025; held since (6–3 on Sep 17, 2026)",
-  "card_why": "Energy is pushing CPI toward 4%+ and 3 of 9 already vote to raise, but pay and services prices are steady and jobs are softening.",
+  "card_why": "Energy is pushing CPI toward 4%+ and 3 of 9 already vote to raise, but services prices and broader economic signals remain under close watch.",
   "mini": {
    "prices": [
     "3.1%",
     "CPI, Aug"
    ],
    "jobless": [
-    "4.9%",
-    "Jul"
+    "4.7%",
+    "Aug"
    ],
    "10-yr": [
-    "5.31%",
-    "Oct 15"
+    "5.30%",
+    "Oct 16"
    ]
   },
   "rate_label": "Current Bank Rate",
@@ -2025,6 +2022,74 @@
   "the case for further rate increases is not compelling to me unless energy prices remain high for an extended period"
  ],
  "changelog": [
+  {
+   "date": "2026-10-20",
+   "date_label": "Oct 20, 2026",
+   "since": "2026-10-19",
+   "since_label": "Oct 19, 2026",
+   "summary": {
+    "headline": "Unemployment fell from 4.9% to 4.7% in August, while regular pay growth edged up from 3.5% to 3.7% and Megan Greene delivered a speech on labour market slack.",
+    "items": [
+     "<strong>Unemployment rate</strong> fell from 4.9% to 4.7% for August (released October 20).",
+     "<strong>Regular pay growth (no bonuses)</strong> ticked up from 3.5% to 3.7% for August (released October 20).",
+     "<strong>Job vacancies</strong> fell from 702,000 to 691,000 in September (released October 20).",
+     "<strong>Employment rate</strong> rose from 75.1% to 75.3% for August (released October 20).",
+     "MPC member Megan Greene gave a speech at the London School of Economics on October 20 examining labour market slack and second-round wage effects."
+    ]
+   },
+   "data": [
+    {
+     "id": "unemployment_rate_16",
+     "name": "Unemployment rate (16+)",
+     "from": "4.9%",
+     "from_period": "Jul 2026",
+     "to": "4.7%",
+     "to_period": "Aug 2026"
+    },
+    {
+     "id": "employment_rate_16_64",
+     "name": "Employment rate (16–64)",
+     "from": "75.1%",
+     "from_period": "Jul 2026",
+     "to": "75.3%",
+     "to_period": "Aug 2026"
+    },
+    {
+     "id": "economic_inactivity_rate_16_64",
+     "name": "Economic inactivity rate (16–64)",
+     "from": "20.9%",
+     "from_period": "Jul 2026",
+     "to": "20.9%",
+     "to_period": "Aug 2026"
+    },
+    {
+     "id": "job_vacancies",
+     "name": "Job vacancies",
+     "from": "702,000",
+     "from_period": "Aug 2026",
+     "to": "691,000",
+     "to_period": "Sep 2026"
+    },
+    {
+     "id": "regular_pay_growth_no_bonuses",
+     "name": "Regular pay growth (no bonuses)",
+     "from": "3.5%",
+     "from_period": "Jul 2026",
+     "to": "3.7%",
+     "to_period": "Aug 2026"
+    }
+   ],
+   "market": [],
+   "fed": [
+    {
+     "title": "Learning about earnings: Can we rely on labour market slack to mitigate the latest supply shock? − speech by Megan Greene",
+     "date": "2026-10-20",
+     "url": "https://www.bankofengland.co.uk/speech/2026/october/megan-greene-speech-at-lse-economics-society-london"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-10-19",
    "date_label": "Oct 19, 2026",
@@ -2163,6 +2228,11 @@
     "url": "https://www.bankofengland.co.uk/news/2026/october/boe-announces-the-four-animals-that-will-feature-on-next-series-of-banknotes"
    },
    {
+    "title": "Learning about earnings: Can we rely on labour market slack to mitigate the latest supply shock? − speech by Megan Greene",
+    "date": "2026-10-20",
+    "url": "https://www.bankofengland.co.uk/speech/2026/october/megan-greene-speech-at-lse-economics-society-london"
+   },
+   {
     "title": "Financial innovation, dollar dominance and their UK monetary policy implications",
     "date": "2026-10-16",
     "url": "https://www.bankofengland.co.uk/speech/2026/october/financial-innovation-dollar-dominance-and-their-uk-monetary-policy-implications"
@@ -2186,11 +2256,6 @@
     "title": "New horizons: the legal and commercial frontier of digital assets − speech by Sasha Mills",
     "date": "2026-10-01",
     "url": "https://www.bankofengland.co.uk/speech/2026/october/sasha-mills-speech-at-hogan-lovells-and-global-digital-finance-digital-assets-summit"
-   },
-   {
-    "title": "Financial conditions: what’s priced in? − speech by Catherine L. Mann",
-    "date": "2026-10-01",
-    "url": "https://www.bankofengland.co.uk/speech/2026/october/catherine-mann-nomura-investor-conference"
    },
    {
     "title": "Bank of England Weekly Report 14 October 2026",

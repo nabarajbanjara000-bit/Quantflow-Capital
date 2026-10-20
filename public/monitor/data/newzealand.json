@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-10-19",
- "asof_label": "Oct 19, 2026",
- "generated_at": "2026-10-19T19:06:38.093Z",
- "data_updated_at": "2026-10-19T19:06:38.093Z",
- "narrative_updated_at": "2026-10-19T19:06:38.092Z",
+ "asof_date": "2026-10-20",
+ "asof_label": "Oct 20, 2026",
+ "generated_at": "2026-10-20T18:59:40.848Z",
+ "data_updated_at": "2026-10-20T18:59:40.848Z",
+ "narrative_updated_at": "2026-10-20T18:59:40.848Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 9
+  "days_to_decision": 8
  },
  "kpis": [
   {
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "5.02%",
+   "value": "5.07%",
    "note": "",
-   "period": "Oct 19, 2026",
+   "period": "Oct 20, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield"
   }
@@ -563,12 +563,12 @@
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/3-month-bill-yield",
    "value": "3.34%",
-   "period": "Oct 19, 2026",
-   "released": "Detected Oct 19, 2026",
-   "previous": "3.29% (Oct 16, 2026)",
+   "period": "Oct 20, 2026",
+   "released": "Detected Oct 20, 2026",
+   "previous": "3.34% (Oct 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-19",
+   "latest_date": "2026-10-20",
    "raw": {
     "v": 3.34
    },
@@ -580,15 +580,15 @@
    "name": "2-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
-   "value": "3.94%",
-   "period": "Oct 19, 2026",
-   "released": "Detected Oct 19, 2026",
-   "previous": "3.92% (Oct 16, 2026)",
+   "value": "3.97%",
+   "period": "Oct 20, 2026",
+   "released": "Detected Oct 20, 2026",
+   "previous": "3.94% (Oct 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-19",
+   "latest_date": "2026-10-20",
    "raw": {
-    "v": 3.94
+    "v": 3.968
    },
    "estimate": false
   },
@@ -598,15 +598,15 @@
    "name": "10-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
-   "value": "5.02%",
-   "period": "Oct 19, 2026",
-   "released": "Detected Oct 19, 2026",
-   "previous": "5.01% (Oct 16, 2026)",
+   "value": "5.07%",
+   "period": "Oct 20, 2026",
+   "released": "Detected Oct 20, 2026",
+   "previous": "5.03% (Oct 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-19",
+   "latest_date": "2026-10-20",
    "raw": {
-    "v": 5.024
+    "v": 5.066
    },
    "estimate": false
   },
@@ -718,12 +718,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 19, 2026",
-   "released": "Oct 19, 2026",
-   "previous": "4.00% (Oct 18, 2026)",
+   "period": "Oct 20, 2026",
+   "released": "Oct 20, 2026",
+   "previous": "4.00% (Oct 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-19",
+   "latest_date": "2026-10-20",
    "raw": {
     "v": 4
    },
@@ -736,12 +736,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 19, 2026",
-   "released": "Detected Oct 19, 2026",
-   "previous": "2.50% (Oct 18, 2026)",
+   "period": "Oct 20, 2026",
+   "released": "Detected Oct 20, 2026",
+   "previous": "2.50% (Oct 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-19",
+   "latest_date": "2026-10-20",
    "raw": {
     "v": 2.5
    },
@@ -775,18 +775,6 @@
   }
  },
  "releases": [
-  {
-   "id": "overseas_merchandise_trade",
-   "name": "Overseas merchandise trade, September",
-   "publisher": "Stats NZ",
-   "date": "2026-10-19",
-   "date_label": "Mon Oct 19",
-   "time": "10:45 a.m. NZDT",
-   "url": "https://www.stats.govt.nz/release-calendar/",
-   "what": "Goods exports and imports for the month.",
-   "weekly": false,
-   "timing": "before"
-  },
   {
    "id": "consumers_price_index_cpi",
    "name": "Consumers price index (CPI), September quarter",
@@ -910,9 +898,9 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Goods exports rose 12.3% in September from a year earlier, while other economic data remained steady.",
+   "headline": "10-year government bond yields rose slightly to 5.07%, while other economic data remained steady ahead of the October 28 meeting.",
    "items": [
-    "<strong>Goods exports</strong> increased by +12.3% vs a year ago in September, compared to +15.4% in August (Stats NZ).",
+    "<strong>10-year government bond yields</strong> increased from 5.02% on October 19 to 5.07% on October 20 (Trading Economics).",
     "No official interest rate decision or monetary policy statement has been released since September 2; our verdict and probabilities remain unchanged."
    ]
   },
@@ -955,7 +943,7 @@
    },
    {
     "title": "Reasons the RBNZ might wait until December",
-    "html": "<ul><li><strong>The economy is weak.</strong> GDP grew only <strong>0.2%</strong> in the June quarter and household spending was flat (<a href=\"https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/\" target=\"_blank\" rel=\"noopener noreferrer\">Stats NZ</a>). Unemployment is <strong>5.6%</strong>, and the RBNZ expects it to stay above 5% until 2028.</li><li><strong>Fuel has not clearly spread.</strong> Food inflation was +2.4% in September and rents were flat (<a href=\"https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Treasury</a>). Pay is rising only 2.0%–2.8% a year. Treasury found “little evidence so far of spillover into wider domestic and non-fuel prices.”</li><li><strong>Markets already pressed the brake.</strong> The 10-year government bond rate rose to 5.02% on October 19. Fixed mortgage rates follow these wholesale rates.</li><li><strong>December brings full forecasts.</strong> October is a shorter Review. December’s Statement will have new forecasts, the September quarter jobs report and another quarter of inflation-expectations surveys.</li><li><strong>“May”, not “will”.</strong> September’s wording (“may need to increase further”) was softer than July’s (“further OCR increases appear likely”).</li></ul>"
+    "html": "<ul><li><strong>The economy is weak.</strong> GDP grew only <strong>0.2%</strong> in the June quarter and household spending was flat (<a href=\"https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/\" target=\"_blank\" rel=\"noopener noreferrer\">Stats NZ</a>). Unemployment is <strong>5.6%</strong>, and the RBNZ expects it to stay above 5% until 2028.</li><li><strong>Fuel has not clearly spread.</strong> Food inflation was +2.4% in September and rents were flat (<a href=\"https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Treasury</a>). Pay is rising only 2.0%–2.8% a year. Treasury found “little evidence so far of spillover into wider domestic and non-fuel prices.”</li><li><strong>Markets already pressed the brake.</strong> The 10-year government bond rate rose to 5.07% on October 20. Fixed mortgage rates follow these wholesale rates.</li><li><strong>December brings full forecasts.</strong> October is a shorter Review. December’s Statement will have new forecasts, the September quarter jobs report and another quarter of inflation-expectations surveys.</li><li><strong>“May”, not “will”.</strong> September’s wording (“may need to increase further”) was softer than July’s (“further OCR increases appear likely”).</li></ul>"
    },
    {
     "title": "Weighing both sides",
@@ -1142,7 +1130,7 @@
     "date_label": "September 22 – October 6, 2026",
     "title": "Oil spikes again, the Kiwi dollar slides",
     "kind": "up",
-    "what": "Brent oil rose from US$115.91 on September 30 to <strong>US$126.55</strong> by mid-October. One NZ dollar fell from about US$0.58 in mid-September to US$0.56. The New Zealand 10-year bond rate hit about 5.02% in October. Governor Breman said: “Recent increases in global oil prices and longer-term interest rates reflect the challenging environment we face.”",
+    "what": "Brent oil rose from US$115.91 on September 30 to <strong>US$126.55</strong> by mid-October. One NZ dollar fell from about US$0.58 in mid-September to US$0.56. The New Zealand 10-year bond rate hit about 5.07% in October. Governor Breman said: “Recent increases in global oil prices and longer-term interest rates reflect the challenging environment we face.”",
     "sources": [
      {
       "label": "Brent (FRED)",
@@ -1161,10 +1149,10 @@
     "because": "the case for a third rise strengthened just as the RBNZ entered the run-up to October."
    },
    {
-    "date_label": "October 6 – 19, 2026",
+    "date_label": "October 6 – 20, 2026",
     "title": "Setting the stage for October 28",
     "kind": "now",
-    "what": "The RBNZ confirmed the October Review will be published on October 28 at 2 p.m., with a media conference in Auckland. Rebecca Williams joined the Committee on October 15. The OCR is 2.75%, the 2-year government bond yield 3.94%, the 10-year 5.02%, and the trade-weighted index 63.94. A general election follows on November 7.",
+    "what": "The RBNZ confirmed the October Review will be published on October 28 at 2 p.m., with a media conference in Auckland. Rebecca Williams joined the Committee on October 15. The OCR is 2.75%, the 2-year government bond yield 3.97%, the 10-year 5.07%, and the trade-weighted index 63.94. A general election follows on November 7.",
     "sources": [
      {
       "label": "Timing notice",
@@ -1214,7 +1202,7 @@
     "meaning": "the RBNZ keeps its foot where it is for now, while signalling that more rises are likely. It would be a “not yet”, not a “we are done”.",
     "for": [
      "<strong>Weak growth and high unemployment.</strong> Braking harder could push unemployment above 6%.",
-     "<strong>Bond markets did some of the work.</strong> The 10-year rate rose to 5.02%. That makes fixed mortgages and business loans dearer.",
+     "<strong>Bond markets did some of the work.</strong> The 10-year rate rose to 5.07%. That makes fixed mortgages and business loans dearer.",
      "<strong>December is a better moment.</strong> The December Statement brings full new forecasts and the September quarter jobs data.",
      "<strong>Softer wording.</strong> September’s “may need to increase further” is less firm than July’s “appear likely”.",
      "<strong>Two rises are still working through.</strong> It takes many months for a rate change to have its full effect."
@@ -1250,10 +1238,6 @@
    "intro_title": "Why “before” and “after” the meeting matters",
    "intro": "The RBNZ can only react to information it has <strong>already seen</strong>. A report released <strong>before October 28</strong> can change the October decision. A report released <strong>after</strong> it can only shape what happens on <strong>December 9</strong>. That is why the reports in the first part of the table matter most right now. Note that New Zealand is many hours ahead of Europe and America: the RBNZ decides before the U.S. Fed, which announces later the same calendar day in Washington.",
    "reports": {
-    "overseas_merchandise_trade": {
-     "why": "Shows export strength and import costs.",
-     "trigger": "Higher trade deficit or weaker exports → leans Hold."
-    },
     "consumers_price_index_cpi": {
      "why": "The single most important report before the meeting. The RBNZ forecast 3.9% annual inflation.",
      "trigger": "Annual CPI <strong>4.2% or more</strong>, or non-tradables <strong>3.4% or higher</strong> → Raise about 70%. CPI <strong>3.7% or less</strong> with non-tradables easing → Hold becomes our top pick."
@@ -1300,7 +1284,7 @@
     "<strong>Oil and the Middle East.</strong> Fuel is the main driver of today’s inflation. Brent is at $126.55 a barrel. A sustained move back below US$100 would make waiting much easier. Another spike would make a rise more likely.",
     "<strong>The Kiwi dollar.</strong> A further slide (for example below US$0.55) would add to imported inflation and push toward Raise.",
     "<strong>Final words from the RBNZ.</strong> The last on-the-record comments we found are Governor Breman’s from September 22. Any speech or interview before October 28 is a direct hint.",
-    "<strong>Bond markets.</strong> If the 10-year rate (5.02%) falls back sharply, one argument for Hold weakens.",
+    "<strong>Bond markets.</strong> If the 10-year rate (5.07%) falls back sharply, one argument for Hold weakens.",
     "<strong>A financial shock.</strong> A sudden market fall or trouble at a bank would almost certainly push the RBNZ to hold."
    ]
   },
@@ -1340,7 +1324,7 @@
     "grade": "amber",
     "one": "Borrowing costs have jumped, and the Kiwi dollar is weak.",
     "look": "Wholesale interest rates (90-day bank bills, 2-year and 10-year government bonds), and the NZ dollar.",
-    "why": "<em>Worrying:</em> the 10-year government bond rate rose to 5.02%. The NZ dollar fell to US$0.5621, and the trade-weighted index (63.94) is well below the RBNZ’s 66.9 assumption. <em>Reassuring:</em> markets are orderly, and the 2-year rate (3.94%) shows investors trust the RBNZ to keep raising if needed.",
+    "why": "<em>Worrying:</em> the 10-year government bond rate rose to 5.07%. The NZ dollar fell to US$0.5621, and the trade-weighted index (63.94) is well below the RBNZ’s 66.9 assumption. <em>Reassuring:</em> markets are orderly, and the 2-year rate (3.97%) shows investors trust the RBNZ to keep raising if needed.",
     "change": "A further slide in the currency or a disorderly jump in bond rates → red. A calmer currency and lower long rates → green.",
     "matters": "Higher market rates already cool borrowing, which helps the case for waiting. A weak currency pushes the other way.",
     "change_label": "What would change it"
@@ -1507,13 +1491,13 @@
     "now_label": "Well above OCR",
     "now_tone": "bad",
     "what": "the interest rate the government pays to borrow for two years.",
-    "why": "at 3.94%, it shows investors expect several OCR rises over the next two years."
+    "why": "at 3.97%, it shows investors expect several OCR rises over the next two years."
    },
    "10_year_government_bond_yield": {
     "now_label": "Near 5%",
     "now_tone": "bad",
     "what": "the interest rate the government pays to borrow for ten years.",
-    "why": "at 5.02%, it jumped following global bond rates up. Higher long rates cool the economy."
+    "why": "at 5.07%, it jumped following global bond rates up. Higher long rates cool the economy."
    },
    "market_odds_of_an_october_rise": {
     "now_label": "Rise expected",
@@ -1730,7 +1714,7 @@
    "<strong>Mortgage rates, building consents, card spending for September, the Quarterly Survey of Business Opinion and dairy prices</strong> were not collected.",
    "<strong>Oil figures differ by source.</strong> Treasury quoted WTI at US$89.4 on September 29, while FRED shows US$97.18 on September 30. We used FRED. We did not collect the Dubai price the RBNZ uses.",
    "<strong>The RBNZ’s neutral OCR estimate</strong> and the full September projection tables were not in the parts of the Statement we could read.",
-   "<strong>How we gathered data:</strong> the data were gathered with web search and direct page reads on Oct 19, 2026. The search engine itself was blocked in our tools, so every number was read directly from the official or named page linked next to it (RBNZ, Stats NZ, NZ Treasury, the Electoral Commission and FRED)."
+   "<strong>How we gathered data:</strong> the data were gathered with web search and direct page reads on Oct 20, 2026. The search engine itself was blocked in our tools, so every number was read directly from the official or named page linked next to it (RBNZ, Stats NZ, NZ Treasury, the Electoral Commission and FRED)."
   ],
   "group_intros": {
    "prices": "These numbers tell us how fast things are getting more expensive in New Zealand. The RBNZ’s job is to keep yearly inflation between 1% and 3%, aiming for the 2% midpoint over the medium term. New Zealand measures consumer prices only once every three months (quarterly), so each CPI report carries a lot of weight.",
@@ -1858,8 +1842,8 @@
     "Q2"
    ],
    "10-yr": [
-    "5.02%",
-    "Oct 19"
+    "5.07%",
+    "Oct 20"
    ]
   },
   "rate_label": "Current OCR",
@@ -1960,6 +1944,34 @@
   "The Reserve Bank of New Zealand – Te Pūtea Matua (RBNZ) has brought together public and private sector organisations to sign a Memorandum of Understanding (MoU) aimed at supporting access to basic transaction services in New Zealand."
  ],
  "changelog": [
+  {
+   "date": "2026-10-20",
+   "date_label": "Oct 20, 2026",
+   "since": "2026-10-19",
+   "since_label": "Oct 19, 2026",
+   "summary": {
+    "headline": "10-year government bond yields rose slightly to 5.07%, while other economic data remained steady ahead of the October 28 meeting.",
+    "items": [
+     "<strong>10-year government bond yields</strong> increased from 5.02% on October 19 to 5.07% on October 20 (Trading Economics).",
+     "No official interest rate decision or monetary policy statement has been released since September 2; our verdict and probabilities remain unchanged."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "10_year_government_bond_yield",
+     "name": "10-year government bond yield",
+     "from": "5.02%",
+     "from_period": "Oct 19, 2026",
+     "to": "5.07%",
+     "to_period": "Oct 20, 2026",
+     "move": "+0.05 pts"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-10-19",
    "date_label": "Oct 19, 2026",

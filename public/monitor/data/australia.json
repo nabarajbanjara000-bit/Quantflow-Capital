@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-10-19",
- "asof_label": "Oct 19, 2026",
- "generated_at": "2026-10-19T19:07:19.048Z",
- "data_updated_at": "2026-10-19T19:07:19.048Z",
+ "asof_date": "2026-10-20",
+ "asof_label": "Oct 20, 2026",
+ "generated_at": "2026-10-20T19:00:21.698Z",
+ "data_updated_at": "2026-10-20T19:00:21.698Z",
  "narrative_updated_at": "2026-10-15T14:47:45.512Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 15
+  "days_to_decision": 14
  },
  "kpis": [
   {
    "label": "RBA cash rate",
    "value": "4.60%",
    "note": "",
-   "period": "Oct 16, 2026",
+   "period": "Oct 19, 2026",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
   },
@@ -593,12 +593,12 @@
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
    "value": "4.60%",
-   "period": "Oct 16, 2026",
-   "released": "Detected Oct 19, 2026",
+   "period": "Oct 19, 2026",
+   "released": "Detected Oct 20, 2026",
    "previous": "4.35% (Sep 29, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-16",
+   "latest_date": "2026-10-19",
    "raw": {
     "v": 4.6
    },
@@ -695,15 +695,15 @@
    "name": "Australian dollar",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
-   "value": "US$0.6975",
-   "period": "Oct 19, 2026",
-   "released": "Detected Oct 19, 2026",
-   "previous": "US$0.6947 (Oct 16, 2026)",
+   "value": "US$0.6984",
+   "period": "Oct 20, 2026",
+   "released": "Detected Oct 20, 2026",
+   "previous": "US$0.6975 (Oct 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-19",
+   "latest_date": "2026-10-20",
    "raw": {
-    "v": 0.6975
+    "v": 0.6984
    },
    "estimate": false,
    "note": "AUD/USD only (the snapshot also quotes the trade-weighted index)"
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 19, 2026",
-   "released": "Oct 19, 2026",
-   "previous": "4.00% (Oct 18, 2026)",
+   "period": "Oct 20, 2026",
+   "released": "Oct 20, 2026",
+   "previous": "4.00% (Oct 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-19",
+   "latest_date": "2026-10-20",
    "raw": {
     "v": 4
    },
