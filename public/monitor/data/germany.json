@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "germany",
- "asof_date": "2026-10-20",
- "asof_label": "Oct 20, 2026",
- "generated_at": "2026-10-20T18:56:40.696Z",
- "data_updated_at": "2026-10-20T18:56:40.696Z",
- "narrative_updated_at": "2026-10-20T18:56:40.696Z",
+ "asof_date": "2026-10-21",
+ "asof_label": "Oct 21, 2026",
+ "generated_at": "2026-10-21T18:55:52.897Z",
+ "data_updated_at": "2026-10-21T18:55:52.897Z",
+ "narrative_updated_at": "2026-10-21T18:55:52.897Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
   "calendar_label": "Official ECB meeting calendar",
   "who": "The European Central Bank (“the ECB”) in Frankfurt, which sets one interest rate for every country that uses the euro, including Germany. Its decision-making group is the Governing Council: the 6 members of the ECB's Executive Board (led by President Christine Lagarde) plus the heads of the 21 national central banks. Germany's voice is Joachim Nagel, President of the Deutsche Bundesbank.",
-  "days_to_decision": 9
+  "days_to_decision": 8
  },
  "kpis": [
   {
    "label": "ECB interest rate",
    "value": "2.50%",
    "note": "Deposit rate",
-   "period": "Oct 20, 2026",
+   "period": "Oct 21, 2026",
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year Bund rate",
-   "value": "3.48%",
+   "value": "3.47%",
    "note": "",
-   "period": "Oct 20, 2026",
+   "period": "Oct 21, 2026",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf"
   }
@@ -557,12 +557,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.50%",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "2.50% (Oct 19, 2026)",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "2.50% (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
     "v": 2.5
    },
@@ -575,12 +575,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.65%",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "2.65% (Oct 19, 2026)",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "2.65% (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
     "v": 2.65
    },
@@ -593,12 +593,12 @@
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
    "value": "3.08%",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "3.10% (Oct 19, 2026)",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "3.08% (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
     "v": 3.08
    },
@@ -610,15 +610,15 @@
    "name": "10-year German government bond (Bund)",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.48%",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "3.49% (Oct 19, 2026)",
+   "value": "3.47%",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "3.48% (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
-    "v": 3.48
+    "v": 3.47
    },
    "estimate": false
   },
@@ -628,15 +628,15 @@
    "name": "30-year German government bond",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.88%",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "3.88% (Oct 19, 2026)",
+   "value": "3.86%",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "3.88% (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
-    "v": 3.88
+    "v": 3.86
    },
    "estimate": false
   },
@@ -672,15 +672,15 @@
    "name": "Euro vs U.S. dollar",
    "source": "ECB reference rate",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-   "value": "$1.1215 per euro",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "$1.1225 per euro (Oct 19, 2026)",
+   "value": "$1.1234 per euro",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "$1.1215 per euro (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
-    "v": 1.1215
+    "v": 1.1234
    },
    "estimate": false
   },
@@ -694,13 +694,14 @@
    "period": "Oct 14, 2026",
    "released": "Oct 15, 2026",
    "previous": "$125.78 (Oct 13, 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-14",
    "raw": {
     "v": 126.55
    },
-   "estimate": false
+   "estimate": false,
+   "note": "Could not refresh today; showing last collected value."
   },
   "oil_price_wti_crude_u_s": {
    "id": "oil_price_wti_crude_u_s",
@@ -712,13 +713,14 @@
    "period": "Oct 14, 2026",
    "released": "Oct 15, 2026",
    "previous": "$100.86 (Oct 13, 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-14",
    "raw": {
     "v": 101.91
    },
-   "estimate": false
+   "estimate": false,
+   "note": "Could not refresh today; showing last collected value."
   },
   "natural_gas_price_europe": {
    "id": "natural_gas_price_europe",
@@ -736,7 +738,8 @@
    "raw": {
     "v": 17.93
    },
-   "estimate": false
+   "estimate": false,
+   "note": "Could not refresh today; showing last collected value."
   },
   "german_fuel_tax_cut_tankrabatt": {
    "id": "german_fuel_tax_cut_tankrabatt",
@@ -766,18 +769,6 @@
   }
  },
  "releases": [
-  {
-   "id": "german_producer_prices",
-   "name": "German producer prices (industry), September · Destatis",
-   "publisher": "Destatis",
-   "date": "2026-10-20",
-   "date_label": "Tue Oct 20",
-   "time": "",
-   "url": "https://www.destatis.de/SiteGlobals/Forms/Suche/Termine/EN/Terminsuche_Formular.html",
-   "what": "What German factories charge for their products.",
-   "weekly": false,
-   "timing": "before"
-  },
   {
    "id": "euro_area_sentiment",
    "name": "Euro-area economic sentiment, October · Eurostat",
@@ -925,10 +916,10 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Frank Elderson spoke about economic resilience, and producer prices data arrived.",
+   "headline": "Executive Board members Piero Cipollone and Philip R. Lane delivered speeches on liquidity lines and financial stability.",
    "items": [
-    "<strong>Executive Board member Frank Elderson</strong> delivered an interview with Die Presse on October 20, 2026.",
-    "<strong>German producer prices (industry)</strong> were reported at +4.6% vs a year ago for August 2026 on September 18, 2026."
+    "<strong>Piero Cipollone</strong> delivered a speech titled “Pontes and Appia: unlocking opportunities for banks” on October 21, 2026.",
+    "<strong>Philip R. Lane</strong> delivered a speech titled “Euro liquidity lines and the international monetary system” on October 21, 2026."
    ]
   },
   "verdict": {
@@ -966,11 +957,11 @@
    },
    {
     "title": "Reasons the ECB might wait until December",
-    "html": "<ul><li><strong>The ECB has been moving at “forecast” meetings.</strong> Both rises this year (June and September) came at meetings where staff also published new projections. Vice-President Boris Vujčić said it plainly: “<a href=\"https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">We had two rate increases at projection meetings.</a>” October has no new projections. December does.</li><li><strong>The market already pressed the brake a little.</strong> The 10-year German government bond rate rose to 3.49%. Chief Economist Philip Lane said a rise in long-term rates “<a href=\"https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261006~bc94400297.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">slows down the European economy and, on its own, reduces the inflation rate.</a>”</li><li><strong>No clear signs yet of prices spreading into wages.</strong> The ECB's September meeting notes said “<a href=\"https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261008~a10153d090.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">So far, indirect effects remained contained, with no material signs of second-round effects.</a>” Bundesbank President Nagel said there are “<a href=\"https://www.bundesbank.de/en/press/speeches/shifting-ground-how-geopolitics-is-reshaping-growth-monetary-policy-and-the-role-of-gold-as-a-reserve-asset-1010452\" target=\"_blank\" rel=\"noopener noreferrer\">so far no clear signs that inflation has fed through to price and wage setting</a>.”</li><li><strong>Germany's economy is fragile.</strong> German employment is lower than a year earlier, and registered unemployment is near 3 million. The head of the ifo Institute said the September rise “comes at an inopportune time for Germany”.</li><li><strong>The brake takes time to work.</strong> The last rise only took effect on September 16. A rate change takes many months to fully reach the economy.</li></ul>"
+    "html": "<ul><li><strong>The ECB has been moving at “forecast” meetings.</strong> Both rises this year (June and September) came at meetings where staff also published new projections. Vice-President Boris Vujčić said it plainly: “<a href=\"https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">We had two rate increases at projection meetings.</a>” October has no new projections. December does.</li><li><strong>The market already pressed the brake a little.</strong> The 10-year German government bond rate rose to 3.47%. Chief Economist Philip Lane said a rise in long-term rates “<a href=\"https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261006~bc94400297.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">slows down the European economy and, on its own, reduces the inflation rate.</a>”</li><li><strong>No clear signs yet of prices spreading into wages.</strong> The ECB's September meeting notes said “<a href=\"https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261008~a10153d090.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">So far, indirect effects remained contained, with no material signs of second-round effects.</a>” Bundesbank President Nagel said there are “<a href=\"https://www.bundesbank.de/en/press/speeches/shifting-ground-how-geopolitics-is-reshaping-growth-monetary-policy-and-the-role-of-gold-as-a-reserve-asset-1010452\" target=\"_blank\" rel=\"noopener noreferrer\">so far no clear signs that inflation has fed through to price and wage setting</a>.”</li><li><strong>Germany's economy is fragile.</strong> German employment is lower than a year earlier, and registered unemployment is near 3 million. The head of the ifo Institute said the September rise “comes at an inopportune time for Germany”.</li><li><strong>The brake takes time to work.</strong> The last rise only took effect on September 16. A rate change takes many months to fully reach the economy.</li></ul>"
    },
    {
     "title": "Reasons the ECB might raise in October anyway",
-    "html": "<ul><li><strong>Prices jumped again.</strong> Euro-area inflation leapt from 3.2% in August to 3.8% in September, well above the 3.0% average the ECB's own staff forecast for this year.</li><li><strong>Energy is worse than the ECB assumed.</strong> Lane said in early October that “<a href=\"https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261006~bc94400297.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">energy prices are higher than we expected in our baseline.</a>” Brent oil is trading above $126 a barrel.</li><li><strong>Businesses are passing costs on.</strong> The share of German firms planning to raise prices rose in September, and ifo said “<a href=\"https://www.ifo.de/en/press-release/2026-09-30/higher-energy-prices-germany-increasingly-being-passed\" target=\"_blank\" rel=\"noopener noreferrer\">This indicates that the higher energy prices are increasingly being passed on to sales prices.</a>”</li><li><strong>A weaker euro makes imports dearer.</strong> One euro bought $1.1215 by mid-October. Oil is priced in dollars, so exchange rate movements affect energy costs in Europe.</li><li><strong>Some officials already fear the worse case.</strong> The September meeting notes record that “the view was also held that the adverse scenario was more likely than the baseline.” Nagel said the uncertainty “calls for flexibility, not inaction.”</li></ul>"
+    "html": "<ul><li><strong>Prices jumped again.</strong> Euro-area inflation leapt from 3.2% in August to 3.8% in September, well above the 3.0% average the ECB's own staff forecast for this year.</li><li><strong>Energy is worse than the ECB assumed.</strong> Lane said in early October that “<a href=\"https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261006~bc94400297.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">energy prices are higher than we expected in our baseline.</a>” Brent oil is trading above $126 a barrel.</li><li><strong>Businesses are passing costs on.</strong> The share of German firms planning to raise prices rose in September, and ifo said “<a href=\"https://www.ifo.de/en/press-release/2026-09-30/higher-energy-prices-germany-increasingly-being-passed\" target=\"_blank\" rel=\"noopener noreferrer\">This indicates that the higher energy prices are increasingly being passed on to sales prices.</a>”</li><li><strong>A weaker euro makes imports dearer.</strong> One euro bought $1.1234 by mid-October. Oil is priced in dollars, so exchange rate movements affect energy costs in Europe.</li><li><strong>Some officials already fear the worse case.</strong> The September meeting notes record that “the view was also held that the adverse scenario was more likely than the baseline.” Nagel said the uncertainty “calls for flexibility, not inaction.”</li></ul>"
    },
    {
     "scale": {
@@ -1191,7 +1182,7 @@
     "because": "the case for another rise grew, and everyone listened closely to what ECB officials would say."
    },
    {
-    "date_label": "October 5 – 20, 2026",
+    "date_label": "October 5 – 21, 2026",
     "title": "Final inflation confirmed; waiting on October meeting",
     "kind": "now",
     "sources": [
@@ -1204,8 +1195,8 @@
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html"
      },
      {
-      "label": "Elderson interview",
-      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html"
+      "label": "Cipollone speech",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf"
      }
     ],
     "because": "our reading is “another rise is possible, but more likely in December”, which is why our main call is Hold, with Raise close behind."
@@ -1219,7 +1210,7 @@
     "meaning": "the ECB keeps its foot where it is on the brake. It would likely repeat that it stands ready to act, so a hold here would be a “not yet”, not an “all clear”.",
     "for": [
      "<strong>Forecast meetings.</strong> Both rises this year came at meetings with new staff projections. October has none; December does.",
-     "<strong>The market did some of the work.</strong> The 10-year Bund rate rose to 3.49%, which makes mortgages and business loans dearer anyway.",
+     "<strong>The market did some of the work.</strong> The 10-year Bund rate rose to 3.47%, which makes mortgages and business loans dearer anyway.",
      "<strong>No wage spiral yet.</strong> The ECB and Nagel both say there are no clear signs that energy costs are feeding into wages.",
      "<strong>Germany is fragile.</strong> Employment is falling and unemployment is near 3 million.",
      "<strong>The September rise needs time to work.</strong> It took effect only six weeks before the meeting."
@@ -1333,7 +1324,7 @@
    "other_title": "Other things that could move our view",
    "other": [
     "<strong>Oil, gas and the Middle East.</strong> Energy is the main driver of today's inflation. Nagel warned that gas prices are especially vulnerable because storage levels are low. A new jump in oil or gas would make a rise more likely; a big drop would make waiting easier.",
-    "<strong>The euro.</strong> The euro trades near $1.1215 per euro. A slide makes imported energy dearer and adds to the case for a rise.",
+    "<strong>The euro.</strong> The euro trades near $1.1234 per euro. A slide makes imported energy dearer and adds to the case for a rise.",
     "<strong>Bond market rates.</strong> One reason for Hold is that German long-term rates already rose. If they fall back sharply, that reason weakens.",
     "<strong>Final words from ECB officials.</strong> ECB policymakers normally stop commenting on policy shortly before each meeting (a “quiet period”).",
     "<strong>A financial shock.</strong> Turmoil in euro-area government bond markets or trouble at a big bank would almost certainly push the ECB to hold."
@@ -1372,7 +1363,7 @@
     "grade": "amber",
     "one": "Borrowing costs are rising and the euro is active, but long-term inflation expectations are calm.",
     "look": "German government bond rates (Bund yields), the euro–dollar exchange rate, and long-term inflation expectations reported by the ECB.",
-    "why": "Worrying: the 10-year Bund rate rose to 3.48% and the 30-year rate is 3.88%, making mortgages dearer. Reassuring: the ECB says most measures of longer-term inflation expectations continue to stand at around 2%.",
+    "why": "Worrying: the 10-year Bund rate rose to 3.47% and the 30-year rate is 3.86%, making mortgages dearer. Reassuring: the ECB says most measures of longer-term inflation expectations continue to stand at around 2%.",
     "change": "Disorderly bond-market moves or a sharp rise in long-term inflation expectations → red. Bond rates and the euro stabilising → green.",
     "matters": "Higher market rates already slow the economy, one reason the ECB may wait. Calm long-term expectations mean the ECB does not need to panic."
    }
@@ -1549,13 +1540,13 @@
    "10_year_german_government_bond_bund": {
     "now_label": "Rising",
     "now_tone": "bad",
-    "what": "the yield on the Bund maturing in August 2036 (3.48%).",
+    "what": "the yield on the Bund maturing in August 2036 (3.47%).",
     "why": "German fixed-rate mortgages follow this rate, making borrowing costlier."
    },
    "30_year_german_government_bond": {
     "now_label": "High, steady",
     "now_tone": "info",
-    "what": "the yield on the Bund maturing in 2056 (3.88%).",
+    "what": "the yield on the Bund maturing in 2056 (3.86%).",
     "why": "shows the long-term cost of government borrowing."
    },
    "market_expectations_for_ecb_rates": {
@@ -1573,7 +1564,7 @@
    "euro_vs_u_s_dollar": {
     "now_label": "Weaker euro",
     "now_tone": "bad",
-    "what": "how many U.S. dollars one euro buys ($1.1215 per euro).",
+    "what": "how many U.S. dollars one euro buys ($1.1234 per euro).",
     "why": "oil is priced in dollars; a weaker euro makes energy imports dearer."
    },
    "oil_price_brent_crude_european_benchma": {
@@ -1608,6 +1599,40 @@
    }
   },
   "said": [
+   {
+    "n": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
+    "v": "Speech published",
+    "p": "ECB event",
+    "r": "Oct 21, 2026",
+    "pv": "Lane liquidity lines",
+    "s": "ECB",
+    "u": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf",
+    "now": [
+     "now-info",
+     "Banking opportunities"
+    ],
+    "w": [
+     "What it said: explored unlocking opportunities for banks through operational frameworks.",
+     "Why it matters: highlights ongoing structural and financial system developments within the euro area."
+    ]
+   },
+   {
+    "n": "Philip R. Lane: Euro liquidity lines and the international monetary system",
+    "v": "Speech published",
+    "p": "ECB event",
+    "r": "Oct 21, 2026",
+    "pv": "Elderson interview",
+    "s": "ECB",
+    "u": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
+    "now": [
+     "now-info",
+     "International liquidity"
+    ],
+    "w": [
+     "What it said: discussed euro liquidity lines and their role in the international monetary system.",
+     "Why it matters: reflects the central bank's focus on global financial stability and cross-border liquidity."
+    ]
+   },
    {
     "n": "Frank Elderson: Interview with Die Presse",
     "v": "Interview published",
@@ -1708,57 +1733,6 @@
     "w": [
      "What he said: “It was prudent to raise the policy rate from 2.00 to 2.50 per cent”; the ECB remains in the “middle path”; a new wave of the energy shock “poses direct upside risks to the inflation outlook”.",
      "Why it matters: Lane prepares the policy proposal at each meeting. He sees upside risks but gave no signal that October is the moment."
-    ]
-   },
-   {
-    "n": "Philip Lane, interview with Ansa",
-    "v": "“energy prices are higher than we expected in our baseline.”",
-    "p": "Interview",
-    "r": "Oct 6, 2026",
-    "pv": "—",
-    "s": "ECB",
-    "u": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261006~bc94400297.en.html",
-    "now": [
-     "now-info",
-     "Both sides"
-    ],
-    "w": [
-     "What he said: “When inflation is too high, the policy rate has to go up.” But higher long-term rates “slows down the European economy and, on its own, reduces the inflation rate.”",
-     "Why it matters: he points to both the problem (energy above forecast) and a reason to wait (the bond market is already tightening)."
-    ]
-   },
-   {
-    "n": "Christine Lagarde, President",
-    "v": "“This may lead us to raise rates…”",
-    "p": "Interview with La Croix",
-    "r": "Sep 30, 2026",
-    "pv": "Ouest-France interview (Sep 12)",
-    "s": "ECB",
-    "u": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260930~10084a5f3d.en.html",
-    "now": [
-     "now-info",
-     "Careful"
-    ],
-    "w": [
-     "What she said: “This may lead us to raise rates, at the risk of weighing on the financing of the economy and consequently on growth.” Earlier (Sep 12) she said “we are obliged to react” to a shock that is “longer-lasting”.",
-     "Why it matters: she leaves the door open to more rises but stresses the cost to growth. No timing given."
-    ]
-   },
-   {
-    "n": "Boris Vujčić, Vice-President",
-    "v": "“We had two rate increases at projection meetings.”",
-    "p": "Interview with Reuters",
-    "r": "Sep 18, 2026",
-    "pv": "—",
-    "s": "ECB",
-    "u": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html",
-    "now": [
-     "now-info",
-     "Flexible"
-    ],
-    "w": [
-     "What he said: “We will see what happens in the coming months and adjust policy accordingly.” He added: “The expectation now is that energy prices will stay elevated for longer.”",
-     "Why it matters: the link between rate moves and forecast meetings is one of the main reasons we lean toward December rather than October."
     ]
    }
   ],
@@ -1901,8 +1875,8 @@
     "Sep"
    ],
    "10-yr": [
-    "3.48%",
-    "Oct 20"
+    "3.47%",
+    "Oct 21"
    ]
   },
   "rate_label": "Current ECB rate",
@@ -2038,9 +2012,40 @@
   "there are so far no clear signs that inflation has fed through to price and wage setting.",
   "Given that the economy remains quite weak despite some rays of hope, the interest rate hike comes at an inopportune time for Germany,",
   "However, the ECB has a mandate to conduct monetary policy for the entire eurozone.",
-  "a further two to three hikes"
+  "a further two to three hikes",
+  "Pontes and Appia: unlocking opportunities for banks",
+  "Euro liquidity lines and the international monetary system"
  ],
  "changelog": [
+  {
+   "date": "2026-10-21",
+   "date_label": "Oct 21, 2026",
+   "since": "2026-10-20",
+   "since_label": "Oct 20, 2026",
+   "summary": {
+    "headline": "Executive Board members Piero Cipollone and Philip R. Lane delivered speeches on liquidity lines and financial stability.",
+    "items": [
+     "<strong>Piero Cipollone</strong> delivered a speech titled “Pontes and Appia: unlocking opportunities for banks” on October 21, 2026.",
+     "<strong>Philip R. Lane</strong> delivered a speech titled “Euro liquidity lines and the international monetary system” on October 21, 2026."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
+     "date": "2026-10-21",
+     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf"
+    },
+    {
+     "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
+     "date": "2026-10-21",
+     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-10-20",
    "date_label": "Oct 20, 2026",
@@ -2143,9 +2148,23 @@
   }
  ],
  "qa": {
-  "data_errors": [],
+  "data_errors": [
+   "oil_price_brent_crude_european_benchma: Unexpected token '<', \"<!doctype \"... is not valid JSON",
+   "oil_price_wti_crude_u_s: Unexpected token '<', \"<!doctype \"... is not valid JSON",
+   "natural_gas_price_europe: Unexpected token '<', \"<!doctype \"... is not valid JSON"
+  ],
   "ai_errors": [],
   "sources_read": [
+   {
+    "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
+    "date": "2026-10-21",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf"
+   },
+   {
+    "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
+    "date": "2026-10-21",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html"
+   },
    {
     "title": "Frank Elderson: Interview with Die Presse",
     "date": "2026-10-20",
@@ -2165,16 +2184,6 @@
     "title": "Frank Elderson: Ensuring resilience in the face of uncertainty",
     "date": "2026-10-14",
     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html"
-   },
-   {
-    "title": "Philip R. Lane: The AI opportunity for Europe",
-    "date": "2026-10-13",
-    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261013~9db9bf4fd6.en.html"
-   },
-   {
-    "title": "Meeting of 9-10 September 2026",
-    "date": "2026-10-08",
-    "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
    }
   ],
   "coverage": {

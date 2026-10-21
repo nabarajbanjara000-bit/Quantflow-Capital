@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-10-20",
- "asof_label": "Oct 20, 2026",
- "generated_at": "2026-10-20T18:55:13.361Z",
- "data_updated_at": "2026-10-20T18:55:13.361Z",
+ "asof_date": "2026-10-21",
+ "asof_label": "Oct 21, 2026",
+ "generated_at": "2026-10-21T18:54:48.440Z",
+ "data_updated_at": "2026-10-21T18:54:48.440Z",
  "narrative_updated_at": "2026-10-15T14:45:26.485Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 10
+  "days_to_decision": 9
  },
  "kpis": [
   {
    "label": "BoJ interest rate",
    "value": "1.25%",
    "note": "",
-   "period": "Oct 18, 2026",
+   "period": "Oct 19, 2026",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "2.94%",
+   "value": "2.93%",
    "note": "",
-   "period": "Oct 19, 2026",
+   "period": "Oct 20, 2026",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv"
   }
@@ -605,12 +605,12 @@
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf",
    "value": "1.25%",
-   "period": "Oct 18, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "1.25% (Oct 17, 2026)",
+   "period": "Oct 19, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "1.25% (Oct 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-18",
+   "latest_date": "2026-10-19",
    "raw": {
     "v": 1.25
    },
@@ -641,15 +641,15 @@
    "name": "2-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "1.90%",
-   "period": "Oct 19, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "1.92% (Oct 16, 2026)",
+   "value": "1.91%",
+   "period": "Oct 20, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "1.90% (Oct 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-19",
+   "latest_date": "2026-10-20",
    "raw": {
-    "v": 1.904
+    "v": 1.909
    },
    "estimate": false
   },
@@ -659,15 +659,15 @@
    "name": "10-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "2.94%",
-   "period": "Oct 19, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "2.96% (Oct 16, 2026)",
+   "value": "2.93%",
+   "period": "Oct 20, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "2.94% (Oct 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-19",
+   "latest_date": "2026-10-20",
    "raw": {
-    "v": 2.935
+    "v": 2.927
    },
    "estimate": false
   },
@@ -677,15 +677,15 @@
    "name": "30-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "4.03%",
-   "period": "Oct 19, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "4.04% (Oct 16, 2026)",
+   "value": "3.99%",
+   "period": "Oct 20, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "4.03% (Oct 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-19",
+   "latest_date": "2026-10-20",
    "raw": {
-    "v": 4.028
+    "v": 3.992
    },
    "estimate": false
   },
@@ -714,15 +714,15 @@
    "name": "Yen per US dollar",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261009.pdf",
-   "value": "¥158.16",
-   "period": "Oct 16, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "¥157.94 (Oct 15, 2026)",
+   "value": "¥157.91",
+   "period": "Oct 19, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "¥158.16 (Oct 16, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-16",
+   "latest_date": "2026-10-19",
    "raw": {
-    "v": 158.16
+    "v": 157.91
    },
    "estimate": false
   },
@@ -749,14 +749,14 @@
    "period": "Oct 14, 2026",
    "released": "Oct 15, 2026",
    "previous": "$125.78 (Oct 13, 2026)",
-   "tag": "secondary",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-14",
    "raw": {
     "v": 126.55
    },
    "estimate": false,
-   "note": "EIA via FRED"
+   "note": "Could not refresh today; showing last collected value."
   },
   "wti_crude_oil_us": {
    "id": "wti_crude_oil_us",
@@ -768,14 +768,14 @@
    "period": "Oct 14, 2026",
    "released": "Oct 15, 2026",
    "previous": "$100.86 (Oct 13, 2026)",
-   "tag": "secondary",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-14",
    "raw": {
     "v": 101.91
    },
    "estimate": false,
-   "note": "EIA via FRED"
+   "note": "Could not refresh today; showing last collected value."
   },
   "import_prices_foreign_currency_terms": {
    "id": "import_prices_foreign_currency_terms",
@@ -2030,8 +2030,8 @@
     "Aug"
    ],
    "10-yr": [
-    "2.94%",
-    "Oct 19"
+    "2.93%",
+    "Oct 20"
    ]
   },
   "rate_label": "Current BoJ rate",
@@ -2239,7 +2239,10 @@
   }
  ],
  "qa": {
-  "data_errors": [],
+  "data_errors": [
+   "brent_crude_oil: Unexpected token '<', \"<!doctype \"... is not valid JSON",
+   "wti_crude_oil_us: Unexpected token '<', \"<!doctype \"... is not valid JSON"
+  ],
   "ai_errors": [],
   "sources_read": [
    {

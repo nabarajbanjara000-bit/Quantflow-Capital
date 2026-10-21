@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-20T19:02:09.585Z",
- "asof_label": "Oct 20, 2026",
+ "generated_at": "2026-10-21T18:59:00.057Z",
+ "asof_label": "Oct 21, 2026",
  "headline": "Hold at 7 of 8 · Raise at 1 of 8",
- "paragraph": "Quant Flow Capital reviews the current stances of eight central banks as global policymakers navigate shifting inflation and labor data. Seven of these institutions currently lean toward holding rates steady at their upcoming meetings. Among the group, the Reserve Bank of New Zealand stands out as the only one with a primary call to raise rates.",
+ "paragraph": "Quant Flow Capital reviews the current policy stance across eight global central banks as decision dates approach. Right now, seven of these eight institutions are widely expected to hold their interest rates steady amidst mixed economic signals. The Reserve Bank of New Zealand stands out as the only central bank among the eight leaning toward a rate rise.",
  "window": [
   "2026-10-28",
   "2026-12-10"
@@ -109,8 +109,8 @@
      "Q2"
     ],
     "10-yr": [
-     "5.07%",
-     "Oct 20"
+     "5.05%",
+     "Oct 21"
     ]
    },
    "call": "raise",
@@ -125,7 +125,7 @@
    "next_label": "Wed Oct 28",
    "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
    "stale": false,
-   "asof": "Oct 20, 2026",
+   "asof": "Oct 21, 2026",
    "coverage": {
     "automatic": 18,
     "manual": 21
@@ -150,8 +150,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.48%",
-     "Oct 20"
+     "3.47%",
+     "Oct 21"
     ]
    },
    "call": "hold",
@@ -166,7 +166,7 @@
    "next_label": "Thu Oct 29",
    "time_label": "2:15 p.m. Central European Time",
    "stale": false,
-   "asof": "Oct 20, 2026",
+   "asof": "Oct 21, 2026",
    "coverage": {
     "automatic": 19,
     "manual": 19
@@ -191,8 +191,8 @@
      "Aug"
     ],
     "10-yr": [
-     "2.94%",
-     "Oct 19"
+     "2.93%",
+     "Oct 20"
     ]
    },
    "call": "hold",
@@ -207,7 +207,7 @@
    "next_label": "Fri Oct 30",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
    "stale": false,
-   "asof": "Oct 20, 2026",
+   "asof": "Oct 21, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 13
@@ -248,7 +248,7 @@
    "next_label": "Tue Nov 3",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference.",
    "stale": false,
-   "asof": "Oct 20, 2026",
+   "asof": "Oct 21, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 13
@@ -262,26 +262,26 @@
    "abbrev": "BoE",
    "rate": "3.75%",
    "last_move": "Cut 0.25 pts on Dec 18, 2025; held since (6–3 on Sep 17, 2026)",
-   "why": "Energy is pushing CPI toward 4%+ and 3 of 9 already vote to raise, but services prices and broader economic signals remain under close watch.",
+   "why": "CPI inflation jumped to 3.5% in September and services inflation ticked up to 3.7%, keeping a November rate rise on a knife-edge.",
    "mini": {
     "prices": [
-     "3.1%",
-     "CPI, Aug"
+     "3.5%",
+     "CPI, Sep"
     ],
     "jobless": [
      "4.7%",
      "Aug"
     ],
     "10-yr": [
-     "5.30%",
-     "Oct 16"
+     "5.37%",
+     "Oct 19"
     ]
    },
    "call": "hold",
    "headline": "HOLD",
    "probabilities": {
-    "hold": 52,
-    "raise": 45,
+    "hold": 50,
+    "raise": 47,
     "cut": 3
    },
    "confidence": "Low",
@@ -289,7 +289,7 @@
    "next_label": "Thu Nov 5",
    "time_label": "12:00 p.m. (noon) UK time, which is GMT after the clocks go back on October 25. That is 7:00 a.m. Eastern Time.",
    "stale": false,
-   "asof": "Oct 20, 2026",
+   "asof": "Oct 21, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 14
@@ -306,16 +306,16 @@
    "why": "Inflation (1.0%) sits inside the SNB’s 0–2% zone and its 0%-rate forecast stays there; strong growth and KOF’s call keep a rise possible.",
    "mini": {
     "prices": [
-     "0.8%",
-     "CPI, Aug"
+     "1.0%",
+     "CPI, Sep"
     ],
     "jobless": [
      "3.0%",
      "Sep"
     ],
     "10-yr": [
-     "0.539%",
-     "Oct 20"
+     "0.553%",
+     "Oct 21"
     ]
    },
    "call": "hold",
@@ -330,7 +330,7 @@
    "next_label": "Thu Dec 10",
    "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Oct 20, 2026",
+   "asof": "Oct 21, 2026",
    "coverage": {
     "automatic": 10,
     "manual": 28

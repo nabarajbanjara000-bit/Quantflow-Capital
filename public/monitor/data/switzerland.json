@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "switzerland",
- "asof_date": "2026-10-20",
- "asof_label": "Oct 20, 2026",
- "generated_at": "2026-10-20T19:00:34.284Z",
- "data_updated_at": "2026-10-20T19:00:34.284Z",
+ "asof_date": "2026-10-21",
+ "asof_label": "Oct 21, 2026",
+ "generated_at": "2026-10-21T18:57:13.059Z",
+ "data_updated_at": "2026-10-21T18:57:13.059Z",
  "narrative_updated_at": "2026-10-15T12:55:42.287Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,22 +39,22 @@
   "calendar_url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
   "calendar_label": "Official SNB time schedule",
   "who": "The Swiss National Bank (“the SNB”), Switzerland’s central bank. Decisions are taken by its <strong>Governing Board</strong>, just three people: Chairman Martin Schlegel, Vice Chairman Antoine Martin and Petra Tschudin. They decide together and publish no vote count.",
-  "days_to_decision": 51
+  "days_to_decision": 50
  },
  "kpis": [
   {
    "label": "SNB policy rate",
    "value": "0.00%",
    "note": "",
-   "period": "Oct 20, 2026",
+   "period": "Oct 21, 2026",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924"
   },
   {
    "label": "Price rise, past year",
-   "value": "0.8%",
+   "value": "1.0%",
    "note": "",
-   "period": "Aug 2026",
+   "period": "Sep 2026",
    "source": "FSO data, reported by Trading Economics",
    "url": "https://tradingeconomics.com/switzerland/inflation-cpi"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "0.539%",
+   "value": "0.553%",
    "note": "",
-   "period": "Oct 20, 2026",
+   "period": "Oct 21, 2026",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates"
   }
@@ -179,16 +179,16 @@
    "name": "Consumer Price Index (CPI), all items",
    "source": "FSO data, reported by Trading Economics",
    "url": "https://tradingeconomics.com/switzerland/inflation-cpi",
-   "value": "+0.8% vs a year ago",
-   "period": "Aug 2026 (+0.4% in the month)",
-   "released": "Detected Oct 15, 2026",
-   "previous": "+0.4% a year; −0.1% in the month (Jul 2026)",
+   "value": "+1.0% vs a year ago",
+   "period": "Sep 2026 (−0.0% in the month)",
+   "released": "Detected Oct 21, 2026",
+   "previous": "+0.8% a year; +0.4% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "yoy": 0.807246048675081,
-    "mom": 0.37117638392729635
+    "yoy": 0.9900586093199548,
+    "mom": -0.03900966671362971
    },
    "estimate": false,
    "note": "FSO index via SNB data portal (cube plkopr)"
@@ -491,12 +491,12 @@
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924",
    "value": "0.00%",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "0.00% (Oct 19, 2026)",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "0.00% (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
     "v": 0
    },
@@ -527,12 +527,12 @@
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
    "value": "-0.05%",
-   "period": "Oct 19, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "-0.05% (Oct 16, 2026)",
+   "period": "Oct 20, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "-0.05% (Oct 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-19",
+   "latest_date": "2026-10-20",
    "raw": {
     "v": -0.05
    },
@@ -544,15 +544,15 @@
    "name": "10-year Confederation bond yield",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "0.539%",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "0.577% (Oct 19, 2026)",
+   "value": "0.553%",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "0.539% (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
-    "v": 0.539
+    "v": 0.553
    },
    "estimate": false
   },
@@ -562,15 +562,15 @@
    "name": "2-year Confederation bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/switzerland/2-year-note-yield",
-   "value": "0.21%",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "0.21% (Oct 19, 2026)",
+   "value": "0.22%",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "0.22% (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
-    "v": 0.213
+    "v": 0.216
    },
    "estimate": false
   },
@@ -580,15 +580,15 @@
    "name": "Euro in francs",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "CHF 0.9254",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "CHF 0.9246 (Oct 19, 2026)",
+   "value": "CHF 0.9253",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "CHF 0.9254 (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
-    "v": 0.9254
+    "v": 0.9253
    },
    "estimate": false
   },
@@ -598,15 +598,15 @@
    "name": "U.S. dollar in francs",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "CHF 0.8247",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "CHF 0.8245 (Oct 19, 2026)",
+   "value": "CHF 0.8245",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "CHF 0.8247 (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
-    "v": 0.8247
+    "v": 0.8245
    },
    "estimate": false
   },
@@ -682,12 +682,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "2.50% (Oct 19, 2026)",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "2.50% (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
     "v": 2.5
    },
@@ -1691,16 +1691,16 @@
   "card_why": "Inflation (1.0%) sits inside the SNB’s 0–2% zone and its 0%-rate forecast stays there; strong growth and KOF’s call keep a rise possible.",
   "mini": {
    "prices": [
-    "0.8%",
-    "CPI, Aug"
+    "1.0%",
+    "CPI, Sep"
    ],
    "jobless": [
     "3.0%",
     "Sep"
    ],
    "10-yr": [
-    "0.539%",
-    "Oct 20"
+    "0.553%",
+    "Oct 21"
    ]
   },
   "rate_label": "Current SNB policy rate",

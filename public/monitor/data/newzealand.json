@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-10-20",
- "asof_label": "Oct 20, 2026",
- "generated_at": "2026-10-20T18:59:40.848Z",
- "data_updated_at": "2026-10-20T18:59:40.848Z",
+ "asof_date": "2026-10-21",
+ "asof_label": "Oct 21, 2026",
+ "generated_at": "2026-10-21T18:56:33.416Z",
+ "data_updated_at": "2026-10-21T18:56:33.416Z",
  "narrative_updated_at": "2026-10-20T18:59:40.848Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 8
+  "days_to_decision": 7
  },
  "kpis": [
   {
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "5.07%",
+   "value": "5.05%",
    "note": "",
-   "period": "Oct 20, 2026",
+   "period": "Oct 21, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield"
   }
@@ -562,15 +562,15 @@
    "name": "90-day bank bill rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/3-month-bill-yield",
-   "value": "3.34%",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "3.34% (Oct 19, 2026)",
+   "value": "3.35%",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "3.34% (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
-    "v": 3.34
+    "v": 3.35
    },
    "estimate": false
   },
@@ -580,15 +580,15 @@
    "name": "2-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
-   "value": "3.97%",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "3.94% (Oct 19, 2026)",
+   "value": "3.95%",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "3.97% (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
-    "v": 3.968
+    "v": 3.953
    },
    "estimate": false
   },
@@ -598,15 +598,15 @@
    "name": "10-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
-   "value": "5.07%",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "5.03% (Oct 19, 2026)",
+   "value": "5.05%",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "5.07% (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
-    "v": 5.066
+    "v": 5.05
    },
    "estimate": false
   },
@@ -672,13 +672,14 @@
    "period": "Oct 14, 2026",
    "released": "Oct 15, 2026",
    "previous": "$125.78 (Oct 13, 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-14",
    "raw": {
     "v": 126.55
    },
-   "estimate": false
+   "estimate": false,
+   "note": "Could not refresh today; showing last collected value."
   },
   "wti_crude_oil": {
    "id": "wti_crude_oil",
@@ -690,13 +691,14 @@
    "period": "Oct 14, 2026",
    "released": "Oct 15, 2026",
    "previous": "$100.86 (Oct 13, 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-14",
    "raw": {
     "v": 101.91
    },
-   "estimate": false
+   "estimate": false,
+   "note": "Could not refresh today; showing last collected value."
   },
   "rbnz_oil_assumption": {
    "id": "rbnz_oil_assumption",
@@ -718,12 +720,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 20, 2026",
-   "released": "Oct 20, 2026",
-   "previous": "4.00% (Oct 19, 2026)",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "4.00% (Sep 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
     "v": 4
    },
@@ -736,12 +738,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 20, 2026",
-   "released": "Detected Oct 20, 2026",
-   "previous": "2.50% (Oct 19, 2026)",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 21, 2026",
+   "previous": "2.50% (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-21",
    "raw": {
     "v": 2.5
    },
@@ -898,11 +900,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "10-year government bond yields rose slightly to 5.07%, while other economic data remained steady ahead of the October 28 meeting.",
-   "items": [
-    "<strong>10-year government bond yields</strong> increased from 5.02% on October 19 to 5.07% on October 20 (Trading Economics).",
-    "No official interest rate decision or monetary policy statement has been released since September 2; our verdict and probabilities remain unchanged."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "raise",
@@ -1842,8 +1841,8 @@
     "Q2"
    ],
    "10-yr": [
-    "5.07%",
-    "Oct 20"
+    "5.05%",
+    "Oct 21"
    ]
   },
   "rate_label": "Current OCR",
@@ -2035,7 +2034,9 @@
  ],
  "qa": {
   "data_errors": [
-   "nz_dollar_in_us_dollars: HTTP 400 for https://api.stlouisfed.org/fred/series/observations?series_id=DEXNZUS&api_key=***&file_type=json&sort_order=desc&limit=40",
+   "nz_dollar_in_us_dollars: Unexpected token '<', \"<!doctype \"... is not valid JSON",
+   "brent_crude_oil: Unexpected token '<', \"<!doctype \"... is not valid JSON",
+   "wti_crude_oil: Unexpected token '<', \"<!doctype \"... is not valid JSON",
    "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/new-framework-supports-access-to-basic-transaction-services: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/new-framework-supports-access-to-basic-transaction-services",
    "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience",
    "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/rbnz-and-fma-outline-supervisory-expectations-on-cyber-and-ai-risks: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/rbnz-and-fma-outline-supervisory-expectations-on-cyber-and-ai-risks",
@@ -2080,6 +2081,6 @@
    "automatic": 18,
    "manual": 21
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }
