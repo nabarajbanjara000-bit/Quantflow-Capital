@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-21T18:59:00.057Z",
- "asof_label": "Oct 21, 2026",
- "headline": "Hold at 7 of 8 · Raise at 1 of 8",
- "paragraph": "Quant Flow Capital reviews the current policy stance across eight global central banks as decision dates approach. Right now, seven of these eight institutions are widely expected to hold their interest rates steady amidst mixed economic signals. The Reserve Bank of New Zealand stands out as the only central bank among the eight leaning toward a rate rise.",
+ "generated_at": "2026-10-22T19:05:38.178Z",
+ "asof_label": "Oct 22, 2026",
+ "headline": "Hold at 8 of 8",
+ "paragraph": "Quant Flow Capital reviews the current stances of eight central banks as policymakers meet around the world. All eight institutions currently share the same call to hold interest rates steady. Among them, the Swiss National Bank stands out with a rate of 0.00%, the lowest in this group.",
  "window": [
   "2026-10-28",
   "2026-12-10"
@@ -27,8 +27,8 @@
      "Sep"
     ],
     "10-yr": [
-     "5.15%",
-     "Oct 19"
+     "5.13%",
+     "Oct 21"
     ]
    },
    "call": "hold",
@@ -43,7 +43,7 @@
    "next_label": "Wed Oct 28",
    "time_label": "2:00 p.m. ET",
    "stale": false,
-   "asof": "Oct 20, 2026",
+   "asof": "Oct 22, 2026",
    "coverage": {
     "automatic": 33,
     "manual": 2
@@ -68,8 +68,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.93%",
-     "Oct 19"
+     "3.90%",
+     "Oct 21"
     ]
    },
    "call": "hold",
@@ -84,7 +84,7 @@
    "next_label": "Wed Oct 28",
    "time_label": "9:45 a.m. Eastern Time",
    "stale": false,
-   "asof": "Oct 20, 2026",
+   "asof": "Oct 22, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 10
@@ -98,26 +98,26 @@
    "abbrev": "RBNZ",
    "rate": "2.75%",
    "last_move": "Raised 0.25 pts on Sep 2, 2026 (second rise in a row)",
-   "why": "Oil and a weaker Kiwi push inflation (4.1%) further above target; a fragile economy keeps a pause close behind.",
+   "why": "Q3 inflation cooled to 3.7% (below the 3.9% forecast), supporting a pause despite lingering oil pressures.",
    "mini": {
     "prices": [
-     "4.1%",
-     "CPI, Q2"
+     "3.7%",
+     "CPI, Q3"
     ],
     "jobless": [
      "5.6%",
      "Q2"
     ],
     "10-yr": [
-     "5.05%",
-     "Oct 21"
+     "5.00%",
+     "Oct 22"
     ]
    },
-   "call": "raise",
-   "headline": "RAISE",
+   "call": "hold",
+   "headline": "HOLD",
    "probabilities": {
-    "raise": 55,
-    "hold": 42,
+    "hold": 55,
+    "raise": 42,
     "cut": 3
    },
    "confidence": "Low",
@@ -125,7 +125,7 @@
    "next_label": "Wed Oct 28",
    "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
    "stale": false,
-   "asof": "Oct 21, 2026",
+   "asof": "Oct 22, 2026",
    "coverage": {
     "automatic": 18,
     "manual": 21
@@ -150,8 +150,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.47%",
-     "Oct 21"
+     "3.44%",
+     "Oct 22"
     ]
    },
    "call": "hold",
@@ -166,7 +166,7 @@
    "next_label": "Thu Oct 29",
    "time_label": "2:15 p.m. Central European Time",
    "stale": false,
-   "asof": "Oct 21, 2026",
+   "asof": "Oct 22, 2026",
    "coverage": {
     "automatic": 19,
     "manual": 19
@@ -191,8 +191,8 @@
      "Aug"
     ],
     "10-yr": [
-     "2.93%",
-     "Oct 20"
+     "2.92%",
+     "Oct 21"
     ]
    },
    "call": "hold",
@@ -207,7 +207,7 @@
    "next_label": "Fri Oct 30",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
    "stale": false,
-   "asof": "Oct 21, 2026",
+   "asof": "Oct 22, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 13
@@ -248,7 +248,7 @@
    "next_label": "Tue Nov 3",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference.",
    "stale": false,
-   "asof": "Oct 21, 2026",
+   "asof": "Oct 22, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 13
@@ -273,8 +273,8 @@
      "Aug"
     ],
     "10-yr": [
-     "5.37%",
-     "Oct 19"
+     "5.35%",
+     "Oct 20"
     ]
    },
    "call": "hold",
@@ -289,7 +289,7 @@
    "next_label": "Thu Nov 5",
    "time_label": "12:00 p.m. (noon) UK time, which is GMT after the clocks go back on October 25. That is 7:00 a.m. Eastern Time.",
    "stale": false,
-   "asof": "Oct 21, 2026",
+   "asof": "Oct 22, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 14
@@ -303,7 +303,7 @@
    "abbrev": "SNB",
    "rate": "0.00%",
    "last_move": "Cut to 0% on Jun 19, 2025; held five times since (latest Sep 24, 2026)",
-   "why": "Inflation (1.0%) sits inside the SNB’s 0–2% zone and its 0%-rate forecast stays there; strong growth and KOF’s call keep a rise possible.",
+   "why": "Inflation sits at 1.0% inside the SNB's target zone, keeping a rate hold as the most likely outcome for December.",
    "mini": {
     "prices": [
      "1.0%",
@@ -314,8 +314,8 @@
      "Sep"
     ],
     "10-yr": [
-     "0.553%",
-     "Oct 21"
+     "0.525%",
+     "Oct 22"
     ]
    },
    "call": "hold",
@@ -330,7 +330,7 @@
    "next_label": "Thu Dec 10",
    "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Oct 21, 2026",
+   "asof": "Oct 22, 2026",
    "coverage": {
     "automatic": 10,
     "manual": 28
