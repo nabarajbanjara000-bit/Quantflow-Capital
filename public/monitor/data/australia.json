@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-10-22",
- "asof_label": "Oct 22, 2026",
- "generated_at": "2026-10-22T19:02:38.665Z",
- "data_updated_at": "2026-10-22T19:02:38.665Z",
+ "asof_date": "2026-10-23",
+ "asof_label": "Oct 23, 2026",
+ "generated_at": "2026-10-23T18:59:21.279Z",
+ "data_updated_at": "2026-10-23T18:59:21.279Z",
  "narrative_updated_at": "2026-10-22T19:02:38.665Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 12
+  "days_to_decision": 11
  },
  "kpis": [
   {
    "label": "RBA cash rate",
    "value": "4.60%",
    "note": "",
-   "period": "Oct 21, 2026",
+   "period": "Oct 22, 2026",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "5.31%",
+   "value": "5.28%",
    "note": "",
-   "period": "Oct 14, 2026",
+   "period": "Oct 21, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield"
   }
@@ -593,12 +593,12 @@
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
    "value": "4.60%",
-   "period": "Oct 21, 2026",
-   "released": "Detected Oct 22, 2026",
+   "period": "Oct 22, 2026",
+   "released": "Detected Oct 23, 2026",
    "previous": "4.35% (Sep 29, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-21",
+   "latest_date": "2026-10-22",
    "raw": {
     "v": 4.6
    },
@@ -623,15 +623,15 @@
    "name": "10-year government bond rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield",
-   "value": "5.31%",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "5.29% (Oct 13, 2026)",
+   "value": "5.28%",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 23, 2026",
+   "previous": "5.25% (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-21",
    "raw": {
-    "v": 5.314
+    "v": 5.277
    },
    "estimate": false
   },
@@ -642,14 +642,14 @@
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield",
    "value": "4.92%",
-   "period": "Oct 14, 2026",
-   "released": "Detected Oct 16, 2026",
-   "previous": "4.89% (Oct 13, 2026)",
+   "period": "Oct 21, 2026",
+   "released": "Detected Oct 23, 2026",
+   "previous": "4.86% (Oct 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-14",
+   "latest_date": "2026-10-21",
    "raw": {
-    "v": 4.919
+    "v": 4.917
    },
    "estimate": false
   },
@@ -695,15 +695,15 @@
    "name": "Australian dollar",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
-   "value": "US$0.7018",
-   "period": "Oct 22, 2026",
-   "released": "Detected Oct 22, 2026",
-   "previous": "US$0.7010 (Oct 21, 2026)",
+   "value": "US$0.7006",
+   "period": "Oct 23, 2026",
+   "released": "Detected Oct 23, 2026",
+   "previous": "US$0.7018 (Oct 22, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-23",
    "raw": {
-    "v": 0.7018
+    "v": 0.7006
    },
    "estimate": false,
    "note": "AUD/USD only (the snapshot also quotes the trade-weighted index)"
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 22, 2026",
-   "released": "Oct 22, 2026",
-   "previous": "4.00% (Oct 21, 2026)",
+   "period": "Oct 23, 2026",
+   "released": "Oct 23, 2026",
+   "previous": "4.00% (Oct 22, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-23",
    "raw": {
     "v": 4
    },
@@ -965,15 +965,24 @@
    "time": "11:30 a.m.",
    "url": "https://www.rba.gov.au/schedules-events/",
    "timing": "after"
+  },
+  {
+   "id": "consumer_price_index_3",
+   "name": "Consumer Price Index, November",
+   "publisher": "ABS",
+   "date": "2027-01-06",
+   "date_label": "Wed Jan 6",
+   "what": "Prices families pay, for November.",
+   "weekly": false,
+   "time": "11:30 a.m.",
+   "url": "https://www.abs.gov.au/release-calendar/future-releases/202701",
+   "timing": "after"
   }
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new official data since the last update, while Brent oil eased from $125.22 to $115.22 a barrel.",
-   "items": [
-    "<strong>Oil price (Brent)</strong> fell from $125.22 a barrel (Oct 20) to $115.22 a barrel (Oct 20), down about 9.0% from the previous reading.",
-    "No other official indicators or central bank policy rates changed since the last update."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -1887,8 +1896,8 @@
     "Sep"
    ],
    "10-yr": [
-    "5.31%",
-    "Oct 14"
+    "5.28%",
+    "Oct 21"
    ]
   },
   "rate_label": "Current RBA cash rate",
@@ -2082,6 +2091,6 @@
    "automatic": 25,
    "manual": 13
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

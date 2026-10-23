@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-10-22",
- "asof_label": "Oct 22, 2026",
- "generated_at": "2026-10-22T19:01:11.695Z",
- "data_updated_at": "2026-10-22T19:01:11.695Z",
+ "asof_date": "2026-10-23",
+ "asof_label": "Oct 23, 2026",
+ "generated_at": "2026-10-23T18:58:40.760Z",
+ "data_updated_at": "2026-10-23T18:58:40.760Z",
  "narrative_updated_at": "2026-10-22T19:01:11.695Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 6
+  "days_to_decision": 5
  },
  "kpis": [
   {
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "5.00%",
+   "value": "4.96%",
    "note": "",
-   "period": "Oct 22, 2026",
+   "period": "Oct 23, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield"
   }
@@ -428,14 +428,13 @@
    "period": "Q2 2026",
    "released": "Detected Oct 15, 2026",
    "previous": "0.9% (Q1 2026)",
-   "tag": "old",
+   "tag": "official",
    "manual": false,
    "latest_date": "2026-06-01",
    "raw": {
     "v": 0.2
    },
-   "estimate": false,
-   "note": "Could not refresh today; showing last collected value."
+   "estimate": false
   },
   "real_household_consumption": {
    "id": "real_household_consumption",
@@ -564,12 +563,12 @@
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/3-month-bill-yield",
    "value": "3.35%",
-   "period": "Oct 22, 2026",
-   "released": "Detected Oct 22, 2026",
-   "previous": "3.35% (Oct 21, 2026)",
+   "period": "Oct 23, 2026",
+   "released": "Detected Oct 23, 2026",
+   "previous": "3.35% (Oct 22, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-23",
    "raw": {
     "v": 3.35
    },
@@ -581,15 +580,15 @@
    "name": "2-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
-   "value": "3.94%",
-   "period": "Oct 22, 2026",
-   "released": "Detected Oct 22, 2026",
-   "previous": "3.96% (Oct 21, 2026)",
+   "value": "3.92%",
+   "period": "Oct 23, 2026",
+   "released": "Detected Oct 23, 2026",
+   "previous": "3.94% (Oct 22, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-23",
    "raw": {
-    "v": 3.938
+    "v": 3.92
    },
    "estimate": false
   },
@@ -599,15 +598,15 @@
    "name": "10-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
-   "value": "5.00%",
-   "period": "Oct 22, 2026",
-   "released": "Detected Oct 22, 2026",
-   "previous": "5.05% (Oct 21, 2026)",
+   "value": "4.96%",
+   "period": "Oct 23, 2026",
+   "released": "Detected Oct 23, 2026",
+   "previous": "5.00% (Oct 22, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-23",
    "raw": {
-    "v": 4.997
+    "v": 4.955
    },
    "estimate": false
   },
@@ -719,12 +718,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 22, 2026",
-   "released": "Oct 22, 2026",
-   "previous": "4.00% (Oct 21, 2026)",
+   "period": "Oct 23, 2026",
+   "released": "Oct 23, 2026",
+   "previous": "4.00% (Oct 22, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-23",
    "raw": {
     "v": 4
    },
@@ -737,12 +736,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 22, 2026",
-   "released": "Detected Oct 22, 2026",
-   "previous": "2.50% (Oct 21, 2026)",
+   "period": "Oct 23, 2026",
+   "released": "Detected Oct 23, 2026",
+   "previous": "2.50% (Oct 22, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-23",
    "raw": {
     "v": 2.5
    },
@@ -776,18 +775,6 @@
   }
  },
  "releases": [
-  {
-   "id": "consumers_price_index_cpi",
-   "name": "Consumers price index (CPI), September quarter",
-   "publisher": "Stats NZ",
-   "date": "2026-10-22",
-   "date_label": "Thu Oct 22",
-   "time": "10:45 a.m. NZDT",
-   "url": "https://www.stats.govt.nz/release-calendar/",
-   "what": "How much the prices families pay changed from July to September, including non-tradables.",
-   "weekly": false,
-   "timing": "before"
-  },
   {
    "id": "employment_indicators",
    "name": "Employment indicators, September",
@@ -899,14 +886,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Q3 2026 inflation came in at 3.7%, falling from Q2's 4.1% but remaining above the 1%–3% target band.",
-   "items": [
-    "<strong>Consumers price index (CPI)</strong> fell from 4.1% in Q2 2026 to 3.7% in Q3 2026 (Stats NZ).",
-    "<strong>Non-tradables inflation</strong> eased slightly from 3.4% in Q2 2026 to 3.3% in Q3 2026.",
-    "<strong>Tradables inflation</strong> dropped from 4.9% in Q2 2026 to 4.3% in Q3 2026.",
-    "<strong>Brent crude oil</strong> declined from $126.55 on October 14 to $115.22 a barrel on October 20.",
-    "Because inflation came in cooler than the RBNZ's 3.9% forecast, our verdict shifts from a 55% chance of a Raise to a 55% chance of a Hold."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -1829,8 +1810,8 @@
     "Q2"
    ],
    "10-yr": [
-    "5.00%",
-    "Oct 22"
+    "4.96%",
+    "Oct 23"
    ]
   },
   "rate_label": "Current OCR",
@@ -2090,7 +2071,6 @@
  ],
  "qa": {
   "data_errors": [
-   "gross_domestic_product_gdp_production: fetch timed out after 90s",
    "nz_dollar_in_us_dollars: HTTP 400 for https://api.stlouisfed.org/fred/series/observations?series_id=DEXNZUS&api_key=***&file_type=json&sort_order=desc&limit=40",
    "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/new-framework-supports-access-to-basic-transaction-services: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/new-framework-supports-access-to-basic-transaction-services",
    "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience",
@@ -2136,6 +2116,6 @@
    "automatic": 18,
    "manual": 21
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

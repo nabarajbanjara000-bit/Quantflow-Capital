@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-22T19:05:38.178Z",
- "asof_label": "Oct 22, 2026",
+ "generated_at": "2026-10-23T19:00:15.414Z",
+ "asof_label": "Oct 23, 2026",
  "headline": "Hold at 8 of 8",
- "paragraph": "Quant Flow Capital reviews the current stances of eight central banks as policymakers meet around the world. All eight institutions currently share the same call to hold interest rates steady. Among them, the Swiss National Bank stands out with a rate of 0.00%, the lowest in this group.",
+ "paragraph": "Quant Flow Capital tracks eight major central banks as they navigate the current economic cycle. Right now, all eight central banks share a baseline expectation to hold their interest rates steady. Among them, the Swiss National Bank stands out by maintaining a rate of 0.00% as inflation sits quietly inside its target zone.",
  "window": [
   "2026-10-28",
   "2026-12-10"
@@ -27,8 +27,8 @@
      "Sep"
     ],
     "10-yr": [
-     "5.13%",
-     "Oct 21"
+     "4.96%",
+     "Oct 22"
     ]
    },
    "call": "hold",
@@ -43,7 +43,7 @@
    "next_label": "Wed Oct 28",
    "time_label": "2:00 p.m. ET",
    "stale": false,
-   "asof": "Oct 22, 2026",
+   "asof": "Oct 23, 2026",
    "coverage": {
     "automatic": 33,
     "manual": 2
@@ -68,8 +68,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.90%",
-     "Oct 21"
+     "3.78%",
+     "Oct 22"
     ]
    },
    "call": "hold",
@@ -84,7 +84,7 @@
    "next_label": "Wed Oct 28",
    "time_label": "9:45 a.m. Eastern Time",
    "stale": false,
-   "asof": "Oct 22, 2026",
+   "asof": "Oct 23, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 10
@@ -109,8 +109,8 @@
      "Q2"
     ],
     "10-yr": [
-     "5.00%",
-     "Oct 22"
+     "4.96%",
+     "Oct 23"
     ]
    },
    "call": "hold",
@@ -125,7 +125,7 @@
    "next_label": "Wed Oct 28",
    "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
    "stale": false,
-   "asof": "Oct 22, 2026",
+   "asof": "Oct 23, 2026",
    "coverage": {
     "automatic": 18,
     "manual": 21
@@ -150,8 +150,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.44%",
-     "Oct 22"
+     "3.39%",
+     "Oct 23"
     ]
    },
    "call": "hold",
@@ -166,7 +166,7 @@
    "next_label": "Thu Oct 29",
    "time_label": "2:15 p.m. Central European Time",
    "stale": false,
-   "asof": "Oct 22, 2026",
+   "asof": "Oct 23, 2026",
    "coverage": {
     "automatic": 19,
     "manual": 19
@@ -180,19 +180,19 @@
    "abbrev": "BoJ",
    "rate": "1.25%",
    "last_move": "Raised 0.25 on Sep 18, 2026",
-   "why": "The BoJ only raised six weeks ago on a split vote and has never moved at back-to-back meetings; national core inflation is 1.7%.",
+   "why": "The BoJ only raised six weeks ago on a split vote and has never moved at back-to-back meetings; national core inflation is 2.1%.",
    "mini": {
     "prices": [
-     "1.7%",
-     "Core CPI, Aug"
+     "2.1%",
+     "Core CPI, Sep"
     ],
     "jobless": [
      "2.5%",
      "Aug"
     ],
     "10-yr": [
-     "2.92%",
-     "Oct 21"
+     "2.91%",
+     "Oct 22"
     ]
    },
    "call": "hold",
@@ -207,7 +207,7 @@
    "next_label": "Fri Oct 30",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
    "stale": false,
-   "asof": "Oct 22, 2026",
+   "asof": "Oct 23, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 13
@@ -232,8 +232,8 @@
      "Sep"
     ],
     "10-yr": [
-     "5.31%",
-     "Oct 14"
+     "5.28%",
+     "Oct 21"
     ]
    },
    "call": "hold",
@@ -248,7 +248,7 @@
    "next_label": "Tue Nov 3",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference.",
    "stale": false,
-   "asof": "Oct 22, 2026",
+   "asof": "Oct 23, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 13
@@ -273,8 +273,8 @@
      "Aug"
     ],
     "10-yr": [
-     "5.35%",
-     "Oct 20"
+     "5.33%",
+     "Oct 21"
     ]
    },
    "call": "hold",
@@ -289,7 +289,7 @@
    "next_label": "Thu Nov 5",
    "time_label": "12:00 p.m. (noon) UK time, which is GMT after the clocks go back on October 25. That is 7:00 a.m. Eastern Time.",
    "stale": false,
-   "asof": "Oct 22, 2026",
+   "asof": "Oct 23, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 14
@@ -314,8 +314,8 @@
      "Sep"
     ],
     "10-yr": [
-     "0.525%",
-     "Oct 22"
+     "0.491%",
+     "Oct 23"
     ]
    },
    "call": "hold",
@@ -330,7 +330,7 @@
    "next_label": "Thu Dec 10",
    "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Oct 22, 2026",
+   "asof": "Oct 23, 2026",
    "coverage": {
     "automatic": 10,
     "manual": 28
