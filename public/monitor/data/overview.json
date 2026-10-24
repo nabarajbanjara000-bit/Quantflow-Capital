@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-23T19:00:15.414Z",
- "asof_label": "Oct 23, 2026",
+ "generated_at": "2026-10-24T18:49:59.474Z",
+ "asof_label": "Oct 24, 2026",
  "headline": "Hold at 8 of 8",
- "paragraph": "Quant Flow Capital tracks eight major central banks as they navigate the current economic cycle. Right now, all eight central banks share a baseline expectation to hold their interest rates steady. Among them, the Swiss National Bank stands out by maintaining a rate of 0.00% as inflation sits quietly inside its target zone.",
+ "paragraph": "Quant Flow Capital brings you this briefing covering eight central banks from around the world. Right now, all eight of these monetary authorities share the expectation of holding their current interest rates steady. Among them, the Swiss National Bank stands out by maintaining a rate of 0.00% while inflation sits at 1.0% inside its target zone.",
  "window": [
   "2026-10-28",
   "2026-12-10"
@@ -27,8 +27,8 @@
      "Sep"
     ],
     "10-yr": [
-     "4.96%",
-     "Oct 22"
+     "5.00%",
+     "Oct 23"
     ]
    },
    "call": "hold",
@@ -43,7 +43,7 @@
    "next_label": "Wed Oct 28",
    "time_label": "2:00 p.m. ET",
    "stale": false,
-   "asof": "Oct 23, 2026",
+   "asof": "Oct 24, 2026",
    "coverage": {
     "automatic": 33,
     "manual": 2
@@ -84,7 +84,7 @@
    "next_label": "Wed Oct 28",
    "time_label": "9:45 a.m. Eastern Time",
    "stale": false,
-   "asof": "Oct 23, 2026",
+   "asof": "Oct 24, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 10
@@ -125,7 +125,7 @@
    "next_label": "Wed Oct 28",
    "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
    "stale": false,
-   "asof": "Oct 23, 2026",
+   "asof": "Oct 24, 2026",
    "coverage": {
     "automatic": 18,
     "manual": 21
@@ -165,8 +165,8 @@
    "next_end": "2026-10-29",
    "next_label": "Thu Oct 29",
    "time_label": "2:15 p.m. Central European Time",
-   "stale": false,
-   "asof": "Oct 23, 2026",
+   "stale": true,
+   "asof": "Oct 24, 2026",
    "coverage": {
     "automatic": 19,
     "manual": 19
@@ -207,7 +207,7 @@
    "next_label": "Fri Oct 30",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
    "stale": false,
-   "asof": "Oct 23, 2026",
+   "asof": "Oct 24, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 13
@@ -248,7 +248,7 @@
    "next_label": "Tue Nov 3",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference.",
    "stale": false,
-   "asof": "Oct 23, 2026",
+   "asof": "Oct 24, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 13
@@ -289,7 +289,7 @@
    "next_label": "Thu Nov 5",
    "time_label": "12:00 p.m. (noon) UK time, which is GMT after the clocks go back on October 25. That is 7:00 a.m. Eastern Time.",
    "stale": false,
-   "asof": "Oct 23, 2026",
+   "asof": "Oct 24, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 14
@@ -330,7 +330,7 @@
    "next_label": "Thu Dec 10",
    "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Oct 23, 2026",
+   "asof": "Oct 24, 2026",
    "coverage": {
     "automatic": 10,
     "manual": 28

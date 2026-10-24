@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "canada",
- "asof_date": "2026-10-23",
- "asof_label": "Oct 23, 2026",
- "generated_at": "2026-10-23T18:58:04.304Z",
- "data_updated_at": "2026-10-23T18:58:04.304Z",
+ "asof_date": "2026-10-24",
+ "asof_label": "Oct 24, 2026",
+ "generated_at": "2026-10-24T18:47:54.629Z",
+ "data_updated_at": "2026-10-24T18:47:54.629Z",
  "narrative_updated_at": "2026-10-23T18:58:04.303Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
   "calendar_label": "Official BoC announcement schedule",
   "who": "The Bank of Canada (“the BoC”), Canada’s central bank. Its decisions are made by a small group of senior officials called the Governing Council, led by Governor Tiff Macklem. It aims to agree as a group, so there is no published vote count like in the U.S.",
-  "days_to_decision": 5
+  "days_to_decision": 4
  },
  "kpis": [
   {
@@ -692,15 +692,15 @@
    "name": "Canadian dollar (US$1 in C$)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25",
-   "value": "C$1.4021",
-   "period": "Oct 22, 2026",
-   "released": "Detected Oct 23, 2026",
-   "previous": "C$1.4057 (Oct 21, 2026)",
+   "value": "C$1.3993",
+   "period": "Oct 23, 2026",
+   "released": "Detected Oct 24, 2026",
+   "previous": "C$1.4021 (Oct 22, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-23",
    "raw": {
-    "v": 1.4021
+    "v": 1.3993
    },
    "estimate": false
   },
@@ -797,18 +797,6 @@
   }
  },
  "releases": [
-  {
-   "id": "retail_trade",
-   "name": "Retail trade, August",
-   "publisher": "StatCan",
-   "date": "2026-10-23",
-   "date_label": "Fri Oct 23",
-   "time": "8:30 a.m. ET",
-   "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
-   "what": "How much people spent in shops.",
-   "weekly": false,
-   "timing": "after"
-  },
   {
    "id": "gdp_by_industry",
    "name": "GDP by industry, August",
@@ -968,11 +956,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Retail sales rebounded +1.2% in August, while bond yields dipped slightly ahead of the October 28 decision.",
-   "items": [
-    "<strong>Retail sales</strong> rose +1.2% in August, recovering from −0.8% in July (Statistics Canada).",
-    "<strong>2-year Government of Canada bond yield</strong> moved from 3.32% to 3.22%, and the 10-year yield moved from 3.90% to 3.78% (Bank of Canada)."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2179,6 +2164,6 @@
    "automatic": 27,
    "manual": 10
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

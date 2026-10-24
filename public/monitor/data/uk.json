@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-10-23",
- "asof_label": "Oct 23, 2026",
- "generated_at": "2026-10-23T19:00:11.573Z",
- "data_updated_at": "2026-10-23T19:00:11.573Z",
+ "asof_date": "2026-10-24",
+ "asof_label": "Oct 24, 2026",
+ "generated_at": "2026-10-24T18:49:51.295Z",
+ "data_updated_at": "2026-10-24T18:49:51.295Z",
  "narrative_updated_at": "2026-10-23T19:00:11.572Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 13
+  "days_to_decision": 12
  },
  "kpis": [
   {
@@ -797,12 +797,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 23, 2026",
-   "released": "Detected Oct 23, 2026",
-   "previous": "2.50% (Oct 22, 2026)",
+   "period": "Oct 24, 2026",
+   "released": "Detected Oct 24, 2026",
+   "previous": "2.50% (Oct 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-23",
+   "latest_date": "2026-10-24",
    "raw": {
     "v": 2.5
    },
@@ -810,18 +810,6 @@
   }
  },
  "releases": [
-  {
-   "id": "retail_sales",
-   "name": "Retail sales, September",
-   "publisher": "ONS",
-   "date": "2026-10-23",
-   "date_label": "Fri Oct 23",
-   "time": "7:00 a.m.",
-   "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainseptember2026",
-   "what": "How much people bought in shops and online.",
-   "weekly": false,
-   "timing": "before"
-  },
   {
    "id": "budget_obr_economic_and_fiscal",
    "name": "Budget + OBR Economic and fiscal outlook",
@@ -897,12 +885,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Retail sales volumes slowed to 0.8% in September, while Brent crude oil eased to $115.22 a barrel.",
-   "items": [
-    "<strong>Retail sales volumes</strong> rose 0.8% in September, slowing from 2.7% in August (released October 23).",
-    "<strong>Brent crude oil</strong> moved slightly to $115.22 a barrel (released October 21).",
-    "<strong>10-year gilt yields</strong> ticked to 5.33% (released October 23)."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2320,6 +2304,6 @@
    "automatic": 25,
    "manual": 14
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

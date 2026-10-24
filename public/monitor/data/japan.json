@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-10-23",
- "asof_label": "Oct 23, 2026",
- "generated_at": "2026-10-23T18:56:10.545Z",
- "data_updated_at": "2026-10-23T18:56:10.545Z",
+ "asof_date": "2026-10-24",
+ "asof_label": "Oct 24, 2026",
+ "generated_at": "2026-10-24T18:46:59.386Z",
+ "data_updated_at": "2026-10-24T18:46:59.386Z",
  "narrative_updated_at": "2026-10-23T18:56:10.545Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 7
+  "days_to_decision": 6
  },
  "kpis": [
   {
@@ -747,7 +747,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
    "value": "$115.22  a barrel",
    "period": "Oct 20, 2026",
-   "released": "Oct 21, 2026",
+   "released": "Oct 22, 2026",
    "previous": "$118.82 (Oct 19, 2026)",
    "tag": "secondary",
    "manual": false,
@@ -766,7 +766,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
    "value": "$107.89  a barrel",
    "period": "Oct 20, 2026",
-   "released": "Oct 21, 2026",
+   "released": "Oct 22, 2026",
    "previous": "$110.01 (Oct 19, 2026)",
    "tag": "secondary",
    "manual": false,
@@ -843,18 +843,6 @@
   }
  },
  "releases": [
-  {
-   "id": "national_cpi",
-   "name": "National CPI, September",
-   "publisher": "Statistics Bureau",
-   "date": "2026-10-23",
-   "date_label": "Fri Oct 23",
-   "time": "8:30 a.m. JST",
-   "url": "https://www.stat.go.jp/english/data/cpi/1582.html",
-   "what": "How much the prices households pay changed, across Japan.",
-   "weekly": false,
-   "timing": "before"
-  },
   {
    "id": "services_producer_price_index",
    "name": "Services Producer Price Index, September",
@@ -1062,13 +1050,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "National consumer prices rose in September, and the BoJ published its Financial System Report.",
-   "items": [
-    "<strong>Consumer Price Index (CPI), all items</strong> rose from 1.9% in August to 2.1% in September.",
-    "<strong>Core CPI (without fresh food)</strong> rose from 1.7% in August to 2.1% in September.",
-    "<strong>CPI without fresh food and energy</strong> rose from 1.9% in August to 2.4% in September.",
-    "New official item: Financial System Report (October 2026) (2026-10-23)."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2386,6 +2369,6 @@
    "automatic": 27,
    "manual": 13
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }
