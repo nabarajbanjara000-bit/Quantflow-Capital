@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-10-24",
- "asof_label": "Oct 24, 2026",
- "generated_at": "2026-10-24T18:49:51.295Z",
- "data_updated_at": "2026-10-24T18:49:51.295Z",
+ "asof_date": "2026-10-25",
+ "asof_label": "Oct 25, 2026",
+ "generated_at": "2026-10-25T20:57:49.052Z",
+ "data_updated_at": "2026-10-25T20:57:49.052Z",
  "narrative_updated_at": "2026-10-23T19:00:11.572Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 12
+  "days_to_decision": 11
  },
  "kpis": [
   {
@@ -658,13 +658,14 @@
    "period": "Oct 21, 2026",
    "released": "Detected Oct 23, 2026",
    "previous": "4.96% (Oct 20, 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-10-21",
    "raw": {
     "v": 4.9505
    },
-   "estimate": false
+   "estimate": false,
+   "note": "Could not refresh today; showing last collected value."
   },
   "market_path_for_bank_rate": {
    "id": "market_path_for_bank_rate",
@@ -797,12 +798,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 24, 2026",
-   "released": "Detected Oct 24, 2026",
-   "previous": "2.50% (Oct 23, 2026)",
+   "period": "Oct 25, 2026",
+   "released": "Detected Oct 25, 2026",
+   "previous": "2.50% (Oct 24, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-24",
+   "latest_date": "2026-10-25",
    "raw": {
     "v": 2.5
    },
@@ -2206,7 +2207,9 @@
   }
  ],
  "qa": {
-  "data_errors": [],
+  "data_errors": [
+   "5_year_gilt_yield: HTTP 500"
+  ],
   "ai_errors": [],
   "sources_read": [
    {

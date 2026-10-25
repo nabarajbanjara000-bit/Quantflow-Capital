@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "code": "germany",
- "asof_date": "2026-10-24",
- "asof_label": "Oct 24, 2026",
- "generated_at": "2026-10-24T18:47:43.108Z",
- "data_updated_at": "2026-10-24T18:47:43.108Z",
- "narrative_updated_at": "2026-10-23T18:57:08.330Z",
- "narrative_stale": true,
+ "asof_date": "2026-10-25",
+ "asof_label": "Oct 25, 2026",
+ "generated_at": "2026-10-25T20:55:09.392Z",
+ "data_updated_at": "2026-10-25T20:55:09.392Z",
+ "narrative_updated_at": "2026-10-25T20:55:09.392Z",
+ "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "germany",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
   "calendar_label": "Official ECB meeting calendar",
   "who": "The European Central Bank (“the ECB”) in Frankfurt, which sets one interest rate for every country that uses the euro, including Germany. Its decision-making group is the Governing Council: the 6 members of the ECB's Executive Board (led by President Christine Lagarde) plus the heads of the 21 national central banks. Germany's voice is Joachim Nagel, President of the Deutsche Bundesbank.",
-  "days_to_decision": 5
+  "days_to_decision": 4
  },
  "kpis": [
   {
    "label": "ECB interest rate",
    "value": "2.50%",
    "note": "Deposit rate",
-   "period": "Oct 24, 2026",
+   "period": "Oct 25, 2026",
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
   },
@@ -557,12 +557,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.50%",
-   "period": "Oct 24, 2026",
-   "released": "Detected Oct 24, 2026",
-   "previous": "2.50% (Oct 23, 2026)",
+   "period": "Oct 25, 2026",
+   "released": "Detected Oct 25, 2026",
+   "previous": "2.50% (Oct 24, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-24",
+   "latest_date": "2026-10-25",
    "raw": {
     "v": 2.5
    },
@@ -575,12 +575,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.65%",
-   "period": "Oct 24, 2026",
-   "released": "Detected Oct 24, 2026",
-   "previous": "2.65% (Oct 23, 2026)",
+   "period": "Oct 25, 2026",
+   "released": "Detected Oct 25, 2026",
+   "previous": "2.65% (Oct 24, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-24",
+   "latest_date": "2026-10-25",
    "raw": {
     "v": 2.65
    },
@@ -692,7 +692,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
    "value": "$115.22 a barrel",
    "period": "Oct 20, 2026",
-   "released": "Oct 22, 2026",
+   "released": "Oct 21, 2026",
    "previous": "$118.82 (Oct 19, 2026)",
    "tag": "official",
    "manual": false,
@@ -710,7 +710,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
    "value": "$107.89 a barrel",
    "period": "Oct 20, 2026",
-   "released": "Oct 22, 2026",
+   "released": "Oct 21, 2026",
    "previous": "$110.01 (Oct 19, 2026)",
    "tag": "official",
    "manual": false,
@@ -728,7 +728,7 @@
    "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM",
    "value": "$25.49 per million BTU",
    "period": "Sep 2026",
-   "released": "Oct 23, 2026",
+   "released": "Oct 22, 2026",
    "previous": "$20.92 (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -913,10 +913,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Here is what is new since the last update.",
-   "items": [
-    "New official item: <a href=\"https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">Piero Cipollone: Interview with Milano Finanza</a> (2026-10-24)."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2238,9 +2236,7 @@
  ],
  "qa": {
   "data_errors": [],
-  "ai_errors": [
-   "Gemini unavailable (gemini-3.5-flash-lite: HTTP 503)"
-  ],
+  "ai_errors": [],
   "sources_read": [
    {
     "title": "Piero Cipollone: Interview with Milano Finanza",

@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-10-24",
- "asof_label": "Oct 24, 2026",
- "generated_at": "2026-10-24T18:49:16.708Z",
- "data_updated_at": "2026-10-24T18:49:16.708Z",
+ "asof_date": "2026-10-25",
+ "asof_label": "Oct 25, 2026",
+ "generated_at": "2026-10-25T20:56:27.550Z",
+ "data_updated_at": "2026-10-25T20:56:27.550Z",
  "narrative_updated_at": "2026-10-22T19:02:38.665Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 10
+  "days_to_decision": 9
  },
  "kpis": [
   {
@@ -729,7 +729,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
    "value": "$115.22 a barrel",
    "period": "Oct 20, 2026",
-   "released": "Oct 22, 2026",
+   "released": "Oct 21, 2026",
    "previous": "$118.82 (Oct 19, 2026)",
    "tag": "secondary",
    "manual": false,
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 24, 2026",
-   "released": "Oct 24, 2026",
-   "previous": "4.00% (Oct 23, 2026)",
+   "period": "Oct 25, 2026",
+   "released": "Oct 25, 2026",
+   "previous": "4.00% (Oct 24, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-24",
+   "latest_date": "2026-10-25",
    "raw": {
     "v": 4
    },

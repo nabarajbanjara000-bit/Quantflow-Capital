@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-10-24",
- "asof_label": "Oct 24, 2026",
- "generated_at": "2026-10-24T18:46:59.386Z",
- "data_updated_at": "2026-10-24T18:46:59.386Z",
+ "asof_date": "2026-10-25",
+ "asof_label": "Oct 25, 2026",
+ "generated_at": "2026-10-25T20:54:08.591Z",
+ "data_updated_at": "2026-10-25T20:54:08.591Z",
  "narrative_updated_at": "2026-10-23T18:56:10.545Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 6
+  "days_to_decision": 5
  },
  "kpis": [
   {
@@ -747,7 +747,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
    "value": "$115.22  a barrel",
    "period": "Oct 20, 2026",
-   "released": "Oct 22, 2026",
+   "released": "Oct 21, 2026",
    "previous": "$118.82 (Oct 19, 2026)",
    "tag": "secondary",
    "manual": false,
@@ -766,7 +766,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
    "value": "$107.89  a barrel",
    "period": "Oct 20, 2026",
-   "released": "Oct 22, 2026",
+   "released": "Oct 21, 2026",
    "previous": "$110.01 (Oct 19, 2026)",
    "tag": "secondary",
    "manual": false,
