@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-10-25",
- "asof_label": "Oct 25, 2026",
- "generated_at": "2026-10-25T20:54:08.591Z",
- "data_updated_at": "2026-10-25T20:54:08.591Z",
- "narrative_updated_at": "2026-10-23T18:56:10.545Z",
+ "asof_date": "2026-10-26",
+ "asof_label": "Oct 26, 2026",
+ "generated_at": "2026-10-26T22:43:29.089Z",
+ "data_updated_at": "2026-10-26T22:43:29.089Z",
+ "narrative_updated_at": "2026-10-26T22:43:29.089Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 5
+  "days_to_decision": 4
  },
  "kpis": [
   {
    "label": "BoJ interest rate",
    "value": "1.25%",
    "note": "",
-   "period": "Oct 21, 2026",
+   "period": "Oct 22, 2026",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "2.91%",
+   "value": "2.84%",
    "note": "",
-   "period": "Oct 22, 2026",
+   "period": "Oct 23, 2026",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv"
   }
@@ -605,12 +605,12 @@
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf",
    "value": "1.25%",
-   "period": "Oct 21, 2026",
-   "released": "Detected Oct 23, 2026",
-   "previous": "1.25% (Oct 20, 2026)",
+   "period": "Oct 22, 2026",
+   "released": "Detected Oct 26, 2026",
+   "previous": "1.25% (Oct 21, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-21",
+   "latest_date": "2026-10-22",
    "raw": {
     "v": 1.25
    },
@@ -641,15 +641,15 @@
    "name": "2-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "1.91%",
-   "period": "Oct 22, 2026",
-   "released": "Detected Oct 23, 2026",
-   "previous": "1.91% (Oct 21, 2026)",
+   "value": "1.87%",
+   "period": "Oct 23, 2026",
+   "released": "Detected Oct 26, 2026",
+   "previous": "1.91% (Oct 22, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-23",
    "raw": {
-    "v": 1.914
+    "v": 1.872
    },
    "estimate": false
   },
@@ -659,15 +659,15 @@
    "name": "10-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "2.91%",
-   "period": "Oct 22, 2026",
-   "released": "Detected Oct 23, 2026",
-   "previous": "2.92% (Oct 21, 2026)",
+   "value": "2.84%",
+   "period": "Oct 23, 2026",
+   "released": "Detected Oct 26, 2026",
+   "previous": "2.91% (Oct 22, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-23",
    "raw": {
-    "v": 2.914
+    "v": 2.837
    },
    "estimate": false
   },
@@ -677,15 +677,15 @@
    "name": "30-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "3.95%",
-   "period": "Oct 22, 2026",
-   "released": "Detected Oct 23, 2026",
-   "previous": "3.98% (Oct 21, 2026)",
+   "value": "3.90%",
+   "period": "Oct 23, 2026",
+   "released": "Detected Oct 26, 2026",
+   "previous": "3.95% (Oct 22, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-23",
    "raw": {
-    "v": 3.952
+    "v": 3.904
    },
    "estimate": false
   },
@@ -714,15 +714,15 @@
    "name": "Yen per US dollar",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261009.pdf",
-   "value": "¥158.38",
-   "period": "Oct 21, 2026",
-   "released": "Detected Oct 23, 2026",
-   "previous": "¥158.58 (Oct 20, 2026)",
+   "value": "¥158.21",
+   "period": "Oct 22, 2026",
+   "released": "Detected Oct 26, 2026",
+   "previous": "¥158.38 (Oct 21, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-21",
+   "latest_date": "2026-10-22",
    "raw": {
-    "v": 158.38
+    "v": 158.21
    },
    "estimate": false
   },
@@ -1050,8 +1050,11 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "10-year and 30-year government bond rates dipped slightly, while no major new economic data arrived ahead of the October 30 decision.",
+   "items": [
+    "<strong>10-year government bond rate</strong> fell from 2.91% to 2.84% (Oct 23).",
+    "<strong>30-year government bond rate</strong> fell from 3.95% to 3.90% (Oct 23)."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -1088,7 +1091,7 @@
    },
    {
     "title": "Reasons the BoJ might wait",
-    "html": "<ul><li><strong>It just raised.</strong> September 18 was only six weeks before this meeting. In the past year the BoJ has never raised at two meetings in a row.</li><li><strong>Two members already said “too soon” in September.</strong> Raising again straight away would deepen that split.</li><li><strong>Consumer prices are near 2%.</strong> National core CPI is 2.1% in September, moving right around the target.</li><li><strong>The economy is growing only slowly.</strong> It grew at a 1.4% yearly pace in spring, but household spending was flat and business investment fell 0.9% in the quarter (<a href=\"https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe262_2/pdf/qepoint2622.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Cabinet Office</a>). Big companies expect business conditions to get worse over the next three months (<a href=\"https://www.boj.or.jp/en/statistics/tk/gaiyo/2026/tka2609.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Tankan</a>).</li><li><strong>The Governor did not commit.</strong> Asked about rises at back-to-back meetings, Governor Ueda said the BoJ cannot promise in advance either way; it depends on the outlook and risks (<a href=\"https://www.boj.or.jp/about/press/kaiken_2026/kk260924a.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">press conference, Japanese</a>).</li><li><strong>The market already pressed the brake.</strong> The 10-year government bond rate is about 2.91%, so home loans and company borrowing have already become more expensive.</li></ul>"
+    "html": "<ul><li><strong>It just raised.</strong> September 18 was only six weeks before this meeting. In the past year the BoJ has never raised at two meetings in a row.</li><li><strong>Two members already said “too soon” in September.</strong> Raising again straight away would deepen that split.</li><li><strong>Consumer prices are near 2%.</strong> National core CPI is 2.1% in September, moving right around the target.</li><li><strong>The economy is growing only slowly.</strong> It grew at a 1.4% yearly pace in spring, but household spending was flat and business investment fell 0.9% in the quarter (<a href=\"https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe262_2/pdf/qepoint2622.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Cabinet Office</a>). Big companies expect business conditions to get worse over the next three months (<a href=\"https://www.boj.or.jp/en/statistics/tk/gaiyo/2026/tka2609.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Tankan</a>).</li><li><strong>The Governor did not commit.</strong> Asked about rises at back-to-back meetings, Governor Ueda said the BoJ cannot promise in advance either way; it depends on the outlook and risks (<a href=\"https://www.boj.or.jp/about/press/kaiken_2026/kk260924a.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">press conference, Japanese</a>).</li><li><strong>The market already pressed the brake.</strong> The 10-year government bond rate is about 2.84%, so home loans and company borrowing have already become more expensive.</li></ul>"
    },
    {
     "title": "Reasons the BoJ might raise in October anyway",
@@ -1270,10 +1273,10 @@
     "because": "markets started asking how soon the next rise would come."
    },
    {
-    "date_label": "September 17 → October 22, 2026",
+    "date_label": "September 17 → October 23, 2026",
     "title": "The yen weakened and bond rates stayed high",
     "kind": "up",
-    "what": "The yen moved from about <strong>¥156</strong> per dollar to about <strong>¥158.38</strong>. The 10-year government bond rate was <strong>2.91%</strong>; the 30-year rate was 3.95%.",
+    "what": "The yen moved from about <strong>¥156</strong> per dollar to about <strong>¥158.21</strong>. The 10-year government bond rate was <strong>2.84%</strong>; the 30-year rate was 3.90%.",
     "why": "Even after the rise, Japan's rates are far below US rates, so money keeps flowing out of the yen. Oil also costs more in yen when the yen is weak.",
     "people": "Imported food, fuel and travel abroad got more expensive. Fixed-rate home loans, which follow long-term bond rates, are much dearer than a year ago.",
     "sources": [
@@ -1414,8 +1417,8 @@
    "other_title": "Other things that could move our view",
    "other": [
     "<strong>Oil and the Middle East.</strong> Brent oil was about $115.22 a barrel on Oct 20. A new jump would raise the chance of a rise. A big drop would make waiting easier.",
-    "<strong>The yen.</strong> The yen was about ¥158.38 per dollar on Oct 21. A slide well past ¥160 would make imported prices rise faster and push the BoJ to act sooner.",
-    "<strong>Long-term bond rates.</strong> The 10-year rate is about 2.91%. A sharp further rise would tighten conditions on its own and make the BoJ more cautious; a fall would remove one reason to wait.",
+    "<strong>The yen.</strong> The yen was about ¥158.21 per dollar on Oct 22. A slide well past ¥160 would make imported prices rise faster and push the BoJ to act sooner.",
+    "<strong>Long-term bond rates.</strong> The 10-year rate is about 2.84%. A sharp further rise would tighten conditions on its own and make the BoJ more cautious; a fall would remove one reason to wait.",
     "<strong>Government energy support.</strong> Subsidies are holding down household energy prices. Any change to them would move the CPI numbers the BoJ watches.",
     "<strong>The Fed.</strong> The US Fed rate upper end is 4.00%. Higher US rates tend to weaken the yen, adding pressure on the BoJ.",
     "<strong>A financial shock.</strong> A sudden market fall would almost certainly push the BoJ to hold."
@@ -1429,8 +1432,7 @@
     "look": "Consumer prices without fresh food (“core CPI”, up 2.1%), without fresh food and energy (up 2.4%), Tokyo prices, and prices businesses pay (up 6.8%).",
     "why": "National consumer prices are meeting the 2% goal, supported by import pressures like import prices up 24.5%. It is not green because pressure is building.",
     "change": "Core inflation settling near 2% without government support, and import prices cooling as oil falls or the yen strengthens.",
-    "matters": "This decides how fast the BoJ raises.",
-    "change_label": "What would improve it"
+    "matters": "This decides how fast the BoJ raises."
    },
    {
     "area": "Jobs",
@@ -1439,8 +1441,7 @@
     "look": "The unemployment rate, the number of jobs per job seeker, wages, and how hard firms find it to hire (Tankan).",
     "why": "Unemployment is low at 2.5%. There are 1.18 jobs on offer per job seeker. Wages rose 3.8% in August, and real wages rose 1.5%.",
     "change": "Unemployment rising toward 3% or the jobs ratio falling sharply → yellow.",
-    "matters": "Strong pay growth is the BoJ's key condition for raising rates. It supports the case for continuing to raise.",
-    "change_label": "What would change it"
+    "matters": "Strong pay growth is the BoJ's key condition for raising rates. It supports the case for continuing to raise."
    },
    {
     "area": "Growth",
@@ -1449,18 +1450,16 @@
     "look": "GDP (the total value of everything the country produces), household spending, business investment and the BoJ's Tankan business survey.",
     "why": "The economy grew at a 0.4% rate in Q2 2026, with household spending flat (0.0%) and business investment down 0.9%. The BoJ forecasts only 0.6% growth for fiscal 2026.",
     "change": "A weak summer GDP figure on November 16 → closer to red. Stronger spending → green.",
-    "matters": "Slow growth is one of the main reasons the BoJ may wait.",
-    "change_label": "What would change it"
+    "matters": "Slow growth is one of the main reasons the BoJ may wait."
    },
    {
     "area": "Money markets",
     "grade": "amber",
     "one": "Long-term borrowing costs are high and the yen is weak.",
     "look": "Japanese government bond rates (2-year, 10-year, 30-year), the yen against the dollar, and the BoJ's own description of financial conditions.",
-    "why": "Worrying: the 10-year rate is about 2.91% and the 30-year is 3.95%, and the yen is near ¥158.38 per dollar. Reassuring: the BoJ says financial conditions remain accommodative.",
+    "why": "Worrying: the 10-year rate is about 2.84% and the 30-year is 3.90%, and the yen is near ¥158.21 per dollar. Reassuring: the BoJ says financial conditions remain accommodative.",
     "change": "A disorderly jump in bond rates or a sharp yen fall → red. Calmer bond rates and a steadier yen → green.",
-    "matters": "High bond rates argue for patience; a weak yen argues for speed.",
-    "change_label": "What would change it"
+    "matters": "High bond rates argue for patience; a weak yen argues for speed."
    }
   ],
   "indicators": {
@@ -1636,19 +1635,19 @@
     "now_label": "Expects more rises",
     "now_tone": "mixed",
     "what": "the interest rate investors demand to lend to the government for two years.",
-    "why": "at 1.91%, it is above the current policy rate, signaling expected future hikes."
+    "why": "at 1.87%, it is above the current policy rate, signaling expected future hikes."
    },
    "10_year_government_bond_rate": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "the rate for lending to the government for 10 years. Many fixed-rate loans follow it.",
-    "why": "at 2.91%, long-term borrowing costs remain elevated."
+    "why": "at 2.84%, long-term borrowing costs remain elevated."
    },
    "30_year_government_bond_rate": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "the rate for lending to the government for 30 years.",
-    "why": "at 3.95%, reflecting long-term debt and inflation expectations."
+    "why": "at 3.90%, reflecting long-term debt and inflation expectations."
    },
    "10_year_rate_monthly_average": {
     "now_label": "Rising trend",
@@ -1660,7 +1659,7 @@
     "now_label": "Weak yen",
     "now_tone": "bad",
     "what": "how many yen it takes to buy one US dollar.",
-    "why": "at ¥158.38, a weak currency makes imports costlier."
+    "why": "at ¥158.21, a weak currency makes imports costlier."
    },
    "exchange_rate_assumed_by_big_exporters": {
     "now_label": "Below market",
@@ -2000,8 +1999,8 @@
     "Aug"
    ],
    "10-yr": [
-    "2.91%",
-    "Oct 22"
+    "2.84%",
+    "Oct 23"
    ]
   },
   "rate_label": "Current BoJ rate",
@@ -2133,6 +2132,43 @@
   "There is a risk that it will deviate upward to a level above the price stability target of 2 percent."
  ],
  "changelog": [
+  {
+   "date": "2026-10-26",
+   "date_label": "Oct 26, 2026",
+   "since": "2026-10-25",
+   "since_label": "Oct 25, 2026",
+   "summary": {
+    "headline": "10-year and 30-year government bond rates dipped slightly, while no major new economic data arrived ahead of the October 30 decision.",
+    "items": [
+     "<strong>10-year government bond rate</strong> fell from 2.91% to 2.84% (Oct 23).",
+     "<strong>30-year government bond rate</strong> fell from 3.95% to 3.90% (Oct 23)."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "10_year_government_bond_rate",
+     "name": "10-year government bond rate",
+     "from": "2.91%",
+     "from_period": "Oct 22, 2026",
+     "to": "2.84%",
+     "to_period": "Oct 23, 2026",
+     "move": "−0.07 pts"
+    },
+    {
+     "id": "30_year_government_bond_rate",
+     "name": "30-year government bond rate",
+     "from": "3.95%",
+     "from_period": "Oct 22, 2026",
+     "to": "3.90%",
+     "to_period": "Oct 23, 2026",
+     "move": "−0.05 pts"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-10-23",
    "date_label": "Oct 23, 2026",
@@ -2369,6 +2405,6 @@
    "automatic": 27,
    "manual": 13
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }

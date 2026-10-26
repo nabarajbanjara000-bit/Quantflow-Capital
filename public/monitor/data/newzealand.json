@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-10-25",
- "asof_label": "Oct 25, 2026",
- "generated_at": "2026-10-25T20:55:57.537Z",
- "data_updated_at": "2026-10-25T20:55:57.537Z",
+ "asof_date": "2026-10-26",
+ "asof_label": "Oct 26, 2026",
+ "generated_at": "2026-10-26T22:46:18.949Z",
+ "data_updated_at": "2026-10-26T22:46:18.949Z",
  "narrative_updated_at": "2026-10-22T19:01:11.695Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 3
+  "days_to_decision": 2
  },
  "kpis": [
   {
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "4.96%",
+   "value": "4.97%",
    "note": "",
-   "period": "Oct 23, 2026",
+   "period": "Oct 26, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield"
   }
@@ -580,15 +580,15 @@
    "name": "2-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
-   "value": "3.92%",
-   "period": "Oct 23, 2026",
-   "released": "Detected Oct 23, 2026",
-   "previous": "3.94% (Oct 22, 2026)",
+   "value": "3.93%",
+   "period": "Oct 26, 2026",
+   "released": "Detected Oct 26, 2026",
+   "previous": "3.92% (Oct 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-23",
+   "latest_date": "2026-10-26",
    "raw": {
-    "v": 3.92
+    "v": 3.93
    },
    "estimate": false
   },
@@ -598,15 +598,15 @@
    "name": "10-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
-   "value": "4.96%",
-   "period": "Oct 23, 2026",
-   "released": "Detected Oct 23, 2026",
-   "previous": "5.00% (Oct 22, 2026)",
+   "value": "4.97%",
+   "period": "Oct 26, 2026",
+   "released": "Detected Oct 26, 2026",
+   "previous": "4.96% (Oct 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-23",
+   "latest_date": "2026-10-26",
    "raw": {
-    "v": 4.955
+    "v": 4.966
    },
    "estimate": false
   },
@@ -670,7 +670,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
    "value": "$115.22 a barrel",
    "period": "Oct 20, 2026",
-   "released": "Oct 22, 2026",
+   "released": "Oct 21, 2026",
    "previous": "$118.82 (Oct 19, 2026)",
    "tag": "official",
    "manual": false,
@@ -718,12 +718,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 25, 2026",
-   "released": "Oct 25, 2026",
-   "previous": "4.00% (Oct 24, 2026)",
+   "period": "Oct 26, 2026",
+   "released": "Oct 26, 2026",
+   "previous": "4.00% (Oct 25, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-25",
+   "latest_date": "2026-10-26",
    "raw": {
     "v": 4
    },
@@ -736,12 +736,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 25, 2026",
-   "released": "Detected Oct 25, 2026",
-   "previous": "2.50% (Oct 24, 2026)",
+   "period": "Oct 26, 2026",
+   "released": "Detected Oct 26, 2026",
+   "previous": "2.50% (Oct 25, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-25",
+   "latest_date": "2026-10-26",
    "raw": {
     "v": 2.5
    },
@@ -1810,8 +1810,8 @@
     "Q2"
    ],
    "10-yr": [
-    "4.96%",
-    "Oct 23"
+    "4.97%",
+    "Oct 26"
    ]
   },
   "rate_label": "Current OCR",
