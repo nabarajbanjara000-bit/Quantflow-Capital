@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-10-26",
- "asof_label": "Oct 26, 2026",
- "generated_at": "2026-10-26T22:46:18.949Z",
- "data_updated_at": "2026-10-26T22:46:18.949Z",
- "narrative_updated_at": "2026-10-22T19:01:11.695Z",
+ "asof_date": "2026-10-27",
+ "asof_label": "Oct 27, 2026",
+ "generated_at": "2026-10-27T22:22:19.742Z",
+ "data_updated_at": "2026-10-27T22:22:19.742Z",
+ "narrative_updated_at": "2026-10-27T22:22:19.742Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 2
+  "days_to_decision": 1
  },
  "kpis": [
   {
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "4.97%",
+   "value": "4.95%",
    "note": "",
-   "period": "Oct 26, 2026",
+   "period": "Oct 27, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield"
   }
@@ -562,15 +562,15 @@
    "name": "90-day bank bill rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/3-month-bill-yield",
-   "value": "3.35%",
-   "period": "Oct 23, 2026",
-   "released": "Detected Oct 23, 2026",
-   "previous": "3.35% (Oct 22, 2026)",
+   "value": "3.39%",
+   "period": "Oct 27, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "3.35% (Oct 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-23",
+   "latest_date": "2026-10-27",
    "raw": {
-    "v": 3.35
+    "v": 3.39
    },
    "estimate": false
   },
@@ -580,15 +580,15 @@
    "name": "2-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
-   "value": "3.93%",
-   "period": "Oct 26, 2026",
-   "released": "Detected Oct 26, 2026",
-   "previous": "3.92% (Oct 23, 2026)",
+   "value": "3.97%",
+   "period": "Oct 27, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "3.95% (Oct 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-26",
+   "latest_date": "2026-10-27",
    "raw": {
-    "v": 3.93
+    "v": 3.97
    },
    "estimate": false
   },
@@ -598,15 +598,15 @@
    "name": "10-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
-   "value": "4.97%",
-   "period": "Oct 26, 2026",
-   "released": "Detected Oct 26, 2026",
-   "previous": "4.96% (Oct 23, 2026)",
+   "value": "4.95%",
+   "period": "Oct 27, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "4.98% (Oct 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-26",
+   "latest_date": "2026-10-27",
    "raw": {
-    "v": 4.966
+    "v": 4.95
    },
    "estimate": false
   },
@@ -718,12 +718,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 26, 2026",
-   "released": "Oct 26, 2026",
-   "previous": "4.00% (Oct 25, 2026)",
+   "period": "Oct 27, 2026",
+   "released": "Oct 27, 2026",
+   "previous": "4.00% (Oct 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-26",
+   "latest_date": "2026-10-27",
    "raw": {
     "v": 4
    },
@@ -736,12 +736,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 26, 2026",
-   "released": "Detected Oct 26, 2026",
-   "previous": "2.50% (Oct 25, 2026)",
+   "period": "Oct 27, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "2.50% (Oct 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-26",
+   "latest_date": "2026-10-27",
    "raw": {
     "v": 2.5
    },
@@ -924,7 +924,7 @@
    },
    {
     "title": "Reasons the RBNZ might hold in October",
-    "html": "<ul><li><strong>Inflation cooled more than expected.</strong> Q3 CPI came in at 3.7%, below the RBNZ's 3.9% forecast.</li><li><strong>The economy is weak.</strong> GDP grew only <strong>0.2%</strong> in the June quarter and household spending was flat (<a href=\"https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/\" target=\"_blank\" rel=\"noopener noreferrer\">Stats NZ</a>). Unemployment is <strong>5.6%</strong>, and the RBNZ expects it to stay above 5% until 2028.</li><li><strong>Bond markets already pressed the brake.</strong> The 10-year government bond rate is 5.00%. Fixed mortgage rates follow these wholesale rates.</li><li><strong>December brings full forecasts.</strong> October is a shorter Review without full new forecasts.</li><li><strong>“May”, not “will”.</strong> September’s wording (“may need to increase further”) was softer than July’s (“further OCR increases appear likely”).</li></ul>"
+    "html": "<ul><li><strong>Inflation cooled more than expected.</strong> Q3 CPI came in at 3.7%, below the RBNZ's 3.9% forecast.</li><li><strong>The economy is weak.</strong> GDP grew only <strong>0.2%</strong> in the June quarter and household spending was flat (<a href=\"https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/\" target=\"_blank\" rel=\"noopener noreferrer\">Stats NZ</a>). Unemployment is <strong>5.6%</strong>, and the RBNZ expects it to stay above 5% until 2028.</li><li><strong>Bond markets already pressed the brake.</strong> The 10-year government bond rate is 4.95%. Fixed mortgage rates follow these wholesale rates.</li><li><strong>December brings full forecasts.</strong> October is a shorter Review without full new forecasts.</li><li><strong>“May”, not “will”.</strong> September’s wording (“may need to increase further”) was softer than July’s (“further OCR increases appear likely”).</li></ul>"
    },
    {
     "title": "Reasons the RBNZ might still raise in October",
@@ -1113,7 +1113,7 @@
     "date_label": "September 22 – October 6, 2026",
     "title": "Oil spikes, the Kiwi dollar slides",
     "kind": "up",
-    "what": "Brent oil rose toward $126.55 by mid-October before easing back to $115.22. One NZ dollar fell to US$0.5621, and the New Zealand 10-year bond rate reached 5.00%. Governor Breman noted the challenging global environment.",
+    "what": "Brent oil rose toward $126.55 by mid-October before easing back to $115.22. One NZ dollar fell to US$0.5621, and the New Zealand 10-year bond rate reached 4.95%. Governor Breman noted the challenging global environment.",
     "sources": [
      {
       "label": "Brent (FRED)",
@@ -1135,7 +1135,7 @@
     "date_label": "October 22, 2026",
     "title": "Q3 CPI comes in at 3.7%",
     "kind": "now",
-    "what": "Stats NZ reported Q3 2026 annual CPI inflation at 3.7%, below the RBNZ's 3.9% forecast. The OCR is 2.75%, the 2-year government bond yield 3.94%, the 10-year 5.00%, and the trade-weighted index 63.94. The October Review takes place on October 28.",
+    "what": "Stats NZ reported Q3 2026 annual CPI inflation at 3.7%, below the RBNZ's 3.9% forecast. The OCR is 2.75%, the 2-year government bond yield 3.97%, the 10-year 4.95%, and the trade-weighted index 63.94. The October Review takes place on October 28.",
     "sources": [
      {
       "label": "CPI (Stats NZ)",
@@ -1162,7 +1162,7 @@
     "for": [
      "<strong>Inflation is cooling.</strong> Q3 CPI fell to 3.7%, below the RBNZ's 3.9% forecast.",
      "<strong>Weak growth and high unemployment.</strong> GDP grew only 0.2% and unemployment is 5.6%.",
-     "<strong>Bond markets did some of the work.</strong> The 10-year rate is 5.00%.",
+     "<strong>Bond markets did some of the work.</strong> The 10-year rate is 4.95%.",
      "<strong>December is a better moment</strong> for full new forecasts and labour market updates.",
      "<strong>Softer wording.</strong> September’s “may need to increase further” leaves room to pause."
     ],
@@ -1257,7 +1257,7 @@
     "<strong>Oil and the Middle East.</strong> Brent is at $115.22 a barrel. A sustained move back below US$100 would make waiting much easier.",
     "<strong>The Kiwi dollar.</strong> A further slide below US$0.55 would add to imported inflation.",
     "<strong>Final words from the RBNZ.</strong> Any speech or interview before October 28 is a direct hint.",
-    "<strong>Bond markets.</strong> If the 10-year rate (5.00%) falls back sharply, one argument for Hold strengthens."
+    "<strong>Bond markets.</strong> If the 10-year rate (4.95%) falls back sharply, one argument for Hold strengthens."
    ]
   },
   "report_card": [
@@ -1296,7 +1296,7 @@
     "grade": "amber",
     "one": "Borrowing costs have jumped, and the Kiwi dollar is weak.",
     "look": "Wholesale interest rates and the NZ dollar.",
-    "why": "The 10-year government bond rate is 5.00%. The NZ dollar sits at US$0.5621, and the trade-weighted index is 63.94.",
+    "why": "The 10-year government bond rate is 4.95%. The NZ dollar sits at US$0.5621, and the trade-weighted index is 63.94.",
     "change": "A calmer currency and lower long rates → green.",
     "matters": "Higher market rates cool borrowing, supporting a pause.",
     "change_label": "What would change it"
@@ -1457,19 +1457,19 @@
     "now_label": "Priced for stability",
     "now_tone": "mixed",
     "what": "three-month bank borrowing rate.",
-    "why": "at 3.35%."
+    "why": "at 3.39%."
    },
    "2_year_government_bond_yield": {
     "now_label": "Above OCR",
     "now_tone": "bad",
     "what": "government two-year borrowing cost.",
-    "why": "at 3.94%."
+    "why": "at 3.97%."
    },
    "10_year_government_bond_yield": {
-    "now_label": "At 5%",
+    "now_label": "Near 5%",
     "now_tone": "bad",
     "what": "government ten-year borrowing cost.",
-    "why": "at 5.00%."
+    "why": "at 4.95%."
    },
    "market_odds_of_an_october_rise": {
     "now_label": "Balanced",
@@ -1682,7 +1682,7 @@
    "<strong>Individual core inflation measures and household inflation expectations</strong> were not collected; we have only the RBNZ’s average and description.",
    "<strong>Recent speeches.</strong> We found no MPC speech between Governor Breman’s September 22 Dunedin remarks and today.",
    "<strong>Who votes in October.</strong> We assume seven members, but the RBNZ has not confirmed attendance.",
-   "<strong>How we gathered data:</strong> data were gathered via web search and direct page reads on October 22, 2026."
+   "<strong>How we gathered data:</strong> data were gathered via web search and direct page reads on October 27, 2026."
   ],
   "group_intros": {
    "prices": "These numbers tell us how fast things are getting more expensive in New Zealand. The RBNZ’s job is to keep yearly inflation between 1% and 3%, aiming for the 2% midpoint over the medium term. New Zealand measures consumer prices quarterly.",
@@ -1810,8 +1810,8 @@
     "Q2"
    ],
    "10-yr": [
-    "4.97%",
-    "Oct 26"
+    "4.95%",
+    "Oct 27"
    ]
   },
   "rate_label": "Current OCR",
@@ -2116,6 +2116,6 @@
    "automatic": 18,
    "manual": 21
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }

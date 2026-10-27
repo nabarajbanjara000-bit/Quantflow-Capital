@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-10-26",
- "asof_label": "Oct 26, 2026",
- "generated_at": "2026-10-26T22:43:29.089Z",
- "data_updated_at": "2026-10-26T22:43:29.089Z",
- "narrative_updated_at": "2026-10-26T22:43:29.089Z",
+ "asof_date": "2026-10-27",
+ "asof_label": "Oct 27, 2026",
+ "generated_at": "2026-10-27T22:19:00.160Z",
+ "data_updated_at": "2026-10-27T22:19:00.160Z",
+ "narrative_updated_at": "2026-10-27T22:19:00.160Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 4
+  "days_to_decision": 3
  },
  "kpis": [
   {
    "label": "BoJ interest rate",
    "value": "1.25%",
    "note": "",
-   "period": "Oct 22, 2026",
+   "period": "Oct 25, 2026",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "2.84%",
+   "value": "2.82%",
    "note": "",
-   "period": "Oct 23, 2026",
+   "period": "Oct 26, 2026",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv"
   }
@@ -605,12 +605,12 @@
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf",
    "value": "1.25%",
-   "period": "Oct 22, 2026",
-   "released": "Detected Oct 26, 2026",
-   "previous": "1.25% (Oct 21, 2026)",
+   "period": "Oct 25, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "1.25% (Oct 24, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-25",
    "raw": {
     "v": 1.25
    },
@@ -641,15 +641,15 @@
    "name": "2-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "1.87%",
-   "period": "Oct 23, 2026",
-   "released": "Detected Oct 26, 2026",
-   "previous": "1.91% (Oct 22, 2026)",
+   "value": "1.89%",
+   "period": "Oct 26, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "1.87% (Oct 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-23",
+   "latest_date": "2026-10-26",
    "raw": {
-    "v": 1.872
+    "v": 1.888
    },
    "estimate": false
   },
@@ -659,15 +659,15 @@
    "name": "10-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "2.84%",
-   "period": "Oct 23, 2026",
-   "released": "Detected Oct 26, 2026",
-   "previous": "2.91% (Oct 22, 2026)",
+   "value": "2.82%",
+   "period": "Oct 26, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "2.84% (Oct 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-23",
+   "latest_date": "2026-10-26",
    "raw": {
-    "v": 2.837
+    "v": 2.824
    },
    "estimate": false
   },
@@ -677,15 +677,15 @@
    "name": "30-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "3.90%",
-   "period": "Oct 23, 2026",
-   "released": "Detected Oct 26, 2026",
-   "previous": "3.95% (Oct 22, 2026)",
+   "value": "3.88%",
+   "period": "Oct 26, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "3.90% (Oct 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-23",
+   "latest_date": "2026-10-26",
    "raw": {
-    "v": 3.904
+    "v": 3.884
    },
    "estimate": false
   },
@@ -714,15 +714,15 @@
    "name": "Yen per US dollar",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261009.pdf",
-   "value": "¥158.21",
-   "period": "Oct 22, 2026",
-   "released": "Detected Oct 26, 2026",
-   "previous": "¥158.38 (Oct 21, 2026)",
+   "value": "¥156.45",
+   "period": "Oct 23, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "¥158.21 (Oct 22, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-23",
    "raw": {
-    "v": 158.21
+    "v": 156.45
    },
    "estimate": false
   },
@@ -1050,11 +1050,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "10-year and 30-year government bond rates dipped slightly, while no major new economic data arrived ahead of the October 30 decision.",
-   "items": [
-    "<strong>10-year government bond rate</strong> fell from 2.91% to 2.84% (Oct 23).",
-    "<strong>30-year government bond rate</strong> fell from 3.95% to 3.90% (Oct 23)."
-   ]
+   "headline": "No major new economic data arrived as the BoJ approaches its October 29–30 policy meeting.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -1083,19 +1080,19 @@
    },
    {
     "title": "Right now, the price picture is mixed",
-    "html": "On the surface, prices are close to the target. In September, consumer prices without fresh food (the BoJ's main measure, often called “core CPI”) were up <strong>2.1%</strong> on a year earlier, right around the 2% goal (<a href=\"https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html\" target=\"_blank\" rel=\"noopener noreferrer\">Statistics Bureau</a>). In simple terms: a basket of everyday things that cost ¥10,000 a year ago now costs about <strong>¥10,210</strong>.\n\nUnderneath, pressure remains visible. A Middle East conflict pushed oil prices up this year, and the yen is weak, at about <strong>¥158 per US dollar</strong>. Together these make imports expensive: prices Japanese companies pay for imports were up <strong>24.5%</strong> in yen terms in September, and prices companies charge each other were up <strong>6.8%</strong> (<a href=\"https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2609.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">BoJ</a>). Household energy bills look stable partly because the government is helping with subsidies (<a href=\"https://www.boj.or.jp/en/mopo/outlook/gor2607b.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Outlook Report</a>).\n\nTokyo figures showed a jump in September, with prices without fresh food and energy up <strong>2.9%</strong> (<a href=\"https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/kubu.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Statistics Bureau</a>), partly driven by public fees."
+    "html": "On the surface, prices are close to the target. In September, consumer prices without fresh food (the BoJ's main measure, often called “core CPI”) were up <strong>2.1%</strong> on a year earlier, right around the 2% goal (<a href=\"https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html\" target=\"_blank\" rel=\"noopener noreferrer\">Statistics Bureau</a>). In simple terms: a basket of everyday things that cost ¥10,000 a year ago now costs about <strong>¥10,210</strong>.\n\nUnderneath, pressure remains visible. A Middle East conflict pushed oil prices up this year, and the yen is weak, at about <strong>¥156.45 per US dollar</strong>. Together these make imports expensive: prices Japanese companies pay for imports were up <strong>24.5%</strong> in yen terms in September, and prices companies charge each other were up <strong>6.8%</strong> (<a href=\"https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2609.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">BoJ</a>). Household energy bills look stable partly because the government is helping with subsidies (<a href=\"https://www.boj.or.jp/en/mopo/outlook/gor2607b.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Outlook Report</a>).\n\nTokyo figures showed a jump in September, with prices without fresh food and energy up <strong>2.9%</strong> (<a href=\"https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/kubu.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Statistics Bureau</a>), partly driven by public fees."
    },
    {
     "title": "So the BoJ has been pressing the brake, step by step",
-    "html": "The BoJ raised its rate three times in the past year: to <strong>0.75%</strong> in December 2025, to <strong>1.0%</strong> in June 2026 and to <strong>1.25%</strong> on September 18, 2026. Each time it waited at least about three months before the next rise.\n\nThe September rise was not unanimous: the vote was <strong>7–2</strong>. Member Asada Toichiro said core prices had recently been “below 2 percent” and the economy could not be called strong; member Sato Ayano said the economy and prices had not “substantially accelerated” (<a href=\"https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">statement</a>). At the same time, other members want to go faster. The BoJ's statement says it “will continue to raise the policy interest rate”, but gives no date.\n\nThere are only two meetings left this year: <strong>October 30</strong> and <strong>December 18</strong>. The question is whether the next rise comes now, or later."
+    "html": "The BoJ raised its rate three times in the past year: to <strong>0.75%</strong> in December 2025, to <strong>1.0%</strong> in June 2026 and to <strong>1.25%</strong> on September 18, 2026. Each time it waited at least about three months before the next rise.\n\nThe September rise was not unanimous: the vote was <strong>7–2</strong>. Member Asada Toichiro said core prices had recently been “below 2 percent” and the economy could not be called strong; member Sato Ayano said the economy and prices had not “substantially accelerated” (<a href=\"https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">statement</a>). At the same time, other members want to go faster. The BoJ's statement says it “will continue to raise the policy interest rate”, but gives no date.\n\nThere are only two meetings left this year: <strong>October 29–30</strong> and <strong>December 17–18</strong>. The question is whether the next rise comes now, or later."
    },
    {
     "title": "Reasons the BoJ might wait",
-    "html": "<ul><li><strong>It just raised.</strong> September 18 was only six weeks before this meeting. In the past year the BoJ has never raised at two meetings in a row.</li><li><strong>Two members already said “too soon” in September.</strong> Raising again straight away would deepen that split.</li><li><strong>Consumer prices are near 2%.</strong> National core CPI is 2.1% in September, moving right around the target.</li><li><strong>The economy is growing only slowly.</strong> It grew at a 1.4% yearly pace in spring, but household spending was flat and business investment fell 0.9% in the quarter (<a href=\"https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe262_2/pdf/qepoint2622.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Cabinet Office</a>). Big companies expect business conditions to get worse over the next three months (<a href=\"https://www.boj.or.jp/en/statistics/tk/gaiyo/2026/tka2609.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Tankan</a>).</li><li><strong>The Governor did not commit.</strong> Asked about rises at back-to-back meetings, Governor Ueda said the BoJ cannot promise in advance either way; it depends on the outlook and risks (<a href=\"https://www.boj.or.jp/about/press/kaiken_2026/kk260924a.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">press conference, Japanese</a>).</li><li><strong>The market already pressed the brake.</strong> The 10-year government bond rate is about 2.84%, so home loans and company borrowing have already become more expensive.</li></ul>"
+    "html": "<ul><li><strong>It just raised.</strong> September 18 was only six weeks before this meeting. In the past year the BoJ has never raised at two meetings in a row.</li><li><strong>Two members already said “too soon” in September.</strong> Raising again straight away would deepen that split.</li><li><strong>Consumer prices are near 2%.</strong> National core CPI is 2.1% in September, moving right around the target.</li><li><strong>The economy is growing only slowly.</strong> It grew at a 1.4% yearly pace in spring, but household spending was flat and business investment fell 0.9% in the quarter (<a href=\"https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe262_2/pdf/qepoint2622.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Cabinet Office</a>). Big companies expect business conditions to get worse over the next three months (<a href=\"https://www.boj.or.jp/en/statistics/tk/gaiyo/2026/tka2609.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Tankan</a>).</li><li><strong>The Governor did not commit.</strong> Asked about rises at back-to-back meetings, Governor Ueda said the BoJ cannot promise in advance either way; it depends on the outlook and risks (<a href=\"https://www.boj.or.jp/about/press/kaiken_2026/kk260924a.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">press conference, Japanese</a>).</li><li><strong>The market already pressed the brake.</strong> The 10-year government bond rate is about 2.82%, so home loans and company borrowing have already become more expensive.</li></ul>"
    },
    {
     "title": "Reasons the BoJ might raise in October anyway",
-    "html": "<ul><li><strong>A forecast meeting.</strong> October is one of the four meetings each year with a new Outlook Report, which gives the BoJ a natural moment to explain a move.</li><li><strong>Price pressure in the pipeline.</strong> Import prices up 24.5% and business prices up 6.8% usually reach shop shelves later. Member Takata warned that “the rise in producer prices upstream will likely spread to consumer prices downstream” (<a href=\"https://www.boj.or.jp/en/about/press/koen_2026/ko260902a.htm\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>).</li><li><strong>The weak yen.</strong> At about ¥158 per dollar, the yen makes imported food and fuel dearer. The BoJ says it does not target the yen, but it does say exchange rates affect prices.</li><li><strong>Some members want speed.</strong> In September one view was that “If signs of an upward deviation in prices are observed, the Bank will need to accelerate the pace of rate hikes” (<a href=\"https://www.boj.or.jp/en/mopo/mpmsche_minu/opinion_2026/opi260918.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Summary of Opinions</a>).</li><li><strong>The BoJ expects inflation to stay up.</strong> Deputy Governor Himino said “CPI inflation will move up and stay above 2 percent in the second half of fiscal 2026”, which is October 2026 to March 2027 (<a href=\"https://www.boj.or.jp/en/about/press/koen_2026/ko260827a.htm\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>).</li></ul>"
+    "html": "<ul><li><strong>A forecast meeting.</strong> October is one of the four meetings each year with a new Outlook Report, which gives the BoJ a natural moment to explain a move.</li><li><strong>Price pressure in the pipeline.</strong> Import prices up 24.5% and business prices up 6.8% usually reach shop shelves later. Member Takata warned that “the rise in producer prices upstream will likely spread to consumer prices downstream” (<a href=\"https://www.boj.or.jp/en/about/press/koen_2026/ko260902a.htm\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>).</li><li><strong>The weak yen.</strong> At about ¥156.45 per dollar, the yen makes imported food and fuel dearer. The BoJ says it does not target the yen, but it does say exchange rates affect prices.</li><li><strong>Some members want speed.</strong> In September one view was that “If signs of an upward deviation in prices are observed, the Bank will need to accelerate the pace of rate hikes” (<a href=\"https://www.boj.or.jp/en/mopo/mpmsche_minu/opinion_2026/opi260918.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Summary of Opinions</a>).</li><li><strong>The BoJ expects inflation to stay up.</strong> Deputy Governor Himino said “CPI inflation will move up and stay above 2 percent in the second half of fiscal 2026”, which is October 2026 to March 2027 (<a href=\"https://www.boj.or.jp/en/about/press/koen_2026/ko260827a.htm\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>).</li></ul>"
    },
    {
     "title": "Weighing both sides",
@@ -1104,7 +1101,7 @@
      "left": [
       "Import prices +24.5%, business prices +6.8%",
       "National core CPI reached 2.1%",
-      "Yen near ¥158 per dollar",
+      "Yen near ¥156.45 per dollar",
       "Oil still very high",
       "New forecasts due at this meeting"
      ],
@@ -1258,7 +1255,7 @@
     "title": "The BoJ raised its rate to 1.25%",
     "kind": "up",
     "what": "A rise of 0.25 points, by a 7–2 vote. Asada and Sato voted against. The BoJ said “underlying CPI inflation has been approaching 2 percent” and that it “will continue to raise the policy interest rate.”",
-    "why": "Markets started asking how soon the next rise would come.",
+    "why": "Markets started how soon the next rise would come.",
     "people": "Variable loan rates rose again. Deposit rates edged up.",
     "sources": [
      {
@@ -1273,10 +1270,10 @@
     "because": "markets started asking how soon the next rise would come."
    },
    {
-    "date_label": "September 17 → October 23, 2026",
+    "date_label": "September 17 → October 26, 2026",
     "title": "The yen weakened and bond rates stayed high",
     "kind": "up",
-    "what": "The yen moved from about <strong>¥156</strong> per dollar to about <strong>¥158.21</strong>. The 10-year government bond rate was <strong>2.84%</strong>; the 30-year rate was 3.90%.",
+    "what": "The yen moved from about <strong>¥156</strong> per dollar to about <strong>¥156.45</strong>. The 10-year government bond rate was <strong>2.82%</strong>; the 30-year rate was 3.88%.",
     "why": "Even after the rise, Japan's rates are far below US rates, so money keeps flowing out of the yen. Oil also costs more in yen when the yen is weak.",
     "people": "Imported food, fuel and travel abroad got more expensive. Fixed-rate home loans, which follow long-term bond rates, are much dearer than a year ago.",
     "sources": [
@@ -1340,7 +1337,7 @@
      "<strong>New forecasts.</strong> October brings a new Outlook Report, a natural moment to explain a rise.",
      "<strong>The BoJ expects inflation above 2% now.</strong> Deputy Governor Himino expects CPI inflation to “stay above 2 percent in the second half of fiscal 2026.”",
      "<strong>Hawkish members.</strong> Some members want to reach the rate goal “relatively soon” and to “accelerate the pace” if prices overshoot.",
-     "<strong>Yen and oil.</strong> The yen near ¥158 and Brent oil above $115 keep import costs high."
+     "<strong>Yen and oil.</strong> The yen near ¥156.45 and Brent oil above $115 keep import costs high."
     ],
     "against": [
      "<strong>It would deepen the split.</strong> Two members already opposed the last rise.",
@@ -1373,10 +1370,6 @@
    "intro_title": "Why “before” and “after” the meeting matters",
    "intro": "The BoJ can only react to information it has <strong>already seen</strong>. A report released before October 30 can change the October decision. A report released after it can only shape what happens in December. That is why the reports in the first part of the table matter most right now. All times are Japan Standard Time (JST), which is 13 hours ahead of US Eastern Time.",
    "reports": {
-    "national_cpi": {
-     "why": "The most important report before the meeting. It shows whether Tokyo's September jump is spreading nationwide.",
-     "trigger": "Core CPI about 2.5% or more → Raise becomes much more likely. Still near 2% → more confident in Hold."
-    },
     "services_producer_price_index": {
      "why": "Shows whether costs are rising beyond goods and energy.",
      "trigger": "A clear speed-up would add to the case for Raise."
@@ -1417,8 +1410,8 @@
    "other_title": "Other things that could move our view",
    "other": [
     "<strong>Oil and the Middle East.</strong> Brent oil was about $115.22 a barrel on Oct 20. A new jump would raise the chance of a rise. A big drop would make waiting easier.",
-    "<strong>The yen.</strong> The yen was about ¥158.21 per dollar on Oct 22. A slide well past ¥160 would make imported prices rise faster and push the BoJ to act sooner.",
-    "<strong>Long-term bond rates.</strong> The 10-year rate is about 2.84%. A sharp further rise would tighten conditions on its own and make the BoJ more cautious; a fall would remove one reason to wait.",
+    "<strong>The yen.</strong> The yen was about ¥156.45 per dollar on Oct 23. A slide well past ¥160 would make imported prices rise faster and push the BoJ to act sooner.",
+    "<strong>Long-term bond rates.</strong> The 10-year rate is about 2.82%. A sharp further rise would tighten conditions on its own and make the BoJ more cautious; a fall would remove one reason to wait.",
     "<strong>Government energy support.</strong> Subsidies are holding down household energy prices. Any change to them would move the CPI numbers the BoJ watches.",
     "<strong>The Fed.</strong> The US Fed rate upper end is 4.00%. Higher US rates tend to weaken the yen, adding pressure on the BoJ.",
     "<strong>A financial shock.</strong> A sudden market fall would almost certainly push the BoJ to hold."
@@ -1457,7 +1450,7 @@
     "grade": "amber",
     "one": "Long-term borrowing costs are high and the yen is weak.",
     "look": "Japanese government bond rates (2-year, 10-year, 30-year), the yen against the dollar, and the BoJ's own description of financial conditions.",
-    "why": "Worrying: the 10-year rate is about 2.84% and the 30-year is 3.90%, and the yen is near ¥158.21 per dollar. Reassuring: the BoJ says financial conditions remain accommodative.",
+    "why": "Worrying: the 10-year rate is about 2.82% and the 30-year is 3.88%, and the yen is near ¥156.45 per dollar. Reassuring: the BoJ says financial conditions remain accommodative.",
     "change": "A disorderly jump in bond rates or a sharp yen fall → red. Calmer bond rates and a steadier yen → green.",
     "matters": "High bond rates argue for patience; a weak yen argues for speed."
    }
@@ -1635,19 +1628,19 @@
     "now_label": "Expects more rises",
     "now_tone": "mixed",
     "what": "the interest rate investors demand to lend to the government for two years.",
-    "why": "at 1.87%, it is above the current policy rate, signaling expected future hikes."
+    "why": "at 1.89%, it is above the current policy rate, signaling expected future hikes."
    },
    "10_year_government_bond_rate": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "the rate for lending to the government for 10 years. Many fixed-rate loans follow it.",
-    "why": "at 2.84%, long-term borrowing costs remain elevated."
+    "why": "at 2.82%, long-term borrowing costs remain elevated."
    },
    "30_year_government_bond_rate": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "the rate for lending to the government for 30 years.",
-    "why": "at 3.90%, reflecting long-term debt and inflation expectations."
+    "why": "at 3.88%, reflecting long-term debt and inflation expectations."
    },
    "10_year_rate_monthly_average": {
     "now_label": "Rising trend",
@@ -1659,7 +1652,7 @@
     "now_label": "Weak yen",
     "now_tone": "bad",
     "what": "how many yen it takes to buy one US dollar.",
-    "why": "at ¥158.21, a weak currency makes imports costlier."
+    "why": "at ¥156.45, a weak currency makes imports costlier."
    },
    "exchange_rate_assumed_by_big_exporters": {
     "now_label": "Below market",
@@ -1999,8 +1992,8 @@
     "Aug"
    ],
    "10-yr": [
-    "2.84%",
-    "Oct 23"
+    "2.82%",
+    "Oct 26"
    ]
   },
   "rate_label": "Current BoJ rate",
@@ -2132,6 +2125,32 @@
   "There is a risk that it will deviate upward to a level above the price stability target of 2 percent."
  ],
  "changelog": [
+  {
+   "date": "2026-10-27",
+   "date_label": "Oct 27, 2026",
+   "since": "2026-10-26",
+   "since_label": "Oct 26, 2026",
+   "summary": {
+    "headline": "No major new economic data arrived as the BoJ approaches its October 29–30 policy meeting.",
+    "items": []
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Indicators for Core CPI",
+     "date": "2026-10-27",
+     "url": "http://www.boj.or.jp/en/research/research_data/cpi/index.htm"
+    },
+    {
+     "title": "Services Producer Price Index (Sept.)",
+     "date": "2026-10-26",
+     "url": "http://www.boj.or.jp/en/statistics/pi/cspi_release/sppi2609.pdf"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-10-26",
    "date_label": "Oct 26, 2026",
@@ -2371,6 +2390,16 @@
   "ai_errors": [],
   "sources_read": [
    {
+    "title": "Indicators for Core CPI",
+    "date": "2026-10-27",
+    "url": "http://www.boj.or.jp/en/research/research_data/cpi/index.htm"
+   },
+   {
+    "title": "Services Producer Price Index (Sept.)",
+    "date": "2026-10-26",
+    "url": "http://www.boj.or.jp/en/statistics/pi/cspi_release/sppi2609.pdf"
+   },
+   {
     "title": "Financial System Report (October 2026)",
     "date": "2026-10-23",
     "url": "http://www.boj.or.jp/en/research/brp/fsr/fsr261023.htm"
@@ -2389,16 +2418,6 @@
     "title": "Bank of Japan Accounts (October 20)",
     "date": "2026-10-22",
     "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac261020.htm"
-   },
-   {
-    "title": "Senior Loan Officer Opinion Survey (Oct.)",
-    "date": "2026-10-21",
-    "url": "http://www.boj.or.jp/en/statistics/dl/loan/loos/release/loos2610.pdf"
-   },
-   {
-    "title": "Statistics on Securities Financing Transactions in Japan",
-    "date": "2026-10-21",
-    "url": "http://www.boj.or.jp/en/statistics/bis/repo/index.htm"
    }
   ],
   "coverage": {

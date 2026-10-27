@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-10-26",
- "asof_label": "Oct 26, 2026",
- "generated_at": "2026-10-26T22:48:00.846Z",
- "data_updated_at": "2026-10-26T22:48:00.846Z",
+ "asof_date": "2026-10-27",
+ "asof_label": "Oct 27, 2026",
+ "generated_at": "2026-10-27T22:23:27.523Z",
+ "data_updated_at": "2026-10-27T22:23:27.523Z",
  "narrative_updated_at": "2026-10-26T22:48:00.846Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 10
+  "days_to_decision": 9
  },
  "kpis": [
   {
    "label": "Bank of England rate",
    "value": "3.75%",
    "note": "",
-   "period": "Oct 23, 2026",
+   "period": "Oct 26, 2026",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year gilt rate",
-   "value": "5.28%",
+   "value": "5.32%",
    "note": "",
-   "period": "Oct 22, 2026",
+   "period": "Oct 23, 2026",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y"
   }
@@ -601,12 +601,12 @@
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
    "value": "3.75%",
-   "period": "Oct 23, 2026",
-   "released": "Detected Oct 26, 2026",
-   "previous": "3.75% (Oct 22, 2026)",
+   "period": "Oct 26, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "3.75% (Oct 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-23",
+   "latest_date": "2026-10-26",
    "raw": {
     "v": 3.75
    },
@@ -618,15 +618,15 @@
    "name": "SONIA (overnight rate between banks)",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "3.735%",
-   "period": "Oct 22, 2026",
-   "released": "Detected Oct 26, 2026",
-   "previous": "3.734% (Oct 21, 2026)",
+   "value": "3.734%",
+   "period": "Oct 23, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "3.735% (Oct 22, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-23",
    "raw": {
-    "v": 3.7345
+    "v": 3.7338
    },
    "estimate": false
   },
@@ -636,15 +636,15 @@
    "name": "10-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "5.28%",
-   "period": "Oct 22, 2026",
-   "released": "Detected Oct 26, 2026",
-   "previous": "5.33% (Oct 21, 2026)",
+   "value": "5.32%",
+   "period": "Oct 23, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "5.28% (Oct 22, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-23",
    "raw": {
-    "v": 5.2784
+    "v": 5.3152
    },
    "estimate": false
   },
@@ -654,15 +654,15 @@
    "name": "5-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "4.91%",
-   "period": "Oct 22, 2026",
-   "released": "Detected Oct 26, 2026",
-   "previous": "4.95% (Oct 21, 2026)",
+   "value": "4.94%",
+   "period": "Oct 23, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "4.91% (Oct 22, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-22",
+   "latest_date": "2026-10-23",
    "raw": {
-    "v": 4.908
+    "v": 4.9403
    },
    "estimate": false
   },
@@ -685,15 +685,15 @@
    "name": "Pound vs U.S. dollar",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "US$1.3387",
-   "period": "Oct 23, 2026",
-   "released": "Detected Oct 26, 2026",
-   "previous": "US$1.3363 (Oct 22, 2026)",
+   "value": "US$1.3347",
+   "period": "Oct 26, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "US$1.3387 (Oct 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-23",
+   "latest_date": "2026-10-26",
    "raw": {
-    "v": 1.3387
+    "v": 1.3347
    },
    "estimate": false
   },
@@ -703,15 +703,15 @@
    "name": "Pound vs euro / trade-weighted index",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "€1.1947",
-   "period": "Oct 23, 2026",
-   "released": "Detected Oct 26, 2026",
-   "previous": "€1.1934 (Oct 22, 2026)",
+   "value": "€1.1940",
+   "period": "Oct 26, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "€1.1947 (Oct 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-23",
+   "latest_date": "2026-10-26",
    "raw": {
-    "v": 1.1947
+    "v": 1.194
    },
    "estimate": false
   },
@@ -797,12 +797,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 26, 2026",
-   "released": "Detected Oct 26, 2026",
-   "previous": "2.50% (Oct 25, 2026)",
+   "period": "Oct 27, 2026",
+   "released": "Detected Oct 27, 2026",
+   "previous": "2.50% (Oct 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-26",
+   "latest_date": "2026-10-27",
    "raw": {
     "v": 2.5
    },
@@ -885,10 +885,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new economic data since the last update, as markets await the October 28 Budget and November 5 rate decision.",
-   "items": [
-    "<strong>Artificial intelligence report</strong>: The Bank of England and FCA published their fourth survey on artificial intelligence and machine learning in UK financial services on October 26, 2026."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -1728,8 +1726,8 @@
     "Aug"
    ],
    "10-yr": [
-    "5.28%",
-    "Oct 22"
+    "5.32%",
+    "Oct 23"
    ]
   },
   "rate_label": "Current Bank Rate",
@@ -2329,6 +2327,6 @@
    "automatic": 25,
    "manual": 14
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }
