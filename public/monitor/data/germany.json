@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "germany",
- "asof_date": "2026-10-27",
- "asof_label": "Oct 27, 2026",
- "generated_at": "2026-10-27T22:19:57.546Z",
- "data_updated_at": "2026-10-27T22:19:57.546Z",
- "narrative_updated_at": "2026-10-27T22:19:57.546Z",
+ "asof_date": "2026-10-28",
+ "asof_label": "Oct 28, 2026",
+ "generated_at": "2026-10-28T22:40:25.987Z",
+ "data_updated_at": "2026-10-28T22:40:25.987Z",
+ "narrative_updated_at": "2026-10-28T22:40:25.987Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
   "calendar_label": "Official ECB meeting calendar",
   "who": "The European Central Bank (“the ECB”) in Frankfurt, which sets one interest rate for every country that uses the euro, including Germany. Its decision-making group is the Governing Council: the 6 members of the ECB's Executive Board (led by President Christine Lagarde) plus the heads of the 21 national central banks. Germany's voice is Joachim Nagel, President of the Deutsche Bundesbank.",
-  "days_to_decision": 2
+  "days_to_decision": 1
  },
  "kpis": [
   {
    "label": "ECB interest rate",
    "value": "2.50%",
    "note": "Deposit rate",
-   "period": "Oct 27, 2026",
+   "period": "Oct 28, 2026",
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year Bund rate",
-   "value": "3.42%",
+   "value": "3.43%",
    "note": "",
-   "period": "Oct 27, 2026",
+   "period": "Oct 28, 2026",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf"
   }
@@ -557,12 +557,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.50%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 27, 2026",
-   "previous": "2.50% (Oct 26, 2026)",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "2.50% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
     "v": 2.5
    },
@@ -575,12 +575,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.65%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 27, 2026",
-   "previous": "2.65% (Oct 26, 2026)",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "2.65% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
     "v": 2.65
    },
@@ -592,15 +592,15 @@
    "name": "2-year German government bond (Schatz)",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.07%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 27, 2026",
-   "previous": "3.08% (Oct 26, 2026)",
+   "value": "3.08%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "3.07% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 3.07
+    "v": 3.08
    },
    "estimate": false
   },
@@ -610,15 +610,15 @@
    "name": "10-year German government bond (Bund)",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.42%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 27, 2026",
-   "previous": "3.43% (Oct 26, 2026)",
+   "value": "3.43%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "3.42% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 3.42
+    "v": 3.43
    },
    "estimate": false
   },
@@ -628,15 +628,15 @@
    "name": "30-year German government bond",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.78%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 27, 2026",
-   "previous": "3.78% (Oct 26, 2026)",
+   "value": "3.77%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "3.78% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 3.78
+    "v": 3.77
    },
    "estimate": false
   },
@@ -672,15 +672,15 @@
    "name": "Euro vs U.S. dollar",
    "source": "ECB reference rate",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-   "value": "$1.1150 per euro",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 27, 2026",
-   "previous": "$1.1188 per euro (Oct 26, 2026)",
+   "value": "$1.1133 per euro",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "$1.1150 per euro (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 1.115
+    "v": 1.1133
    },
    "estimate": false
   },
@@ -690,15 +690,15 @@
    "name": "Oil price (Brent crude, European benchmark)",
    "source": "EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "$115.22 a barrel",
-   "period": "Oct 20, 2026",
-   "released": "Oct 21, 2026",
-   "previous": "$118.82 (Oct 19, 2026)",
+   "value": "$123.10 a barrel",
+   "period": "Oct 27, 2026",
+   "released": "Oct 28, 2026",
+   "previous": "$128.12 (Oct 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-27",
    "raw": {
-    "v": 115.22
+    "v": 123.1
    },
    "estimate": false
   },
@@ -708,15 +708,15 @@
    "name": "Oil price (WTI crude, U.S.)",
    "source": "EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-   "value": "$107.89 a barrel",
-   "period": "Oct 20, 2026",
-   "released": "Oct 21, 2026",
-   "previous": "$110.01 (Oct 19, 2026)",
+   "value": "$103.37 a barrel",
+   "period": "Oct 27, 2026",
+   "released": "Oct 28, 2026",
+   "previous": "$105.25 (Oct 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-27",
    "raw": {
-    "v": 107.89
+    "v": 103.37
    },
    "estimate": false
   },
@@ -913,9 +913,10 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No major interest-rate news since the last update as we await the October 28–29 meeting.",
+   "headline": "Here is what is new since the last update.",
    "items": [
-    "New official item: <a href=\"https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">October 2026 euro area bank lending survey</a> (2026-10-27)."
+    "<strong>Oil price (Brent crude, European benchmark)</strong> moved 6.8%: now $123.10 a barrel, was $115.22 a barrel.",
+    "<strong>Oil price (WTI crude, U.S.)</strong> moved -4.2%: now $103.37 a barrel, was $107.89 a barrel."
    ]
   },
   "verdict": {
@@ -945,7 +946,7 @@
    },
    {
     "title": "Right now, prices are the bigger problem",
-    "html": "Prices across the euro area were <strong>3.8% higher</strong> in September than a year earlier, according to Eurostat's final report. In simple terms: a basket of everyday things that cost €100 a year ago now costs about <strong>€103.80</strong>. The goal would be about €102. In <strong>Germany</strong> the rise was <strong>3.3%</strong>, the highest since December 2023, according to the Federal Statistical Office (<a href=\"https://www.destatis.de/EN/Press/2026/10/PE26_364_611.html\" target=\"_blank\" rel=\"noopener noreferrer\">Destatis</a>).\n\nThe main cause is <strong>energy</strong>. A war in the Middle East this year pushed up oil and gas prices. Across the euro area, energy prices were up <strong>18.9%</strong> in a year. In Germany, heating oil cost significantly more than a year earlier and fuel at the pump too. Brent crude oil, the European benchmark, was about <strong>$115.22 a barrel</strong> by late October. Energy matters for everything, because trucks carry food to shops, factories run machines, and homes need heating, so higher energy costs slowly spread into the price of almost everything.\n\nThe good news is that prices <strong>without</strong> energy and food (“core” inflation) are much calmer: 2.5% in the euro area and 2.4% in Germany. The ECB's big worry is that expensive energy starts to leak into everything else, through higher shop prices and higher wage demands."
+    "html": "Prices across the euro area were <strong>3.8% higher</strong> in September than a year earlier, according to Eurostat's final report. In simple terms: a basket of everyday things that cost €100 a year ago now costs about <strong>€103.80</strong>. The goal would be about €102. In <strong>Germany</strong> the rise was <strong>3.3%</strong>, the highest since December 2023, according to the Federal Statistical Office (<a href=\"https://www.destatis.de/EN/Press/2026/10/PE26_364_611.html\" target=\"_blank\" rel=\"noopener noreferrer\">Destatis</a>).\n\nThe main cause is <strong>energy</strong>. A war in the Middle East this year pushed up oil and gas prices. Across the euro area, energy prices were up <strong>18.9%</strong> in a year. In Germany, heating oil cost significantly more than a year earlier and fuel at the pump too. Brent crude oil, the European benchmark, was about <strong>$123.10 a barrel</strong> by late October. Energy matters for everything, because trucks carry food to shops, factories run machines, and homes need heating, so higher energy costs slowly spread into the price of almost everything.\n\nThe good news is that prices <strong>without</strong> energy and food (“core” inflation) are much calmer: 2.5% in the euro area and 2.4% in Germany. The ECB's big worry is that expensive energy starts to leak into everything else, through higher shop prices and higher wage demands."
    },
    {
     "title": "So in June and September the ECB pressed the brake",
@@ -953,11 +954,11 @@
    },
    {
     "title": "Reasons the ECB might wait until December",
-    "html": "<ul><li><strong>The ECB has been moving at “forecast” meetings.</strong> Both rises this year (June and September) came at meetings where staff also published new projections. Vice-President Boris Vujčić said it plainly: “<a href=\"https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">We had two rate increases at projection meetings.</a>” October has no new projections. December does.</li><li><strong>The market already pressed the brake a little.</strong> The 10-year German government bond rate rose to 3.42%. Chief Economist Philip Lane said a rise in long-term rates “<a href=\"https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261006~bc94400297.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">slows down the European economy and, on its own, reduces the inflation rate.</a>”</li><li><strong>No clear signs yet of prices spreading into wages.</strong> The ECB's September meeting notes said “<a href=\"https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261008~a10153d090.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">So far, indirect effects remained contained, with no material signs of second-round effects.</a>” Bundesbank President Nagel said there are “<a href=\"https://www.bundesbank.de/en/press/speeches/shifting-ground-how-geopolitics-is-reshaping-growth-monetary-policy-and-the-role-of-gold-as-a-reserve-asset-1010452\" target=\"_blank\" rel=\"noopener noreferrer\">so far no clear signs that inflation has fed through to price and wage setting</a>.”</li><li><strong>Germany's economy is fragile.</strong> German employment is lower than a year earlier, and registered unemployment is near 3 million. The head of the ifo Institute said the September rise “comes at an inopportune time for Germany”.</li><li><strong>The brake takes time to work.</strong> The last rise only took effect on September 16. A rate change takes many months to fully reach the economy.</li></ul>"
+    "html": "<ul><li><strong>The ECB has been moving at “forecast” meetings.</strong> Both rises this year (June and September) came at meetings where staff also published new projections. Vice-President Boris Vujčić said it plainly: “<a href=\"https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">We had two rate increases at projection meetings.</a>” October has no new projections. December does.</li><li><strong>The market already pressed the brake a little.</strong> The 10-year German government bond rate rose to 3.43%. Chief Economist Philip Lane said a rise in long-term rates “<a href=\"https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261006~bc94400297.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">slows down the European economy and, on its own, reduces the inflation rate.</a>”</li><li><strong>No clear signs yet of prices spreading into wages.</strong> The ECB's September meeting notes said “<a href=\"https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261008~a10153d090.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">So far, indirect effects remained contained, with no material signs of second-round effects.</a>” Bundesbank President Nagel said there are “<a href=\"https://www.bundesbank.de/en/press/speeches/shifting-ground-how-geopolitics-is-reshaping-growth-monetary-policy-and-the-role-of-gold-as-a-reserve-asset-1010452\" target=\"_blank\" rel=\"noopener noreferrer\">so far no clear signs that inflation has fed through to price and wage setting</a>.”</li><li><strong>Germany's economy is fragile.</strong> German employment is lower than a year earlier, and registered unemployment is near 3 million. The head of the ifo Institute said the September rise “comes at an inopportune time for Germany”.</li><li><strong>The brake takes time to work.</strong> The last rise only took effect on September 16. A rate change takes many months to fully reach the economy.</li></ul>"
    },
    {
     "title": "Reasons the ECB might raise in October anyway",
-    "html": "<ul><li><strong>Prices jumped again.</strong> Euro-area inflation leapt from 3.2% in August to 3.8% in September, well above the 3.0% average the ECB's own staff forecast for this year.</li><li><strong>Energy is worse than the ECB assumed.</strong> Lane said in early October that “<a href=\"https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261006~bc94400297.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">energy prices are higher than we expected in our baseline.</a>” Brent oil is trading above $115 a barrel.</li><li><strong>Businesses are passing costs on.</strong> The share of German firms planning to raise prices rose in September, and ifo said “<a href=\"https://www.ifo.de/en/press-release/2026-09-30/higher-energy-prices-germany-increasingly-being-passed\" target=\"_blank\" rel=\"noopener noreferrer\">This indicates that the higher energy prices are increasingly being passed on to sales prices.</a>”</li><li><strong>A weaker euro makes imports dearer.</strong> One euro bought $1.1150 by late October. Oil is priced in dollars, so exchange rate movements affect energy costs in Europe.</li><li><strong>Some officials already fear the worse case.</strong> The September meeting notes record that “the view was also held that the adverse scenario was more likely than the baseline.” Nagel said the uncertainty “calls for flexibility, not inaction.”</li></ul>"
+    "html": "<ul><li><strong>Prices jumped again.</strong> Euro-area inflation leapt from 3.2% in August to 3.8% in September, well above the 3.0% average the ECB's own staff forecast for this year.</li><li><strong>Energy is worse than the ECB assumed.</strong> Lane said in early October that “<a href=\"https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261006~bc94400297.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">energy prices are higher than we expected in our baseline.</a>” Brent oil is trading near $123 a barrel.</li><li><strong>Businesses are passing costs on.</strong> The share of German firms planning to raise prices rose in September, and ifo said “<a href=\"https://www.ifo.de/en/press-release/2026-09-30/higher-energy-prices-germany-increasingly-being-passed\" target=\"_blank\" rel=\"noopener noreferrer\">This indicates that the higher energy prices are increasingly being passed on to sales prices.</a>”</li><li><strong>A weaker euro makes imports dearer.</strong> One euro bought $1.1133 by late October. Oil is priced in dollars, so exchange rate movements affect energy costs in Europe.</li><li><strong>Some officials already fear the worse case.</strong> The September meeting notes record that “the view was also held that the adverse scenario was more likely than the baseline.” Nagel said the uncertainty “calls for flexibility, not inaction.”</li></ul>"
    },
    {
     "scale": {
@@ -1213,7 +1214,7 @@
     "meaning": "the ECB keeps its foot where it is on the brake. It would likely repeat that it stands ready to act, so a hold here would be a “not yet”, not an “all clear”.",
     "for": [
      "<strong>Forecast meetings.</strong> Both rises this year came at meetings with new staff projections. October has none; December does.",
-     "<strong>The market did some of the work.</strong> The 10-year Bund rate rose to 3.42%, which makes mortgages and business loans dearer anyway.",
+     "<strong>The market did some of the work.</strong> The 10-year Bund rate rose to 3.43%, which makes mortgages and business loans dearer anyway.",
      "<strong>No wage spiral yet.</strong> The ECB and Nagel both say there are no clear signs that energy costs are feeding into wages.",
      "<strong>Germany is fragile.</strong> Employment is falling and unemployment is near 3 million.",
      "<strong>The September rise needs time to work.</strong> It took effect only six weeks before the meeting."
@@ -1233,7 +1234,7 @@
     "meaning": "the ECB presses the brake harder, for the third time this year and the second meeting in a row, to show it will not let energy prices push up everything else.",
     "for": [
      "<strong>Prices are moving the wrong way.</strong> Euro-area inflation went from 2.8% in June to 3.8% in September.",
-     "<strong>Energy is still climbing.</strong> Brent oil is above $115 a barrel, and the ECB says gas is especially vulnerable this winter.",
+     "<strong>Energy is still climbing.</strong> Brent oil is near $123 a barrel, and the ECB says gas is especially vulnerable this winter.",
      "<strong>Firms are passing costs on.</strong> ifo's survey shows more German firms planning price rises.",
      "<strong>Some officials fear the worse case.</strong> Meeting notes record a view that the adverse scenario was more likely than the baseline."
     ],
@@ -1267,14 +1268,6 @@
    "intro_title": "Why “before” and “after” the meeting matters",
    "intro": "The ECB can only react to information it has <strong>already seen</strong>. A report released <strong>before</strong> October 28–29 can change the October decision. A report released <strong>after</strong> it can only shape what happens in <strong>December</strong>. That is why the reports in the first part of the table matter most right now. Where we could not confirm an official release date, we say so.",
    "reports": {
-    "euro_area_inflation_hicp": {
-     "why": "The final September report confirms price pressure across the euro area.",
-     "trigger": "Data already released: headline confirmed at 3.8% and core at 2.5%."
-    },
-    "german_producer_prices": {
-     "why": "Shows factory-gate price pressures in Germany before the October meeting.",
-     "trigger": "A sharp jump in industrial producer prices → pushes towards <strong>Raise</strong>."
-    },
     "euro_area_sentiment": {
      "why": "Published on the day of the decision, showing economic sentiment across the euro area.",
      "trigger": "Significant drop in sentiment → leans <strong>Hold</strong>."
@@ -1327,7 +1320,7 @@
    "other_title": "Other things that could move our view",
    "other": [
     "<strong>Oil, gas and the Middle East.</strong> Energy is the main driver of today's inflation. Nagel warned that gas prices are especially vulnerable because storage levels are low. A new jump in oil or gas would make a rise more likely; a big drop would make waiting easier.",
-    "<strong>The euro.</strong> The euro trades near $1.1150 per euro. A slide makes imported energy dearer and adds to the case for a rise.",
+    "<strong>The euro.</strong> The euro trades near $1.1133 per euro. A slide makes imported energy dearer and adds to the case for a rise.",
     "<strong>Bond market rates.</strong> One reason for Hold is that German long-term rates already rose. If they fall back sharply, that reason weakens.",
     "<strong>Final words from ECB officials.</strong> ECB policymakers normally stop commenting on policy shortly before each meeting (a “quiet period”).",
     "<strong>A financial shock.</strong> Turmoil in euro-area government bond markets or trouble at a big bank would almost certainly push the ECB to hold."
@@ -1366,7 +1359,7 @@
     "grade": "amber",
     "one": "Borrowing costs are rising and the euro is active, but long-term inflation expectations are calm.",
     "look": "German government bond rates (Bund yields), the euro–dollar exchange rate, and long-term inflation expectations reported by the ECB.",
-    "why": "Worrying: the 10-year Bund rate rose to 3.42% and the 30-year rate is 3.78%, making mortgages dearer. Reassuring: the ECB says most measures of longer-term inflation expectations continue to stand at around 2%.",
+    "why": "Worrying: the 10-year Bund rate rose to 3.43% and the 30-year rate is 3.77%, making mortgages dearer. Reassuring: the ECB says most measures of longer-term inflation expectations continue to stand at around 2%.",
     "change": "Disorderly bond-market moves or a sharp rise in long-term inflation expectations → red. Bond rates and the euro stabilising → green.",
     "matters": "Higher market rates already slow the economy, one reason the ECB may wait. Calm long-term expectations mean the ECB does not need to panic."
    }
@@ -1537,19 +1530,19 @@
    "2_year_german_government_bond_schatz": {
     "now_label": "Pricing in rises",
     "now_tone": "mixed",
-    "what": "the yield on the federal note maturing in September 2028 (3.07%).",
+    "what": "the yield on the federal note maturing in September 2028 (3.08%).",
     "why": "tells us markets expect further rate action."
    },
    "10_year_german_government_bond_bund": {
     "now_label": "Rising",
     "now_tone": "bad",
-    "what": "the yield on the Bund maturing in August 2036 (3.42%).",
+    "what": "the yield on the Bund maturing in August 2036 (3.43%).",
     "why": "German fixed-rate mortgages follow this rate, making borrowing costlier."
    },
    "30_year_german_government_bond": {
     "now_label": "High, steady",
     "now_tone": "info",
-    "what": "the yield on the Bund maturing in 2056 (3.78%).",
+    "what": "the yield on the Bund maturing in 2056 (3.77%).",
     "why": "shows the long-term cost of government borrowing."
    },
    "market_expectations_for_ecb_rates": {
@@ -1567,19 +1560,19 @@
    "euro_vs_u_s_dollar": {
     "now_label": "Weaker euro",
     "now_tone": "bad",
-    "what": "how many U.S. dollars one euro buys ($1.1150 per euro).",
+    "what": "how many U.S. dollars one euro buys ($1.1133 per euro).",
     "why": "oil is priced in dollars; a weaker euro makes energy imports dearer."
    },
    "oil_price_brent_crude_european_benchma": {
     "now_label": "Very high",
     "now_tone": "bad",
-    "what": "the price of a barrel of North Sea crude oil ($115.22 a barrel).",
+    "what": "the price of a barrel of North Sea crude oil ($123.10 a barrel).",
     "why": "oil above $110 keeps fuel and heating oil high."
    },
    "oil_price_wti_crude_u_s": {
     "now_label": "For comparison",
     "now_tone": "info",
-    "what": "the U.S. crude oil benchmark ($107.89 a barrel).",
+    "what": "the U.S. crude oil benchmark ($103.37 a barrel).",
     "why": "shown for comparison with our U.S. page."
    },
    "natural_gas_price_europe": {
@@ -1724,7 +1717,7 @@
   ],
   "gaps": [
    "<strong>Market odds for October alone.</strong> We found no official source. The ECB's meeting account says markets priced “a further two to three hikes” by end-2027 at the time of the September meeting, but gives no October number. <em>Why it matters:</em> we cannot compare our 37% chance of an October rise with what markets expect today.",
-   "<strong>Bund yields after October 26.</strong> Daily time series for late October are snapshot readings from official sources, subject to daily market fluctuations. <em>Why it matters:</em> a big move since then would change one of our arguments for Hold.",
+   "<strong>Bund yields after October 28.</strong> Daily time series for late October are snapshot readings from official sources, subject to daily market fluctuations. <em>Why it matters:</em> a big move since then would change one of our arguments for Hold.",
    "<strong>Whether Nagel votes in October.</strong> ECB voting rights rotate among national central bank heads, so not every governor votes at every meeting. We did not check the rotation for October. <em>Why it matters:</em> little in practice, because all Council members take part in the discussion.",
    "<strong>Release dates</strong> for the October flash inflation figures (euro area and Germany), the third-quarter GDP estimates and the ECB's October Bank Lending Survey could not be confirmed on official calendars. <em>Why it matters:</em> if German October prices come out before October 29, they could make waiting easier."
   ],
@@ -1861,8 +1854,8 @@
     "Sep"
    ],
    "10-yr": [
-    "3.42%",
-    "Oct 27"
+    "3.43%",
+    "Oct 28"
    ]
   },
   "rate_label": "Current ECB rate",
@@ -2003,6 +1996,43 @@
   "Euro liquidity lines and the international monetary system"
  ],
  "changelog": [
+  {
+   "date": "2026-10-28",
+   "date_label": "Oct 28, 2026",
+   "since": "2026-10-27",
+   "since_label": "Oct 27, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "<strong>Oil price (Brent crude, European benchmark)</strong> moved 6.8%: now $123.10 a barrel, was $115.22 a barrel.",
+     "<strong>Oil price (WTI crude, U.S.)</strong> moved -4.2%: now $103.37 a barrel, was $107.89 a barrel."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "oil_price_brent_crude_european_benchma",
+     "name": "Oil price (Brent crude, European benchmark)",
+     "from": "$115.22 a barrel",
+     "from_period": "Oct 20, 2026",
+     "to": "$123.10 a barrel",
+     "to_period": "Oct 27, 2026",
+     "move": "6.8%"
+    },
+    {
+     "id": "oil_price_wti_crude_u_s",
+     "name": "Oil price (WTI crude, U.S.)",
+     "from": "$107.89 a barrel",
+     "from_period": "Oct 20, 2026",
+     "to": "$103.37 a barrel",
+     "to_period": "Oct 27, 2026",
+     "move": "-4.2%"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": false
+  },
   {
    "date": "2026-10-27",
    "date_label": "Oct 27, 2026",

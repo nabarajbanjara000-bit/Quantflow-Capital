@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "us",
- "asof_date": "2026-10-27",
- "asof_label": "Oct 27, 2026",
- "generated_at": "2026-10-27T22:17:47.368Z",
- "data_updated_at": "2026-10-27T22:17:47.368Z",
- "narrative_updated_at": "2026-10-27T22:17:47.368Z",
+ "asof_date": "2026-10-28",
+ "asof_label": "Oct 28, 2026",
+ "generated_at": "2026-10-28T22:38:58.351Z",
+ "data_updated_at": "2026-10-28T22:38:58.351Z",
+ "narrative_updated_at": "2026-10-28T22:38:58.351Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
   "calendar_label": "Official Fed meeting calendar",
   "who": "The Federal Reserve (“the Fed”), America's central bank. Its 12-person voting group is called the FOMC (Federal Open Market Committee).",
-  "days_to_decision": 1
+  "days_to_decision": 0
  },
  "kpis": [
   {
    "label": "Fed interest rate",
    "value": "3.75% – 4.00%",
    "note": "",
-   "period": "In effect Oct 27, 2026",
+   "period": "In effect Oct 28, 2026",
    "source": "Federal Reserve",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "4.99%",
+   "value": "5.05%",
    "note": "",
-   "period": "Oct 27, 2026",
+   "period": "Oct 28, 2026",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
   }
@@ -216,7 +216,7 @@
    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
    "value": "+20.4% vs a year ago",
    "period": "Sep 2026 (+5.2% in the month)",
-   "released": "Oct 22, 2026",
+   "released": "Oct 25, 2026",
    "previous": "+16.0% a year; +2.1% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -235,7 +235,7 @@
    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
    "value": "+3.2% vs a year ago",
    "period": "Sep 2026 (+0.4% in the month)",
-   "released": "Oct 22, 2026",
+   "released": "Oct 25, 2026",
    "previous": "+3.0% a year; +0.3% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -309,15 +309,15 @@
    "name": "10-year inflation expectation (from bond markets)",
    "source": "FRED (St. Louis Fed)",
    "url": "https://fred.stlouisfed.org/series/T10YIE",
-   "value": "2.35%",
-   "period": "Oct 27, 2026",
-   "released": "Oct 27, 2026",
-   "previous": "2.34% (Oct 26, 2026)",
+   "value": "2.38%",
+   "period": "Oct 28, 2026",
+   "released": "Oct 28, 2026",
+   "previous": "2.35% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 2.35
+    "v": 2.38
    },
    "estimate": false
   },
@@ -385,7 +385,7 @@
    "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
    "value": "61.8%",
    "period": "Sep 2026",
-   "released": "Oct 22, 2026",
+   "released": "Oct 25, 2026",
    "previous": "61.6% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -491,15 +491,15 @@
    "name": "GDPNow model estimate (current quarter)",
    "source": "Atlanta Fed",
    "url": "https://www.atlantafed.org/cqer/research/gdpnow",
-   "value": "3.4% (estimate)",
+   "value": "3.3% (estimate)",
    "period": "Q3 2026",
-   "released": "Oct 27, 2026",
+   "released": "Oct 28, 2026",
    "previous": "1.5% (Q2 2026)",
    "tag": "official",
    "manual": false,
    "latest_date": "2026-07-01",
    "raw": {
-    "v": 3.4119
+    "v": 3.2721
    },
    "estimate": true
   },
@@ -511,7 +511,7 @@
    "url": "https://www.census.gov/retail/sales.html",
    "value": "+0.8% in the month",
    "period": "Sep 2026 (+6.3% vs a year ago)",
-   "released": "Oct 21, 2026",
+   "released": "Oct 22, 2026",
    "previous": "+1.3% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -530,7 +530,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "+0.6% in the month",
    "period": "Aug 2026",
-   "released": "Oct 22, 2026",
+   "released": "Oct 23, 2026",
    "previous": "+0.1% (Jul 2026)",
    "tag": "official",
    "manual": false,
@@ -583,12 +583,12 @@
    "source": "Federal Reserve",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
    "value": "3.75% – 4.00%",
-   "period": "In effect Oct 27, 2026",
+   "period": "In effect Oct 28, 2026",
    "released": "Changed Sep 17, 2026",
    "previous": "3.50% – 3.75% (before Sep 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
     "lo": 3.75,
     "hi": 4,
@@ -605,12 +605,12 @@
    "source": "Federal Reserve Bank of New York",
    "url": "https://www.newyorkfed.org/markets/reference-rates/effr",
    "value": "3.88%",
-   "period": "Oct 26, 2026",
-   "released": "Oct 27, 2026",
-   "previous": "3.88% (Oct 23, 2026)",
+   "period": "Oct 27, 2026",
+   "released": "Oct 28, 2026",
+   "previous": "3.88% (Oct 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-26",
+   "latest_date": "2026-10-27",
    "raw": {
     "v": 3.88
    },
@@ -622,15 +622,15 @@
    "name": "3-month Treasury bill",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "4.22%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 27, 2026",
-   "previous": "4.22% (Oct 26, 2026)",
+   "value": "4.18%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "4.22% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 4.22
+    "v": 4.18
    },
    "estimate": false
   },
@@ -640,15 +640,15 @@
    "name": "2-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "4.70%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 27, 2026",
-   "previous": "4.68% (Oct 26, 2026)",
+   "value": "4.67%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "4.70% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 4.7
+    "v": 4.67
    },
    "estimate": false
   },
@@ -658,15 +658,15 @@
    "name": "10-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "4.99%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 27, 2026",
-   "previous": "5.00% (Oct 26, 2026)",
+   "value": "5.05%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "4.99% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 4.99
+    "v": 5.05
    },
    "estimate": false
   },
@@ -676,15 +676,15 @@
    "name": "30-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "5.30%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 27, 2026",
-   "previous": "5.31% (Oct 26, 2026)",
+   "value": "5.37%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "5.30% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 5.3
+    "v": 5.37
    },
    "estimate": false
   },
@@ -694,15 +694,15 @@
    "name": "High-yield credit spread",
    "source": "FRED / ICE BofA",
    "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-   "value": "3.30%",
-   "period": "Oct 26, 2026",
-   "released": "Oct 27, 2026",
-   "previous": "3.38% (Oct 23, 2026)",
+   "value": "3.18%",
+   "period": "Oct 27, 2026",
+   "released": "Oct 28, 2026",
+   "previous": "3.30% (Oct 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-26",
+   "latest_date": "2026-10-27",
    "raw": {
-    "v": 3.3
+    "v": 3.18
    },
    "estimate": false
   },
@@ -714,7 +714,7 @@
    "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
    "value": "Median 3.6%",
    "period": "End of 2029",
-   "released": "Oct 22, 2026",
+   "released": "Oct 25, 2026",
    "previous": "—",
    "tag": "official",
    "manual": false,
@@ -743,15 +743,15 @@
    "name": "Oil price (WTI crude)",
    "source": "EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-   "value": "$107.89 a barrel",
-   "period": "Oct 20, 2026",
-   "released": "Oct 22, 2026",
-   "previous": "$110.01 (Oct 19, 2026)",
+   "value": "$103.37 a barrel",
+   "period": "Oct 27, 2026",
+   "released": "Oct 28, 2026",
+   "previous": "$105.25 (Oct 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-27",
    "raw": {
-    "v": 107.89
+    "v": 103.37
    },
    "estimate": false
   },
@@ -763,7 +763,7 @@
    "url": "https://www.eia.gov/petroleum/gasdiesel/",
    "value": "$4.269 a gallon",
    "period": "Week ending Oct 26, 2026",
-   "released": "Oct 27, 2026",
+   "released": "Oct 28, 2026",
    "previous": "$4.284 (Week ending Oct 19, 2026)",
    "tag": "official",
    "manual": false,
@@ -780,12 +780,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 27, 2026",
-   "released": "Oct 27, 2026",
-   "previous": "2.50% (Oct 26, 2026)",
+   "period": "Oct 28, 2026",
+   "released": "Oct 28, 2026",
+   "previous": "2.50% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
     "v": 2.5
    },
@@ -806,30 +806,6 @@
   }
  },
  "releases": [
-  {
-   "id": "housing_starts",
-   "name": "Housing starts",
-   "publisher": "Census",
-   "date": "2026-10-27",
-   "date_label": "Tue Oct 27",
-   "time": "8:30 a.m.",
-   "url": "https://www.census.gov/construction/nrc/index.html",
-   "what": "How many new homes builders began building.",
-   "weekly": false,
-   "timing": "day"
-  },
-  {
-   "id": "durable_goods_orders",
-   "name": "Durable goods orders",
-   "publisher": "Census",
-   "date": "2026-10-27",
-   "date_label": "Tue Oct 27",
-   "time": "8:30 a.m.",
-   "url": "https://www.census.gov/manufacturing/m3/adv/current/index.html",
-   "what": "Orders for long-lasting items like machines and equipment.",
-   "weekly": false,
-   "timing": "day"
-  },
   {
    "id": "weekly_jobless_claims",
    "name": "Weekly jobless claims",
@@ -1145,31 +1121,32 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Energy prices eased slightly to $4.269 a gallon, and the Atlanta Fed estimated Q3 growth at 3.4%.",
+   "headline": "The Fed held its rate at 3.75%–4.00% on October 28, with two voters preferring a rise.",
    "items": [
-    "<strong>U.S. gasoline</strong> dipped from $4.284 to $4.269 a gallon for the week ending Oct 26, 2026.",
-    "<strong>GDPNow model estimate</strong> for Q3 2026 ticked down from 3.5% to 3.4% on Oct 27, 2026.",
-    "<strong>High-yield credit spread</strong> narrowed from 3.38% to 3.30% by Oct 26, 2026."
+    "<strong>Federal Reserve rate decision</strong> on Oct 28, 2026: maintained the target range at 3.75%–4.00% by a 10–2 vote.",
+    "<strong>Dissenting votes</strong>: Lisa D. Cook and Beth M. Hammack voted to raise the target range by 1/4 percentage point.",
+    "<strong>GDPNow model estimate</strong> for Q3 2026 ticked down from 3.4% to 3.3% on Oct 28, 2026.",
+    "<strong>Oil price (WTI crude)</strong> fell from $105.25 to $103.37 a barrel by Oct 27, 2026."
    ]
   },
   "verdict": {
    "most_likely": "hold",
    "headline": "HOLD",
-   "sub": "<strong>Keep the interest rate where it is, at 3.75% to 4.00%.</strong> This is a close call. A rise is a very real possibility.",
+   "sub": "<strong>Keep the interest rate where it is, at 3.75% to 4.00%.</strong> The Fed just held in October, but more rises remain likely later this year.",
    "probabilities": {
-    "hold": 55,
-    "raise": 40,
-    "cut": 5
+    "hold": 80,
+    "raise": 18,
+    "cut": 2
    },
    "labels": {
     "hold": "Hold (no change)",
     "raise": "Raise (up 0.25 points)",
     "cut": "Cut (down)"
    },
-   "confidence": "Low",
-   "confidence_note": "“Low” means this is close to a coin flip. A single report, the September price report (CPI), could be enough to change our answer.",
-   "short_version": "The Fed has already said it plans to raise rates again. The real question is <em>when</em>. We think it will more likely wait until December than act in October.",
-   "card_why": "Inflation at 3.4% argues for another rise, but weak September hiring and a jump in bond yields let the Fed wait for December.",
+   "confidence": "Medium",
+   "confidence_note": "“Medium” means the Fed just held at the October meeting, but strong inflation and two dissenting votes keep the door open for December.",
+   "short_version": "The Fed held its rate steady in October by a 10-2 vote. With inflation still above target, markets are now looking toward December to see if the Fed will raise rates again.",
+   "card_why": "The Fed held rates at 3.75%–4.00% in October, but two officials wanted a rise and inflation remains elevated.",
    "last_move": "Raised 0.25 on Sep 16, 2026"
   },
   "why_steps": [
@@ -1179,42 +1156,41 @@
    },
    {
     "title": "Right now, prices are the bigger problem",
-    "html": "Prices are rising about <strong>3.4% a year</strong>, measured by the Fed's preferred price gauge, called <strong>PCE</strong> (the Personal Consumption Expenditures price index from the Commerce Department's Bureau of Economic Analysis). In simple terms: a basket of everyday things that cost $100 a year ago now costs about <strong>$103.40</strong>. The goal would be about $102.\n\nThe main cause is <strong>energy</strong>. Conflict in the Middle East pushed up oil prices this year, with WTI crude reaching <strong>$107.89 a barrel</strong> in late October. Regular gasoline averaged <strong>$4.269 a gallon</strong> in late October, compared with roughly <strong>$3.12</strong> a year earlier. Energy matters for everything, because trucks carry food to shops, factories run machines, and airlines burn fuel, so higher energy costs slowly spread into the price of almost everything. Fed officials point out that prices have now been above the 2% goal for <strong>more than five years</strong>, and they worry people will start to expect high inflation as normal."
+    "html": "Prices are rising about <strong>3.4% a year</strong>, measured by the Fed's preferred price gauge, called <strong>PCE</strong> (the Personal Consumption Expenditures price index from the Commerce Department's Bureau of Economic Analysis). In simple terms: a basket of everyday things that cost $100 a year ago now costs about <strong>$103.40</strong>. The goal would be about $102.\n\nThe main cause is <strong>energy</strong>. Conflict in the Middle East pushed up oil prices this year, with WTI crude reaching <strong>$103.37 a barrel</strong> in late October. Regular gasoline averaged <strong>$4.269 a gallon</strong> in late October, compared with roughly <strong>$3.12</strong> a year earlier. Energy matters for everything, because trucks carry food to shops, factories run machines, and airlines burn fuel, so higher energy costs slowly spread into the price of almost everything. Fed officials point out that prices have now been above the 2% goal for <strong>more than five years</strong>, and they worry people will start to expect high inflation as normal."
    },
    {
-    "title": "So in September the Fed pressed the brake",
-    "html": "On September 16 the Fed <strong>raised</strong> its rate by 0.25 percentage points, to 3.75%–4.00%. All 12 voters agreed. In their written forecasts, <strong>16 of the 18</strong> Fed officials said they expect to raise rates <strong>at least once more</strong> before the end of 2026, and 4 of them expect two more rises.\n\nThere are only two meetings left this year: <strong>October 27–28</strong> and <strong>December 8–9</strong>. So the next rise will most likely come at one of those two. The question is which one."
+    "title": "The Fed held in October, but dissenters wanted a rise",
+    "html": "On October 28, the Fed voted 10–2 to <strong>hold</strong> its rate steady at 3.75%–4.00%. Two officials—Lisa D. Cook and Beth M. Hammack—voted against the hold, preferring to raise the rate by 0.25 percentage points right away.\n\nIn its official statement, the Fed noted that economic activity is expanding at a strong pace, domestic spending is resilient, and inflation remains elevated. There is only one meeting left this year: <strong>December 8–9</strong>."
    },
    {
-    "title": "Reasons the Fed might wait until December",
-    "html": "<ul><li><strong>Hiring has slowed sharply.</strong> Only 29,000 jobs were added in September, and July was revised to a loss of 10,000 jobs. When hiring is weak, pressing the brake again right away raises the risk of layoffs.</li><li><strong>The market already pressed the brake for them.</strong> The interest rate on 10-year U.S. government bonds rose to 4.99% in late October. Mortgages and many business loans follow that rate. So borrowing has already become more expensive, which cools the economy without the Fed doing anything.</li><li><strong>Senior officials hinted there is no rush.</strong> Governor Christopher Waller said rate rises do not need to come at consecutive meetings. Vice Chair Philip Jefferson said reaching a decision may take more time.</li><li><strong>The brake takes time to work.</strong> A rate change takes many months to fully affect the economy. The Fed only raised six weeks ago and may want to see the effect first.</li><li><strong>Important reports come out just after the meeting.</strong> The first official look at summer economic growth and the September PCE price report are both released on October 29, the day <em>after</em> the decision. December's meeting will have all of this, plus two more jobs and price reports and fresh forecasts.</li></ul>"
+    "title": "Reasons the Fed chose to wait in October",
+    "html": "<ul><li><strong>Hiring has slowed sharply.</strong> Only 29,000 jobs were added in September, and July was revised to a loss of 10,000 jobs. When hiring is weak, pressing the brake again right away raises the risk of layoffs.</li><li><strong>The market already pressed the brake for them.</strong> The interest rate on 10-year U.S. government bonds rose to 5.05% in late October. Mortgages and many business loans follow that rate. So borrowing has already become more expensive, which cools the economy without the Fed doing anything.</li><li><strong>Senior officials hinted there is no rush.</strong> Governor Christopher Waller said rate rises do not need to come at consecutive meetings. Vice Chair Philip Jefferson said reaching a decision may take more time.</li><li><strong>The brake takes time to work.</strong> A rate change takes many months to fully affect the economy. The Fed only raised in September and wanted to see the effect first.</li></ul>"
    },
    {
-    "title": "Reasons the Fed might raise in October anyway",
-    "html": "<ul><li><strong>Inflation is too high and not improving.</strong> Meeting notes say progress has been insufficient and that the risk is of prices going <em>higher</em>, not lower.</li><li><strong>The economy is strong enough to handle it.</strong> Shoppers spent 0.8% more in September than in August, and an Atlanta Fed model estimates the economy grew at about a 3.4% yearly pace this summer. A strong economy can absorb a higher rate.</li><li><strong>Many officials want insurance.</strong> Meeting notes say many officials think raising earlier is safer than waiting, in case inflation proves stubborn.</li><li><strong>The Fed has made a public promise.</strong> Its statements emphasize that the Committee will deliver price stability. Acting sooner can make that promise more believable.</li></ul>"
+    "title": "Why a December rise remains very possible",
+    "html": "<ul><li><strong>Inflation is too high and not improving.</strong> The official statement noted that inflation remains elevated and the Fed will deliver price stability.</li><li><strong>Two officials dissented.</strong> Lisa D. Cook and Beth M. Hammack voted to raise rates in October, showing real appetite inside the Fed to keep tightening.</li><li><strong>The economy is strong enough to handle it.</strong> Shoppers spent 0.8% more in September than in August, and an Atlanta Fed model estimates the economy grew at about a 3.3% yearly pace this summer. A strong economy can absorb a higher rate.</li><li><strong>The Fed has made a public promise.</strong> Its statements emphasize that the Committee will deliver price stability. Acting in December can make that promise more believable if inflation does not cool.</li></ul>"
    },
    {
     "title": "Weighing both sides",
     "scale": {
-     "left_title": "Pulls toward Raise now",
+     "left_title": "Pulls toward Raise",
      "left": [
       "Inflation 3.4% vs 2% goal",
       "Strong spending and growth",
-      "16 of 18 officials expect more rises"
+      "Two officials dissented to raise in October"
      ],
-     "right_title": "Pulls toward Hold now",
+     "right_title": "Pulls toward Hold",
      "right": [
       "Weak September hiring",
       "Bond rates already jumped",
-      "“No rush” hints from Waller and Jefferson",
-      "Better information by December"
+      "“No rush” hints from Waller and Jefferson"
      ]
     },
-    "html": "Both sides are strong. What tips us slightly toward <strong>Hold</strong> is that the Fed itself has said timing is flexible, and December gives it more information at almost no cost. That is why we say about 55% Hold and 40% Raise, not something more lopsided."
+    "html": "Both sides are strong. What tipped the scale toward <strong>Hold</strong> in October was that the Fed wanted time to assess its September move and watch incoming data. But with two dissenters and high inflation, December remains wide open."
    },
    {
-    "title": "The one thing to watch: recent price reports",
-    "html": "The Bureau of Labor Statistics published September's Consumer Price Index (<strong>CPI</strong>), showing headline inflation at 3.7% and core CPI at 2.6%. While CPI is not the Fed's official target (that is PCE), it comes out first and moves in a similar direction. The recent PPI report also showed business costs climbing +6.3% from a year ago. If core prices rise faster than expected, it adds weight to the case for another rate increase."
+    "title": "The one thing to watch: upcoming growth and price reports",
+    "html": "The Bureau of Labor Statistics and the Commerce Department publish major economic reports right after the October meeting, including Q3 GDP growth and September PCE prices on October 29. These reports will not change the October decision, but they will heavily shape whether the Fed decides to raise rates at the December meeting."
    }
   ],
   "timeline": [
@@ -1356,7 +1332,7 @@
     "date_label": "September 15 → October 27, 2026",
     "title": "Market interest rates jumped",
     "kind": "down",
-    "what": "The interest rate on 10-year U.S. government bonds rose to <strong>4.99%</strong>. The 2-year rate stood at 4.70%.",
+    "what": "The interest rate on 10-year U.S. government bonds rose to <strong>5.05%</strong>. The 2-year rate stood at 4.67%.",
     "why": "When investors expect the Fed to keep rates high and prices to stay high, they demand more interest to lend money for years at a time.",
     "people": "Mortgage rates and many business loan rates follow the 10-year rate, so buying a house or expanding a business got more expensive within weeks.",
     "sources": [
@@ -1390,32 +1366,19 @@
     "because": "the case for raising rates <em>again right away</em> became weaker, because pressing the brake too hard on a slowing job market is risky."
    },
    {
-    "date_label": "September 29 – October 15, 2026",
-    "title": "What Fed officials said after the rise",
+    "date_label": "October 28, 2026",
+    "title": "The Fed held its rate at 3.75%–4.00%",
     "kind": "now",
+    "what": "The Fed maintained the target range at 3.75%–4.00% by a 10–2 vote. Lisa D. Cook and Beth M. Hammack dissented, preferring a 0.25 point rise.",
+    "why": "The Fed balanced elevated inflation against recent weak hiring and higher market bond yields, choosing to pause while keeping future rises on the table.",
+    "people": "Loan and savings rates remained steady for the moment, while markets turned their attention to December.",
     "sources": [
      {
-      "label": "Barr",
-      "url": "https://www.federalreserve.gov/newsevents/speech/barr20260929a.htm"
-     },
-     {
-      "label": "Cook",
-      "url": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm"
-     },
-     {
-      "label": "Jefferson",
-      "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm"
-     },
-     {
-      "label": "Waller",
-      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm"
-     },
-     {
-      "label": "Minutes",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm"
+      "label": "October 28 Statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
      }
     ],
-    "because": "our reading is raise again, but maybe not in October, which is why our main call is Hold, with Raise close behind."
+    "because": "our reading is that the Fed will likely raise rates again in December as more data confirms whether inflation is truly settling down."
    }
   ],
   "choices": [
@@ -1423,42 +1386,38 @@
     "option": "hold",
     "rank_label": "Most likely",
     "title": "Hold: keep the rate at 3.75%–4.00%",
-    "meaning": "the Fed keeps its foot where it is on the brake. It would likely say it still expects to raise later, so a hold here would be a not yet, not a never.",
+    "meaning": "the Fed keeps its foot where it is on the brake, choosing to assess incoming economic reports before making its next move.",
     "for": [
      "<strong>Weak hiring.</strong> September added only 29,000 jobs. The Fed does not want to cause layoffs by braking too hard, too fast.",
      "<strong>The market did some of the work.</strong> Higher bond rates already make mortgages and business loans dearer, which cools spending in the same way a Fed rise would.",
      "<strong>Officials signalled patience.</strong> Waller said rises need not come at back-to-back meetings. Jefferson said a decision may take more time.",
-     "<strong>The September rise needs time to work.</strong> It has only been six weeks.",
-     "<strong>December is a better moment.</strong> The Fed will have the summer growth number, the September PCE price report, two more jobs reports and fresh forecasts."
+     "<strong>The September rise needs time to work.</strong> It has only been six weeks."
     ],
     "against": [
      "<strong>Inflation is far from the goal.</strong> At 3.4% vs 2%, and the Fed itself calls progress insufficient.",
-     "<strong>Most officials expect another rise.</strong> 16 of 18 wrote down at least one more this year. Waiting could look like hesitation.",
-     "<strong>The economy looks strong.</strong> If growth is near 3.4%, the economy can handle a higher rate.",
-     "<strong>Recent price reports</strong> like PPI showing +6.3% could make waiting feel too risky."
+     "<strong>Two officials dissented.</strong> Cook and Hammack voted to raise rates in October, showing strong appetite for tighter policy.",
+     "<strong>The economy looks strong.</strong> If growth is near 3.3%, the economy can handle a higher rate."
     ],
-    "everyday": "loan and savings rates would stay roughly where they are for now. Markets would then focus on December, where a rise would still be widely expected.",
-    "prob": 55
+    "everyday": "loan and savings rates stay roughly where they are for now. Markets now focus on December, where another rise remains a strong possibility.",
+    "prob": 80
    },
    {
     "option": "raise",
     "rank_label": "Close second",
     "title": "Raise: up 0.25 points, to 4.00%–4.25%",
-    "meaning": "the Fed presses the brake a little harder, for the second meeting in a row, to show it is serious about bringing prices down.",
+    "meaning": "the Fed presses the brake a little harder to show it is serious about bringing prices down.",
     "for": [
-     "<strong>Prices have been too high for over five years.</strong> Officials worry people will start to see high inflation as normal, which makes it harder to fix.",
-     "<strong>Energy is still expensive.</strong> Oil is near $107.89 a barrel and gasoline about $4.269 a gallon, so price pressure is still feeding through.",
-     "<strong>Insurance.</strong> Meeting notes say many officials prefer to act early, in case inflation proves stubborn.",
-     "<strong>The promise.</strong> Delivering price stability is a strong public commitment. Acting quickly backs it up.",
+     "<strong>Prices have been too high for over five years.</strong> Officials worry people will start to see high inflation as normal.",
+     "<strong>Energy is still expensive.</strong> Oil is near $103.37 a barrel and gasoline about $4.269 a gallon, so price pressure is still feeding through.",
+     "<strong>Dissenting votes.</strong> Two members wanted to raise in October, proving the committee is divided and eager to act.",
      "<strong>Spending is strong.</strong> Shop sales jumped 0.8% in September, so demand is not fading on its own."
     ],
     "against": [
      "<strong>Hiring is weak.</strong> Two rises in a row while job growth is near zero could push companies to start cutting staff.",
-     "<strong>Officials said timing is flexible.</strong> They have openly said rises do not need to happen at every meeting.",
-     "<strong>October has no new forecasts.</strong> The Fed often prefers to make moves at meetings where it also publishes updated projections, like December."
+     "<strong>Officials said timing is flexible.</strong> They have openly said rises do not need to happen at every meeting."
     ],
-    "everyday": "credit card and other variable loan rates would rise a little further. Savings accounts would pay a bit more. Mortgage rates could rise further if markets expect even more rises after that.",
-    "prob": 40
+    "everyday": "credit card and other variable loan rates would rise a little further. Savings accounts would pay a bit more.",
+    "prob": 18
    },
    {
     "option": "cut",
@@ -1466,74 +1425,72 @@
     "title": "Cut: lower the rate",
     "meaning": "the Fed would switch from the brake to the gas, reversing its September decision.",
     "for": [
-     "<strong>Only in an emergency:</strong> for example a sudden market crash, a financial firm getting into serious trouble, or a sharp jump in layoffs before the meeting.",
-     "Even then, the Fed would more likely hold first than cut straight away."
+     "<strong>Only in an emergency:</strong> for example a sudden market crash, a financial firm getting into serious trouble, or a sharp jump in layoffs."
     ],
     "against": [
-     "<strong>The Fed just raised.</strong> Cutting six weeks later would confuse people and damage its credibility.",
-     "<strong>Nobody is asking for it.</strong> In the speeches and statements we read since September, no official argued for a cut.",
+     "<strong>The Fed just raised in September.</strong> Cutting now would confuse people and damage its credibility.",
      "<strong>Inflation is moving the wrong way.</strong> Cutting would add fuel to rising prices."
     ],
     "everyday": "loans would get slightly cheaper, but the surprise itself would likely signal that something had gone badly wrong in the economy.",
-    "prob": 5
+    "prob": 2
    }
   ],
   "change": {
-   "lead": "Our 55% / 40% / 5% guess is based on what we know today. New information arrives almost every day. Some of it can move our view a lot. Here is what we are watching, and why each item matters.",
-   "intro_title": "Why before and after the meeting matters",
-   "intro": "The Fed can only react to information it has <em>already seen</em>. A report released <strong>before</strong> October 28 can change the October decision. A report released <strong>after</strong> it can only shape what happens in December. That is why the reports in the first part of the table matter most right now.",
+   "lead": "Our 80% / 18% / 2% guess is based on what we know today. New information arrives almost every day. Some of it can move our view a lot. Here is what we are watching, and why each item matters.",
+   "intro_title": "Why upcoming reports matter for December",
+   "intro": "The Fed just held in October. Now, every report released before the December meeting will shape whether the Fed decides to raise rates then. Here is what we are watching.",
    "reports": {
     "producer_price_index_ppi": {
      "why": "Business costs today often become shop prices a few months later. It is an early warning.",
-     "trigger": "A big jump would add to the case for Raise."
+     "trigger": "A big jump would add to the case for a December rise."
     },
     "retail_sales": {
      "why": "If spending stays strong, the economy can handle a higher rate, and demand keeps pushing prices up.",
-     "trigger": "Another gain of around 1% or more → leans Raise. A drop → leans Hold."
+     "trigger": "Another solid gain → leans toward a rise. A drop → leans toward hold."
     },
     "weekly_jobless_claims": {
      "why": "The fastest signal of layoffs. Right now it is very low (about 194,000).",
-     "trigger": "A steady climb toward 250,000 or more → Hold firms up, and cut talk could start."
+     "trigger": "A steady climb toward 250,000 or more → hold firms up."
     },
     "housing_starts": {
      "why": "Housing reacts first to higher mortgage rates. A sharp fall would show the brake is already biting.",
-     "trigger": "A big drop → leans Hold."
+     "trigger": "A big drop → leans toward hold."
     },
     "durable_goods_orders": {
      "why": "Shows whether businesses are still investing heavily.",
      "trigger": "Small effect on its own."
     },
     "gdp_q3_first_estimate_pce_pric": {
-     "why": "Too late for October, but key for December.",
-     "trigger": "Shapes our December view."
+     "why": "Key inputs for December to gauge summer growth and inflation.",
+     "trigger": "Stronger growth or hot PCE prices → raises chance of a December hike."
     },
     "pce_prices_and_spending": {
-     "why": "Key input for December.",
-     "trigger": "December."
+     "why": "The Fed's official inflation target is measured here.",
+     "trigger": "Core PCE staying around 3% or higher keeps pressure on the Fed."
     },
     "employment_cost_index": {
      "why": "Fast pay growth can keep service prices high.",
-     "trigger": "December."
+     "trigger": "Higher wage pressures support rate hikes."
     },
     "job_openings_jolts": {
      "why": "Shows demand for workers.",
-     "trigger": "December."
+     "trigger": "A sharp drop would signal labor cooling."
     },
     "jobs_report": {
-     "why": "Will show whether September's weak hiring was a one-off.",
-     "trigger": "December."
+     "why": "Will show whether September's weak hiring was a one-off or a trend.",
+     "trigger": "Weak job gains again → hold; strong gains → raise."
     },
     "consumer_price_index_cpi": {
-     "why": "Key input for December.",
-     "trigger": "December."
+     "why": "Key early indicator of consumer price trends.",
+     "trigger": "Hot CPI readings increase pressure for December."
     }
    },
    "other_title": "Other things that could move our view",
    "other": [
-    "<strong>Oil and the Middle East.</strong> Energy is the main driver of today's inflation. A new jump in oil (for example well above $100 a barrel) would make a rise more likely. A big drop would make waiting easier.",
-    "<strong>Bond market rates.</strong> One of our main reasons for Hold is that market rates already rose. If the 10-year rate falls back sharply, that reason weakens and Raise becomes more likely.",
-    "<strong>Final words from Fed officials.</strong> Officials stop giving policy speeches shortly before each meeting (a quiet period). That usually begins about 10 days before, so around <strong>October 17</strong>. Anything they say before then is the last direct hint we get.",
-    "<strong>A financial shock.</strong> A sudden market fall or trouble at a big financial firm would almost certainly push the Fed to hold, and could even raise the chance of a cut."
+    "<strong>Oil and the Middle East.</strong> Energy is the main driver of today's inflation. A new jump in oil would make a December rise more likely.",
+    "<strong>Bond market rates.</strong> If the 10-year yield falls back sharply, borrowing conditions loosen and a December hike becomes more likely.",
+    "<strong>Regional Fed bank presidents' speeches.</strong> Their comments will reveal how many officials share the view of the two dissenters.",
+    "<strong>A financial shock.</strong> A sudden market fall or trouble at a big financial firm would almost certainly push the Fed to hold."
    ]
   },
   "report_card": [
@@ -1542,36 +1499,36 @@
     "grade": "red",
     "one": "Things cost 3.4% more than a year ago, far above the 2% goal.",
     "look": "The Fed's preferred price gauge (PCE, up 3.4%), the same gauge without food and energy (core PCE, up 3.0%), and consumer prices (CPI, up 3.7%).",
-    "why": "The Fed's official measure (PCE) is well above the goal, both with and without energy, and prices have been above target for over five years. Energy is up 20.4% in a year. Business costs (PPI) are up 6.3%, which can reach shop shelves later. Fed officials themselves say the risk is that prices go higher still.",
+    "why": "The Fed's official measure (PCE) is well above the goal, both with and without energy, and prices have been above target for over five years. Energy is up 20.4% in a year. Business costs (PPI) are up 6.3%, which can reach shop shelves later.",
     "change": "Several months of core prices rising 0.2% a month or less, and energy prices falling back.",
-    "matters": "This is the main reason the Fed is raising rates at all. As long as this stays red, the Fed leans toward pressing the brake."
+    "matters": "This is the main reason the Fed raised rates in September and why two members dissented to raise in October."
    },
    {
     "area": "Jobs",
     "grade": "amber",
     "one": "Few people are losing jobs, but companies are hiring slowly.",
     "look": "New jobs each month, the unemployment rate, weekly claims for unemployment benefits, and job openings.",
-    "why": "<em>Good news:</em> unemployment is low at 4.2%, and weekly layoff claims are very low (194,000). <em>Bad news:</em> only 29,000 jobs were added in September, July showed a loss, and few workers are quitting to switch jobs, which shows low confidence. It is not bad enough to be red, but not healthy enough to be green.",
+    "why": "<em>Good news:</em> unemployment is low at 4.2%, and weekly layoff claims are very low (194,000). <em>Bad news:</em> only 29,000 jobs were added in September, and few workers are quitting to switch jobs, which shows low confidence.",
     "change": "Rising layoff claims or a jump in unemployment → red. Hiring picking back up above 100,000 a month → green.",
-    "matters": "This is the main reason the Fed might wait. A weak job market makes another rate rise riskier."
+    "matters": "This is the main reason the Fed decided to wait in October. A weak job market makes another rate rise riskier."
    },
    {
     "area": "Growth",
     "grade": "green",
     "one": "The economy is growing at a solid pace, and people are still spending.",
     "look": "GDP (gross domestic product, the total value of everything the country produces), consumer spending and retail sales.",
-    "why": "The economy grew at a 2.2% yearly pace in spring, and an Atlanta Fed model estimates about 3.4% for summer. Shop sales jumped 0.8% in September. Businesses are investing heavily, especially in artificial intelligence. One caution: people are spending more than their incomes are growing, and their saving rate is low at 4.1%.",
-    "change": "A sharp drop in spending or a weak official summer GDP number on October 29 → yellow.",
-    "matters": "A strong economy can handle higher rates. This gives the Fed room to raise without much fear of causing a recession (a period when the economy shrinks)."
+    "why": "The economy grew at a 2.2% yearly pace in spring, and an Atlanta Fed model estimates about 3.3% for summer. Shop sales jumped 0.8% in September. Businesses are investing heavily, especially in artificial intelligence.",
+    "change": "A sharp drop in spending or a weak official summer GDP number → yellow.",
+    "matters": "A strong economy can handle higher rates, giving the Fed room to raise without causing a recession."
    },
    {
     "area": "Money markets",
     "grade": "amber",
     "one": "Borrowing costs jumped, but lenders are still lending calmly.",
     "look": "U.S. government bond rates (Treasury yields), the extra interest risky companies pay to borrow (credit spreads), and market expectations for inflation.",
-    "why": "<em>Worrying:</em> the 10-year bond rate rose to 4.99%, making mortgages and loans more expensive. <em>Reassuring:</em> risky companies still borrow easily (spread of 3.30%), and investors still expect inflation of only about 2.35% a year over the long run.",
+    "why": "<em>Worrying:</em> the 10-year bond rate rose to 5.05%, making mortgages and loans more expensive. <em>Reassuring:</em> risky companies still borrow easily (spread of 3.18%), and investors still expect inflation of only about 2.38% a year over the long run.",
     "change": "Credit spreads widening sharply or stock markets falling hard → red. Bond rates settling down → green.",
-    "matters": "Higher market rates are already slowing the economy, which is one reason the Fed may wait. Calm long-term inflation expectations mean the Fed does not need to panic."
+    "matters": "Higher market rates are already slowing the economy, which is one reason the Fed paused in October."
    }
   ],
   "indicators": {
@@ -1579,19 +1536,19 @@
     "now_label": "Too high",
     "now_tone": "bad",
     "what": "the government checks the prices of thousands of everyday things, like food, rent, gasoline, clothes, and doctor visits, and compares them with a year ago. A 3.7% rise means a $100 shopping basket now costs about $103.70.",
-    "why": "it is the most-watched price report in the country because it comes out first each month. It is 1.7 points above where the Fed wants prices to be. The 0.6% jump in just one month (September) is worrying, because if that pace continued for a year, prices would rise much faster."
+    "why": "it is the most-watched price report in the country because it comes out first each month. It is 1.7 points above where the Fed wants prices to be."
    },
    "core_cpi_without_food_and_energy": {
     "now_label": "Calmer, but watch",
     "now_tone": "mixed",
     "what": "the same price check, but with food and energy removed. Those two jump up and down with weather, wars and harvests, so economists take them out to see the slower, steadier trend underneath.",
-    "why": "on a yearly basis this looks fairly calm at 2.6%, which shows the problem is mostly energy. But the monthly rise of 0.3% is a little fast. The Fed's fear is that expensive energy slowly leaks into everything else."
+    "why": "on a yearly basis this looks fairly calm at 2.6%, which shows the problem is mostly energy. But the monthly rise of 0.3% is a little fast."
    },
    "cpi_energy": {
     "now_label": "Main cause",
     "now_tone": "bad",
     "what": "the price of gasoline, heating oil, electricity and natural gas for households.",
-    "why": "this is the main reason overall prices are high. A 20.4% jump in a year is very large. Energy also feeds into other prices, because almost every product has to be made, moved or kept cold or warm using energy. If energy calms down, overall inflation should calm down too, which is what the Fed is hoping for."
+    "why": "this is the main reason overall prices are high. A 20.4% jump in a year is very large. Energy also feeds into other prices."
    },
    "cpi_shelter_housing_costs": {
     "now_label": "Steady",
@@ -1602,182 +1559,182 @@
    "pce_prices_the_fed_s_official_target": {
     "now_label": "Too high",
     "now_tone": "bad",
-    "what": "the Personal Consumption Expenditures price index, from the Commerce Department. Like CPI, it tracks prices, but it covers a wider range of spending (including things paid for on people's behalf, like employer health insurance) and adjusts when people switch to cheaper products.",
-    "why": "this is the number the Fed's 2% goal is actually based on. At 3.4%, it is 1.4 points above target. When the Fed says inflation is too high, this is the number it means."
+    "what": "the Personal Consumption Expenditures price index, from the Commerce Department. Like CPI, it tracks prices, but it covers a wider range of spending.",
+    "why": "this is the number the Fed's 2% goal is actually based on. At 3.4%, it is 1.4 points above target."
    },
    "core_pce_without_food_and_energy": {
     "now_label": "A full point above goal",
     "now_tone": "bad",
     "what": "the Fed's official price measure, with food and energy removed to show the underlying trend.",
-    "why": "many economists consider this the Fed's favourite gauge. At 3.0%, it is still a full percentage point above the goal, even after removing energy. That tells the Fed the problem is not only energy."
+    "why": "at 3.0%, it is still a full percentage point above the goal, even after removing energy. That tells the Fed the problem is not only energy."
    },
    "producer_price_index_ppi_final_demand": {
     "now_label": "Pipeline pressure",
     "now_tone": "bad",
-    "what": "prices that businesses charge each other, for example what a factory charges a shop, or what a trucking company charges a supermarket.",
-    "why": "businesses usually pass higher costs on to customers, often a few months later. A 6.3% rise in business costs is an early warning that shop prices could keep rising."
+    "what": "prices that businesses charge each other, for example what a factory charges a shop.",
+    "why": "businesses usually pass higher costs on to customers, often a few months later. A 6.3% rise in business costs is an early warning."
    },
    "10_year_inflation_expectation_from_bon": {
     "now_label": "Calm",
     "now_tone": "good",
     "what": "by comparing two kinds of government bonds (one protected against inflation and one not), we can work out how much inflation investors expect on average over the next 10 years.",
-    "why": "this is good news at 2.35%. Investors still believe inflation will settle near 2–2.5% in the long run. That means people trust the Fed to fix the problem eventually. If this number started rising quickly, it would be a big warning sign and the Fed would likely act faster."
+    "why": "at 2.38%, investors still believe inflation will settle near 2–2.5% in the long run."
    },
    "new_jobs_nonfarm_payrolls": {
     "now_label": "Weak hiring",
     "now_tone": "bad",
-    "what": "the change in the number of people on company and government payrolls (farm jobs are counted separately). It comes from a large monthly survey of employers.",
-    "why": "29,000 is very low for an economy this size. It is the strongest reason the Fed might wait in October, because raising rates when hiring is this weak could tip companies into cutting jobs."
+    "what": "the change in the number of people on company and government payrolls (farm jobs are counted separately).",
+    "why": "29,000 is very low for an economy this size. It is the strongest reason the Fed paused in October."
    },
    "unemployment_rate": {
     "now_label": "Low, edging up",
     "now_tone": "mixed",
     "what": "the share of people who want a job, and are actively looking, but do not have one.",
-    "why": "4.2% is still low by historical standards, and Fed officials consider it close to maximum employment. A small rise is not a crisis, but if it kept climbing the Fed would become much more cautious."
+    "why": "4.2% is still low by historical standards, and Fed officials consider it close to maximum employment."
    },
    "average_hourly_pay": {
     "now_label": "Not keeping up",
     "now_tone": "mixed",
     "what": "the average hourly wage for workers.",
-    "why": "pay is rising about 3.0% while prices are rising faster, so many workers are slowly losing buying power. For the Fed, this is also a sign that wages are not the main cause of inflation."
+    "why": "pay is rising about 3.0% while prices are rising faster, so many workers are slowly losing buying power."
    },
    "labour_force_participation": {
     "now_label": "Stable",
     "now_tone": "info",
     "what": "the share of all adults who are either working or looking for work.",
-    "why": "at 61.8%, it is steady, which suggests the low unemployment rate is genuine and not caused by people dropping out."
+    "why": "at 61.8%, it is steady, suggesting the low unemployment rate is genuine."
    },
    "weekly_jobless_claims_new": {
     "now_label": "Very few layoffs",
     "now_tone": "good",
     "what": "how many people applied for unemployment benefits for the first time in a given week.",
-    "why": "at 194,000, this is very low. It shows companies are holding on to workers even though they are not hiring many new ones."
+    "why": "at 194,000, this is very low. It shows companies are holding on to workers."
    },
    "continuing_jobless_claims": {
     "now_label": "Watch",
     "now_tone": "info",
     "what": "the number of people still receiving unemployment benefits.",
-    "why": "at 1,728,000, if this keeps rising while new claims stay low, it means people who lose jobs are taking longer to find new ones, which matches the low hiring picture."
+    "why": "at 1,728,000, if this keeps rising while new claims stay low, it means people who lose jobs are taking longer to find new ones."
    },
    "job_openings_jolts": {
     "now_label": "Cooling slowly",
     "now_tone": "mixed",
-    "what": "the number of jobs companies are trying to fill, from the Job Openings and Labor Turnover Survey.",
-    "why": "at 7.1 million, there are still many open jobs, which supports workers. But the number is slowly falling, a sign that demand for workers is cooling."
+    "what": "the number of jobs companies are trying to fill, from the JOLTS report.",
+    "why": "at 7.1 million, there are still open jobs, but the number is slowly falling."
    },
    "quit_rate": {
     "now_label": "Low confidence",
     "now_tone": "mixed",
     "what": "the share of workers who quit their job in a month, usually to take a better one.",
-    "why": "at 1.9%, workers are nervous. It also means less pressure for employers to raise pay, which helps keep inflation down."
+    "why": "at 1.9%, workers are nervous about switching jobs."
    },
    "real_gdp_growth_spring": {
     "now_label": "Solid",
     "now_tone": "good",
-    "what": "GDP (gross domestic product) is the total value of everything the country produces. Real means the effect of price rises is removed. 2.2% is the yearly pace at which the economy was growing in spring.",
-    "why": "about 2% is considered healthy and normal for the U.S. The summer number arrives on October 29."
+    "what": "GDP (gross domestic product) is the total value of everything the country produces, adjusted for inflation. 2.2% is the yearly pace in spring.",
+    "why": "about 2% is considered healthy and normal for the U.S."
    },
    "gdpnow_model_estimate_summer": {
     "now_label": "Strong (estimate)",
     "now_tone": "good",
-    "what": "a computer model run by the Federal Reserve Bank of Atlanta that estimates GDP before the official number is released.",
-    "why": "3.4% would be strong growth. If correct, it supports the view that the economy can handle another rate rise."
+    "what": "a computer model run by the Atlanta Fed that estimates GDP before the official number is released.",
+    "why": "3.3% indicates strong summer growth, supporting the view that the economy can handle higher rates."
    },
    "retail_sales": {
     "now_label": "Strong spending",
     "now_tone": "good",
-    "what": "total sales at shops, restaurants, petrol stations and online stores, before removing price changes.",
-    "why": "consumer spending is about two-thirds of the U.S. economy. A 0.8% monthly rise means demand is still pushing prices up."
+    "what": "total sales at shops, restaurants, petrol stations and online stores.",
+    "why": "consumer spending is about two-thirds of the U.S. economy. A 0.8% monthly rise means demand is still robust."
    },
    "real_consumer_spending": {
     "now_label": "Strong",
     "now_tone": "good",
     "what": "how much more people actually bought, after taking out the effect of higher prices.",
-    "why": "at +0.6% in the month, it shows people were not just paying more, they were buying more."
+    "why": "at +0.6% in the month, people were buying more goods and services."
    },
    "real_after_tax_income": {
     "now_label": "Flat",
     "now_tone": "mixed",
     "what": "the money people have left after taxes, adjusted for price rises.",
-    "why": "at −0.0% in the month, spending grew but income did not. People cannot keep spending more than they earn forever."
+    "why": "at −0.0% in the month, spending grew faster than after-tax income."
    },
    "personal_saving_rate": {
     "now_label": "Low",
     "now_tone": "mixed",
     "what": "the share of after-tax income that people save instead of spend.",
-    "why": "4.1% is low. It means families are stretching their budgets, likely because of high energy costs."
+    "why": "4.1% is low, indicating families are stretching budgets due to high energy costs."
    },
    "fed_s_target_range_federal_funds_rate": {
-    "now_label": "Just raised",
+    "now_label": "Held steady",
     "now_tone": "info",
     "what": "the interest rate banks charge each other for overnight loans. The Fed sets a range and keeps the actual rate inside it.",
-    "why": "this is the main pedal the Fed controls. Almost every other interest rate moves with it."
+    "why": "at 3.75%–4.00%, this is the main pedal the Fed controls."
    },
    "effective_federal_funds_rate": {
     "now_label": "Mid-range",
     "now_tone": "info",
-    "what": "the actual average rate banks paid each other for overnight loans, published each business day by the New York Fed.",
-    "why": "at 3.88% (Oct 26, 2026), it confirms the Fed's target is working as intended."
+    "what": "the actual average rate banks paid each other for overnight loans, published by the New York Fed.",
+    "why": "at 3.88%, it confirms the Fed's target range is working as intended."
    },
    "3_month_treasury_bill": {
     "now_label": "Pricing in rises",
     "now_tone": "mixed",
     "what": "the interest rate the U.S. government pays to borrow for three months.",
-    "why": "at 4.22%, it is higher than the Fed's rate. That gap tells us investors expect the Fed to raise rates within the next few months."
+    "why": "at 4.18%, it remains above the Fed's target rate, reflecting expectations of further rate actions."
    },
    "2_year_treasury_yield": {
     "now_label": "Rising",
     "now_tone": "mixed",
     "what": "the interest the government pays to borrow for two years.",
-    "why": "at 4.70%, this rate is mostly driven by what investors think the Fed will do over the next two years."
+    "why": "at 4.67%, this rate is driven by what investors think the Fed will do over the next two years."
    },
    "10_year_treasury_yield": {
     "now_label": "Big jump",
     "now_tone": "bad",
-    "what": "the interest the government pays to borrow for ten years. It is one of the most important interest rates in the world.",
-    "why": "at 4.99%, mortgage rates and many business loans follow this rate. It makes buying homes and expanding businesses more expensive, which slows the economy on its own."
+    "what": "the interest the government pays to borrow for ten years.",
+    "why": "at 5.05%, mortgage rates and business loans follow this rate, making borrowing more expensive."
    },
    "30_year_treasury_yield": {
     "now_label": "High, steady",
     "now_tone": "info",
     "what": "the interest the government pays to borrow for thirty years.",
-    "why": "at 5.30%, it shows the long-term cost of government borrowing."
+    "why": "at 5.37%, it shows the long-term cost of government borrowing."
    },
    "high_yield_credit_spread": {
     "now_label": "Lenders calm",
     "now_tone": "good",
     "what": "the extra interest that riskier companies pay to borrow, on top of what the government pays.",
-    "why": "at 3.30%, it is low, which means lenders are calm and businesses can still borrow."
+    "why": "at 3.18%, it is low, meaning lenders are calm and businesses can still access credit."
    },
    "fed_s_target_range_federal_funds_rate_d": {
     "now_label": "One more rise expected",
     "now_tone": "info",
-    "what": "four times a year, each of the 18 Fed officials writes down where they think the rate should be at the end of the year. The middle answer is called the median.",
+    "what": "four times a year, each of the 18 Fed officials writes down where they think the rate should be at the end of the year.",
     "why": "at 3.6%, it shows that officials expect further adjustments over time."
    },
    "fed_officials_end_2026_rate_forecast_d": {
     "now_label": "One more rise expected",
     "now_tone": "info",
-    "what": "four times a year, each of the 18 Fed officials writes down where they think the rate should be at the end of the year. The middle answer is called the median.",
+    "what": "four times a year, each of the 18 Fed officials writes down where they think the rate should be at the end of the year.",
     "why": "at 3.6%, it shows that officials expect further adjustments over time."
    },
    "futures_market_odds_of_a_rise_by_decem": {
     "now_label": "Second-hand",
     "now_tone": "info",
     "what": "investors trade contracts that pay out based on future Fed rates. Governor Waller quoted futures traders seeing about an 85% chance of at least one rise by December.",
-    "why": "markets strongly expect a rise by December, but this tells us nothing about October alone."
+    "why": "markets strongly expect a rise by December."
    },
    "oil_price_wti_crude": {
     "now_label": "High",
     "now_tone": "bad",
-    "what": "the price of a barrel of U.S. crude oil, the raw material for gasoline, diesel and jet fuel.",
-    "why": "at $107.89, oil above $100 keeps energy prices, and therefore overall inflation, high."
+    "what": "the price of a barrel of U.S. crude oil.",
+    "why": "at $103.37, oil above $100 keeps energy prices and overall inflation high."
    },
    "u_s_gasoline_regular": {
-    "now_label": "$1.15 above last year",
+    "now_label": "Elevated",
     "now_tone": "bad",
     "what": "the average price at the pump across the country.",
-    "why": "at $4.269, it hurts family budgets and shapes how people feel about inflation."
+    "why": "at $4.269 a gallon, it hurts family budgets and shapes how people feel about inflation."
    },
    "european_central_bank_deposit_rate": {
     "now_label": "For comparison",
@@ -1794,6 +1751,23 @@
   },
   "said": [
    {
+    "n": "October 28 statement",
+    "v": "Held at 3.75%–4.00% · vote 10–2",
+    "p": "Oct 2026 meeting",
+    "r": "Oct 28, 2026",
+    "pv": "September: raised, vote 12–0",
+    "s": "Federal Reserve",
+    "u": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "now": [
+     "now-info",
+     "Held in October, dissenters want rises"
+    ],
+    "w": [
+     "What it said: economic activity is expanding at a strong pace and inflation remains elevated, prompting the Committee to maintain the target range at 3-3/4 to 4 percent. Lisa D. Cook and Beth M. Hammack dissented, preferring a 1/4 point rise.",
+     "Why it matters: the Fed paused after its September hike, but two dissenting votes show that strong inflation is keeping pressure on officials to raise rates further."
+    ]
+   },
+   {
     "n": "September 16 statement",
     "v": "Raised 0.25 points · vote 12–0",
     "p": "Sep 2026 meeting",
@@ -1807,7 +1781,7 @@
     ],
     "w": [
      "What it said: inflation remains elevated and the rise will support a timelier return to the Committee's 2 percent goal.",
-     "Why it matters: the Fed moved from talking to acting. A unanimous vote shows broad agreement inside the Fed that prices are the priority."
+     "Why it matters: the Fed moved from talking to acting. A unanimous vote showed broad agreement inside the Fed that prices were the priority."
     ]
    },
    {
@@ -1823,8 +1797,8 @@
      "Leans to more rises"
     ],
     "w": [
-     "What it is: a detailed summary of the discussion at the meeting, published three weeks later. It does not name who said what.",
-     "Why it matters: it shows most officials think another rise is likely this year, that many want insurance against stubborn inflation, and that each meeting is open. The phrase by year-end rather than at the next meeting is part of why we lean toward December."
+     "What it is: a detailed summary of the discussion at the meeting, published three weeks later.",
+     "Why it matters: it shows most officials think another rise is likely this year, that many want insurance against stubborn inflation, and that each meeting is open."
     ]
    },
    {
@@ -1857,8 +1831,8 @@
      "Balanced"
     ],
     "w": [
-     "What she said: she supported the September rise and wants to bring inflation down while keeping the job market strong. She gave no timing.",
-     "Why it matters: her balanced tone suggests she is not pushing for a rush, but she is clearly focused on inflation."
+     "What she said: she supported the September rise and wants to bring inflation down while keeping the job market strong.",
+     "Why it matters: her stance aligns with her subsequent October vote in favor of raising rates further."
     ]
    },
    {
@@ -1875,7 +1849,7 @@
     ],
     "w": [
      "What he said: bond rates have risen further since September, and the Fed will need to come to its own judgment.",
-     "Why it matters: the Vice Chair is the Fed's second-in-command, so his words carry weight. This is one of the clearest hints that the Fed may not move in October."
+     "Why it matters: this speech foreshadowed the Fed's decision to pause at the October meeting."
     ]
    },
    {
@@ -1892,25 +1866,21 @@
     ],
     "w": [
      "What he said: he expects more rises if the data come in as expected, but there is some flexibility about when those hikes will occur.",
-     "Why it matters: Waller has been an influential voice. He clearly expects more rises, and just as clearly says they do not have to happen at the very next meeting. This is the single strongest reason behind our Hold call."
+     "Why it matters: Waller clearly expected more rises while noting they do not have to happen at every consecutive meeting."
     ]
    }
   ],
   "gaps": [
-   "<strong>Market odds for October alone.</strong> We found no official source. Governor Waller quoted futures traders seeing about an 85% chance of at least one rise <em>by December</em>, but no October number. <em>Why it matters:</em> we cannot compare our 40% chance of an October rise with what markets expect.",
-   "<strong>Chair Warsh's own words.</strong> We could not load his September press conference transcript, so we do not quote him. <em>Why it matters:</em> the Chair's tone is often the best single hint about the next move.",
-   "<strong>Regional Fed bank presidents' speeches</strong> (for example Hammack, Kashkari, Logan) were not collected. <em>Why it matters:</em> several of them vote this year and were early to push for rises.",
-   "<strong>Summer (Q3) economic growth</strong> is not officially out until October 29. The 3.4% figure is an Atlanta Fed model estimate, not the official number.",
-   "<strong>Business surveys</strong> (ISM), <strong>consumer surveys</strong> (University of Michigan), mortgage rates, and the Bank of Japan's latest decision were not collected.",
-   "The date of the European Central Bank's last rate change, and the Fed's other administered rates (such as the rate paid on bank reserves), were not checked.",
-   "Fed meeting notes mention an upcoming <strong>change in how some PCE prices are measured</strong>, which could lower recent readings. We did not confirm the details.",
-   "<strong>How we gathered data:</strong> a web search tool was not available for this build. Every number was read directly from the official page linked next to it."
+   "<strong>Market odds for December alone.</strong> We found no official source for exact December hike probabilities beyond general expectations. <em>Why it matters:</em> we cannot numerically compare our outlook with market pricing.",
+   "<strong>Chair Warsh's press conference transcript</strong> was not loaded, so we do not quote him directly. <em>Why it matters:</em> the Chair's tone is often the best single hint about future decisions.",
+   "<strong>Regional Fed bank presidents' speeches</strong> (other than Bowman, Waller, Jefferson, Cook, Barr) were not fully collected.",
+   "<strong>How we gathered data:</strong> every indicator value and date was read directly from the official sources linked in the facts section."
   ],
   "group_intros": {
-   "prices": "These numbers tell us how fast things are getting more expensive. The Fed's goal is about 2% a year, measured by PCE. CPI is a similar measure that comes out earlier each month. It is closely watched, but it is not the Fed's formal target.",
+   "prices": "These numbers tell us how fast things are getting more expensive. The Fed's goal is about 2% a year, measured by PCE. CPI is a similar measure that comes out earlier each month.",
    "jobs": "These numbers show whether people can find and keep work, the Fed's second job. A weak job market makes the Fed more careful about raising rates.",
-   "growth": "These numbers show how fast the economy is growing and whether people are still spending. A strong economy can handle higher interest rates. A weak one cannot.",
-   "rates": "These numbers show the Fed's own rate and the rates set by investors in financial markets. Market rates often move before the Fed does, because investors try to guess the Fed's next step.",
+   "growth": "These numbers show how fast the economy is growing and whether people are still spending. A strong economy can handle higher interest rates.",
+   "rates": "These numbers show the Fed's own rate and the rates set by investors in financial markets. Market rates often move before the Fed does.",
    "said": "Fed officials often hint at what they will do next. Reading their words carefully is one of the best ways to guess the next decision.",
    "global": "The U.S. economy is affected by what happens elsewhere, especially energy prices and what other central banks do."
   }
@@ -2026,7 +1996,7 @@
   "abbrev": "Fed",
   "rate": "3.75%–4.00%",
   "last_move": "Raised 0.25 on Sep 16, 2026",
-  "card_why": "Inflation at 3.4% argues for another rise, but weak September hiring and a jump in bond yields let the Fed wait for December.",
+  "card_why": "The Fed held rates at 3.75%–4.00% in October, but two officials wanted a rise and inflation remains elevated.",
   "mini": {
    "prices": [
     "3.4%",
@@ -2037,8 +2007,8 @@
     "Sep"
    ],
    "10-yr": [
-    "4.99%",
-    "Oct 27"
+    "5.05%",
+    "Oct 28"
    ]
   },
   "rate_label": "Current Fed rate",
@@ -2167,6 +2137,81 @@
   "some flexibility about when those hikes will occur."
  ],
  "changelog": [
+  {
+   "date": "2026-10-28",
+   "date_label": "Oct 28, 2026",
+   "since": "2026-10-27",
+   "since_label": "Oct 27, 2026",
+   "summary": {
+    "headline": "The Fed held its rate at 3.75%–4.00% on October 28, with two voters preferring a rise.",
+    "items": [
+     "<strong>Federal Reserve rate decision</strong> on Oct 28, 2026: maintained the target range at 3.75%–4.00% by a 10–2 vote.",
+     "<strong>Dissenting votes</strong>: Lisa D. Cook and Beth M. Hammack voted to raise the target range by 1/4 percentage point.",
+     "<strong>GDPNow model estimate</strong> for Q3 2026 ticked down from 3.4% to 3.3% on Oct 28, 2026.",
+     "<strong>Oil price (WTI crude)</strong> fell from $105.25 to $103.37 a barrel by Oct 27, 2026."
+    ]
+   },
+   "data": [
+    {
+     "id": "gdpnow_model_estimate_summer",
+     "name": "GDPNow model estimate (current quarter)",
+     "from": "3.4% (estimate)",
+     "from_period": "Q3 2026",
+     "to": "3.3% (estimate)",
+     "to_period": "Q3 2026"
+    }
+   ],
+   "market": [
+    {
+     "id": "10_year_treasury_yield",
+     "name": "10-year Treasury yield",
+     "from": "4.99%",
+     "from_period": "Oct 27, 2026",
+     "to": "5.05%",
+     "to_period": "Oct 28, 2026",
+     "move": "+0.06 pts"
+    },
+    {
+     "id": "30_year_treasury_yield",
+     "name": "30-year Treasury yield",
+     "from": "5.30%",
+     "from_period": "Oct 27, 2026",
+     "to": "5.37%",
+     "to_period": "Oct 28, 2026",
+     "move": "+0.07 pts"
+    },
+    {
+     "id": "high_yield_credit_spread",
+     "name": "High-yield credit spread",
+     "from": "3.30%",
+     "from_period": "Oct 26, 2026",
+     "to": "3.18%",
+     "to_period": "Oct 27, 2026",
+     "move": "−0.12 pts"
+    },
+    {
+     "id": "oil_price_wti_crude",
+     "name": "Oil price (WTI crude)",
+     "from": "$107.89 a barrel",
+     "from_period": "Oct 20, 2026",
+     "to": "$103.37 a barrel",
+     "to_period": "Oct 27, 2026",
+     "move": "-4.2%"
+    }
+   ],
+   "fed": [
+    {
+     "title": "Federal Reserve issues FOMC statement",
+     "date": "2026-10-28",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    }
+   ],
+   "verdict": {
+    "from_text": "HOLD (hold 55% / raise 40% / cut 5%)",
+    "to_text": "HOLD (hold 80% / raise 18% / cut 2%)"
+   },
+   "ai_written": true
+  },
   {
    "date": "2026-10-27",
    "date_label": "Oct 27, 2026",
@@ -2487,6 +2532,11 @@
   "data_errors": [],
   "ai_errors": [],
   "sources_read": [
+   {
+    "title": "Federal Reserve issues FOMC statement",
+    "date": "2026-10-28",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+   },
    {
     "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
     "date": "2026-10-13",

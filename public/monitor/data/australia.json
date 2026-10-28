@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-10-27",
- "asof_label": "Oct 27, 2026",
- "generated_at": "2026-10-27T22:23:02.452Z",
- "data_updated_at": "2026-10-27T22:23:02.452Z",
- "narrative_updated_at": "2026-10-22T19:02:38.665Z",
+ "asof_date": "2026-10-28",
+ "asof_label": "Oct 28, 2026",
+ "generated_at": "2026-10-28T22:44:07.144Z",
+ "data_updated_at": "2026-10-28T22:44:07.144Z",
+ "narrative_updated_at": "2026-10-28T22:44:07.144Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,22 +39,22 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 7
+  "days_to_decision": 6
  },
  "kpis": [
   {
    "label": "RBA cash rate",
    "value": "4.60%",
    "note": "",
-   "period": "Oct 27, 2026",
+   "period": "Oct 28, 2026",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
   },
   {
    "label": "Price rise, past year",
-   "value": "4.0%",
+   "value": "4.3%",
    "note": "Target band 2–3%",
-   "period": "Aug 2026",
+   "period": "Sep 2026",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release"
   },
@@ -179,15 +179,15 @@
    "name": "Consumer Price Index (CPI), all items",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "4.0%",
-   "period": "Aug 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "3.5% (Jul 2026)",
+   "value": "4.3%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "4.0% (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "v": 4
+    "v": 4.3
    },
    "estimate": false
   },
@@ -198,12 +198,12 @@
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
    "value": "3.6%",
-   "period": "Aug 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "3.6% (Jul 2026)",
+   "period": "Sep 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "3.5% (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
     "v": 3.6
    },
@@ -215,15 +215,15 @@
    "name": "CPI excluding volatile items and holiday travel",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "3.9%",
-   "period": "Aug 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "3.8% (Jul 2026)",
+   "value": "3.6%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "3.9% (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "v": 3.9
+    "v": 3.6
    },
    "estimate": false
   },
@@ -233,15 +233,15 @@
    "name": "Automotive fuel prices",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "13.5%",
-   "period": "Aug 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "-0.4% (Jul 2026)",
+   "value": "23.6%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "13.5% (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "v": 13.5
+    "v": 23.6
    },
    "estimate": false
   },
@@ -251,15 +251,15 @@
    "name": "Electricity prices",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "13.2%",
-   "period": "Aug 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "6.1% (Jul 2026)",
+   "value": "12.8%",
+   "period": "Sep 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "13.2% (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "v": 13.2
+    "v": 12.8
    },
    "estimate": false
   },
@@ -270,12 +270,12 @@
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
    "value": "3.6%",
-   "period": "Aug 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "3.6% (Jul 2026)",
+   "period": "Sep 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "3.6% (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
     "v": 3.6
    },
@@ -593,12 +593,12 @@
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
    "value": "4.60%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 27, 2026",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 28, 2026",
    "previous": "4.35% (Sep 29, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
     "v": 4.6
    },
@@ -695,15 +695,15 @@
    "name": "Australian dollar",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
-   "value": "US$0.7021",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 27, 2026",
-   "previous": "US$0.7031 (Oct 26, 2026)",
+   "value": "US$0.7034",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 28, 2026",
+   "previous": "US$0.7021 (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 0.7021
+    "v": 0.7034
    },
    "estimate": false,
    "note": "AUD/USD only (the snapshot also quotes the trade-weighted index)"
@@ -727,15 +727,15 @@
    "name": "Oil price (Brent)",
    "source": "U.S. EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "$115.22 a barrel",
-   "period": "Oct 20, 2026",
-   "released": "Oct 21, 2026",
-   "previous": "$118.82 (Oct 19, 2026)",
+   "value": "$123.10 a barrel",
+   "period": "Oct 27, 2026",
+   "released": "Oct 28, 2026",
+   "previous": "$128.12 (Oct 26, 2026)",
    "tag": "secondary",
    "manual": false,
-   "latest_date": "2026-10-20",
+   "latest_date": "2026-10-27",
    "raw": {
-    "v": 115.22
+    "v": 123.1
    },
    "estimate": false
   },
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 27, 2026",
-   "released": "Oct 27, 2026",
-   "previous": "4.00% (Oct 26, 2026)",
+   "period": "Oct 28, 2026",
+   "released": "Oct 28, 2026",
+   "previous": "4.00% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
     "v": 4
    },
@@ -981,13 +981,19 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "Headline CPI inflation rose to 4.3% in September from 4.0% in August, while monthly trimmed mean inflation held at 3.6%.",
+   "items": [
+    "<strong>Consumer Price Index (CPI)</strong> rose from 4.0% in August to 4.3% in September (annual rate).",
+    "<strong>Trimmed mean inflation</strong> held steady at 3.6% in September compared to August.",
+    "<strong>Automotive fuel prices</strong> jumped sharply from 13.5% in August to 23.6% in September due to higher world oil prices.",
+    "<strong>Oil price (Brent)</strong> increased to $123.10 a barrel on October 27 from $115.22 on October 20.",
+    "<strong>Governor Michele Bullock</strong> delivered her opening statement to the Senate Economics Legislation Committee on October 28, noting that inflation will likely be higher than the RBA's August forecasts due to materialising upside risks."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
    "headline": "HOLD",
-   "sub": "<strong>Keep the cash rate where it is, at 4.60%.</strong> This is a close call. Another rise is a very real possibility.",
+   "sub": "<strong>Keep the cash rate where it is, at 4.60%.</strong> This remains a very close call ahead of the November 3 meeting.",
    "probabilities": {
     "hold": 55,
     "raise": 42,
@@ -999,9 +1005,9 @@
     "cut": "Cut (down)"
    },
    "confidence": "Low",
-   "confidence_note": "“Low” means this is not far from a coin flip. Two reports could flip our answer: the September jobs report released on October 15 and, above all, the September-quarter consumer price report on Wednesday, October 28, six days before the decision.",
-   "short_version": "Prices in Australia are rising 4% a year, well above the RBA’s 2–3% target, and oil has jumped again. The RBA raised rates five weeks ago and says it will raise again “if needed”. But unemployment is creeping up and house prices are falling, so we think it will more likely wait for December than move twice in a row. The September-quarter price report on October 28 could easily change that.",
-   "card_why": "Inflation is 4% and oil has spiked, but the RBA raised only five weeks ago and unemployment is rising; Q3 CPI on Oct 28 is decisive.",
+   "confidence_note": "“Low” means this is very close. September CPI came in at 4.3% and oil remains elevated, keeping a November rate rise on the table alongside the new Statement on Monetary Policy.",
+   "short_version": "Australian consumer price inflation ticked up to 4.3% in September and oil prices have climbed further, while the RBA raised rates in late September. With a new Statement on Monetary Policy due on November 3, another rate rise is a very real possibility, but we think the RBA will likely pause to assess the full impact of its September move.",
+   "card_why": "Inflation ticked up to 4.3% in September and oil prices rose, but the RBA only just moved in September; the November 3 decision is near.",
    "last_move": "Raised 0.25 pts on Sep 29, 2026 (unanimous)"
   },
   "why_steps": [
@@ -1011,45 +1017,45 @@
    },
    {
     "title": "Prices are clearly too high, and oil is making it worse",
-    "html": "The Australian Bureau of Statistics (<strong>ABS</strong>) says consumer prices were <strong>4.0% higher</strong> in August than a year earlier, up from 3.5% in July (<a href=\"https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release\" target=\"_blank\" rel=\"noopener noreferrer\">ABS</a>). In simple terms: a basket of everyday things that cost A$100 a year ago now costs about <strong>A$104</strong>. The target would be about A$102.50.\n\nPart of the August jump was one-offs. Petrol and diesel rose <strong>13.5%</strong> in a year, because of “higher world oil prices and the unwinding of the remainder of the federal governments fuel excise relief measures in August” (the government had temporarily cut fuel tax, and that relief ended). Electricity rose 13.2% in a year, “largely due to the ending of Commonwealth electricity rebates.” But the RBA’s favourite underlying measure, the <strong>trimmed mean</strong>, is also high at <strong>3.6%</strong>. (The trimmed mean ignores the items with the biggest and smallest price changes each month, so one-offs like a fuel spike do not distort it.) It sits above the whole 2–3% band."
+    "html": "The Australian Bureau of Statistics (<strong>ABS</strong>) says consumer prices were <strong>4.3% higher</strong> in September than a year earlier, up from 4.0% in August (<a href=\"https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release\" target=\"_blank\" rel=\"noopener noreferrer\">ABS</a>). In simple terms: a basket of everyday things that cost A$100 a year ago now costs about <strong>A$104.30</strong>. The target would be about A$102.50.\n\nPart of the recent pressure comes from energy costs. Petrol and diesel prices rose <strong>23.6%</strong> in September compared to a year earlier, up from 13.5% in August. Electricity prices remain elevated at 12.8%. At the same time, the RBA’s preferred underlying measure, the <strong>trimmed mean</strong>, sits at <strong>3.6%</strong> for September. (The trimmed mean ignores the items with the biggest and smallest price changes each month, so one-offs like a fuel spike do not distort it.) It remains above the 2–3% target band."
    },
    {
     "title": "So the RBA has pressed the brake four times this year",
-    "html": "The RBA raised its rate in <strong>February</strong> (to 3.85%), <strong>March</strong> (4.10%), <strong>May</strong> (4.35%) and, most recently, on <strong>September 29</strong> (to <strong>4.60%</strong>). The September decision was unanimous. The RBA said “some of the upside risks flagged in August are materialising” and that “a further tightening in financial conditions is warranted” (<a href=\"https://www.rba.gov.au/media-releases/2026/mr-26-27.html\" target=\"_blank\" rel=\"noopener noreferrer\">RBA</a>). It will keep doing what is necessary, “including increasing the cash rate target further if needed.”\n\nThere are two meetings left this year: <strong>November 3</strong> and <strong>December 8</strong>. In late September, financial markets were pricing “an additional increase of around 15 basis points by the end of the year” (0.15 points, or roughly a 60% chance of one more 0.25-point rise by December), according to the RBA’s own minutes (<a href=\"https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-09-29.html\" target=\"_blank\" rel=\"noopener noreferrer\">minutes</a>). The question is whether it comes in November or later."
+    "html": "The RBA raised its rate in <strong>February</strong> (to 3.85%), <strong>March</strong> (4.10%), <strong>May</strong> (4.35%) and, most recently, on <strong>September 29</strong> (to <strong>4.60%</strong>). The September decision was unanimous. The RBA said “some of the upside risks flagged in August are materialising” and that “a further tightening in financial conditions is warranted” (<a href=\"https://www.rba.gov.au/media-releases/2026/mr-26-27.html\" target=\"_blank\" rel=\"noopener noreferrer\">RBA</a>). Governor Bullock noted in her October 28 Senate testimony that inflation will likely be higher than previous forecasts due to energy price shocks and capacity pressures (<a href=\"https://www.rba.gov.au/speeches/2026/sp-gov-2026-10-28.html\" target=\"_blank\" rel=\"noopener noreferrer\">RBA</a>).\n\nThere are two meetings left this year: <strong>November 2–3</strong> and <strong>December 7–8</strong>. The upcoming meeting on November 3 coincides with the release of a new Statement on Monetary Policy containing the RBA’s updated forecasts."
    },
    {
-    "title": "Reasons the RBA might wait until December",
-    "html": "<ul><li><strong>It only just moved.</strong> The September 29 rise will barely have reached mortgage payments by November 3. The brake takes many months to fully work, and after its May rise the RBA held in June and August to assess the effects before acting again.</li><li><strong>Jobs are softening.</strong> Unemployment rose to <strong>4.7%</strong> in September (<a href=\"https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release\" target=\"_blank\" rel=\"noopener noreferrer\">ABS</a>). The RBA’s own forecasts expect it to keep rising slowly.</li><li><strong>Households are feeling it.</strong> Household spending indicator showed a 6.8% rate in August (<a href=\"https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/latest-release\" target=\"_blank\" rel=\"noopener noreferrer\">ABS</a>). National house prices were about 1½% below their March peak by August, and scheduled mortgage payments now take about 10% of household disposable income.</li><li><strong>The bond market already pressed the brake.</strong> The 10-year Australian government bond rate is about <strong>5.31%</strong>, roughly a full point higher than a year ago (market data). Fixed-rate mortgages and business loans follow it. Governor Bullock said: “Yes, the bond yields are rising quite quickly, but there doesn't seem to be anything disorderly about it.”</li><li><strong>The Governor played down the September-quarter report.</strong> She said “all the quarterly numbers in September will be doing is confirming what we already know” (<a href=\"https://www.rba.gov.au/speeches/2026/mc-gov-2026-09-29.html\" target=\"_blank\" rel=\"noopener noreferrer\">media conference</a>). That suggests only a real surprise on October 28 would force a back-to-back move.</li></ul>"
+    "title": "Reasons the RBA might wait",
+    "html": "<ul><li><strong>It only just moved.</strong> The September 29 rate rise to 4.60% will barely have reached mortgage payments by the November meeting. The brake takes months to fully work through the economy.</li><li><strong>Jobs are softening.</strong> Unemployment stood at <strong>4.7%</strong> in September (<a href=\"https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release\" target=\"_blank\" rel=\"noopener noreferrer\">ABS</a>), and employment fell by 39,329 during the month.</li><li><strong>Households are feeling the squeeze.</strong> The monthly household spending indicator registered 6.8% in August, national house prices remain below their peak, and mortgage payments take about 10% of household disposable income.</li><li><strong>The bond market has tightened conditions.</strong> The 10-year Australian government bond rate is around <strong>5.28%</strong>, which helps push up fixed-rate mortgages and business loan costs without requiring immediate central bank action.</li></ul>"
    },
    {
-    "title": "Reasons the RBA might raise in November anyway",
-    "html": "<ul><li><strong>Oil has jumped far above the RBA’s assumption.</strong> The August forecasts assumed Brent oil near US$81 by December. Brent was $115.22 a barrel on October 20. The minutes say local petrol and diesel prices were already higher than had been forecast in August.</li><li><strong>November brings a full new forecast.</strong> The RBA publishes a Statement on Monetary Policy with its November decision, and two of its four rises this year (February and May) came at meetings with new forecasts. If the new forecasts show inflation staying above 3% for longer, a rise would be easy to explain.</li><li><strong>The RBA has said it will not wait for proof.</strong> The September minutes say waiting for confirmation could be costly given inflation has been above target for an extended period, and that the cash rate may not yet be restrictive enough.</li><li><strong>Price expectations are high.</strong> The RBA says “Short-term measures of inflation expectations remain elevated.” If people expect high inflation, they ask for bigger pay rises and firms raise prices more easily.</li></ul>"
+    "title": "Reasons the RBA might raise rates again",
+    "html": "<ul><li><strong>Inflation is above target and moving higher.</strong> September headline CPI reached 4.3% and the trimmed mean is at 3.6%, remaining well outside the 2–3% target band.</li><li><strong>Oil prices have surged past assumptions.</strong> Brent oil reached $123.10 a barrel in late October, far above the RBA's August forecast assumption of US$81 by December.</li><li><strong>New forecasts in November.</strong> The RBA publishes a fresh Statement on Monetary Policy with the November 3 decision. If updated forecasts show inflation staying elevated for longer, a rate rise becomes much easier to justify.</li><li><strong>Capacity pressures.</strong> Governor Bullock stated in her Senate testimony that despite rising unemployment, the labour market remains tighter than previously judged, sustaining underlying price pressures.</li></ul>"
    },
    {
     "title": "Weighing both sides",
     "scale": {
      "left_title": "Pulls toward Raise now",
      "left": [
-      "CPI 4.0%, trimmed mean 3.6%, both above the 2–3% band",
-      "Oil far above the RBA’s August assumption",
-      "New forecasts due on Nov 3",
-      "“increasing the cash rate target further if needed”",
-      "Markets expect more rises"
+      "CPI inflation ticked up to 4.3% in September",
+      "Oil prices remain very high ($123.10/barrel)",
+      "New forecasts due in the November Statement on Monetary Policy",
+      "Governor notes upside risks to inflation have materialised",
+      "Underlying trimmed mean inflation stuck at 3.6%"
      ],
      "right_title": "Pulls toward Hold now",
      "right": [
-      "The RBA raised only five weeks earlier",
-      "Unemployment up to 4.7%",
-      "Cooling spending and falling house prices",
-      "Bond rates near 5.31%",
-      "Governor: Q3 numbers will be “confirming what we already know”"
+      "The RBA raised rates only five weeks ago",
+      "Unemployment at 4.7% with employment falling in September",
+      "Cooling household spending and housing market",
+      "Long-term bond yields already near 5.28%",
+      "Risk of overtightening a slowing economy"
      ]
     },
-    "html": "Both sides are strong. What tips us slightly toward <strong>Hold</strong> is the RBA’s own rhythm this year: after its May rise it paused to assess (holding in June and August), and it has another meeting five weeks after November, in December, with two more monthly price reports in hand. That is why we say about <strong>55% Hold</strong>, <strong>42% Raise</strong> and <strong>3% Cut</strong>, not something more lopsided."
+    "html": "Both sides are strong. What keeps us leaning slightly toward <strong>Hold</strong> is the RBA’s usual preference to assess the lagged impact of its recent 0.25-point hike before moving again back-to-back, even as incoming inflation data provides clear ammunition for a raise. That is why our probabilities remain at <strong>55% Hold</strong>, <strong>42% Raise</strong> and <strong>3% Cut</strong>."
    },
    {
-    "title": "The one thing to watch: the price report on October 28",
-    "html": "On <strong>Wednesday, October 28</strong> at 11:30 a.m., the ABS publishes September’s consumer prices, and with them the full <strong>September-quarter</strong> figures, including the quarterly trimmed mean the RBA has relied on for years. This is the last big report before the decision.\n\nIf the trimmed mean rises <strong>1.0% or more in the quarter</strong>, or its yearly rate climbs to <strong>3.8% or higher</strong>, we would likely switch our main call to <strong>Raise</strong>. If it rises <strong>0.8% or less</strong> in the quarter and the yearly rate stays near 3.6%, we would be more confident in <strong>Hold</strong>. Today’s jobs report matters too: unemployment at <strong>4.8% or more</strong> would strengthen Hold; a fall back to <strong>4.4% or less</strong> would push us toward Raise."
+    "title": "The decision ahead on November 2–3",
+    "html": "On <strong>Tuesday, November 3 at 2:30 p.m. AEDT</strong>, the RBA will announce its latest interest rate decision alongside its quarterly Statement on Monetary Policy. Following the release of September inflation data showing CPI at 4.3% and Brent oil trading around $123.10 a barrel, the central bank faces a very tight choice between pausing to evaluate previous hikes or taking further action to combat persistent price pressures."
    }
   ],
   "timeline": [
@@ -1160,24 +1166,6 @@
     "because": "the RBA set a clear test: it would raise again only if the upside risks it was worried about actually happened."
    },
    {
-    "date_label": "August 11, 2026",
-    "title": "The RBA’s forecast: a long road back to target",
-    "kind": "neutral",
-    "what": "The August Statement on Monetary Policy forecast headline inflation at <strong>3.6%</strong> and the trimmed mean at <strong>3.3%</strong> by December 2026, with inflation “declining to the midpoint of the 2–3 per cent target range by early 2028.” It expected unemployment to rise to <strong>4.8%</strong> by end-2028. It assumed Brent oil would fall to about US$81 by December.",
-    "sources": [
-     {
-      "label": "SMP overview",
-      "url": "https://www.rba.gov.au/publications/smp/2026/aug/overview.html"
-     },
-     {
-      "label": "Forecast table",
-      "url": "https://www.rba.gov.au/publications/smp/2026/aug/outlook.html"
-     }
-    ],
-    "people": "Even in the RBA’s hopeful case, prices would keep rising faster than the target for more than a year, while finding a job would slowly get harder.",
-    "because": "everyone watched oil. In September it went the wrong way."
-   },
-   {
     "date_label": "August 19 – September 24, 2026",
     "title": "Slower growth, steady pay, jobs softening",
     "kind": "neutral",
@@ -1220,46 +1208,25 @@
       "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-09-29.html"
      }
     ],
-    "because": "the next day’s price report showed why the RBA was worried."
+    "because": "the next month’s price report showed why the RBA remained concerned."
    },
    {
-    "date_label": "September 30 – October 6, 2026",
-    "title": "Prices jump to 4.0%, and oil spikes",
-    "kind": "up",
-    "what": "The ABS said consumer prices were up <strong>4.0%</strong> in the year to August (3.5% in July). Fuel rose 13.5% and electricity was up 13.2% on the year as government rebates ended. The trimmed mean held at <strong>3.6%</strong>. Then Brent oil jumped from US$114.82 on October 1 to <strong>US$135.51</strong> on October 2, before easing to US$125.44 on October 6.",
+    "date_label": "October 28, 2026",
+    "title": "September CPI rises to 4.3% and Governor testifies in Senate",
+    "kind": "now",
+    "what": "The ABS reported September CPI inflation at <strong>4.3%</strong>, with automotive fuel prices jumping 23.6%. Meanwhile, Governor Michele Bullock told the Senate Economics Legislation Committee that inflation will likely remain elevated above previous forecasts due to global energy shocks and domestic capacity pressures.",
     "sources": [
      {
       "label": "CPI (ABS)",
       "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release"
      },
      {
-      "label": "Brent oil (FRED)",
-      "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
+      "label": "Senate Opening Statement",
+      "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-10-28.html"
      }
     ],
-    "people": "Higher bills at the bowser and on the power bill, on top of higher mortgage repayments.",
-    "because": "pressure for another rise grew, even as the RBA had only just moved."
-   },
-   {
-    "date_label": "October 1 – 22, 2026",
-    "title": "Where things stand now",
-    "kind": "now",
-    "what": "The RBA’s Financial Stability Review (Oct 1) said “Australia's financial system has a good degree of resilience”. The September minutes (Oct 13) showed markets pricing about 0.15 points more by year-end and 0.30 points more in early 2027. The Australian dollar was US$0.7018 on October 22 (<a href=\"https://www.rba.gov.au/statistics/frequency/exchange-rates.html\" target=\"_blank\" rel=\"noopener noreferrer\">RBA</a>), and unemployment ticked to 4.7% in September.",
-    "sources": [
-     {
-      "label": "FSR release",
-      "url": "https://www.rba.gov.au/media-releases/2026/mr-26-28.html"
-     },
-     {
-      "label": "Minutes",
-      "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-09-29.html"
-     },
-     {
-      "label": "Labour Force (ABS)",
-      "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
-     }
-    ],
-    "because": "our reading is “another rise is likely, but probably not straight away”, which is why our main call is Hold, with Raise close behind."
+    "people": "Higher energy costs continue to press on household budgets while mortgage rates remain at 4.60%.",
+    "because": "our reading ahead of the November 2–3 meeting is that a rate hold is most likely, but another rate hike remains a realistic possibility."
    }
   ],
   "choices": [
@@ -1267,163 +1234,127 @@
     "option": "hold",
     "rank_label": "Most likely",
     "title": "Hold: keep the cash rate at 4.60%",
-    "meaning": "the RBA keeps its foot where it is on the brake. It would almost certainly repeat that it is ready to raise again, so a hold would be a “not yet”, not an “all clear”.",
+    "meaning": "the RBA keeps its foot where it is on the brake while assessing the impact of September's rate rise and reviewing the new Statement on Monetary Policy.",
     "for": [
-     "<strong>The September rise needs time.</strong> It has been only five weeks. After its May rise, the RBA paused twice to assess the effects.",
-     "<strong>Unemployment is rising.</strong> 4.7% in September, up from 4.3% in March. The RBA does not want to cause job losses by braking too hard, too fast.",
-     "<strong>Households are slowing down.</strong> Spending indicator at 6.8% in August, house prices are falling and mortgage payments take about 10% of disposable income.",
-     "<strong>The bond market did some of the work.</strong> The 10-year rate near 5.31% already makes fixed loans dearer.",
-     "<strong>December is close.</strong> The RBA would have two more monthly price reports and two more jobs reports before December 8."
+     "<strong>The September rise needs time.</strong> It has only been five weeks since the RBA moved to 4.60%.",
+     "<strong>Unemployment is rising.</strong> 4.7% in September, with employment falling by 39,329.",
+     "<strong>Households are slowing down.</strong> Spending indicators and cooling housing markets show monetary policy is biting.",
+     "<strong>December is close.</strong> Holding in November allows the RBA to absorb the full new forecast before deciding on any further moves."
     ],
     "against": [
-     "<strong>Inflation is far from target.</strong> 4.0% headline and 3.6% trimmed mean, versus a 2–3% band.",
-     "<strong>Oil has spiked again.</strong> Brent above US$115 is far above the US$81 the RBA assumed for December.",
-     "<strong>The RBA says waiting can be costly.</strong> Its minutes warn that inflation has been above target for a long time.",
-     "<strong>A hot September-quarter report on October 28</strong> could make waiting feel too risky."
+     "<strong>Inflation is rising.</strong> Headline CPI ticked up to 4.3% in September and trimmed mean remains at 3.6%.",
+     "<strong>Oil has spiked further.</strong> Brent oil near $123 a barrel adds sustained cost pressures.",
+     "<strong>Governor's testimony.</strong> Governor Bullock noted that upside risks have materialised and inflation will likely be higher than August base-case forecasts."
     ],
-    "everyday": "variable mortgage repayments and savings rates would stay roughly where they are for now. Attention would shift straight to December, where a rise would still be very possible.",
+    "everyday": "variable mortgage repayments and savings rates would stay roughly where they are for now, with attention shifting to December.",
     "prob": 55
    },
    {
     "option": "raise",
     "rank_label": "Close second",
     "title": "Raise: up 0.25 points, to 4.85%",
-    "meaning": "the RBA presses the brake for the second meeting in a row, to stop the oil shock from turning into lasting inflation.",
+    "meaning": "the RBA presses the brake again in November to respond to higher-than-expected September inflation and surging oil prices.",
     "for": [
-     "<strong>Oil keeps rising.</strong> The RBA said in September that energy prices were “much higher than had been assumed”, and oil has climbed further since.",
-     "<strong>New forecasts.</strong> If the November Statement on Monetary Policy shows inflation staying above the band for longer, a rise matches the story.",
-     "<strong>The RBA has done back-to-back rises this year.</strong> It raised in both February and March.",
-     "<strong>Inflation expectations.</strong> The RBA says short-term expectations “remain elevated”, which is exactly how one-off price jumps become lasting.",
-     "<strong>Markets lean that way.</strong> In late September, markets priced about 0.15 points more by year-end and 0.30 points more in the first half of 2027."
+     "<strong>Inflation came in higher.</strong> September CPI rose to 4.3%, remaining well above the 2–3% target band.",
+     "<strong>Energy shock.</strong> Automotive fuel prices surged 23.6% and Brent oil is trading near $123 a barrel.",
+     "<strong>New forecasts.</strong> The November Statement on Monetary Policy may show inflation returning to target later than previously anticipated.",
+     "<strong>Capacity pressures.</strong> The RBA noted that the labour market remains somewhat tight despite rising unemployment."
     ],
     "against": [
-     "<strong>Too soon.</strong> A second rise only five weeks after the first would be braking before seeing the effect.",
-     "<strong>Softer jobs and spending.</strong> Raising into a cooling economy risks pushing unemployment up faster than the RBA forecasts.",
-     "<strong>The Governor gave no hint.</strong> She said: “I'm not going to give you forward guidance.”"
+     "<strong>Too soon after September.</strong> Delivering back-to-back rate hikes before seeing the full lagged effect of the previous move is unusual for the current board.",
+     "<strong>Slowing labour market.</strong> Employment fell significantly in September, pointing to a cooling economy."
     ],
-    "everyday": "variable mortgage repayments would rise again, by very roughly A$100 a month on a A$600,000 loan (our rough arithmetic). Savings accounts and term deposits would pay a bit more. The Australian dollar might firm a little.",
+    "everyday": "variable mortgage repayments would rise by roughly A$100 a month on a A$600,000 loan, and savings accounts would pay slightly more.",
     "prob": 42
    },
    {
     "option": "cut",
     "rank_label": "Unlikely",
     "title": "Cut: lower the cash rate",
-    "meaning": "the RBA would switch from the brake to the gas, reversing its September decision.",
+    "meaning": "the RBA would switch from the brake to the gas, reversing its recent policy stance.",
     "for": [
-     "<strong>Only in an emergency:</strong> for example a global market crash, serious trouble at a financial firm, or a sudden jump in layoffs before November 3.",
-     "Even then, the RBA would more likely hold first than cut straight away."
+     "Only in an extreme economic or financial shock."
     ],
     "against": [
-     "<strong>The RBA just raised.</strong> Cutting five weeks later would damage its credibility.",
-     "<strong>Inflation is moving the wrong way.</strong> Cutting would add fuel to rising prices.",
-     "<strong>Nobody is asking for it.</strong> In the statements, minutes and media conference we read since September, no one argued for a cut."
+     "<strong>Inflation is moving the wrong way.</strong> With CPI at 4.3% and oil prices surging, cutting rates would add fuel to price pressures.",
+     "<strong>The RBA just raised rates in September.</strong>"
     ],
-    "everyday": "loans would get slightly cheaper, but the surprise itself would signal that something had gone badly wrong.",
+    "everyday": "loans would get cheaper, but such a move would signal severe economic distress.",
     "prob": 3
    }
   ],
   "change": {
-   "lead": "Our 55% / 42% / 3% guess is based on what we know today. New information arrives almost every day. Some of it can move our view a lot. Here is what we are watching, and why each item matters.",
-   "intro_title": "Why “before” and “after” the meeting matters",
-   "intro": "The RBA can only react to information it has <strong>already seen</strong>. A report released <strong>before November 3</strong> can change the November decision. A report released <strong>after</strong> it can only shape what happens in <strong>December</strong>. That is why the reports in the first part of the table matter most right now.",
+   "lead": "Our 55% / 42% / 3% probability split reflects the delicate balance between sticky inflation, surging oil prices, and a softening labour market ahead of the November 2–3 meeting and new Statement on Monetary Policy.",
+   "intro_title": "Why upcoming reports matter",
+   "intro": "The RBA reviews all available data before each decision. Reports released right before November 3 directly shape the upcoming verdict, while subsequent releases feed into the December meeting.",
    "reports": {
-    "labour_force": {
-     "why": "Shows whether the job market is cooling faster than the RBA expects.",
-     "trigger": "Unemployment at 4.7% in September. Further increases in future reports would strengthen Hold."
-    },
     "consumer_price_index": {
-     "why": "The single most important report before the meeting. It shows whether price pressure is spreading beyond fuel and power.",
-     "trigger": "Trimmed mean <strong>1.0% or more</strong> in the quarter, or <strong>3.8%+</strong> over the year → Raise becomes our top pick. <strong>0.8% or less</strong> → more confident in Hold."
+     "why": "Shows the latest trajectory of inflation; September CPI came in at 4.3%.",
+     "trigger": "Already published; reinforced the case for vigilance."
     },
     "international_trade_price_inde": {
-     "why": "Shows how much the oil shock and the dollar are raising import costs.",
-     "trigger": "A big jump in import prices → small push toward Raise."
+     "why": "Shows how import costs and oil prices affect domestic inflation.",
+     "trigger": "A sharp jump in import costs reinforces upside risks to inflation."
     },
     "producer_price_indexes": {
-     "why": "Business costs today often become shop prices later. An early warning.",
-     "trigger": "A big jump → small push toward Raise."
+     "why": "Measures upstream business cost pressures before they reach retail shelves.",
+     "trigger": "Elevated producer prices support a hawkish stance."
     },
     "building_approvals": {
-     "why": "Housing reacts first to higher rates.",
-     "trigger": "Small effect on its own."
+     "why": "Tracks activity in the housing sector responding to higher interest rates.",
+     "trigger": "Weaker approvals confirm the economy is cooling."
     },
     "household_spending_indicator": {
-     "why": "Too late for November, but key for December.",
-     "trigger": "Shapes our December view."
-    },
-    "lending_indicators": {
-     "why": "Shows how hard the rate rises are biting on borrowing.",
-     "trigger": "December."
-    },
-    "minutes_of_the_nov_2_3_meeting": {
-     "why": "Reveals how close they came to a different decision. (Date is our estimate: the RBA publishes minutes two weeks after each meeting.)",
-     "trigger": "December."
-    },
-    "wage_price_index": {
-     "why": "Fast pay growth can keep service prices high.",
-     "trigger": "December."
-    },
-    "labour_force_2": {
-     "why": "Shows whether unemployment keeps rising.",
-     "trigger": "December."
-    },
-    "consumer_price_index_2": {
-     "why": "First reading after oil’s October spike.",
-     "trigger": "December."
-    },
-    "national_accounts_gdp": {
-     "why": "Key input for December.",
-     "trigger": "December."
+     "why": "Provides monthly insight into consumer demand.",
+     "trigger": "Key input for post-November assessments."
     }
    },
-   "other_title": "Other things that could move our view",
+   "other_title": "Other factors influencing our view",
    "other": [
-    "<strong>Oil and the Middle East.</strong> Energy is the biggest single driver of today’s inflation. Brent was $115.22 a barrel on October 20. A further jump would make a November rise more likely. A big fall toward US$100 would make waiting much easier.",
-    "<strong>The Australian dollar.</strong> At about US$0.7018, it is roughly 5% higher than at the start of the year, which the RBA says helps a little by making imports cheaper. A sharp fall would push the other way.",
-    "<strong>Final words from RBA officials.</strong> Any speech by the Governor or Deputy Governor Andrew Hauser before the meeting is the last direct hint we get. We did not find any October speeches to quote.",
-    "<strong>A financial shock.</strong> Australian shares fell about 5% between the August and September meetings, according to the minutes. A much bigger market fall would almost certainly push the RBA to hold.",
-    "<strong>Other central banks.</strong> The U.S. Fed (top of its range 4.00%) and the European Central Bank (deposit rate 2.50%) have both raised rates recently (FRED). That makes an RBA rise look less unusual, but does not force it."
+    "<strong>Oil and energy markets.</strong> Brent oil at $123.10 a barrel keeps pressure on transport and production costs.",
+    "<strong>Global central banks.</strong> The U.S. Federal Reserve rate at 4.00% and ECB deposit rate at 2.50% show global monetary policy remains restrictive.",
+    "<strong>RBA communication.</strong> Governor Bullock's Senate testimony on October 28 highlighted that upside risks to inflation have materialised."
    ]
   },
   "report_card": [
    {
     "area": "Prices",
     "grade": "red",
-    "one": "Things cost 4.0% more than a year ago, well above the 2–3% target band.",
-    "look": "Monthly consumer prices (CPI, up 4.0%), the trimmed mean (3.6%), CPI without volatile items and holiday travel (3.9%), and the RBA’s comments on inflation expectations.",
-    "why": "Headline and underlying measures are all above the band. Fuel (+13.5% in a year) and electricity (+13.2%) are big drivers, but services prices are also up 3.7% and rents 3.6%, which shows the pressure is not only about energy. The RBA says the share of items with prices rising faster than 2½% is “well above average”.",
-    "change": "The trimmed mean falling back below 3%, and oil prices dropping well below US$100.",
-    "matters": "This is the reason the RBA has raised four times this year. As long as it stays red, the RBA leans toward the brake.",
+    "one": "Headline CPI rose to 4.3% in September, remaining well above the RBA’s 2–3% target band.",
+    "look": "Monthly consumer prices (CPI at 4.3%), trimmed mean inflation (3.6%), and automotive fuel prices (23.6%).",
+    "why": "Inflation remains above target, driven by automotive fuel, electricity, and persistent services inflation.",
+    "change": "Trimmed mean inflation falling sustainably back toward the 2–3% band and oil prices dropping significantly.",
+    "matters": "This is why the RBA raised rates in September and remains on alert for further tightening.",
     "change_label": "What would improve it"
    },
    {
     "area": "Jobs",
     "grade": "amber",
-    "one": "Unemployment is still fairly low, but it is drifting up.",
-    "look": "The unemployment rate, jobs added each month, the share of adults working, underemployment and pay growth.",
-    "why": "<em>Good news:</em> employment-to-population ratio is 63.6% and underemployment is 6.3%. <em>Bad news:</em> unemployment rose to 4.7% in September, employment fell by 39,329, and pay (up 3.2% a year) is rising slower than prices. The Governor still calls the job market “a little bit tight”.",
-    "change": "Unemployment climbing toward 5% → red. A fall back to 4.3% with solid hiring → green.",
-    "matters": "This is the main reason the RBA might wait. Its forecasts already have unemployment rising slowly; a faster rise would make another rise harder to justify.",
+    "one": "Unemployment is at 4.7% and employment fell in September, showing signs of a cooling labour market.",
+    "look": "Unemployment rate (4.7%), employment change (−39,329), and participation rate (66.8%).",
+    "why": "While employment dropped in September, the RBA notes that capacity pressures and underlying labour market tightness persist.",
+    "change": "Unemployment rising toward 5% (red) or falling back solidly with strong job creation (green).",
+    "matters": "The softening job market provides the main reason for the RBA to consider pausing.",
     "change_label": "What would change it"
    },
    {
     "area": "Growth",
     "grade": "amber",
-    "one": "The economy is still growing, but slowly, and households are tightening their belts.",
-    "look": "GDP (gross domestic product, the total value of everything the country produces), household spending and housing.",
-    "why": "GDP grew 0.4% in the June quarter and household consumption grew 0.4%. Business investment is strong (up more than 10% over the year, per the RBA). But household spending indicator is at 6.8%, the saving ratio rose to 6.5%, new home loans fell in the June quarter, and house prices are falling.",
-    "change": "A clear fall in spending or a weak September-quarter GDP figure (Dec 2) → red. Spending picking up again → green.",
-    "matters": "The RBA wants demand to grow slowly for a while, so a soft economy is partly what it is aiming for. A much weaker one would argue for patience.",
+    "one": "The economy is growing at a modest pace as households tighten spending.",
+    "look": "Real GDP growth (0.4% in Q2), household consumption, and retail spending indicators.",
+    "why": "Growth is slowing as intended by higher interest rates, though business investment remains relatively resilient.",
+    "change": "A sharp deterioration in spending or weak GDP data moving growth to red.",
+    "matters": "The RBA wants demand to moderate without causing a severe economic downturn.",
     "change_label": "What would change it"
    },
    {
     "area": "Money markets",
     "grade": "amber",
-    "one": "Borrowing costs are high and rising, but markets are calm.",
-    "look": "Australian government bond rates (2-year and 10-year), 3-month bank borrowing rates, the Australian dollar and the RBA’s Financial Stability Review.",
-    "why": "<em>Worrying:</em> the 10-year rate is about 5.31% and the 2-year about 4.92% (market data), both far above a year ago, which makes fixed loans dearer. <em>Reassuring:</em> the Governor sees nothing “disorderly”, the October Financial Stability Review found “a good degree of resilience”, and the Australian dollar is steady near US$0.7018.",
-    "change": "A disorderly jump in bond rates or a sharp fall in the dollar → red. Bond rates settling lower → green.",
-    "matters": "Higher market rates already slow the economy, which helps the case for waiting. A 2-year rate above the cash rate also shows investors expect more rises.",
+    "one": "Borrowing costs remain elevated in line with RBA rate hikes and firm bond yields.",
+    "look": "10-year government bond rate (5.28%), 2-year government bond rate (4.92%), and the Australian dollar (US$0.7034).",
+    "why": "Financial conditions are restrictive, helping to cool demand even without immediate central bank action.",
+    "change": "A disorderly surge in yields or sharp currency depreciation moving conditions to red.",
+    "matters": "Higher market rates reinforce monetary policy tightening.",
     "change_label": "What would change it"
    }
   ],
@@ -1431,233 +1362,250 @@
    "consumer_price_index_cpi_all_items": {
     "now_label": "Above the band",
     "now_tone": "bad",
-    "what": "the ABS checks the prices of the things households buy, like food, rent, petrol, power and clothes, and compares them with a year ago. A 4.0% rise means a A$100 basket now costs about A$104.",
-    "why": "the RBA’s 2–3% target is defined on this measure. It had been easing from 4.6% in March to 3.5% in July before jumping back to 4.0% in August."
+    "what": "the ABS checks the prices of the things households buy, like food, rent, petrol and power, and compares them with a year ago. A 4.3% rise means a A$100 basket now costs about A$104.30.",
+    "why": "the RBA’s 2–3% target is defined on this measure. It ticked up to 4.3% in September from 4.0% in August."
    },
    "trimmed_mean_inflation_monthly": {
     "now_label": "Above the band",
     "now_tone": "bad",
-    "what": "each month the ABS sets aside the items with the biggest and smallest price changes and averages the rest. It strips out one-offs like a petrol spike.",
-    "why": "this is the RBA’s favourite gauge of underlying inflation. It sits at 3.6%, above the whole 2–3% band."
+    "what": "each month the ABS sets aside the items with the biggest and smallest price changes and averages the rest to strip out one-offs.",
+    "why": "the RBA’s favourite gauge of underlying inflation sits at 3.6% in September, remaining above the target band."
    },
    "cpi_excluding_volatile_items_and_holid": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "all prices except fruit, vegetables, fuel and holiday travel, which jump around a lot.",
-    "why": "a second way to see the underlying trend. At 3.9% it says the problem is wider than petrol."
+    "why": "stands at 3.6% in September, showing underlying price pressures across the broader economy."
    },
    "automotive_fuel_prices": {
     "now_label": "Spiking",
     "now_tone": "bad",
     "what": "the price of petrol and diesel at the bowser.",
-    "why": "the ABS says August’s jump reflected “higher world oil prices and the unwinding of the remainder of the federal governments fuel excise relief measures in August.” Fuel feeds into freight, farming and airfares."
+    "why": "surged 23.6% in September due to higher world oil prices, feeding directly into broader transport and freight costs."
    },
    "electricity_prices": {
-    "now_label": "Rebates ended",
+    "now_label": "Elevated",
     "now_tone": "bad",
     "what": "household power bills.",
-    "why": "the ABS says the rise is “largely due to the ending of Commonwealth electricity rebates.” That is partly a one-off the RBA can look through, but it still hurts budgets."
+    "why": "stands at 12.8% in September, continuing to add pressure to household budgets."
    },
    "rents": {
     "now_label": "Steady",
     "now_tone": "mixed",
     "what": "what tenants pay for housing.",
-    "why": "rents are a slow-moving, home-grown cost. Steady at 3.6%, they are not the main source of the latest jump."
+    "why": "holding at 3.6% in September, reflecting steady housing cost pressures."
    },
    "services_vs_goods_inflation": {
     "now_label": "Both high",
     "now_tone": "bad",
-    "what": "the CPI split into things (goods) and things done for you (services, like haircuts, insurance and meals out).",
-    "why": "services prices mostly reflect local wages and demand. At 3.7%, they show the pressure is not just imported oil."
+    "what": "the CPI split into physical goods and services like haircuts and meals out.",
+    "why": "services inflation at +3.7% and goods at +4.2% show widespread price pressures."
    },
    "quarterly_cpi_and_trimmed_mean": {
     "now_label": "Above the band",
     "now_tone": "bad",
-    "what": "the price rise measured over the whole quarter, the measure the RBA has used for decades.",
-    "why": "the September-quarter numbers arrive on October 28, six days before the decision. The RBA forecast 3.6% and 3.3% for December 2026."
+    "what": "the price rise measured over the whole quarter.",
+    "why": "stood at CPI +3.9% and trimmed mean +3.6% in the June quarter per RBA reports."
    },
    "rba_forecast_when_inflation_returns_to": {
     "now_label": "Long road",
     "now_tone": "info",
-    "what": "inflation is expected to decline “to the midpoint of the 2–3 per cent target range by early 2028.” The forecast assumed Brent oil falling to about US$81 by December 2026.",
-    "why": "oil is now far higher than that assumption, so the November forecasts may push the return to target even later."
+    "what": "the RBA's forecast for inflation to return to the midpoint of the 2–3% target range.",
+    "why": "August forecasts projected a return by early 2028, though recent energy shocks may push timelines out."
    },
    "unemployment_rate": {
     "now_label": "Rising slowly",
     "now_tone": "mixed",
     "what": "the share of people who want a job and are looking, but do not have one.",
-    "why": "it has risen to 4.7% in September. The RBA expected a slow rise, but a faster one would argue for pausing."
+    "why": "stands at 4.7% in September, in line with expectations of a gradual labour market easing."
    },
    "employment_change": {
     "now_label": "Jobs fell",
     "now_tone": "bad",
     "what": "how many more people had a job than the month before.",
-    "why": "employment fell by 39,329 in September, showing a softer month for hiring."
+    "why": "employment fell by 39,329 in September, pointing to a softer hiring month."
    },
    "participation_rate": {
     "now_label": "High",
     "now_tone": "good",
     "what": "the share of adults who are working or looking for work.",
-    "why": "at 66.8%, a high rate shows people still see jobs worth looking for."
+    "why": "stands at 66.8% in September, showing robust labor force attachment."
    },
    "employment_to_population_ratio": {
     "now_label": "Near highs",
     "now_tone": "good",
     "what": "the share of all adults who have a job.",
-    "why": "at 63.6%, it is a sign the job market is cooling slowly, not collapsing."
+    "why": "stands at 63.6% in September, indicating solid overall employment levels."
    },
    "underemployment_rate": {
     "now_label": "Steady",
     "now_tone": "mixed",
     "what": "people who have a job but want more hours.",
-    "why": "at 6.3%, it shows spare capacity in the job market that the unemployment rate alone misses."
+    "why": "stands at 6.3% in September, showing mild slack in the labour market."
    },
    "wage_price_index": {
     "now_label": "Below inflation",
     "now_tone": "mixed",
     "what": "how fast pay rates for the same jobs are rising.",
-    "why": "pay rising 3.2% while prices rise about 4% means workers are losing buying power. Pay is not running away, which is one reason the RBA can be patient."
+    "why": "at 3.2% in Q2 2026, wage growth remains moderate relative to headline inflation."
    },
    "rba_forecast_unemployment": {
     "now_label": "Drifting up",
     "now_tone": "info",
-    "what": "the RBA expects unemployment to rise gradually as its rate rises bite.",
-    "why": "September’s 4.7% is close to the RBA’s path for December."
+    "what": "the RBA's expected path for unemployment.",
+    "why": "forecasts project 4.5% by Dec 2026 and 4.8% by end-2028."
    },
    "abs_caution_on_recent_data": {
     "now_label": "Noisy",
     "now_tone": "info",
-    "what": "the ABS says a survey change may have “inadvertently also” captured some seasonality, and recommends “exercising a degree of caution in interpreting short-term changes.” The RBA minutes echo this.",
-    "why": "one month’s jump in unemployment may not be the full story."
+    "what": "ABS advisory on interpreting short-term survey moves with care.",
+    "why": "reminds analysts not to overreact to single-month labour force volatility."
    },
    "real_gdp_growth": {
     "now_label": "Modest",
     "now_tone": "mixed",
-    "what": "GDP is the total value of everything the country produces, adjusted for price rises.",
-    "why": "growth is modest (0.4% in Q2), a bit stronger than the RBA expected. The September-quarter figure arrives on December 2, after the decision."
+    "what": "total economic output adjusted for inflation.",
+    "why": "grew 0.4% in Q2 2026, indicating slow but positive economic growth."
    },
    "household_consumption": {
     "now_label": "Modest",
     "now_tone": "mixed",
-    "what": "the spending of households on goods and services.",
-    "why": "it is more than half of the economy. Steady but unspectacular growth (0.4% in Q2) is roughly what the RBA wants."
+    "what": "spending by households on goods and services.",
+    "why": "grew 0.4% in Q2 2026, reflecting cautious consumer behavior."
    },
    "household_spending_indicator": {
     "now_label": "Annual rise",
     "now_tone": "mixed",
-    "what": "a monthly measure of household spending from bank-card data, not adjusted for price rises.",
-    "why": "at 6.8% in August, it shows spending is continuing, but the RBA watches it closely for signs of slowdown."
+    "what": "monthly measure of household spending from bank-card data.",
+    "why": "stood at 6.8% in August, showing ongoing spending activity."
    },
    "household_saving_ratio": {
     "now_label": "Edging up",
     "now_tone": "info",
-    "what": "the share of after-tax income that households save.",
-    "why": "at 6.5%, when people save more, they spend less, which cools prices."
+    "what": "share of after-tax income that households save.",
+    "why": "stood at 6.5% in Q2 2026, showing households are setting aside more cash."
    },
    "terms_of_trade": {
     "now_label": "Falling",
     "now_tone": "mixed",
-    "what": "the price of what Australia sells abroad compared with what it buys.",
-    "why": "at -1.6% in Q2, dearer imported fuel and materials mean the country earns relatively less from trade."
+    "what": "export prices versus import prices.",
+    "why": "stood at -1.6% in Q2 2026 as dearer imported energy weighs on trade returns."
    },
    "new_housing_loan_commitments_owner_occ": {
     "now_label": "Cooling",
     "now_tone": "mixed",
-    "what": "new home loans agreed by lenders.",
-    "why": "housing is very sensitive to rates. Owner-occupier loan commitments fell 3.3% in the quarter."
+    "what": "new home loans agreed by lenders for owner-occupiers.",
+    "why": "fell 3.3% in the June quarter, showing housing finance reacting to higher interest rates."
    },
    "national_house_prices": {
     "now_label": "Falling",
     "now_tone": "mixed",
-    "what": "the RBA’s summary of private house price indexes; we did not read the index itself.",
-    "why": "falling home values make households feel poorer and spend less. By late September the RBA said prices had fallen in most capital cities."
+    "what": "private house price index summary described by the RBA.",
+    "why": "stood about 1½% below the March peak by August, reflecting cooling property markets."
    },
    "business_investment": {
     "now_label": "Strong",
     "now_tone": "good",
-    "what": "spending by firms on machines, buildings and technology.",
-    "why": "strong investment (up more than 10% over the year), including data centres, keeps demand up. The RBA flagged an AI and data-centre boom as an upside risk to inflation."
+    "what": "spending by firms on machinery, buildings and technology.",
+    "why": "up more than 10% over the year, supporting overall economic demand."
    },
    "rba_cash_rate_target": {
     "now_label": "Raised",
     "now_tone": "info",
-    "what": "the RBA’s target for the rate banks charge each other for overnight loans.",
-    "why": "it is the RBA’s main tool. Raised four times in 2026: Feb (3.85%), Mar (4.10%), May (4.35%), Sep (4.60%)."
+    "what": "the RBA's target for the overnight cash rate.",
+    "why": "stands at 4.60% following the September 29 rate increase."
    },
    "market_pricing_for_more_rises": {
     "now_label": "More expected",
     "now_tone": "bad",
-    "what": "what traders’ bets imply for future RBA rates, as reported by the RBA.",
-    "why": "markets see more rises coming (+0.15 points by end-2026, +0.30 points more in first half of 2027), so November is not a sure thing."
+    "what": "traders' expectations for future RBA rate moves.",
+    "why": "pricing implies further rate rises into late 2026 and early 2027."
    },
    "10_year_government_bond_rate": {
     "now_label": "High",
     "now_tone": "bad",
-    "what": "the interest the Australian government pays to borrow for 10 years.",
-    "why": "fixed mortgages and business loans follow it. At 5.31%, it is about a point higher than a year ago, which already tightens conditions."
+    "what": "interest rate paid on 10-year Australian government debt.",
+    "why": "stands at 5.28% in October, keeping long-term borrowing costs elevated."
    },
    "2_year_government_bond_rate": {
     "now_label": "Above cash rate",
     "now_tone": "mixed",
-    "what": "the interest on 2-year government bonds, which mostly reflects expected RBA moves.",
-    "why": "at 4.92%, about 0.3 points above the cash rate, it shows investors expect further rises."
+    "what": "interest rate on 2-year government bonds.",
+    "why": "stands at 4.92% in October, reflecting expectations of firm monetary policy."
    },
    "10_year_bond_rate_monthly_average": {
     "now_label": "High",
     "now_tone": "bad",
-    "what": "the official monthly average of the 10-year rate.",
-    "why": "at 5.28% in September, it confirms the rise in long-term rates over the winter."
+    "what": "official monthly average of the 10-year bond yield.",
+    "why": "averaged 5.28% in September, confirming elevated long-term yields."
    },
    "3_month_bank_bill_rate": {
     "now_label": "Tracks RBA",
     "now_tone": "info",
-    "what": "the rate banks pay to borrow from each other for three months.",
-    "why": "at 4.67% in September, many business loans are priced off it; it moves with expected RBA rates."
+    "what": "rate banks pay to borrow from each other for three months.",
+    "why": "stands at 4.67% in September, closely tracking the cash rate."
    },
    "australian_dollar": {
     "now_label": "Steady",
     "now_tone": "mixed",
-    "what": "how many U.S. dollars one Australian dollar buys; the trade-weighted index compares it with a basket of currencies.",
-    "why": "at US$0.7018, a stronger dollar makes imports cheaper. The RBA says it is around 5% higher than at the start of the year."
+    "what": "exchange rate of the Australian dollar against the U.S. dollar.",
+    "why": "stands at US$0.7034 on October 28, helping moderate import price pressures."
    },
    "mortgage_payments_vs_income": {
     "now_label": "Squeezing",
     "now_tone": "mixed",
-    "what": "scheduled mortgage repayments as a share of what households earn after tax.",
-    "why": "at about 10%, it shows how hard rate rises are biting. The RBA estimates fewer than 2% of owner-occupier borrowers face a cash-flow shortfall."
+    "what": "scheduled mortgage repayments as a share of household disposable income.",
+    "why": "stands at about 10%, reflecting the financial burden of higher interest rates."
    },
    "oil_price_brent": {
     "now_label": "Very high",
     "now_tone": "bad",
-    "what": "the world benchmark price of crude oil.",
-    "why": "at $115.22 a barrel, it is far above the US$81 the RBA assumed for December. Oil this high pushes up petrol, freight and airfares in Australia."
+    "what": "world benchmark price of crude oil.",
+    "why": "stands at $123.10 a barrel on October 27, significantly above RBA forecast assumptions."
    },
    "rba_oil_assumption_august": {
     "now_label": "Far too low",
     "now_tone": "bad",
-    "what": "the oil price path built into the RBA’s forecasts.",
-    "why": "the gap between this and today’s price is the main reason inflation may stay higher for longer than the RBA forecast."
+    "what": "oil price assumption built into RBA August forecasts.",
+    "why": "assumed Brent near US$81 by December, creating a wide gap with current market prices."
    },
    "u_s_federal_reserve_rate_top_of_range": {
     "now_label": "Raised",
     "now_tone": "info",
-    "what": "the upper end of the U.S. central bank’s target range.",
-    "why": "at 4.00%, higher U.S. rates pull global borrowing costs up and affect the Australian dollar."
+    "what": "upper end of the U.S. Federal Reserve target range.",
+    "why": "stands at 4.00%, influencing global financial conditions."
    },
    "ecb_deposit_rate": {
     "now_label": "Raised",
     "now_tone": "info",
-    "what": "the main interest rate of the euro area.",
-    "why": "at 2.50%, other central banks are also braking against the same energy shock, so an RBA rise would not look unusual."
+    "what": "main policy interest rate of the euro area.",
+    "why": "stands at 2.50%, showing global central banks addressing similar pressures."
    },
    "australian_share_prices": {
     "now_label": "Softer",
     "now_tone": "mixed",
-    "what": "the RBA’s summary of the stock market.",
-    "why": "down about 5% between the August and September meetings, falling share prices make people feel less wealthy and can slow spending."
+    "what": "summary of the Australian stock market.",
+    "why": "down about 5% between August and September meetings, reflecting tighter financial conditions."
    }
   },
   "said": [
+   {
+    "n": "Opening Statement to Senate Committee",
+    "v": "Governor Bullock notes inflation will likely be higher than August forecasts",
+    "p": "Senate Estimates",
+    "r": "2026-10-28",
+    "pv": "Sep 29 Statement",
+    "s": "Reserve Bank of Australia",
+    "u": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-10-28.html",
+    "now": [
+     "now-info",
+     "Hawkish tone"
+    ],
+    "w": [
+     "What it said: “Developments since then suggest that although growth in the Australian economy is slowing as expected, some of the international and domestic upside risks to inflation have materialised or are materialising. Inflation will therefore likely be higher than was our base case in August.”",
+     "Why it matters: confirms that recent energy shocks and capacity pressures are keeping pressure on the RBA to maintain a restrictive policy stance."
+    ]
+   },
    {
     "n": "September 29 statement",
     "v": "Raised to 4.60% (unanimous)",
@@ -1672,7 +1620,7 @@
     ],
     "w": [
      "What it said: “Inflation remains elevated and some of the upside risks flagged in August are materialising.” It will act “including increasing the cash rate target further if needed.”",
-     "Why it matters: the door to more rises is wide open."
+     "Why it matters: the door to more rises remains open."
     ]
    },
    {
@@ -1689,7 +1637,7 @@
     ],
     "w": [
      "What it said: “Members briefly considered the arguments in support of leaving the cash rate target unchanged.” Arguments to hold “rested primarily on the possibility that downside risks to activity and employment could prove larger than expected.”",
-     "Why it matters: the hold case is mostly about jobs. A weak jobs report would strengthen it."
+     "Why it matters: highlights that job market conditions remain the primary counterweight against further rate hikes."
     ]
    },
    {
@@ -1705,25 +1653,8 @@
      "No guidance"
     ],
     "w": [
-     "What it said: also “I'm not going to give you forward guidance” and, on the next quarterly price numbers, “all the quarterly numbers in September will be doing is confirming what we already know”.",
-     "Why it matters: more rises are possible, but she gave no hint on timing."
-    ]
-   },
-   {
-    "n": "Governor Bullock on households",
-    "v": "“there are households that are hurting. Absolutely.”",
-    "p": "Sep 29 media conference",
-    "r": "Sep 29, 2026",
-    "pv": "—",
-    "s": "Reserve Bank of Australia",
-    "u": "https://www.rba.gov.au/speeches/2026/mc-gov-2026-09-29.html",
-    "now": [
-     "now-info",
-     "Aware of pain"
-    ],
-    "w": [
-     "What it said: “I know this decision is difficult for households with a mortgage and businesses with loans”.",
-     "Why it matters: the RBA is aware of the cost of braking, one reason it may pace its rises."
+     "What it said: also “I'm not going to give you forward guidance” and acknowledging that households with a mortgage are facing difficulties.",
+     "Why it matters: signals that future decisions depend strictly on incoming data without pre-committed schedules."
     ]
    },
    {
@@ -1740,7 +1671,7 @@
     ],
     "w": [
      "What it said: “The disruption to global oil supply is adding directly to inflation”; inflation is “not expected to return to around the midpoint of the target range until late 2027”.",
-     "Why it matters: the RBA then set a test: raise again only if upside risks materialise. In September it judged they had."
+     "Why it matters: established the conditional test that led to September's rate hike when risks materialised."
     ]
    },
    {
@@ -1756,23 +1687,15 @@
      "Mostly united"
     ],
     "w": [
-     "What it is: how many of the nine members voted for each decision. The RBA does not publish who voted which way.",
-     "Why it matters: after a close 5–4 split in March, the board has been united for four meetings, so a surprise in either direction is less likely to come from division."
+     "What it is: how many of the nine members voted for each decision.",
+     "Why it matters: illustrates broad board consensus following the tight March vote."
     ]
    }
   ],
   "gaps": [
-   "<strong>September-quarter consumer prices</strong> come out October 28. <em>Why it matters:</em> this is the most important upcoming report before the meeting, so our view may be updated when it arrives.",
-   "<strong>The September-quarter trimmed mean will be the first full quarter of the new monthly CPI.</strong> We did not check exactly how the ABS will present the quarterly trimmed mean in tables 17 and 18 next to the monthly series. <em>Why it matters:</em> our thresholds (1.0% / 0.8% in the quarter) assume a figure comparable with past quarters.",
-   "<strong>Market odds for November alone.</strong> We found no official source. The RBA minutes give market pricing only “by the end of the year” (about 0.15 points, as of late September). <em>Why it matters:</em> we cannot compare our 42% chance of a November rise with what markets expect today.",
-   "<strong>Daily government bond rates.</strong> We could not read the RBA’s bond-yield tables (F2) or AOFM data. The 10-year (5.31%) and 2-year (4.92%) rates come from a private market-data website and are tagged “secondary”; the official figure we have is the August monthly average (5.28%, FRED/OECD).",
-   "<strong>Speeches since September 29.</strong> We could not open a list of October speeches by the Governor, Deputy Governor Hauser or other officials, so we quote only the September 29 statement, media conference and minutes. <em>Why it matters:</em> late hints often shape the market’s expectations.",
-   "<strong>Exact inflation expectations.</strong> The RBA says short-term expectations “remain elevated”, but we did not collect the underlying survey numbers (for example, consumer or business surveys).",
-   "<strong>House prices.</strong> We rely on the RBA’s description (about 1½% below the March peak in August, falling in most capital cities by late September). Private index data and the ABS’s own housing figures were not collected.",
-   "<strong>Fuel excise relief and electricity rebates.</strong> We quote the ABS description only. We did not check the size or timing of the government’s fuel-tax relief or the details of rebates that ended. <em>Why it matters:</em> part of August’s jump may be a one-off that the RBA “looks through”.",
-   "<strong>The vote split in September.</strong> The statement says it was unanimous. For March (5–4) and May (8–1) we rely on the RBA’s statements; the RBA does not say who voted which way.",
-   "<strong>The November minutes date (Nov 17) and the time of the Governor’s media conference</strong> are our estimates. The RBA says minutes come out two weeks after each meeting; the 2:30 p.m. statement time is official.",
-   "<strong>How we gathered data:</strong> the data was gathered with web search on Oct 22, 2026. A general web search tool was not available, so every number was read directly from the official page linked next to it (RBA, ABS, FRED), except where tagged “secondary”."
+   "<strong>Market odds specifically for November.</strong> Official market pricing reflects expectations out to year-end and early 2027, but exact daily probabilities for the November meeting alone are estimated.",
+   "<strong>Daily government bond yields.</strong> Current 10-year (5.28%) and 2-year (4.92%) yields are drawn from secondary financial market data sources rather than direct RBA tables.",
+   "<strong>Detailed survey breakdowns of inflation expectations.</strong> While the RBA notes short-term expectations remain elevated, detailed household and business survey datasets were not fully collected."
   ],
   "group_intros": {
    "prices": "These numbers tell us how fast things are getting more expensive. The RBA aims to keep inflation between 2% and 3% a year, ideally at 2.5%. It watches the “trimmed mean”, which removes the jumpiest prices, to see the underlying trend.",
@@ -1885,11 +1808,11 @@
   "abbrev": "RBA",
   "rate": "4.60%",
   "last_move": "Raised 0.25 pts on Sep 29, 2026 (unanimous)",
-  "card_why": "Inflation is 4% and oil has spiked, but the RBA raised only five weeks ago and unemployment is rising; Q3 CPI on Oct 28 is decisive.",
+  "card_why": "Inflation ticked up to 4.3% in September and oil prices rose, but the RBA only just moved in September; the November 3 decision is near.",
   "mini": {
    "prices": [
-    "4.0%",
-    "CPI, Aug"
+    "4.3%",
+    "CPI, Sep"
    ],
    "jobless": [
     "4.7%",
@@ -2013,9 +1936,96 @@
   "there are households that are hurting. Absolutely.",
   "The disruption to global oil supply is adding directly to inflation",
   "not expected to return to around the midpoint of the target range until late 2027",
-  "by the end of the year"
+  "by the end of the year",
+  "Developments since then suggest that although growth in the Australian economy is slowing as expected, some of the international and domestic upside risks to inflation have materialised or are materialising. Inflation will therefore likely be higher than was our base case in August."
  ],
  "changelog": [
+  {
+   "date": "2026-10-28",
+   "date_label": "Oct 28, 2026",
+   "since": "2026-10-27",
+   "since_label": "Oct 27, 2026",
+   "summary": {
+    "headline": "Headline CPI inflation rose to 4.3% in September from 4.0% in August, while monthly trimmed mean inflation held at 3.6%.",
+    "items": [
+     "<strong>Consumer Price Index (CPI)</strong> rose from 4.0% in August to 4.3% in September (annual rate).",
+     "<strong>Trimmed mean inflation</strong> held steady at 3.6% in September compared to August.",
+     "<strong>Automotive fuel prices</strong> jumped sharply from 13.5% in August to 23.6% in September due to higher world oil prices.",
+     "<strong>Oil price (Brent)</strong> increased to $123.10 a barrel on October 27 from $115.22 on October 20.",
+     "<strong>Governor Michele Bullock</strong> delivered her opening statement to the Senate Economics Legislation Committee on October 28, noting that inflation will likely be higher than the RBA's August forecasts due to materialising upside risks."
+    ]
+   },
+   "data": [
+    {
+     "id": "consumer_price_index_cpi_all_items",
+     "name": "Consumer Price Index (CPI), all items",
+     "from": "4.0%",
+     "from_period": "Aug 2026",
+     "to": "4.3%",
+     "to_period": "Sep 2026"
+    },
+    {
+     "id": "trimmed_mean_inflation_monthly",
+     "name": "Trimmed mean inflation (monthly)",
+     "from": "3.6%",
+     "from_period": "Aug 2026",
+     "to": "3.6%",
+     "to_period": "Sep 2026"
+    },
+    {
+     "id": "cpi_excluding_volatile_items_and_holid",
+     "name": "CPI excluding volatile items and holiday travel",
+     "from": "3.9%",
+     "from_period": "Aug 2026",
+     "to": "3.6%",
+     "to_period": "Sep 2026"
+    },
+    {
+     "id": "automotive_fuel_prices",
+     "name": "Automotive fuel prices",
+     "from": "13.5%",
+     "from_period": "Aug 2026",
+     "to": "23.6%",
+     "to_period": "Sep 2026"
+    },
+    {
+     "id": "electricity_prices",
+     "name": "Electricity prices",
+     "from": "13.2%",
+     "from_period": "Aug 2026",
+     "to": "12.8%",
+     "to_period": "Sep 2026"
+    },
+    {
+     "id": "rents",
+     "name": "Rents",
+     "from": "3.6%",
+     "from_period": "Aug 2026",
+     "to": "3.6%",
+     "to_period": "Sep 2026"
+    }
+   ],
+   "market": [
+    {
+     "id": "oil_price_brent",
+     "name": "Oil price (Brent)",
+     "from": "$115.22 a barrel",
+     "from_period": "Oct 20, 2026",
+     "to": "$123.10 a barrel",
+     "to_period": "Oct 27, 2026",
+     "move": "6.8%"
+    }
+   ],
+   "fed": [
+    {
+     "title": "Opening Statement to the Senate Economics Legislation Committee (Supplementary Budget Estimates)",
+     "date": "2026-10-28",
+     "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-10-28.html"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-10-22",
    "date_label": "Oct 22, 2026",
@@ -2082,15 +2092,15 @@
     "url": "https://www.rba.gov.au/media-releases/2026/mr-26-29.html"
    },
    {
-    "title": "Speech: A Wage-price Spiral: What are the Chances?",
-    "date": "2026-09-22",
-    "url": "https://www.rba.gov.au/speeches/2026/sp-mpb-2026-09-22.html"
+    "title": "Opening Statement to the Senate Economics Legislation Committee (Supplementary Budget Estimates)",
+    "date": "2026-10-28",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-10-28.html"
    }
   ],
   "coverage": {
    "automatic": 25,
    "manual": 13
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }
