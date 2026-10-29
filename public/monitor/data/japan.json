@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-10-28",
- "asof_label": "Oct 28, 2026",
- "generated_at": "2026-10-28T22:39:21.117Z",
- "data_updated_at": "2026-10-28T22:39:21.117Z",
+ "asof_date": "2026-10-29",
+ "asof_label": "Oct 29, 2026",
+ "generated_at": "2026-10-29T22:50:00.847Z",
+ "data_updated_at": "2026-10-29T22:50:00.847Z",
  "narrative_updated_at": "2026-10-27T22:19:00.160Z",
- "narrative_stale": false,
+ "narrative_stale": true,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "japan",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 2
+  "days_to_decision": 1
  },
  "kpis": [
   {
    "label": "BoJ interest rate",
    "value": "1.25%",
    "note": "",
-   "period": "Oct 26, 2026",
+   "period": "Oct 27, 2026",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "2.83%",
+   "value": "2.87%",
    "note": "",
-   "period": "Oct 27, 2026",
+   "period": "Oct 28, 2026",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv"
   }
@@ -605,12 +605,12 @@
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf",
    "value": "1.25%",
-   "period": "Oct 26, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "1.25% (Oct 25, 2026)",
+   "period": "Oct 27, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "1.25% (Oct 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-26",
+   "latest_date": "2026-10-27",
    "raw": {
     "v": 1.25
    },
@@ -641,15 +641,15 @@
    "name": "2-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "1.89%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "1.89% (Oct 26, 2026)",
+   "value": "1.92%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "1.89% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 1.888
+    "v": 1.915
    },
    "estimate": false
   },
@@ -659,15 +659,15 @@
    "name": "10-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "2.83%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "2.82% (Oct 26, 2026)",
+   "value": "2.87%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "2.83% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 2.829
+    "v": 2.867
    },
    "estimate": false
   },
@@ -677,15 +677,15 @@
    "name": "30-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "3.90%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "3.88% (Oct 26, 2026)",
+   "value": "3.94%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "3.90% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 3.895
+    "v": 3.941
    },
    "estimate": false
   },
@@ -714,15 +714,15 @@
    "name": "Yen per US dollar",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261009.pdf",
-   "value": "¥157.20",
-   "period": "Oct 26, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "¥156.45 (Oct 23, 2026)",
+   "value": "¥157.65",
+   "period": "Oct 27, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "¥157.20 (Oct 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-26",
+   "latest_date": "2026-10-27",
    "raw": {
-    "v": 157.2
+    "v": 157.65
    },
    "estimate": false
   },
@@ -1968,8 +1968,8 @@
     "Aug"
    ],
    "10-yr": [
-    "2.83%",
-    "Oct 27"
+    "2.87%",
+    "Oct 28"
    ]
   },
   "rate_label": "Current BoJ rate",
@@ -2363,7 +2363,9 @@
  ],
  "qa": {
   "data_errors": [],
-  "ai_errors": [],
+  "ai_errors": [
+   "Expected ',' or '}' after property value in JSON at position 40719 (line 649 column 3)"
+  ],
   "sources_read": [
    {
     "title": "Indicators for Core CPI",
@@ -2400,6 +2402,6 @@
    "automatic": 27,
    "manual": 13
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }

@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "canada",
- "asof_date": "2026-10-28",
- "asof_label": "Oct 28, 2026",
- "generated_at": "2026-10-28T22:41:45.177Z",
- "data_updated_at": "2026-10-28T22:41:45.177Z",
- "narrative_updated_at": "2026-10-28T22:41:45.176Z",
+ "asof_date": "2026-10-29",
+ "asof_label": "Oct 29, 2026",
+ "generated_at": "2026-10-29T22:51:59.940Z",
+ "data_updated_at": "2026-10-29T22:51:59.940Z",
+ "narrative_updated_at": "2026-10-29T22:51:59.940Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -24,29 +24,29 @@
  "meeting": {
   "next": {
    "start": null,
-   "end": "2026-10-28",
-   "label": "Wednesday, October 28, 2026, together with a new Monetary Policy Report (the BoC’s full forecast, published four times a year)",
-   "decision_label": "Wednesday, Oct 28, 9:45 a.m. Eastern Time (when the BoC publishes its press release)",
-   "time_label": "9:45 a.m. Eastern Time"
-  },
-  "after": {
-   "start": null,
    "end": "2026-12-09",
    "label": "Wednesday, December 9, 2026",
    "decision_label": "Wednesday, Dec 9, 9:45 a.m. Eastern Time (when the BoC publishes its press release)",
    "time_label": "9:45 a.m. Eastern Time"
   },
+  "after": {
+   "start": null,
+   "end": "2027-01-27",
+   "label": "Wednesday, January 27, 2027, together with a new Monetary Policy Report (the BoC’s full forecast, published four times a year)",
+   "decision_label": "Wednesday, Jan 27, 9:45 a.m. Eastern Time (when the BoC publishes its press release)",
+   "time_label": "9:45 a.m. Eastern Time"
+  },
   "calendar_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
   "calendar_label": "Official BoC announcement schedule",
   "who": "The Bank of Canada (“the BoC”), Canada’s central bank. Its decisions are made by a small group of senior officials called the Governing Council, led by Governor Tiff Macklem. It aims to agree as a group, so there is no published vote count like in the U.S.",
-  "days_to_decision": 0
+  "days_to_decision": 41
  },
  "kpis": [
   {
    "label": "Bank of Canada rate",
    "value": "2.25%",
    "note": "",
-   "period": "Oct 27, 2026",
+   "period": "Oct 28, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "3.83%",
+   "value": "3.87%",
    "note": "",
-   "period": "Oct 27, 2026",
+   "period": "Oct 28, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28"
   }
@@ -603,12 +603,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
    "value": "2.25%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "2.25% (Oct 26, 2026)",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "2.25% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
     "v": 2.25
    },
@@ -621,12 +621,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/AVG.INTWO/json?recent=6",
    "value": "2.24%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "2.24% (Oct 26, 2026)",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "2.24% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
     "v": 2.24
    },
@@ -638,15 +638,15 @@
    "name": "2-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.36%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "3.37% (Oct 26, 2026)",
+   "value": "3.41%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "3.36% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 3.36
+    "v": 3.41
    },
    "estimate": false
   },
@@ -656,15 +656,15 @@
    "name": "5-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.57%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "3.58% (Oct 26, 2026)",
+   "value": "3.62%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "3.57% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 3.57
+    "v": 3.62
    },
    "estimate": false
   },
@@ -674,15 +674,15 @@
    "name": "10-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.83%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "3.84% (Oct 26, 2026)",
+   "value": "3.87%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "3.83% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 3.83
+    "v": 3.87
    },
    "estimate": false
   },
@@ -692,15 +692,15 @@
    "name": "Canadian dollar (US$1 in C$)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25",
-   "value": "C$1.4036",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "C$1.4038 (Oct 27, 2026)",
+   "value": "C$1.3985",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "C$1.4036 (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
-    "v": 1.4036
+    "v": 1.3985
    },
    "estimate": false
   },
@@ -968,11 +968,11 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "The Bank of Canada raised its policy interest rate by 25 basis points to 2.50% on October 28, 2026, alongside a new Monetary Policy Report.",
+   "headline": "No major rate decision or policy announcement occurred since the October 28 rate hike, with financial markets and incoming data monitored ahead of December.",
    "items": [
-    "<strong>Rate decision:</strong> The BoC raised the policy interest rate from 2.25% to 2.50% (October 28).",
-    "<strong>Monetary Policy Report:</strong> The BoC published its updated forecast, noting that inflation has been higher than anticipated and is projected to remain around 3% through much of 2027 before returning close to 2% by the middle of 2028.",
-    "<strong>Verdict update:</strong> With the October rate hike completed, our verdict shifts to the next meeting on December 9, 2026, where a hold at 2.50% is currently most likely."
+    "<strong>Market rates:</strong> The 2-year Government of Canada bond yield edged up slightly from 3.36% to 3.41% (October 28), and the 5-year yield moved from 3.57% to 3.62% (October 28).",
+    "<strong>Canadian dollar:</strong> The exchange rate shifted from C$1.4036 to C$1.3985 per US$1 (October 29).",
+    "<strong>Verdict stability:</strong> Our baseline view remains unchanged, with a 75% probability of a hold at 2.50% at the December 9 meeting."
    ]
   },
   "verdict": {
@@ -1006,7 +1006,7 @@
    },
    {
     "title": "Expensive oil cuts both ways for Canada",
-    "html": "This is where Canada is different from the U.S. or Europe. Canada is a big <strong>oil producer and exporter</strong>. When oil is expensive, two things happen at once:\n\n<ul><li><strong>It hurts as a shopper.</strong> Families pay more at the pump and for heating, and trucking and flying cost more. That pushes the CPI up and leaves less money for other things.</li><li><strong>It helps as a seller.</strong> Oil companies, workers and governments in producing provinces earn more. In August, energy exports rose 4.7% (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261006/dq261006a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>), and in September Alberta added 23,000 jobs while the country as a whole lost jobs (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>).</li><li><strong>An unusual twist: the loonie fell.</strong> Normally expensive oil lifts the Canadian dollar. This time one U.S. dollar went to about C$1.4036 (<a href=\"https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>), partly due to interest rate differences with the U.S. A weaker loonie makes imported goods dearer, adding to inflation risk.</li></ul>"
+    "html": "This is where Canada is different from the U.S. or Europe. Canada is a big <strong>oil producer and exporter</strong>. When oil is expensive, two things happen at once:\n\n<ul><li><strong>It hurts as a shopper.</strong> Families pay more at the pump and for heating, and trucking and flying cost more. That pushes the CPI up and leaves less money for other things.</li><li><strong>It helps as a seller.</strong> Oil companies, workers and governments in producing provinces earn more. In August, energy exports rose 4.7% (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261006/dq261006a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>), and in September Alberta added 23,000 jobs while the country as a whole lost jobs (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>).</li><li><strong>An unusual twist: the loonie fell.</strong> Normally expensive oil lifts the Canadian dollar. This time one U.S. dollar went to about C$1.3985 (<a href=\"https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>), partly due to interest rate differences with the U.S. A weaker loonie makes imported goods dearer, adding to inflation risk.</li></ul>"
    },
    {
     "title": "Jobs are weakening, and new U.S. tariffs add a worry",
@@ -1329,7 +1329,7 @@
    {
     "area": "Money markets",
     "grade": "amber",
-    "one": "Market borrowing costs have adjusted to the October rate hike, and the loonie trades near C$1.4036.",
+    "one": "Market borrowing costs have adjusted to the October rate hike, and the loonie trades near C$1.3985.",
     "look": "Government of Canada bond yields, CORRA overnight lending rate (2.24%), and the exchange rate.",
     "why": "Financial markets have absorbed the BoC's move to 2.50%, and CORRA operates effectively near the target rate while the loonie remains soft.",
     "change": "Significant shifts in bond yields or exchange rates.",
@@ -1497,25 +1497,25 @@
     "now_label": "Pricing in rates",
     "now_tone": "mixed",
     "what": "government borrowing costs for a two-year term.",
-    "why": "at 3.36%, it reflects investor expectations for monetary policy."
+    "why": "at 3.41%, it reflects investor expectations for monetary policy."
    },
    "5_year_government_of_canada_bond": {
     "now_label": "Higher",
     "now_tone": "mixed",
     "what": "government borrowing costs for a five-year term.",
-    "why": "at 3.57%, it influences fixed mortgage rates for households."
+    "why": "at 3.62%, it influences fixed mortgage rates for households."
    },
    "10_year_government_of_canada_bond": {
     "now_label": "Up over the year",
     "now_tone": "bad",
     "what": "government borrowing costs for a ten-year term.",
-    "why": "at 3.83%, higher long-term yields help cool borrowing independently."
+    "why": "at 3.87%, higher long-term yields help cool borrowing independently."
    },
    "canadian_dollar_us_1_in_c": {
     "now_label": "Weaker loonie",
     "now_tone": "bad",
     "what": "the exchange rate between the Canadian dollar and the U.S. dollar.",
-    "why": "at C$1.4036, a softer loonie makes imported goods dearer, adding slight price pressure."
+    "why": "at C$1.3985, a softer loonie makes imported goods dearer, adding slight price pressure."
    },
    "market_forecasters_expected_boc_rate_p": {
     "now_label": "Stable path",
@@ -1818,8 +1818,8 @@
     "Sep"
    ],
    "10-yr": [
-    "3.83%",
-    "Oct 27"
+    "3.87%",
+    "Oct 28"
    ]
   },
   "rate_label": "Current BoC rate",
@@ -1924,6 +1924,44 @@
   "Inflation in Canada has been higher than anticipated and is projected to remain around 3% through much of 2027. It then returns close to 2% by the middle of 2028."
  ],
  "changelog": [
+  {
+   "date": "2026-10-29",
+   "date_label": "Oct 29, 2026",
+   "since": "2026-10-28",
+   "since_label": "Oct 28, 2026",
+   "summary": {
+    "headline": "No major rate decision or policy announcement occurred since the October 28 rate hike, with financial markets and incoming data monitored ahead of December.",
+    "items": [
+     "<strong>Market rates:</strong> The 2-year Government of Canada bond yield edged up slightly from 3.36% to 3.41% (October 28), and the 5-year yield moved from 3.57% to 3.62% (October 28).",
+     "<strong>Canadian dollar:</strong> The exchange rate shifted from C$1.4036 to C$1.3985 per US$1 (October 29).",
+     "<strong>Verdict stability:</strong> Our baseline view remains unchanged, with a 75% probability of a hold at 2.50% at the December 9 meeting."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "2_year_government_of_canada_bond",
+     "name": "2-year Government of Canada bond",
+     "from": "3.36%",
+     "from_period": "Oct 27, 2026",
+     "to": "3.41%",
+     "to_period": "Oct 28, 2026",
+     "move": "+0.05 pts"
+    },
+    {
+     "id": "5_year_government_of_canada_bond",
+     "name": "5-year Government of Canada bond",
+     "from": "3.57%",
+     "from_period": "Oct 27, 2026",
+     "to": "3.62%",
+     "to_period": "Oct 28, 2026",
+     "move": "+0.05 pts"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-10-28",
    "date_label": "Oct 28, 2026",

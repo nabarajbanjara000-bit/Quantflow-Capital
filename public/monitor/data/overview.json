@@ -1,136 +1,13 @@
 {
- "generated_at": "2026-10-28T22:45:09.782Z",
- "asof_label": "Oct 28, 2026",
+ "generated_at": "2026-10-29T22:55:40.259Z",
+ "asof_label": "Oct 29, 2026",
  "headline": "Hold at 8 of 8",
- "paragraph": "Quant Flow Capital tracks eight central banks across the globe as they meet to set monetary policy. Right now, all eight of these institutions are expected to hold their current interest rates steady. Among them, the Swiss National Bank stands out with a rate of 0.00%, while the others maintain higher levels.",
+ "paragraph": "Quant Flow Capital provides this public briefing covering eight central banks from around the world. Right now, all eight institutions are expected to hold their current interest rates steady at their upcoming meetings. Among them, Switzerland stands out with a rate of 0.00% as its inflation sits at 1.0% inside the target zone.",
  "window": [
-  "2026-10-28",
+  "2026-10-29",
   "2026-12-10"
  ],
  "countries": [
-  {
-   "code": "us",
-   "short": "US",
-   "country": "United States",
-   "bank": "Federal Reserve",
-   "abbrev": "Fed",
-   "rate": "3.75%–4.00%",
-   "last_move": "Raised 0.25 on Sep 16, 2026",
-   "why": "The Fed held rates at 3.75%–4.00% in October, but two officials wanted a rise and inflation remains elevated.",
-   "mini": {
-    "prices": [
-     "3.4%",
-     "PCE, Aug"
-    ],
-    "jobless": [
-     "4.2%",
-     "Sep"
-    ],
-    "10-yr": [
-     "5.05%",
-     "Oct 28"
-    ]
-   },
-   "call": "hold",
-   "headline": "HOLD",
-   "probabilities": {
-    "hold": 80,
-    "raise": 18,
-    "cut": 2
-   },
-   "confidence": "Medium",
-   "next_end": "2026-10-28",
-   "next_label": "Wed Oct 28",
-   "time_label": "2:00 p.m. ET",
-   "stale": false,
-   "asof": "Oct 28, 2026",
-   "coverage": {
-    "automatic": 33,
-    "manual": 2
-   }
-  },
-  {
-   "code": "canada",
-   "short": "CA",
-   "country": "Canada",
-   "bank": "Bank of Canada",
-   "abbrev": "BoC",
-   "rate": "2.25%",
-   "last_move": "Raised 0.25 points to 2.50% on Oct 28, 2026",
-   "why": "After raising the rate to 2.50% in October, the BoC is expected to hold steady while monitoring inflation persistence and job market softness.",
-   "mini": {
-    "prices": [
-     "3.1%",
-     "CPI, Sep"
-    ],
-    "jobless": [
-     "6.5%",
-     "Sep"
-    ],
-    "10-yr": [
-     "3.83%",
-     "Oct 27"
-    ]
-   },
-   "call": "hold",
-   "headline": "HOLD",
-   "probabilities": {
-    "hold": 75,
-    "raise": 20,
-    "cut": 5
-   },
-   "confidence": "Medium",
-   "next_end": "2026-10-28",
-   "next_label": "Wed Oct 28",
-   "time_label": "9:45 a.m. Eastern Time",
-   "stale": false,
-   "asof": "Oct 28, 2026",
-   "coverage": {
-    "automatic": 27,
-    "manual": 10
-   }
-  },
-  {
-   "code": "newzealand",
-   "short": "NZ",
-   "country": "New Zealand",
-   "bank": "Reserve Bank of New Zealand",
-   "abbrev": "RBNZ",
-   "rate": "2.75%",
-   "last_move": "Held at 2.75% on Oct 28, 2026 (following rises in July and September)",
-   "why": "RBNZ held the OCR at 2.75% on October 28, supported by cooler Q3 inflation of 3.7% and sluggish economic growth.",
-   "mini": {
-    "prices": [
-     "3.7%",
-     "CPI, Q3"
-    ],
-    "jobless": [
-     "5.6%",
-     "Q2"
-    ],
-    "10-yr": [
-     "4.96%",
-     "Oct 28"
-    ]
-   },
-   "call": "hold",
-   "headline": "HOLD",
-   "probabilities": {
-    "hold": 70,
-    "raise": 25,
-    "cut": 5
-   },
-   "confidence": "Medium",
-   "next_end": "2026-10-28",
-   "next_label": "Wed Oct 28",
-   "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
-   "stale": false,
-   "asof": "Oct 28, 2026",
-   "coverage": {
-    "automatic": 18,
-    "manual": 21
-   }
-  },
   {
    "code": "germany",
    "short": "DE",
@@ -150,8 +27,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.43%",
-     "Oct 28"
+     "3.42%",
+     "Oct 29"
     ]
    },
    "call": "hold",
@@ -165,8 +42,8 @@
    "next_end": "2026-10-29",
    "next_label": "Thu Oct 29",
    "time_label": "2:15 p.m. Central European Time",
-   "stale": false,
-   "asof": "Oct 28, 2026",
+   "stale": true,
+   "asof": "Oct 29, 2026",
    "coverage": {
     "automatic": 19,
     "manual": 19
@@ -191,8 +68,8 @@
      "Aug"
     ],
     "10-yr": [
-     "2.83%",
-     "Oct 27"
+     "2.87%",
+     "Oct 28"
     ]
    },
    "call": "hold",
@@ -206,8 +83,8 @@
    "next_end": "2026-10-30",
    "next_label": "Fri Oct 30",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
-   "stale": false,
-   "asof": "Oct 28, 2026",
+   "stale": true,
+   "asof": "Oct 29, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 13
@@ -248,7 +125,7 @@
    "next_label": "Tue Nov 3",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference.",
    "stale": false,
-   "asof": "Oct 28, 2026",
+   "asof": "Oct 29, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 13
@@ -274,7 +151,7 @@
     ],
     "10-yr": [
      "5.30%",
-     "Oct 26"
+     "Oct 27"
     ]
    },
    "call": "hold",
@@ -289,10 +166,133 @@
    "next_label": "Thu Nov 5",
    "time_label": "12:00 p.m. (noon) UK time, which is GMT after the clocks go back on October 25. That is 7:00 a.m. Eastern Time.",
    "stale": false,
-   "asof": "Oct 28, 2026",
+   "asof": "Oct 29, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 14
+   }
+  },
+  {
+   "code": "us",
+   "short": "US",
+   "country": "United States",
+   "bank": "Federal Reserve",
+   "abbrev": "Fed",
+   "rate": "3.75%–4.00%",
+   "last_move": "Raised 0.25 on Sep 16, 2026",
+   "why": "The Fed held rates at 3.75%–4.00% in October, but two officials wanted a rise and inflation remains elevated.",
+   "mini": {
+    "prices": [
+     "3.6%",
+     "PCE, Sep"
+    ],
+    "jobless": [
+     "4.2%",
+     "Sep"
+    ],
+    "10-yr": [
+     "4.98%",
+     "Oct 29"
+    ]
+   },
+   "call": "hold",
+   "headline": "HOLD",
+   "probabilities": {
+    "hold": 75,
+    "raise": 23,
+    "cut": 2
+   },
+   "confidence": "Medium",
+   "next_end": "2026-12-09",
+   "next_label": "Wed Dec 9",
+   "time_label": "2:00 p.m. ET",
+   "stale": false,
+   "asof": "Oct 29, 2026",
+   "coverage": {
+    "automatic": 33,
+    "manual": 2
+   }
+  },
+  {
+   "code": "canada",
+   "short": "CA",
+   "country": "Canada",
+   "bank": "Bank of Canada",
+   "abbrev": "BoC",
+   "rate": "2.25%",
+   "last_move": "Raised 0.25 points to 2.50% on Oct 28, 2026",
+   "why": "After raising the rate to 2.50% in October, the BoC is expected to hold steady while monitoring inflation persistence and job market softness.",
+   "mini": {
+    "prices": [
+     "3.1%",
+     "CPI, Sep"
+    ],
+    "jobless": [
+     "6.5%",
+     "Sep"
+    ],
+    "10-yr": [
+     "3.87%",
+     "Oct 28"
+    ]
+   },
+   "call": "hold",
+   "headline": "HOLD",
+   "probabilities": {
+    "hold": 75,
+    "raise": 20,
+    "cut": 5
+   },
+   "confidence": "Medium",
+   "next_end": "2026-12-09",
+   "next_label": "Wed Dec 9",
+   "time_label": "9:45 a.m. Eastern Time",
+   "stale": false,
+   "asof": "Oct 29, 2026",
+   "coverage": {
+    "automatic": 27,
+    "manual": 10
+   }
+  },
+  {
+   "code": "newzealand",
+   "short": "NZ",
+   "country": "New Zealand",
+   "bank": "Reserve Bank of New Zealand",
+   "abbrev": "RBNZ",
+   "rate": "2.75%",
+   "last_move": "Held at 2.75% on Oct 28, 2026 (following rises in July and September)",
+   "why": "RBNZ held the OCR at 2.75% on October 28, supported by cooler Q3 inflation of 3.7% and sluggish economic growth.",
+   "mini": {
+    "prices": [
+     "3.7%",
+     "CPI, Q3"
+    ],
+    "jobless": [
+     "5.6%",
+     "Q2"
+    ],
+    "10-yr": [
+     "4.84%",
+     "Oct 29"
+    ]
+   },
+   "call": "hold",
+   "headline": "HOLD",
+   "probabilities": {
+    "hold": 70,
+    "raise": 25,
+    "cut": 5
+   },
+   "confidence": "Medium",
+   "next_end": "2026-12-09",
+   "next_label": "Wed Dec 9",
+   "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
+   "stale": false,
+   "asof": "Oct 29, 2026",
+   "coverage": {
+    "automatic": 18,
+    "manual": 21
    }
   },
   {
@@ -314,8 +314,8 @@
      "Sep"
     ],
     "10-yr": [
-     "0.495%",
-     "Oct 28"
+     "0.536%",
+     "Oct 29"
     ]
    },
    "call": "hold",
@@ -330,7 +330,7 @@
    "next_label": "Thu Dec 10",
    "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Oct 28, 2026",
+   "asof": "Oct 29, 2026",
    "coverage": {
     "automatic": 10,
     "manual": 28

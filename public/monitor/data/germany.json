@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "code": "germany",
- "asof_date": "2026-10-28",
- "asof_label": "Oct 28, 2026",
- "generated_at": "2026-10-28T22:40:25.987Z",
- "data_updated_at": "2026-10-28T22:40:25.987Z",
+ "asof_date": "2026-10-29",
+ "asof_label": "Oct 29, 2026",
+ "generated_at": "2026-10-29T22:51:21.168Z",
+ "data_updated_at": "2026-10-29T22:51:21.168Z",
  "narrative_updated_at": "2026-10-28T22:40:25.987Z",
- "narrative_stale": false,
+ "narrative_stale": true,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "germany",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
   "calendar_label": "Official ECB meeting calendar",
   "who": "The European Central Bank (“the ECB”) in Frankfurt, which sets one interest rate for every country that uses the euro, including Germany. Its decision-making group is the Governing Council: the 6 members of the ECB's Executive Board (led by President Christine Lagarde) plus the heads of the 21 national central banks. Germany's voice is Joachim Nagel, President of the Deutsche Bundesbank.",
-  "days_to_decision": 1
+  "days_to_decision": 0
  },
  "kpis": [
   {
    "label": "ECB interest rate",
    "value": "2.50%",
    "note": "Deposit rate",
-   "period": "Oct 28, 2026",
+   "period": "Oct 29, 2026",
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year Bund rate",
-   "value": "3.43%",
+   "value": "3.42%",
    "note": "",
-   "period": "Oct 28, 2026",
+   "period": "Oct 29, 2026",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf"
   }
@@ -557,12 +557,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.50%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "2.50% (Oct 27, 2026)",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "2.50% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
     "v": 2.5
    },
@@ -575,12 +575,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.65%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "2.65% (Oct 27, 2026)",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "2.65% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
     "v": 2.65
    },
@@ -593,12 +593,12 @@
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
    "value": "3.08%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "3.07% (Oct 27, 2026)",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "3.08% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
     "v": 3.08
    },
@@ -610,15 +610,15 @@
    "name": "10-year German government bond (Bund)",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.43%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "3.42% (Oct 27, 2026)",
+   "value": "3.42%",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "3.43% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
-    "v": 3.43
+    "v": 3.42
    },
    "estimate": false
   },
@@ -629,12 +629,12 @@
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
    "value": "3.77%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "3.78% (Oct 27, 2026)",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "3.77% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
     "v": 3.77
    },
@@ -672,15 +672,15 @@
    "name": "Euro vs U.S. dollar",
    "source": "ECB reference rate",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-   "value": "$1.1133 per euro",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "$1.1150 per euro (Oct 27, 2026)",
+   "value": "$1.1130 per euro",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "$1.1133 per euro (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
-    "v": 1.1133
+    "v": 1.113
    },
    "estimate": false
   },
@@ -728,7 +728,7 @@
    "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM",
    "value": "$25.49 per million BTU",
    "period": "Sep 2026",
-   "released": "Oct 22, 2026",
+   "released": "Oct 26, 2026",
    "previous": "$20.92 (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -915,8 +915,10 @@
   "what_changed": {
    "headline": "Here is what is new since the last update.",
    "items": [
-    "<strong>Oil price (Brent crude, European benchmark)</strong> moved 6.8%: now $123.10 a barrel, was $115.22 a barrel.",
-    "<strong>Oil price (WTI crude, U.S.)</strong> moved -4.2%: now $103.37 a barrel, was $107.89 a barrel."
+    "New official item: <a href=\"https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure</a> (2026-10-29).",
+    "New official item: <a href=\"https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)</a> (2026-10-29).",
+    "New official item: <a href=\"https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">Monetary policy decisions</a> (2026-10-29).",
+    "New official item: <a href=\"https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">ECB President Lagarde to step down on 7 February 2027</a> (2026-10-29)."
    ]
   },
   "verdict": {
@@ -1854,8 +1856,8 @@
     "Sep"
    ],
    "10-yr": [
-    "3.43%",
-    "Oct 28"
+    "3.42%",
+    "Oct 29"
    ]
   },
   "rate_label": "Current ECB rate",
@@ -1996,6 +1998,47 @@
   "Euro liquidity lines and the international monetary system"
  ],
  "changelog": [
+  {
+   "date": "2026-10-29",
+   "date_label": "Oct 29, 2026",
+   "since": "2026-10-28",
+   "since_label": "Oct 28, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "New official item: <a href=\"https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure</a> (2026-10-29).",
+     "New official item: <a href=\"https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)</a> (2026-10-29).",
+     "New official item: <a href=\"https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">Monetary policy decisions</a> (2026-10-29).",
+     "New official item: <a href=\"https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">ECB President Lagarde to step down on 7 February 2027</a> (2026-10-29)."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure",
+     "date": "2026-10-29",
+     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html"
+    },
+    {
+     "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
+     "date": "2026-10-29",
+     "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html"
+    },
+    {
+     "title": "Monetary policy decisions",
+     "date": "2026-10-29",
+     "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html"
+    },
+    {
+     "title": "ECB President Lagarde to step down on 7 February 2027",
+     "date": "2026-10-29",
+     "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html"
+    }
+   ],
+   "verdict": null,
+   "ai_written": false
+  },
   {
    "date": "2026-10-28",
    "date_label": "Oct 28, 2026",
@@ -2310,8 +2353,30 @@
  ],
  "qa": {
   "data_errors": [],
-  "ai_errors": [],
+  "ai_errors": [
+   "Expected ',' or '}' after property value in JSON at position 32731 (line 607 column 3)"
+  ],
   "sources_read": [
+   {
+    "title": "Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure",
+    "date": "2026-10-29",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html"
+   },
+   {
+    "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
+    "date": "2026-10-29",
+    "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html"
+   },
+   {
+    "title": "Monetary policy decisions",
+    "date": "2026-10-29",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html"
+   },
+   {
+    "title": "ECB President Lagarde to step down on 7 February 2027",
+    "date": "2026-10-29",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html"
+   },
    {
     "title": "October 2026 euro area bank lending survey",
     "date": "2026-10-27",
@@ -2321,26 +2386,6 @@
     "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
     "date": "2026-10-26",
     "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261026~bde7b6d11a.en.html"
-   },
-   {
-    "title": "Frank Elderson: Taking action for nature – investing in economic resilience and prosperity",
-    "date": "2026-10-26",
-    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261026~d903d7ad85.en.html"
-   },
-   {
-    "title": "Piero Cipollone: Interview with Milano Finanza",
-    "date": "2026-10-24",
-    "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html"
-   },
-   {
-    "title": "ECB Consumer Expectations Survey results – September 2026",
-    "date": "2026-10-23",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html"
-   },
-   {
-    "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
-    "date": "2026-10-21",
-    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf"
    }
   ],
   "coverage": {

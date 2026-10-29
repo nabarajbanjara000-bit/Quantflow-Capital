@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "switzerland",
- "asof_date": "2026-10-28",
- "asof_label": "Oct 28, 2026",
- "generated_at": "2026-10-28T22:44:18.871Z",
- "data_updated_at": "2026-10-28T22:44:18.871Z",
- "narrative_updated_at": "2026-10-22T19:04:14.492Z",
+ "asof_date": "2026-10-29",
+ "asof_label": "Oct 29, 2026",
+ "generated_at": "2026-10-29T22:54:54.580Z",
+ "data_updated_at": "2026-10-29T22:54:54.580Z",
+ "narrative_updated_at": "2026-10-29T22:54:54.580Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
   "calendar_label": "Official SNB time schedule",
   "who": "The Swiss National Bank (“the SNB”), Switzerland’s central bank. Decisions are taken by its <strong>Governing Board</strong>, just three people: Chairman Martin Schlegel, Vice Chairman Antoine Martin and Petra Tschudin. They decide together and publish no vote count.",
-  "days_to_decision": 43
+  "days_to_decision": 42
  },
  "kpis": [
   {
    "label": "SNB policy rate",
    "value": "0.00%",
    "note": "",
-   "period": "Oct 28, 2026",
+   "period": "Oct 29, 2026",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "0.495%",
+   "value": "0.536%",
    "note": "",
-   "period": "Oct 28, 2026",
+   "period": "Oct 29, 2026",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates"
   }
@@ -491,12 +491,12 @@
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924",
    "value": "0.00%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "0.00% (Oct 27, 2026)",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "0.00% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
     "v": 0
    },
@@ -526,15 +526,15 @@
    "name": "SARON (overnight rate)",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "-0.06%",
-   "period": "Oct 27, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "-0.06% (Oct 26, 2026)",
+   "value": "-0.05%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "-0.06% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": -0.06
+    "v": -0.05
    },
    "estimate": false
   },
@@ -544,15 +544,15 @@
    "name": "10-year Confederation bond yield",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "0.495%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "0.487% (Oct 27, 2026)",
+   "value": "0.536%",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "0.495% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
-    "v": 0.495
+    "v": 0.536
    },
    "estimate": false
   },
@@ -562,15 +562,15 @@
    "name": "2-year Confederation bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/switzerland/2-year-note-yield",
-   "value": "0.23%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "0.18% (Oct 27, 2026)",
+   "value": "0.24%",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "0.23% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
-    "v": 0.228
+    "v": 0.237
    },
    "estimate": false
   },
@@ -580,15 +580,15 @@
    "name": "Euro in francs",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "CHF 0.9239",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "CHF 0.9233 (Oct 27, 2026)",
+   "value": "CHF 0.9227",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "CHF 0.9239 (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
-    "v": 0.9239
+    "v": 0.9227
    },
    "estimate": false
   },
@@ -598,15 +598,15 @@
    "name": "U.S. dollar in francs",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "CHF 0.8304",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "CHF 0.8285 (Oct 27, 2026)",
+   "value": "CHF 0.8287",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "CHF 0.8304 (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
-    "v": 0.8304
+    "v": 0.8287
    },
    "estimate": false
   },
@@ -682,12 +682,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "2.50% (Oct 27, 2026)",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "2.50% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
     "v": 2.5
    },
@@ -772,8 +772,10 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "SNB officials spoke in Geneva on liquidity and collateral policy.",
+   "items": [
+    "<strong>Official Speeches</strong>: On October 29, 2026, Governing Board member Petra Tschudin and Alternate Member Thomas Moser delivered a speech at the Money Market Event in Geneva on the SNB's collateral policy and how it provides liquidity to the financial system against sufficient collateral (<a href=\"https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261029_gpetmo\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>)."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -790,7 +792,7 @@
     "cut": "Cut (down)"
    },
    "confidence": "Low",
-   "confidence_note": "The decision is nearly seven weeks away, with important consumer price reports and oil price movements still ahead before December 10.",
+   "confidence_note": "The decision is about six weeks away, with important consumer price reports and oil price movements still ahead before December 10.",
    "short_version": "Inflation sits comfortably at 1.0% inside the SNB’s 0%–2% target zone, and the SNB's conditional forecast shows price stability continuing. With growth solid and the franc slightly weaker, a hold is most likely, though a small rate rise cannot be entirely ruled out.",
    "card_why": "Inflation sits at 1.0% inside the SNB's target zone, keeping a rate hold as the most likely outcome for December.",
    "last_move": "Cut to 0% on Jun 19, 2025; held five times since (latest Sep 24, 2026)"
@@ -810,7 +812,7 @@
    },
    {
     "title": "The economy is stronger than expected, and the franc is weaker",
-    "html": "Swiss output (<strong>GDP</strong>, the value of everything the country produces) grew <strong>1.5%</strong> in April–June, “the strongest GDP growth recorded since the third quarter of 2021” (<a href=\"https://www.seco.admin.ch/dam/en/sd-web/G7DmYPB-B26A/2026-2-GDP-Switzerland-SECO.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">SECO</a>). Much of it came from chemicals and pharmaceuticals (+10.5%), which swing a lot, but the SNB says growth was solid even without them. Forecasters raised their numbers: SECO’s expert group now expects <strong>1.7%</strong> growth in 2026, while KOF expects <strong>1.9%</strong> and the SNB expects <strong>1.5% to 2%</strong> (<a href=\"https://www.seco.admin.ch/dam/en/sd-web/Yhfz62y4fNO6/2026-3-forecast-economy-switzerland-SECO.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">SECO forecast</a>).\n\nAt the same time the franc lost some of its strength. Measured against a basket of trading partners, it fell <strong>2.8%</strong> between mid-June and mid-September (<a href=\"https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">SNB</a>). A weaker franc helps exporters and makes imports dearer, which pushes Swiss inflation up a little. That is exactly the help the SNB wanted when it said in March and June that it was more willing to intervene against a strong franc. Today one euro costs about <strong>CHF 0.92</strong> and one U.S. dollar about <strong>CHF 0.82</strong> (Oct 22, <a href=\"https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates\" target=\"_blank\" rel=\"noopener noreferrer\">SNB</a>)."
+    "html": "Swiss output (<strong>GDP</strong>, the value of everything the country produces) grew <strong>1.5%</strong> in April–June, “the strongest GDP growth recorded since the third quarter of 2021” (<a href=\"https://www.seco.admin.ch/dam/en/sd-web/G7DmYPB-B26A/2026-2-GDP-Switzerland-SECO.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">SECO</a>). Much of it came from chemicals and pharmaceuticals (+10.5%), which swing a lot, but the SNB says growth was solid even without them. Forecasters raised their numbers: SECO’s expert group now expects <strong>1.7%</strong> growth in 2026, while KOF expects <strong>1.9%</strong> and the SNB expects <strong>1.5% to 2%</strong> (<a href=\"https://www.seco.admin.ch/dam/en/sd-web/Yhfz62y4fNO6/2026-3-forecast-economy-switzerland-SECO.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">SECO forecast</a>).\n\nAt the same time the franc lost some of its strength. Measured against a basket of trading partners, it fell <strong>2.8%</strong> between mid-June and mid-September (<a href=\"https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">SNB</a>). A weaker franc helps exporters and makes imports dearer, which pushes Swiss inflation up a little. That is exactly the help the SNB wanted when it said in March and June that it was more willing to intervene against a strong franc. Today one euro costs about <strong>CHF 0.92</strong> and one U.S. dollar about <strong>CHF 0.83</strong> (<a href=\"https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates\" target=\"_blank\" rel=\"noopener noreferrer\">SNB</a>)."
    },
    {
     "title": "Weighing both sides",
@@ -822,7 +824,7 @@
       "Strong growth; forecasts raised to 1.7%–1.9%",
       "Weaker franc adds to import prices",
       "Fed and ECB rates higher; KOF expects an SNB rise",
-      "2-year bond rate (0.20%) above SARON (−0.06%)"
+      "2-year bond rate (0.24%) above SARON (−0.05%)"
      ],
      "right_title": "Pulls toward Hold in December",
      "right": [
@@ -1010,10 +1012,10 @@
     "because": "attention moved to the next price reports and to the oil price."
    },
    {
-    "date_label": "September 30 – October 22, 2026",
-    "title": "Calls for a rise, prices at 1%, policy discussion published",
+    "date_label": "September 30 – October 29, 2026",
+    "title": "Calls for a rise, prices at 1%, collateral speech in Geneva",
     "kind": "now",
-    "what": "On September 30 KOF forecast a 0.25-point SNB rise. On October 1 FSO reported September inflation at <strong>1.0%</strong> (core 0.5%). Brent oil hit US$135.51 on October 2, then US$125.44 on October 6. Unemployment held at <strong>3.0%</strong> in September. On October 22 the SNB published its summary of monetary policy discussions.",
+    "what": "On September 30 KOF forecast a 0.25-point SNB rise. On October 1 FSO reported September inflation at <strong>1.0%</strong> (core 0.5%). Brent oil hit US$135.51 on October 2, then US$125.44 on October 6. Unemployment held at <strong>3.0%</strong> in September. On October 29 Petra Tschudin and Thomas Moser spoke in Geneva on liquidity and collateral.",
     "sources": [
      {
       "label": "KOF",
@@ -1032,8 +1034,8 @@
       "url": "https://www.admin.ch/de/newnsb/Cdju9-o8WGML"
      },
      {
-      "label": "Summary of discussion",
-      "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924"
+      "label": "Tschudin/Moser Speech",
+      "url": "https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261029_gpetmo"
      }
     ],
     "because": "our reading is “no rush, but a December rise is possible”, which is why our main call is Hold."
@@ -1149,7 +1151,7 @@
     "<strong>Oil and the Middle East.</strong> Brent oil jumped to US$135.51 on October 2 before easing to US$125.44 on October 6 (FRED). The SNB’s September forecast assumed Brent of about US$105 at the start, then gradually lower (<a href=\"https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">SNB</a>). If oil stays well above that, the December forecast will rise and so will the chance of a rise.",
     "<strong>The franc.</strong> A renewed rush into the franc (a “safe haven” in a crisis) would push the SNB toward Hold and currency purchases, and could even revive talk of negative rates. A further slide in the franc would push toward Raise.",
     "<strong>U.S. trade policy.</strong> SECO notes a U.S. investigation launched on March 11, 2026 that includes Switzerland; its outcome is unknown. New tariffs would hurt exports and make a hold more likely.",
-    "<strong>Speeches before December.</strong> Board members speak often; Petra Tschudin and Thomas Moser are listed for a money market event in Geneva on October 29 (<a href=\"https://www.snb.ch/en/services-events/digital-services/event-schedule\" target=\"_blank\" rel=\"noopener noreferrer\">SNB</a>). Any hint that the forecast could leave the 0%–2% zone would matter."
+    "<strong>Speeches before December.</strong> Board members speak often; Petra Tschudin and Thomas Moser spoke in Geneva on October 29 (<a href=\"https://www.snb.ch/en/services-events/digital-services/event-schedule\" target=\"_blank\" rel=\"noopener noreferrer\">SNB</a>). Any hint that the forecast could leave the 0%–2% zone would matter."
    ]
   },
   "report_card": [
@@ -1188,7 +1190,7 @@
     "grade": "amber",
     "one": "Market rates have risen a little, and the franc has eased from its highs.",
     "look": "The overnight rate SARON, Confederation (government) bond rates, the franc against the euro and dollar, and mortgage rates.",
-    "why": "SARON (−0.06%) sits right where the SNB wants it, just under 0%. The 10-year Confederation bond yield is 0.525%, and the 2-year (0.20%) is above SARON, so markets expect somewhat higher rates. The franc fell 2.8% on a trade-weighted basis over the summer, which the SNB called supportive, but it is still very strong by long-run standards (one euro buys CHF 0.9211).",
+    "why": "SARON (−0.05%) sits right where the SNB wants it, just under 0%. The 10-year Confederation bond yield is 0.536%, and the 2-year (0.24%) is above SARON, so markets expect somewhat higher rates. The franc fell 2.8% on a trade-weighted basis over the summer, which the SNB called supportive, but it is still very strong by long-run standards (one euro buys CHF 0.9227).",
     "change": "A sudden franc surge or a jump in bond rates → red. Calm markets → green.",
     "matters": "The franc is the SNB’s second pedal. As long as the franc stays calm, the SNB has room to wait; a surge would make a rise very unlikely.",
     "change_label": "What would change it"
@@ -1337,43 +1339,43 @@
     "now_label": "Unchanged",
     "now_tone": "info",
     "what": "the SNB’s main interest rate. It steers the rate at which banks lend to each other overnight.",
-    "why": "at 0.00% on October 22, 2026. The December 10 decision is about keeping it here, raising it, or cutting it."
+    "why": "at 0.00% on October 29, 2026. The December 10 decision is about keeping it here, raising it, or cutting it."
    },
    "rate_on_banks_deposits_above_the_thres": {
     "now_label": "Technical",
     "now_tone": "info",
     "what": "banks earn the policy rate on SNB deposits up to a limit, and −0.25% on anything above it.",
-    "why": "at −0.25% as of October 16, 2026, this keeps SARON close to the policy rate."
+    "why": "at −0.25% as of October 23, 2026, this keeps SARON close to the policy rate."
    },
    "saron_overnight_rate": {
     "now_label": "On target",
     "now_tone": "good",
     "what": "the Swiss Average Rate Overnight, the rate banks pay each other for one-day loans backed by securities.",
-    "why": "at −0.06% on October 21, 2026, it shows the SNB’s rate is fully working in the market."
+    "why": "at −0.05% on October 28, 2026, it shows the SNB’s rate is fully working in the market."
    },
    "10_year_confederation_bond_yield": {
     "now_label": "Up since June",
     "now_tone": "mixed",
     "what": "the interest rate the Swiss government pays to borrow for 10 years.",
-    "why": "at 0.525% on October 22, 2026. Fixed-rate mortgages follow it."
+    "why": "at 0.536% on October 29, 2026. Fixed-rate mortgages follow it."
    },
    "2_year_confederation_bond_yield": {
     "now_label": "Above SARON",
     "now_tone": "mixed",
     "what": "the rate the government pays to borrow for 2 years.",
-    "why": "at 0.20% on October 22, 2026, it is above SARON, a sign that investors see some chance of SNB rises."
+    "why": "at 0.24% on October 29, 2026, it is above SARON, a sign that investors see some chance of SNB rises."
    },
    "euro_in_francs": {
     "now_label": "Franc firm vs euro",
     "now_tone": "mixed",
     "what": "how many francs one euro costs.",
-    "why": "at CHF 0.9211 on October 22, 2026, a strong franc cheapens imports and lowers Swiss inflation."
+    "why": "at CHF 0.9227 on October 29, 2026, a strong franc cheapens imports and lowers Swiss inflation."
    },
    "u_s_dollar_in_francs": {
     "now_label": "Franc vs dollar",
     "now_tone": "info",
     "what": "how many francs one U.S. dollar costs.",
-    "why": "at CHF 0.8199 on October 22, 2026. Oil is priced in dollars, so exchange rates affect fuel costs."
+    "why": "at CHF 0.8287 on October 29, 2026. Oil is priced in dollars, so exchange rates affect fuel costs."
    },
    "trade_weighted_franc": {
     "now_label": "Weaker",
@@ -1409,7 +1411,7 @@
     "now_label": "Raised",
     "now_tone": "info",
     "what": "the euro area’s main interest rate.",
-    "why": "at 2.50% on October 22, 2026, helping keep the franc from rising too fast."
+    "why": "at 2.50% on October 29, 2026, helping keep the franc from rising too fast."
    },
    "euro_area_growth_forecast_snb_assumpti": {
     "now_label": "Slow",
@@ -1425,6 +1427,23 @@
    }
   },
   "said": [
+   {
+    "n": "October 29 speech",
+    "v": "Liquidity against collateral",
+    "p": "Money Market Event, Geneva",
+    "r": "Oct 29, 2026",
+    "pv": "Sep 24 assessment",
+    "s": "Swiss National Bank (Tschudin, Moser)",
+    "u": "https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261029_gpetmo",
+    "now": [
+     "now-info",
+     "Collateral policy"
+    ],
+    "w": [
+     "What it said: The SNB provides the financial system with central bank liquidity against sufficient collateral to implement monetary policy and support payments.",
+     "Why it matters: Explains the technical plumbing of how the SNB manages money market liquidity and protects its balance sheet."
+    ]
+   },
    {
     "n": "Summary of monetary policy discussion",
     "v": "Governing Board review",
@@ -1511,23 +1530,6 @@
     ]
    },
    {
-    "n": "March 19 press release",
-    "v": "Held at 0%; readier to intervene",
-    "p": "Mar 2026 assessment",
-    "r": "March 19, 2026",
-    "pv": "December 2025: held at 0%",
-    "s": "Swiss National Bank",
-    "u": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260319",
-    "now": [
-     "now-info",
-     "Franc defence"
-    ],
-    "w": [
-     "What it said: “The SNB thereby counters a rapid and excessive appreciation of the Swiss franc”.",
-     "Why it matters: shows the SNB’s first line of defence against a safe-haven franc is currency intervention, not negative rates."
-    ]
-   },
-   {
     "n": "Petra Tschudin, Governing Board",
     "v": "“Wir publizieren keine Zinsprognosen.”",
     "p": "Interview, Finanz und Wirtschaft",
@@ -1540,7 +1542,7 @@
      "No guidance"
     ],
     "w": [
-     "What it said: “We do not publish interest-rate forecasts.” She also said a cut below zero works “etwas anders” (somewhat differently) from a normal cut.",
+     "What it said: “We do not publish interest-rate forecasts.” She also said a cut below zero works “etwas anders” (somewhat differently) from a normal cut, because banks pass it on only partly.",
      "Why it matters: do not expect the SNB to pre-announce a December move. Surprises are possible."
     ]
    },
@@ -1564,9 +1566,9 @@
   ],
   "gaps": [
    "<strong>Official FSO inflation release for September.</strong> The FSO website blocked our reading tool, so the September CPI (1.0%), core (0.5%), the category details and the release dates come from Trading Economics, which reports FSO data. August (0.8%) is confirmed by the SNB. <em>Why it matters:</em> the headline number is very likely right, but we could not check the FSO’s own wording.",
-   "<strong>Market odds for December.</strong> We found no official source for market-implied chances (from SARON futures or swaps). The 2-year Confederation yield (0.20%) is from Trading Economics. <em>Why it matters:</em> we cannot compare our 25% chance of a rise with what markets price.",
+   "<strong>Market odds for December.</strong> We found no official source for market-implied chances (from SARON futures or swaps). The 2-year Confederation yield (0.24%) is from Trading Economics. <em>Why it matters:</em> we cannot compare our 25% chance of a rise with what markets price.",
    "<strong>Currency interventions.</strong> We could not verify how much (if any) the SNB bought or sold in currency markets in 2026; its intervention figures are published with a delay. <em>Why it matters:</em> interventions are the SNB’s second pedal.",
-   "<strong>How we gathered data:</strong> data was gathered on October 22, 2026 with web tools, so every number was read directly from the page linked next to it (SNB, SECO, KOF, FRED, and Trading Economics where official FSO pages could not be opened)."
+   "<strong>How we gathered data:</strong> data was gathered on October 29, 2026 with web tools, so every number was read directly from the page linked next to it (SNB, SECO, KOF, FRED, and Trading Economics where official FSO pages could not be opened)."
   ],
   "group_intros": {
    "prices": "These numbers tell us how fast things are getting more expensive. The SNB counts prices as stable when consumer prices rise by less than 2% a year and do not fall: a comfort zone of 0% to 2%. Unlike most countries on this site, Swiss inflation is low.",
@@ -1697,8 +1699,8 @@
     "Sep"
    ],
    "10-yr": [
-    "0.495%",
-    "Oct 28"
+    "0.536%",
+    "Oct 29"
    ]
   },
   "rate_label": "Current SNB policy rate",
@@ -1793,7 +1795,31 @@
   "reflecting, among other things, the weakening of the Swiss franc.",
   "expects the SNB to raise its policy rate by 25 basis points at its next monetary policy assessment."
  ],
- "changelog": [],
+ "changelog": [
+  {
+   "date": "2026-10-29",
+   "date_label": "Oct 29, 2026",
+   "since": "2026-10-28",
+   "since_label": "Oct 28, 2026",
+   "summary": {
+    "headline": "SNB officials spoke in Geneva on liquidity and collateral policy.",
+    "items": [
+     "<strong>Official Speeches</strong>: On October 29, 2026, Governing Board member Petra Tschudin and Alternate Member Thomas Moser delivered a speech at the Money Market Event in Geneva on the SNB's collateral policy and how it provides liquidity to the financial system against sufficient collateral (<a href=\"https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261029_gpetmo\" target=\"_blank\" rel=\"noopener noreferrer\">speech</a>)."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "2026-10-29 - Petra Tschudin / Thomas Moser: Liquidity against collateral: the SNB's approach",
+     "date": "2026-10-29",
+     "url": "https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261029_gpetmo"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  }
+ ],
  "qa": {
   "data_errors": [],
   "ai_errors": [],
@@ -1819,6 +1845,11 @@
     "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924"
    },
    {
+    "title": "2026-10-29 - Petra Tschudin / Thomas Moser: Liquidity against collateral: the SNB's approach",
+    "date": "2026-10-29",
+    "url": "https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261029_gpetmo"
+   },
+   {
     "title": "2026-10-01 - Martin Schlegel: Tenth Karl Brunner Distinguished Lecture - Introduction of Mario Draghi",
     "date": "2026-10-01",
     "url": "https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261001_msl"
@@ -1833,6 +1864,6 @@
    "automatic": 10,
    "manual": 28
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }

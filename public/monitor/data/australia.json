@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-10-28",
- "asof_label": "Oct 28, 2026",
- "generated_at": "2026-10-28T22:44:07.144Z",
- "data_updated_at": "2026-10-28T22:44:07.144Z",
+ "asof_date": "2026-10-29",
+ "asof_label": "Oct 29, 2026",
+ "generated_at": "2026-10-29T22:53:49.512Z",
+ "data_updated_at": "2026-10-29T22:53:49.512Z",
  "narrative_updated_at": "2026-10-28T22:44:07.144Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 6
+  "days_to_decision": 5
  },
  "kpis": [
   {
    "label": "RBA cash rate",
    "value": "4.60%",
    "note": "",
-   "period": "Oct 28, 2026",
+   "period": "Oct 29, 2026",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
   },
@@ -593,12 +593,12 @@
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
    "value": "4.60%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
    "previous": "4.35% (Sep 29, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
     "v": 4.6
    },
@@ -695,15 +695,15 @@
    "name": "Australian dollar",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
-   "value": "US$0.7034",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "US$0.7021 (Oct 27, 2026)",
+   "value": "US$0.7053",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "US$0.7034 (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
-    "v": 0.7034
+    "v": 0.7053
    },
    "estimate": false,
    "note": "AUD/USD only (the snapshot also quotes the trade-weighted index)"
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 28, 2026",
-   "released": "Oct 28, 2026",
-   "previous": "4.00% (Oct 27, 2026)",
+   "period": "Oct 29, 2026",
+   "released": "Oct 29, 2026",
+   "previous": "4.00% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
     "v": 4
    },
@@ -798,18 +798,6 @@
   }
  },
  "releases": [
-  {
-   "id": "consumer_price_index",
-   "name": "Consumer Price Index, September and September quarter",
-   "publisher": "ABS",
-   "date": "2026-10-28",
-   "date_label": "Wed Oct 28",
-   "what": "How much the prices families pay changed, for the month and the whole quarter, including the trimmed mean.",
-   "weekly": false,
-   "time": "11:30 a.m.",
-   "url": "https://www.abs.gov.au/release-calendar/future-releases/202610",
-   "timing": "before"
-  },
   {
    "id": "international_trade_price_inde",
    "name": "International Trade Price Indexes, Sep quarter",
@@ -981,14 +969,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Headline CPI inflation rose to 4.3% in September from 4.0% in August, while monthly trimmed mean inflation held at 3.6%.",
-   "items": [
-    "<strong>Consumer Price Index (CPI)</strong> rose from 4.0% in August to 4.3% in September (annual rate).",
-    "<strong>Trimmed mean inflation</strong> held steady at 3.6% in September compared to August.",
-    "<strong>Automotive fuel prices</strong> jumped sharply from 13.5% in August to 23.6% in September due to higher world oil prices.",
-    "<strong>Oil price (Brent)</strong> increased to $123.10 a barrel on October 27 from $115.22 on October 20.",
-    "<strong>Governor Michele Bullock</strong> delivered her opening statement to the Senate Economics Legislation Committee on October 28, noting that inflation will likely be higher than the RBA's August forecasts due to materialising upside risks."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2101,6 +2083,6 @@
    "automatic": 25,
    "manual": 13
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

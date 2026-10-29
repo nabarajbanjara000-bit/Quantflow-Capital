@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "us",
- "asof_date": "2026-10-28",
- "asof_label": "Oct 28, 2026",
- "generated_at": "2026-10-28T22:38:58.351Z",
- "data_updated_at": "2026-10-28T22:38:58.351Z",
- "narrative_updated_at": "2026-10-28T22:38:58.351Z",
+ "asof_date": "2026-10-29",
+ "asof_label": "Oct 29, 2026",
+ "generated_at": "2026-10-29T22:47:57.244Z",
+ "data_updated_at": "2026-10-29T22:47:57.244Z",
+ "narrative_updated_at": "2026-10-29T22:47:57.244Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -23,38 +23,38 @@
  },
  "meeting": {
   "next": {
-   "start": "2026-10-27",
-   "end": "2026-10-28",
-   "label": "Tuesday–Wednesday, October 27–28, 2026",
-   "decision_label": "Wednesday, Oct 28, 2:00 p.m. Eastern Time (when the Fed usually publishes its written statement)",
-   "time_label": "2:00 p.m. ET"
-  },
-  "after": {
    "start": "2026-12-08",
    "end": "2026-12-09",
    "label": "Tuesday–Wednesday, December 8–9, 2026",
    "decision_label": "Wednesday, Dec 9, 2:00 p.m. Eastern Time (when the Fed usually publishes its written statement)",
    "time_label": "2:00 p.m. ET"
   },
+  "after": {
+   "start": "2027-01-26",
+   "end": "2027-01-27",
+   "label": "Tuesday–Wednesday, January 26–27, 2027",
+   "decision_label": "Wednesday, Jan 27, 2:00 p.m. Eastern Time (when the Fed usually publishes its written statement)",
+   "time_label": "2:00 p.m. ET"
+  },
   "calendar_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
   "calendar_label": "Official Fed meeting calendar",
   "who": "The Federal Reserve (“the Fed”), America's central bank. Its 12-person voting group is called the FOMC (Federal Open Market Committee).",
-  "days_to_decision": 0
+  "days_to_decision": 41
  },
  "kpis": [
   {
    "label": "Fed interest rate",
    "value": "3.75% – 4.00%",
    "note": "",
-   "period": "In effect Oct 28, 2026",
+   "period": "In effect Oct 29, 2026",
    "source": "Federal Reserve",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
   },
   {
    "label": "Price rise, past year (PCE)",
-   "value": "3.4%",
+   "value": "3.6%",
    "note": "Goal is 2%",
-   "period": "Aug 2026",
+   "period": "Sep 2026",
    "source": "BEA",
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "5.05%",
+   "value": "4.98%",
    "note": "",
-   "period": "Oct 28, 2026",
+   "period": "Oct 29, 2026",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
   }
@@ -216,7 +216,7 @@
    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
    "value": "+20.4% vs a year ago",
    "period": "Sep 2026 (+5.2% in the month)",
-   "released": "Oct 25, 2026",
+   "released": "Oct 26, 2026",
    "previous": "+16.0% a year; +2.1% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -235,7 +235,7 @@
    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
    "value": "+3.2% vs a year ago",
    "period": "Sep 2026 (+0.4% in the month)",
-   "released": "Oct 25, 2026",
+   "released": "Oct 29, 2026",
    "previous": "+3.0% a year; +0.3% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -252,16 +252,16 @@
    "name": "PCE prices (the Fed's official target)",
    "source": "BEA",
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
-   "value": "+3.4% vs a year ago",
-   "period": "Aug 2026 (+0.3% in the month)",
-   "released": "Oct 21, 2026",
-   "previous": "+3.4% a year; +0.1% in the month (Jul 2026)",
+   "value": "+3.6% vs a year ago",
+   "period": "Sep 2026 (+0.5% in the month)",
+   "released": "Oct 29, 2026",
+   "previous": "+3.4% a year; +0.3% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "yoy": 3.419031824505425,
-    "mom": 0.3102796328484869
+    "yoy": 3.648874225123633,
+    "mom": 0.4908404312709447
    },
    "estimate": false
   },
@@ -271,16 +271,16 @@
    "name": "Core PCE (without food and energy)",
    "source": "BEA",
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
-   "value": "+3.0% vs a year ago",
-   "period": "Aug 2026 (+0.2% in the month)",
-   "released": "Oct 22, 2026",
-   "previous": "+3.0% a year; +0.1% in the month (Jul 2026)",
+   "value": "+3.1% vs a year ago",
+   "period": "Sep 2026 (+0.3% in the month)",
+   "released": "Oct 29, 2026",
+   "previous": "+3.0% a year; +0.3% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "yoy": 3.0075959761856064,
-    "mom": 0.24743915839948727
+    "yoy": 3.1211596029620203,
+    "mom": 0.31650177409587865
    },
    "estimate": false
   },
@@ -309,15 +309,15 @@
    "name": "10-year inflation expectation (from bond markets)",
    "source": "FRED (St. Louis Fed)",
    "url": "https://fred.stlouisfed.org/series/T10YIE",
-   "value": "2.38%",
-   "period": "Oct 28, 2026",
-   "released": "Oct 28, 2026",
-   "previous": "2.35% (Oct 27, 2026)",
+   "value": "2.35%",
+   "period": "Oct 29, 2026",
+   "released": "Oct 29, 2026",
+   "previous": "2.38% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
-    "v": 2.38
+    "v": 2.35
    },
    "estimate": false
   },
@@ -385,7 +385,7 @@
    "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
    "value": "61.8%",
    "period": "Sep 2026",
-   "released": "Oct 25, 2026",
+   "released": "Oct 26, 2026",
    "previous": "61.6% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -402,12 +402,12 @@
    "source": "U.S. Department of Labor",
    "url": "https://www.dol.gov/ui/data.pdf",
    "value": "194,000",
-   "period": "Week ending Oct 17, 2026",
-   "released": "Oct 22, 2026",
-   "previous": "200,000 (Week ending Oct 10, 2026)",
+   "period": "Week ending Oct 24, 2026",
+   "released": "Oct 29, 2026",
+   "previous": "195,000 (Week ending Oct 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-17",
+   "latest_date": "2026-10-24",
    "raw": {
     "v": 194000
    },
@@ -419,15 +419,15 @@
    "name": "Continuing jobless claims",
    "source": "U.S. Department of Labor",
    "url": "https://www.dol.gov/ui/data.pdf",
-   "value": "1,728,000",
-   "period": "Week ending Oct 10, 2026",
-   "released": "Oct 22, 2026",
-   "previous": "1,703,000 (Week ending Oct 3, 2026)",
+   "value": "1,701,000",
+   "period": "Week ending Oct 17, 2026",
+   "released": "Oct 29, 2026",
+   "previous": "1,722,000 (Week ending Oct 10, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-10",
+   "latest_date": "2026-10-17",
    "raw": {
-    "v": 1728000
+    "v": 1701000
    },
    "estimate": false
   },
@@ -457,7 +457,7 @@
    "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
    "value": "1.9%",
    "period": "Aug 2026",
-   "released": "Oct 22, 2026",
+   "released": "Oct 26, 2026",
    "previous": "1.9% (Jul 2026)",
    "tag": "official",
    "manual": false,
@@ -473,15 +473,15 @@
    "name": "Real GDP growth (latest quarter, yearly pace)",
    "source": "BEA",
    "url": "https://www.bea.gov/data/gdp/gross-domestic-product",
-   "value": "2.2%",
-   "period": "Q2 2026",
-   "released": "Oct 22, 2026",
-   "previous": "2.5% (Q1 2026)",
-   "tag": "old",
+   "value": "3.4%",
+   "period": "Q3 2026",
+   "released": "Oct 29, 2026",
+   "previous": "2.2% (Q2 2026)",
+   "tag": "official",
    "manual": false,
-   "latest_date": "2026-04-01",
+   "latest_date": "2026-07-01",
    "raw": {
-    "v": 2.2
+    "v": 3.4
    },
    "estimate": false
   },
@@ -491,15 +491,15 @@
    "name": "GDPNow model estimate (current quarter)",
    "source": "Atlanta Fed",
    "url": "https://www.atlantafed.org/cqer/research/gdpnow",
-   "value": "3.3% (estimate)",
-   "period": "Q3 2026",
-   "released": "Oct 28, 2026",
-   "previous": "1.5% (Q2 2026)",
+   "value": "3.2% (estimate)",
+   "period": "Q4 2026",
+   "released": "Oct 29, 2026",
+   "previous": "3.3% (Q3 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-07-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 3.2721
+    "v": 3.2217
    },
    "estimate": true
   },
@@ -528,15 +528,15 @@
    "name": "Real consumer spending",
    "source": "BEA",
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
-   "value": "+0.6% in the month",
-   "period": "Aug 2026",
-   "released": "Oct 23, 2026",
-   "previous": "+0.1% (Jul 2026)",
+   "value": "+0.0% in the month",
+   "period": "Sep 2026",
+   "released": "Oct 29, 2026",
+   "previous": "+0.5% (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "mom": 0.5503335804299514
+    "mom": 0.01531664212075512
    },
    "estimate": false
   },
@@ -546,15 +546,15 @@
    "name": "Real after-tax income",
    "source": "BEA",
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
-   "value": "−0.0% in the month",
-   "period": "Aug 2026",
-   "released": "Oct 22, 2026",
-   "previous": "+0.3% (Jul 2026)",
+   "value": "−0.3% in the month",
+   "period": "Sep 2026",
+   "released": "Oct 29, 2026",
+   "previous": "+0.0% (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "mom": -0.026608164905472798
+    "mom": -0.27204309249466707
    },
    "estimate": false
   },
@@ -564,15 +564,15 @@
    "name": "Personal saving rate",
    "source": "BEA",
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
-   "value": "4.1%",
-   "period": "Aug 2026",
-   "released": "Oct 22, 2026",
-   "previous": "4.6% (Jul 2026)",
+   "value": "3.8%",
+   "period": "Sep 2026",
+   "released": "Oct 29, 2026",
+   "previous": "4.0% (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "v": 4.1
+    "v": 3.8
    },
    "estimate": false
   },
@@ -583,12 +583,12 @@
    "source": "Federal Reserve",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
    "value": "3.75% – 4.00%",
-   "period": "In effect Oct 28, 2026",
+   "period": "In effect Oct 29, 2026",
    "released": "Changed Sep 17, 2026",
    "previous": "3.50% – 3.75% (before Sep 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
     "lo": 3.75,
     "hi": 4,
@@ -605,12 +605,12 @@
    "source": "Federal Reserve Bank of New York",
    "url": "https://www.newyorkfed.org/markets/reference-rates/effr",
    "value": "3.88%",
-   "period": "Oct 27, 2026",
-   "released": "Oct 28, 2026",
-   "previous": "3.88% (Oct 26, 2026)",
+   "period": "Oct 28, 2026",
+   "released": "Oct 29, 2026",
+   "previous": "3.88% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
     "v": 3.88
    },
@@ -623,12 +623,12 @@
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
    "value": "4.18%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "4.22% (Oct 27, 2026)",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "4.18% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
     "v": 4.18
    },
@@ -640,15 +640,15 @@
    "name": "2-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "4.67%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "4.70% (Oct 27, 2026)",
+   "value": "4.61%",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "4.67% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
-    "v": 4.67
+    "v": 4.61
    },
    "estimate": false
   },
@@ -658,15 +658,15 @@
    "name": "10-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "5.05%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "4.99% (Oct 27, 2026)",
+   "value": "4.98%",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "5.05% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
-    "v": 5.05
+    "v": 4.98
    },
    "estimate": false
   },
@@ -676,15 +676,15 @@
    "name": "30-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "5.37%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "5.30% (Oct 27, 2026)",
+   "value": "5.32%",
+   "period": "Oct 29, 2026",
+   "released": "Detected Oct 29, 2026",
+   "previous": "5.37% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
-    "v": 5.37
+    "v": 5.32
    },
    "estimate": false
   },
@@ -694,15 +694,15 @@
    "name": "High-yield credit spread",
    "source": "FRED / ICE BofA",
    "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-   "value": "3.18%",
-   "period": "Oct 27, 2026",
-   "released": "Oct 28, 2026",
-   "previous": "3.30% (Oct 26, 2026)",
+   "value": "3.14%",
+   "period": "Oct 28, 2026",
+   "released": "Oct 29, 2026",
+   "previous": "3.18% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 3.18
+    "v": 3.14
    },
    "estimate": false
   },
@@ -714,7 +714,7 @@
    "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
    "value": "Median 3.6%",
    "period": "End of 2029",
-   "released": "Oct 25, 2026",
+   "released": "Oct 29, 2026",
    "previous": "—",
    "tag": "official",
    "manual": false,
@@ -763,7 +763,7 @@
    "url": "https://www.eia.gov/petroleum/gasdiesel/",
    "value": "$4.269 a gallon",
    "period": "Week ending Oct 26, 2026",
-   "released": "Oct 28, 2026",
+   "released": "Oct 27, 2026",
    "previous": "$4.284 (Week ending Oct 19, 2026)",
    "tag": "official",
    "manual": false,
@@ -780,12 +780,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 28, 2026",
-   "released": "Oct 28, 2026",
-   "previous": "2.50% (Oct 27, 2026)",
+   "period": "Oct 29, 2026",
+   "released": "Oct 29, 2026",
+   "previous": "2.50% (Oct 28, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-10-29",
    "raw": {
     "v": 2.5
    },
@@ -816,7 +816,7 @@
    "url": "https://www.dol.gov/ui/data.pdf",
    "what": "How many people newly applied for unemployment benefits.",
    "weekly": true,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "gdp_q3_first_estimate_pce_pric",
@@ -828,7 +828,7 @@
    "url": "https://www.bea.gov/news/schedule",
    "what": "How fast the whole economy grew.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "pce_prices_and_spending",
@@ -840,7 +840,7 @@
    "url": "https://www.bea.gov/news/schedule",
    "what": "The Fed's preferred price measure, plus income and spending.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "employment_cost_index",
@@ -852,7 +852,7 @@
    "url": "https://www.bls.gov/schedule/news_release/eci.htm",
    "what": "How fast employers' total pay and benefit costs are rising.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "durable_goods_orders",
@@ -864,7 +864,7 @@
    "url": "https://www.census.gov/manufacturing/m3/adv/current/index.html",
    "what": "Orders for long-lasting items like machines and equipment.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "job_openings_jolts",
@@ -876,7 +876,7 @@
    "url": "https://www.bls.gov/schedule/news_release/jolts.htm",
    "what": "How many jobs companies are trying to fill.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "jobs_report",
@@ -888,7 +888,7 @@
    "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
    "what": "Jobs added and the unemployment rate.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "consumer_price_index_cpi",
@@ -900,7 +900,7 @@
    "url": "https://www.bls.gov/schedule/news_release/cpi.htm",
    "what": "How much the prices families pay changed last month.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "producer_price_index_ppi",
@@ -912,7 +912,7 @@
    "url": "https://www.bls.gov/schedule/news_release/ppi.htm",
    "what": "What businesses charge each other for goods and services.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "retail_sales",
@@ -924,7 +924,7 @@
    "url": "https://www.census.gov/retail/sales.html",
    "what": "How much people spent in shops, restaurants and online.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "housing_starts",
@@ -936,7 +936,7 @@
    "url": "https://www.census.gov/construction/nrc/index.html",
    "what": "How many new homes builders began building.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "housing_starts",
@@ -948,7 +948,7 @@
    "url": "https://www.census.gov/construction/nrc/index.html",
    "what": "How many new homes builders began building.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "durable_goods_orders",
@@ -960,7 +960,7 @@
    "url": "https://www.census.gov/manufacturing/m3/adv/current/index.html",
    "what": "Orders for long-lasting items like machines and equipment.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "gdp_q3_first_estimate_pce_pric",
@@ -972,7 +972,7 @@
    "url": "https://www.bea.gov/news/schedule",
    "what": "How fast the whole economy grew.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "pce_prices_and_spending",
@@ -984,7 +984,7 @@
    "url": "https://www.bea.gov/news/schedule",
    "what": "The Fed's preferred price measure, plus income and spending.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "job_openings_jolts",
@@ -996,7 +996,7 @@
    "url": "https://www.bls.gov/schedule/news_release/jolts.htm",
    "what": "How many jobs companies are trying to fill.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "durable_goods_orders",
@@ -1008,7 +1008,7 @@
    "url": "https://www.census.gov/manufacturing/m3/adv/current/index.html",
    "what": "Orders for long-lasting items like machines and equipment.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "jobs_report",
@@ -1020,7 +1020,7 @@
    "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
    "what": "Jobs added and the unemployment rate.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "consumer_price_index_cpi",
@@ -1121,12 +1121,12 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "The Fed held its rate at 3.75%–4.00% on October 28, with two voters preferring a rise.",
+   "headline": "PCE inflation rose to 3.6% in September, and Q3 economic growth came in at a strong 3.4% annual pace.",
    "items": [
-    "<strong>Federal Reserve rate decision</strong> on Oct 28, 2026: maintained the target range at 3.75%–4.00% by a 10–2 vote.",
-    "<strong>Dissenting votes</strong>: Lisa D. Cook and Beth M. Hammack voted to raise the target range by 1/4 percentage point.",
-    "<strong>GDPNow model estimate</strong> for Q3 2026 ticked down from 3.4% to 3.3% on Oct 28, 2026.",
-    "<strong>Oil price (WTI crude)</strong> fell from $105.25 to $103.37 a barrel by Oct 27, 2026."
+    "<strong>PCE prices</strong> (the Fed's official target) increased from +3.4% to +3.6% in the year to September.",
+    "<strong>Core PCE</strong> (without food and energy) edged up from +3.0% to +3.1% in the year to September.",
+    "<strong>Real GDP growth</strong> for Q3 2026 was reported at 3.4% (yearly pace) on Oct 29, 2026.",
+    "<strong>Real consumer spending</strong> flattened to +0.0% in September, while <strong>real after-tax income</strong> dipped −0.3%."
    ]
   },
   "verdict": {
@@ -1134,8 +1134,8 @@
    "headline": "HOLD",
    "sub": "<strong>Keep the interest rate where it is, at 3.75% to 4.00%.</strong> The Fed just held in October, but more rises remain likely later this year.",
    "probabilities": {
-    "hold": 80,
-    "raise": 18,
+    "hold": 75,
+    "raise": 23,
     "cut": 2
    },
    "labels": {
@@ -1156,7 +1156,7 @@
    },
    {
     "title": "Right now, prices are the bigger problem",
-    "html": "Prices are rising about <strong>3.4% a year</strong>, measured by the Fed's preferred price gauge, called <strong>PCE</strong> (the Personal Consumption Expenditures price index from the Commerce Department's Bureau of Economic Analysis). In simple terms: a basket of everyday things that cost $100 a year ago now costs about <strong>$103.40</strong>. The goal would be about $102.\n\nThe main cause is <strong>energy</strong>. Conflict in the Middle East pushed up oil prices this year, with WTI crude reaching <strong>$103.37 a barrel</strong> in late October. Regular gasoline averaged <strong>$4.269 a gallon</strong> in late October, compared with roughly <strong>$3.12</strong> a year earlier. Energy matters for everything, because trucks carry food to shops, factories run machines, and airlines burn fuel, so higher energy costs slowly spread into the price of almost everything. Fed officials point out that prices have now been above the 2% goal for <strong>more than five years</strong>, and they worry people will start to expect high inflation as normal."
+    "html": "Prices are rising about <strong>3.6% a year</strong>, measured by the Fed's preferred price gauge, called <strong>PCE</strong> (the Personal Consumption Expenditures price index from the Commerce Department's Bureau of Economic Analysis). In simple terms: a basket of everyday things that cost $100 a year ago now costs about <strong>$103.60</strong>. The goal would be about $102.\n\nThe main cause is <strong>energy</strong>. Conflict in the Middle East pushed up oil prices this year, with WTI crude reaching <strong>$103.37 a barrel</strong> in late October. Regular gasoline averaged <strong>$4.269 a gallon</strong> in late October, compared with roughly <strong>$3.12</strong> a year earlier. Energy matters for everything, because trucks carry food to shops, factories run machines, and airlines burn fuel, so higher energy costs slowly spread into the price of almost everything. Fed officials point out that prices have now been above the 2% goal for <strong>more than five years</strong>, and they worry people will start to expect high inflation as normal."
    },
    {
     "title": "The Fed held in October, but dissenters wanted a rise",
@@ -1164,24 +1164,24 @@
    },
    {
     "title": "Reasons the Fed chose to wait in October",
-    "html": "<ul><li><strong>Hiring has slowed sharply.</strong> Only 29,000 jobs were added in September, and July was revised to a loss of 10,000 jobs. When hiring is weak, pressing the brake again right away raises the risk of layoffs.</li><li><strong>The market already pressed the brake for them.</strong> The interest rate on 10-year U.S. government bonds rose to 5.05% in late October. Mortgages and many business loans follow that rate. So borrowing has already become more expensive, which cools the economy without the Fed doing anything.</li><li><strong>Senior officials hinted there is no rush.</strong> Governor Christopher Waller said rate rises do not need to come at consecutive meetings. Vice Chair Philip Jefferson said reaching a decision may take more time.</li><li><strong>The brake takes time to work.</strong> A rate change takes many months to fully affect the economy. The Fed only raised in September and wanted to see the effect first.</li></ul>"
+    "html": "<ul><li><strong>Hiring has slowed sharply.</strong> Only 29,000 jobs were added in September, and July was revised to a loss of 10,000 jobs. When hiring is weak, pressing the brake again right away raises the risk of layoffs.</li><li><strong>The market already pressed the brake for them.</strong> The interest rate on 10-year U.S. government bonds rose to 4.98% in late October. Mortgages and many business loans follow that rate. So borrowing has already become more expensive, which cools the economy without the Fed doing anything.</li><li><strong>Senior officials hinted there is no rush.</strong> Governor Christopher Waller said rate rises do not need to come at consecutive meetings. Vice Chair Philip Jefferson said reaching a decision may take more time.</li><li><strong>The brake takes time to work.</strong> A rate change takes many months to fully affect the economy. The Fed only raised in September and wanted to see the effect first.</li></ul>"
    },
    {
     "title": "Why a December rise remains very possible",
-    "html": "<ul><li><strong>Inflation is too high and not improving.</strong> The official statement noted that inflation remains elevated and the Fed will deliver price stability.</li><li><strong>Two officials dissented.</strong> Lisa D. Cook and Beth M. Hammack voted to raise rates in October, showing real appetite inside the Fed to keep tightening.</li><li><strong>The economy is strong enough to handle it.</strong> Shoppers spent 0.8% more in September than in August, and an Atlanta Fed model estimates the economy grew at about a 3.3% yearly pace this summer. A strong economy can absorb a higher rate.</li><li><strong>The Fed has made a public promise.</strong> Its statements emphasize that the Committee will deliver price stability. Acting in December can make that promise more believable if inflation does not cool.</li></ul>"
+    "html": "<ul><li><strong>Inflation is too high and not improving.</strong> The official statement noted that inflation remains elevated and the Fed will deliver price stability.</li><li><strong>Two officials dissented.</strong> Lisa D. Cook and Beth M. Hammack voted to raise rates in October, showing real appetite inside the Fed to keep tightening.</li><li><strong>The economy is strong enough to handle it.</strong> Q3 real GDP growth came in at 3.4% at an annual pace. A strong economy can absorb a higher rate.</li><li><strong>The Fed has made a public promise.</strong> Its statements emphasize that the Committee will deliver price stability. Acting in December can make that promise more believable if inflation does not cool.</li></ul>"
    },
    {
     "title": "Weighing both sides",
     "scale": {
      "left_title": "Pulls toward Raise",
      "left": [
-      "Inflation 3.4% vs 2% goal",
-      "Strong spending and growth",
+      "PCE inflation 3.6% vs 2% goal",
+      "Strong Q3 growth (3.4%)",
       "Two officials dissented to raise in October"
      ],
      "right_title": "Pulls toward Hold",
      "right": [
-      "Weak September hiring",
+      "Weak September hiring (29,000)",
       "Bond rates already jumped",
       "“No rush” hints from Waller and Jefferson"
      ]
@@ -1332,7 +1332,7 @@
     "date_label": "September 15 → October 27, 2026",
     "title": "Market interest rates jumped",
     "kind": "down",
-    "what": "The interest rate on 10-year U.S. government bonds rose to <strong>5.05%</strong>. The 2-year rate stood at 4.67%.",
+    "what": "The interest rate on 10-year U.S. government bonds rose to <strong>4.98%</strong>. The 2-year rate stood at 4.61%.",
     "why": "When investors expect the Fed to keep rates high and prices to stay high, they demand more interest to lend money for years at a time.",
     "people": "Mortgage rates and many business loan rates follow the 10-year rate, so buying a house or expanding a business got more expensive within weeks.",
     "sources": [
@@ -1378,7 +1378,7 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
      }
     ],
-    "because": "our reading is that the Fed will likely raise rates again in December as more data confirms whether inflation is truly settling down."
+    "because": "our reading is that the Fed will likely hold or consider further hikes in December as incoming data clarifies inflation trends."
    }
   ],
   "choices": [
@@ -1394,12 +1394,12 @@
      "<strong>The September rise needs time to work.</strong> It has only been six weeks."
     ],
     "against": [
-     "<strong>Inflation is far from the goal.</strong> At 3.4% vs 2%, and the Fed itself calls progress insufficient.",
+     "<strong>Inflation is far from the goal.</strong> At 3.6% vs 2%, and the Fed itself calls progress insufficient.",
      "<strong>Two officials dissented.</strong> Cook and Hammack voted to raise rates in October, showing strong appetite for tighter policy.",
-     "<strong>The economy looks strong.</strong> If growth is near 3.3%, the economy can handle a higher rate."
+     "<strong>The economy looks strong.</strong> Q3 growth came in at 3.4%, meaning the economy can handle a higher rate."
     ],
     "everyday": "loan and savings rates stay roughly where they are for now. Markets now focus on December, where another rise remains a strong possibility.",
-    "prob": 80
+    "prob": 75
    },
    {
     "option": "raise",
@@ -1417,7 +1417,7 @@
      "<strong>Officials said timing is flexible.</strong> They have openly said rises do not need to happen at every meeting."
     ],
     "everyday": "credit card and other variable loan rates would rise a little further. Savings accounts would pay a bit more.",
-    "prob": 18
+    "prob": 23
    },
    {
     "option": "cut",
@@ -1436,7 +1436,7 @@
    }
   ],
   "change": {
-   "lead": "Our 80% / 18% / 2% guess is based on what we know today. New information arrives almost every day. Some of it can move our view a lot. Here is what we are watching, and why each item matters.",
+   "lead": "Our 75% / 23% / 2% guess is based on what we know today. New information arrives almost every day. Some of it can move our view a lot. Here is what we are watching, and why each item matters.",
    "intro_title": "Why upcoming reports matter for December",
    "intro": "The Fed just held in October. Now, every report released before the December meeting will shape whether the Fed decides to raise rates then. Here is what we are watching.",
    "reports": {
@@ -1497,8 +1497,8 @@
    {
     "area": "Prices",
     "grade": "red",
-    "one": "Things cost 3.4% more than a year ago, far above the 2% goal.",
-    "look": "The Fed's preferred price gauge (PCE, up 3.4%), the same gauge without food and energy (core PCE, up 3.0%), and consumer prices (CPI, up 3.7%).",
+    "one": "Things cost 3.6% more than a year ago, far above the 2% goal.",
+    "look": "The Fed's preferred price gauge (PCE, up 3.6%), the same gauge without food and energy (core PCE, up 3.1%), and consumer prices (CPI, up 3.7%).",
     "why": "The Fed's official measure (PCE) is well above the goal, both with and without energy, and prices have been above target for over five years. Energy is up 20.4% in a year. Business costs (PPI) are up 6.3%, which can reach shop shelves later.",
     "change": "Several months of core prices rising 0.2% a month or less, and energy prices falling back.",
     "matters": "This is the main reason the Fed raised rates in September and why two members dissented to raise in October."
@@ -1517,8 +1517,8 @@
     "grade": "green",
     "one": "The economy is growing at a solid pace, and people are still spending.",
     "look": "GDP (gross domestic product, the total value of everything the country produces), consumer spending and retail sales.",
-    "why": "The economy grew at a 2.2% yearly pace in spring, and an Atlanta Fed model estimates about 3.3% for summer. Shop sales jumped 0.8% in September. Businesses are investing heavily, especially in artificial intelligence.",
-    "change": "A sharp drop in spending or a weak official summer GDP number → yellow.",
+    "why": "The economy grew at a 3.4% yearly pace in Q3, and an Atlanta Fed model estimates about 3.2% for the current quarter. Shop sales jumped 0.8% in September. Businesses are investing heavily, especially in artificial intelligence.",
+    "change": "A sharp drop in spending or a weak official GDP number → yellow.",
     "matters": "A strong economy can handle higher rates, giving the Fed room to raise without causing a recession."
    },
    {
@@ -1526,7 +1526,7 @@
     "grade": "amber",
     "one": "Borrowing costs jumped, but lenders are still lending calmly.",
     "look": "U.S. government bond rates (Treasury yields), the extra interest risky companies pay to borrow (credit spreads), and market expectations for inflation.",
-    "why": "<em>Worrying:</em> the 10-year bond rate rose to 5.05%, making mortgages and loans more expensive. <em>Reassuring:</em> risky companies still borrow easily (spread of 3.18%), and investors still expect inflation of only about 2.38% a year over the long run.",
+    "why": "<em>Worrying:</em> the 10-year bond rate rose to 4.98%, making mortgages and loans more expensive. <em>Reassuring:</em> risky companies still borrow easily (spread of 3.14%), and investors still expect inflation of only about 2.35% a year over the long run.",
     "change": "Credit spreads widening sharply or stock markets falling hard → red. Bond rates settling down → green.",
     "matters": "Higher market rates are already slowing the economy, which is one reason the Fed paused in October."
    }
@@ -1560,13 +1560,13 @@
     "now_label": "Too high",
     "now_tone": "bad",
     "what": "the Personal Consumption Expenditures price index, from the Commerce Department. Like CPI, it tracks prices, but it covers a wider range of spending.",
-    "why": "this is the number the Fed's 2% goal is actually based on. At 3.4%, it is 1.4 points above target."
+    "why": "this is the number the Fed's 2% goal is actually based on. At 3.6%, it is 1.6 points above target."
    },
    "core_pce_without_food_and_energy": {
     "now_label": "A full point above goal",
     "now_tone": "bad",
     "what": "the Fed's official price measure, with food and energy removed to show the underlying trend.",
-    "why": "at 3.0%, it is still a full percentage point above the goal, even after removing energy. That tells the Fed the problem is not only energy."
+    "why": "at 3.1%, it is still over a full percentage point above the goal, even after removing energy. That tells the Fed the problem is not only energy."
    },
    "producer_price_index_ppi_final_demand": {
     "now_label": "Pipeline pressure",
@@ -1578,7 +1578,7 @@
     "now_label": "Calm",
     "now_tone": "good",
     "what": "by comparing two kinds of government bonds (one protected against inflation and one not), we can work out how much inflation investors expect on average over the next 10 years.",
-    "why": "at 2.38%, investors still believe inflation will settle near 2–2.5% in the long run."
+    "why": "at 2.35%, investors still believe inflation will settle near 2–2.5% in the long run."
    },
    "new_jobs_nonfarm_payrolls": {
     "now_label": "Weak hiring",
@@ -1614,7 +1614,7 @@
     "now_label": "Watch",
     "now_tone": "info",
     "what": "the number of people still receiving unemployment benefits.",
-    "why": "at 1,728,000, if this keeps rising while new claims stay low, it means people who lose jobs are taking longer to find new ones."
+    "why": "at 1,701,000, if this keeps rising while new claims stay low, it means people who lose jobs are taking longer to find new ones."
    },
    "job_openings_jolts": {
     "now_label": "Cooling slowly",
@@ -1631,14 +1631,14 @@
    "real_gdp_growth_spring": {
     "now_label": "Solid",
     "now_tone": "good",
-    "what": "GDP (gross domestic product) is the total value of everything the country produces, adjusted for inflation. 2.2% is the yearly pace in spring.",
-    "why": "about 2% is considered healthy and normal for the U.S."
+    "what": "GDP (gross domestic product) is the total value of everything the country produces, adjusted for inflation. 3.4% is the yearly pace in Q3.",
+    "why": "well above the roughly 2% considered healthy and normal for the U.S."
    },
    "gdpnow_model_estimate_summer": {
     "now_label": "Strong (estimate)",
     "now_tone": "good",
     "what": "a computer model run by the Atlanta Fed that estimates GDP before the official number is released.",
-    "why": "3.3% indicates strong summer growth, supporting the view that the economy can handle higher rates."
+    "why": "3.2% indicates strong current-quarter growth, supporting the view that the economy can handle higher rates."
    },
    "retail_sales": {
     "now_label": "Strong spending",
@@ -1647,22 +1647,22 @@
     "why": "consumer spending is about two-thirds of the U.S. economy. A 0.8% monthly rise means demand is still robust."
    },
    "real_consumer_spending": {
-    "now_label": "Strong",
-    "now_tone": "good",
-    "what": "how much more people actually bought, after taking out the effect of higher prices.",
-    "why": "at +0.6% in the month, people were buying more goods and services."
-   },
-   "real_after_tax_income": {
     "now_label": "Flat",
     "now_tone": "mixed",
+    "what": "how much more people actually bought, after taking out the effect of higher prices.",
+    "why": "at +0.0% in the month, spending flattened out."
+   },
+   "real_after_tax_income": {
+    "now_label": "Declining",
+    "now_tone": "bad",
     "what": "the money people have left after taxes, adjusted for price rises.",
-    "why": "at −0.0% in the month, spending grew faster than after-tax income."
+    "why": "at −0.3% in the month, incomes dropped slightly after adjusting for inflation."
    },
    "personal_saving_rate": {
     "now_label": "Low",
     "now_tone": "mixed",
     "what": "the share of after-tax income that people save instead of spend.",
-    "why": "4.1% is low, indicating families are stretching budgets due to high energy costs."
+    "why": "3.8% is low, indicating families are stretching budgets due to high energy costs."
    },
    "fed_s_target_range_federal_funds_rate": {
     "now_label": "Held steady",
@@ -1686,31 +1686,25 @@
     "now_label": "Rising",
     "now_tone": "mixed",
     "what": "the interest the government pays to borrow for two years.",
-    "why": "at 4.67%, this rate is driven by what investors think the Fed will do over the next two years."
+    "why": "at 4.61%, this rate is driven by what investors think the Fed will do over the next two years."
    },
    "10_year_treasury_yield": {
     "now_label": "Big jump",
     "now_tone": "bad",
     "what": "the interest the government pays to borrow for ten years.",
-    "why": "at 5.05%, mortgage rates and business loans follow this rate, making borrowing more expensive."
+    "why": "at 4.98%, mortgage rates and business loans follow this rate, making borrowing more expensive."
    },
    "30_year_treasury_yield": {
     "now_label": "High, steady",
     "now_tone": "info",
     "what": "the interest the government pays to borrow for thirty years.",
-    "why": "at 5.37%, it shows the long-term cost of government borrowing."
+    "why": "at 5.32%, it shows the long-term cost of government borrowing."
    },
    "high_yield_credit_spread": {
     "now_label": "Lenders calm",
     "now_tone": "good",
     "what": "the extra interest that riskier companies pay to borrow, on top of what the government pays.",
-    "why": "at 3.18%, it is low, meaning lenders are calm and businesses can still access credit."
-   },
-   "fed_s_target_range_federal_funds_rate_d": {
-    "now_label": "One more rise expected",
-    "now_tone": "info",
-    "what": "four times a year, each of the 18 Fed officials writes down where they think the rate should be at the end of the year.",
-    "why": "at 3.6%, it shows that officials expect further adjustments over time."
+    "why": "at 3.14%, it is low, meaning lenders are calm and businesses can still access credit."
    },
    "fed_officials_end_2026_rate_forecast_d": {
     "now_label": "One more rise expected",
@@ -1999,16 +1993,16 @@
   "card_why": "The Fed held rates at 3.75%–4.00% in October, but two officials wanted a rise and inflation remains elevated.",
   "mini": {
    "prices": [
-    "3.4%",
-    "PCE, Aug"
+    "3.6%",
+    "PCE, Sep"
    ],
    "jobless": [
     "4.2%",
     "Sep"
    ],
    "10-yr": [
-    "5.05%",
-    "Oct 28"
+    "4.98%",
+    "Oct 29"
    ]
   },
   "rate_label": "Current Fed rate",
@@ -2137,6 +2131,121 @@
   "some flexibility about when those hikes will occur."
  ],
  "changelog": [
+  {
+   "date": "2026-10-29",
+   "date_label": "Oct 29, 2026",
+   "since": "2026-10-28",
+   "since_label": "Oct 28, 2026",
+   "summary": {
+    "headline": "PCE inflation rose to 3.6% in September, and Q3 economic growth came in at a strong 3.4% annual pace.",
+    "items": [
+     "<strong>PCE prices</strong> (the Fed's official target) increased from +3.4% to +3.6% in the year to September.",
+     "<strong>Core PCE</strong> (without food and energy) edged up from +3.0% to +3.1% in the year to September.",
+     "<strong>Real GDP growth</strong> for Q3 2026 was reported at 3.4% (yearly pace) on Oct 29, 2026.",
+     "<strong>Real consumer spending</strong> flattened to +0.0% in September, while <strong>real after-tax income</strong> dipped −0.3%."
+    ]
+   },
+   "data": [
+    {
+     "id": "pce_prices_the_fed_s_official_target",
+     "name": "PCE prices (the Fed's official target)",
+     "from": "+3.4% vs a year ago",
+     "from_period": "Aug 2026 (+0.3% in the month)",
+     "to": "+3.6% vs a year ago",
+     "to_period": "Sep 2026 (+0.5% in the month)"
+    },
+    {
+     "id": "core_pce_without_food_and_energy",
+     "name": "Core PCE (without food and energy)",
+     "from": "+3.0% vs a year ago",
+     "from_period": "Aug 2026 (+0.2% in the month)",
+     "to": "+3.1% vs a year ago",
+     "to_period": "Sep 2026 (+0.3% in the month)"
+    },
+    {
+     "id": "weekly_jobless_claims_new",
+     "name": "Weekly jobless claims (new)",
+     "from": "194,000",
+     "from_period": "Week ending Oct 17, 2026",
+     "to": "194,000",
+     "to_period": "Week ending Oct 24, 2026"
+    },
+    {
+     "id": "continuing_jobless_claims",
+     "name": "Continuing jobless claims",
+     "from": "1,728,000",
+     "from_period": "Week ending Oct 10, 2026",
+     "to": "1,701,000",
+     "to_period": "Week ending Oct 17, 2026"
+    },
+    {
+     "id": "real_gdp_growth_spring",
+     "name": "Real GDP growth (latest quarter, yearly pace)",
+     "from": "2.2%",
+     "from_period": "Q2 2026",
+     "to": "3.4%",
+     "to_period": "Q3 2026"
+    },
+    {
+     "id": "gdpnow_model_estimate_summer",
+     "name": "GDPNow model estimate (current quarter)",
+     "from": "3.3% (estimate)",
+     "from_period": "Q3 2026",
+     "to": "3.2% (estimate)",
+     "to_period": "Q4 2026"
+    },
+    {
+     "id": "real_consumer_spending",
+     "name": "Real consumer spending",
+     "from": "+0.6% in the month",
+     "from_period": "Aug 2026",
+     "to": "+0.0% in the month",
+     "to_period": "Sep 2026"
+    },
+    {
+     "id": "real_after_tax_income",
+     "name": "Real after-tax income",
+     "from": "−0.0% in the month",
+     "from_period": "Aug 2026",
+     "to": "−0.3% in the month",
+     "to_period": "Sep 2026"
+    },
+    {
+     "id": "personal_saving_rate",
+     "name": "Personal saving rate",
+     "from": "4.1%",
+     "from_period": "Aug 2026",
+     "to": "3.8%",
+     "to_period": "Sep 2026"
+    }
+   ],
+   "market": [
+    {
+     "id": "2_year_treasury_yield",
+     "name": "2-year Treasury yield",
+     "from": "4.67%",
+     "from_period": "Oct 28, 2026",
+     "to": "4.61%",
+     "to_period": "Oct 29, 2026",
+     "move": "−0.06 pts"
+    },
+    {
+     "id": "10_year_treasury_yield",
+     "name": "10-year Treasury yield",
+     "from": "5.05%",
+     "from_period": "Oct 28, 2026",
+     "to": "4.98%",
+     "to_period": "Oct 29, 2026",
+     "move": "−0.07 pts"
+    }
+   ],
+   "fed": [],
+   "verdict": {
+    "from_text": "HOLD (hold 80% / raise 18% / cut 2%)",
+    "to_text": "HOLD (hold 75% / raise 23% / cut 2%)"
+   },
+   "ai_written": true
+  },
   {
    "date": "2026-10-28",
    "date_label": "Oct 28, 2026",
