@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-10-29",
- "asof_label": "Oct 29, 2026",
- "generated_at": "2026-10-29T22:53:49.512Z",
- "data_updated_at": "2026-10-29T22:53:49.512Z",
- "narrative_updated_at": "2026-10-28T22:44:07.144Z",
+ "asof_date": "2026-10-30",
+ "asof_label": "Oct 30, 2026",
+ "generated_at": "2026-10-30T22:29:49.447Z",
+ "data_updated_at": "2026-10-30T22:29:49.447Z",
+ "narrative_updated_at": "2026-10-30T22:29:49.446Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 5
+  "days_to_decision": 4
  },
  "kpis": [
   {
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "5.28%",
+   "value": "5.21%",
    "note": "",
-   "period": "Oct 21, 2026",
+   "period": "Oct 28, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield"
   }
@@ -623,15 +623,15 @@
    "name": "10-year government bond rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield",
-   "value": "5.28%",
-   "period": "Oct 21, 2026",
-   "released": "Detected Oct 23, 2026",
-   "previous": "5.25% (Oct 20, 2026)",
+   "value": "5.21%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 30, 2026",
+   "previous": "5.15% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-21",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 5.277
+    "v": 5.208
    },
    "estimate": false
   },
@@ -641,15 +641,15 @@
    "name": "2-year government bond rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield",
-   "value": "4.92%",
-   "period": "Oct 21, 2026",
-   "released": "Detected Oct 23, 2026",
-   "previous": "4.86% (Oct 20, 2026)",
+   "value": "4.95%",
+   "period": "Oct 28, 2026",
+   "released": "Detected Oct 30, 2026",
+   "previous": "4.88% (Oct 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-21",
+   "latest_date": "2026-10-28",
    "raw": {
-    "v": 4.917
+    "v": 4.951
    },
    "estimate": false
   },
@@ -695,15 +695,15 @@
    "name": "Australian dollar",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
-   "value": "US$0.7053",
-   "period": "Oct 29, 2026",
-   "released": "Detected Oct 29, 2026",
-   "previous": "US$0.7034 (Oct 28, 2026)",
+   "value": "US$0.7040",
+   "period": "Oct 30, 2026",
+   "released": "Detected Oct 30, 2026",
+   "previous": "US$0.7053 (Oct 29, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-29",
+   "latest_date": "2026-10-30",
    "raw": {
-    "v": 0.7053
+    "v": 0.704
    },
    "estimate": false,
    "note": "AUD/USD only (the snapshot also quotes the trade-weighted index)"
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 29, 2026",
-   "released": "Oct 29, 2026",
-   "previous": "4.00% (Oct 28, 2026)",
+   "period": "Oct 30, 2026",
+   "released": "Oct 30, 2026",
+   "previous": "4.00% (Oct 29, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-29",
+   "latest_date": "2026-10-30",
    "raw": {
     "v": 4
    },
@@ -798,18 +798,6 @@
   }
  },
  "releases": [
-  {
-   "id": "international_trade_price_inde",
-   "name": "International Trade Price Indexes, Sep quarter",
-   "publisher": "ABS",
-   "date": "2026-10-29",
-   "date_label": "Thu Oct 29",
-   "what": "Prices of goods Australia imports and exports.",
-   "weekly": false,
-   "time": "11:30 a.m.",
-   "url": "https://www.abs.gov.au/release-calendar/future-releases/202610",
-   "timing": "before"
-  },
   {
    "id": "producer_price_indexes",
    "name": "Producer Price Indexes, Sep quarter",
@@ -969,8 +957,10 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "Here is what is new since the last update.",
+   "items": [
+    "<strong>10-year government bond rate</strong> moved −0.07 pts: now 5.21%, was 5.28%."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -1007,7 +997,7 @@
    },
    {
     "title": "Reasons the RBA might wait",
-    "html": "<ul><li><strong>It only just moved.</strong> The September 29 rate rise to 4.60% will barely have reached mortgage payments by the November meeting. The brake takes months to fully work through the economy.</li><li><strong>Jobs are softening.</strong> Unemployment stood at <strong>4.7%</strong> in September (<a href=\"https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release\" target=\"_blank\" rel=\"noopener noreferrer\">ABS</a>), and employment fell by 39,329 during the month.</li><li><strong>Households are feeling the squeeze.</strong> The monthly household spending indicator registered 6.8% in August, national house prices remain below their peak, and mortgage payments take about 10% of household disposable income.</li><li><strong>The bond market has tightened conditions.</strong> The 10-year Australian government bond rate is around <strong>5.28%</strong>, which helps push up fixed-rate mortgages and business loan costs without requiring immediate central bank action.</li></ul>"
+    "html": "<ul><li><strong>It only just moved.</strong> The September 29 rate rise to 4.60% will barely have reached mortgage payments by the November meeting. The brake takes months to fully work through the economy.</li><li><strong>Jobs are softening.</strong> Unemployment stood at <strong>4.7%</strong> in September (<a href=\"https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release\" target=\"_blank\" rel=\"noopener noreferrer\">ABS</a>), and employment fell by 39,329 during the month.</li><li><strong>Households are feeling the squeeze.</strong> The monthly household spending indicator registered 6.8% in August, national house prices remain below their peak, and mortgage payments take about 10% of household disposable income.</li><li><strong>The bond market has tightened conditions.</strong> The 10-year Australian government bond rate is around <strong>5.21%</strong>, which helps push up fixed-rate mortgages and business loan costs without requiring immediate central bank action.</li></ul>"
    },
    {
     "title": "Reasons the RBA might raise rates again",
@@ -1029,7 +1019,7 @@
       "The RBA raised rates only five weeks ago",
       "Unemployment at 4.7% with employment falling in September",
       "Cooling household spending and housing market",
-      "Long-term bond yields already near 5.28%",
+      "Long-term bond yields already near 5.21%",
       "Risk of overtightening a slowing economy"
      ]
     },
@@ -1333,7 +1323,7 @@
     "area": "Money markets",
     "grade": "amber",
     "one": "Borrowing costs remain elevated in line with RBA rate hikes and firm bond yields.",
-    "look": "10-year government bond rate (5.28%), 2-year government bond rate (4.92%), and the Australian dollar (US$0.7034).",
+    "look": "10-year government bond rate (5.21%), 2-year government bond rate (4.95%), and the Australian dollar (US$0.7040).",
     "why": "Financial conditions are restrictive, helping to cool demand even without immediate central bank action.",
     "change": "A disorderly surge in yields or sharp currency depreciation moving conditions to red.",
     "matters": "Higher market rates reinforce monetary policy tightening.",
@@ -1507,13 +1497,13 @@
     "now_label": "High",
     "now_tone": "bad",
     "what": "interest rate paid on 10-year Australian government debt.",
-    "why": "stands at 5.28% in October, keeping long-term borrowing costs elevated."
+    "why": "stands at 5.21% in October, keeping long-term borrowing costs elevated."
    },
    "2_year_government_bond_rate": {
     "now_label": "Above cash rate",
     "now_tone": "mixed",
     "what": "interest rate on 2-year government bonds.",
-    "why": "stands at 4.92% in October, reflecting expectations of firm monetary policy."
+    "why": "stands at 4.95% in October, reflecting expectations of firm monetary policy."
    },
    "10_year_bond_rate_monthly_average": {
     "now_label": "High",
@@ -1531,7 +1521,7 @@
     "now_label": "Steady",
     "now_tone": "mixed",
     "what": "exchange rate of the Australian dollar against the U.S. dollar.",
-    "why": "stands at US$0.7034 on October 28, helping moderate import price pressures."
+    "why": "stands at US$0.7040 on October 30, helping moderate import price pressures."
    },
    "mortgage_payments_vs_income": {
     "now_label": "Squeezing",
@@ -1676,7 +1666,7 @@
   ],
   "gaps": [
    "<strong>Market odds specifically for November.</strong> Official market pricing reflects expectations out to year-end and early 2027, but exact daily probabilities for the November meeting alone are estimated.",
-   "<strong>Daily government bond yields.</strong> Current 10-year (5.28%) and 2-year (4.92%) yields are drawn from secondary financial market data sources rather than direct RBA tables.",
+   "<strong>Daily government bond yields.</strong> Current 10-year (5.21%) and 2-year (4.95%) yields are drawn from secondary financial market data sources rather than direct RBA tables.",
    "<strong>Detailed survey breakdowns of inflation expectations.</strong> While the RBA notes short-term expectations remain elevated, detailed household and business survey datasets were not fully collected."
   ],
   "group_intros": {
@@ -1801,8 +1791,8 @@
     "Sep"
    ],
    "10-yr": [
-    "5.28%",
-    "Oct 21"
+    "5.21%",
+    "Oct 28"
    ]
   },
   "rate_label": "Current RBA cash rate",
@@ -1922,6 +1912,33 @@
   "Developments since then suggest that although growth in the Australian economy is slowing as expected, some of the international and domestic upside risks to inflation have materialised or are materialising. Inflation will therefore likely be higher than was our base case in August."
  ],
  "changelog": [
+  {
+   "date": "2026-10-30",
+   "date_label": "Oct 30, 2026",
+   "since": "2026-10-29",
+   "since_label": "Oct 29, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "<strong>10-year government bond rate</strong> moved −0.07 pts: now 5.21%, was 5.28%."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "10_year_government_bond_rate",
+     "name": "10-year government bond rate",
+     "from": "5.28%",
+     "from_period": "Oct 21, 2026",
+     "to": "5.21%",
+     "to_period": "Oct 28, 2026",
+     "move": "−0.07 pts"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": false
+  },
   {
    "date": "2026-10-28",
    "date_label": "Oct 28, 2026",
@@ -2083,6 +2100,6 @@
    "automatic": 25,
    "manual": 13
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }

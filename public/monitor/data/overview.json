@@ -1,54 +1,13 @@
 {
- "generated_at": "2026-10-29T22:55:40.259Z",
- "asof_label": "Oct 29, 2026",
+ "generated_at": "2026-10-30T22:31:46.321Z",
+ "asof_label": "Oct 30, 2026",
  "headline": "Hold at 8 of 8",
- "paragraph": "Quant Flow Capital provides this public briefing covering eight central banks from around the world. Right now, all eight institutions are expected to hold their current interest rates steady at their upcoming meetings. Among them, Switzerland stands out with a rate of 0.00% as its inflation sits at 1.0% inside the target zone.",
+ "paragraph": "Quant Flow Capital reviews the current stances of eight central banks spread across the global economy. All eight institutions are widely expected to hold their current interest rates steady at their upcoming policy meetings. Among them, the Swiss National Bank stands out by maintaining a rate of zero percent while inflation sits within its target zone.",
  "window": [
-  "2026-10-29",
-  "2026-12-10"
+  "2026-10-30",
+  "2026-12-17"
  ],
  "countries": [
-  {
-   "code": "germany",
-   "short": "DE",
-   "country": "Germany",
-   "bank": "European Central Bank",
-   "abbrev": "ECB",
-   "rate": "2.50%",
-   "last_move": "Raised 0.25 (in force Sep 16, 2026)",
-   "why": "Euro-area inflation jumped to 3.8%, but the ECB has moved only at meetings with new forecasts, and those come in December.",
-   "mini": {
-    "prices": [
-     "3.8%",
-     "Euro-area HICP, Sep"
-    ],
-    "jobless": [
-     "2,994,000 · 6.4%",
-     "Sep"
-    ],
-    "10-yr": [
-     "3.42%",
-     "Oct 29"
-    ]
-   },
-   "call": "hold",
-   "headline": "HOLD",
-   "probabilities": {
-    "hold": 60,
-    "raise": 37,
-    "cut": 3
-   },
-   "confidence": "Low",
-   "next_end": "2026-10-29",
-   "next_label": "Thu Oct 29",
-   "time_label": "2:15 p.m. Central European Time",
-   "stale": true,
-   "asof": "Oct 29, 2026",
-   "coverage": {
-    "automatic": 19,
-    "manual": 19
-   }
-  },
   {
    "code": "japan",
    "short": "JP",
@@ -57,7 +16,7 @@
    "abbrev": "BoJ",
    "rate": "1.25%",
    "last_move": "Raised 0.25 on Sep 18, 2026",
-   "why": "The BoJ only raised six weeks ago on a split vote and has never moved at back-to-back meetings; national core inflation is 2.1%.",
+   "why": "The BoJ held its rate at 1.25% on October 30; national core inflation is 2.1% and growth remains modest.",
    "mini": {
     "prices": [
      "2.1%",
@@ -68,23 +27,23 @@
      "Aug"
     ],
     "10-yr": [
-     "2.87%",
-     "Oct 28"
+     "2.88%",
+     "Oct 29"
     ]
    },
    "call": "hold",
    "headline": "HOLD",
    "probabilities": {
-    "hold": 70,
-    "raise": 27,
+    "hold": 65,
+    "raise": 32,
     "cut": 3
    },
    "confidence": "Medium",
    "next_end": "2026-10-30",
    "next_label": "Fri Oct 30",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
-   "stale": true,
-   "asof": "Oct 29, 2026",
+   "stale": false,
+   "asof": "Oct 30, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 13
@@ -109,8 +68,8 @@
      "Sep"
     ],
     "10-yr": [
-     "5.28%",
-     "Oct 21"
+     "5.21%",
+     "Oct 28"
     ]
    },
    "call": "hold",
@@ -125,7 +84,7 @@
    "next_label": "Tue Nov 3",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference.",
    "stale": false,
-   "asof": "Oct 29, 2026",
+   "asof": "Oct 30, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 13
@@ -150,8 +109,8 @@
      "Aug"
     ],
     "10-yr": [
-     "5.30%",
-     "Oct 27"
+     "5.31%",
+     "Oct 28"
     ]
    },
    "call": "hold",
@@ -166,7 +125,7 @@
    "next_label": "Thu Nov 5",
    "time_label": "12:00 p.m. (noon) UK time, which is GMT after the clocks go back on October 25. That is 7:00 a.m. Eastern Time.",
    "stale": false,
-   "asof": "Oct 29, 2026",
+   "asof": "Oct 30, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 14
@@ -191,8 +150,8 @@
      "Sep"
     ],
     "10-yr": [
-     "4.98%",
-     "Oct 29"
+     "4.94%",
+     "Oct 30"
     ]
    },
    "call": "hold",
@@ -207,7 +166,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. ET",
    "stale": false,
-   "asof": "Oct 29, 2026",
+   "asof": "Oct 30, 2026",
    "coverage": {
     "automatic": 33,
     "manual": 2
@@ -219,7 +178,7 @@
    "country": "Canada",
    "bank": "Bank of Canada",
    "abbrev": "BoC",
-   "rate": "2.25%",
+   "rate": "2.50%",
    "last_move": "Raised 0.25 points to 2.50% on Oct 28, 2026",
    "why": "After raising the rate to 2.50% in October, the BoC is expected to hold steady while monitoring inflation persistence and job market softness.",
    "mini": {
@@ -232,8 +191,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.87%",
-     "Oct 28"
+     "3.84%",
+     "Oct 29"
     ]
    },
    "call": "hold",
@@ -248,7 +207,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "9:45 a.m. Eastern Time",
    "stale": false,
-   "asof": "Oct 29, 2026",
+   "asof": "Oct 30, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 10
@@ -262,7 +221,7 @@
    "abbrev": "RBNZ",
    "rate": "2.75%",
    "last_move": "Held at 2.75% on Oct 28, 2026 (following rises in July and September)",
-   "why": "RBNZ held the OCR at 2.75% on October 28, supported by cooler Q3 inflation of 3.7% and sluggish economic growth.",
+   "why": "RBNZ held the OCR at 2.75%, supported by cooler Q3 inflation of 3.7% and sluggish economic growth.",
    "mini": {
     "prices": [
      "3.7%",
@@ -273,8 +232,8 @@
      "Q2"
     ],
     "10-yr": [
-     "4.84%",
-     "Oct 29"
+     "4.82%",
+     "Oct 30"
     ]
    },
    "call": "hold",
@@ -289,7 +248,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
    "stale": false,
-   "asof": "Oct 29, 2026",
+   "asof": "Oct 30, 2026",
    "coverage": {
     "automatic": 18,
     "manual": 21
@@ -314,8 +273,8 @@
      "Sep"
     ],
     "10-yr": [
-     "0.536%",
-     "Oct 29"
+     "0.505%",
+     "Oct 30"
     ]
    },
    "call": "hold",
@@ -330,10 +289,51 @@
    "next_label": "Thu Dec 10",
    "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Oct 29, 2026",
+   "asof": "Oct 30, 2026",
    "coverage": {
     "automatic": 10,
     "manual": 28
+   }
+  },
+  {
+   "code": "germany",
+   "short": "DE",
+   "country": "Germany",
+   "bank": "European Central Bank",
+   "abbrev": "ECB",
+   "rate": "2.50%",
+   "last_move": "Raised 0.25 (in force Sep 16, 2026)",
+   "why": "Euro-area inflation jumped to 3.8%, but the ECB has moved only at meetings with new forecasts, and those come in December.",
+   "mini": {
+    "prices": [
+     "3.8%",
+     "Euro-area HICP, Sep"
+    ],
+    "jobless": [
+     "2,994,000 · 6.4%",
+     "Sep"
+    ],
+    "10-yr": [
+     "3.40%",
+     "Oct 30"
+    ]
+   },
+   "call": "hold",
+   "headline": "HOLD",
+   "probabilities": {
+    "hold": 60,
+    "raise": 37,
+    "cut": 3
+   },
+   "confidence": "Low",
+   "next_end": "2026-12-17",
+   "next_label": "Thu Dec 17",
+   "time_label": "2:15 p.m. Central European Time",
+   "stale": true,
+   "asof": "Oct 30, 2026",
+   "coverage": {
+    "automatic": 19,
+    "manual": 19
    }
   }
  ]
