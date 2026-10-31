@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "switzerland",
- "asof_date": "2026-10-30",
- "asof_label": "Oct 30, 2026",
- "generated_at": "2026-10-30T22:31:00.195Z",
- "data_updated_at": "2026-10-30T22:31:00.195Z",
+ "asof_date": "2026-10-31",
+ "asof_label": "Oct 31, 2026",
+ "generated_at": "2026-10-31T21:40:51.249Z",
+ "data_updated_at": "2026-10-31T21:40:51.249Z",
  "narrative_updated_at": "2026-10-30T22:31:00.195Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
   "calendar_label": "Official SNB time schedule",
   "who": "The Swiss National Bank (“the SNB”), Switzerland’s central bank. Decisions are taken by its <strong>Governing Board</strong>, just three people: Chairman Martin Schlegel, Vice Chairman Antoine Martin and Petra Tschudin. They decide together and publish no vote count.",
-  "days_to_decision": 41
+  "days_to_decision": 40
  },
  "kpis": [
   {
@@ -682,12 +682,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 30, 2026",
-   "released": "Detected Oct 30, 2026",
-   "previous": "2.50% (Oct 29, 2026)",
+   "period": "Oct 31, 2026",
+   "released": "Detected Oct 31, 2026",
+   "previous": "2.50% (Oct 30, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-30",
+   "latest_date": "2026-10-31",
    "raw": {
     "v": 2.5
    },
@@ -721,18 +721,6 @@
   }
  },
  "releases": [
-  {
-   "id": "snb_interim_results",
-   "name": "SNB interim results as at Sep 30",
-   "publisher": "SNB",
-   "date": "2026-10-30",
-   "date_label": "Fri Oct 30",
-   "time": "7:15 a.m.",
-   "url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
-   "what": "The SNB’s profit or loss for the first nine months of 2026.",
-   "weekly": false,
-   "timing": "after"
-  },
   {
    "id": "snb_monetary_policy_assessment",
    "name": "SNB monetary policy assessment",
@@ -772,11 +760,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "The SNB reported a profit of CHF 44.2 billion for the first three quarters of 2026, and KOF Barometer eased slightly.",
-   "items": [
-    "<strong>SNB Interim Results</strong>: On October 30, 2026, the Swiss National Bank reported a profit of CHF 44.2 billion for the first three quarters of 2026, driven largely by foreign currency positions (<a href=\"https://www.snb.ch/en/publications/communication/press-releases/2026/pre_20261030\" target=\"_blank\" rel=\"noopener noreferrer\">press release</a>).",
-    "<strong>KOF Economic Barometer</strong>: The index moved from 109.1 in September to 107.6 in October 2026, remaining well above average while showing a slight cooling."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -1898,6 +1883,6 @@
    "automatic": 10,
    "manual": 28
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

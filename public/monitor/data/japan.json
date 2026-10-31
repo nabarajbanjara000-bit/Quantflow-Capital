@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-10-30",
- "asof_label": "Oct 30, 2026",
- "generated_at": "2026-10-30T22:25:23.249Z",
- "data_updated_at": "2026-10-30T22:25:23.249Z",
+ "asof_date": "2026-10-31",
+ "asof_label": "Oct 31, 2026",
+ "generated_at": "2026-10-31T21:38:14.985Z",
+ "data_updated_at": "2026-10-31T21:38:14.985Z",
  "narrative_updated_at": "2026-10-30T22:25:23.248Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -23,23 +23,23 @@
  },
  "meeting": {
   "next": {
-   "start": "2026-10-29",
-   "end": "2026-10-30",
-   "label": "Thursday–Friday, October 29–30, 2026 (a meeting that also publishes new forecasts, the “Outlook Report”)",
-   "decision_label": "Friday, Oct 30. The BoJ does not fix the time in advance; in 2026 its statements came out between 11:46 a.m. and 12:19 p.m. Japan time (JST).",
-   "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST)."
-  },
-  "after": {
    "start": "2026-12-17",
    "end": "2026-12-18",
    "label": "Thursday–Friday, December 17–18, 2026",
    "decision_label": "Friday, Dec 18. The BoJ does not fix the time in advance; in 2026 its statements came out between 11:46 a.m. and 12:19 p.m. Japan time (JST).",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST)."
   },
+  "after": {
+   "start": "2027-01-21",
+   "end": "2027-01-22",
+   "label": "Thursday–Friday, January 21–22, 2027 (a meeting that also publishes new forecasts, the “Outlook Report”)",
+   "decision_label": "Friday, Jan 22. The BoJ does not fix the time in advance.",
+   "time_label": ""
+  },
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 0
+  "days_to_decision": 48
  },
  "kpis": [
   {
@@ -844,30 +844,6 @@
  },
  "releases": [
   {
-   "id": "tokyo_cpi",
-   "name": "Tokyo CPI, October",
-   "publisher": "Statistics Bureau",
-   "date": "2026-10-30",
-   "date_label": "Fri Oct 30",
-   "time": "8:30 a.m. JST",
-   "url": "https://www.stat.go.jp/english/data/cpi/1582.html",
-   "what": "Prices in Tokyo's 23 wards, published early as a preview of the nation.",
-   "weekly": false,
-   "timing": "day"
-  },
-  {
-   "id": "labour_force_survey",
-   "name": "Labour Force Survey, September",
-   "publisher": "MHLW",
-   "date": "2026-10-30",
-   "date_label": "Fri Oct 30",
-   "time": "8:30 a.m. JST",
-   "url": "https://www.stat.go.jp/english/data/roudou/1543.html",
-   "what": "The unemployment rate and how many jobs are on offer per job seeker.",
-   "weekly": false,
-   "timing": "day"
-  },
-  {
    "id": "outlook_report",
    "name": "Outlook Report, full text",
    "publisher": "BoJ",
@@ -877,7 +853,7 @@
    "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
    "what": "The detailed explanation behind the new forecasts.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "minutes_of_the_september_meeti",
@@ -889,7 +865,7 @@
    "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
    "what": "A fuller record of the September debate.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "summary_of_opinions",
@@ -901,7 +877,7 @@
    "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
    "what": "Unnamed comments from each Board member at the October meeting.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "gdp_july_september",
@@ -913,7 +889,7 @@
    "url": "https://www.esri.cao.go.jp/jp/sna/kouhyou/kouhyou_top.html",
    "what": "How much the whole economy grew or shrank in the quarter.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "national_cpi_2",
@@ -925,7 +901,7 @@
    "url": "https://www.stat.go.jp/english/data/cpi/1582.html",
    "what": "How much the prices households pay changed, across Japan.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "tokyo_cpi_2",
@@ -937,7 +913,7 @@
    "url": "https://www.stat.go.jp/english/data/cpi/1582.html",
    "what": "Prices in Tokyo's 23 wards, published early as a preview of the nation.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "labour_force_survey_2",
@@ -949,7 +925,7 @@
    "url": "https://www.stat.go.jp/english/data/roudou/1543.html",
    "what": "The unemployment rate and how many jobs are on offer per job seeker.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "gdp_july_september_2",
@@ -961,7 +937,7 @@
    "url": "https://www.esri.cao.go.jp/jp/sna/kouhyou/kouhyou_top.html",
    "what": "A revised reading of how much the economy grew or shrank in the quarter.",
    "weekly": false,
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "national_cpi_3",
@@ -973,7 +949,7 @@
    "url": "https://www.stat.go.jp/english/data/cpi/1582.html",
    "what": "How much the prices households pay changed, across Japan.",
    "weekly": false,
-   "timing": "after"
+   "timing": "day"
   },
   {
    "id": "minutes_of_the_october_meeting",
@@ -1026,12 +1002,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "The BoJ held its interest rate at 1.25% on October 30 and published new forecasts in its Outlook Report.",
-   "items": [
-    "<strong>The BoJ policy rate</strong> remained at 1.25% after the October 29–30 meeting.",
-    "<strong>Tokyo core CPI</strong> (without fresh food) eased from 2.7% in September to 2.6% in October.",
-    "<strong>New official documents</strong> were published on October 30, including the Outlook Report, the Statement on Monetary Policy, and decisions regarding ETFs."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2356,6 +2328,6 @@
    "automatic": 27,
    "manual": 13
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

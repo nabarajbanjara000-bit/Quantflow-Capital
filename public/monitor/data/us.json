@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "us",
- "asof_date": "2026-10-30",
- "asof_label": "Oct 30, 2026",
- "generated_at": "2026-10-30T22:24:03.008Z",
- "data_updated_at": "2026-10-30T22:24:03.008Z",
+ "asof_date": "2026-10-31",
+ "asof_label": "Oct 31, 2026",
+ "generated_at": "2026-10-31T21:37:49.090Z",
+ "data_updated_at": "2026-10-31T21:37:49.090Z",
  "narrative_updated_at": "2026-10-30T22:24:03.008Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
   "calendar_label": "Official Fed meeting calendar",
   "who": "The Federal Reserve (“the Fed”), America's central bank. Its 12-person voting group is called the FOMC (Federal Open Market Committee).",
-  "days_to_decision": 40
+  "days_to_decision": 39
  },
  "kpis": [
   {
    "label": "Fed interest rate",
    "value": "3.75% – 4.00%",
    "note": "",
-   "period": "In effect Oct 30, 2026",
+   "period": "In effect Oct 31, 2026",
    "source": "Federal Reserve",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
   },
@@ -530,7 +530,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "+0.0% in the month",
    "period": "Sep 2026",
-   "released": "Oct 30, 2026",
+   "released": "Oct 29, 2026",
    "previous": "+0.5% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -583,12 +583,12 @@
    "source": "Federal Reserve",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
    "value": "3.75% – 4.00%",
-   "period": "In effect Oct 30, 2026",
+   "period": "In effect Oct 31, 2026",
    "released": "Changed Sep 17, 2026",
    "previous": "3.50% – 3.75% (before Sep 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-30",
+   "latest_date": "2026-10-31",
    "raw": {
     "lo": 3.75,
     "hi": 4,
@@ -806,18 +806,6 @@
   }
  },
  "releases": [
-  {
-   "id": "employment_cost_index",
-   "name": "Employment Cost Index",
-   "publisher": "BLS",
-   "date": "2026-10-30",
-   "date_label": "Fri Oct 30",
-   "time": "8:30 a.m.",
-   "url": "https://www.bls.gov/schedule/news_release/eci.htm",
-   "what": "How fast employers' total pay and benefit costs are rising.",
-   "weekly": false,
-   "timing": "before"
-  },
   {
    "id": "durable_goods_orders",
    "name": "Durable goods orders",
@@ -1097,12 +1085,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Economic growth stayed strong at 3.4% in Q3, while core PCE inflation remained elevated at 3.1%.",
-   "items": [
-    "<strong>Real GDP growth</strong> for Q3 2026 was reported at 3.4% (yearly pace) on Oct 29, 2026.",
-    "<strong>Core PCE</strong> (without food and energy) remained at +3.1% in the year to September.",
-    "<strong>PCE prices</strong> (the Fed's official target) held at +3.6% in the year to September."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2704,6 +2688,6 @@
    "automatic": 33,
    "manual": 2
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

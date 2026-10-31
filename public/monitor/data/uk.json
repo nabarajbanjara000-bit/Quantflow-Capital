@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-10-30",
- "asof_label": "Oct 30, 2026",
- "generated_at": "2026-10-30T22:31:42.592Z",
- "data_updated_at": "2026-10-30T22:31:42.592Z",
+ "asof_date": "2026-10-31",
+ "asof_label": "Oct 31, 2026",
+ "generated_at": "2026-10-31T21:41:05.954Z",
+ "data_updated_at": "2026-10-31T21:41:05.954Z",
  "narrative_updated_at": "2026-10-30T22:31:42.592Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 6
+  "days_to_decision": 5
  },
  "kpis": [
   {
@@ -797,12 +797,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Oct 30, 2026",
-   "released": "Detected Oct 30, 2026",
-   "previous": "2.50% (Oct 29, 2026)",
+   "period": "Oct 31, 2026",
+   "released": "Detected Oct 31, 2026",
+   "previous": "2.50% (Oct 30, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-30",
+   "latest_date": "2026-10-31",
    "raw": {
     "v": 2.5
    },
@@ -873,11 +873,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "New business and survey snapshots published as markets look ahead to the November 5 decision.",
-   "items": [
-    "<strong>Agents' summary of business conditions</strong> published for October 2026, detailing regional business activity across the UK.",
-    "<strong>Decision Maker Panel data</strong> published for October 2026, tracking wage and price expectations from chief financial officers."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2428,6 +2425,6 @@
    "automatic": 25,
    "manual": 14
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }
