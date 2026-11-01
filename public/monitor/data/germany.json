@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "germany",
- "asof_date": "2026-10-31",
- "asof_label": "Oct 31, 2026",
- "generated_at": "2026-10-31T21:39:13.030Z",
- "data_updated_at": "2026-10-31T21:39:13.030Z",
+ "asof_date": "2026-11-01",
+ "asof_label": "Nov 1, 2026",
+ "generated_at": "2026-11-01T22:05:08.057Z",
+ "data_updated_at": "2026-11-01T22:05:08.057Z",
  "narrative_updated_at": "2026-10-31T21:39:13.030Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
   "calendar_label": "Official ECB meeting calendar",
   "who": "The European Central Bank (“the ECB”) in Frankfurt, which sets one interest rate for every country that uses the euro, including Germany. Its decision-making group is the Governing Council: the 6 members of the ECB's Executive Board (led by President Christine Lagarde) plus the heads of the 21 national central banks. Germany's voice is Joachim Nagel, President of the Deutsche Bundesbank.",
-  "days_to_decision": 47
+  "days_to_decision": 46
  },
  "kpis": [
   {
@@ -728,7 +728,7 @@
    "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM",
    "value": "$25.49 per million BTU",
    "period": "Sep 2026",
-   "released": "Oct 26, 2026",
+   "released": "Oct 22, 2026",
    "previous": "$20.92 (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -853,14 +853,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Here is what is new since the last update.",
-   "items": [
-    "<strong>ECB deposit facility rate (the main policy rate)</strong>: now 2.50%, for Oct 31, 2026. Before: 2.50% (Oct 30, 2026).",
-    "<strong>ECB main refinancing rate</strong>: now 2.65%, for Oct 31, 2026. Before: 2.65% (Oct 30, 2026).",
-    "New official item: <a href=\"https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">Philip R. Lane: AI adoption in Europe</a> (2026-10-30).",
-    "New official item: <a href=\"https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)</a> (2026-10-30).",
-    "New official item: <a href=\"https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html\" target=\"_blank\" rel=\"noopener noreferrer\">Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026</a> (2026-10-30)."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2422,6 +2416,6 @@
    "automatic": 19,
    "manual": 19
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

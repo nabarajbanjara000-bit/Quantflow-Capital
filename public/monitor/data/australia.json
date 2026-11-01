@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-10-31",
- "asof_label": "Oct 31, 2026",
- "generated_at": "2026-10-31T21:40:41.948Z",
- "data_updated_at": "2026-10-31T21:40:41.948Z",
- "narrative_updated_at": "2026-10-30T22:29:49.446Z",
+ "asof_date": "2026-11-01",
+ "asof_label": "Nov 1, 2026",
+ "generated_at": "2026-11-01T22:08:21.015Z",
+ "data_updated_at": "2026-11-01T22:08:21.015Z",
+ "narrative_updated_at": "2026-11-01T22:08:21.015Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 3
+  "days_to_decision": 2
  },
  "kpis": [
   {
@@ -660,14 +660,14 @@
    "source": "OECD via FRED",
    "url": "https://fred.stlouisfed.org/series/IRLTLT01AUM156N",
    "value": "5.28%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "5.02% (Aug 2026)",
+   "period": "Oct 2026",
+   "released": "Detected Nov 1, 2026",
+   "previous": "5.28% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 5.2826818181818185
+    "v": 5.278473684210527
    },
    "estimate": false
   },
@@ -677,15 +677,15 @@
    "name": "3-month bank bill rate",
    "source": "OECD via FRED",
    "url": "https://fred.stlouisfed.org/series/IR3TIB01AUM156N",
-   "value": "4.67%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "4.51% (Aug 2026)",
+   "value": "4.80%",
+   "period": "Oct 2026",
+   "released": "Detected Nov 1, 2026",
+   "previous": "4.67% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 4.672727272727272
+    "v": 4.799
    },
    "estimate": false
   },
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Oct 31, 2026",
-   "released": "Oct 31, 2026",
-   "previous": "4.00% (Oct 30, 2026)",
+   "period": "Nov 1, 2026",
+   "released": "Nov 1, 2026",
+   "previous": "4.00% (Oct 31, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-31",
+   "latest_date": "2026-11-01",
    "raw": {
     "v": 4
    },
@@ -945,7 +945,7 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
+   "headline": "No important new official statistics released since the previous update.",
    "items": []
   },
   "verdict": {
@@ -1899,6 +1899,38 @@
  ],
  "changelog": [
   {
+   "date": "2026-11-01",
+   "date_label": "Nov 1, 2026",
+   "since": "2026-10-31",
+   "since_label": "Oct 31, 2026",
+   "summary": {
+    "headline": "No important new official statistics released since the previous update.",
+    "items": []
+   },
+   "data": [
+    {
+     "id": "10_year_bond_rate_monthly_average",
+     "name": "10-year bond rate, monthly average",
+     "from": "5.28%",
+     "from_period": "Sep 2026",
+     "to": "5.28%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "3_month_bank_bill_rate",
+     "name": "3-month bank bill rate",
+     "from": "4.67%",
+     "from_period": "Sep 2026",
+     "to": "4.80%",
+     "to_period": "Oct 2026"
+    }
+   ],
+   "market": [],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
+  {
    "date": "2026-10-30",
    "date_label": "Oct 30, 2026",
    "since": "2026-10-29",
@@ -2086,6 +2118,6 @@
    "automatic": 25,
    "manual": 13
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }
