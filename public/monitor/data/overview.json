@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-01T22:09:24.345Z",
- "asof_label": "Nov 1, 2026",
+ "generated_at": "2026-11-03T01:06:18.593Z",
+ "asof_label": "Nov 2, 2026",
  "headline": "Hold at 8 of 8",
- "paragraph": "Across all eight central banks, current policy points toward a steady hold as policymakers assess recent inflation and economic data. Most of these institutions share similar expectations for maintaining their rates in the near term while watching price pressures closely. The Bank of Japan stands out in this group with the lowest rate at 1.25% alongside modest growth.",
+ "paragraph": "Quant Flow Capital tracks eight central banks around the world to monitor changing monetary policy. Right now, all eight central banks are expected to hold their current interest rates steady despite ongoing inflation pressures. Among them, Switzerland stands out with its rate sitting at 0.00% while others range from 1.25% to 4.60%.",
  "window": [
   "2026-11-03",
   "2026-12-18"
@@ -43,7 +43,7 @@
    "next_label": "Tue Nov 3",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference.",
    "stale": false,
-   "asof": "Nov 1, 2026",
+   "asof": "Nov 2, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 13
@@ -68,8 +68,8 @@
      "Aug"
     ],
     "10-yr": [
-     "5.31%",
-     "Oct 28"
+     "5.26%",
+     "Oct 29"
     ]
    },
    "call": "hold",
@@ -84,7 +84,7 @@
    "next_label": "Thu Nov 5",
    "time_label": "12:00 p.m. (noon) UK time, which is GMT after the clocks go back on October 25. That is 7:00 a.m. Eastern Time.",
    "stale": false,
-   "asof": "Nov 1, 2026",
+   "asof": "Nov 2, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 14
@@ -109,8 +109,8 @@
      "Sep"
     ],
     "10-yr": [
-     "4.94%",
-     "Oct 30"
+     "4.91%",
+     "Nov 2"
     ]
    },
    "call": "hold",
@@ -125,7 +125,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. ET",
    "stale": false,
-   "asof": "Nov 1, 2026",
+   "asof": "Nov 2, 2026",
    "coverage": {
     "automatic": 33,
     "manual": 2
@@ -150,8 +150,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.84%",
-     "Oct 29"
+     "3.78%",
+     "Oct 30"
     ]
    },
    "call": "hold",
@@ -166,7 +166,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "9:45 a.m. Eastern Time",
    "stale": false,
-   "asof": "Nov 1, 2026",
+   "asof": "Nov 2, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 10
@@ -179,7 +179,7 @@
    "bank": "Reserve Bank of New Zealand",
    "abbrev": "RBNZ",
    "rate": "2.75%",
-   "last_move": "Held at 2.75% on Oct 28, 2026 (following rises in July and September)",
+   "last_move": "Held at 2.75% on Oct 27, 2026 (following rises in July and September)",
    "why": "RBNZ held the OCR at 2.75%, supported by cooler Q3 inflation of 3.7% and sluggish economic growth.",
    "mini": {
     "prices": [
@@ -191,8 +191,8 @@
      "Q2"
     ],
     "10-yr": [
-     "4.82%",
-     "Oct 30"
+     "4.81%",
+     "Nov 3"
     ]
    },
    "call": "hold",
@@ -207,7 +207,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
    "stale": false,
-   "asof": "Nov 1, 2026",
+   "asof": "Nov 2, 2026",
    "coverage": {
     "automatic": 18,
     "manual": 21
@@ -232,8 +232,8 @@
      "Sep"
     ],
     "10-yr": [
-     "0.505%",
-     "Oct 30"
+     "0.492%",
+     "Nov 2"
     ]
    },
    "call": "hold",
@@ -248,7 +248,7 @@
    "next_label": "Thu Dec 10",
    "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Nov 1, 2026",
+   "asof": "Nov 2, 2026",
    "coverage": {
     "automatic": 10,
     "manual": 28
@@ -273,8 +273,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.40%",
-     "Oct 30"
+     "3.37%",
+     "Nov 2"
     ]
    },
    "call": "hold",
@@ -289,7 +289,7 @@
    "next_label": "Thu Dec 17",
    "time_label": "2:15 p.m. Central European Time",
    "stale": false,
-   "asof": "Nov 1, 2026",
+   "asof": "Nov 2, 2026",
    "coverage": {
     "automatic": 19,
     "manual": 19
@@ -314,8 +314,8 @@
      "Aug"
     ],
     "10-yr": [
-     "2.88%",
-     "Oct 29"
+     "2.82%",
+     "Oct 30"
     ]
    },
    "call": "hold",
@@ -330,7 +330,7 @@
    "next_label": "Fri Dec 18",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
    "stale": false,
-   "asof": "Nov 1, 2026",
+   "asof": "Nov 2, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 13
