@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-11-02",
- "asof_label": "Nov 2, 2026",
- "generated_at": "2026-11-03T01:04:40.943Z",
- "data_updated_at": "2026-11-03T01:04:40.943Z",
- "narrative_updated_at": "2026-11-03T01:04:40.942Z",
+ "asof_date": "2026-11-03",
+ "asof_label": "Nov 3, 2026",
+ "generated_at": "2026-11-03T23:29:23.478Z",
+ "data_updated_at": "2026-11-03T23:29:23.478Z",
+ "narrative_updated_at": "2026-11-03T23:29:23.478Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -32,7 +32,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 37
+  "days_to_decision": 36
  },
  "kpis": [
   {
@@ -53,15 +53,15 @@
   },
   {
    "label": "Unemployment",
-   "value": "5.6%",
+   "value": "5.7%",
    "note": "",
-   "period": "Q2 2026",
+   "period": "Q3 2026",
    "source": "Stats NZ",
    "url": "https://www.stats.govt.nz/information-releases/labour-market-statistics-june-2026-quarter/"
   },
   {
    "label": "10-year bond rate",
-   "value": "4.81%",
+   "value": "4.75%",
    "note": "",
    "period": "Nov 3, 2026",
    "source": "Trading Economics (market data)",
@@ -316,15 +316,15 @@
    "name": "Unemployment rate (Household Labour Force Survey)",
    "source": "Stats NZ",
    "url": "https://www.stats.govt.nz/information-releases/labour-market-statistics-june-2026-quarter/",
-   "value": "5.6%",
-   "period": "Q2 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "5.4% (Q1 2026)",
+   "value": "5.7%",
+   "period": "Q3 2026",
+   "released": "Detected Nov 3, 2026",
+   "previous": "5.6% (Q2 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-06-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "v": 5.6
+    "v": 5.7
    },
    "estimate": false
   },
@@ -360,15 +360,15 @@
    "name": "Participation rate",
    "source": "NZ Treasury (Fortnightly Economic Update)",
    "url": "https://www.treasury.govt.nz/sites/default/files/2026-10/feu-1oct26.pdf",
-   "value": "70.7%",
-   "period": "Q2 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "70.4% (Q1 2026)",
+   "value": "70.4%",
+   "period": "Q3 2026",
+   "released": "Detected Nov 3, 2026",
+   "previous": "70.6% (Q2 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-06-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "v": 70.7
+    "v": 70.4
    },
    "estimate": false
   },
@@ -556,12 +556,12 @@
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/3-month-bill-yield",
    "value": "3.18%",
-   "period": "Nov 2, 2026",
-   "released": "Detected Nov 2, 2026",
-   "previous": "3.20% (Oct 30, 2026)",
+   "period": "Nov 3, 2026",
+   "released": "Detected Nov 3, 2026",
+   "previous": "3.18% (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-02",
+   "latest_date": "2026-11-03",
    "raw": {
     "v": 3.18
    },
@@ -573,15 +573,15 @@
    "name": "2-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
-   "value": "4.00%",
-   "period": "Nov 2, 2026",
-   "released": "Detected Nov 2, 2026",
-   "previous": "3.75% (Oct 30, 2026)",
+   "value": "3.89%",
+   "period": "Nov 3, 2026",
+   "released": "Detected Nov 3, 2026",
+   "previous": "4.00% (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-02",
+   "latest_date": "2026-11-03",
    "raw": {
-    "v": 4
+    "v": 3.893
    },
    "estimate": false
   },
@@ -591,7 +591,7 @@
    "name": "10-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
-   "value": "4.81%",
+   "value": "4.75%",
    "period": "Nov 3, 2026",
    "released": "Detected Nov 2, 2026",
    "previous": "4.83% (Nov 2, 2026)",
@@ -599,7 +599,7 @@
    "manual": false,
    "latest_date": "2026-11-03",
    "raw": {
-    "v": 4.808
+    "v": 4.752
    },
    "estimate": false
   },
@@ -663,7 +663,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
    "value": "$123.10 a barrel",
    "period": "Oct 27, 2026",
-   "released": "Oct 29, 2026",
+   "released": "Oct 28, 2026",
    "previous": "$128.12 (Oct 26, 2026)",
    "tag": "official",
    "manual": false,
@@ -681,7 +681,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
    "value": "$103.37 a barrel",
    "period": "Oct 27, 2026",
-   "released": "Oct 29, 2026",
+   "released": "Oct 28, 2026",
    "previous": "$105.25 (Oct 26, 2026)",
    "tag": "official",
    "manual": false,
@@ -711,12 +711,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 2, 2026",
-   "released": "Nov 2, 2026",
-   "previous": "4.00% (Nov 1, 2026)",
+   "period": "Nov 3, 2026",
+   "released": "Nov 3, 2026",
+   "previous": "4.00% (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-02",
+   "latest_date": "2026-11-03",
    "raw": {
     "v": 4
    },
@@ -855,16 +855,16 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "The 2-year government bond yield rose from 3.75% to 4.00%, and the RBNZ registered Revolut as a new bank.",
+   "headline": "The unemployment rate rose from 5.6% to 5.7% in Q3, and the participation rate moved to 70.4%.",
    "items": [
-    "<strong>2-year government bond yield</strong> rose from 3.75% to 4.00% (Nov 2). Higher wholesale yields mean borrowing costs are creeping up even while the central bank pauses.",
-    "<strong>Revolut Bank New Zealand Limited</strong> was officially registered as a bank in New Zealand by the RBNZ on November 2."
+    "<strong>Unemployment rate</strong> rose from 5.6% to 5.7% (Q3 2026, detected Nov 3). Higher unemployment provides further evidence of spare capacity in the labor market.",
+    "<strong>Participation rate</strong> eased from 70.6% (previous period) to 70.4% in Q3 2026 (detected Nov 3)."
    ]
   },
   "verdict": {
    "most_likely": "hold",
    "headline": "HOLD",
-   "sub": "<strong>Keep the interest rate where it is, at 2.75%.</strong> Following the October rate hold, attention shifts to upcoming employment and inflation data ahead of the December 9 Monetary Policy Statement.",
+   "sub": "<strong>Keep the interest rate where it is, at 2.75%.</strong> Following the October rate hold, attention turns to upcoming Q3 labour market statistics and inflation reports ahead of the December 9 Monetary Policy Statement.",
    "probabilities": {
     "hold": 70,
     "raise": 25,
@@ -876,7 +876,7 @@
     "cut": "Cut (down)"
    },
    "confidence": "Medium",
-   "confidence_note": "“Medium” reflects the RBNZ's confirmed hold in October, while noting that persistence in oil prices and inflation could prompt further action in December.",
+   "confidence_note": "“Medium” reflects the RBNZ's confirmed hold in October, while noting that persistence in oil prices and labor market data could prompt further action in December.",
    "short_version": "The RBNZ held the OCR at 2.75% on October 27, 2026. With Q3 inflation having cooled to 3.7% and GDP growth remaining sluggish at 0.2%, the central bank opted for a pause while monitoring persistent global oil pressures and domestic costs.",
    "card_why": "RBNZ held the OCR at 2.75%, supported by cooler Q3 inflation of 3.7% and sluggish economic growth.",
    "last_move": "Held at 2.75% on Oct 27, 2026 (following rises in July and September)"
@@ -896,7 +896,7 @@
    },
    {
     "title": "Reasons the RBNZ held in October",
-    "html": "<ul><li><strong>Inflation cooled more than expected.</strong> Q3 CPI came in at 3.7%, below the RBNZ's 3.9% forecast.</li><li><strong>The economy is weak.</strong> GDP grew only <strong>0.2%</strong> in the June quarter and household spending was flat (<a href=\"https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/\" target=\"_blank\" rel=\"noopener noreferrer\">Stats NZ</a>). Unemployment is <strong>5.6%</strong>, and the RBNZ expects it to stay above 5% until 2028.</li><li><strong>Bond markets already pressed the brake.</strong> The 10-year government bond rate is 4.81%. Fixed mortgage rates follow these wholesale rates.</li><li><strong>December brings full forecasts.</strong> October was a shorter Review without full new forecasts.</li><li><strong>“May”, not “will”.</strong> September’s wording (“may need to increase further”) was softer than July’s (“further OCR increases appear likely”).</li></ul>"
+    "html": "<ul><li><strong>Inflation cooled more than expected.</strong> Q3 CPI came in at 3.7%, below the RBNZ's 3.9% forecast.</li><li><strong>The economy is weak.</strong> GDP grew only <strong>0.2%</strong> in the June quarter and household spending was flat (<a href=\"https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/\" target=\"_blank\" rel=\"noopener noreferrer\">Stats NZ</a>). Unemployment is <strong>5.7%</strong>, and the RBNZ expects it to stay above 5% until 2028.</li><li><strong>Bond markets already pressed the brake.</strong> The 10-year government bond rate is 4.75%. Fixed mortgage rates follow these wholesale rates.</li><li><strong>December brings full forecasts.</strong> October was a shorter Review without full new forecasts.</li><li><strong>“May”, not “will”.</strong> September’s wording (“may need to increase further”) was softer than July’s (“further OCR increases appear likely”).</li></ul>"
    },
    {
     "title": "Reasons the RBNZ might still raise in future",
@@ -915,12 +915,12 @@
      "right_title": "Pulls toward Hold now",
      "right": [
       "Q3 inflation cooled to 3.7% (below 3.9% forecast)",
-      "GDP growth sluggish (+0.2%) and unemployment 5.6%",
+      "GDP growth sluggish (+0.2%) and unemployment 5.7%",
       "Bond rates near 5% doing tightening work",
       "October review resulted in a confirmed hold at 2.75%"
      ]
     },
-    "html": "Following the October decision to hold at 2.75%, the central bank has breathing room. While inflation at 3.7% remains above target and oil prices are elevated, fragile growth and 5.6% unemployment justified pausing. That is why we see about <strong>70% Hold</strong>, <strong>25% Raise</strong>, and <strong>5% Cut</strong> for upcoming decisions."
+    "html": "Following the October decision to hold at 2.75%, the central bank has breathing room. While inflation at 3.7% remains above target and oil prices are elevated, fragile growth and 5.7% unemployment justified pausing. That is why we see about <strong>70% Hold</strong>, <strong>25% Raise</strong>, and <strong>5% Cut</strong> for upcoming decisions."
    },
    {
     "title": "The one thing to watch: labour market statistics",
@@ -1121,7 +1121,7 @@
     "date_label": "October 27, 2026",
     "title": "RBNZ holds OCR at 2.75%",
     "kind": "now",
-    "what": "The RBNZ held the OCR at 2.75% in its October Monetary Policy Review. The 90-day bank bill rate is 3.18%, the 2-year bond yield 4.00%, and the 10-year 4.81%.",
+    "what": "The RBNZ held the OCR at 2.75% in its October Monetary Policy Review. The 90-day bank bill rate is 3.18%, the 2-year bond yield 3.89%, and the 10-year 4.75%.",
     "sources": [
      {
       "label": "OCR decision",
@@ -1140,8 +1140,8 @@
     "meaning": "the RBNZ keeps its foot where it is for now, reacting to cooler Q3 inflation (3.7%) while acknowledging that further rises remain possible down the track.",
     "for": [
      "<strong>Inflation is cooling.</strong> Q3 CPI fell to 3.7%, below the RBNZ's 3.9% forecast.",
-     "<strong>Weak growth and high unemployment.</strong> GDP grew only 0.2% and unemployment is 5.6%.",
-     "<strong>Bond markets did some of the work.</strong> The 10-year rate is 4.81%.",
+     "<strong>Weak growth and high unemployment.</strong> GDP grew only 0.2% and unemployment is 5.7%.",
+     "<strong>Bond markets did some of the work.</strong> The 10-year rate is 4.75%.",
      "<strong>December is a better moment</strong> for full new forecasts and labour market updates.",
      "<strong>Softer wording.</strong> September’s “may need to increase further” leaves room to pause."
     ],
@@ -1164,7 +1164,7 @@
     ],
     "against": [
      "<strong>Q3 inflation came in lower than expected (3.7% vs 3.9%).</strong>",
-     "<strong>Fragile economic activity.</strong> GDP growth is weak and unemployment is 5.6%."
+     "<strong>Fragile economic activity.</strong> GDP growth is weak and unemployment is 5.7%."
     ],
     "everyday": "floating mortgage rates would rise by roughly a quarter point.",
     "prob": 25
@@ -1241,9 +1241,9 @@
    {
     "area": "Jobs",
     "grade": "amber",
-    "one": "Unemployment is high at 5.6%, but hiring is slowly picking up.",
+    "one": "Unemployment is high at 5.7%, but hiring is slowly picking up.",
     "look": "The quarterly unemployment rate, monthly filled jobs, job ads, and wage growth.",
-    "why": "Unemployment rose to 5.6%, but monthly filled jobs and job ads show modest recovery. Not bad enough to be red, not healthy enough to be green.",
+    "why": "Unemployment rose to 5.7%, but monthly filled jobs and job ads show modest recovery. Not bad enough to be red, not healthy enough to be green.",
     "change": "Unemployment rising toward 6% → red. Unemployment falling → green.",
     "matters": "This is a key reason the RBNZ paused rate hikes in October.",
     "change_label": "What would change it"
@@ -1263,7 +1263,7 @@
     "grade": "amber",
     "one": "Borrowing costs have jumped, and the Kiwi dollar is weak.",
     "look": "Wholesale interest rates and the NZ dollar.",
-    "why": "The 10-year government bond rate is 4.81%. The NZ dollar sits at US$0.5621, and the trade-weighted index is 63.94.",
+    "why": "The 10-year government bond rate is 4.75%. The NZ dollar sits at US$0.5621, and the trade-weighted index is 63.94.",
     "change": "A calmer currency and lower long rates → green.",
     "matters": "Higher market rates cool borrowing, supporting the October hold.",
     "change_label": "What would change it"
@@ -1328,7 +1328,7 @@
     "now_label": "Highest in years",
     "now_tone": "bad",
     "what": "share of people looking for work who do not have a job.",
-    "why": "at 5.6%, spare capacity supports the case for a rate pause."
+    "why": "at 5.7% in Q3, spare capacity supports the case for a rate pause."
    },
    "employment_people_in_work": {
     "now_label": "Growing slowly",
@@ -1346,7 +1346,7 @@
     "now_label": "High",
     "now_tone": "info",
     "what": "share of adults working or looking for work.",
-    "why": "at 70.7%, plenty of workers are available."
+    "why": "at 70.4% in Q3, plenty of workers are available."
    },
    "labour_cost_index_salary_and_wage_rate": {
     "now_label": "Modest",
@@ -1430,13 +1430,13 @@
     "now_label": "Above OCR",
     "now_tone": "bad",
     "what": "government two-year borrowing cost.",
-    "why": "at 4.00%."
+    "why": "at 3.89%."
    },
    "10_year_government_bond_yield": {
     "now_label": "Near 5%",
     "now_tone": "bad",
     "what": "government ten-year borrowing cost.",
-    "why": "at 4.81%."
+    "why": "at 4.75%."
    },
    "market_odds_of_an_october_rise": {
     "now_label": "Balanced",
@@ -1605,7 +1605,7 @@
     ],
     "w": [
      "What it said: “The Reserve Bank of New Zealand – Te Pūtea Matua (RBNZ) and the Financial Markets Authority – Te Mana Tātai Hokohoko (FMA) have today outlined their supervisory expectations on cyber risks associated with frontier Artificial Intelligence (AI).”",
-     "Why it matters: shows regulators actively guiding financial institutions on emerging technology risks."
+     "Why it matters: shows regulators guiding financial institutions on emerging technology risks."
     ]
    },
    {
@@ -1646,7 +1646,7 @@
   "gaps": [
    "<strong>Full Stats NZ releases.</strong> For the Q3 CPI and other releases we could read only headline summaries; further details come from RBNZ and Treasury summaries. <em>Why it matters:</em> small details could differ from full official tables.",
    "<strong>Individual core inflation measures and household inflation expectations</strong> were not collected; we have only the RBNZ’s average and description.",
-   "<strong>How we gathered data:</strong> data were gathered via web search and direct page reads on November 2, 2026."
+   "<strong>How we gathered data:</strong> data were gathered via web search and direct page reads on November 3, 2026."
   ],
   "group_intros": {
    "prices": "These numbers tell us how fast things are getting more expensive in New Zealand. The RBNZ’s job is to keep yearly inflation between 1% and 3%, aiming for the 2% midpoint over the medium term. New Zealand measures consumer prices quarterly.",
@@ -1770,11 +1770,11 @@
     "CPI, Q3"
    ],
    "jobless": [
-    "5.6%",
-    "Q2"
+    "5.7%",
+    "Q3"
    ],
    "10-yr": [
-    "4.81%",
+    "4.75%",
     "Nov 3"
    ]
   },
@@ -1878,6 +1878,60 @@
   "The Reserve Bank of New Zealand – Te Pūtea Matua has today announced that it has registered Revolut Bank New Zealand Limited (Revolut NZ) to provide banking services in New Zealand."
  ],
  "changelog": [
+  {
+   "date": "2026-11-03",
+   "date_label": "Nov 3, 2026",
+   "since": "2026-11-02",
+   "since_label": "Nov 2, 2026",
+   "summary": {
+    "headline": "The unemployment rate rose from 5.6% to 5.7% in Q3, and the participation rate moved to 70.4%.",
+    "items": [
+     "<strong>Unemployment rate</strong> rose from 5.6% to 5.7% (Q3 2026, detected Nov 3). Higher unemployment provides further evidence of spare capacity in the labor market.",
+     "<strong>Participation rate</strong> eased from 70.6% (previous period) to 70.4% in Q3 2026 (detected Nov 3)."
+    ]
+   },
+   "data": [
+    {
+     "id": "unemployment_rate_household_labour_for",
+     "name": "Unemployment rate (Household Labour Force Survey)",
+     "from": "5.6%",
+     "from_period": "Q2 2026",
+     "to": "5.7%",
+     "to_period": "Q3 2026"
+    },
+    {
+     "id": "participation_rate",
+     "name": "Participation rate",
+     "from": "70.7%",
+     "from_period": "Q2 2026",
+     "to": "70.4%",
+     "to_period": "Q3 2026"
+    }
+   ],
+   "market": [
+    {
+     "id": "2_year_government_bond_yield",
+     "name": "2-year government bond yield",
+     "from": "4.00%",
+     "from_period": "Nov 2, 2026",
+     "to": "3.89%",
+     "to_period": "Nov 3, 2026",
+     "move": "−0.11 pts"
+    },
+    {
+     "id": "10_year_government_bond_yield",
+     "name": "10-year government bond yield",
+     "from": "4.81%",
+     "from_period": "Nov 3, 2026",
+     "to": "4.75%",
+     "to_period": "Nov 3, 2026",
+     "move": "−0.06 pts"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-02",
    "date_label": "Nov 2, 2026",

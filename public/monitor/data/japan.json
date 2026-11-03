@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-11-02",
- "asof_label": "Nov 2, 2026",
- "generated_at": "2026-11-03T01:01:41.183Z",
- "data_updated_at": "2026-11-03T01:01:41.183Z",
+ "asof_date": "2026-11-03",
+ "asof_label": "Nov 3, 2026",
+ "generated_at": "2026-11-03T23:26:42.460Z",
+ "data_updated_at": "2026-11-03T23:26:42.460Z",
  "narrative_updated_at": "2026-11-03T01:01:41.183Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 46
+  "days_to_decision": 45
  },
  "kpis": [
   {
@@ -844,18 +844,6 @@
  },
  "releases": [
   {
-   "id": "outlook_report",
-   "name": "Outlook Report, full text",
-   "publisher": "BoJ",
-   "date": "2026-11-02",
-   "date_label": "Mon Nov 2",
-   "time": "2:00 p.m. JST",
-   "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
-   "what": "The detailed explanation behind the new forecasts.",
-   "weekly": false,
-   "timing": "before"
-  },
-  {
    "id": "minutes_of_the_september_meeti",
    "name": "Minutes of the September meeting",
    "publisher": "BoJ",
@@ -1002,11 +990,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "The BoJ published the full text of its October Outlook Report, and the 10-year government bond rate edged down slightly from 2.88% to 2.82%.",
-   "items": [
-    "<strong>10-year government bond rate</strong> moved from 2.88% (Oct 29) to 2.82% (Oct 30), reflecting slight adjustments in long-term borrowing costs.",
-    "<strong>Outlook Report</strong> (full text) was published on November 2, confirming the central bank's updated economic and price projections."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2370,6 +2355,6 @@
    "automatic": 27,
    "manual": 13
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }
