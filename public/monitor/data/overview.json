@@ -1,20 +1,61 @@
 {
- "generated_at": "2026-11-03T23:32:18.759Z",
- "asof_label": "Nov 3, 2026",
+ "generated_at": "2026-11-04T23:50:20.693Z",
+ "asof_label": "Nov 4, 2026",
  "headline": "Hold at 8 of 8",
- "paragraph": "Quant Flow Capital reviews the current policy stance across eight major central banks worldwide. At present, all eight institutions are expected to hold their interest rates steady at their upcoming meetings. Among them, the United Kingdom stands out because inflation figures have kept the prospect of a rate rise on a knife-edge.",
+ "paragraph": "Quant Flow Capital tracks policy decisions across eight global central banks as they navigate current economic conditions. At present, all eight institutions are expected to hold their interest rates steady at their upcoming meetings. The Bank of England stands out with the lowest hold probability in the group, as rising inflation keeps its next move on a knife-edge.",
  "window": [
-  "2026-11-03",
+  "2026-11-05",
   "2026-12-18"
  ],
  "countries": [
+  {
+   "code": "uk",
+   "short": "UK",
+   "country": "United Kingdom",
+   "bank": "Bank of England",
+   "abbrev": "BoE",
+   "rate": "3.75%",
+   "last_move": "Cut 0.25 pts on Dec 18, 2025; held since (6–3 on Sep 17, 2026)",
+   "why": "CPI inflation jumped to 3.5% in September and services inflation ticked up to 3.7%, keeping a November rate rise on a knife-edge.",
+   "mini": {
+    "prices": [
+     "3.5%",
+     "CPI, Sep"
+    ],
+    "jobless": [
+     "4.7%",
+     "Aug"
+    ],
+    "10-yr": [
+     "5.17%",
+     "Nov 2"
+    ]
+   },
+   "call": "hold",
+   "headline": "HOLD",
+   "probabilities": {
+    "hold": 55,
+    "raise": 40,
+    "cut": 5
+   },
+   "confidence": "Low",
+   "next_end": "2026-11-05",
+   "next_label": "Thu Nov 5",
+   "time_label": "12:00 p.m. (noon) UK time, which is GMT after the clocks go back on October 25. That is 7:00 a.m. Eastern Time.",
+   "stale": false,
+   "asof": "Nov 4, 2026",
+   "coverage": {
+    "automatic": 25,
+    "manual": 14
+   }
+  },
   {
    "code": "australia",
    "short": "AU",
    "country": "Australia",
    "bank": "Reserve Bank of Australia",
    "abbrev": "RBA",
-   "rate": "4.60%",
+   "rate": "4.85%",
    "last_move": "Raised 0.25 pts on Nov 3, 2026 (6–3 vote)",
    "why": "The RBA raised rates to 4.85% on Nov 3; we expect a pause at the December meeting.",
    "mini": {
@@ -39,55 +80,14 @@
     "cut": 5
    },
    "confidence": "Medium",
-   "next_end": "2026-11-03",
-   "next_label": "Tue Nov 3",
-   "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference.",
+   "next_end": "2026-12-08",
+   "next_label": "Tue Dec 8",
+   "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Dec 8, or 10:30 p.m. U.S. Eastern Time on Monday, Dec 7. The Governor then holds a media conference.",
    "stale": false,
-   "asof": "Nov 3, 2026",
+   "asof": "Nov 4, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 13
-   }
-  },
-  {
-   "code": "uk",
-   "short": "UK",
-   "country": "United Kingdom",
-   "bank": "Bank of England",
-   "abbrev": "BoE",
-   "rate": "3.75%",
-   "last_move": "Cut 0.25 pts on Dec 18, 2025; held since (6–3 on Sep 17, 2026)",
-   "why": "CPI inflation jumped to 3.5% in September and services inflation ticked up to 3.7%, keeping a November rate rise on a knife-edge.",
-   "mini": {
-    "prices": [
-     "3.5%",
-     "CPI, Sep"
-    ],
-    "jobless": [
-     "4.7%",
-     "Aug"
-    ],
-    "10-yr": [
-     "5.25%",
-     "Oct 30"
-    ]
-   },
-   "call": "hold",
-   "headline": "HOLD",
-   "probabilities": {
-    "hold": 50,
-    "raise": 47,
-    "cut": 3
-   },
-   "confidence": "Low",
-   "next_end": "2026-11-05",
-   "next_label": "Thu Nov 5",
-   "time_label": "12:00 p.m. (noon) UK time, which is GMT after the clocks go back on October 25. That is 7:00 a.m. Eastern Time.",
-   "stale": false,
-   "asof": "Nov 3, 2026",
-   "coverage": {
-    "automatic": 25,
-    "manual": 14
    }
   },
   {
@@ -109,8 +109,8 @@
      "Sep"
     ],
     "10-yr": [
-     "4.95%",
-     "Nov 3"
+     "4.90%",
+     "Nov 4"
     ]
    },
    "call": "hold",
@@ -125,7 +125,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. ET",
    "stale": false,
-   "asof": "Nov 3, 2026",
+   "asof": "Nov 4, 2026",
    "coverage": {
     "automatic": 33,
     "manual": 2
@@ -150,8 +150,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.74%",
-     "Nov 2"
+     "3.77%",
+     "Nov 3"
     ]
    },
    "call": "hold",
@@ -166,7 +166,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "9:45 a.m. Eastern Time",
    "stale": false,
-   "asof": "Nov 3, 2026",
+   "asof": "Nov 4, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 10
@@ -191,8 +191,8 @@
      "Q3"
     ],
     "10-yr": [
-     "4.75%",
-     "Nov 3"
+     "4.67%",
+     "Nov 4"
     ]
    },
    "call": "hold",
@@ -207,7 +207,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
    "stale": false,
-   "asof": "Nov 3, 2026",
+   "asof": "Nov 4, 2026",
    "coverage": {
     "automatic": 18,
     "manual": 21
@@ -232,8 +232,8 @@
      "Sep"
     ],
     "10-yr": [
-     "0.509%",
-     "Nov 3"
+     "0.525%",
+     "Nov 4"
     ]
    },
    "call": "hold",
@@ -248,7 +248,7 @@
    "next_label": "Thu Dec 10",
    "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Nov 3, 2026",
+   "asof": "Nov 4, 2026",
    "coverage": {
     "automatic": 10,
     "manual": 28
@@ -262,11 +262,11 @@
    "abbrev": "ECB",
    "rate": "2.50%",
    "last_move": "Raised 0.25 (in force Sep 16, 2026)",
-   "why": "Euro-area inflation remains at 3.8%, leaving the door open for further policy steps as the ECB assesses incoming data.",
+   "why": "Euro-area inflation has risen to 4.0%, leaving the door open for further policy steps as the ECB assesses incoming data.",
    "mini": {
     "prices": [
-     "3.8%",
-     "Euro-area HICP, Sep"
+     "4.0%",
+     "Euro-area HICP, Oct"
     ],
     "jobless": [
      "2,994,000 · 6.4%",
@@ -274,7 +274,7 @@
     ],
     "10-yr": [
      "3.38%",
-     "Nov 3"
+     "Nov 4"
     ]
    },
    "call": "hold",
@@ -289,7 +289,7 @@
    "next_label": "Thu Dec 17",
    "time_label": "2:15 p.m. Central European Time",
    "stale": false,
-   "asof": "Nov 3, 2026",
+   "asof": "Nov 4, 2026",
    "coverage": {
     "automatic": 19,
     "manual": 19
@@ -330,7 +330,7 @@
    "next_label": "Fri Dec 18",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
    "stale": false,
-   "asof": "Nov 3, 2026",
+   "asof": "Nov 4, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 13

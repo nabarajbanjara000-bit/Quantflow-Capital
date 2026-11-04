@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-11-03",
- "asof_label": "Nov 3, 2026",
- "generated_at": "2026-11-03T23:29:23.478Z",
- "data_updated_at": "2026-11-03T23:29:23.478Z",
- "narrative_updated_at": "2026-11-03T23:29:23.478Z",
+ "asof_date": "2026-11-04",
+ "asof_label": "Nov 4, 2026",
+ "generated_at": "2026-11-04T23:47:58.540Z",
+ "data_updated_at": "2026-11-04T23:47:58.540Z",
+ "narrative_updated_at": "2026-11-04T23:47:58.540Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -32,7 +32,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 36
+  "days_to_decision": 35
  },
  "kpis": [
   {
@@ -61,9 +61,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "4.75%",
+   "value": "4.67%",
    "note": "",
-   "period": "Nov 3, 2026",
+   "period": "Nov 4, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield"
   }
@@ -555,15 +555,15 @@
    "name": "90-day bank bill rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/3-month-bill-yield",
-   "value": "3.18%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 3, 2026",
-   "previous": "3.18% (Nov 2, 2026)",
+   "value": "3.14%",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "3.18% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 3.18
+    "v": 3.14
    },
    "estimate": false
   },
@@ -573,15 +573,15 @@
    "name": "2-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
-   "value": "3.89%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 3, 2026",
-   "previous": "4.00% (Nov 2, 2026)",
+   "value": "3.81%",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "3.98% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 3.893
+    "v": 3.813
    },
    "estimate": false
   },
@@ -591,15 +591,15 @@
    "name": "10-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
-   "value": "4.75%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 2, 2026",
-   "previous": "4.83% (Nov 2, 2026)",
+   "value": "4.67%",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "4.80% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 4.752
+    "v": 4.673
    },
    "estimate": false
   },
@@ -661,15 +661,15 @@
    "name": "Brent crude oil",
    "source": "U.S. EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "$123.10 a barrel",
-   "period": "Oct 27, 2026",
-   "released": "Oct 28, 2026",
-   "previous": "$128.12 (Oct 26, 2026)",
+   "value": "$107.03 a barrel",
+   "period": "Nov 3, 2026",
+   "released": "Nov 4, 2026",
+   "previous": "$107.39 (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-11-03",
    "raw": {
-    "v": 123.1
+    "v": 107.03
    },
    "estimate": false
   },
@@ -679,15 +679,15 @@
    "name": "WTI crude oil",
    "source": "U.S. EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-   "value": "$103.37 a barrel",
-   "period": "Oct 27, 2026",
-   "released": "Oct 28, 2026",
-   "previous": "$105.25 (Oct 26, 2026)",
+   "value": "$99.64 a barrel",
+   "period": "Nov 3, 2026",
+   "released": "Nov 4, 2026",
+   "previous": "$100.06 (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-11-03",
    "raw": {
-    "v": 103.37
+    "v": 99.64
    },
    "estimate": false
   },
@@ -711,12 +711,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 3, 2026",
-   "released": "Nov 3, 2026",
-   "previous": "4.00% (Nov 2, 2026)",
+   "period": "Nov 4, 2026",
+   "released": "Nov 4, 2026",
+   "previous": "4.00% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
     "v": 4
    },
@@ -729,12 +729,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 2, 2026",
-   "previous": "2.50% (Nov 2, 2026)",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "2.50% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
     "v": 2.5
    },
@@ -855,16 +855,18 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "The unemployment rate rose from 5.6% to 5.7% in Q3, and the participation rate moved to 70.4%.",
+   "headline": "The unemployment rate rose to 5.7% in Q3, and market bond yields edged down slightly.",
    "items": [
-    "<strong>Unemployment rate</strong> rose from 5.6% to 5.7% (Q3 2026, detected Nov 3). Higher unemployment provides further evidence of spare capacity in the labor market.",
-    "<strong>Participation rate</strong> eased from 70.6% (previous period) to 70.4% in Q3 2026 (detected Nov 3)."
+    "<strong>Unemployment rate</strong> rose from 5.6% to 5.7% in Q3 2026 (detected Nov 3), confirming lingering slack in the labor market.",
+    "<strong>Participation rate</strong> eased to 70.4% in Q3 2026 (detected Nov 3) from 70.6% in the previous period.",
+    "<strong>2-year government bond yield</strong> moved from 3.89% to 3.81% (Nov 4), reflecting modest shifts in market borrowing costs.",
+    "<strong>10-year government bond yield</strong> moved from 4.75% to 4.67% (Nov 4)."
    ]
   },
   "verdict": {
    "most_likely": "hold",
    "headline": "HOLD",
-   "sub": "<strong>Keep the interest rate where it is, at 2.75%.</strong> Following the October rate hold, attention turns to upcoming Q3 labour market statistics and inflation reports ahead of the December 9 Monetary Policy Statement.",
+   "sub": "<strong>Keep the interest rate where it is, at 2.75%.</strong> Following the October rate hold and Q3 unemployment rising to 5.7%, attention turns to upcoming labor market statistics and inflation reports ahead of the December 9 Monetary Policy Statement.",
    "probabilities": {
     "hold": 70,
     "raise": 25,
@@ -896,11 +898,11 @@
    },
    {
     "title": "Reasons the RBNZ held in October",
-    "html": "<ul><li><strong>Inflation cooled more than expected.</strong> Q3 CPI came in at 3.7%, below the RBNZ's 3.9% forecast.</li><li><strong>The economy is weak.</strong> GDP grew only <strong>0.2%</strong> in the June quarter and household spending was flat (<a href=\"https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/\" target=\"_blank\" rel=\"noopener noreferrer\">Stats NZ</a>). Unemployment is <strong>5.7%</strong>, and the RBNZ expects it to stay above 5% until 2028.</li><li><strong>Bond markets already pressed the brake.</strong> The 10-year government bond rate is 4.75%. Fixed mortgage rates follow these wholesale rates.</li><li><strong>December brings full forecasts.</strong> October was a shorter Review without full new forecasts.</li><li><strong>“May”, not “will”.</strong> September’s wording (“may need to increase further”) was softer than July’s (“further OCR increases appear likely”).</li></ul>"
+    "html": "<ul><li><strong>Inflation cooled more than expected.</strong> Q3 CPI came in at 3.7%, below the RBNZ's 3.9% forecast.</li><li><strong>The economy is weak.</strong> GDP grew only <strong>0.2%</strong> in the June quarter and household spending was flat (<a href=\"https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/\" target=\"_blank\" rel=\"noopener noreferrer\">Stats NZ</a>). Unemployment is <strong>5.7%</strong>, and the RBNZ expects it to stay above 5% until 2028.</li><li><strong>Bond markets already pressed the brake.</strong> The 10-year government bond rate is 4.67%. Fixed mortgage rates follow these wholesale rates.</li><li><strong>December brings full forecasts.</strong> October was a shorter Review without full new forecasts.</li><li><strong>“May”, not “will”.</strong> September’s wording (“may need to increase further”) was softer than July’s (“further OCR increases appear likely”).</li></ul>"
    },
    {
     "title": "Reasons the RBNZ might still raise in future",
-    "html": "<ul><li><strong>Oil is far above what the RBNZ assumed.</strong> Its September forecasts assumed Dubai oil of about US$85 a barrel for the September quarter. Brent oil was $123.10 a barrel on October 27. Governor Breman noted that persistent high oil prices risk near-term inflation (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/09/rbnz-leaders-visit-dunedin-to-understand-how-the-local-economy-is-evolving\" target=\"_blank\" rel=\"noopener noreferrer\">RBNZ</a>).</li><li><strong>The Kiwi dollar is weaker than assumed.</strong> The RBNZ assumed a trade-weighted index of 66.9, but it stood at <strong>63.94</strong> on October 14. A weaker currency makes imported fuel and goods dearer.</li><li><strong>The Committee’s balance has tilted.</strong> Four of six members saw upside inflation risk in September.</li><li><strong>Other central banks are braking.</strong> The U.S. Fed rate top is 4.00% and the ECB’s deposit rate is 2.50%.</li></ul>"
+    "html": "<ul><li><strong>Oil is far above what the RBNZ assumed.</strong> Its September forecasts assumed Dubai oil of about US$85 a barrel for the September quarter. Brent oil was $107.03 a barrel on November 3. Governor Breman noted that persistent high oil prices risk near-term inflation (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/09/rbnz-leaders-visit-dunedin-to-understand-how-the-local-economy-is-evolving\" target=\"_blank\" rel=\"noopener noreferrer\">RBNZ</a>).</li><li><strong>The Kiwi dollar is weaker than assumed.</strong> The RBNZ assumed a trade-weighted index of 66.9, but it stood at <strong>63.94</strong> on October 14. A weaker currency makes imported fuel and goods dearer.</li><li><strong>The Committee’s balance has tilted.</strong> Four of six members saw upside inflation risk in September.</li><li><strong>Other central banks are braking.</strong> The U.S. Fed rate top is 4.00% and the ECB’s deposit rate is 2.50%.</li></ul>"
    },
    {
     "title": "Weighing both sides",
@@ -908,7 +910,7 @@
      "left_title": "Pulls toward Raise later",
      "left": [
       "Inflation at 3.7% is still above the 1%–3% band",
-      "Oil remains well above the RBNZ’s assumption",
+      "Oil remains above the RBNZ’s assumption",
       "Weaker Kiwi dollar pushes up import costs",
       "4 of 6 members saw upside inflation risk in September"
      ],
@@ -916,7 +918,7 @@
      "right": [
       "Q3 inflation cooled to 3.7% (below 3.9% forecast)",
       "GDP growth sluggish (+0.2%) and unemployment 5.7%",
-      "Bond rates near 5% doing tightening work",
+      "Bond rates doing tightening work",
       "October review resulted in a confirmed hold at 2.75%"
      ]
     },
@@ -1060,28 +1062,6 @@
     "because": "markets began pricing another rise for October."
    },
    {
-    "date_label": "Mid – late September 2026",
-    "title": "A weak economy, and markets expect more",
-    "kind": "down",
-    "what": "GDP grew only <strong>0.2%</strong> in the June quarter, with household spending flat. Treasury said markets priced about a 70% chance of an October rise. On September 29 Treasury’s pre-election update said “An emerging economic recovery has been delayed by higher oil prices.”",
-    "sources": [
-     {
-      "label": "GDP (Stats NZ)",
-      "url": "https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/"
-     },
-     {
-      "label": "Treasury (Sept 18)",
-      "url": "https://www.treasury.govt.nz/sites/default/files/2026-09/feu-18sep26.pdf"
-     },
-     {
-      "label": "Pre-election update",
-      "url": "https://www.treasury.govt.nz/publications/efu/pre-election-economic-and-fiscal-update-2026"
-     }
-    ],
-    "people": "House prices were 0.9% lower than a year earlier in August, and house sales were down 13%. Many people felt poorer.",
-    "because": "the October call hinged on whether new shocks pushed inflation risk up further. They did."
-   },
-   {
     "date_label": "September 22 – October 6, 2026",
     "title": "Oil spikes, the Kiwi dollar slides",
     "kind": "up",
@@ -1121,7 +1101,7 @@
     "date_label": "October 27, 2026",
     "title": "RBNZ holds OCR at 2.75%",
     "kind": "now",
-    "what": "The RBNZ held the OCR at 2.75% in its October Monetary Policy Review. The 90-day bank bill rate is 3.18%, the 2-year bond yield 3.89%, and the 10-year 4.75%.",
+    "what": "The RBNZ held the OCR at 2.75% in its October Monetary Policy Review. The 90-day bank bill rate is 3.14%, the 2-year bond yield 3.81%, and the 10-year 4.67%.",
     "sources": [
      {
       "label": "OCR decision",
@@ -1141,12 +1121,12 @@
     "for": [
      "<strong>Inflation is cooling.</strong> Q3 CPI fell to 3.7%, below the RBNZ's 3.9% forecast.",
      "<strong>Weak growth and high unemployment.</strong> GDP grew only 0.2% and unemployment is 5.7%.",
-     "<strong>Bond markets did some of the work.</strong> The 10-year rate is 4.75%.",
+     "<strong>Bond markets did some of the work.</strong> The 10-year rate is 4.67%.",
      "<strong>December is a better moment</strong> for full new forecasts and labour market updates.",
      "<strong>Softer wording.</strong> September’s “may need to increase further” leaves room to pause."
     ],
     "against": [
-     "<strong>Oil and the currency remain challenging.</strong> Brent is at $123.10 and the trade-weighted index is 63.94.",
+     "<strong>Oil and the currency remain challenging.</strong> Brent is at $107.03 and the trade-weighted index is 63.94.",
      "<strong>Inflation is still above target.</strong> 3.7% is above the 1%–3% band."
     ],
     "everyday": "floating loan and savings rates would stay about where they are for now.",
@@ -1159,7 +1139,7 @@
     "meaning": "the RBNZ presses the brake again to ensure inflation returns decisively to the 2% midpoint.",
     "for": [
      "<strong>Inflation remains above target.</strong> At 3.7%, headline inflation is still above the 1%–3% band.",
-     "<strong>Oil and currency pressures.</strong> Brent oil ($123.10) and a weaker Kiwi dollar (63.94 TWI) continue to push up import costs.",
+     "<strong>Oil and currency pressures.</strong> Brent oil ($107.03) and a weaker Kiwi dollar (63.94 TWI) continue to push up import costs.",
      "<strong>The Committee leans hawkish.</strong> Four of six members saw upside inflation risk in September."
     ],
     "against": [
@@ -1221,7 +1201,7 @@
    },
    "other_title": "Other things that could move our view",
    "other": [
-    "<strong>Oil and the Middle East.</strong> Brent is at $123.10 a barrel. A sustained move back below US$100 would ease inflation fears.",
+    "<strong>Oil and the Middle East.</strong> Brent is at $107.03 a barrel. A sustained move back below US$100 would ease inflation fears.",
     "<strong>The Kiwi dollar.</strong> A further slide below US$0.55 would add to imported inflation.",
     "<strong>Final words from the RBNZ.</strong> Any speech or interview before December is a direct hint.",
     "<strong>Bond markets.</strong> If long rates fall back sharply, the argument for holding strengthens."
@@ -1263,7 +1243,7 @@
     "grade": "amber",
     "one": "Borrowing costs have jumped, and the Kiwi dollar is weak.",
     "look": "Wholesale interest rates and the NZ dollar.",
-    "why": "The 10-year government bond rate is 4.75%. The NZ dollar sits at US$0.5621, and the trade-weighted index is 63.94.",
+    "why": "The 10-year government bond rate is 4.67%. The NZ dollar sits at US$0.5621, and the trade-weighted index is 63.94.",
     "change": "A calmer currency and lower long rates → green.",
     "matters": "Higher market rates cool borrowing, supporting the October hold.",
     "change_label": "What would change it"
@@ -1424,19 +1404,19 @@
     "now_label": "Priced for stability",
     "now_tone": "mixed",
     "what": "three-month bank borrowing rate.",
-    "why": "at 3.18%."
+    "why": "at 3.14%."
    },
    "2_year_government_bond_yield": {
     "now_label": "Above OCR",
     "now_tone": "bad",
     "what": "government two-year borrowing cost.",
-    "why": "at 3.89%."
+    "why": "at 3.81%."
    },
    "10_year_government_bond_yield": {
     "now_label": "Near 5%",
     "now_tone": "bad",
     "what": "government ten-year borrowing cost.",
-    "why": "at 4.75%."
+    "why": "at 4.67%."
    },
    "market_odds_of_an_october_rise": {
     "now_label": "Balanced",
@@ -1466,13 +1446,13 @@
     "now_label": "High",
     "now_tone": "bad",
     "what": "world crude benchmark.",
-    "why": "at $123.10 a barrel."
+    "why": "at $107.03 a barrel."
    },
    "wti_crude_oil": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "US crude benchmark.",
-    "why": "at $103.37 a barrel."
+    "why": "at $99.64 a barrel."
    },
    "rbnz_oil_assumption": {
     "now_label": "Below market",
@@ -1646,7 +1626,7 @@
   "gaps": [
    "<strong>Full Stats NZ releases.</strong> For the Q3 CPI and other releases we could read only headline summaries; further details come from RBNZ and Treasury summaries. <em>Why it matters:</em> small details could differ from full official tables.",
    "<strong>Individual core inflation measures and household inflation expectations</strong> were not collected; we have only the RBNZ’s average and description.",
-   "<strong>How we gathered data:</strong> data were gathered via web search and direct page reads on November 3, 2026."
+   "<strong>How we gathered data:</strong> data were gathered via web search and direct page reads on November 4, 2026."
   ],
   "group_intros": {
    "prices": "These numbers tell us how fast things are getting more expensive in New Zealand. The RBNZ’s job is to keep yearly inflation between 1% and 3%, aiming for the 2% midpoint over the medium term. New Zealand measures consumer prices quarterly.",
@@ -1774,8 +1754,8 @@
     "Q3"
    ],
    "10-yr": [
-    "4.75%",
-    "Nov 3"
+    "4.67%",
+    "Nov 4"
    ]
   },
   "rate_label": "Current OCR",
@@ -1878,6 +1858,63 @@
   "The Reserve Bank of New Zealand – Te Pūtea Matua has today announced that it has registered Revolut Bank New Zealand Limited (Revolut NZ) to provide banking services in New Zealand."
  ],
  "changelog": [
+  {
+   "date": "2026-11-04",
+   "date_label": "Nov 4, 2026",
+   "since": "2026-11-03",
+   "since_label": "Nov 3, 2026",
+   "summary": {
+    "headline": "The unemployment rate rose to 5.7% in Q3, and market bond yields edged down slightly.",
+    "items": [
+     "<strong>Unemployment rate</strong> rose from 5.6% to 5.7% in Q3 2026 (detected Nov 3), confirming lingering slack in the labor market.",
+     "<strong>Participation rate</strong> eased to 70.4% in Q3 2026 (detected Nov 3) from 70.6% in the previous period.",
+     "<strong>2-year government bond yield</strong> moved from 3.89% to 3.81% (Nov 4), reflecting modest shifts in market borrowing costs.",
+     "<strong>10-year government bond yield</strong> moved from 4.75% to 4.67% (Nov 4)."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "2_year_government_bond_yield",
+     "name": "2-year government bond yield",
+     "from": "3.89%",
+     "from_period": "Nov 3, 2026",
+     "to": "3.81%",
+     "to_period": "Nov 4, 2026",
+     "move": "−0.08 pts"
+    },
+    {
+     "id": "10_year_government_bond_yield",
+     "name": "10-year government bond yield",
+     "from": "4.75%",
+     "from_period": "Nov 3, 2026",
+     "to": "4.67%",
+     "to_period": "Nov 4, 2026",
+     "move": "−0.08 pts"
+    },
+    {
+     "id": "brent_crude_oil",
+     "name": "Brent crude oil",
+     "from": "$123.10 a barrel",
+     "from_period": "Oct 27, 2026",
+     "to": "$107.03 a barrel",
+     "to_period": "Nov 3, 2026",
+     "move": "-13.1%"
+    },
+    {
+     "id": "wti_crude_oil",
+     "name": "WTI crude oil",
+     "from": "$103.37 a barrel",
+     "from_period": "Oct 27, 2026",
+     "to": "$99.64 a barrel",
+     "to_period": "Nov 3, 2026",
+     "move": "-3.6%"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-03",
    "date_label": "Nov 3, 2026",

@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-11-03",
- "asof_label": "Nov 3, 2026",
- "generated_at": "2026-11-03T23:26:42.460Z",
- "data_updated_at": "2026-11-03T23:26:42.460Z",
+ "asof_date": "2026-11-04",
+ "asof_label": "Nov 4, 2026",
+ "generated_at": "2026-11-04T23:44:00.239Z",
+ "data_updated_at": "2026-11-04T23:44:00.239Z",
  "narrative_updated_at": "2026-11-03T01:01:41.183Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 45
+  "days_to_decision": 44
  },
  "kpis": [
   {
    "label": "BoJ interest rate",
    "value": "1.25%",
    "note": "",
-   "period": "Oct 29, 2026",
+   "period": "Nov 1, 2026",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf"
   },
@@ -605,12 +605,12 @@
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf",
    "value": "1.25%",
-   "period": "Oct 29, 2026",
-   "released": "Detected Nov 2, 2026",
-   "previous": "1.25% (Oct 28, 2026)",
+   "period": "Nov 1, 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "1.25% (Oct 31, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-29",
+   "latest_date": "2026-11-01",
    "raw": {
     "v": 1.25
    },
@@ -695,15 +695,15 @@
    "name": "10-year rate, monthly average",
    "source": "FRED (OECD)",
    "url": "https://fred.stlouisfed.org/series/IRLTLT01JPM156N",
-   "value": "2.99%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "2.87% (Aug 2026)",
+   "value": "2.97%",
+   "period": "Oct 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "2.99% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 2.9921578947368426
+    "v": 2.9663333333333335
    },
    "estimate": false,
    "note": "Average of daily Ministry of Finance 10Y yields"
@@ -714,15 +714,15 @@
    "name": "Yen per US dollar",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261009.pdf",
-   "value": "¥157.97",
-   "period": "Oct 29, 2026",
-   "released": "Detected Nov 2, 2026",
-   "previous": "¥157.84 (Oct 28, 2026)",
+   "value": "¥157.50",
+   "period": "Oct 30, 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "¥157.97 (Oct 29, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-29",
+   "latest_date": "2026-10-30",
    "raw": {
-    "v": 157.97
+    "v": 157.5
    },
    "estimate": false
   },
@@ -745,15 +745,15 @@
    "name": "Brent crude oil",
    "source": "FRED (EIA)",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "$123.10  a barrel",
-   "period": "Oct 27, 2026",
-   "released": "Oct 28, 2026",
-   "previous": "$128.12 (Oct 26, 2026)",
+   "value": "$107.03  a barrel",
+   "period": "Nov 3, 2026",
+   "released": "Nov 4, 2026",
+   "previous": "$107.39 (Nov 2, 2026)",
    "tag": "secondary",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-11-03",
    "raw": {
-    "v": 123.1
+    "v": 107.03
    },
    "estimate": false,
    "note": "EIA via FRED"
@@ -764,15 +764,15 @@
    "name": "WTI crude oil (US)",
    "source": "FRED (EIA)",
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-   "value": "$103.37  a barrel",
-   "period": "Oct 27, 2026",
-   "released": "Oct 28, 2026",
-   "previous": "$105.25 (Oct 26, 2026)",
+   "value": "$99.64  a barrel",
+   "period": "Nov 3, 2026",
+   "released": "Nov 4, 2026",
+   "previous": "$100.06 (Nov 2, 2026)",
    "tag": "secondary",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-11-03",
    "raw": {
-    "v": 103.37
+    "v": 99.64
    },
    "estimate": false,
    "note": "EIA via FRED"
@@ -2319,38 +2319,7 @@
  "qa": {
   "data_errors": [],
   "ai_errors": [],
-  "sources_read": [
-   {
-    "title": "Outlook for Economic Activity and Prices (October 2026, full text)",
-    "date": "2026-11-02",
-    "url": "http://www.boj.or.jp/en/mopo/outlook/gor2610b.pdf"
-   },
-   {
-    "title": "Sources of Changes in Current Account Balances and Market Operations (Oct.)",
-    "date": "2026-11-02",
-    "url": "http://www.boj.or.jp/en/statistics/boj/fm/juqf/juqf10.xlsx"
-   },
-   {
-    "title": "Quarterly Schedule of Outright Purchases of Japanese Government Bonds (Competitive Auction Method) (October-December 2026) (Schedule Updates)",
-    "date": "2026-10-30",
-    "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr261030c.pdf"
-   },
-   {
-    "title": "Timetable and Schedule of U.S. Dollar Funds-Supplying Operations (November 2026-March 2027)",
-    "date": "2026-10-30",
-    "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr261030b.pdf"
-   },
-   {
-    "title": "Amendment to \"Basic Principles for Disposal of ETFs and J-REITs\"",
-    "date": "2026-10-30",
-    "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr261030a.pdf"
-   },
-   {
-    "title": "Outlook for Economic Activity and Prices (October 2026, The Bank's View)",
-    "date": "2026-10-30",
-    "url": "http://www.boj.or.jp/en/mopo/outlook/gor2610a.pdf"
-   }
-  ],
+  "sources_read": [],
   "coverage": {
    "automatic": 27,
    "manual": 13

@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "switzerland",
- "asof_date": "2026-11-03",
- "asof_label": "Nov 3, 2026",
- "generated_at": "2026-11-03T23:31:25.883Z",
- "data_updated_at": "2026-11-03T23:31:25.883Z",
+ "asof_date": "2026-11-04",
+ "asof_label": "Nov 4, 2026",
+ "generated_at": "2026-11-04T23:49:31.394Z",
+ "data_updated_at": "2026-11-04T23:49:31.394Z",
  "narrative_updated_at": "2026-10-30T22:31:00.195Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
   "calendar_label": "Official SNB time schedule",
   "who": "The Swiss National Bank (“the SNB”), Switzerland’s central bank. Decisions are taken by its <strong>Governing Board</strong>, just three people: Chairman Martin Schlegel, Vice Chairman Antoine Martin and Petra Tschudin. They decide together and publish no vote count.",
-  "days_to_decision": 37
+  "days_to_decision": 36
  },
  "kpis": [
   {
    "label": "SNB policy rate",
    "value": "0.00%",
    "note": "",
-   "period": "Nov 3, 2026",
+   "period": "Nov 4, 2026",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "0.509%",
+   "value": "0.525%",
    "note": "",
-   "period": "Nov 3, 2026",
+   "period": "Nov 4, 2026",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates"
   }
@@ -491,12 +491,12 @@
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924",
    "value": "0.00%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 3, 2026",
-   "previous": "0.00% (Nov 2, 2026)",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "0.00% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
     "v": 0
    },
@@ -526,15 +526,15 @@
    "name": "SARON (overnight rate)",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "-0.05%",
-   "period": "Nov 2, 2026",
-   "released": "Detected Nov 3, 2026",
-   "previous": "-0.06% (Oct 30, 2026)",
+   "value": "-0.04%",
+   "period": "Nov 3, 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "-0.05% (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-02",
+   "latest_date": "2026-11-03",
    "raw": {
-    "v": -0.05
+    "v": -0.04
    },
    "estimate": false
   },
@@ -544,15 +544,15 @@
    "name": "10-year Confederation bond yield",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "0.509%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 3, 2026",
-   "previous": "0.492% (Nov 2, 2026)",
+   "value": "0.525%",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "0.509% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 0.509
+    "v": 0.525
    },
    "estimate": false
   },
@@ -562,15 +562,15 @@
    "name": "2-year Confederation bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/switzerland/2-year-note-yield",
-   "value": "0.22%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 3, 2026",
-   "previous": "0.20% (Nov 2, 2026)",
+   "value": "0.23%",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "0.24% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 0.221
+    "v": 0.227
    },
    "estimate": false
   },
@@ -580,15 +580,15 @@
    "name": "Euro in francs",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "CHF 0.9152",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 3, 2026",
-   "previous": "CHF 0.9208 (Nov 2, 2026)",
+   "value": "CHF 0.9192",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "CHF 0.9152 (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 0.9152
+    "v": 0.9192
    },
    "estimate": false
   },
@@ -598,15 +598,15 @@
    "name": "U.S. dollar in francs",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "CHF 0.8178",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 3, 2026",
-   "previous": "CHF 0.8207 (Nov 2, 2026)",
+   "value": "CHF 0.8164",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "CHF 0.8178 (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 0.8178
+    "v": 0.8164
    },
    "estimate": false
   },
@@ -682,12 +682,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 2, 2026",
-   "previous": "2.50% (Nov 2, 2026)",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "2.50% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
     "v": 2.5
    },
@@ -1685,8 +1685,8 @@
     "Sep"
    ],
    "10-yr": [
-    "0.509%",
-    "Nov 3"
+    "0.525%",
+    "Nov 4"
    ]
   },
   "rate_label": "Current SNB policy rate",

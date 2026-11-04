@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-11-03",
- "asof_label": "Nov 3, 2026",
- "generated_at": "2026-11-03T23:31:15.372Z",
- "data_updated_at": "2026-11-03T23:31:15.372Z",
- "narrative_updated_at": "2026-11-03T23:31:15.371Z",
+ "asof_date": "2026-11-04",
+ "asof_label": "Nov 4, 2026",
+ "generated_at": "2026-11-04T23:49:17.276Z",
+ "data_updated_at": "2026-11-04T23:49:17.276Z",
+ "narrative_updated_at": "2026-11-04T23:49:17.276Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -23,30 +23,30 @@
  },
  "meeting": {
   "next": {
-   "start": "2026-11-02",
-   "end": "2026-11-03",
-   "label": "Monday–Tuesday, November 2–3, 2026, together with a new Statement on Monetary Policy (the RBA’s full forecast, published four times a year)",
-   "decision_label": "Tuesday, Nov 3, 2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference.",
-   "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference."
-  },
-  "after": {
    "start": "2026-12-07",
    "end": "2026-12-08",
    "label": "Monday–Tuesday, December 7–8, 2026",
    "decision_label": "Tuesday, Dec 8, 2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Dec 8, or 10:30 p.m. U.S. Eastern Time on Monday, Dec 7. The Governor then holds a media conference.",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Dec 8, or 10:30 p.m. U.S. Eastern Time on Monday, Dec 7. The Governor then holds a media conference."
   },
+  "after": {
+   "start": "2027-02-08",
+   "end": "2027-02-09",
+   "label": "Monday–Tuesday, February 8–9, 2027, together with a new Statement on Monetary Policy (the RBA’s full forecast, published four times a year)",
+   "decision_label": "Tuesday, Feb 9, 2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Feb 9, or 10:30 p.m. U.S. Eastern Time on Monday, Feb 8. The Governor then holds a media conference.",
+   "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Feb 9, or 10:30 p.m. U.S. Eastern Time on Monday, Feb 8. The Governor then holds a media conference."
+  },
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 0
+  "days_to_decision": 34
  },
  "kpis": [
   {
    "label": "RBA cash rate",
-   "value": "4.60%",
+   "value": "4.85%",
    "note": "",
-   "period": "Nov 3, 2026",
+   "period": "Nov 4, 2026",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
   },
@@ -499,12 +499,12 @@
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/latest-release",
    "value": "6.8%",
-   "period": "Aug 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "7.0% (Jul 2026)",
+   "period": "Sep 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "6.5% (Aug 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
     "v": 6.8
    },
@@ -592,15 +592,15 @@
    "name": "RBA cash rate target",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
-   "value": "4.60%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 3, 2026",
-   "previous": "4.35% (Sep 29, 2026)",
+   "value": "4.85%",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "4.60% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 4.6
+    "v": 4.85
    },
    "estimate": false
   },
@@ -695,15 +695,15 @@
    "name": "Australian dollar",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
-   "value": "US$0.6976",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 3, 2026",
-   "previous": "US$0.7023 (Nov 2, 2026)",
+   "value": "US$0.6972",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 4, 2026",
+   "previous": "US$0.6976 (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 0.6976
+    "v": 0.6972
    },
    "estimate": false,
    "note": "AUD/USD only (the snapshot also quotes the trade-weighted index)"
@@ -727,15 +727,15 @@
    "name": "Oil price (Brent)",
    "source": "U.S. EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "$123.10 a barrel",
-   "period": "Oct 27, 2026",
-   "released": "Oct 28, 2026",
-   "previous": "$128.12 (Oct 26, 2026)",
+   "value": "$107.03 a barrel",
+   "period": "Nov 3, 2026",
+   "released": "Nov 4, 2026",
+   "previous": "$107.39 (Nov 2, 2026)",
    "tag": "secondary",
    "manual": false,
-   "latest_date": "2026-10-27",
+   "latest_date": "2026-11-03",
    "raw": {
-    "v": 123.1
+    "v": 107.03
    },
    "estimate": false
   },
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 3, 2026",
-   "released": "Nov 3, 2026",
-   "previous": "4.00% (Nov 2, 2026)",
+   "period": "Nov 4, 2026",
+   "released": "Nov 4, 2026",
+   "previous": "4.00% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
     "v": 4
    },
@@ -808,7 +808,7 @@
    "weekly": false,
    "time": "11:30 a.m.",
    "url": "https://www.abs.gov.au/release-calendar/future-releases/202611",
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "lending_indicators",
@@ -820,7 +820,7 @@
    "weekly": false,
    "time": "11:30 a.m.",
    "url": "https://www.abs.gov.au/release-calendar/future-releases/202611",
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "minutes_of_the_nov_2_3_meeting",
@@ -832,7 +832,7 @@
    "weekly": false,
    "time": "11:30 a.m.",
    "url": "https://www.rba.gov.au/schedules-events/",
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "wage_price_index",
@@ -844,7 +844,7 @@
    "weekly": false,
    "time": "11:30 a.m.",
    "url": "https://www.abs.gov.au/release-calendar/future-releases/202611",
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "labour_force_2",
@@ -856,7 +856,7 @@
    "weekly": false,
    "time": "11:30 a.m.",
    "url": "https://www.abs.gov.au/release-calendar/future-releases/202611",
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "consumer_price_index_2",
@@ -868,7 +868,7 @@
    "weekly": false,
    "time": "11:30 a.m.",
    "url": "https://www.abs.gov.au/release-calendar/future-releases/202611",
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "household_spending_indicator_2",
@@ -880,7 +880,7 @@
    "weekly": false,
    "time": "11:30 a.m.",
    "url": "https://www.abs.gov.au/release-calendar/future-releases/202611",
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "national_accounts_gdp",
@@ -892,7 +892,7 @@
    "weekly": false,
    "time": "11:30 a.m.",
    "url": "https://www.abs.gov.au/release-calendar/future-releases/202612",
-   "timing": "after"
+   "timing": "before"
   },
   {
    "id": "labour_force_3",
@@ -933,12 +933,11 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "The RBA raised the cash rate by 0.25 percentage points to 4.85% on November 3.",
+   "headline": "The RBA cash rate stands at 4.85% following the November 3 decision, with oil prices easing to $107.03 a barrel.",
    "items": [
-    "<strong>RBA cash rate target</strong> rose from 4.60% to 4.85% (November 3 decision).",
-    "<strong>Voting split:</strong> Six members voted to increase the rate by 25 basis points; three members voted to leave it unchanged at 4.60%.",
-    "<strong>Updated forecasts:</strong> The new Statement on Monetary Policy projects inflation to remain elevated through much of 2027, not reaching the top of the 2–3% target range until late 2027.",
-    "<strong>Verdict update:</strong> With the November rate hike delivered, our focus shifts to the December 7–8 meeting, where we expect the RBA to hold at 4.85%."
+    "<strong>RBA cash rate target</strong> stands at 4.85% following the 25 basis point hike on November 3.",
+    "<strong>Oil price (Brent)</strong> moved from $123.10 to $107.03 a barrel (November 3 update).",
+    "<strong>Household Spending Indicator</strong> rose to 6.8% in September (released November 4)."
    ]
   },
   "verdict": {
@@ -1207,7 +1206,7 @@
     ],
     "against": [
      "<strong>Inflation is elevated.</strong> Headline CPI reached 4.3% in September and forecasts show inflation staying above target through much of 2027.",
-     "<strong>Oil has spiked further.</strong> Brent oil near $123 a barrel adds sustained cost pressures.",
+     "<strong>Oil has spiked further.</strong> Brent oil near $107 a barrel adds sustained cost pressures.",
      "<strong>Upgraded forecasts.</strong> The RBA's November Statement on Monetary Policy highlighted material upside risks to inflation."
     ],
     "everyday": "variable mortgage repayments and savings rates would stay roughly where they are, with attention shifting to incoming economic reports.",
@@ -1220,7 +1219,7 @@
     "meaning": "the RBA presses the brake further in December if inflation indicators or oil prices surprise on the upside again.",
     "for": [
      "<strong>Persistent inflation pressures.</strong> Inflation is not expected to reach the top of the 2–3% target range until late 2027.",
-     "<strong>Energy shock.</strong> Automotive fuel prices surged 23.6% and Brent oil is trading near $123 a barrel.",
+     "<strong>Energy shock.</strong> Automotive fuel prices surged 23.6% and Brent oil is trading near $107 a barrel.",
      "<strong>Capacity pressures.</strong> The RBA noted that domestic capacity pressures are a little tighter than earlier thought."
     ],
     "against": [
@@ -1274,7 +1273,7 @@
    },
    "other_title": "Other factors influencing our view",
    "other": [
-    "<strong>Oil and energy markets.</strong> Brent oil at $123.10 a barrel keeps pressure on transport and production costs.",
+    "<strong>Oil and energy markets.</strong> Brent oil at $107.03 a barrel keeps pressure on transport and production costs.",
     "<strong>Global central banks.</strong> The U.S. Federal Reserve rate at 4.00% and ECB deposit rate at 2.50% show global monetary policy remains restrictive.",
     "<strong>RBA board split.</strong> The 6–3 vote on November 3 shows differing views on how much further tightening may be needed."
    ]
@@ -1314,7 +1313,7 @@
     "area": "Money markets",
     "grade": "amber",
     "one": "Borrowing costs remain elevated following the November rate hike and firm bond yields.",
-    "look": "10-year government bond rate (5.21%), 2-year government bond rate (4.95%), and the Australian dollar (US$0.6976).",
+    "look": "10-year government bond rate (5.21%), 2-year government bond rate (4.95%), and the Australian dollar (US$0.6972).",
     "why": "Financial conditions are restrictive, helping to cool demand even without immediate additional central bank action.",
     "change": "A disorderly surge in yields or sharp currency depreciation moving conditions to red.",
     "matters": "Higher market rates reinforce monetary policy tightening.",
@@ -1440,7 +1439,7 @@
     "now_label": "Annual rise",
     "now_tone": "mixed",
     "what": "monthly measure of household spending from bank-card data.",
-    "why": "stood at 6.8% in August, showing ongoing spending activity."
+    "why": "stood at 6.8% in September, showing ongoing spending activity."
    },
    "household_saving_ratio": {
     "now_label": "Edging up",
@@ -1512,7 +1511,7 @@
     "now_label": "Steady",
     "now_tone": "mixed",
     "what": "exchange rate of the Australian dollar against the U.S. dollar.",
-    "why": "stands at US$0.6976 on November 3, helping moderate import price pressures."
+    "why": "stands at US$0.6972 on November 4, helping moderate import price pressures."
    },
    "mortgage_payments_vs_income": {
     "now_label": "Squeezing",
@@ -1524,7 +1523,7 @@
     "now_label": "Very high",
     "now_tone": "bad",
     "what": "world benchmark price of crude oil.",
-    "why": "stands at $123.10 a barrel on October 27, significantly above RBA forecast assumptions."
+    "why": "stands at $107.03 a barrel on November 3, significantly above RBA forecast assumptions."
    },
    "rba_oil_assumption_august": {
     "now_label": "Far too low",
@@ -1769,7 +1768,7 @@
   "country": "Australia",
   "bank": "Reserve Bank of Australia",
   "abbrev": "RBA",
-  "rate": "4.60%",
+  "rate": "4.85%",
   "last_move": "Raised 0.25 pts on Nov 3, 2026 (6–3 vote)",
   "card_why": "The RBA raised rates to 4.85% on Nov 3; we expect a pause at the December meeting.",
   "mini": {
@@ -1787,7 +1786,7 @@
    ]
   },
   "rate_label": "Current RBA cash rate",
-  "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Nov 3, or 10:30 p.m. U.S. Eastern Time on Monday, Nov 2. The Governor then holds a media conference."
+  "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Dec 8, or 10:30 p.m. U.S. Eastern Time on Monday, Dec 7. The Governor then holds a media conference."
  },
  "live_series": [
   {
@@ -1904,6 +1903,44 @@
   "At its meeting today, the Board decided to increase the cash rate target by 25 basis points to 4.85 per cent. Inflation remains elevated and recent data indicate that it is broadly based."
  ],
  "changelog": [
+  {
+   "date": "2026-11-04",
+   "date_label": "Nov 4, 2026",
+   "since": "2026-11-03",
+   "since_label": "Nov 3, 2026",
+   "summary": {
+    "headline": "The RBA cash rate stands at 4.85% following the November 3 decision, with oil prices easing to $107.03 a barrel.",
+    "items": [
+     "<strong>RBA cash rate target</strong> stands at 4.85% following the 25 basis point hike on November 3.",
+     "<strong>Oil price (Brent)</strong> moved from $123.10 to $107.03 a barrel (November 3 update).",
+     "<strong>Household Spending Indicator</strong> rose to 6.8% in September (released November 4)."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "rba_cash_rate_target",
+     "name": "RBA cash rate target",
+     "from": "4.60%",
+     "from_period": "Nov 3, 2026",
+     "to": "4.85%",
+     "to_period": "Nov 4, 2026",
+     "move": "+0.25 pts"
+    },
+    {
+     "id": "oil_price_brent",
+     "name": "Oil price (Brent)",
+     "from": "$123.10 a barrel",
+     "from_period": "Oct 27, 2026",
+     "to": "$107.03 a barrel",
+     "to_period": "Nov 3, 2026",
+     "move": "-13.1%"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-03",
    "date_label": "Nov 3, 2026",
