@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "us",
- "asof_date": "2026-11-04",
- "asof_label": "Nov 4, 2026",
- "generated_at": "2026-11-04T23:43:20.109Z",
- "data_updated_at": "2026-11-04T23:43:20.109Z",
- "narrative_updated_at": "2026-11-04T23:43:20.108Z",
+ "asof_date": "2026-11-05",
+ "asof_label": "Nov 5, 2026",
+ "generated_at": "2026-11-05T23:40:23.212Z",
+ "data_updated_at": "2026-11-05T23:40:23.212Z",
+ "narrative_updated_at": "2026-11-05T23:40:23.212Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
   "calendar_label": "Official Fed meeting calendar",
   "who": "The Federal Reserve (“the Fed”), America's central bank. Its 12-person voting group is called the FOMC (Federal Open Market Committee).",
-  "days_to_decision": 35
+  "days_to_decision": 34
  },
  "kpis": [
   {
    "label": "Fed interest rate",
    "value": "3.75% – 4.00%",
    "note": "",
-   "period": "In effect Nov 4, 2026",
+   "period": "In effect Nov 5, 2026",
    "source": "Federal Reserve",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "4.90%",
+   "value": "4.84%",
    "note": "",
-   "period": "Nov 4, 2026",
+   "period": "Nov 5, 2026",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
   }
@@ -216,7 +216,7 @@
    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
    "value": "+20.4% vs a year ago",
    "period": "Sep 2026 (+5.2% in the month)",
-   "released": "Oct 22, 2026",
+   "released": "Oct 26, 2026",
    "previous": "+16.0% a year; +2.1% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -235,7 +235,7 @@
    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
    "value": "+3.2% vs a year ago",
    "period": "Sep 2026 (+0.4% in the month)",
-   "released": "Oct 23, 2026",
+   "released": "Oct 28, 2026",
    "previous": "+3.0% a year; +0.3% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -292,7 +292,7 @@
    "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
    "value": "+6.3% vs a year ago",
    "period": "Sep 2026 (+1.3% in the month)",
-   "released": "Oct 22, 2026",
+   "released": "Nov 5, 2026",
    "previous": "+5.6% a year; +0.5% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -309,15 +309,15 @@
    "name": "10-year inflation expectation (from bond markets)",
    "source": "FRED (St. Louis Fed)",
    "url": "https://fred.stlouisfed.org/series/T10YIE",
-   "value": "2.26%",
-   "period": "Nov 4, 2026",
-   "released": "Nov 4, 2026",
-   "previous": "2.30% (Nov 3, 2026)",
+   "value": "2.24%",
+   "period": "Nov 5, 2026",
+   "released": "Nov 5, 2026",
+   "previous": "2.26% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 2.26
+    "v": 2.24
    },
    "estimate": false
   },
@@ -348,7 +348,7 @@
    "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
    "value": "4.2%",
    "period": "Sep 2026",
-   "released": "Oct 21, 2026",
+   "released": "Oct 22, 2026",
    "previous": "4.1% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -366,7 +366,7 @@
    "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
    "value": "+3.0% vs a year ago",
    "period": "Sep 2026 (+0.1% in the month)",
-   "released": "Oct 23, 2026",
+   "released": "Nov 5, 2026",
    "previous": "+3.1% a year; +0.3% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -385,7 +385,7 @@
    "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
    "value": "61.8%",
    "period": "Sep 2026",
-   "released": "Oct 24, 2026",
+   "released": "Nov 5, 2026",
    "previous": "61.6% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -401,15 +401,15 @@
    "name": "Weekly jobless claims (new)",
    "source": "U.S. Department of Labor",
    "url": "https://www.dol.gov/ui/data.pdf",
-   "value": "194,000",
-   "period": "Week ending Oct 24, 2026",
-   "released": "Oct 29, 2026",
-   "previous": "195,000 (Week ending Oct 17, 2026)",
+   "value": "189,000",
+   "period": "Week ending Oct 31, 2026",
+   "released": "Nov 5, 2026",
+   "previous": "195,000 (Week ending Oct 24, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-24",
+   "latest_date": "2026-10-31",
    "raw": {
-    "v": 194000
+    "v": 189000
    },
    "estimate": false
   },
@@ -419,15 +419,15 @@
    "name": "Continuing jobless claims",
    "source": "U.S. Department of Labor",
    "url": "https://www.dol.gov/ui/data.pdf",
-   "value": "1,701,000",
-   "period": "Week ending Oct 17, 2026",
-   "released": "Oct 29, 2026",
-   "previous": "1,722,000 (Week ending Oct 10, 2026)",
+   "value": "1,718,000",
+   "period": "Week ending Oct 24, 2026",
+   "released": "Nov 5, 2026",
+   "previous": "1,695,000 (Week ending Oct 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-17",
+   "latest_date": "2026-10-24",
    "raw": {
-    "v": 1701000
+    "v": 1718000
    },
    "estimate": false
   },
@@ -457,7 +457,7 @@
    "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
    "value": "2.1%",
    "period": "Sep 2026",
-   "released": "Nov 4, 2026",
+   "released": "Nov 5, 2026",
    "previous": "1.9% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -475,7 +475,7 @@
    "url": "https://www.bea.gov/data/gdp/gross-domestic-product",
    "value": "3.4%",
    "period": "Q3 2026",
-   "released": "Oct 29, 2026",
+   "released": "Oct 30, 2026",
    "previous": "2.2% (Q2 2026)",
    "tag": "official",
    "manual": false,
@@ -493,7 +493,7 @@
    "url": "https://www.atlantafed.org/cqer/research/gdpnow",
    "value": "3.4% (estimate)",
    "period": "Q4 2026",
-   "released": "Nov 4, 2026",
+   "released": "Nov 5, 2026",
    "previous": "3.3% (Q3 2026)",
    "tag": "official",
    "manual": false,
@@ -530,7 +530,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "+0.0% in the month",
    "period": "Sep 2026",
-   "released": "Nov 2, 2026",
+   "released": "Nov 5, 2026",
    "previous": "+0.5% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -548,7 +548,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "−0.3% in the month",
    "period": "Sep 2026",
-   "released": "Nov 2, 2026",
+   "released": "Nov 4, 2026",
    "previous": "+0.0% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -566,7 +566,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "3.8%",
    "period": "Sep 2026",
-   "released": "Oct 29, 2026",
+   "released": "Nov 4, 2026",
    "previous": "4.0% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -583,12 +583,12 @@
    "source": "Federal Reserve",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
    "value": "3.75% – 4.00%",
-   "period": "In effect Nov 4, 2026",
+   "period": "In effect Nov 5, 2026",
    "released": "Changed Sep 17, 2026",
    "previous": "3.50% – 3.75% (before Sep 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
     "lo": 3.75,
     "hi": 4,
@@ -605,12 +605,12 @@
    "source": "Federal Reserve Bank of New York",
    "url": "https://www.newyorkfed.org/markets/reference-rates/effr",
    "value": "3.88%",
-   "period": "Nov 3, 2026",
-   "released": "Nov 4, 2026",
-   "previous": "3.88% (Nov 2, 2026)",
+   "period": "Nov 4, 2026",
+   "released": "Nov 5, 2026",
+   "previous": "3.88% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
     "v": 3.88
    },
@@ -622,15 +622,15 @@
    "name": "3-month Treasury bill",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "4.21%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "4.21% (Nov 3, 2026)",
+   "value": "4.17%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "4.21% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 4.21
+    "v": 4.17
    },
    "estimate": false
   },
@@ -640,15 +640,15 @@
    "name": "2-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "4.58%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "4.61% (Nov 3, 2026)",
+   "value": "4.46%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "4.58% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 4.58
+    "v": 4.46
    },
    "estimate": false
   },
@@ -658,15 +658,15 @@
    "name": "10-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "4.90%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "4.95% (Nov 3, 2026)",
+   "value": "4.84%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "4.90% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 4.9
+    "v": 4.84
    },
    "estimate": false
   },
@@ -676,15 +676,15 @@
    "name": "30-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "5.28%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "5.32% (Nov 3, 2026)",
+   "value": "5.25%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "5.28% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 5.28
+    "v": 5.25
    },
    "estimate": false
   },
@@ -694,15 +694,15 @@
    "name": "High-yield credit spread",
    "source": "FRED / ICE BofA",
    "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-   "value": "3.40%",
-   "period": "Nov 3, 2026",
-   "released": "Nov 4, 2026",
-   "previous": "3.43% (Nov 2, 2026)",
+   "value": "3.32%",
+   "period": "Nov 4, 2026",
+   "released": "Nov 5, 2026",
+   "previous": "3.40% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 3.4
+    "v": 3.32
    },
    "estimate": false
   },
@@ -714,7 +714,7 @@
    "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
    "value": "Median 3.6%",
    "period": "End of 2029",
-   "released": "Oct 23, 2026",
+   "released": "Nov 5, 2026",
    "previous": "—",
    "tag": "official",
    "manual": false,
@@ -780,12 +780,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 4, 2026",
-   "released": "Nov 4, 2026",
-   "previous": "2.50% (Nov 3, 2026)",
+   "period": "Nov 5, 2026",
+   "released": "Nov 5, 2026",
+   "previous": "2.50% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
     "v": 2.5
    },
@@ -1061,10 +1061,11 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "GDPNow model estimate for Q4 eased to 3.4% and oil prices dipped to $99.64 a barrel.",
+   "headline": "Weekly jobless claims dropped to 189,000 and 2-year Treasury yields fell to 4.46%.",
    "items": [
-    "<strong>GDPNow model estimate (current quarter)</strong> fell from 3.7% to 3.4% (November 4, 2026).",
-    "<strong>Oil price (WTI crude)</strong> fell from $103.37 to $99.64 a barrel (November 3, 2026)."
+    "<strong>Weekly jobless claims (new)</strong> fell from 195,000 to 189,000 for the week ending October 31, 2026.",
+    "<strong>2-year Treasury yield</strong> fell from 4.58% to 4.46% (November 5, 2026).",
+    "<strong>10-year Treasury yield</strong> fell from 4.90% to 4.84% (November 5, 2026)."
    ]
   },
   "verdict": {
@@ -1102,7 +1103,7 @@
    },
    {
     "title": "Reasons the Fed chose to wait in October",
-    "html": "<ul><li><strong>Hiring has slowed sharply.</strong> Only 29,000 jobs were added in September, and July was revised to a loss of 10,000 jobs. When hiring is weak, pressing the brake again right away raises the risk of layoffs.</li><li><strong>The market already pressed the brake for them.</strong> The interest rate on 10-year U.S. government bonds rose to 4.90% in early November. Mortgages and many business loans follow that rate. So borrowing has already become more expensive, which cools the economy without the Fed doing anything.</li><li><strong>Senior officials hinted there is no rush.</strong> Governor Christopher Waller said rate rises do not need to come at consecutive meetings. Vice Chair Philip Jefferson said reaching a decision may take more time.</li><li><strong>The brake takes time to work.</strong> A rate change takes many months to fully affect the economy. The Fed only raised in September and wanted to see the effect first.</li></ul>"
+    "html": "<ul><li><strong>Hiring has slowed sharply.</strong> Only 29,000 jobs were added in September, and July was revised to a loss of 10,000 jobs. When hiring is weak, pressing the brake again right away raises the risk of layoffs.</li><li><strong>The market already pressed the brake for them.</strong> The interest rate on 10-year U.S. government bonds rose to 4.84% in early November. Mortgages and many business loans follow that rate. So borrowing has already become more expensive, which cools the economy without the Fed doing anything.</li><li><strong>Senior officials hinted there is no rush.</strong> Governor Christopher Waller said rate rises do not need to come at consecutive meetings. Vice Chair Philip Jefferson said reaching a decision may take more time.</li><li><strong>The brake takes time to work.</strong> A rate change takes many months to fully affect the economy. The Fed only raised in September and wanted to see the effect first.</li></ul>"
    },
    {
     "title": "Why a December rise remains very possible",
@@ -1270,7 +1271,7 @@
     "date_label": "September 15 → November 4, 2026",
     "title": "Market interest rates climbed further",
     "kind": "down",
-    "what": "The interest rate on 10-year U.S. government bonds rose to <strong>4.90%</strong>. The 2-year rate stood at 4.58%.",
+    "what": "The interest rate on 10-year U.S. government bonds rose to <strong>4.84%</strong>. The 2-year rate stood at 4.46%.",
     "why": "When investors expect the Fed to keep rates high and prices to stay high, they demand more interest to lend money for years at a time.",
     "people": "Mortgage rates and many business loan rates follow the 10-year rate, so buying a house or expanding a business got more expensive within weeks.",
     "sources": [
@@ -1289,7 +1290,7 @@
     "date_label": "October 2, 2026",
     "title": "A weak jobs report for September",
     "kind": "down",
-    "what": "Only <strong>29,000</strong> jobs were added. Unemployment ticked up from 4.1% to <strong>4.2%</strong>. But weekly claims for unemployment benefits stayed very low (194,000).",
+    "what": "Only <strong>29,000</strong> jobs were added. Unemployment ticked up from 4.1% to <strong>4.2%</strong>. But weekly claims for unemployment benefits stayed very low (189,000).",
     "sources": [
      {
       "label": "Jobs report (BLS)",
@@ -1387,7 +1388,7 @@
      "trigger": "Another solid gain → leans toward a rise. A drop → leans toward hold."
     },
     "weekly_jobless_claims": {
-     "why": "The fastest signal of layoffs. Right now it is very low (about 194,000).",
+     "why": "The fastest signal of layoffs. Right now it is very low (about 189,000).",
      "trigger": "A steady climb toward 250,000 or more → hold firms up."
     },
     "housing_starts": {
@@ -1446,7 +1447,7 @@
     "grade": "amber",
     "one": "Few people are losing jobs, but companies are hiring slowly.",
     "look": "New jobs each month, the unemployment rate, weekly claims for unemployment benefits, and job openings.",
-    "why": "<em>Good news:</em> unemployment is low at 4.2%, and weekly layoff claims are very low (194,000). <em>Bad news:</em> only 29,000 jobs were added in September, though job openings ticked up to 7.5 million.",
+    "why": "<em>Good news:</em> unemployment is low at 4.2%, and weekly layoff claims are very low (189,000). <em>Bad news:</em> only 29,000 jobs were added in September, though job openings ticked up to 7.5 million.",
     "change": "Rising layoff claims or a jump in unemployment → red. Hiring picking back up above 100,000 a month → green.",
     "matters": "This is the main reason the Fed decided to wait in October. A weak job market makes another rate rise riskier."
    },
@@ -1464,7 +1465,7 @@
     "grade": "amber",
     "one": "Borrowing costs jumped, but lenders are still lending calmly.",
     "look": "U.S. government bond rates (Treasury yields), the extra interest risky companies pay to borrow (credit spreads), and market expectations for inflation.",
-    "why": "<em>Worrying:</em> the 10-year bond rate rose to 4.90%, making mortgages and loans more expensive. <em>Reassuring:</em> risky companies still borrow easily (spread of 3.40%), and investors still expect inflation of only about 2.26% a year over the long run.",
+    "why": "<em>Worrying:</em> the 10-year bond rate rose to 4.84%, making mortgages and loans more expensive. <em>Reassuring:</em> risky companies still borrow easily (spread of 3.32%), and investors still expect inflation of only about 2.24% a year over the long run.",
     "change": "Credit spreads widening sharply or stock markets falling hard → red. Bond rates settling down → green.",
     "matters": "Higher market rates are already slowing the economy, which is one reason the Fed paused in October."
    }
@@ -1516,7 +1517,7 @@
     "now_label": "Calm",
     "now_tone": "good",
     "what": "by comparing two kinds of government bonds (one protected against inflation and one not), we can work out how much inflation investors expect on average over the next 10 years.",
-    "why": "at 2.26%, investors still believe inflation will settle near 2–2.5% in the long run."
+    "why": "at 2.24%, investors still believe inflation will settle near 2–2.5% in the long run."
    },
    "new_jobs_nonfarm_payrolls": {
     "now_label": "Weak hiring",
@@ -1546,13 +1547,13 @@
     "now_label": "Very few layoffs",
     "now_tone": "good",
     "what": "how many people applied for unemployment benefits for the first time in a given week.",
-    "why": "at 194,000, this is very low. It shows companies are holding on to workers."
+    "why": "at 189,000, this is very low. It shows companies are holding on to workers."
    },
    "continuing_jobless_claims": {
     "now_label": "Watch",
     "now_tone": "info",
     "what": "the number of people still receiving unemployment benefits.",
-    "why": "at 1,701,000, if this keeps rising while new claims stay low, it means people who lose jobs are taking longer to find new ones."
+    "why": "at 1,718,000, if this keeps rising while new claims stay low, it means people who lose jobs are taking longer to find new ones."
    },
    "job_openings_jolts": {
     "now_label": "Stabilizing",
@@ -1618,31 +1619,31 @@
     "now_label": "Pricing in rises",
     "now_tone": "mixed",
     "what": "the interest rate the U.S. government pays to borrow for three months.",
-    "why": "at 4.21%, it remains above the Fed's target rate, reflecting expectations of further rate actions."
+    "why": "at 4.17%, it remains above the Fed's target rate, reflecting expectations of further rate actions."
    },
    "2_year_treasury_yield": {
     "now_label": "Rising",
     "now_tone": "mixed",
     "what": "the interest the government pays to borrow for two years.",
-    "why": "at 4.58%, this rate is driven by what investors think the Fed will do over the next two years."
+    "why": "at 4.46%, this rate is driven by what investors think the Fed will do over the next two years."
    },
    "10_year_treasury_yield": {
     "now_label": "Big jump",
     "now_tone": "bad",
     "what": "the interest the government pays to borrow for ten years.",
-    "why": "at 4.90%, mortgage rates and business loans follow this rate, making borrowing more expensive."
+    "why": "at 4.84%, mortgage rates and business loans follow this rate, making borrowing more expensive."
    },
    "30_year_treasury_yield": {
     "now_label": "High, steady",
     "now_tone": "info",
     "what": "the interest the government pays to borrow for thirty years.",
-    "why": "at 5.28%, it shows the long-term cost of government borrowing."
+    "why": "at 5.25%, it shows the long-term cost of government borrowing."
    },
    "high_yield_credit_spread": {
     "now_label": "Lenders calm",
     "now_tone": "good",
     "what": "the extra interest that riskier companies pay to borrow, on top of what the government pays.",
-    "why": "at 3.40%, it is low, meaning lenders are calm and businesses can still access credit."
+    "why": "at 3.32%, it is low, meaning lenders are calm and businesses can still access credit."
    },
    "fed_officials_end_2026_rate_forecast_d": {
     "now_label": "One more rise expected",
@@ -1939,8 +1940,8 @@
     "Sep"
    ],
    "10-yr": [
-    "4.90%",
-    "Nov 4"
+    "4.84%",
+    "Nov 5"
    ]
   },
   "rate_label": "Current Fed rate",
@@ -2069,6 +2070,70 @@
   "some flexibility about when those hikes will occur."
  ],
  "changelog": [
+  {
+   "date": "2026-11-05",
+   "date_label": "Nov 5, 2026",
+   "since": "2026-11-04",
+   "since_label": "Nov 4, 2026",
+   "summary": {
+    "headline": "Weekly jobless claims dropped to 189,000 and 2-year Treasury yields fell to 4.46%.",
+    "items": [
+     "<strong>Weekly jobless claims (new)</strong> fell from 195,000 to 189,000 for the week ending October 31, 2026.",
+     "<strong>2-year Treasury yield</strong> fell from 4.58% to 4.46% (November 5, 2026).",
+     "<strong>10-year Treasury yield</strong> fell from 4.90% to 4.84% (November 5, 2026)."
+    ]
+   },
+   "data": [
+    {
+     "id": "weekly_jobless_claims_new",
+     "name": "Weekly jobless claims (new)",
+     "from": "194,000",
+     "from_period": "Week ending Oct 24, 2026",
+     "to": "189,000",
+     "to_period": "Week ending Oct 31, 2026"
+    },
+    {
+     "id": "continuing_jobless_claims",
+     "name": "Continuing jobless claims",
+     "from": "1,701,000",
+     "from_period": "Week ending Oct 17, 2026",
+     "to": "1,718,000",
+     "to_period": "Week ending Oct 24, 2026"
+    }
+   ],
+   "market": [
+    {
+     "id": "2_year_treasury_yield",
+     "name": "2-year Treasury yield",
+     "from": "4.58%",
+     "from_period": "Nov 4, 2026",
+     "to": "4.46%",
+     "to_period": "Nov 5, 2026",
+     "move": "−0.12 pts"
+    },
+    {
+     "id": "10_year_treasury_yield",
+     "name": "10-year Treasury yield",
+     "from": "4.90%",
+     "from_period": "Nov 4, 2026",
+     "to": "4.84%",
+     "to_period": "Nov 5, 2026",
+     "move": "−0.06 pts"
+    },
+    {
+     "id": "high_yield_credit_spread",
+     "name": "High-yield credit spread",
+     "from": "3.40%",
+     "from_period": "Nov 3, 2026",
+     "to": "3.32%",
+     "to_period": "Nov 4, 2026",
+     "move": "−0.08 pts"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-04",
    "date_label": "Nov 4, 2026",

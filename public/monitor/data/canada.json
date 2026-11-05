@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "code": "canada",
- "asof_date": "2026-11-04",
- "asof_label": "Nov 4, 2026",
- "generated_at": "2026-11-04T23:46:21.391Z",
- "data_updated_at": "2026-11-04T23:46:21.391Z",
+ "asof_date": "2026-11-05",
+ "asof_label": "Nov 5, 2026",
+ "generated_at": "2026-11-05T23:42:48.603Z",
+ "data_updated_at": "2026-11-05T23:42:48.603Z",
  "narrative_updated_at": "2026-11-04T23:46:21.391Z",
- "narrative_stale": false,
+ "narrative_stale": true,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "canada",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
   "calendar_label": "Official BoC announcement schedule",
   "who": "The Bank of Canada (“the BoC”), Canada’s central bank. Its decisions are made by a small group of senior officials called the Governing Council, led by Governor Tiff Macklem. It aims to agree as a group, so there is no published vote count like in the U.S.",
-  "days_to_decision": 35
+  "days_to_decision": 34
  },
  "kpis": [
   {
    "label": "Bank of Canada rate",
    "value": "2.50%",
    "note": "",
-   "period": "Nov 3, 2026",
+   "period": "Nov 4, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "3.77%",
+   "value": "3.70%",
    "note": "",
-   "period": "Nov 3, 2026",
+   "period": "Nov 4, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28"
   }
@@ -603,12 +603,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
    "value": "2.50%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "2.50% (Nov 2, 2026)",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "2.50% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
     "v": 2.5
    },
@@ -620,15 +620,15 @@
    "name": "CORRA (overnight lending rate)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/AVG.INTWO/json?recent=6",
-   "value": "2.53%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "2.54% (Nov 2, 2026)",
+   "value": "2.52%",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "2.53% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 2.53
+    "v": 2.52
    },
    "estimate": false
   },
@@ -638,15 +638,15 @@
    "name": "2-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.26%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "3.26% (Nov 2, 2026)",
+   "value": "3.22%",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "3.26% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 3.26
+    "v": 3.22
    },
    "estimate": false
   },
@@ -656,15 +656,15 @@
    "name": "5-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.49%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "3.46% (Nov 2, 2026)",
+   "value": "3.43%",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "3.49% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 3.49
+    "v": 3.43
    },
    "estimate": false
   },
@@ -674,15 +674,15 @@
    "name": "10-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.77%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "3.74% (Nov 2, 2026)",
+   "value": "3.70%",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "3.77% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 3.77
+    "v": 3.7
    },
    "estimate": false
   },
@@ -692,15 +692,15 @@
    "name": "Canadian dollar (US$1 in C$)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25",
-   "value": "C$1.3961",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "C$1.3994 (Nov 3, 2026)",
+   "value": "C$1.3989",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "C$1.3961 (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 1.3961
+    "v": 1.3989
    },
    "estimate": false
   },
@@ -797,18 +797,6 @@
   }
  },
  "releases": [
-  {
-   "id": "merchandise_trade",
-   "name": "International merchandise trade, September",
-   "publisher": "StatCan",
-   "date": "2026-11-04",
-   "date_label": "Wed Nov 4",
-   "time": "8:30 a.m. ET",
-   "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
-   "what": "What Canada sold abroad and bought from abroad.",
-   "weekly": false,
-   "timing": "after"
-  },
   {
    "id": "labour_force_survey",
    "name": "Labour Force Survey, October",
@@ -956,11 +944,12 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Statistics Canada released the September merchandise trade balance, showing an increase to $5.4 billion.",
+   "headline": "Here is what is new since the last update.",
    "items": [
-    "<strong>Merchandise trade balance:</strong> Rose from $5.0 billion (August) to $5.4 billion (September) (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261104/dq261104a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>).",
-    "<strong>Market moves:</strong> The 2-year government bond yield remained at 3.26%, the 5-year bond yield moved from 3.46% to 3.49%, and the 10-year bond yield moved from 3.74% to 3.77% (Nov 3).",
-    "<strong>Exchange rate:</strong> The Canadian dollar moved from C$1.3994 to C$1.3961 per U.S. dollar (Nov 3–4)."
+    "<strong>5-year Government of Canada bond</strong> moved −0.06 pts: now 3.43%, was 3.49%.",
+    "<strong>10-year Government of Canada bond</strong> moved −0.07 pts: now 3.70%, was 3.77%.",
+    "New official item: <a href=\"https://www.bankofcanada.ca/2026/11/joint-statement-of-the-government-of-canada-and-the-bank-of-canada-on-the-renewal-of-the-monetary-policy-framework-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Joint Statement of the Government of Canada and the Bank of Canada on the Renewal of the Monetary Policy Framework</a> (2026-11-05).",
+    "New official item: <a href=\"https://www.bankofcanada.ca/2026/11/opening-statement-standing-senate-committee-banking-commerce-and-economy-2026-11-05/\" target=\"_blank\" rel=\"noopener noreferrer\">Opening Statement to the Standing Senate Committee on Banking, Commerce and the Economy</a> (2026-11-05)."
    ]
   },
   "verdict": {
@@ -1819,8 +1808,8 @@
     "Sep"
    ],
    "10-yr": [
-    "3.77%",
-    "Nov 3"
+    "3.70%",
+    "Nov 4"
    ]
   },
   "rate_label": "Current BoC rate",
@@ -1925,6 +1914,56 @@
   "Inflation in Canada has been higher than anticipated and is projected to remain around 3% through much of 2027. It then returns close to 2% by the middle of 2028."
  ],
  "changelog": [
+  {
+   "date": "2026-11-05",
+   "date_label": "Nov 5, 2026",
+   "since": "2026-11-04",
+   "since_label": "Nov 4, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "<strong>5-year Government of Canada bond</strong> moved −0.06 pts: now 3.43%, was 3.49%.",
+     "<strong>10-year Government of Canada bond</strong> moved −0.07 pts: now 3.70%, was 3.77%.",
+     "New official item: <a href=\"https://www.bankofcanada.ca/2026/11/joint-statement-of-the-government-of-canada-and-the-bank-of-canada-on-the-renewal-of-the-monetary-policy-framework-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Joint Statement of the Government of Canada and the Bank of Canada on the Renewal of the Monetary Policy Framework</a> (2026-11-05).",
+     "New official item: <a href=\"https://www.bankofcanada.ca/2026/11/opening-statement-standing-senate-committee-banking-commerce-and-economy-2026-11-05/\" target=\"_blank\" rel=\"noopener noreferrer\">Opening Statement to the Standing Senate Committee on Banking, Commerce and the Economy</a> (2026-11-05)."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "5_year_government_of_canada_bond",
+     "name": "5-year Government of Canada bond",
+     "from": "3.49%",
+     "from_period": "Nov 3, 2026",
+     "to": "3.43%",
+     "to_period": "Nov 4, 2026",
+     "move": "−0.06 pts"
+    },
+    {
+     "id": "10_year_government_of_canada_bond",
+     "name": "10-year Government of Canada bond",
+     "from": "3.77%",
+     "from_period": "Nov 3, 2026",
+     "to": "3.70%",
+     "to_period": "Nov 4, 2026",
+     "move": "−0.07 pts"
+    }
+   ],
+   "fed": [
+    {
+     "title": "Joint Statement of the Government of Canada and the Bank of Canada on the Renewal of the Monetary Policy Framework",
+     "date": "2026-11-05",
+     "url": "https://www.bankofcanada.ca/2026/11/joint-statement-of-the-government-of-canada-and-the-bank-of-canada-on-the-renewal-of-the-monetary-policy-framework-2026/"
+    },
+    {
+     "title": "Opening Statement to the Standing Senate Committee on Banking, Commerce and the Economy",
+     "date": "2026-11-05",
+     "url": "https://www.bankofcanada.ca/2026/11/opening-statement-standing-senate-committee-banking-commerce-and-economy-2026-11-05/"
+    }
+   ],
+   "verdict": null,
+   "ai_written": false
+  },
   {
    "date": "2026-11-04",
    "date_label": "Nov 4, 2026",
@@ -2411,12 +2450,24 @@
  ],
  "qa": {
   "data_errors": [],
-  "ai_errors": [],
+  "ai_errors": [
+   "Gemini stream error: {\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}"
+  ],
   "sources_read": [
+   {
+    "title": "Joint Statement of the Government of Canada and the Bank of Canada on the Renewal of the Monetary Policy Framework",
+    "date": "2026-11-05",
+    "url": "https://www.bankofcanada.ca/2026/11/joint-statement-of-the-government-of-canada-and-the-bank-of-canada-on-the-renewal-of-the-monetary-policy-framework-2026/"
+   },
    {
     "title": "Bank of Canada raises the policy rate by 25 basis points to 2½%",
     "date": "2026-10-28",
     "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+   },
+   {
+    "title": "Opening Statement to the Standing Senate Committee on Banking, Commerce and the Economy",
+    "date": "2026-11-05",
+    "url": "https://www.bankofcanada.ca/2026/11/opening-statement-standing-senate-committee-banking-commerce-and-economy-2026-11-05/"
    },
    {
     "title": "Opening Statement before the House of Commons Standing Committee on Finance",
@@ -2442,11 +2493,6 @@
     "title": "Speech: Greater Victoria Chamber of Commerce and CFA Society Victoria",
     "date": "2026-10-01",
     "url": "https://www.bankofcanada.ca/multimedia/speech-greater-victoria-chamber-of-commerce-and-cfa-society-victoria-2026-10-1/"
-   },
-   {
-    "title": "Canada’s housing affordability dilemma",
-    "date": "2026-10-01",
-    "url": "https://www.bankofcanada.ca/2026/10/canadas-housing-affordability-dilemma/"
    }
   ],
   "coverage": {

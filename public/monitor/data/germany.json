@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "germany",
- "asof_date": "2026-11-04",
- "asof_label": "Nov 4, 2026",
- "generated_at": "2026-11-04T23:45:33.125Z",
- "data_updated_at": "2026-11-04T23:45:33.125Z",
- "narrative_updated_at": "2026-11-04T23:45:33.125Z",
+ "asof_date": "2026-11-05",
+ "asof_label": "Nov 5, 2026",
+ "generated_at": "2026-11-05T23:42:21.725Z",
+ "data_updated_at": "2026-11-05T23:42:21.725Z",
+ "narrative_updated_at": "2026-11-05T23:42:21.725Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
   "calendar_label": "Official ECB meeting calendar",
   "who": "The European Central Bank (“the ECB”) in Frankfurt, which sets one interest rate for every country that uses the euro, including Germany. Its decision-making group is the Governing Council: the 6 members of the ECB's Executive Board (led by President Christine Lagarde) plus the heads of the 21 national central banks. Germany's voice is Joachim Nagel, President of the Deutsche Bundesbank.",
-  "days_to_decision": 43
+  "days_to_decision": 42
  },
  "kpis": [
   {
    "label": "ECB interest rate",
    "value": "2.50%",
    "note": "Deposit rate",
-   "period": "Nov 4, 2026",
+   "period": "Nov 5, 2026",
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year Bund rate",
-   "value": "3.38%",
+   "value": "3.33%",
    "note": "",
-   "period": "Nov 4, 2026",
+   "period": "Nov 5, 2026",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf"
   }
@@ -557,12 +557,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.50%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "2.50% (Nov 3, 2026)",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "2.50% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
     "v": 2.5
    },
@@ -575,12 +575,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.65%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "2.65% (Nov 3, 2026)",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "2.65% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
     "v": 2.65
    },
@@ -592,15 +592,15 @@
    "name": "2-year German government bond (Schatz)",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.05%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "3.04% (Nov 3, 2026)",
+   "value": "3.01%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "3.05% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 3.05
+    "v": 3.01
    },
    "estimate": false
   },
@@ -610,15 +610,15 @@
    "name": "10-year German government bond (Bund)",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.38%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "3.38% (Nov 3, 2026)",
+   "value": "3.33%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "3.38% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 3.38
+    "v": 3.33
    },
    "estimate": false
   },
@@ -628,15 +628,15 @@
    "name": "30-year German government bond",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.77%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "3.77% (Nov 3, 2026)",
+   "value": "3.74%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "3.77% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 3.77
+    "v": 3.74
    },
    "estimate": false
   },
@@ -672,15 +672,15 @@
    "name": "Euro vs U.S. dollar",
    "source": "ECB reference rate",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-   "value": "$1.1267 per euro",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "$1.1179 per euro (Nov 3, 2026)",
+   "value": "$1.1224 per euro",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "$1.1267 per euro (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 1.1267
+    "v": 1.1224
    },
    "estimate": false
   },
@@ -728,7 +728,7 @@
    "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM",
    "value": "$25.49 per million BTU",
    "period": "Sep 2026",
-   "released": "Oct 29, 2026",
+   "released": "Nov 4, 2026",
    "previous": "$20.92 (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -766,18 +766,6 @@
   }
  },
  "releases": [
-  {
-   "id": "euro_area_inflation_hicp_octob",
-   "name": "Euro-area inflation (HICP), October flash · Eurostat",
-   "publisher": "Eurostat",
-   "date": "2026-11-04",
-   "date_label": "Wed Nov 4",
-   "time": "",
-   "url": "https://ec.europa.eu/eurostat/news/release-calendar",
-   "what": "The first estimate of October prices for the euro area.",
-   "weekly": false,
-   "timing": "before"
-  },
   {
    "id": "euro_area_gdp_q3_flash",
    "name": "Euro-area GDP and employment, Q3 flash · Eurostat",
@@ -853,13 +841,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Euro-area inflation rose to 4.0% in October, while oil prices eased.",
-   "items": [
-    "<strong>Euro-area inflation (HICP)</strong> rose from 3.8% in September to 4.0% in October, remaining well above the ECB's 2% target.",
-    "<strong>Core inflation</strong> ticked up from 2.5% to 2.6% in October.",
-    "<strong>Energy prices</strong> in the euro area jumped to 20.8% in October, up from 18.9% in September.",
-    "<strong>Brent crude oil</strong> fell from $123.10 to $107.03 a barrel by early November, easing some immediate commodity pressures."
-   ]
+   "headline": "No major new economic data released since yesterday.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -1204,10 +1187,6 @@
    "intro_title": "Why upcoming reports matter",
    "intro": "The ECB can only react to information it has <strong>already seen</strong>. A report released <strong>before</strong> the next decision can change the outlook. Where we could not confirm an official release date, we say so.",
    "reports": {
-    "euro_area_inflation_hicp_octob": {
-     "why": "Key input for December. Flash estimate shows October inflation rose to 4.0%.",
-     "trigger": "December meeting."
-    },
     "euro_area_gdp_q3_flash": {
      "why": "First flash estimate of Q3 euro-area GDP.",
      "trigger": "December meeting."
@@ -1446,19 +1425,19 @@
    "2_year_german_government_bond_schatz": {
     "now_label": "Pricing in rates",
     "now_tone": "mixed",
-    "what": "the yield on the federal note maturing in September 2028 (3.05%).",
+    "what": "the yield on the federal note maturing in September 2028 (3.01%).",
     "why": "tells us markets expect further rate action."
    },
    "10_year_german_government_bond_bund": {
     "now_label": "Rising",
     "now_tone": "bad",
-    "what": "the yield on the Bund maturing in August 2036 (3.38%).",
+    "what": "the yield on the Bund maturing in August 2036 (3.33%).",
     "why": "German fixed-rate mortgages follow this rate, making borrowing costlier."
    },
    "30_year_german_government_bond": {
     "now_label": "High, steady",
     "now_tone": "info",
-    "what": "the yield on the Bund maturing in 2056 (3.77%).",
+    "what": "the yield on the Bund maturing in 2056 (3.74%).",
     "why": "shows the long-term cost of government borrowing."
    },
    "market_expectations_for_ecb_rates": {
@@ -1476,7 +1455,7 @@
    "euro_vs_u_s_dollar": {
     "now_label": "Weaker euro",
     "now_tone": "bad",
-    "what": "how many U.S. dollars one euro buys ($1.1267 per euro).",
+    "what": "how many U.S. dollars one euro buys ($1.1224 per euro).",
     "why": "oil is priced in dollars; a weaker euro makes energy imports dearer."
    },
    "oil_price_brent_crude_european_benchma": {
@@ -1511,6 +1490,40 @@
    }
   },
   "said": [
+   {
+    "n": "Isabel Schnabel: Navigating stormy waters",
+    "v": "Speech on monetary policy published",
+    "p": "ECB speech",
+    "r": "2026-11-05",
+    "pv": "November 4 wage release",
+    "s": "ECB",
+    "u": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
+    "now": [
+     "now-info",
+     "Reflections on policy"
+    ],
+    "w": [
+     "What it said: discussed the navigation of stormy waters and reflections on monetary policy.",
+     "Why it matters: provides insights into how central bank leadership evaluates ongoing economic challenges."
+    ]
+   },
+   {
+    "n": "Piero Cipollone: Shaping the future of money",
+    "v": "Speech on the future of money published",
+    "p": "ECB speech",
+    "r": "2026-11-05",
+    "pv": "November 5 Schnabel speech",
+    "s": "ECB",
+    "u": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html",
+    "now": [
+     "now-info",
+     "Future of money"
+    ],
+    "w": [
+     "What it said: discussed shaping the future of money and payment systems.",
+     "Why it matters: highlights long-term structural evolutions monitored by the central bank."
+    ]
+   },
    {
     "n": "ECB wage tracker release",
     "v": "Wage growth expected to be slightly higher",
@@ -1577,40 +1590,6 @@
     "w": [
      "What it said: the survey showed that bank lending conditions for enterprises tightened further.",
      "Why it matters: reflects how previous interest-rate increases continue to transmit through the financial system."
-    ]
-   },
-   {
-    "n": "Frank Elderson: Taking action for nature",
-    "v": "Speech published",
-    "p": "ECB event",
-    "r": "2026-10-26",
-    "pv": "Access to Finance",
-    "s": "ECB",
-    "u": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261026~d903d7ad85.en.html",
-    "now": [
-     "now-info",
-     "Economic resilience"
-    ],
-    "w": [
-     "What it said: discussed taking action for nature and investing in economic resilience and prosperity.",
-     "Why it matters: reflects the central bank's broader focus on long-term sustainability and economic resilience."
-    ]
-   },
-   {
-    "n": "Christine Lagarde: IMFC Statement",
-    "v": "IMFC Statement published",
-    "p": "IMFC meeting",
-    "r": "2026-10-17",
-    "pv": "September 30 interview",
-    "s": "ECB",
-    "u": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html",
-    "now": [
-     "now-info",
-     "Global policy view"
-    ],
-    "w": [
-     "What it said: the ECB outlined its ongoing monetary policy strategy and global economic engagement.",
-     "Why it matters: highlights the central bank's broader international perspective ahead of the national decisions."
     ]
    },
    {
@@ -1786,8 +1765,8 @@
     "Sep"
    ],
    "10-yr": [
-    "3.38%",
-    "Nov 4"
+    "3.33%",
+    "Nov 5"
    ]
   },
   "rate_label": "Current ECB rate",
@@ -1928,6 +1907,32 @@
   "Euro liquidity lines and the international monetary system"
  ],
  "changelog": [
+  {
+   "date": "2026-11-05",
+   "date_label": "Nov 5, 2026",
+   "since": "2026-11-04",
+   "since_label": "Nov 4, 2026",
+   "summary": {
+    "headline": "No major new economic data released since yesterday.",
+    "items": []
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
+     "date": "2026-11-05",
+     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html"
+    },
+    {
+     "title": "Piero Cipollone: Shaping the future of money",
+     "date": "2026-11-05",
+     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-04",
    "date_label": "Nov 4, 2026",
@@ -2501,6 +2506,16 @@
   "ai_errors": [],
   "sources_read": [
    {
+    "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
+    "date": "2026-11-05",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html"
+   },
+   {
+    "title": "Piero Cipollone: Shaping the future of money",
+    "date": "2026-11-05",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html"
+   },
+   {
     "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
     "date": "2026-11-04",
     "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html"
@@ -2519,16 +2534,6 @@
     "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
     "date": "2026-10-30",
     "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html"
-   },
-   {
-    "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
-    "date": "2026-10-30",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html"
-   },
-   {
-    "title": "Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure",
-    "date": "2026-10-29",
-    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html"
    }
   ],
   "coverage": {

@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "code": "switzerland",
- "asof_date": "2026-11-04",
- "asof_label": "Nov 4, 2026",
- "generated_at": "2026-11-04T23:49:31.394Z",
- "data_updated_at": "2026-11-04T23:49:31.394Z",
+ "asof_date": "2026-11-05",
+ "asof_label": "Nov 5, 2026",
+ "generated_at": "2026-11-05T23:44:46.230Z",
+ "data_updated_at": "2026-11-05T23:44:46.230Z",
  "narrative_updated_at": "2026-10-30T22:31:00.195Z",
- "narrative_stale": false,
+ "narrative_stale": true,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "switzerland",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
   "calendar_label": "Official SNB time schedule",
   "who": "The Swiss National Bank (“the SNB”), Switzerland’s central bank. Decisions are taken by its <strong>Governing Board</strong>, just three people: Chairman Martin Schlegel, Vice Chairman Antoine Martin and Petra Tschudin. They decide together and publish no vote count.",
-  "days_to_decision": 36
+  "days_to_decision": 35
  },
  "kpis": [
   {
    "label": "SNB policy rate",
    "value": "0.00%",
    "note": "",
-   "period": "Nov 4, 2026",
+   "period": "Nov 5, 2026",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "0.525%",
+   "value": "0.475%",
    "note": "",
-   "period": "Nov 4, 2026",
+   "period": "Nov 5, 2026",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates"
   }
@@ -491,12 +491,12 @@
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924",
    "value": "0.00%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "0.00% (Nov 3, 2026)",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "0.00% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
     "v": 0
    },
@@ -527,12 +527,12 @@
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
    "value": "-0.04%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "-0.05% (Nov 2, 2026)",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "-0.04% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
     "v": -0.04
    },
@@ -544,15 +544,15 @@
    "name": "10-year Confederation bond yield",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "0.525%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "0.509% (Nov 3, 2026)",
+   "value": "0.475%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "0.525% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 0.525
+    "v": 0.475
    },
    "estimate": false
   },
@@ -562,15 +562,15 @@
    "name": "2-year Confederation bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/switzerland/2-year-note-yield",
-   "value": "0.23%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "0.24% (Nov 3, 2026)",
+   "value": "0.20%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "0.22% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 0.227
+    "v": 0.199
    },
    "estimate": false
   },
@@ -580,15 +580,15 @@
    "name": "Euro in francs",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "CHF 0.9192",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "CHF 0.9152 (Nov 3, 2026)",
+   "value": "CHF 0.9180",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "CHF 0.9192 (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 0.9192
+    "v": 0.918
    },
    "estimate": false
   },
@@ -598,15 +598,15 @@
    "name": "U.S. dollar in francs",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "CHF 0.8164",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "CHF 0.8178 (Nov 3, 2026)",
+   "value": "CHF 0.8173",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "CHF 0.8164 (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 0.8164
+    "v": 0.8173
    },
    "estimate": false
   },
@@ -682,12 +682,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 4, 2026",
-   "previous": "2.50% (Nov 3, 2026)",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 5, 2026",
+   "previous": "2.50% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
     "v": 2.5
    },
@@ -760,8 +760,11 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "Here is what is new since the last update.",
+   "items": [
+    "<strong>10-year Confederation bond yield</strong> moved −0.05 pts: now 0.475%, was 0.525%.",
+    "New official item: <a href=\"https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261105_msl\" target=\"_blank\" rel=\"noopener noreferrer\">2026-11-05 - Martin Schlegel: Transmission and conduct of monetary policy in Switzerland</a> (2026-11-05)."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -1685,8 +1688,8 @@
     "Sep"
    ],
    "10-yr": [
-    "0.525%",
-    "Nov 4"
+    "0.475%",
+    "Nov 5"
    ]
   },
   "rate_label": "Current SNB policy rate",
@@ -1783,6 +1786,40 @@
  ],
  "changelog": [
   {
+   "date": "2026-11-05",
+   "date_label": "Nov 5, 2026",
+   "since": "2026-11-04",
+   "since_label": "Nov 4, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "<strong>10-year Confederation bond yield</strong> moved −0.05 pts: now 0.475%, was 0.525%.",
+     "New official item: <a href=\"https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261105_msl\" target=\"_blank\" rel=\"noopener noreferrer\">2026-11-05 - Martin Schlegel: Transmission and conduct of monetary policy in Switzerland</a> (2026-11-05)."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "10_year_confederation_bond_yield",
+     "name": "10-year Confederation bond yield",
+     "from": "0.525%",
+     "from_period": "Nov 4, 2026",
+     "to": "0.475%",
+     "to_period": "Nov 5, 2026",
+     "move": "−0.05 pts"
+    }
+   ],
+   "fed": [
+    {
+     "title": "2026-11-05 - Martin Schlegel: Transmission and conduct of monetary policy in Switzerland",
+     "date": "2026-11-05",
+     "url": "https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261105_msl"
+    }
+   ],
+   "verdict": null,
+   "ai_written": false
+  },
+  {
    "date": "2026-10-30",
    "date_label": "Oct 30, 2026",
    "since": "2026-10-29",
@@ -1851,7 +1888,9 @@
  ],
  "qa": {
   "data_errors": [],
-  "ai_errors": [],
+  "ai_errors": [
+   "Gemini stream error: {\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}"
+  ],
   "sources_read": [
    {
     "title": "2026-10-30 - Interim results of the Swiss National Bank as at 30 September 2026",
@@ -1864,9 +1903,9 @@
     "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20261001"
    },
    {
-    "title": "2026-09-30 - Quarterly Bulletin 3/2026",
-    "date": "2026-09-30",
-    "url": "https://www.snb.ch/en/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett"
+    "title": "2026-11-05 - Martin Schlegel: Transmission and conduct of monetary policy in Switzerland",
+    "date": "2026-11-05",
+    "url": "https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261105_msl"
    },
    {
     "title": "2026-10-29 - Petra Tschudin / Thomas Moser: Liquidity against collateral: the SNB's approach",
@@ -1883,6 +1922,6 @@
    "automatic": 10,
    "manual": 28
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }
