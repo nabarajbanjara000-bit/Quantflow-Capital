@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-11-05",
- "asof_label": "Nov 5, 2026",
- "generated_at": "2026-11-05T23:41:20.744Z",
- "data_updated_at": "2026-11-05T23:41:20.744Z",
+ "asof_date": "2026-11-06",
+ "asof_label": "Nov 6, 2026",
+ "generated_at": "2026-11-06T23:13:28.530Z",
+ "data_updated_at": "2026-11-06T23:13:28.530Z",
  "narrative_updated_at": "2026-11-03T01:01:41.183Z",
  "narrative_stale": true,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 43
+  "days_to_decision": 42
  },
  "kpis": [
   {
    "label": "BoJ interest rate",
    "value": "1.25%",
    "note": "",
-   "period": "Nov 3, 2026",
+   "period": "Nov 4, 2026",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "2.82%",
+   "value": "2.81%",
    "note": "",
-   "period": "Oct 30, 2026",
+   "period": "Nov 5, 2026",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv"
   }
@@ -605,12 +605,12 @@
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf",
    "value": "1.25%",
-   "period": "Nov 3, 2026",
-   "released": "Detected Nov 5, 2026",
-   "previous": "1.25% (Nov 2, 2026)",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "1.25% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-04",
    "raw": {
     "v": 1.25
    },
@@ -641,15 +641,15 @@
    "name": "2-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "1.88%",
-   "period": "Oct 30, 2026",
-   "released": "Detected Nov 2, 2026",
-   "previous": "1.90% (Oct 29, 2026)",
+   "value": "1.86%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "1.89% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-30",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 1.875
+    "v": 1.86
    },
    "estimate": false
   },
@@ -659,15 +659,15 @@
    "name": "10-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "2.82%",
-   "period": "Oct 30, 2026",
-   "released": "Detected Nov 2, 2026",
-   "previous": "2.88% (Oct 29, 2026)",
+   "value": "2.81%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "2.85% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-30",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 2.817
+    "v": 2.806
    },
    "estimate": false
   },
@@ -677,15 +677,15 @@
    "name": "30-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "3.91%",
-   "period": "Oct 30, 2026",
-   "released": "Detected Nov 2, 2026",
-   "previous": "3.96% (Oct 29, 2026)",
+   "value": "3.92%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "3.98% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-30",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 3.908
+    "v": 3.915
    },
    "estimate": false
   },
@@ -714,15 +714,15 @@
    "name": "Yen per US dollar",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261009.pdf",
-   "value": "¥157.80",
-   "period": "Nov 2, 2026",
-   "released": "Detected Nov 5, 2026",
-   "previous": "¥157.50 (Oct 30, 2026)",
+   "value": "¥158.55",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "¥157.80 (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-02",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 157.8
+    "v": 158.55
    },
    "estimate": false
   },
@@ -843,18 +843,6 @@
   }
  },
  "releases": [
-  {
-   "id": "minutes_of_the_september_meeti",
-   "name": "Minutes of the September meeting",
-   "publisher": "BoJ",
-   "date": "2026-11-05",
-   "date_label": "Thu Nov 5",
-   "time": "8:50 a.m. JST",
-   "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
-   "what": "A fuller record of the September debate.",
-   "weekly": false,
-   "timing": "before"
-  },
   {
    "id": "summary_of_opinions",
    "name": "Summary of Opinions, October meeting",
@@ -992,13 +980,9 @@
   "what_changed": {
    "headline": "Here is what is new since the last update.",
    "items": [
-    "<strong>Overnight call rate (actual, monthly average)</strong>: now 1.227%, for Oct 2026. Before: 1.043%, for Sep 2026.",
-    "New official item: <a href=\"http://www.boj.or.jp/en/paym/bond/mbond_list/mbond261105.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Holding the Twenty-fifth Round of the \"Bond Market Group\" Meetings</a> (2026-11-05).",
-    "New official item: <a href=\"http://www.boj.or.jp/en/statistics/boj/fm/juqp/juqp2611.xlsx\" target=\"_blank\" rel=\"noopener noreferrer\">Sources of Changes in Current Account Balances (Projections for Nov.)</a> (2026-11-04).",
-    "New official item: <a href=\"http://www.boj.or.jp/en/mopo/mpmsche_minu/minu_2026/g260918.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Minutes of the Monetary Policy Meeting on September 17 and 18, 2026</a> (2026-11-04).",
-    "New official item: <a href=\"http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei261030.xlsx\" target=\"_blank\" rel=\"noopener noreferrer\">Japanese Government Bonds Held by the Bank of Japan</a> (2026-11-04).",
-    "New official item: <a href=\"http://www.boj.or.jp/en/statistics/boj/other/col/col2610.xlsx\" target=\"_blank\" rel=\"noopener noreferrer\">Collateral Accepted by the Bank of Japan (End of Oct.)</a> (2026-11-04).",
-    "New official item: <a href=\"http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac261031.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Bank of Japan Accounts (October 31)</a> (2026-11-04)."
+    "New official item: <a href=\"http://www.boj.or.jp/en/about/press/koen_2026/ko261107a.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Speech by Governor UEDA at the 2026 Michel Camdessus Central Banking Lecture, International Monetary Fund</a> (2026-11-06).",
+    "New official item: <a href=\"http://www.boj.or.jp/en/about/release_2026/rel261106b.htm\" target=\"_blank\" rel=\"noopener noreferrer\">(IMES Newsletter) 2026 BoC - Philadelphia Fed - BOJ Joint Workshop</a> (2026-11-06).",
+    "New official item: <a href=\"http://www.boj.or.jp/en/research/imes/dps/dps26.htm\" target=\"_blank\" rel=\"noopener noreferrer\">IMES Discussion Paper Series (2026)</a> (2026-11-06)."
    ]
   },
   "verdict": {
@@ -1821,8 +1805,8 @@
     "Aug"
    ],
    "10-yr": [
-    "2.82%",
-    "Oct 30"
+    "2.81%",
+    "Nov 5"
    ]
   },
   "rate_label": "Current BoJ rate",
@@ -1955,6 +1939,41 @@
   "It does not seem to be accelerating at a speed that could lead the Bank to fall behind the curve"
  ],
  "changelog": [
+  {
+   "date": "2026-11-06",
+   "date_label": "Nov 6, 2026",
+   "since": "2026-11-05",
+   "since_label": "Nov 5, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "New official item: <a href=\"http://www.boj.or.jp/en/about/press/koen_2026/ko261107a.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Speech by Governor UEDA at the 2026 Michel Camdessus Central Banking Lecture, International Monetary Fund</a> (2026-11-06).",
+     "New official item: <a href=\"http://www.boj.or.jp/en/about/release_2026/rel261106b.htm\" target=\"_blank\" rel=\"noopener noreferrer\">(IMES Newsletter) 2026 BoC - Philadelphia Fed - BOJ Joint Workshop</a> (2026-11-06).",
+     "New official item: <a href=\"http://www.boj.or.jp/en/research/imes/dps/dps26.htm\" target=\"_blank\" rel=\"noopener noreferrer\">IMES Discussion Paper Series (2026)</a> (2026-11-06)."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Speech by Governor UEDA at the 2026 Michel Camdessus Central Banking Lecture, International Monetary Fund",
+     "date": "2026-11-06",
+     "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261107a.htm"
+    },
+    {
+     "title": "(IMES Newsletter) 2026 BoC - Philadelphia Fed - BOJ Joint Workshop",
+     "date": "2026-11-06",
+     "url": "http://www.boj.or.jp/en/about/release_2026/rel261106b.htm"
+    },
+    {
+     "title": "IMES Discussion Paper Series (2026)",
+     "date": "2026-11-06",
+     "url": "http://www.boj.or.jp/en/research/imes/dps/dps26.htm"
+    }
+   ],
+   "verdict": null,
+   "ai_written": false
+  },
   {
    "date": "2026-11-05",
    "date_label": "Nov 5, 2026",
@@ -2390,9 +2409,24 @@
  "qa": {
   "data_errors": [],
   "ai_errors": [
-   "Gemini stream error: {\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}"
+   "Expected double-quoted property name in JSON at position 31473 (line 584 column 7)"
   ],
   "sources_read": [
+   {
+    "title": "Speech by Governor UEDA at the 2026 Michel Camdessus Central Banking Lecture, International Monetary Fund",
+    "date": "2026-11-06",
+    "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261107a.htm"
+   },
+   {
+    "title": "(IMES Newsletter) 2026 BoC - Philadelphia Fed - BOJ Joint Workshop",
+    "date": "2026-11-06",
+    "url": "http://www.boj.or.jp/en/about/release_2026/rel261106b.htm"
+   },
+   {
+    "title": "IMES Discussion Paper Series (2026)",
+    "date": "2026-11-06",
+    "url": "http://www.boj.or.jp/en/research/imes/dps/dps26.htm"
+   },
    {
     "title": "Holding the Twenty-fifth Round of the \"Bond Market Group\" Meetings",
     "date": "2026-11-05",
@@ -2407,21 +2441,6 @@
     "title": "Minutes of the Monetary Policy Meeting on September 17 and 18, 2026",
     "date": "2026-11-04",
     "url": "http://www.boj.or.jp/en/mopo/mpmsche_minu/minu_2026/g260918.pdf"
-   },
-   {
-    "title": "Japanese Government Bonds Held by the Bank of Japan",
-    "date": "2026-11-04",
-    "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei261030.xlsx"
-   },
-   {
-    "title": "Collateral Accepted by the Bank of Japan (End of Oct.)",
-    "date": "2026-11-04",
-    "url": "http://www.boj.or.jp/en/statistics/boj/other/col/col2610.xlsx"
-   },
-   {
-    "title": "Bank of Japan Accounts (October 31)",
-    "date": "2026-11-04",
-    "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac261031.htm"
    }
   ],
   "coverage": {

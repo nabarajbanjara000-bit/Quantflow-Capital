@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-11-05",
- "asof_label": "Nov 5, 2026",
- "generated_at": "2026-11-05T23:44:24.959Z",
- "data_updated_at": "2026-11-05T23:44:24.959Z",
- "narrative_updated_at": "2026-11-04T23:49:17.276Z",
- "narrative_stale": true,
+ "asof_date": "2026-11-06",
+ "asof_label": "Nov 6, 2026",
+ "generated_at": "2026-11-06T23:17:14.861Z",
+ "data_updated_at": "2026-11-06T23:17:14.861Z",
+ "narrative_updated_at": "2026-11-06T23:17:14.861Z",
+ "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "australia",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 33
+  "days_to_decision": 32
  },
  "kpis": [
   {
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "5.21%",
+   "value": "5.08%",
    "note": "",
-   "period": "Oct 28, 2026",
+   "period": "Nov 4, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield"
   }
@@ -623,15 +623,15 @@
    "name": "10-year government bond rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield",
-   "value": "5.21%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 30, 2026",
-   "previous": "5.15% (Oct 27, 2026)",
+   "value": "5.08%",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "5.09% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 5.208
+    "v": 5.082
    },
    "estimate": false
   },
@@ -641,15 +641,15 @@
    "name": "2-year government bond rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield",
-   "value": "4.95%",
-   "period": "Oct 28, 2026",
-   "released": "Detected Oct 30, 2026",
-   "previous": "4.88% (Oct 27, 2026)",
+   "value": "4.83%",
+   "period": "Nov 4, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "4.83% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-10-28",
+   "latest_date": "2026-11-04",
    "raw": {
-    "v": 4.951
+    "v": 4.826
    },
    "estimate": false
   },
@@ -659,7 +659,7 @@
    "name": "10-year bond rate, monthly average",
    "source": "OECD via FRED",
    "url": "https://fred.stlouisfed.org/series/IRLTLT01AUM156N",
-   "value": "5.28%",
+   "value": "5.27%",
    "period": "Oct 2026",
    "released": "Detected Nov 1, 2026",
    "previous": "5.28% (Sep 2026)",
@@ -667,7 +667,7 @@
    "manual": false,
    "latest_date": "2026-10-01",
    "raw": {
-    "v": 5.278473684210527
+    "v": 5.26552380952381
    },
    "estimate": false
   },
@@ -695,15 +695,15 @@
    "name": "Australian dollar",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
-   "value": "US$0.7014",
-   "period": "Nov 5, 2026",
-   "released": "Detected Nov 5, 2026",
-   "previous": "US$0.6972 (Nov 4, 2026)",
+   "value": "US$0.6900",
+   "period": "Nov 6, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "US$0.7014 (Nov 5, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-05",
+   "latest_date": "2026-11-06",
    "raw": {
-    "v": 0.7014
+    "v": 0.69
    },
    "estimate": false,
    "note": "AUD/USD only (the snapshot also quotes the trade-weighted index)"
@@ -729,7 +729,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
    "value": "$107.03 a barrel",
    "period": "Nov 3, 2026",
-   "released": "Nov 4, 2026",
+   "released": "Nov 5, 2026",
    "previous": "$107.39 (Nov 2, 2026)",
    "tag": "secondary",
    "manual": false,
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 5, 2026",
-   "released": "Nov 5, 2026",
-   "previous": "4.00% (Nov 4, 2026)",
+   "period": "Nov 6, 2026",
+   "released": "Nov 6, 2026",
+   "previous": "4.00% (Nov 5, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-05",
+   "latest_date": "2026-11-06",
    "raw": {
     "v": 4
    },
@@ -923,7 +923,10 @@
   "what_changed": {
    "headline": "Here is what is new since the last update.",
    "items": [
-    "New official item: <a href=\"https://www.rba.gov.au/speeches/2026/sp-dg-2026-11-05.html\" target=\"_blank\" rel=\"noopener noreferrer\">Trust, Expectations and Monetary Policy</a> (2026-11-05)."
+    "New official items: <a href=\"https://www.rba.gov.au/media-releases/2026/mr-26-31.html\" target=\"_blank\" rel=\"noopener noreferrer\">Designation of Prosegur Australia Pty Ltd under the Cash Distribution Framework Act 2026</a> (2026-11-05) and <a href=\"https://www.rba.gov.au/speeches/2026/sp-dg-2026-11-05.html\" target=\"_blank\" rel=\"noopener noreferrer\">Trust, Expectations and Monetary Policy</a> (2026-11-05).",
+    "<strong>10-year government bond rate</strong> moved from 5.21% (Oct 28) to 5.08% (Nov 4).",
+    "<strong>2-year government bond rate</strong> moved from 4.95% (Oct 28) to 4.83% (Nov 4).",
+    "<strong>Australian dollar</strong> moved from US$0.7014 (Nov 5) to US$0.6900 (Nov 6)."
    ]
   },
   "verdict": {
@@ -1299,7 +1302,7 @@
     "area": "Money markets",
     "grade": "amber",
     "one": "Borrowing costs remain elevated following the November rate hike and firm bond yields.",
-    "look": "10-year government bond rate (5.21%), 2-year government bond rate (4.95%), and the Australian dollar (US$0.6972).",
+    "look": "10-year government bond rate (5.08%), 2-year government bond rate (4.83%), and the Australian dollar (US$0.6900).",
     "why": "Financial conditions are restrictive, helping to cool demand even without immediate additional central bank action.",
     "change": "A disorderly surge in yields or sharp currency depreciation moving conditions to red.",
     "matters": "Higher market rates reinforce monetary policy tightening.",
@@ -1473,19 +1476,19 @@
     "now_label": "High",
     "now_tone": "bad",
     "what": "interest rate paid on 10-year Australian government debt.",
-    "why": "stands at 5.21% in October, keeping long-term borrowing costs elevated."
+    "why": "stands at 5.08% on Nov 4, keeping long-term borrowing costs elevated."
    },
    "2_year_government_bond_rate": {
     "now_label": "Above cash rate",
     "now_tone": "mixed",
     "what": "interest rate on 2-year government bonds.",
-    "why": "stands at 4.95% in October, reflecting expectations of firm monetary policy."
+    "why": "stands at 4.83% on Nov 4, reflecting expectations of firm monetary policy."
    },
    "10_year_bond_rate_monthly_average": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "official monthly average of the 10-year bond yield.",
-    "why": "averaged 5.28% in September, confirming elevated long-term yields."
+    "why": "averaged 5.27% in October, confirming elevated long-term yields."
    },
    "3_month_bank_bill_rate": {
     "now_label": "Tracks RBA",
@@ -1497,7 +1500,7 @@
     "now_label": "Steady",
     "now_tone": "mixed",
     "what": "exchange rate of the Australian dollar against the U.S. dollar.",
-    "why": "stands at US$0.6972 on November 4, helping moderate import price pressures."
+    "why": "stands at US$0.6900 on November 6, helping moderate import price pressures."
    },
    "mortgage_payments_vs_income": {
     "now_label": "Squeezing",
@@ -1642,7 +1645,7 @@
   ],
   "gaps": [
    "<strong>Market odds specifically for December.</strong> Official market pricing reflects expectations out to year-end and early 2027, but exact daily probabilities for the December meeting alone are estimated.",
-   "<strong>Daily government bond yields.</strong> Current 10-year (5.21%) and 2-year (4.95%) yields are drawn from secondary financial market data sources rather than direct RBA tables.",
+   "<strong>Daily government bond yields.</strong> Current 10-year (5.08%) and 2-year (4.83%) yields are drawn from secondary financial market data sources rather than direct RBA tables.",
    "<strong>Detailed survey breakdowns of inflation expectations.</strong> While the RBA notes short-term expectations remain elevated, detailed household and business survey datasets were not fully collected."
   ],
   "group_intros": {
@@ -1767,8 +1770,8 @@
     "Sep"
    ],
    "10-yr": [
-    "5.21%",
-    "Oct 28"
+    "5.08%",
+    "Nov 4"
    ]
   },
   "rate_label": "Current RBA cash rate",
@@ -1889,6 +1892,60 @@
   "At its meeting today, the Board decided to increase the cash rate target by 25 basis points to 4.85 per cent. Inflation remains elevated and recent data indicate that it is broadly based."
  ],
  "changelog": [
+  {
+   "date": "2026-11-06",
+   "date_label": "Nov 6, 2026",
+   "since": "2026-11-05",
+   "since_label": "Nov 5, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "New official items: <a href=\"https://www.rba.gov.au/media-releases/2026/mr-26-31.html\" target=\"_blank\" rel=\"noopener noreferrer\">Designation of Prosegur Australia Pty Ltd under the Cash Distribution Framework Act 2026</a> (2026-11-05) and <a href=\"https://www.rba.gov.au/speeches/2026/sp-dg-2026-11-05.html\" target=\"_blank\" rel=\"noopener noreferrer\">Trust, Expectations and Monetary Policy</a> (2026-11-05).",
+     "<strong>10-year government bond rate</strong> moved from 5.21% (Oct 28) to 5.08% (Nov 4).",
+     "<strong>2-year government bond rate</strong> moved from 4.95% (Oct 28) to 4.83% (Nov 4).",
+     "<strong>Australian dollar</strong> moved from US$0.7014 (Nov 5) to US$0.6900 (Nov 6)."
+    ]
+   },
+   "data": [
+    {
+     "id": "10_year_bond_rate_monthly_average",
+     "name": "10-year bond rate, monthly average",
+     "from": "5.28%",
+     "from_period": "Oct 2026",
+     "to": "5.27%",
+     "to_period": "Oct 2026"
+    }
+   ],
+   "market": [
+    {
+     "id": "10_year_government_bond_rate",
+     "name": "10-year government bond rate",
+     "from": "5.21%",
+     "from_period": "Oct 28, 2026",
+     "to": "5.08%",
+     "to_period": "Nov 4, 2026",
+     "move": "−0.13 pts"
+    },
+    {
+     "id": "2_year_government_bond_rate",
+     "name": "2-year government bond rate",
+     "from": "4.95%",
+     "from_period": "Oct 28, 2026",
+     "to": "4.83%",
+     "to_period": "Nov 4, 2026",
+     "move": "−0.12 pts"
+    }
+   ],
+   "fed": [
+    {
+     "title": "Designation of Prosegur Australia Pty Ltd under the Cash Distribution Framework Act 2026",
+     "date": "2026-11-05",
+     "url": "https://www.rba.gov.au/media-releases/2026/mr-26-31.html"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-05",
    "date_label": "Nov 5, 2026",
@@ -2182,14 +2239,12 @@
  ],
  "qa": {
   "data_errors": [],
-  "ai_errors": [
-   "Gemini stream error: {\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}"
-  ],
+  "ai_errors": [],
   "sources_read": [
    {
-    "title": "Statement by the Monetary Policy Board: Monetary Policy Decision",
-    "date": "2026-11-03",
-    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html"
+    "title": "Designation of Prosegur Australia Pty Ltd under the Cash Distribution Framework Act 2026",
+    "date": "2026-11-05",
+    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-31.html"
    },
    {
     "title": "Trust, Expectations and Monetary Policy",

@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "code": "canada",
- "asof_date": "2026-11-05",
- "asof_label": "Nov 5, 2026",
- "generated_at": "2026-11-05T23:42:48.603Z",
- "data_updated_at": "2026-11-05T23:42:48.603Z",
- "narrative_updated_at": "2026-11-04T23:46:21.391Z",
- "narrative_stale": true,
+ "asof_date": "2026-11-06",
+ "asof_label": "Nov 6, 2026",
+ "generated_at": "2026-11-06T23:15:04.095Z",
+ "data_updated_at": "2026-11-06T23:15:04.095Z",
+ "narrative_updated_at": "2026-11-06T23:15:04.094Z",
+ "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "canada",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
   "calendar_label": "Official BoC announcement schedule",
   "who": "The Bank of Canada (“the BoC”), Canada’s central bank. Its decisions are made by a small group of senior officials called the Governing Council, led by Governor Tiff Macklem. It aims to agree as a group, so there is no published vote count like in the U.S.",
-  "days_to_decision": 34
+  "days_to_decision": 33
  },
  "kpis": [
   {
    "label": "Bank of Canada rate",
    "value": "2.50%",
    "note": "",
-   "period": "Nov 4, 2026",
+   "period": "Nov 5, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
   },
@@ -60,17 +60,17 @@
   },
   {
    "label": "Unemployment",
-   "value": "6.5%",
+   "value": "6.7%",
    "note": "",
-   "period": "Sep 2026",
+   "period": "Oct 2026",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm"
   },
   {
    "label": "10-year bond rate",
-   "value": "3.70%",
+   "value": "3.67%",
    "note": "",
-   "period": "Nov 4, 2026",
+   "period": "Nov 5, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28"
   }
@@ -340,16 +340,16 @@
    "name": "Employment change",
    "source": "Statistics Canada (Labour Force Survey)",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm",
-   "value": "−68,300",
-   "period": "Sep 2026",
-   "released": "Oct 9, 2026",
-   "previous": "−41,700 (Aug 2026)",
+   "value": "−4,700",
+   "period": "Oct 2026",
+   "released": "Nov 6, 2026",
+   "previous": "−68,300 (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "chg": -68299.99999999927,
-    "avg3": -11633.333333333818
+    "chg": -4700.000000000728,
+    "avg3": -38233.333333333576
    },
    "estimate": false
   },
@@ -359,15 +359,15 @@
    "name": "Unemployment rate",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm",
-   "value": "6.5%",
-   "period": "Sep 2026",
-   "released": "Oct 9, 2026",
-   "previous": "6.4% (Aug 2026)",
+   "value": "6.7%",
+   "period": "Oct 2026",
+   "released": "Nov 6, 2026",
+   "previous": "6.5% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 6.5
+    "v": 6.7
    },
    "estimate": false
   },
@@ -377,15 +377,15 @@
    "name": "Average hourly wages",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm",
-   "value": "2.3%",
-   "period": "Sep 2026",
-   "released": "Oct 9, 2026",
-   "previous": "2.0% (Aug 2026)",
+   "value": "2.2%",
+   "period": "Oct 2026",
+   "released": "Nov 6, 2026",
+   "previous": "2.3% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 2.3
+    "v": 2.2
    },
    "estimate": false
   },
@@ -396,12 +396,12 @@
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm",
    "value": "64.8%",
-   "period": "Sep 2026",
-   "released": "Oct 9, 2026",
-   "previous": "65.0% (Aug 2026)",
+   "period": "Oct 2026",
+   "released": "Nov 6, 2026",
+   "previous": "64.8% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
     "v": 64.8
    },
@@ -413,15 +413,15 @@
    "name": "Employment rate",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm",
-   "value": "60.6%",
-   "period": "Sep 2026",
-   "released": "Oct 9, 2026",
-   "previous": "60.8% (Aug 2026)",
+   "value": "60.5%",
+   "period": "Oct 2026",
+   "released": "Nov 6, 2026",
+   "previous": "60.6% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 60.6
+    "v": 60.5
    },
    "estimate": false
   },
@@ -431,16 +431,16 @@
    "name": "Public sector jobs",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm",
-   "value": "−70,000",
-   "period": "Sep 2026",
-   "released": "Oct 9, 2026",
-   "previous": "−20,000 (Aug 2026)",
+   "value": "+49,600",
+   "period": "Oct 2026",
+   "released": "Nov 6, 2026",
+   "previous": "−70,000 (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "chg": -70000,
-    "avg3": -39000
+    "chg": 49600.000000000364,
+    "avg3": -13466.666666666546
    },
    "estimate": false
   },
@@ -450,15 +450,15 @@
    "name": "Youth unemployment (15–24)",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm",
-   "value": "13.0%",
-   "period": "Sep 2026",
-   "released": "Oct 9, 2026",
-   "previous": "12.9% (Aug 2026)",
+   "value": "13.7%",
+   "period": "Oct 2026",
+   "released": "Nov 6, 2026",
+   "previous": "13.0% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 13
+    "v": 13.7
    },
    "estimate": false
   },
@@ -603,12 +603,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
    "value": "2.50%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 5, 2026",
-   "previous": "2.50% (Nov 3, 2026)",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "2.50% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
     "v": 2.5
    },
@@ -621,12 +621,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/AVG.INTWO/json?recent=6",
    "value": "2.52%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 5, 2026",
-   "previous": "2.53% (Nov 3, 2026)",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "2.52% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
     "v": 2.52
    },
@@ -638,15 +638,15 @@
    "name": "2-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.22%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 5, 2026",
-   "previous": "3.26% (Nov 3, 2026)",
+   "value": "3.17%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "3.22% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 3.22
+    "v": 3.17
    },
    "estimate": false
   },
@@ -656,15 +656,15 @@
    "name": "5-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.43%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 5, 2026",
-   "previous": "3.49% (Nov 3, 2026)",
+   "value": "3.39%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "3.43% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 3.43
+    "v": 3.39
    },
    "estimate": false
   },
@@ -674,15 +674,15 @@
    "name": "10-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.70%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 5, 2026",
-   "previous": "3.77% (Nov 3, 2026)",
+   "value": "3.67%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "3.70% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 3.7
+    "v": 3.67
    },
    "estimate": false
   },
@@ -692,15 +692,15 @@
    "name": "Canadian dollar (US$1 in C$)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25",
-   "value": "C$1.3989",
-   "period": "Nov 5, 2026",
-   "released": "Detected Nov 5, 2026",
-   "previous": "C$1.3961 (Nov 4, 2026)",
+   "value": "C$1.4113",
+   "period": "Nov 6, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "C$1.3989 (Nov 5, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-05",
+   "latest_date": "2026-11-06",
    "raw": {
-    "v": 1.3989
+    "v": 1.4113
    },
    "estimate": false
   },
@@ -946,10 +946,13 @@
   "what_changed": {
    "headline": "Here is what is new since the last update.",
    "items": [
-    "<strong>5-year Government of Canada bond</strong> moved −0.06 pts: now 3.43%, was 3.49%.",
-    "<strong>10-year Government of Canada bond</strong> moved −0.07 pts: now 3.70%, was 3.77%.",
-    "New official item: <a href=\"https://www.bankofcanada.ca/2026/11/joint-statement-of-the-government-of-canada-and-the-bank-of-canada-on-the-renewal-of-the-monetary-policy-framework-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Joint Statement of the Government of Canada and the Bank of Canada on the Renewal of the Monetary Policy Framework</a> (2026-11-05).",
-    "New official item: <a href=\"https://www.bankofcanada.ca/2026/11/opening-statement-standing-senate-committee-banking-commerce-and-economy-2026-11-05/\" target=\"_blank\" rel=\"noopener noreferrer\">Opening Statement to the Standing Senate Committee on Banking, Commerce and the Economy</a> (2026-11-05)."
+    "<strong>Employment change</strong> moved from −68,300 (Sep 2026) to −4,700 (Oct 2026).",
+    "<strong>Unemployment rate</strong> moved from 6.5% (Sep 2026) to 6.7% (Oct 2026).",
+    "<strong>Average hourly wages</strong> moved from 2.3% (Sep 2026) to 2.2% (Oct 2026).",
+    "<strong>Employment rate</strong> moved from 60.6% (Sep 2026) to 60.5% (Oct 2026).",
+    "<strong>Public sector jobs</strong> moved from −70,000 (Sep 2026) to +49,600 (Oct 2026).",
+    "<strong>Youth unemployment (15–24)</strong> moved from 13.0% (Sep 2026) to 13.7% (Oct 2026).",
+    "<strong>2-year Government of Canada bond</strong> moved −0.05 pts: now 3.17%, was 3.22%."
    ]
   },
   "verdict": {
@@ -983,11 +986,11 @@
    },
    {
     "title": "Expensive oil cuts both ways for Canada",
-    "html": "This is where Canada is different from the U.S. or Europe. Canada is a big <strong>oil producer and exporter</strong>. When oil is expensive, two things happen at once:\n\n<ul><li><strong>It hurts as a shopper.</strong> Families pay more at the pump and for heating, and trucking and flying cost more. That pushes the CPI up and leaves less money for other things.</li><li><strong>It helps as a seller.</strong> Oil companies, workers and governments in producing provinces earn more. In August, energy exports rose 4.7% (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261006/dq261006a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>), and in September Alberta added 23,000 jobs while the country as a whole lost jobs (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>).</li><li><strong>An unusual twist: the loonie fell.</strong> Normally expensive oil lifts the Canadian dollar. This time one U.S. dollar went to about C$1.3961 (<a href=\"https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>), partly due to interest rate differences with the U.S. A weaker loonie makes imported goods dearer, adding to inflation risk.</li></ul>"
+    "html": "This is where Canada is different from the U.S. or Europe. Canada is a big <strong>oil producer and exporter</strong>. When oil is expensive, two things happen at once:\n\n<ul><li><strong>It hurts as a shopper.</strong> Families pay more at the pump and for heating, and trucking and flying cost more. That pushes the CPI up and leaves less money for other things.</li><li><strong>It helps as a seller.</strong> Oil companies, workers and governments in producing provinces earn more. In August, energy exports rose 4.7% (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261006/dq261006a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>), and in September Alberta added 23,000 jobs while the country as a whole lost jobs (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>).</li><li><strong>An unusual twist: the loonie fell.</strong> Normally expensive oil lifts the Canadian dollar. This time one U.S. dollar went to about C$1.4113 (<a href=\"https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-10-01\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>), partly due to interest rate differences with the U.S. A weaker loonie makes imported goods dearer, adding to inflation risk.</li></ul>"
    },
    {
     "title": "Jobs are weakening, and new U.S. tariffs add a worry",
-    "html": "Canada lost <strong>41,700 jobs in August</strong> (revised) and <strong>68,300 in September</strong>. Unemployment rose to <strong>6.5%</strong>. The share of adults working or looking for work fell to 64.8%, partly because the population is ageing (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>). Pay is rising only <strong>2.3%</strong> a year, slower than prices, so many workers are losing buying power.\n\nOn top of that, new U.S. tariffs covering about 5% of Canada’s goods exports to the U.S. have created uncertainty. Governor Macklem noted that if they stay, growth could face headwinds. A weaker economy makes it harder for shops and firms to raise prices, which works against inflation."
+    "html": "Canada lost <strong>4,700 jobs in October</strong> following a sharp contraction in September, and unemployment edged up to <strong>6.7%</strong>. The share of adults working or looking for work held at 64.8%, while the overall employment rate ticked down to 60.5% (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>). Pay is rising only <strong>2.2%</strong> a year, slower than prices, so many workers are losing buying power.\n\nOn top of that, new U.S. tariffs covering about 5% of Canada’s goods exports to the U.S. have created uncertainty. Governor Macklem noted that if they stay, growth could face headwinds. A weaker economy makes it harder for shops and firms to raise prices, which works against inflation."
    },
    {
     "title": "Weighing both sides",
@@ -1002,21 +1005,21 @@
      "right_title": "Pulls toward Hold now",
      "right": [
       "Core inflation below 2%, on target",
-      "110,000+ jobs lost in Aug–Sep",
+      "Employment contracted further in October (-4,700)",
       "New U.S. tariffs and growth uncertainty",
-      "Pay rising only 2.3% a year",
+      "Pay rising only 2.2% a year",
       "BoC expects to pause and assess impact"
      ]
     },
-    "html": "Having delivered a 25 basis point hike in October to 2.50%, the BoC has pressed the brake to ensure energy-driven price pressures do not become permanent. However, with over 110,000 jobs lost across August and September and new U.S. tariffs weighing on growth, further immediate hikes are unlikely unless incoming inflation data proves stubborn. That is why we estimate a <strong>75% Hold</strong>, <strong>20% Raise</strong>, and <strong>5% Cut</strong> for the December meeting."
+    "html": "Having delivered a 25 basis point hike in October to 2.50%, the BoC has pressed the brake to ensure energy-driven price pressures do not become permanent. However, with employment continuing to contract in October and new U.S. tariffs weighing on growth, further immediate hikes are unlikely unless incoming inflation data proves stubborn. That is why we estimate a <strong>75% Hold</strong>, <strong>20% Raise</strong>, and <strong>5% Cut</strong> for the December meeting."
    },
    {
     "title": "What the BoC has been saying",
-    "html": "In its October 28 press release and Monetary Policy Report, the BoC noted that “Inflation in Canada has been higher than anticipated and is projected to remain around 3% through much of 2027” before returning to 2% by mid-2028 (<a href=\"https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>). Governor Macklem emphasized during the press conference that while the economy's growth outlook has improved, uncertainty remains elevated. The October rate hike reflects the central bank's determination to keep inflation expectations anchored while watching incoming labor market and trade data."
+    "html": "In its October 28 press release and Monetary Policy Report, the BoC noted that “Inflation in Canada has been higher than anticipated and is projected to remain around 3% through much of 2027” before returning to 2% by mid-2028 (<a href=\"https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>). Governor Macklem emphasized during recent testimony and press conferences that while the economy's growth outlook has improved, uncertainty remains elevated. The October rate hike reflects the central bank's determination to keep inflation expectations anchored while watching incoming labor market and trade data."
    },
    {
     "title": "The road to the December 9 decision",
-    "html": "On <strong>Wednesday, December 9</strong>, the BoC announces its final rate decision of the year. Incoming reports on retail trade, monthly GDP, and the October Labour Force Survey will shape whether the Governing Council maintains the 2.50% rate or considers further adjustments."
+    "html": "On <strong>Wednesday, December 9</strong>, the BoC announces its final rate decision of the year. Incoming reports on retail trade, monthly GDP, and upcoming inflation figures will shape whether the Governing Council maintains the 2.50% rate or considers further adjustments."
    }
   ],
   "timeline": [
@@ -1197,7 +1200,7 @@
     "meaning": "the BoC pauses after its October hike to assess economic conditions and the impact of higher borrowing costs.",
     "for": [
      "<strong>Recent rate hike:</strong> The BoC already raised rates to 2.50% in October to address persistent inflation risks.",
-     "<strong>Weakening jobs:</strong> Over 110,000 jobs were lost in August and September combined, and unemployment sits at 6.5%.",
+     "<strong>Weakening jobs:</strong> Employment fell further in October (-4,700) and unemployment sits at 6.7%.",
      "<strong>Core inflation on target:</strong> Core measures (CPI-trim 1.8%, CPI-median 1.9%) remain near the 2% goal.",
      "<strong>New U.S. tariffs:</strong> Trade pressures create growth uncertainty that counsels caution."
     ],
@@ -1231,7 +1234,7 @@
     "title": "Cut: lower the rate",
     "meaning": "the BoC reverses course to support growth if the economy experiences a severe downturn.",
     "for": [
-     "Significant job losses over two consecutive months point to underlying economic fragility.",
+     "Continued job losses point to underlying economic fragility.",
      "Tariff escalation could severely impact Canadian exports."
     ],
     "against": [
@@ -1247,19 +1250,15 @@
    "intro_title": "Why upcoming data matters for December",
    "intro": "Now that the October 28 decision and Monetary Policy Report are complete, all eyes turn to incoming reports on trade, employment, and retail sales to see how the economy is responding to the 2.50% rate.",
    "reports": {
-    "merchandise_trade": {
-     "why": "Tracks September export performance and trade balance amid tariff concerns.",
-     "trigger": "A widening trade surplus supports growth; trade contraction adds downside risk."
-    },
     "labour_force_survey": {
-     "why": "October jobs data will show whether employment stabilized after summer losses.",
-     "trigger": "Job gains ease pressure on the BoC; further job losses strengthen the case for a prolonged hold."
+     "why": "October jobs data shows employment contracting further (-4,700) and unemployment rising to 6.7%.",
+     "trigger": "Continued job losses reinforce the case for a prolonged hold; employment recovery could revive tightening expectations."
     },
     "market_participants_survey": {
      "why": "Shows what financial professionals expect for upcoming rate decisions.",
      "trigger": "Shifts in market pricing will guide our probability assessments for December."
     },
-    "summary_of_deliberations_oct_28": {
+    "summary_of_deliberations_oct_2": {
      "why": "Reveals the debate behind the October 28 rate hike and Governing Council views.",
      "trigger": "Details on how close the vote was will clarify the path toward December."
     }
@@ -1284,9 +1283,9 @@
    {
     "area": "Jobs",
     "grade": "red",
-    "one": "Canada lost jobs in August and September, and unemployment rose to 6.5%.",
-    "look": "Monthly employment change, unemployment rate, wage growth (2.3%), and participation rate (64.8%).",
-    "why": "Employment fell 41,700 in August and 68,300 in September. Consecutive monthly losses signal a cooling labor market despite moderate wage growth.",
+    "one": "Employment contracted further in October, and unemployment rose to 6.7%.",
+    "look": "Monthly employment change (-4,700), unemployment rate (6.7%), wage growth (2.2%), and participation rate (64.8%).",
+    "why": "Employment fell again in October following sharp losses in August and September. Consecutive monthly weakness signals a cooling labor market.",
     "change": "Consistent job growth over multiple months → amber/green.",
     "matters": "Labor market weakness tempers the need for aggressive further rate hikes."
    },
@@ -1302,8 +1301,8 @@
    {
     "area": "Money markets",
     "grade": "amber",
-    "one": "Market borrowing costs have adjusted to the October rate hike, and the loonie trades near C$1.3961.",
-    "look": "Government of Canada bond yields, CORRA overnight lending rate (2.53%), and the exchange rate.",
+    "one": "Market borrowing costs have adjusted to the October rate hike, and the loonie trades near C$1.4113.",
+    "look": "Government of Canada bond yields, CORRA overnight lending rate (2.52%), and the exchange rate.",
     "why": "Financial markets have absorbed the BoC's move to 2.50%, and CORRA operates effectively near the target rate while the loonie remains soft.",
     "change": "Significant shifts in bond yields or exchange rates.",
     "matters": "Market rates reflect ongoing expectations for the path of monetary policy."
@@ -1368,19 +1367,19 @@
     "now_label": "Falling",
     "now_tone": "bad",
     "what": "the monthly change in total employment from Statistics Canada.",
-    "why": "a drop of 68,300 in September highlights significant labor market cooling."
+    "why": "a drop of 4,700 in October highlights continued labor market softness."
    },
    "unemployment_rate": {
     "now_label": "Edging up",
     "now_tone": "bad",
     "what": "the share of the labor force actively looking for work without a job.",
-    "why": "at 6.5%, unemployment has drifted higher over recent months."
+    "why": "at 6.7%, unemployment has drifted higher over recent months."
    },
    "average_hourly_wages": {
     "now_label": "Moderate",
     "now_tone": "mixed",
     "what": "average hourly earnings growth for employees.",
-    "why": "at 2.3%, wage growth remains moderate and is not currently driving excessive inflation."
+    "why": "at 2.2%, wage growth remains moderate and is not currently driving excessive inflation."
    },
    "participation_rate": {
     "now_label": "Low",
@@ -1392,19 +1391,19 @@
     "now_label": "Down",
     "now_tone": "bad",
     "what": "the share of the total adult population with a job.",
-    "why": "at 60.6%, it confirms recent softness in labor market conditions."
+    "why": "at 60.5%, it confirms recent softness in labor market conditions."
    },
    "public_sector_jobs": {
-    "now_label": "Government cutting",
+    "now_label": "Government hiring",
     "now_tone": "info",
     "what": "employment changes in public administration and government-funded services.",
-    "why": "down 70,000 in September, contributing significantly to the headline monthly contraction."
+    "why": "up 49,600 in October, offsetting some private sector declines."
    },
    "youth_unemployment_15_24": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "the unemployment rate for young workers aged 15 to 24.",
-    "why": "at 13.0%, young job seekers face continued hiring challenges."
+    "why": "at 13.7%, young job seekers face continued hiring challenges."
    },
    "job_vacancies": {
     "now_label": "Steady",
@@ -1464,31 +1463,31 @@
     "now_label": "On target",
     "now_tone": "info",
     "what": "the Canadian Overnight Repo Rate Average, representing actual overnight bank lending costs.",
-    "why": "at 2.53%, it operates effectively near the policy target."
+    "why": "at 2.52%, it operates effectively near the policy target."
    },
    "2_year_government_of_canada_bond": {
     "now_label": "Pricing in rates",
     "now_tone": "mixed",
     "what": "government borrowing costs for a two-year term.",
-    "why": "at 3.26%, it reflects investor expectations for monetary policy."
+    "why": "at 3.17%, it reflects investor expectations for monetary policy."
    },
    "5_year_government_of_canada_bond": {
     "now_label": "Higher",
     "now_tone": "mixed",
     "what": "government borrowing costs for a five-year term.",
-    "why": "at 3.49%, it influences fixed mortgage rates for households."
+    "why": "at 3.39%, it influences fixed mortgage rates for households."
    },
    "10_year_government_of_canada_bond": {
     "now_label": "Up over the year",
     "now_tone": "bad",
     "what": "government borrowing costs for a ten-year term.",
-    "why": "at 3.77%, higher long-term yields help cool borrowing independently."
+    "why": "at 3.67%, higher long-term yields help cool borrowing independently."
    },
    "canadian_dollar_us_1_in_c": {
     "now_label": "Weaker loonie",
     "now_tone": "bad",
     "what": "the exchange rate between the Canadian dollar and the U.S. dollar.",
-    "why": "at C$1.3961, a softer loonie makes imported goods dearer, adding slight price pressure."
+    "why": "at C$1.4113, a softer loonie makes imported goods dearer, adding slight price pressure."
    },
    "market_forecasters_expected_boc_rate_p": {
     "now_label": "Stable path",
@@ -1672,7 +1671,6 @@
    }
   ],
   "gaps": [
-   "<strong>Upcoming indicator releases</strong> such as October Labour Force Survey will arrive shortly. <em>Why it matters:</em> incoming employment data will refine labor market trends after the October rate decision.",
    "<strong>Market-implied rate odds.</strong> Official market pricing for December meeting probabilities was not available; we rely on our qualitative assessment. <em>Why it matters:</em> exact market consensus pricing cannot be directly compared against our probability estimates.",
    "<strong>Manual snapshots and surveys.</strong> Several indicators (such as business expectations and neutral rate estimates) rely on periodic manual releases rather than daily feeds. <em>Why it matters:</em> these figures represent historical survey intervals rather than real-time data."
   ],
@@ -1804,12 +1802,12 @@
     "CPI, Sep"
    ],
    "jobless": [
-    "6.5%",
-    "Sep"
+    "6.7%",
+    "Oct"
    ],
    "10-yr": [
-    "3.70%",
-    "Nov 4"
+    "3.67%",
+    "Nov 5"
    ]
   },
   "rate_label": "Current BoC rate",
@@ -1914,6 +1912,96 @@
   "Inflation in Canada has been higher than anticipated and is projected to remain around 3% through much of 2027. It then returns close to 2% by the middle of 2028."
  ],
  "changelog": [
+  {
+   "date": "2026-11-06",
+   "date_label": "Nov 6, 2026",
+   "since": "2026-11-05",
+   "since_label": "Nov 5, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "<strong>Employment change</strong> moved from −68,300 (Sep 2026) to −4,700 (Oct 2026).",
+     "<strong>Unemployment rate</strong> moved from 6.5% (Sep 2026) to 6.7% (Oct 2026).",
+     "<strong>Average hourly wages</strong> moved from 2.3% (Sep 2026) to 2.2% (Oct 2026).",
+     "<strong>Employment rate</strong> moved from 60.6% (Sep 2026) to 60.5% (Oct 2026).",
+     "<strong>Public sector jobs</strong> moved from −70,000 (Sep 2026) to +49,600 (Oct 2026).",
+     "<strong>Youth unemployment (15–24)</strong> moved from 13.0% (Sep 2026) to 13.7% (Oct 2026).",
+     "<strong>2-year Government of Canada bond</strong> moved −0.05 pts: now 3.17%, was 3.22%."
+    ]
+   },
+   "data": [
+    {
+     "id": "employment_change",
+     "name": "Employment change",
+     "from": "−68,300",
+     "from_period": "Sep 2026",
+     "to": "−4,700",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "unemployment_rate",
+     "name": "Unemployment rate",
+     "from": "6.5%",
+     "from_period": "Sep 2026",
+     "to": "6.7%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "average_hourly_wages",
+     "name": "Average hourly wages",
+     "from": "2.3%",
+     "from_period": "Sep 2026",
+     "to": "2.2%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "participation_rate",
+     "name": "Participation rate",
+     "from": "64.8%",
+     "from_period": "Sep 2026",
+     "to": "64.8%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "employment_rate",
+     "name": "Employment rate",
+     "from": "60.6%",
+     "from_period": "Sep 2026",
+     "to": "60.5%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "public_sector_jobs",
+     "name": "Public sector jobs",
+     "from": "−70,000",
+     "from_period": "Sep 2026",
+     "to": "+49,600",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "youth_unemployment_15_24",
+     "name": "Youth unemployment (15–24)",
+     "from": "13.0%",
+     "from_period": "Sep 2026",
+     "to": "13.7%",
+     "to_period": "Oct 2026"
+    }
+   ],
+   "market": [
+    {
+     "id": "2_year_government_of_canada_bond",
+     "name": "2-year Government of Canada bond",
+     "from": "3.22%",
+     "from_period": "Nov 4, 2026",
+     "to": "3.17%",
+     "to_period": "Nov 5, 2026",
+     "move": "−0.05 pts"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-05",
    "date_label": "Nov 5, 2026",
@@ -2450,9 +2538,7 @@
  ],
  "qa": {
   "data_errors": [],
-  "ai_errors": [
-   "Gemini stream error: {\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}"
-  ],
+  "ai_errors": [],
   "sources_read": [
    {
     "title": "Joint Statement of the Government of Canada and the Bank of Canada on the Renewal of the Monetary Policy Framework",
@@ -2488,11 +2574,6 @@
     "title": "Monetary Policy Report Press Conference Opening Statement",
     "date": "2026-10-28",
     "url": "https://www.bankofcanada.ca/2026/10/opening-statement-2026-10-28/"
-   },
-   {
-    "title": "Speech: Greater Victoria Chamber of Commerce and CFA Society Victoria",
-    "date": "2026-10-01",
-    "url": "https://www.bankofcanada.ca/multimedia/speech-greater-victoria-chamber-of-commerce-and-cfa-society-victoria-2026-10-1/"
    }
   ],
   "coverage": {

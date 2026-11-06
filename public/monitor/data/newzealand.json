@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-11-05",
- "asof_label": "Nov 5, 2026",
- "generated_at": "2026-11-05T23:43:24.695Z",
- "data_updated_at": "2026-11-05T23:43:24.695Z",
- "narrative_updated_at": "2026-11-04T23:47:58.540Z",
+ "asof_date": "2026-11-06",
+ "asof_label": "Nov 6, 2026",
+ "generated_at": "2026-11-06T23:16:17.028Z",
+ "data_updated_at": "2026-11-06T23:16:17.028Z",
+ "narrative_updated_at": "2026-11-06T23:16:17.028Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -32,7 +32,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 34
+  "days_to_decision": 33
  },
  "kpis": [
   {
@@ -61,9 +61,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "4.65%",
+   "value": "4.68%",
    "note": "",
-   "period": "Nov 5, 2026",
+   "period": "Nov 6, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield"
   }
@@ -556,12 +556,12 @@
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/3-month-bill-yield",
    "value": "3.14%",
-   "period": "Nov 5, 2026",
-   "released": "Detected Nov 5, 2026",
-   "previous": "3.14% (Nov 4, 2026)",
+   "period": "Nov 6, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "3.14% (Nov 5, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-05",
+   "latest_date": "2026-11-06",
    "raw": {
     "v": 3.14
    },
@@ -573,15 +573,15 @@
    "name": "2-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
-   "value": "3.80%",
-   "period": "Nov 5, 2026",
-   "released": "Detected Nov 5, 2026",
-   "previous": "3.87% (Nov 4, 2026)",
+   "value": "3.82%",
+   "period": "Nov 6, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "3.81% (Nov 5, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-05",
+   "latest_date": "2026-11-06",
    "raw": {
-    "v": 3.798
+    "v": 3.82
    },
    "estimate": false
   },
@@ -591,15 +591,15 @@
    "name": "10-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
-   "value": "4.65%",
-   "period": "Nov 5, 2026",
-   "released": "Detected Nov 5, 2026",
-   "previous": "4.72% (Nov 4, 2026)",
+   "value": "4.68%",
+   "period": "Nov 6, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "4.65% (Nov 5, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-05",
+   "latest_date": "2026-11-06",
    "raw": {
-    "v": 4.654
+    "v": 4.684
    },
    "estimate": false
   },
@@ -681,7 +681,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
    "value": "$99.64 a barrel",
    "period": "Nov 3, 2026",
-   "released": "Nov 4, 2026",
+   "released": "Nov 5, 2026",
    "previous": "$100.06 (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
@@ -711,12 +711,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 5, 2026",
-   "released": "Nov 5, 2026",
-   "previous": "4.00% (Nov 4, 2026)",
+   "period": "Nov 6, 2026",
+   "released": "Nov 6, 2026",
+   "previous": "4.00% (Nov 5, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-05",
+   "latest_date": "2026-11-06",
    "raw": {
     "v": 4
    },
@@ -729,12 +729,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 5, 2026",
-   "released": "Detected Nov 5, 2026",
-   "previous": "2.50% (Nov 4, 2026)",
+   "period": "Nov 6, 2026",
+   "released": "Detected Nov 6, 2026",
+   "previous": "2.50% (Nov 5, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-05",
+   "latest_date": "2026-11-06",
    "raw": {
     "v": 2.5
    },
@@ -843,8 +843,10 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "The Reserve Bank filed a disclosure charge against Westpac New Zealand.",
+   "items": [
+    "<strong>Westpac charge:</strong> The Reserve Bank filed a charge against Westpac New Zealand Limited in the District Court on November 5, 2026, relating to disclosure requirements."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -881,7 +883,7 @@
    },
    {
     "title": "Reasons the RBNZ held in October",
-    "html": "<ul><li><strong>Inflation cooled more than expected.</strong> Q3 CPI came in at 3.7%, below the RBNZ's 3.9% forecast.</li><li><strong>The economy is weak.</strong> GDP grew only <strong>0.2%</strong> in the June quarter and household spending was flat (<a href=\"https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/\" target=\"_blank\" rel=\"noopener noreferrer\">Stats NZ</a>). Unemployment is <strong>5.7%</strong>, and the RBNZ expects it to stay above 5% until 2028.</li><li><strong>Bond markets already pressed the brake.</strong> The 10-year government bond rate is 4.67%. Fixed mortgage rates follow these wholesale rates.</li><li><strong>December brings full forecasts.</strong> October was a shorter Review without full new forecasts.</li><li><strong>“May”, not “will”.</strong> September’s wording (“may need to increase further”) was softer than July’s (“further OCR increases appear likely”).</li></ul>"
+    "html": "<ul><li><strong>Inflation cooled more than expected.</strong> Q3 CPI came in at 3.7%, below the RBNZ's 3.9% forecast.</li><li><strong>The economy is weak.</strong> GDP grew only <strong>0.2%</strong> in the June quarter and household spending was flat (<a href=\"https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/\" target=\"_blank\" rel=\"noopener noreferrer\">Stats NZ</a>). Unemployment is <strong>5.7%</strong>, and the RBNZ expects it to stay above 5% until 2028.</li><li><strong>Bond markets already pressed the brake.</strong> The 10-year government bond rate is 4.68%. Fixed mortgage rates follow these wholesale rates.</li><li><strong>December brings full forecasts.</strong> October was a shorter Review without full new forecasts.</li><li><strong>“May”, not “will”.</strong> September’s wording (“may need to increase further”) was softer than July’s (“further OCR increases appear likely”).</li></ul>"
    },
    {
     "title": "Reasons the RBNZ might still raise in future",
@@ -1084,7 +1086,7 @@
     "date_label": "October 27, 2026",
     "title": "RBNZ holds OCR at 2.75%",
     "kind": "now",
-    "what": "The RBNZ held the OCR at 2.75% in its October Monetary Policy Review. The 90-day bank bill rate is 3.14%, the 2-year bond yield 3.81%, and the 10-year 4.67%.",
+    "what": "The RBNZ held the OCR at 2.75% in its October Monetary Policy Review. The 90-day bank bill rate is 3.14%, the 2-year bond yield 3.82%, and the 10-year 4.68%.",
     "sources": [
      {
       "label": "OCR decision",
@@ -1104,7 +1106,7 @@
     "for": [
      "<strong>Inflation is cooling.</strong> Q3 CPI fell to 3.7%, below the RBNZ's 3.9% forecast.",
      "<strong>Weak growth and high unemployment.</strong> GDP grew only 0.2% and unemployment is 5.7%.",
-     "<strong>Bond markets did some of the work.</strong> The 10-year rate is 4.67%.",
+     "<strong>Bond markets did some of the work.</strong> The 10-year rate is 4.68%.",
      "<strong>December is a better moment</strong> for full new forecasts and labour market updates.",
      "<strong>Softer wording.</strong> September’s “may need to increase further” leaves room to pause."
     ],
@@ -1226,7 +1228,7 @@
     "grade": "amber",
     "one": "Borrowing costs have jumped, and the Kiwi dollar is weak.",
     "look": "Wholesale interest rates and the NZ dollar.",
-    "why": "The 10-year government bond rate is 4.67%. The NZ dollar sits at US$0.5621, and the trade-weighted index is 63.94.",
+    "why": "The 10-year government bond rate is 4.68%. The NZ dollar sits at US$0.5621, and the trade-weighted index is 63.94.",
     "change": "A calmer currency and lower long rates → green.",
     "matters": "Higher market rates cool borrowing, supporting the October hold.",
     "change_label": "What would change it"
@@ -1393,13 +1395,13 @@
     "now_label": "Above OCR",
     "now_tone": "bad",
     "what": "government two-year borrowing cost.",
-    "why": "at 3.81%."
+    "why": "at 3.82%."
    },
    "10_year_government_bond_yield": {
     "now_label": "Near 5%",
     "now_tone": "bad",
     "what": "government ten-year borrowing cost.",
-    "why": "at 4.67%."
+    "why": "at 4.68%."
    },
    "market_odds_of_an_october_rise": {
     "now_label": "Balanced",
@@ -1469,6 +1471,23 @@
    }
   },
   "said": [
+   {
+    "n": "Westpac disclosure charge",
+    "v": "Reserve Bank files DCS charge against Westpac",
+    "p": "Banking supervision",
+    "r": "2026-11-05",
+    "pv": "Prior disclosure reviews",
+    "s": "Reserve Bank of New Zealand",
+    "u": "https://www.rbnz.govt.nz/news-and-events/news/2026/11/reserve-bank-files-dcs-disclosure-charge-against-westpac-new-zealand-limited",
+    "now": [
+     "now-info",
+     "Legal charge"
+    ],
+    "w": [
+     "What it said: “The Reserve Bank of New Zealand – Te Pūtea Matua has filed a charge against Westpac New Zealand Limited in the District Court.”",
+     "Why it matters: highlights regulatory enforcement action regarding bank disclosure requirements."
+    ]
+   },
    {
     "n": "Revolut bank registration",
     "v": "Revolut registered as a bank",
@@ -1572,23 +1591,6 @@
     ]
    },
    {
-    "n": "New MPC member appointment",
-    "v": "Rebecca Williams appointed",
-    "p": "Committee structure",
-    "r": "Sep 24, 2026",
-    "pv": "Seat vacant",
-    "s": "Reserve Bank of New Zealand",
-    "u": "https://www.rbnz.govt.nz/news-and-events/news/2026/09/new-monetary-policy-committee-member-appointed",
-    "now": [
-     "now-info",
-     "New voice"
-    ],
-    "w": [
-     "What it said: A new internal member of the Monetary Policy Committee (MPC), Rebecca Williams, has been appointed by the Minister of Finance, Nicola Willis, on the recommendation of the RBNZ Board.",
-     "Why it matters: brings a fresh internal economic voice to the decision table."
-    ]
-   },
-   {
     "n": "Governor Breman, Dunedin",
     "v": "Oil and long rates a challenge",
     "p": "Sep 22, 2026",
@@ -1609,7 +1611,7 @@
   "gaps": [
    "<strong>Full Stats NZ releases.</strong> For the Q3 CPI and other releases we could read only headline summaries; further details come from RBNZ and Treasury summaries. <em>Why it matters:</em> small details could differ from full official tables.",
    "<strong>Individual core inflation measures and household inflation expectations</strong> were not collected; we have only the RBNZ’s average and description.",
-   "<strong>How we gathered data:</strong> data were gathered via web search and direct page reads on November 4, 2026."
+   "<strong>How we gathered data:</strong> data were gathered via web search and direct page reads on November 6, 2026."
   ],
   "group_intros": {
    "prices": "These numbers tell us how fast things are getting more expensive in New Zealand. The RBNZ’s job is to keep yearly inflation between 1% and 3%, aiming for the 2% midpoint over the medium term. New Zealand measures consumer prices quarterly.",
@@ -1737,8 +1739,8 @@
     "Q3"
    ],
    "10-yr": [
-    "4.65%",
-    "Nov 5"
+    "4.68%",
+    "Nov 6"
    ]
   },
   "rate_label": "Current OCR",
@@ -1838,9 +1840,33 @@
   "The Reserve Bank of New Zealand – Te Pūtea Matua (RBNZ) and the Financial Markets Authority – Te Mana Tātai Hokohoko (FMA) have today outlined their supervisory expectations on cyber risks associated with frontier Artificial Intelligence (AI).",
   "The Reserve Bank of New Zealand – Te Pūtea Matua (RBNZ) has brought together public and private sector organisations to sign a Memorandum of Understanding (MoU) aimed at supporting access to basic transaction services in New Zealand.",
   "The Reserve Bank of New Zealand – Te Pūtea Matua has appointed Stan Christian as Director of Prudential Supervision following an extensive recruitment process.",
-  "The Reserve Bank of New Zealand – Te Pūtea Matua has today announced that it has registered Revolut Bank New Zealand Limited (Revolut NZ) to provide banking services in New Zealand."
+  "The Reserve Bank of New Zealand – Te Pūtea Matua has today announced that it has registered Revolut Bank New Zealand Limited (Revolut NZ) to provide banking services in New Zealand.",
+  "The Reserve Bank of New Zealand – Te Pūtea Matua has filed a charge against Westpac New Zealand Limited in the District Court."
  ],
  "changelog": [
+  {
+   "date": "2026-11-06",
+   "date_label": "Nov 6, 2026",
+   "since": "2026-11-05",
+   "since_label": "Nov 5, 2026",
+   "summary": {
+    "headline": "The Reserve Bank filed a disclosure charge against Westpac New Zealand.",
+    "items": [
+     "<strong>Westpac charge:</strong> The Reserve Bank filed a charge against Westpac New Zealand Limited in the District Court on November 5, 2026, relating to disclosure requirements."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Reserve Bank files DCS disclosure charge against Westpac New Zealand Limited",
+     "date": "2026-11-05",
+     "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/11/reserve-bank-files-dcs-disclosure-charge-against-westpac-new-zealand-limited"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-04",
    "date_label": "Nov 4, 2026",
@@ -2270,15 +2296,20 @@
  "qa": {
   "data_errors": [
    "nz_dollar_in_us_dollars: HTTP 400 for https://api.stlouisfed.org/fred/series/observations?series_id=DEXNZUS&api_key=***&file_type=json&sort_order=desc&limit=40",
+   "page https://www.rbnz.govt.nz/news-and-events/news/2026/11/reserve-bank-files-dcs-disclosure-charge-against-westpac-new-zealand-limited: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/11/reserve-bank-files-dcs-disclosure-charge-against-westpac-new-zealand-limited",
    "page https://www.rbnz.govt.nz/news-and-events/news/2026/11/rbnz-registers-revolut-as-a-bank-in-new-zealand: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/11/rbnz-registers-revolut-as-a-bank-in-new-zealand",
    "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/rbnz-appoints-director-of-prudential-supervision: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/rbnz-appoints-director-of-prudential-supervision",
    "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/ocr-held-at-2-75-percent: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/ocr-held-at-2-75-percent",
    "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/new-framework-supports-access-to-basic-transaction-services: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/new-framework-supports-access-to-basic-transaction-services",
-   "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience",
-   "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/rbnz-and-fma-outline-supervisory-expectations-on-cyber-and-ai-risks: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/rbnz-and-fma-outline-supervisory-expectations-on-cyber-and-ai-risks"
+   "page https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience: HTTP 403 for https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience"
   ],
   "ai_errors": [],
   "sources_read": [
+   {
+    "title": "Reserve Bank files DCS disclosure charge against Westpac New Zealand Limited",
+    "date": "2026-11-05",
+    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/11/reserve-bank-files-dcs-disclosure-charge-against-westpac-new-zealand-limited"
+   },
    {
     "title": "RBNZ registers Revolut as a bank in New Zealand",
     "date": "2026-11-02",
@@ -2303,17 +2334,12 @@
     "title": "APRA and RBNZ complete joint bank stress test to promote trans-Tasman resilience",
     "date": "2026-10-14",
     "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/10/apra-and-rbnz-complete-joint-bank-stress-test-to-promote-trans-tasman-resilience"
-   },
-   {
-    "title": "RBNZ and FMA outline supervisory expectations on cyber and AI risks",
-    "date": "2026-10-14",
-    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/10/rbnz-and-fma-outline-supervisory-expectations-on-cyber-and-ai-risks"
    }
   ],
   "coverage": {
    "automatic": 18,
    "manual": 21
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }
