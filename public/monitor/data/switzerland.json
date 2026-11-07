@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "switzerland",
- "asof_date": "2026-11-06",
- "asof_label": "Nov 6, 2026",
- "generated_at": "2026-11-06T23:18:20.780Z",
- "data_updated_at": "2026-11-06T23:18:20.780Z",
- "narrative_updated_at": "2026-11-06T23:18:20.780Z",
+ "asof_date": "2026-11-07",
+ "asof_label": "Nov 7, 2026",
+ "generated_at": "2026-11-07T21:57:44.708Z",
+ "data_updated_at": "2026-11-07T21:57:44.708Z",
+ "narrative_updated_at": "2026-11-07T21:57:44.708Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
   "calendar_label": "Official SNB time schedule",
   "who": "The Swiss National Bank (“the SNB”), Switzerland’s central bank. Decisions are taken by its <strong>Governing Board</strong>, just three people: Chairman Martin Schlegel, Vice Chairman Antoine Martin and Petra Tschudin. They decide together and publish no vote count.",
-  "days_to_decision": 34
+  "days_to_decision": 33
  },
  "kpis": [
   {
@@ -562,15 +562,15 @@
    "name": "2-year Confederation bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/switzerland/2-year-note-yield",
-   "value": "0.15%",
+   "value": "0.21%",
    "period": "Nov 6, 2026",
    "released": "Detected Nov 6, 2026",
-   "previous": "0.20% (Nov 5, 2026)",
+   "previous": "0.26% (Nov 5, 2026)",
    "tag": "official",
    "manual": false,
    "latest_date": "2026-11-06",
    "raw": {
-    "v": 0.147
+    "v": 0.206
    },
    "estimate": false
   },
@@ -682,12 +682,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 6, 2026",
-   "previous": "2.50% (Nov 5, 2026)",
+   "period": "Nov 7, 2026",
+   "released": "Detected Nov 7, 2026",
+   "previous": "2.50% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-07",
    "raw": {
     "v": 2.5
    },
@@ -762,7 +762,7 @@
   "what_changed": {
    "headline": "Here is what is new since the last update.",
    "items": [
-    "<strong>2-year Confederation bond yield</strong> moved −0.05 pts: now 0.15%, was 0.20%."
+    "<strong>2-year Confederation bond yield</strong> moved +0.06 pts: now 0.21%, was 0.15%."
    ]
   },
   "verdict": {
@@ -812,7 +812,7 @@
       "Strong growth; forecasts raised to 1.7%–1.9%",
       "Weaker franc adds to import prices",
       "Fed and ECB rates higher; KOF expects an SNB rise",
-      "2-year bond rate (0.15%) above SARON (−0.04%)"
+      "2-year bond rate (0.21%) above SARON (−0.04%)"
      ],
      "right_title": "Pulls toward Hold in December",
      "right": [
@@ -1166,7 +1166,7 @@
     "grade": "amber",
     "one": "Market rates have risen a little, and the franc has eased from its highs.",
     "look": "The overnight rate SARON, Confederation (government) bond rates, the franc against the euro and dollar, and mortgage rates.",
-    "why": "SARON (−0.04%) sits right where the SNB wants it, just under 0%. The 10-year Confederation bond yield is 0.450%, and the 2-year (0.15%) is above SARON, so markets expect somewhat higher rates. The franc fell 2.8% on a trade-weighted basis over the summer, which the SNB called supportive, but it is still very strong by long-run standards (one euro buys CHF 0.9144).",
+    "why": "SARON (−0.04%) sits right where the SNB wants it, just under 0%. The 10-year Confederation bond yield is 0.450%, and the 2-year (0.21%) is above SARON, so markets expect somewhat higher rates. The franc fell 2.8% on a trade-weighted basis over the summer, which the SNB called supportive, but it is still very strong by long-run standards (one euro buys CHF 0.9144).",
     "change": "A sudden franc surge or a jump in bond rates → red. Calm markets → green.",
     "matters": "The franc is the SNB’s second pedal. As long as the franc stays calm, the SNB has room to wait; a surge would make a rise very unlikely.",
     "change_label": "What would change it"
@@ -1339,7 +1339,7 @@
     "now_label": "Above SARON",
     "now_tone": "mixed",
     "what": "the rate the government pays to borrow for 2 years.",
-    "why": "at 0.15% on November 6, 2026, it is above SARON, a sign that investors see some chance of SNB rises."
+    "why": "at 0.21% on November 6, 2026, it is above SARON, a sign that investors see some chance of SNB rises."
    },
    "euro_in_francs": {
     "now_label": "Franc firm vs euro",
@@ -1542,14 +1542,14 @@
   ],
   "gaps": [
    "<strong>Official FSO inflation release for September.</strong> The FSO website blocked our reading tool, so the September CPI (1.0%), core (0.5%), the category details and the release dates come from Trading Economics, which reports FSO data. August (0.8%) is confirmed by the SNB. <em>Why it matters:</em> the headline number is very likely right, but we could not check the FSO’s own wording.",
-   "<strong>Market odds for December.</strong> We found no official source for market-implied chances (from SARON futures or swaps). The 2-year Confederation yield (0.15%) is from Trading Economics. <em>Why it matters:</em> we cannot compare our 25% chance of a rise with what markets price.",
+   "<strong>Market odds for December.</strong> We found no official source for market-implied chances (from SARON futures or swaps). The 2-year Confederation yield (0.21%) is from Trading Economics. <em>Why it matters:</em> we cannot compare our 25% chance of a rise with what markets price.",
    "<strong>Currency interventions.</strong> We could not verify how much (if any) the SNB bought or sold in currency markets in 2026; its intervention figures are published with a delay. <em>Why it matters:</em> interventions are the SNB’s second pedal.",
-   "<strong>How we gathered data:</strong> data was gathered on November 6, 2026 with web tools, so every number was read directly from the page linked next to it (SNB, SECO, KOF, FRED, and Trading Economics where official FSO pages could not be opened)."
+   "<strong>How we gathered data:</strong> data was gathered on November 7, 2026 with web tools, so every number was read directly from the page linked next to it (SNB, SECO, KOF, FRED, and Trading Economics where official FSO pages could not be opened)."
   ],
   "group_intros": {
    "prices": "These numbers tell us how fast things are getting more expensive. The SNB counts prices as stable when consumer prices rise by less than 2% a year and do not fall: a comfort zone of 0% to 2%. Unlike most countries on this site, Swiss inflation is low.",
    "jobs": "These numbers tell us whether people can find work. The SNB has no jobs target, but a weaker job market usually means slower wage and price growth later.",
-   "growth": "These numbers show how fast the economy is growing and whether people are spending. A hot economy can push prices up; a weak one pulls them down.",
+   "growth": "These numbers show how fast the economy is growing and whether people are spending. A hot economy can process prices up; a weak one pulls them down.",
    "rates": "These numbers show the SNB’s own rate and how markets are reacting. Mortgages, savings and the franc all depend on them.",
    "said": "SNB officials do not give hints about future moves on purpose, but their words still show what they worry about. Reading them carefully is one of the best ways to guess the next decision.",
    "global": "Switzerland is a small, open economy. What happens to oil, trade and other central banks matters a lot, and the franc reacts to global fear."
@@ -1772,6 +1772,33 @@
   "expects the SNB to raise its policy rate by 25 basis points at its next monetary policy assessment."
  ],
  "changelog": [
+  {
+   "date": "2026-11-07",
+   "date_label": "Nov 7, 2026",
+   "since": "2026-11-06",
+   "since_label": "Nov 6, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "<strong>2-year Confederation bond yield</strong> moved +0.06 pts: now 0.21%, was 0.15%."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "2_year_confederation_bond_yield",
+     "name": "2-year Confederation bond yield",
+     "from": "0.15%",
+     "from_period": "Nov 6, 2026",
+     "to": "0.21%",
+     "to_period": "Nov 6, 2026",
+     "move": "+0.06 pts"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-06",
    "date_label": "Nov 6, 2026",

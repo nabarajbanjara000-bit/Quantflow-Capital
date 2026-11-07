@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "canada",
- "asof_date": "2026-11-06",
- "asof_label": "Nov 6, 2026",
- "generated_at": "2026-11-06T23:15:04.095Z",
- "data_updated_at": "2026-11-06T23:15:04.095Z",
+ "asof_date": "2026-11-07",
+ "asof_label": "Nov 7, 2026",
+ "generated_at": "2026-11-07T21:55:32.666Z",
+ "data_updated_at": "2026-11-07T21:55:32.666Z",
  "narrative_updated_at": "2026-11-06T23:15:04.094Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
   "calendar_label": "Official BoC announcement schedule",
   "who": "The Bank of Canada (“the BoC”), Canada’s central bank. Its decisions are made by a small group of senior officials called the Governing Council, led by Governor Tiff Macklem. It aims to agree as a group, so there is no published vote count like in the U.S.",
-  "days_to_decision": 33
+  "days_to_decision": 32
  },
  "kpis": [
   {
@@ -798,18 +798,6 @@
  },
  "releases": [
   {
-   "id": "labour_force_survey",
-   "name": "Labour Force Survey, October",
-   "publisher": "StatCan",
-   "date": "2026-11-06",
-   "date_label": "Fri Nov 6",
-   "time": "8:30 a.m. ET",
-   "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
-   "what": "Jobs and the unemployment rate.",
-   "weekly": false,
-   "timing": "after"
-  },
-  {
    "id": "market_participants_survey",
    "name": "Market Participants Survey",
    "publisher": "BoC",
@@ -944,16 +932,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Here is what is new since the last update.",
-   "items": [
-    "<strong>Employment change</strong> moved from −68,300 (Sep 2026) to −4,700 (Oct 2026).",
-    "<strong>Unemployment rate</strong> moved from 6.5% (Sep 2026) to 6.7% (Oct 2026).",
-    "<strong>Average hourly wages</strong> moved from 2.3% (Sep 2026) to 2.2% (Oct 2026).",
-    "<strong>Employment rate</strong> moved from 60.6% (Sep 2026) to 60.5% (Oct 2026).",
-    "<strong>Public sector jobs</strong> moved from −70,000 (Sep 2026) to +49,600 (Oct 2026).",
-    "<strong>Youth unemployment (15–24)</strong> moved from 13.0% (Sep 2026) to 13.7% (Oct 2026).",
-    "<strong>2-year Government of Canada bond</strong> moved −0.05 pts: now 3.17%, was 3.22%."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2580,6 +2560,6 @@
    "automatic": 27,
    "manual": 10
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

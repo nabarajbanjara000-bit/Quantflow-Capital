@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-11-06",
- "asof_label": "Nov 6, 2026",
- "generated_at": "2026-11-06T23:16:17.028Z",
- "data_updated_at": "2026-11-06T23:16:17.028Z",
+ "asof_date": "2026-11-07",
+ "asof_label": "Nov 7, 2026",
+ "generated_at": "2026-11-07T21:56:11.602Z",
+ "data_updated_at": "2026-11-07T21:56:11.602Z",
  "narrative_updated_at": "2026-11-06T23:16:17.028Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -32,7 +32,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 33
+  "days_to_decision": 32
  },
  "kpis": [
   {
@@ -681,7 +681,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
    "value": "$99.64 a barrel",
    "period": "Nov 3, 2026",
-   "released": "Nov 5, 2026",
+   "released": "Nov 4, 2026",
    "previous": "$100.06 (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
@@ -711,12 +711,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 6, 2026",
-   "released": "Nov 6, 2026",
-   "previous": "4.00% (Nov 5, 2026)",
+   "period": "Nov 7, 2026",
+   "released": "Nov 7, 2026",
+   "previous": "4.00% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-07",
    "raw": {
     "v": 4
    },
@@ -729,12 +729,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 6, 2026",
-   "previous": "2.50% (Nov 5, 2026)",
+   "period": "Nov 7, 2026",
+   "released": "Detected Nov 7, 2026",
+   "previous": "2.50% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-07",
    "raw": {
     "v": 2.5
    },
@@ -843,10 +843,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "The Reserve Bank filed a disclosure charge against Westpac New Zealand.",
-   "items": [
-    "<strong>Westpac charge:</strong> The Reserve Bank filed a charge against Westpac New Zealand Limited in the District Court on November 5, 2026, relating to disclosure requirements."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2340,6 +2338,6 @@
    "automatic": 18,
    "manual": 21
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-11-06",
- "asof_label": "Nov 6, 2026",
- "generated_at": "2026-11-06T23:18:59.007Z",
- "data_updated_at": "2026-11-06T23:18:59.007Z",
+ "asof_date": "2026-11-07",
+ "asof_label": "Nov 7, 2026",
+ "generated_at": "2026-11-07T21:57:56.609Z",
+ "data_updated_at": "2026-11-07T21:57:56.609Z",
  "narrative_updated_at": "2026-11-06T23:18:59.007Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 41
+  "days_to_decision": 40
  },
  "kpis": [
   {
@@ -736,7 +736,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
    "value": "$107.03 a barrel",
    "period": "Nov 3, 2026",
-   "released": "Nov 5, 2026",
+   "released": "Nov 4, 2026",
    "previous": "$107.39 (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
@@ -754,7 +754,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
    "value": "$99.64 a barrel",
    "period": "Nov 3, 2026",
-   "released": "Nov 5, 2026",
+   "released": "Nov 4, 2026",
    "previous": "$100.06 (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
@@ -797,12 +797,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 6, 2026",
-   "previous": "2.50% (Nov 5, 2026)",
+   "period": "Nov 7, 2026",
+   "released": "Detected Nov 7, 2026",
+   "previous": "2.50% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-07",
    "raw": {
     "v": 2.5
    },
@@ -861,11 +861,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Gilt yields eased slightly after November's quarter-point rate rise to 4.00%.",
-   "items": [
-    "<strong>10-year gilt yield</strong> moved from 5.21% to 5.14% (Nov 4).",
-    "<strong>5-year gilt yield</strong> moved from 4.86% to 4.78% (Nov 4)."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2581,6 +2578,6 @@
    "automatic": 25,
    "manual": 14
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }
