@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-07T21:58:00.736Z",
- "asof_label": "Nov 7, 2026",
+ "generated_at": "2026-11-08T22:11:22.844Z",
+ "asof_label": "Nov 8, 2026",
  "headline": "Hold at 8 of 8",
  "paragraph": "Quant Flow Capital covers eight central banks that currently share a primary call to hold steady on interest rates through December. While the institutions navigate varying domestic conditions ranging from cooler inflation to resilient hiring, each policy path reflects a cautious approach to incoming economic data. Amid this broad consensus to pause, the European Central Bank stands out as euro-area inflation has risen to 4.0% and left the door open for potential further policy steps.",
  "window": [
@@ -43,7 +43,7 @@
    "next_label": "Tue Dec 8",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Dec 8, or 10:30 p.m. U.S. Eastern Time on Monday, Dec 7. The Governor then holds a media conference.",
    "stale": false,
-   "asof": "Nov 7, 2026",
+   "asof": "Nov 8, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 13
@@ -84,7 +84,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. ET",
    "stale": false,
-   "asof": "Nov 7, 2026",
+   "asof": "Nov 8, 2026",
    "coverage": {
     "automatic": 33,
     "manual": 2
@@ -125,7 +125,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "9:45 a.m. Eastern Time",
    "stale": false,
-   "asof": "Nov 7, 2026",
+   "asof": "Nov 8, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 10
@@ -166,7 +166,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
    "stale": false,
-   "asof": "Nov 7, 2026",
+   "asof": "Nov 8, 2026",
    "coverage": {
     "automatic": 18,
     "manual": 21
@@ -207,7 +207,7 @@
    "next_label": "Thu Dec 10",
    "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Nov 7, 2026",
+   "asof": "Nov 8, 2026",
    "coverage": {
     "automatic": 10,
     "manual": 28
@@ -248,7 +248,7 @@
    "next_label": "Thu Dec 17",
    "time_label": "2:15 p.m. Central European Time",
    "stale": false,
-   "asof": "Nov 7, 2026",
+   "asof": "Nov 8, 2026",
    "coverage": {
     "automatic": 19,
     "manual": 19
@@ -289,7 +289,7 @@
    "next_label": "Thu Dec 17",
    "time_label": "12:00 p.m. (noon) UK time (GMT)",
    "stale": false,
-   "asof": "Nov 7, 2026",
+   "asof": "Nov 8, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 14
@@ -330,7 +330,7 @@
    "next_label": "Fri Dec 18",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
    "stale": false,
-   "asof": "Nov 7, 2026",
+   "asof": "Nov 8, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 13

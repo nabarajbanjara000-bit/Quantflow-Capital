@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "switzerland",
- "asof_date": "2026-11-07",
- "asof_label": "Nov 7, 2026",
- "generated_at": "2026-11-07T21:57:44.708Z",
- "data_updated_at": "2026-11-07T21:57:44.708Z",
+ "asof_date": "2026-11-08",
+ "asof_label": "Nov 8, 2026",
+ "generated_at": "2026-11-08T22:11:06.570Z",
+ "data_updated_at": "2026-11-08T22:11:06.570Z",
  "narrative_updated_at": "2026-11-07T21:57:44.708Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
   "calendar_label": "Official SNB time schedule",
   "who": "The Swiss National Bank (“the SNB”), Switzerland’s central bank. Decisions are taken by its <strong>Governing Board</strong>, just three people: Chairman Martin Schlegel, Vice Chairman Antoine Martin and Petra Tschudin. They decide together and publish no vote count.",
-  "days_to_decision": 33
+  "days_to_decision": 32
  },
  "kpis": [
   {
@@ -682,12 +682,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 7, 2026",
-   "released": "Detected Nov 7, 2026",
-   "previous": "2.50% (Nov 6, 2026)",
+   "period": "Nov 8, 2026",
+   "released": "Detected Nov 8, 2026",
+   "previous": "2.50% (Nov 7, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-07",
+   "latest_date": "2026-11-08",
    "raw": {
     "v": 2.5
    },
@@ -760,10 +760,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Here is what is new since the last update.",
-   "items": [
-    "<strong>2-year Confederation bond yield</strong> moved +0.06 pts: now 0.21%, was 0.15%."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -1951,6 +1949,6 @@
    "automatic": 10,
    "manual": 28
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

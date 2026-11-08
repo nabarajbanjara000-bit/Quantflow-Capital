@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-11-07",
- "asof_label": "Nov 7, 2026",
- "generated_at": "2026-11-07T21:57:56.609Z",
- "data_updated_at": "2026-11-07T21:57:56.609Z",
+ "asof_date": "2026-11-08",
+ "asof_label": "Nov 8, 2026",
+ "generated_at": "2026-11-08T22:11:19.837Z",
+ "data_updated_at": "2026-11-08T22:11:19.837Z",
  "narrative_updated_at": "2026-11-06T23:18:59.007Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 40
+  "days_to_decision": 39
  },
  "kpis": [
   {
@@ -797,12 +797,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 7, 2026",
-   "released": "Detected Nov 7, 2026",
-   "previous": "2.50% (Nov 6, 2026)",
+   "period": "Nov 8, 2026",
+   "released": "Detected Nov 8, 2026",
+   "previous": "2.50% (Nov 7, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-07",
+   "latest_date": "2026-11-08",
    "raw": {
     "v": 2.5
    },

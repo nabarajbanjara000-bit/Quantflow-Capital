@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-11-07",
- "asof_label": "Nov 7, 2026",
- "generated_at": "2026-11-07T21:54:25.243Z",
- "data_updated_at": "2026-11-07T21:54:25.243Z",
+ "asof_date": "2026-11-08",
+ "asof_label": "Nov 8, 2026",
+ "generated_at": "2026-11-08T22:09:14.733Z",
+ "data_updated_at": "2026-11-08T22:09:14.733Z",
  "narrative_updated_at": "2026-11-07T21:54:25.243Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 41
+  "days_to_decision": 40
  },
  "kpis": [
   {
@@ -978,12 +978,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Here is what is new since the last update.",
-   "items": [
-    "New official item: Speech by Governor UEDA at the 2026 Michel Camdessus Central Banking Lecture, International Monetary Fund (2026-11-06).",
-    "New official item: (IMES Newsletter) 2026 BoC - Philadelphia Fed - BOJ Joint Workshop (2026-11-06).",
-    "New official item: IMES Discussion Paper Series (2026) (2026-11-06)."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2445,6 +2441,6 @@
    "automatic": 27,
    "manual": 13
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }
