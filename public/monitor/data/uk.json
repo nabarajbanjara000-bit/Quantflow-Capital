@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-11-09",
- "asof_label": "Nov 9, 2026",
- "generated_at": "2026-11-10T01:40:07.925Z",
- "data_updated_at": "2026-11-10T01:40:07.925Z",
+ "asof_date": "2026-11-10",
+ "asof_label": "Nov 10, 2026",
+ "generated_at": "2026-11-10T23:30:46.153Z",
+ "data_updated_at": "2026-11-10T23:30:46.153Z",
  "narrative_updated_at": "2026-11-10T01:40:07.925Z",
- "narrative_stale": false,
+ "narrative_stale": true,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "uk",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 38
+  "days_to_decision": 37
  },
  "kpis": [
   {
    "label": "Bank of England rate",
    "value": "4.00%",
    "note": "",
-   "period": "Nov 6, 2026",
+   "period": "Nov 9, 2026",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year gilt rate",
-   "value": "5.14%",
+   "value": "5.12%",
    "note": "",
-   "period": "Nov 5, 2026",
+   "period": "Nov 6, 2026",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y"
   }
@@ -336,7 +336,7 @@
    "period": "Aug 2026",
    "released": "Oct 20, 2026",
    "previous": "4.9% (Jul 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-08-01",
    "raw": {
@@ -354,7 +354,7 @@
    "period": "Aug 2026",
    "released": "Oct 20, 2026",
    "previous": "75.1% (Jul 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-08-01",
    "raw": {
@@ -372,7 +372,7 @@
    "period": "Aug 2026",
    "released": "Oct 20, 2026",
    "previous": "20.9% (Jul 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-08-01",
    "raw": {
@@ -421,7 +421,7 @@
    "period": "Aug 2026",
    "released": "Oct 20, 2026",
    "previous": "3.6% (Jul 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-08-01",
    "raw": {
@@ -496,7 +496,7 @@
    "period": "Aug 2026",
    "released": "Oct 15, 2026",
    "previous": "+0.4% (Jul 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-08-01",
    "raw": {
@@ -601,12 +601,12 @@
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
    "value": "4.00%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 9, 2026",
-   "previous": "4.00% (Nov 5, 2026)",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 10, 2026",
+   "previous": "4.00% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
     "v": 4
    },
@@ -618,15 +618,15 @@
    "name": "SONIA (overnight rate between banks)",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "3.982%",
-   "period": "Nov 5, 2026",
-   "released": "Detected Nov 9, 2026",
-   "previous": "3.733% (Nov 4, 2026)",
+   "value": "3.985%",
+   "period": "Nov 6, 2026",
+   "released": "Detected Nov 10, 2026",
+   "previous": "3.982% (Nov 5, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-05",
+   "latest_date": "2026-11-06",
    "raw": {
-    "v": 3.9824
+    "v": 3.9852
    },
    "estimate": false
   },
@@ -636,15 +636,15 @@
    "name": "10-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "5.14%",
-   "period": "Nov 5, 2026",
-   "released": "Detected Nov 9, 2026",
-   "previous": "5.14% (Nov 4, 2026)",
+   "value": "5.12%",
+   "period": "Nov 6, 2026",
+   "released": "Detected Nov 10, 2026",
+   "previous": "5.14% (Nov 5, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-05",
+   "latest_date": "2026-11-06",
    "raw": {
-    "v": 5.1392
+    "v": 5.1184
    },
    "estimate": false
   },
@@ -655,14 +655,14 @@
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
    "value": "4.77%",
-   "period": "Nov 5, 2026",
-   "released": "Detected Nov 9, 2026",
-   "previous": "4.78% (Nov 4, 2026)",
+   "period": "Nov 6, 2026",
+   "released": "Detected Nov 10, 2026",
+   "previous": "4.77% (Nov 5, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-05",
+   "latest_date": "2026-11-06",
    "raw": {
-    "v": 4.7714
+    "v": 4.7722
    },
    "estimate": false
   },
@@ -685,15 +685,15 @@
    "name": "Pound vs U.S. dollar",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "US$1.3360",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 9, 2026",
-   "previous": "US$1.3476 (Nov 5, 2026)",
+   "value": "US$1.3403",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 10, 2026",
+   "previous": "US$1.3360 (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
-    "v": 1.336
+    "v": 1.3403
    },
    "estimate": false
   },
@@ -703,15 +703,15 @@
    "name": "Pound vs euro / trade-weighted index",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "€1.1987",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 9, 2026",
-   "previous": "€1.2002 (Nov 5, 2026)",
+   "value": "€1.1972",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 10, 2026",
+   "previous": "€1.1987 (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
-    "v": 1.1987
+    "v": 1.1972
    },
    "estimate": false
   },
@@ -736,7 +736,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
    "value": "$107.03 a barrel",
    "period": "Nov 3, 2026",
-   "released": "Nov 4, 2026",
+   "released": "Nov 9, 2026",
    "previous": "$107.39 (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
@@ -754,7 +754,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
    "value": "$99.64 a barrel",
    "period": "Nov 3, 2026",
-   "released": "Nov 4, 2026",
+   "released": "Nov 5, 2026",
    "previous": "$100.06 (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
@@ -861,10 +861,11 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Governor Andrew Bailey spoke on central bank independence and AI-driven productivity shocks.",
+   "headline": "Here is what is new since the last update.",
    "items": [
-    "<strong>Governor Andrew Bailey</strong> delivered a speech in Zurich on central bank independence on November 9, 2026, noting that while supply shocks challenge monetary policy, technology and AI are showing signs of positive supply effects supporting UK activity (<a href=\"https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series\" target=\"_blank\" rel=\"noopener noreferrer\">BoE</a>).",
-    "<strong>SONIA overnight rate</strong> moved from 3.733% to 3.982% following November's rate rise."
+    "New official item: <a href=\"https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-november-2026\" target=\"_blank\" rel=\"noopener noreferrer\">Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026</a> (2026-11-10).",
+    "New official item: <a href=\"https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference\" target=\"_blank\" rel=\"noopener noreferrer\">The low-gear labour market − speech by Clare Lombardelli</a> (2026-11-10).",
+    "New official item: <a href=\"https://www.bankofengland.co.uk/asset-purchase-facility/2026/2026-q3\" target=\"_blank\" rel=\"noopener noreferrer\">Asset Purchase Facility Quarterly Report - 2026 Q3</a> (2026-11-10)."
    ]
   },
   "verdict": {
@@ -1688,8 +1689,8 @@
     "Aug"
    ],
    "10-yr": [
-    "5.14%",
-    "Nov 5"
+    "5.12%",
+    "Nov 6"
    ]
   },
   "rate_label": "Current Bank Rate",
@@ -1803,6 +1804,41 @@
   "the case for further rate increases is not compelling to me unless energy prices remain high for an extended period"
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "date_label": "Nov 10, 2026",
+   "since": "2026-11-09",
+   "since_label": "Nov 9, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "New official item: <a href=\"https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-november-2026\" target=\"_blank\" rel=\"noopener noreferrer\">Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026</a> (2026-11-10).",
+     "New official item: <a href=\"https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference\" target=\"_blank\" rel=\"noopener noreferrer\">The low-gear labour market − speech by Clare Lombardelli</a> (2026-11-10).",
+     "New official item: <a href=\"https://www.bankofengland.co.uk/asset-purchase-facility/2026/2026-q3\" target=\"_blank\" rel=\"noopener noreferrer\">Asset Purchase Facility Quarterly Report - 2026 Q3</a> (2026-11-10)."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026",
+     "date": "2026-11-10",
+     "url": "https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-november-2026"
+    },
+    {
+     "title": "The low-gear labour market − speech by Clare Lombardelli",
+     "date": "2026-11-10",
+     "url": "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference"
+    },
+    {
+     "title": "Asset Purchase Facility Quarterly Report - 2026 Q3",
+     "date": "2026-11-10",
+     "url": "https://www.bankofengland.co.uk/asset-purchase-facility/2026/2026-q3"
+    }
+   ],
+   "verdict": null,
+   "ai_written": false
+  },
   {
    "date": "2026-11-09",
    "date_label": "Nov 9, 2026",
@@ -2535,8 +2571,15 @@
  ],
  "qa": {
   "data_errors": [],
-  "ai_errors": [],
+  "ai_errors": [
+   "Gemini stream error: {\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}"
+  ],
   "sources_read": [
+   {
+    "title": "Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026",
+    "date": "2026-11-10",
+    "url": "https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-november-2026"
+   },
    {
     "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
     "date": "2026-11-05",
@@ -2563,9 +2606,9 @@
     "url": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing"
    },
    {
-    "title": "Remit for the Monetary Policy Committee - October 2026",
-    "date": "2026-10-28",
-    "url": "https://www.bankofengland.co.uk/letter/2026/mpc-remit-2026"
+    "title": "The low-gear labour market − speech by Clare Lombardelli",
+    "date": "2026-11-10",
+    "url": "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference"
    },
    {
     "title": "Central Bank independence in today’s world - Speech by Andrew Bailey",
@@ -2593,9 +2636,9 @@
     "url": "https://www.bankofengland.co.uk/speech/2026/october/megan-greene-speech-at-lse-economics-society-london"
    },
    {
-    "title": "Financial innovation, dollar dominance and their UK monetary policy implications",
-    "date": "2026-10-16",
-    "url": "https://www.bankofengland.co.uk/speech/2026/october/financial-innovation-dollar-dominance-and-their-uk-monetary-policy-implications"
+    "title": "Asset Purchase Facility Quarterly Report - 2026 Q3",
+    "date": "2026-11-10",
+    "url": "https://www.bankofengland.co.uk/asset-purchase-facility/2026/2026-q3"
    },
    {
     "title": "Price efficiency in securities lending",
@@ -2621,11 +2664,6 @@
     "title": "Monetary Policy Report - November 2026",
     "date": "2026-11-05",
     "url": "https://www.bankofengland.co.uk/monetary-policy-report/2026/november-2026"
-   },
-   {
-    "title": "Response to the RPIB consultation on the Design of the Future Retail Payments Infrastructure",
-    "date": "2026-11-04",
-    "url": "https://www.bankofengland.co.uk/paper/2026/cp/response-to-the-rpib-consultation"
    }
   ],
   "coverage": {

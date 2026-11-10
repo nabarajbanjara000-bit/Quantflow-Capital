@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "code": "canada",
- "asof_date": "2026-11-09",
- "asof_label": "Nov 9, 2026",
- "generated_at": "2026-11-10T01:37:09.611Z",
- "data_updated_at": "2026-11-10T01:37:09.611Z",
+ "asof_date": "2026-11-10",
+ "asof_label": "Nov 10, 2026",
+ "generated_at": "2026-11-10T23:27:25.710Z",
+ "data_updated_at": "2026-11-10T23:27:25.710Z",
  "narrative_updated_at": "2026-11-06T23:15:04.094Z",
- "narrative_stale": false,
+ "narrative_stale": true,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "canada",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
   "calendar_label": "Official BoC announcement schedule",
   "who": "The Bank of Canada (“the BoC”), Canada’s central bank. Its decisions are made by a small group of senior officials called the Governing Council, led by Governor Tiff Macklem. It aims to agree as a group, so there is no published vote count like in the U.S.",
-  "days_to_decision": 30
+  "days_to_decision": 29
  },
  "kpis": [
   {
    "label": "Bank of Canada rate",
    "value": "2.50%",
    "note": "",
-   "period": "Nov 6, 2026",
+   "period": "Nov 9, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "3.65%",
+   "value": "3.63%",
    "note": "",
-   "period": "Nov 6, 2026",
+   "period": "Nov 9, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28"
   }
@@ -503,7 +503,7 @@
    "period": "Aug 2026",
    "released": "Oct 30, 2026",
    "previous": "0.0% (Jul 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-08-01",
    "raw": {
@@ -521,7 +521,7 @@
    "period": "Aug 2026",
    "released": "Oct 23, 2026",
    "previous": "−0.8% (Jul 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-08-01",
    "raw": {
@@ -575,7 +575,7 @@
    "period": "Aug 2026",
    "released": "Oct 14, 2026",
    "previous": "$12.5 billion (Jul 2026)",
-   "tag": "official",
+   "tag": "old",
    "manual": false,
    "latest_date": "2026-08-01",
    "raw": {
@@ -603,12 +603,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
    "value": "2.50%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 9, 2026",
-   "previous": "2.50% (Nov 5, 2026)",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 10, 2026",
+   "previous": "2.50% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
     "v": 2.5
    },
@@ -621,12 +621,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/AVG.INTWO/json?recent=6",
    "value": "2.52%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 9, 2026",
-   "previous": "2.52% (Nov 5, 2026)",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 10, 2026",
+   "previous": "2.52% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
     "v": 2.52
    },
@@ -638,15 +638,15 @@
    "name": "2-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.12%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 9, 2026",
-   "previous": "3.17% (Nov 5, 2026)",
+   "value": "3.13%",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 10, 2026",
+   "previous": "3.12% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
-    "v": 3.12
+    "v": 3.13
    },
    "estimate": false
   },
@@ -656,15 +656,15 @@
    "name": "5-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.36%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 9, 2026",
-   "previous": "3.39% (Nov 5, 2026)",
+   "value": "3.35%",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 10, 2026",
+   "previous": "3.36% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
-    "v": 3.36
+    "v": 3.35
    },
    "estimate": false
   },
@@ -674,15 +674,15 @@
    "name": "10-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.65%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 9, 2026",
-   "previous": "3.67% (Nov 5, 2026)",
+   "value": "3.63%",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 10, 2026",
+   "previous": "3.65% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
-    "v": 3.65
+    "v": 3.63
    },
    "estimate": false
   },
@@ -692,15 +692,15 @@
    "name": "Canadian dollar (US$1 in C$)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25",
-   "value": "C$1.4123",
-   "period": "Nov 9, 2026",
-   "released": "Detected Nov 9, 2026",
-   "previous": "C$1.4113 (Nov 6, 2026)",
+   "value": "C$1.4181",
+   "period": "Nov 10, 2026",
+   "released": "Detected Nov 10, 2026",
+   "previous": "C$1.4123 (Nov 9, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-09",
+   "latest_date": "2026-11-10",
    "raw": {
-    "v": 1.4123
+    "v": 1.4181
    },
    "estimate": false
   },
@@ -797,18 +797,6 @@
   }
  },
  "releases": [
-  {
-   "id": "market_participants_survey",
-   "name": "Market Participants Survey",
-   "publisher": "BoC",
-   "date": "2026-11-09",
-   "date_label": "Mon Nov 9",
-   "time": "10:30 a.m. ET",
-   "url": "https://www.bankofcanada.ca/press/upcoming-events/",
-   "what": "What financial market professionals expect for rates and inflation.",
-   "weekly": false,
-   "timing": "after"
-  },
   {
    "id": "summary_of_deliberations_oct_2",
    "name": "Summary of deliberations (Oct 28 meeting)",
@@ -932,8 +920,10 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "Here is what is new since the last update.",
+   "items": [
+    "New official item: <a href=\"https://www.bankofcanada.ca/2026/11/summary-of-governing-council-deliberations-fixed-announcement-date-of-october-28-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Summary of Governing Council deliberations: Fixed announcement date of October&nbsp;28, 2026</a> (2026-11-10)."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -1786,8 +1776,8 @@
     "Oct"
    ],
    "10-yr": [
-    "3.65%",
-    "Nov 6"
+    "3.63%",
+    "Nov 9"
    ]
   },
   "rate_label": "Current BoC rate",
@@ -1892,6 +1882,29 @@
   "Inflation in Canada has been higher than anticipated and is projected to remain around 3% through much of 2027. It then returns close to 2% by the middle of 2028."
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "date_label": "Nov 10, 2026",
+   "since": "2026-11-09",
+   "since_label": "Nov 9, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "New official item: <a href=\"https://www.bankofcanada.ca/2026/11/summary-of-governing-council-deliberations-fixed-announcement-date-of-october-28-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Summary of Governing Council deliberations: Fixed announcement date of October&nbsp;28, 2026</a> (2026-11-10)."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Summary of Governing Council deliberations: Fixed announcement date of October&nbsp;28, 2026",
+     "date": "2026-11-10",
+     "url": "https://www.bankofcanada.ca/2026/11/summary-of-governing-council-deliberations-fixed-announcement-date-of-october-28-2026/"
+    }
+   ],
+   "verdict": null,
+   "ai_written": false
+  },
   {
    "date": "2026-11-06",
    "date_label": "Nov 6, 2026",
@@ -2518,7 +2531,9 @@
  ],
  "qa": {
   "data_errors": [],
-  "ai_errors": [],
+  "ai_errors": [
+   "Gemini stream error: {\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}"
+  ],
   "sources_read": [
    {
     "title": "Joint Statement of the Government of Canada and the Bank of Canada on the Renewal of the Monetary Policy Framework",
@@ -2529,6 +2544,11 @@
     "title": "Bank of Canada raises the policy rate by 25 basis points to 2½%",
     "date": "2026-10-28",
     "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+   },
+   {
+    "title": "Summary of Governing Council deliberations: Fixed announcement date of October&nbsp;28, 2026",
+    "date": "2026-11-10",
+    "url": "https://www.bankofcanada.ca/2026/11/summary-of-governing-council-deliberations-fixed-announcement-date-of-october-28-2026/"
    },
    {
     "title": "Opening Statement to the Standing Senate Committee on Banking, Commerce and the Economy",
@@ -2560,6 +2580,6 @@
    "automatic": 27,
    "manual": 10
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }

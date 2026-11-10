@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-11-09",
- "asof_label": "Nov 9, 2026",
- "generated_at": "2026-11-10T01:36:12.759Z",
- "data_updated_at": "2026-11-10T01:36:12.759Z",
+ "asof_date": "2026-11-10",
+ "asof_label": "Nov 10, 2026",
+ "generated_at": "2026-11-10T23:26:12.203Z",
+ "data_updated_at": "2026-11-10T23:26:12.203Z",
  "narrative_updated_at": "2026-11-10T01:36:12.759Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 39
+  "days_to_decision": 38
  },
  "kpis": [
   {
@@ -747,7 +747,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
    "value": "$107.03  a barrel",
    "period": "Nov 3, 2026",
-   "released": "Nov 4, 2026",
+   "released": "Nov 9, 2026",
    "previous": "$107.39 (Nov 2, 2026)",
    "tag": "secondary",
    "manual": false,
@@ -766,7 +766,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
    "value": "$99.64  a barrel",
    "period": "Nov 3, 2026",
-   "released": "Nov 4, 2026",
+   "released": "Nov 5, 2026",
    "previous": "$100.06 (Nov 2, 2026)",
    "tag": "secondary",
    "manual": false,
@@ -978,11 +978,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Bond yields eased slightly while new financial reports were published.",
-   "items": [
-    "<strong>2-year government bond rate</strong> moved from 1.86% to 1.78% (Nov 9).",
-    "<strong>10-year government bond rate</strong> moved from 2.81% to 2.72% (Nov 9)."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2512,6 +2509,6 @@
    "automatic": 27,
    "manual": 13
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }
