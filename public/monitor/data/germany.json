@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "germany",
- "asof_date": "2026-11-08",
- "asof_label": "Nov 8, 2026",
- "generated_at": "2026-11-08T22:09:27.414Z",
- "data_updated_at": "2026-11-08T22:09:27.414Z",
+ "asof_date": "2026-11-09",
+ "asof_label": "Nov 9, 2026",
+ "generated_at": "2026-11-10T01:36:56.211Z",
+ "data_updated_at": "2026-11-10T01:36:56.211Z",
  "narrative_updated_at": "2026-11-07T21:55:20.791Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
   "calendar_label": "Official ECB meeting calendar",
   "who": "The European Central Bank (“the ECB”) in Frankfurt, which sets one interest rate for every country that uses the euro, including Germany. Its decision-making group is the Governing Council: the 6 members of the ECB's Executive Board (led by President Christine Lagarde) plus the heads of the 21 national central banks. Germany's voice is Joachim Nagel, President of the Deutsche Bundesbank.",
-  "days_to_decision": 39
+  "days_to_decision": 38
  },
  "kpis": [
   {
    "label": "ECB interest rate",
    "value": "2.50%",
    "note": "Deposit rate",
-   "period": "Nov 8, 2026",
+   "period": "Nov 10, 2026",
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year Bund rate",
-   "value": "3.29%",
+   "value": "3.33%",
    "note": "",
-   "period": "Nov 6, 2026",
+   "period": "Nov 9, 2026",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf"
   }
@@ -557,12 +557,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.50%",
-   "period": "Nov 8, 2026",
-   "released": "Detected Nov 8, 2026",
-   "previous": "2.50% (Nov 7, 2026)",
+   "period": "Nov 10, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "2.50% (Nov 9, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-08",
+   "latest_date": "2026-11-10",
    "raw": {
     "v": 2.5
    },
@@ -575,12 +575,12 @@
    "source": "ECB",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
    "value": "2.65%",
-   "period": "Nov 8, 2026",
-   "released": "Detected Nov 8, 2026",
-   "previous": "2.65% (Nov 7, 2026)",
+   "period": "Nov 10, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "2.65% (Nov 9, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-08",
+   "latest_date": "2026-11-10",
    "raw": {
     "v": 2.65
    },
@@ -592,15 +592,15 @@
    "name": "2-year German government bond (Schatz)",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "2.95%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 6, 2026",
-   "previous": "3.01% (Nov 5, 2026)",
+   "value": "3.00%",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "2.95% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
-    "v": 2.95
+    "v": 3
    },
    "estimate": false
   },
@@ -610,15 +610,15 @@
    "name": "10-year German government bond (Bund)",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.29%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 6, 2026",
-   "previous": "3.33% (Nov 5, 2026)",
+   "value": "3.33%",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "3.29% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
-    "v": 3.29
+    "v": 3.33
    },
    "estimate": false
   },
@@ -629,12 +629,12 @@
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
    "value": "3.72%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 6, 2026",
-   "previous": "3.74% (Nov 5, 2026)",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "3.72% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
     "v": 3.72
    },
@@ -672,15 +672,15 @@
    "name": "Euro vs U.S. dollar",
    "source": "ECB reference rate",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-   "value": "$1.1165 per euro",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 6, 2026",
-   "previous": "$1.1224 per euro (Nov 5, 2026)",
+   "value": "$1.1193 per euro",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "$1.1165 per euro (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
-    "v": 1.1165
+    "v": 1.1193
    },
    "estimate": false
   },
@@ -1748,8 +1748,8 @@
     "Sep"
    ],
    "10-yr": [
-    "3.29%",
-    "Nov 6"
+    "3.33%",
+    "Nov 9"
    ]
   },
   "rate_label": "Current ECB rate",

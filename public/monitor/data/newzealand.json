@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-11-08",
- "asof_label": "Nov 8, 2026",
- "generated_at": "2026-11-08T22:10:17.469Z",
- "data_updated_at": "2026-11-08T22:10:17.469Z",
+ "asof_date": "2026-11-09",
+ "asof_label": "Nov 9, 2026",
+ "generated_at": "2026-11-10T01:37:44.867Z",
+ "data_updated_at": "2026-11-10T01:37:44.867Z",
  "narrative_updated_at": "2026-11-06T23:16:17.028Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -32,7 +32,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 31
+  "days_to_decision": 30
  },
  "kpis": [
   {
@@ -61,9 +61,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "4.68%",
+   "value": "4.64%",
    "note": "",
-   "period": "Nov 6, 2026",
+   "period": "Nov 10, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield"
   }
@@ -555,15 +555,15 @@
    "name": "90-day bank bill rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/3-month-bill-yield",
-   "value": "3.14%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 6, 2026",
-   "previous": "3.14% (Nov 5, 2026)",
+   "value": "3.18%",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "3.16% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
-    "v": 3.14
+    "v": 3.18
    },
    "estimate": false
   },
@@ -573,15 +573,15 @@
    "name": "2-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
-   "value": "3.82%",
-   "period": "Nov 8, 2026",
-   "released": "Detected Nov 8, 2026",
-   "previous": "3.81% (Nov 6, 2026)",
+   "value": "3.80%",
+   "period": "Nov 10, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "3.83% (Nov 9, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-08",
+   "latest_date": "2026-11-10",
    "raw": {
-    "v": 3.82
+    "v": 3.803
    },
    "estimate": false
   },
@@ -591,15 +591,15 @@
    "name": "10-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
-   "value": "4.68%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 6, 2026",
-   "previous": "4.65% (Nov 5, 2026)",
+   "value": "4.64%",
+   "period": "Nov 10, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "4.68% (Nov 9, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-10",
    "raw": {
-    "v": 4.684
+    "v": 4.637
    },
    "estimate": false
   },
@@ -711,12 +711,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 8, 2026",
-   "released": "Nov 8, 2026",
-   "previous": "4.00% (Nov 7, 2026)",
+   "period": "Nov 9, 2026",
+   "released": "Nov 9, 2026",
+   "previous": "4.00% (Nov 8, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-08",
+   "latest_date": "2026-11-09",
    "raw": {
     "v": 4
    },
@@ -729,12 +729,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 8, 2026",
-   "released": "Detected Nov 8, 2026",
-   "previous": "2.50% (Nov 7, 2026)",
+   "period": "Nov 10, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "2.50% (Nov 9, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-08",
+   "latest_date": "2026-11-10",
    "raw": {
     "v": 2.5
    },
@@ -1737,8 +1737,8 @@
     "Q3"
    ],
    "10-yr": [
-    "4.68%",
-    "Nov 6"
+    "4.64%",
+    "Nov 10"
    ]
   },
   "rate_label": "Current OCR",

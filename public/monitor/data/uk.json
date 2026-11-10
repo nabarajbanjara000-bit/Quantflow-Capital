@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-11-08",
- "asof_label": "Nov 8, 2026",
- "generated_at": "2026-11-08T22:11:19.837Z",
- "data_updated_at": "2026-11-08T22:11:19.837Z",
- "narrative_updated_at": "2026-11-06T23:18:59.007Z",
+ "asof_date": "2026-11-09",
+ "asof_label": "Nov 9, 2026",
+ "generated_at": "2026-11-10T01:40:07.925Z",
+ "data_updated_at": "2026-11-10T01:40:07.925Z",
+ "narrative_updated_at": "2026-11-10T01:40:07.925Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 39
+  "days_to_decision": 38
  },
  "kpis": [
   {
    "label": "Bank of England rate",
    "value": "4.00%",
    "note": "",
-   "period": "Nov 5, 2026",
+   "period": "Nov 6, 2026",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
   },
@@ -70,7 +70,7 @@
    "label": "10-year gilt rate",
    "value": "5.14%",
    "note": "",
-   "period": "Nov 4, 2026",
+   "period": "Nov 5, 2026",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y"
   }
@@ -601,12 +601,12 @@
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
    "value": "4.00%",
-   "period": "Nov 5, 2026",
-   "released": "Detected Nov 5, 2026",
-   "previous": "3.75% (Nov 4, 2026)",
+   "period": "Nov 6, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "4.00% (Nov 5, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-05",
+   "latest_date": "2026-11-06",
    "raw": {
     "v": 4
    },
@@ -618,15 +618,15 @@
    "name": "SONIA (overnight rate between banks)",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "3.733%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 6, 2026",
-   "previous": "3.734% (Nov 3, 2026)",
+   "value": "3.982%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "3.733% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 3.7335
+    "v": 3.9824
    },
    "estimate": false
   },
@@ -637,14 +637,14 @@
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
    "value": "5.14%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 6, 2026",
-   "previous": "5.21% (Nov 3, 2026)",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "5.14% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 5.1364
+    "v": 5.1392
    },
    "estimate": false
   },
@@ -654,15 +654,15 @@
    "name": "5-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "4.78%",
-   "period": "Nov 4, 2026",
-   "released": "Detected Nov 6, 2026",
-   "previous": "4.86% (Nov 3, 2026)",
+   "value": "4.77%",
+   "period": "Nov 5, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "4.78% (Nov 4, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-04",
+   "latest_date": "2026-11-05",
    "raw": {
-    "v": 4.7795
+    "v": 4.7714
    },
    "estimate": false
   },
@@ -685,15 +685,15 @@
    "name": "Pound vs U.S. dollar",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "US$1.3476",
-   "period": "Nov 5, 2026",
-   "released": "Detected Nov 6, 2026",
-   "previous": "US$1.3471 (Nov 4, 2026)",
+   "value": "US$1.3360",
+   "period": "Nov 6, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "US$1.3476 (Nov 5, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-05",
+   "latest_date": "2026-11-06",
    "raw": {
-    "v": 1.3476
+    "v": 1.336
    },
    "estimate": false
   },
@@ -703,15 +703,15 @@
    "name": "Pound vs euro / trade-weighted index",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "€1.2002",
-   "period": "Nov 5, 2026",
-   "released": "Detected Nov 6, 2026",
-   "previous": "€1.1991 (Nov 4, 2026)",
+   "value": "€1.1987",
+   "period": "Nov 6, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "€1.2002 (Nov 5, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-05",
+   "latest_date": "2026-11-06",
    "raw": {
-    "v": 1.2002
+    "v": 1.1987
    },
    "estimate": false
   },
@@ -797,12 +797,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 8, 2026",
-   "released": "Detected Nov 8, 2026",
-   "previous": "2.50% (Nov 7, 2026)",
+   "period": "Nov 10, 2026",
+   "released": "Detected Nov 9, 2026",
+   "previous": "2.50% (Nov 9, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-08",
+   "latest_date": "2026-11-10",
    "raw": {
     "v": 2.5
    },
@@ -861,8 +861,11 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "Governor Andrew Bailey spoke on central bank independence and AI-driven productivity shocks.",
+   "items": [
+    "<strong>Governor Andrew Bailey</strong> delivered a speech in Zurich on central bank independence on November 9, 2026, noting that while supply shocks challenge monetary policy, technology and AI are showing signs of positive supply effects supporting UK activity (<a href=\"https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series\" target=\"_blank\" rel=\"noopener noreferrer\">BoE</a>).",
+    "<strong>SONIA overnight rate</strong> moved from 3.733% to 3.982% following November's rate rise."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -1362,7 +1365,7 @@
     "now_label": "On target",
     "now_tone": "good",
     "what": "Sterling Overnight Index Average.",
-    "why": "at 3.733%, sitting close to policy rates."
+    "why": "at 3.982%, reflecting post-hike conditions."
    },
    "10_year_gilt_yield": {
     "now_label": "High",
@@ -1374,7 +1377,7 @@
     "now_label": "High",
     "now_tone": "bad",
     "what": "yield on 5-year UK government bonds.",
-    "why": "at 4.78%, keeping medium-term fixes elevated."
+    "why": "at 4.77%, keeping medium-term fixes elevated."
    },
    "market_path_for_bank_rate": {
     "now_label": "Rises priced in",
@@ -1386,13 +1389,13 @@
     "now_label": "Stable",
     "now_tone": "mixed",
     "what": "exchange rate between sterling and the U.S. dollar.",
-    "why": "stands at US$1.3476."
+    "why": "stands at US$1.3360."
    },
    "pound_vs_euro_trade_weighted_index": {
     "now_label": "Stable",
     "now_tone": "mixed",
     "what": "exchange rate between sterling and the euro.",
-    "why": "stands at €1.2002."
+    "why": "stands at €1.1987."
    },
    "boe_government_bond_holdings_qt": {
     "now_label": "Ongoing",
@@ -1432,6 +1435,23 @@
    }
   },
   "said": [
+   {
+    "n": "Andrew Bailey speech in Zurich",
+    "v": "Central Bank independence in today’s world",
+    "p": "Speech, Nov 9, 2026",
+    "r": "Nov 9, 2026",
+    "pv": "Speech in Istanbul",
+    "s": "Bank of England",
+    "u": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series",
+    "now": [
+     "now-info",
+     "Speech"
+    ],
+    "w": [
+     "What it said: A shock prone world is more difficult, and in challenging times we need robust independent central banks more than ever, alongside positive supply effects from AI.",
+     "Why it matters: reinforces the central bank's institutional independence and perspective on supply shocks."
+    ]
+   },
    {
     "n": "November decision and vote",
     "v": "Increased Bank Rate to 4.00%, 8 votes to 1",
@@ -1538,7 +1558,7 @@
   "gaps": [
    "<strong>Market odds for December.</strong> Official live figures for market-implied rate chances from overnight index swaps were not collected.",
    "<strong>The 2-year gilt rate.</strong> We used the BoE’s 5-year and 10-year yields; a 2-year figure was not collected.",
-   "<strong>How we gathered data:</strong> data was gathered with web search tools on Nov 6, 2026, fetching official pages directly from the BoE and ONS."
+   "<strong>How we gathered data:</strong> data was gathered with web search tools on Nov 9, 2026, fetching official pages directly from the BoE and ONS."
   ],
   "group_intros": {
    "prices": "These numbers show how fast prices are rising. The BoE’s target is 2% a year for CPI. With September CPI at 3.5% and the BoE projecting inflation around 5% next year, the BoE watches closely for second-round effects.",
@@ -1669,7 +1689,7 @@
    ],
    "10-yr": [
     "5.14%",
-    "Nov 4"
+    "Nov 5"
    ]
   },
   "rate_label": "Current Bank Rate",
@@ -1783,6 +1803,40 @@
   "the case for further rate increases is not compelling to me unless energy prices remain high for an extended period"
  ],
  "changelog": [
+  {
+   "date": "2026-11-09",
+   "date_label": "Nov 9, 2026",
+   "since": "2026-11-08",
+   "since_label": "Nov 8, 2026",
+   "summary": {
+    "headline": "Governor Andrew Bailey spoke on central bank independence and AI-driven productivity shocks.",
+    "items": [
+     "<strong>Governor Andrew Bailey</strong> delivered a speech in Zurich on central bank independence on November 9, 2026, noting that while supply shocks challenge monetary policy, technology and AI are showing signs of positive supply effects supporting UK activity (<a href=\"https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series\" target=\"_blank\" rel=\"noopener noreferrer\">BoE</a>).",
+     "<strong>SONIA overnight rate</strong> moved from 3.733% to 3.982% following November's rate rise."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "sonia_overnight_rate_between_banks",
+     "name": "SONIA (overnight rate between banks)",
+     "from": "3.733%",
+     "from_period": "Nov 4, 2026",
+     "to": "3.982%",
+     "to_period": "Nov 5, 2026",
+     "move": "+0.25 pts"
+    }
+   ],
+   "fed": [
+    {
+     "title": "Central Bank independence in today’s world - Speech by Andrew Bailey",
+     "date": "2026-11-09",
+     "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-06",
    "date_label": "Nov 6, 2026",
@@ -2514,6 +2568,11 @@
     "url": "https://www.bankofengland.co.uk/letter/2026/mpc-remit-2026"
    },
    {
+    "title": "Central Bank independence in today’s world - Speech by Andrew Bailey",
+    "date": "2026-11-09",
+    "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series"
+   },
+   {
     "title": "Data and analytics transformation at the Bank of England to enable, equip and empower − speech by Ben Martin",
     "date": "2026-11-04",
     "url": "https://www.bankofengland.co.uk/speech/2026/november/ben-martin-speech-at-data-ai-conference-europe-2026"
@@ -2537,11 +2596,6 @@
     "title": "Financial innovation, dollar dominance and their UK monetary policy implications",
     "date": "2026-10-16",
     "url": "https://www.bankofengland.co.uk/speech/2026/october/financial-innovation-dollar-dominance-and-their-uk-monetary-policy-implications"
-   },
-   {
-    "title": "The importance of public engagement in maintaining trust in banknotes - Speech by Victoria Cleland",
-    "date": "2026-10-15",
-    "url": "https://www.bankofengland.co.uk/speech/2026/october/victoria-cleland-intergraf-currency-identity-conference-demark"
    },
    {
     "title": "Price efficiency in securities lending",
@@ -2578,6 +2632,6 @@
    "automatic": 25,
    "manual": 14
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }
