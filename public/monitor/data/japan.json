@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-11-11",
- "asof_label": "Nov 11, 2026",
- "generated_at": "2026-11-12T00:46:52.594Z",
- "data_updated_at": "2026-11-12T00:46:52.594Z",
- "narrative_updated_at": "2026-11-12T00:46:52.594Z",
+ "asof_date": "2026-11-12",
+ "asof_label": "Nov 12, 2026",
+ "generated_at": "2026-11-12T23:42:05.983Z",
+ "data_updated_at": "2026-11-12T23:42:05.983Z",
+ "narrative_updated_at": "2026-11-12T23:42:05.983Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 37
+  "days_to_decision": 36
  },
  "kpis": [
   {
@@ -966,11 +966,10 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Business and import prices increased further in October, while government bond yields edged higher.",
+   "headline": "Board Member Asada spoke in Nagasaki, highlighting that the BoJ will adjust monetary policy carefully based on economic data.",
    "items": [
-    "<strong>Corporate Goods Price Index</strong> rose 7.1% vs a year ago in October (up from +6.8% in September), driven by higher business energy and import costs.",
-    "<strong>Import prices in yen</strong> increased by 24.8% vs a year ago in October (up from +23.8%), reflecting both foreign currency price gains and a weak yen.",
-    "<strong>Government bond rates</strong> rose across the curve: the 2-year yield reached 1.86%, the 10-year yield rose to 2.84%, and the 30-year yield climbed to 3.99%."
+    "<strong>Board Member Asada</strong> delivered a speech in Nagasaki on November 12, 2026, discussing economic activity, prices, and monetary policy.",
+    "<strong>Bank of Japan Accounts</strong> data published on November 12 showed Japanese government securities holdings at ¥504,936,700,731 thousand as of November 10."
    ]
   },
   "verdict": {
@@ -1539,6 +1538,23 @@
   },
   "said": [
    {
+    "n": "Board Member Asada, Speech",
+    "v": "Economic Activity, Prices, and Monetary Policy in Japan",
+    "p": "Nagasaki speech",
+    "r": "2026-11-12",
+    "pv": "October speech",
+    "s": "BoJ",
+    "u": "http://www.boj.or.jp/en/about/press/koen_2026/ko261112a.htm",
+    "now": [
+     "now-info",
+     "Speech delivered"
+    ],
+    "w": [
+     "What it said: remarks by Board Member Asada addressing economic conditions, price developments, and monetary policy in Nagasaki.",
+     "Why it matters: provides insight into regional economic conditions and board member perspectives on policy direction."
+    ]
+   },
+   {
     "n": "Corporate Goods Price Index (Oct.)",
     "v": "Corporate goods prices rose 7.1% vs a year ago",
     "p": "October data release",
@@ -1927,6 +1943,45 @@
   "It does not seem to be accelerating at a speed that could lead the Bank to fall behind the curve"
  ],
  "changelog": [
+  {
+   "date": "2026-11-12",
+   "date_label": "Nov 12, 2026",
+   "since": "2026-11-11",
+   "since_label": "Nov 11, 2026",
+   "summary": {
+    "headline": "Board Member Asada spoke in Nagasaki, highlighting that the BoJ will adjust monetary policy carefully based on economic data.",
+    "items": [
+     "<strong>Board Member Asada</strong> delivered a speech in Nagasaki on November 12, 2026, discussing economic activity, prices, and monetary policy.",
+     "<strong>Bank of Japan Accounts</strong> data published on November 12 showed Japanese government securities holdings at ¥504,936,700,731 thousand as of November 10."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Japanese Government Bonds Held by the Bank of Japan",
+     "date": "2026-11-12",
+     "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei261110.xlsx"
+    },
+    {
+     "title": "Basic Figures on Fails (Oct.)",
+     "date": "2026-11-12",
+     "url": "http://www.boj.or.jp/en/statistics/set/bffail/sjgb2610.pdf"
+    },
+    {
+     "title": "Speech by Board Member ASADA in Nagasaki (Economic Activity, Prices, and Monetary Policy in Japan)",
+     "date": "2026-11-12",
+     "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261112a.htm"
+    },
+    {
+     "title": "Bank of Japan Accounts (November 10)",
+     "date": "2026-11-12",
+     "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac261110.htm"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-11",
    "date_label": "Nov 11, 2026",
@@ -2566,6 +2621,26 @@
   "ai_errors": [],
   "sources_read": [
    {
+    "title": "Japanese Government Bonds Held by the Bank of Japan",
+    "date": "2026-11-12",
+    "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei261110.xlsx"
+   },
+   {
+    "title": "Basic Figures on Fails (Oct.)",
+    "date": "2026-11-12",
+    "url": "http://www.boj.or.jp/en/statistics/set/bffail/sjgb2610.pdf"
+   },
+   {
+    "title": "Speech by Board Member ASADA in Nagasaki (Economic Activity, Prices, and Monetary Policy in Japan)",
+    "date": "2026-11-12",
+    "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261112a.htm"
+   },
+   {
+    "title": "Bank of Japan Accounts (November 10)",
+    "date": "2026-11-12",
+    "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac261110.htm"
+   },
+   {
     "title": "Corporate Goods Price Index (Oct.)",
     "date": "2026-11-11",
     "url": "http://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2610.pdf"
@@ -2574,26 +2649,6 @@
     "title": "Release of Latest \"Amounts Outstanding of Deposits by Depositor\" Data",
     "date": "2026-11-11",
     "url": "http://www.boj.or.jp/en/statistics/outline/notice_2026/not261112a.htm"
-   },
-   {
-    "title": "Money Stock (Oct.)",
-    "date": "2026-11-10",
-    "url": "http://www.boj.or.jp/en/statistics/money/ms/ms2610.pdf"
-   },
-   {
-    "title": "Principal Figures of Financial Institutions (Oct.)",
-    "date": "2026-11-09",
-    "url": "http://www.boj.or.jp/en/statistics/dl/depo/kashi/kasi2610.pdf"
-   },
-   {
-    "title": "Summary of Opinions at the Monetary Policy Meeting on October 29 and 30, 2026",
-    "date": "2026-11-09",
-    "url": "http://www.boj.or.jp/en/mopo/mpmsche_minu/opinion_2026/opi261030.pdf"
-   },
-   {
-    "title": "Amounts Outstanding in the Call Money Market (Oct.)",
-    "date": "2026-11-09",
-    "url": "http://www.boj.or.jp/en/statistics/market/short/call/call.xlsx"
    }
   ],
   "coverage": {

@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-11-11",
- "asof_label": "Nov 11, 2026",
- "generated_at": "2026-11-12T00:49:21.571Z",
- "data_updated_at": "2026-11-12T00:49:21.571Z",
+ "asof_date": "2026-11-12",
+ "asof_label": "Nov 12, 2026",
+ "generated_at": "2026-11-12T23:43:41.951Z",
+ "data_updated_at": "2026-11-12T23:43:41.951Z",
  "narrative_updated_at": "2026-11-12T00:49:21.571Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -32,7 +32,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 28
+  "days_to_decision": 27
  },
  "kpis": [
   {
@@ -61,7 +61,7 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "4.68%",
+   "value": "4.72%",
    "note": "",
    "period": "Nov 12, 2026",
    "source": "Trading Economics (market data)",
@@ -556,12 +556,12 @@
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/3-month-bill-yield",
    "value": "3.22%",
-   "period": "Nov 11, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "3.19% (Nov 10, 2026)",
+   "period": "Nov 12, 2026",
+   "released": "Detected Nov 12, 2026",
+   "previous": "3.21% (Nov 11, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-11",
+   "latest_date": "2026-11-12",
    "raw": {
     "v": 3.22
    },
@@ -573,15 +573,15 @@
    "name": "2-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
-   "value": "3.87%",
+   "value": "3.90%",
    "period": "Nov 12, 2026",
    "released": "Detected Nov 11, 2026",
-   "previous": "3.88% (Nov 11, 2026)",
+   "previous": "3.87% (Nov 11, 2026)",
    "tag": "official",
    "manual": false,
    "latest_date": "2026-11-12",
    "raw": {
-    "v": 3.868
+    "v": 3.903
    },
    "estimate": false
   },
@@ -591,7 +591,7 @@
    "name": "10-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
-   "value": "4.68%",
+   "value": "4.72%",
    "period": "Nov 12, 2026",
    "released": "Detected Nov 11, 2026",
    "previous": "4.70% (Nov 11, 2026)",
@@ -599,7 +599,7 @@
    "manual": false,
    "latest_date": "2026-11-12",
    "raw": {
-    "v": 4.677
+    "v": 4.716
    },
    "estimate": false
   },
@@ -711,12 +711,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 11, 2026",
-   "released": "Nov 11, 2026",
-   "previous": "4.00% (Nov 10, 2026)",
+   "period": "Nov 12, 2026",
+   "released": "Nov 12, 2026",
+   "previous": "4.00% (Nov 11, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-11",
+   "latest_date": "2026-11-12",
    "raw": {
     "v": 4
    },
@@ -843,10 +843,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "The RBNZ published findings from its Life and Health Insurance Industry Reverse Stress Test, showing sector resilience.",
-   "items": [
-    "<strong>Insurance sector stress test:</strong> The RBNZ published findings on November 11, 2026, showing that life and health insurers can withstand severe shocks before breaching solvency requirements."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -1735,7 +1733,7 @@
     "Q3"
    ],
    "10-yr": [
-    "4.68%",
+    "4.72%",
     "Nov 12"
    ]
   },
@@ -2387,6 +2385,6 @@
    "automatic": 18,
    "manual": 21
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

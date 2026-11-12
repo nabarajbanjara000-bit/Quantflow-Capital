@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-11-11",
- "asof_label": "Nov 11, 2026",
- "generated_at": "2026-11-12T00:52:16.084Z",
- "data_updated_at": "2026-11-12T00:52:16.084Z",
- "narrative_updated_at": "2026-11-12T00:52:16.083Z",
+ "asof_date": "2026-11-12",
+ "asof_label": "Nov 12, 2026",
+ "generated_at": "2026-11-12T23:45:26.227Z",
+ "data_updated_at": "2026-11-12T23:45:26.227Z",
+ "narrative_updated_at": "2026-11-12T23:45:26.227Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 36
+  "days_to_decision": 35
  },
  "kpis": [
   {
    "label": "Bank of England rate",
    "value": "4.00%",
    "note": "",
-   "period": "Nov 10, 2026",
+   "period": "Nov 11, 2026",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year gilt rate",
-   "value": "5.14%",
+   "value": "5.19%",
    "note": "",
-   "period": "Nov 9, 2026",
+   "period": "Nov 10, 2026",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y"
   }
@@ -492,15 +492,15 @@
    "name": "Monthly GDP",
    "source": "Office for National Statistics",
    "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/july2026",
-   "value": "+0.1% in the month",
-   "period": "Aug 2026",
-   "released": "Oct 15, 2026",
-   "previous": "+0.4% (Jul 2026)",
-   "tag": "old",
+   "value": "+0.3% in the month",
+   "period": "Sep 2026",
+   "released": "Nov 12, 2026",
+   "previous": "+0.0% (Aug 2026)",
+   "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "mom": 0.0970873786407811
+    "mom": 0.2912621359223211
    },
    "estimate": false
   },
@@ -601,12 +601,12 @@
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
    "value": "4.00%",
-   "period": "Nov 10, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "4.00% (Nov 9, 2026)",
+   "period": "Nov 11, 2026",
+   "released": "Detected Nov 12, 2026",
+   "previous": "4.00% (Nov 10, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-10",
+   "latest_date": "2026-11-11",
    "raw": {
     "v": 4
    },
@@ -619,14 +619,14 @@
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
    "value": "3.984%",
-   "period": "Nov 9, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "3.985% (Nov 6, 2026)",
+   "period": "Nov 10, 2026",
+   "released": "Detected Nov 12, 2026",
+   "previous": "3.984% (Nov 9, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-09",
+   "latest_date": "2026-11-10",
    "raw": {
-    "v": 3.9842
+    "v": 3.9837
    },
    "estimate": false
   },
@@ -636,15 +636,15 @@
    "name": "10-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "5.14%",
-   "period": "Nov 9, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "5.12% (Nov 6, 2026)",
+   "value": "5.19%",
+   "period": "Nov 10, 2026",
+   "released": "Detected Nov 12, 2026",
+   "previous": "5.14% (Nov 9, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-09",
+   "latest_date": "2026-11-10",
    "raw": {
-    "v": 5.1364
+    "v": 5.1906
    },
    "estimate": false
   },
@@ -654,15 +654,15 @@
    "name": "5-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "4.78%",
-   "period": "Nov 9, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "4.77% (Nov 6, 2026)",
+   "value": "4.85%",
+   "period": "Nov 10, 2026",
+   "released": "Detected Nov 12, 2026",
+   "previous": "4.78% (Nov 9, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-09",
+   "latest_date": "2026-11-10",
    "raw": {
-    "v": 4.7795
+    "v": 4.8471
    },
    "estimate": false
   },
@@ -685,15 +685,15 @@
    "name": "Pound vs U.S. dollar",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "US$1.3335",
-   "period": "Nov 10, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "US$1.3403 (Nov 9, 2026)",
+   "value": "US$1.3282",
+   "period": "Nov 11, 2026",
+   "released": "Detected Nov 12, 2026",
+   "previous": "US$1.3335 (Nov 10, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-10",
+   "latest_date": "2026-11-11",
    "raw": {
-    "v": 1.3335
+    "v": 1.3282
    },
    "estimate": false
   },
@@ -703,15 +703,15 @@
    "name": "Pound vs euro / trade-weighted index",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "€1.1948",
-   "period": "Nov 10, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "€1.1972 (Nov 9, 2026)",
+   "value": "€1.1969",
+   "period": "Nov 11, 2026",
+   "released": "Detected Nov 12, 2026",
+   "previous": "€1.1948 (Nov 10, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-10",
+   "latest_date": "2026-11-11",
    "raw": {
-    "v": 1.1948
+    "v": 1.1969
    },
    "estimate": false
   },
@@ -861,10 +861,11 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Here is what is new since the last update.",
+   "headline": "Monthly GDP growth rose to +0.3% in September, while gilt yields edged slightly higher.",
    "items": [
-    "New official item: <a href=\"https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop\" target=\"_blank\" rel=\"noopener noreferrer\">Principals and Agents – speech by Jonathan Hall</a> (2026-11-11).",
-    "New official item: <a href=\"https://www.bankofengland.co.uk/speech/2026/november/victoria-cleland-panel-at-the-ftt-fintech-festival-2026-london\" target=\"_blank\" rel=\"noopener noreferrer\">UK Retail Payments Infrastructure: moving from vision to design − speech by Victoria Cleland</a> (2026-11-11)."
+    "<strong>Monthly GDP</strong> increased by +0.3% in September (released Nov 12, 2026), up from +0.0% in August.",
+    "<strong>10-year gilt yield</strong> ticked up from 5.14% (Nov 9) to 5.19% (Nov 10).",
+    "<strong>5-year gilt yield</strong> ticked up from 4.78% (Nov 9) to 4.85% (Nov 10)."
    ]
   },
   "verdict": {
@@ -902,7 +903,7 @@
    },
    {
     "title": "Reasons the BoE might hold in December",
-    "html": "<ul><li><strong>Rates just went up.</strong> The MPC increased Bank Rate to 4.00% in November, providing tighter policy stance to bear down on inflation.</li><li><strong>Pay growth remains moderate overall.</strong> Regular pay growth stands at 3.7% with forward-looking expectations contained at 3.4%.</li><li><strong>Job vacancies are cooling.</strong> Vacancies fell to 691,000 in September, showing some softening in employer demand (<a href=\"https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026\" target=\"_blank\" rel=\"noopener noreferrer\">ONS</a>).</li><li><strong>Markets already pressed the brake.</strong> The 10-year gilt yield is <strong>5.14%</strong>, keeping borrowing conditions restrictive.</li><li><strong>The committee signaled a data-dependent pause.</strong> Policy is not on a pre-set path, and members will assess incoming evidence meeting by meeting.</li></ul>"
+    "html": "<ul><li><strong>Rates just went up.</strong> The MPC increased Bank Rate to 4.00% in November, providing tighter policy stance to bear down on inflation.</li><li><strong>Pay growth remains moderate overall.</strong> Regular pay growth stands at 3.7% with forward-looking expectations contained at 3.4%.</li><li><strong>Job vacancies are cooling.</strong> Vacancies fell to 691,000 in September, showing some softening in employer demand (<a href=\"https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026\" target=\"_blank\" rel=\"noopener noreferrer\">ONS</a>).</li><li><strong>Markets already pressed the brake.</strong> The 10-year gilt yield is <strong>5.19%</strong>, keeping borrowing conditions restrictive.</li><li><strong>The committee signaled a data-dependent pause.</strong> Policy is not on a pre-set path, and members will assess incoming evidence meeting by meeting.</li></ul>"
    },
    {
     "title": "Reasons the BoE might raise again",
@@ -1081,7 +1082,7 @@
     "for": [
      "<strong>Rates just went up.</strong> Bank Rate was increased to 4.00% in November.",
      "<strong>Pay and jobs remain mixed.</strong> Regular pay growth is 3.7% with cooling vacancies and unemployment at 4.7%.",
-     "<strong>Markets already tightened.</strong> The 10-year gilt rate is 5.14%, keeping borrowing conditions restrictive.",
+     "<strong>Markets already tightened.</strong> The 10-year gilt rate is 5.19%, keeping borrowing conditions restrictive.",
      "<strong>Data-dependent pause.</strong> The MPC indicated it will assess evidence meeting by meeting."
     ],
     "against": [
@@ -1152,7 +1153,7 @@
    "other_title": "Other things that could move our view",
    "other": [
     "<strong>Oil, gas and the Middle East.</strong> Brent crude at $107.03 a barrel continues to drive inflation pressures.",
-    "<strong>Gilt rates and the pound.</strong> 10-year gilt yields at 5.14% reflect tight financial conditions.",
+    "<strong>Gilt rates and the pound.</strong> 10-year gilt yields at 5.19% reflect tight financial conditions.",
     "<strong>Final words from MPC members.</strong> Speeches before December 17 provide policy hints."
    ]
   },
@@ -1180,9 +1181,9 @@
    {
     "area": "Growth",
     "grade": "amber",
-    "one": "The economy is growing modestly, but households remain cautious with a saving ratio of 8.8%.",
+    "one": "The economy is growing modestly, with monthly GDP up +0.3% in September while households remain cautious.",
     "look": "GDP growth, monthly GDP, retail sales, and household saving.",
-    "why": "Monthly GDP grew +0.1% in August and retail sales remain solid, but consumer caution persists.",
+    "why": "Monthly GDP grew +0.3% in September and retail sales remain solid, but consumer caution persists.",
     "change": "Weak GDP figures and falling retail sales → red.",
     "matters": "Moderate growth gives the BoE room to assess its latest rate hike.",
     "change_label": "What would change it"
@@ -1190,9 +1191,9 @@
    {
     "area": "Money markets",
     "grade": "red",
-    "one": "Government borrowing costs remain elevated with 10-year gilt yields at 5.14%.",
+    "one": "Government borrowing costs remain elevated with 10-year gilt yields at 5.19%.",
     "look": "Gilt yields, SONIA, sterling exchange rates, and lending conditions.",
-    "why": "10-year gilt yields at 5.14% and 5-year yields at 4.78% keep borrowing conditions tight.",
+    "why": "10-year gilt yields at 5.19% and 5-year yields at 4.85% keep borrowing conditions tight.",
     "change": "Gilt yields settling back toward 5% → yellow.",
     "matters": "Higher market rates slow the economy, doing some of the BoE's tightening work.",
     "change_label": "What would change it"
@@ -1317,7 +1318,7 @@
     "now_label": "Growing",
     "now_tone": "good",
     "what": "monthly estimate of economic output.",
-    "why": "grew +0.1% in August."
+    "why": "grew +0.3% in September."
    },
    "retail_sales_volumes": {
     "now_label": "Recovering",
@@ -1365,19 +1366,19 @@
     "now_label": "On target",
     "now_tone": "good",
     "what": "Sterling Overnight Index Average.",
-    "why": "at 3.982%, reflecting post-hike conditions."
+    "why": "at 3.984%, reflecting post-hike conditions."
    },
    "10_year_gilt_yield": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "yield on 10-year UK government bonds.",
-    "why": "at 5.14%, influencing long-term borrowing costs."
+    "why": "at 5.19%, influencing long-term borrowing costs."
    },
    "5_year_gilt_yield": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "yield on 5-year UK government bonds.",
-    "why": "at 4.77%, keeping medium-term fixes elevated."
+    "why": "at 4.85%, keeping medium-term fixes elevated."
    },
    "market_path_for_bank_rate": {
     "now_label": "Rises priced in",
@@ -1389,13 +1390,13 @@
     "now_label": "Stable",
     "now_tone": "mixed",
     "what": "exchange rate between sterling and the U.S. dollar.",
-    "why": "stands at US$1.3360."
+    "why": "stands at US$1.3282."
    },
    "pound_vs_euro_trade_weighted_index": {
     "now_label": "Stable",
     "now_tone": "mixed",
     "what": "exchange rate between sterling and the euro.",
-    "why": "stands at €1.1987."
+    "why": "stands at €1.1969."
    },
    "boe_government_bond_holdings_qt": {
     "now_label": "Ongoing",
@@ -1558,7 +1559,7 @@
   "gaps": [
    "<strong>Market odds for December.</strong> Official live figures for market-implied rate chances from overnight index swaps were not collected.",
    "<strong>The 2-year gilt rate.</strong> We used the BoE’s 5-year and 10-year yields; a 2-year figure was not collected.",
-   "<strong>How we gathered data:</strong> data was gathered with web search tools on Nov 9, 2026, fetching official pages directly from the BoE and ONS."
+   "<strong>How we gathered data:</strong> data was gathered with web search tools on Nov 12, 2026, fetching official pages directly from the BoE and ONS."
   ],
   "group_intros": {
    "prices": "These numbers show how fast prices are rising. The BoE’s target is 2% a year for CPI. With September CPI at 3.5% and the BoE projecting inflation around 5% next year, the BoE watches closely for second-round effects.",
@@ -1688,8 +1689,8 @@
     "Aug"
    ],
    "10-yr": [
-    "5.14%",
-    "Nov 9"
+    "5.19%",
+    "Nov 10"
    ]
   },
   "rate_label": "Current Bank Rate",
@@ -1803,6 +1804,53 @@
   "the case for further rate increases is not compelling to me unless energy prices remain high for an extended period"
  ],
  "changelog": [
+  {
+   "date": "2026-11-12",
+   "date_label": "Nov 12, 2026",
+   "since": "2026-11-11",
+   "since_label": "Nov 11, 2026",
+   "summary": {
+    "headline": "Monthly GDP growth rose to +0.3% in September, while gilt yields edged slightly higher.",
+    "items": [
+     "<strong>Monthly GDP</strong> increased by +0.3% in September (released Nov 12, 2026), up from +0.0% in August.",
+     "<strong>10-year gilt yield</strong> ticked up from 5.14% (Nov 9) to 5.19% (Nov 10).",
+     "<strong>5-year gilt yield</strong> ticked up from 4.78% (Nov 9) to 4.85% (Nov 10)."
+    ]
+   },
+   "data": [
+    {
+     "id": "monthly_gdp",
+     "name": "Monthly GDP",
+     "from": "+0.1% in the month",
+     "from_period": "Aug 2026",
+     "to": "+0.3% in the month",
+     "to_period": "Sep 2026"
+    }
+   ],
+   "market": [
+    {
+     "id": "10_year_gilt_yield",
+     "name": "10-year gilt yield",
+     "from": "5.14%",
+     "from_period": "Nov 9, 2026",
+     "to": "5.19%",
+     "to_period": "Nov 10, 2026",
+     "move": "+0.05 pts"
+    },
+    {
+     "id": "5_year_gilt_yield",
+     "name": "5-year gilt yield",
+     "from": "4.78%",
+     "from_period": "Nov 9, 2026",
+     "to": "4.85%",
+     "to_period": "Nov 10, 2026",
+     "move": "+0.07 pts"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-11",
    "date_label": "Nov 11, 2026",

@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "germany",
- "asof_date": "2026-11-11",
- "asof_label": "Nov 11, 2026",
- "generated_at": "2026-11-12T00:47:10.277Z",
- "data_updated_at": "2026-11-12T00:47:10.277Z",
+ "asof_date": "2026-11-12",
+ "asof_label": "Nov 12, 2026",
+ "generated_at": "2026-11-12T23:42:21.446Z",
+ "data_updated_at": "2026-11-12T23:42:21.446Z",
  "narrative_updated_at": "2026-11-10T23:27:13.400Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
   "calendar_label": "Official ECB meeting calendar",
   "who": "The European Central Bank (“the ECB”) in Frankfurt, which sets one interest rate for every country that uses the euro, including Germany. Its decision-making group is the Governing Council: the 6 members of the ECB's Executive Board (led by President Christine Lagarde) plus the heads of the 21 national central banks. Germany's voice is Joachim Nagel, President of the Deutsche Bundesbank.",
-  "days_to_decision": 36
+  "days_to_decision": 35
  },
  "kpis": [
   {
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year Bund rate",
-   "value": "3.37%",
+   "value": "3.36%",
    "note": "",
-   "period": "Nov 11, 2026",
+   "period": "Nov 12, 2026",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf"
   }
@@ -592,15 +592,15 @@
    "name": "2-year German government bond (Schatz)",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.08%",
-   "period": "Nov 11, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "3.01% (Nov 10, 2026)",
+   "value": "3.09%",
+   "period": "Nov 12, 2026",
+   "released": "Detected Nov 12, 2026",
+   "previous": "3.08% (Nov 11, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-11",
+   "latest_date": "2026-11-12",
    "raw": {
-    "v": 3.08
+    "v": 3.09
    },
    "estimate": false
   },
@@ -610,15 +610,15 @@
    "name": "10-year German government bond (Bund)",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.37%",
-   "period": "Nov 11, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "3.31% (Nov 10, 2026)",
+   "value": "3.36%",
+   "period": "Nov 12, 2026",
+   "released": "Detected Nov 12, 2026",
+   "previous": "3.37% (Nov 11, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-11",
+   "latest_date": "2026-11-12",
    "raw": {
-    "v": 3.37
+    "v": 3.36
    },
    "estimate": false
   },
@@ -628,15 +628,15 @@
    "name": "30-year German government bond",
    "source": "Bundesbank",
    "url": "https://www.bundesbank.de/resource/blob/972754/3e7353c39e78276f7eaea6bb675f5428/472B63F073F071307366337C94F8C870/2026-10-data.pdf",
-   "value": "3.75%",
-   "period": "Nov 11, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "3.70% (Nov 10, 2026)",
+   "value": "3.74%",
+   "period": "Nov 12, 2026",
+   "released": "Detected Nov 12, 2026",
+   "previous": "3.75% (Nov 11, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-11",
+   "latest_date": "2026-11-12",
    "raw": {
-    "v": 3.75
+    "v": 3.74
    },
    "estimate": false
   },
@@ -672,15 +672,15 @@
    "name": "Euro vs U.S. dollar",
    "source": "ECB reference rate",
    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-   "value": "$1.1127 per euro",
-   "period": "Nov 11, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "$1.1214 per euro (Nov 10, 2026)",
+   "value": "$1.1081 per euro",
+   "period": "Nov 12, 2026",
+   "released": "Detected Nov 12, 2026",
+   "previous": "$1.1127 per euro (Nov 11, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-11",
+   "latest_date": "2026-11-12",
    "raw": {
-    "v": 1.1127
+    "v": 1.1081
    },
    "estimate": false
   },
@@ -728,7 +728,7 @@
    "url": "https://fred.stlouisfed.org/series/PNGASEUUSDM",
    "value": "$25.49 per million BTU",
    "period": "Sep 2026",
-   "released": "Oct 23, 2026",
+   "released": "Oct 26, 2026",
    "previous": "$20.92 (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -1765,8 +1765,8 @@
     "Sep"
    ],
    "10-yr": [
-    "3.37%",
-    "Nov 11"
+    "3.36%",
+    "Nov 12"
    ]
   },
   "rate_label": "Current ECB rate",

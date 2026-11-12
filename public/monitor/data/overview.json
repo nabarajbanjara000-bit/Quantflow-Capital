@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-12T00:52:25.520Z",
- "asof_label": "Nov 11, 2026",
+ "generated_at": "2026-11-12T23:45:30.391Z",
+ "asof_label": "Nov 12, 2026",
  "headline": "Hold at 8 of 8",
- "paragraph": "Welcome to the Quant Flow Capital central-bank briefing covering eight major institutions. Across all of these countries, the baseline expectation for the upcoming December meetings is a policy hold. Among them, Australia stands out with the highest current policy rate of 4.85 percent following its recent move.",
+ "paragraph": "Welcome to the Quant Flow Capital briefing covering eight central banks as they navigate the current economic landscape. Right now, all eight central banks share a baseline expectation to hold their interest rates steady at their upcoming December meetings. Among them, the United States stands out with a notable thirty-three percent probability of a rate rise, driven by recent labor market data.",
  "window": [
   "2026-12-08",
   "2026-12-18"
@@ -43,7 +43,7 @@
    "next_label": "Tue Dec 8",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Dec 8, or 10:30 p.m. U.S. Eastern Time on Monday, Dec 7. The Governor then holds a media conference.",
    "stale": false,
-   "asof": "Nov 11, 2026",
+   "asof": "Nov 12, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 13
@@ -68,8 +68,8 @@
      "Oct"
     ],
     "10-yr": [
-     "4.98%",
-     "Nov 10"
+     "5.10%",
+     "Nov 12"
     ]
    },
    "call": "hold",
@@ -84,7 +84,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. ET",
    "stale": false,
-   "asof": "Nov 11, 2026",
+   "asof": "Nov 12, 2026",
    "coverage": {
     "automatic": 33,
     "manual": 2
@@ -109,8 +109,8 @@
      "Oct"
     ],
     "10-yr": [
-     "3.63%",
-     "Nov 9"
+     "3.72%",
+     "Nov 10"
     ]
    },
    "call": "hold",
@@ -125,7 +125,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "9:45 a.m. Eastern Time",
    "stale": false,
-   "asof": "Nov 11, 2026",
+   "asof": "Nov 12, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 10
@@ -150,7 +150,7 @@
      "Q3"
     ],
     "10-yr": [
-     "4.68%",
+     "4.72%",
      "Nov 12"
     ]
    },
@@ -166,7 +166,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
    "stale": false,
-   "asof": "Nov 11, 2026",
+   "asof": "Nov 12, 2026",
    "coverage": {
     "automatic": 18,
     "manual": 21
@@ -191,8 +191,8 @@
      "Sep"
     ],
     "10-yr": [
-     "0.529%",
-     "Nov 11"
+     "0.524%",
+     "Nov 12"
     ]
    },
    "call": "hold",
@@ -207,7 +207,7 @@
    "next_label": "Thu Dec 10",
    "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Nov 11, 2026",
+   "asof": "Nov 12, 2026",
    "coverage": {
     "automatic": 10,
     "manual": 28
@@ -232,8 +232,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.37%",
-     "Nov 11"
+     "3.36%",
+     "Nov 12"
     ]
    },
    "call": "hold",
@@ -248,7 +248,7 @@
    "next_label": "Thu Dec 17",
    "time_label": "2:15 p.m. Central European Time",
    "stale": false,
-   "asof": "Nov 11, 2026",
+   "asof": "Nov 12, 2026",
    "coverage": {
     "automatic": 19,
     "manual": 19
@@ -273,8 +273,8 @@
      "Aug"
     ],
     "10-yr": [
-     "5.14%",
-     "Nov 9"
+     "5.19%",
+     "Nov 10"
     ]
    },
    "call": "hold",
@@ -289,7 +289,7 @@
    "next_label": "Thu Dec 17",
    "time_label": "12:00 p.m. (noon) UK time (GMT)",
    "stale": false,
-   "asof": "Nov 11, 2026",
+   "asof": "Nov 12, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 14
@@ -330,7 +330,7 @@
    "next_label": "Fri Dec 18",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
    "stale": false,
-   "asof": "Nov 11, 2026",
+   "asof": "Nov 12, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 13
