@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "code": "canada",
- "asof_date": "2026-11-10",
- "asof_label": "Nov 10, 2026",
- "generated_at": "2026-11-10T23:27:25.710Z",
- "data_updated_at": "2026-11-10T23:27:25.710Z",
- "narrative_updated_at": "2026-11-06T23:15:04.094Z",
- "narrative_stale": true,
+ "asof_date": "2026-11-11",
+ "asof_label": "Nov 11, 2026",
+ "generated_at": "2026-11-12T00:47:51.664Z",
+ "data_updated_at": "2026-11-12T00:47:51.664Z",
+ "narrative_updated_at": "2026-11-12T00:47:51.664Z",
+ "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "canada",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
   "calendar_label": "Official BoC announcement schedule",
   "who": "The Bank of Canada (“the BoC”), Canada’s central bank. Its decisions are made by a small group of senior officials called the Governing Council, led by Governor Tiff Macklem. It aims to agree as a group, so there is no published vote count like in the U.S.",
-  "days_to_decision": 29
+  "days_to_decision": 28
  },
  "kpis": [
   {
    "label": "Bank of Canada rate",
    "value": "2.50%",
    "note": "",
-   "period": "Nov 9, 2026",
+   "period": "Nov 10, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
   },
@@ -603,12 +603,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
    "value": "2.50%",
-   "period": "Nov 9, 2026",
-   "released": "Detected Nov 10, 2026",
-   "previous": "2.50% (Nov 6, 2026)",
+   "period": "Nov 10, 2026",
+   "released": "Detected Nov 11, 2026",
+   "previous": "2.50% (Nov 9, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-09",
+   "latest_date": "2026-11-10",
    "raw": {
     "v": 2.5
    },
@@ -798,18 +798,6 @@
  },
  "releases": [
   {
-   "id": "summary_of_deliberations_oct_2",
-   "name": "Summary of deliberations (Oct 28 meeting)",
-   "publisher": "BoC",
-   "date": "2026-11-10",
-   "date_label": "Tue Nov 10",
-   "time": "1:30 p.m. ET",
-   "url": "https://www.bankofcanada.ca/press/upcoming-events/",
-   "what": "Notes on what officials discussed at the October meeting.",
-   "weekly": false,
-   "timing": "after"
-  },
-  {
    "id": "building_permits",
    "name": "Building permits, September",
    "publisher": "StatCan",
@@ -920,10 +908,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Here is what is new since the last update.",
-   "items": [
-    "New official item: <a href=\"https://www.bankofcanada.ca/2026/11/summary-of-governing-council-deliberations-fixed-announcement-date-of-october-28-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Summary of Governing Council deliberations: Fixed announcement date of October&nbsp;28, 2026</a> (2026-11-10)."
-   ]
+   "headline": "No major policy changes since the last update as the Bank of Canada pauses following its October rate hike.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -956,7 +942,7 @@
    },
    {
     "title": "Expensive oil cuts both ways for Canada",
-    "html": "This is where Canada is different from the U.S. or Europe. Canada is a big <strong>oil producer and exporter</strong>. When oil is expensive, two things happen at once:\n\n<ul><li><strong>It hurts as a shopper.</strong> Families pay more at the pump and for heating, and trucking and flying cost more. That pushes the CPI up and leaves less money for other things.</li><li><strong>It helps as a seller.</strong> Oil companies, workers and governments in producing provinces earn more. In August, energy exports rose 4.7% (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261006/dq261006a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>), and in September Alberta added 23,000 jobs while the country as a whole lost jobs (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>).</li><li><strong>An unusual twist: the loonie fell.</strong> Normally expensive oil lifts the Canadian dollar. This time one U.S. dollar went to about C$1.4113 (<a href=\"https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-10-01\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>), partly due to interest rate differences with the U.S. A weaker loonie makes imported goods dearer, adding to inflation risk.</li></ul>"
+    "html": "This is where Canada is different from the U.S. or Europe. Canada is a big <strong>oil producer and exporter</strong>. When oil is expensive, two things happen at once:\n\n<ul><li><strong>It hurts as a shopper.</strong> Families pay more at the pump and for heating, and trucking and flying cost more. That pushes the CPI up and leaves less money for other things.</li><li><strong>It helps as a seller.</strong> Oil companies, workers and governments in producing provinces earn more. In August, energy exports rose 4.7% (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261006/dq261006a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>), and in September Alberta added 23,000 jobs while the country as a whole lost jobs (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>).</li><li><strong>An unusual twist: the loonie fell.</strong> Normally expensive oil lifts the Canadian dollar. This time one U.S. dollar went to about C$1.4181 (<a href=\"https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-11-01\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>), partly due to interest rate differences with the U.S. A weaker loonie makes imported goods dearer, adding to inflation risk.</li></ul>"
    },
    {
     "title": "Jobs are weakening, and new U.S. tariffs add a worry",
@@ -1220,17 +1206,17 @@
    "intro_title": "Why upcoming data matters for December",
    "intro": "Now that the October 28 decision and Monetary Policy Report are complete, all eyes turn to incoming reports on trade, employment, and retail sales to see how the economy is responding to the 2.50% rate.",
    "reports": {
-    "labour_force_survey": {
-     "why": "October jobs data shows employment contracting further (-4,700) and unemployment rising to 6.7%.",
-     "trigger": "Continued job losses reinforce the case for a prolonged hold; employment recovery could revive tightening expectations."
+    "building_permits": {
+     "why": "Provides a forward-looking gauge of construction intentions and housing sector health.",
+     "trigger": "Significant unexpected strength or weakness in permits could shift growth expectations ahead of December."
     },
-    "market_participants_survey": {
-     "why": "Shows what financial professionals expect for upcoming rate decisions.",
-     "trigger": "Shifts in market pricing will guide our probability assessments for December."
+    "consumer_price_index_cpi_nov": {
+     "why": "Provides the next crucial reading on whether headline inflation remains elevated near 3% or shows signs of easing.",
+     "trigger": "An unexpected jump or drop in October CPI figures would directly challenge the current hold expectation."
     },
-    "summary_of_deliberations_oct_2": {
-     "why": "Reveals the debate behind the October 28 rate hike and Governing Council views.",
-     "trigger": "Details on how close the vote was will clarify the path toward December."
+    "retail_trade_nov": {
+     "why": "Measures consumer spending resilience following the October rate increase.",
+     "trigger": "Strong retail growth would suggest consumers are absorbing higher borrowing costs easily, while weak sales would point to slowing momentum."
     }
    },
    "other_title": "Other things that could move our view",
@@ -1271,7 +1257,7 @@
    {
     "area": "Money markets",
     "grade": "amber",
-    "one": "Market borrowing costs have adjusted to the October rate hike, and the loonie trades near C$1.4113.",
+    "one": "Market borrowing costs have adjusted to the October rate hike, and the loonie trades near C$1.4181.",
     "look": "Government of Canada bond yields, CORRA overnight lending rate (2.52%), and the exchange rate.",
     "why": "Financial markets have absorbed the BoC's move to 2.50%, and CORRA operates effectively near the target rate while the loonie remains soft.",
     "change": "Significant shifts in bond yields or exchange rates.",
@@ -1439,25 +1425,25 @@
     "now_label": "Pricing in rates",
     "now_tone": "mixed",
     "what": "government borrowing costs for a two-year term.",
-    "why": "at 3.17%, it reflects investor expectations for monetary policy."
+    "why": "at 3.13%, it reflects investor expectations for monetary policy."
    },
    "5_year_government_of_canada_bond": {
     "now_label": "Higher",
     "now_tone": "mixed",
     "what": "government borrowing costs for a five-year term.",
-    "why": "at 3.39%, it influences fixed mortgage rates for households."
+    "why": "at 3.35%, it influences fixed mortgage rates for households."
    },
    "10_year_government_of_canada_bond": {
     "now_label": "Up over the year",
     "now_tone": "bad",
     "what": "government borrowing costs for a ten-year term.",
-    "why": "at 3.67%, higher long-term yields help cool borrowing independently."
+    "why": "at 3.63%, higher long-term yields help cool borrowing independently."
    },
    "canadian_dollar_us_1_in_c": {
     "now_label": "Weaker loonie",
     "now_tone": "bad",
     "what": "the exchange rate between the Canadian dollar and the U.S. dollar.",
-    "why": "at C$1.4113, a softer loonie makes imported goods dearer, adding slight price pressure."
+    "why": "at C$1.4181, a softer loonie makes imported goods dearer, adding slight price pressure."
    },
    "market_forecasters_expected_boc_rate_p": {
     "now_label": "Stable path",
@@ -1503,6 +1489,23 @@
    }
   },
   "said": [
+   {
+    "n": "Summary of Governing Council deliberations",
+    "v": "Fixed announcement date of October 28, 2026",
+    "p": "Oct 2026 deliberations",
+    "r": "2026-11-10",
+    "pv": "Opening Statement before the House of Commons",
+    "s": "Bank of Canada",
+    "u": "https://www.bankofcanada.ca/2026/11/summary-of-governing-council-deliberations-fixed-announcement-date-of-october-28-2026/",
+    "now": [
+     "now-info",
+     "Summary of deliberations"
+    ],
+    "w": [
+     "What it said: Details the Governing Council's debate surrounding the October 28 rate hike.",
+     "Why it matters: Provides transparency on why officials decided to raise rates to address persistent inflation risks."
+    ]
+   },
    {
     "n": "Opening Statement before the House of Commons Standing Committee on Finance",
     "v": "Opening Statement to Parliament",
@@ -1589,23 +1592,6 @@
     ]
    },
    {
-    "n": "Summary of deliberations (Sep 2 meeting)",
-    "v": "Response “could” be needed if inflation spreads",
-    "p": "Sep 2 meeting",
-    "r": "2026-09-16",
-    "pv": "July: trade-off “had diminished”",
-    "s": "Bank of Canada",
-    "u": "https://www.bankofcanada.ca/2026/09/summary-of-governing-council-deliberations-fixed-announcement-date-of-september-2-2026/",
-    "now": [
-     "now-info",
-     "Leaning watchful"
-    ],
-    "w": [
-     "What it said: members agreed “the risk that inflation spreads to other goods and services had risen”, and that spreading “could require a monetary policy response to prevent broad-based inflation from setting in.”",
-     "Why it matters: Outlined the central bank's trigger for raising rates."
-    ]
-   },
-   {
     "n": "Governor Tiff Macklem",
     "v": "“the risk that inflation broadens and becomes more persistent has increased.”",
     "p": "Speech to the Halifax Partnership",
@@ -1620,23 +1606,6 @@
     "w": [
      "What he said: “if oil prices stay near $100 per barrel, we would expect inflation to edge up in the coming months”, but “We don’t want to raise our policy rate and restrain growth if inflationary pressures are contained.”",
      "Why it matters: Highlighted the balancing act between energy-driven inflation and softening growth."
-    ]
-   },
-   {
-    "n": "Senior Deputy Governor Carolyn Rogers",
-    "v": "Housing affordability and policy tools",
-    "p": "Speech in Victoria on housing",
-    "r": "2026-10-01",
-    "pv": "—",
-    "s": "Bank of Canada",
-    "u": "https://www1.bankofcanada.ca/2026/10/canadas-housing-affordability-dilemma/",
-    "now": [
-     "now-info",
-     "No rate hint"
-    ],
-    "w": [
-     "What she said: housing affordability is complex, interest rates are too blunt a tool for it, and other factors drive the market beyond what monetary policy alone can touch.",
-     "Why it matters: Reminds us that broader structural issues influence housing alongside borrowing costs."
     ]
    }
   ],
@@ -2531,9 +2500,7 @@
  ],
  "qa": {
   "data_errors": [],
-  "ai_errors": [
-   "Gemini stream error: {\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}"
-  ],
+  "ai_errors": [],
   "sources_read": [
    {
     "title": "Joint Statement of the Government of Canada and the Bank of Canada on the Renewal of the Monetary Policy Framework",

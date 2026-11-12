@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "us",
- "asof_date": "2026-11-10",
- "asof_label": "Nov 10, 2026",
- "generated_at": "2026-11-10T23:25:38.320Z",
- "data_updated_at": "2026-11-10T23:25:38.320Z",
+ "asof_date": "2026-11-11",
+ "asof_label": "Nov 11, 2026",
+ "generated_at": "2026-11-12T00:45:57.086Z",
+ "data_updated_at": "2026-11-12T00:45:57.086Z",
  "narrative_updated_at": "2026-11-10T23:25:38.320Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
   "calendar_label": "Official Fed meeting calendar",
   "who": "The Federal Reserve (“the Fed”), America's central bank. Its 12-person voting group is called the FOMC (Federal Open Market Committee).",
-  "days_to_decision": 29
+  "days_to_decision": 28
  },
  "kpis": [
   {
    "label": "Fed interest rate",
    "value": "3.75% – 4.00%",
    "note": "",
-   "period": "In effect Nov 10, 2026",
+   "period": "In effect Nov 11, 2026",
    "source": "Federal Reserve",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
   },
@@ -216,7 +216,7 @@
    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
    "value": "n/a",
    "period": "Oct 2026 (+0.7% in the month)",
-   "released": "Nov 10, 2026",
+   "released": "Nov 11, 2026",
    "previous": "+20.4% a year; +5.2% in the month (Sep 2026)",
    "tag": "official",
    "manual": false,
@@ -235,7 +235,7 @@
    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
    "value": "n/a",
    "period": "Oct 2026 (+0.3% in the month)",
-   "released": "Nov 10, 2026",
+   "released": "Nov 11, 2026",
    "previous": "+3.2% a year; +0.4% in the month (Sep 2026)",
    "tag": "official",
    "manual": false,
@@ -273,7 +273,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "+3.1% vs a year ago",
    "period": "Sep 2026 (+0.3% in the month)",
-   "released": "Nov 9, 2026",
+   "released": "Oct 29, 2026",
    "previous": "+3.0% a year; +0.3% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -292,7 +292,7 @@
    "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
    "value": "+6.3% vs a year ago",
    "period": "Sep 2026 (+1.3% in the month)",
-   "released": "Nov 9, 2026",
+   "released": "Oct 23, 2026",
    "previous": "+5.6% a year; +0.5% in the month (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -366,7 +366,7 @@
    "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
    "value": "+3.1% vs a year ago",
    "period": "Oct 2026 (+0.4% in the month)",
-   "released": "Nov 9, 2026",
+   "released": "Nov 6, 2026",
    "previous": "+3.2% a year; +0.3% in the month (Sep 2026)",
    "tag": "official",
    "manual": false,
@@ -403,7 +403,7 @@
    "url": "https://www.dol.gov/ui/data.pdf",
    "value": "189,000",
    "period": "Week ending Oct 31, 2026",
-   "released": "Nov 9, 2026",
+   "released": "Nov 5, 2026",
    "previous": "195,000 (Week ending Oct 24, 2026)",
    "tag": "official",
    "manual": false,
@@ -421,7 +421,7 @@
    "url": "https://www.dol.gov/ui/data.pdf",
    "value": "1,718,000",
    "period": "Week ending Oct 24, 2026",
-   "released": "Nov 8, 2026",
+   "released": "Nov 5, 2026",
    "previous": "1,695,000 (Week ending Oct 17, 2026)",
    "tag": "official",
    "manual": false,
@@ -439,7 +439,7 @@
    "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
    "value": "7.5 million",
    "period": "Sep 2026",
-   "released": "Nov 6, 2026",
+   "released": "Nov 4, 2026",
    "previous": "7.2 million (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -457,7 +457,7 @@
    "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
    "value": "2.1%",
    "period": "Sep 2026",
-   "released": "Nov 9, 2026",
+   "released": "Nov 4, 2026",
    "previous": "1.9% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -475,7 +475,7 @@
    "url": "https://www.bea.gov/data/gdp/gross-domestic-product",
    "value": "3.4%",
    "period": "Q3 2026",
-   "released": "Nov 9, 2026",
+   "released": "Oct 29, 2026",
    "previous": "2.2% (Q2 2026)",
    "tag": "official",
    "manual": false,
@@ -511,7 +511,7 @@
    "url": "https://www.census.gov/retail/sales.html",
    "value": "+0.8% in the month",
    "period": "Sep 2026 (+6.3% vs a year ago)",
-   "released": "Nov 9, 2026",
+   "released": "Oct 21, 2026",
    "previous": "+1.3% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -530,7 +530,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "+0.0% in the month",
    "period": "Sep 2026",
-   "released": "Nov 9, 2026",
+   "released": "Nov 11, 2026",
    "previous": "+0.5% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -548,7 +548,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "−0.3% in the month",
    "period": "Sep 2026",
-   "released": "Nov 9, 2026",
+   "released": "Nov 11, 2026",
    "previous": "+0.0% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -566,7 +566,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "3.8%",
    "period": "Sep 2026",
-   "released": "Nov 5, 2026",
+   "released": "Oct 30, 2026",
    "previous": "4.0% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -583,12 +583,12 @@
    "source": "Federal Reserve",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
    "value": "3.75% – 4.00%",
-   "period": "In effect Nov 10, 2026",
+   "period": "In effect Nov 11, 2026",
    "released": "Changed Sep 17, 2026",
    "previous": "3.50% – 3.75% (before Sep 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-10",
+   "latest_date": "2026-11-11",
    "raw": {
     "lo": 3.75,
     "hi": 4,
@@ -714,7 +714,7 @@
    "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
    "value": "Median 3.6%",
    "period": "End of 2029",
-   "released": "Nov 9, 2026",
+   "released": "Nov 11, 2026",
    "previous": "—",
    "tag": "official",
    "manual": false,
@@ -745,7 +745,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
    "value": "$99.64 a barrel",
    "period": "Nov 3, 2026",
-   "released": "Nov 6, 2026",
+   "released": "Nov 4, 2026",
    "previous": "$100.06 (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
@@ -763,7 +763,7 @@
    "url": "https://www.eia.gov/petroleum/gasdiesel/",
    "value": "$3.995 a gallon",
    "period": "Week ending Nov 9, 2026",
-   "released": "Nov 10, 2026",
+   "released": "Nov 11, 2026",
    "previous": "$4.153 (Week ending Nov 2, 2026)",
    "tag": "official",
    "manual": false,
@@ -780,12 +780,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 10, 2026",
-   "released": "Nov 10, 2026",
-   "previous": "2.50% (Nov 9, 2026)",
+   "period": "Nov 11, 2026",
+   "released": "Nov 11, 2026",
+   "previous": "2.50% (Nov 10, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-10",
+   "latest_date": "2026-11-11",
    "raw": {
     "v": 2.5
    },
@@ -806,18 +806,6 @@
   }
  },
  "releases": [
-  {
-   "id": "consumer_price_index_cpi",
-   "name": "Consumer Price Index (CPI)",
-   "publisher": "BLS",
-   "date": "2026-11-10",
-   "date_label": "Tue Nov 10",
-   "time": "8:30 a.m.",
-   "url": "https://www.bls.gov/schedule/news_release/cpi.htm",
-   "what": "How much the prices families pay changed last month.",
-   "weekly": false,
-   "timing": "before"
-  },
   {
    "id": "weekly_jobless_claims",
    "name": "Weekly jobless claims",
@@ -1049,12 +1037,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "The October CPI report showed headline consumer prices rising 0.4% in the month and core CPI rising 0.3%, while officials Bowman and Waller signaled that further policy tightening may be needed soon.",
-   "items": [
-    "<strong>Consumer Price Index (CPI)</strong> for October 2026 showed a monthly rise of +0.4% for all items and +0.3% for core CPI.",
-    "<strong>Gasoline prices</strong> dipped from $4.153 to $3.995 a gallon in the week ending November 9, 2026.",
-    "<strong>Treasury yields</strong> moved higher across the board on November 10, with the 10-year yield reaching 4.98%."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -3074,17 +3058,12 @@
     "title": "Waller, The Signaling Value of the Summary of Economic Projections",
     "date": "2026-10-08",
     "url": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm"
-   },
-   {
-    "title": "Bowman, Modernizing the Regulatory and Supervisory Landscape",
-    "date": "2026-10-06",
-    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261006a.htm"
    }
   ],
   "coverage": {
    "automatic": 33,
    "manual": 2
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

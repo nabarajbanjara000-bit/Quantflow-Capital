@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-11-10",
- "asof_label": "Nov 10, 2026",
- "generated_at": "2026-11-10T23:30:46.153Z",
- "data_updated_at": "2026-11-10T23:30:46.153Z",
- "narrative_updated_at": "2026-11-10T01:40:07.925Z",
- "narrative_stale": true,
+ "asof_date": "2026-11-11",
+ "asof_label": "Nov 11, 2026",
+ "generated_at": "2026-11-12T00:52:16.084Z",
+ "data_updated_at": "2026-11-12T00:52:16.084Z",
+ "narrative_updated_at": "2026-11-12T00:52:16.083Z",
+ "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "uk",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 37
+  "days_to_decision": 36
  },
  "kpis": [
   {
    "label": "Bank of England rate",
    "value": "4.00%",
    "note": "",
-   "period": "Nov 9, 2026",
+   "period": "Nov 10, 2026",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year gilt rate",
-   "value": "5.12%",
+   "value": "5.14%",
    "note": "",
-   "period": "Nov 6, 2026",
+   "period": "Nov 9, 2026",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y"
   }
@@ -601,12 +601,12 @@
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
    "value": "4.00%",
-   "period": "Nov 9, 2026",
-   "released": "Detected Nov 10, 2026",
-   "previous": "4.00% (Nov 6, 2026)",
+   "period": "Nov 10, 2026",
+   "released": "Detected Nov 11, 2026",
+   "previous": "4.00% (Nov 9, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-09",
+   "latest_date": "2026-11-10",
    "raw": {
     "v": 4
    },
@@ -618,15 +618,15 @@
    "name": "SONIA (overnight rate between banks)",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "3.985%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 10, 2026",
-   "previous": "3.982% (Nov 5, 2026)",
+   "value": "3.984%",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 11, 2026",
+   "previous": "3.985% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
-    "v": 3.9852
+    "v": 3.9842
    },
    "estimate": false
   },
@@ -636,15 +636,15 @@
    "name": "10-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "5.12%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 10, 2026",
-   "previous": "5.14% (Nov 5, 2026)",
+   "value": "5.14%",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 11, 2026",
+   "previous": "5.12% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
-    "v": 5.1184
+    "v": 5.1364
    },
    "estimate": false
   },
@@ -654,15 +654,15 @@
    "name": "5-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "4.77%",
-   "period": "Nov 6, 2026",
-   "released": "Detected Nov 10, 2026",
-   "previous": "4.77% (Nov 5, 2026)",
+   "value": "4.78%",
+   "period": "Nov 9, 2026",
+   "released": "Detected Nov 11, 2026",
+   "previous": "4.77% (Nov 6, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-06",
+   "latest_date": "2026-11-09",
    "raw": {
-    "v": 4.7722
+    "v": 4.7795
    },
    "estimate": false
   },
@@ -685,15 +685,15 @@
    "name": "Pound vs U.S. dollar",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "US$1.3403",
-   "period": "Nov 9, 2026",
-   "released": "Detected Nov 10, 2026",
-   "previous": "US$1.3360 (Nov 6, 2026)",
+   "value": "US$1.3335",
+   "period": "Nov 10, 2026",
+   "released": "Detected Nov 11, 2026",
+   "previous": "US$1.3403 (Nov 9, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-09",
+   "latest_date": "2026-11-10",
    "raw": {
-    "v": 1.3403
+    "v": 1.3335
    },
    "estimate": false
   },
@@ -703,15 +703,15 @@
    "name": "Pound vs euro / trade-weighted index",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "€1.1972",
-   "period": "Nov 9, 2026",
-   "released": "Detected Nov 10, 2026",
-   "previous": "€1.1987 (Nov 6, 2026)",
+   "value": "€1.1948",
+   "period": "Nov 10, 2026",
+   "released": "Detected Nov 11, 2026",
+   "previous": "€1.1972 (Nov 9, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-09",
+   "latest_date": "2026-11-10",
    "raw": {
-    "v": 1.1972
+    "v": 1.1948
    },
    "estimate": false
   },
@@ -736,7 +736,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
    "value": "$107.03 a barrel",
    "period": "Nov 3, 2026",
-   "released": "Nov 9, 2026",
+   "released": "Nov 4, 2026",
    "previous": "$107.39 (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
@@ -754,7 +754,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
    "value": "$99.64 a barrel",
    "period": "Nov 3, 2026",
-   "released": "Nov 5, 2026",
+   "released": "Nov 4, 2026",
    "previous": "$100.06 (Nov 2, 2026)",
    "tag": "official",
    "manual": false,
@@ -797,12 +797,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 10, 2026",
-   "released": "Detected Nov 9, 2026",
-   "previous": "2.50% (Nov 9, 2026)",
+   "period": "Nov 12, 2026",
+   "released": "Detected Nov 11, 2026",
+   "previous": "2.50% (Nov 11, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-10",
+   "latest_date": "2026-11-12",
    "raw": {
     "v": 2.5
    },
@@ -863,9 +863,8 @@
   "what_changed": {
    "headline": "Here is what is new since the last update.",
    "items": [
-    "New official item: <a href=\"https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-november-2026\" target=\"_blank\" rel=\"noopener noreferrer\">Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026</a> (2026-11-10).",
-    "New official item: <a href=\"https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference\" target=\"_blank\" rel=\"noopener noreferrer\">The low-gear labour market − speech by Clare Lombardelli</a> (2026-11-10).",
-    "New official item: <a href=\"https://www.bankofengland.co.uk/asset-purchase-facility/2026/2026-q3\" target=\"_blank\" rel=\"noopener noreferrer\">Asset Purchase Facility Quarterly Report - 2026 Q3</a> (2026-11-10)."
+    "New official item: <a href=\"https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop\" target=\"_blank\" rel=\"noopener noreferrer\">Principals and Agents – speech by Jonathan Hall</a> (2026-11-11).",
+    "New official item: <a href=\"https://www.bankofengland.co.uk/speech/2026/november/victoria-cleland-panel-at-the-ftt-fintech-festival-2026-london\" target=\"_blank\" rel=\"noopener noreferrer\">UK Retail Payments Infrastructure: moving from vision to design − speech by Victoria Cleland</a> (2026-11-11)."
    ]
   },
   "verdict": {
@@ -1689,8 +1688,8 @@
     "Aug"
    ],
    "10-yr": [
-    "5.12%",
-    "Nov 6"
+    "5.14%",
+    "Nov 9"
    ]
   },
   "rate_label": "Current Bank Rate",
@@ -1804,6 +1803,35 @@
   "the case for further rate increases is not compelling to me unless energy prices remain high for an extended period"
  ],
  "changelog": [
+  {
+   "date": "2026-11-11",
+   "date_label": "Nov 11, 2026",
+   "since": "2026-11-10",
+   "since_label": "Nov 10, 2026",
+   "summary": {
+    "headline": "Here is what is new since the last update.",
+    "items": [
+     "New official item: <a href=\"https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop\" target=\"_blank\" rel=\"noopener noreferrer\">Principals and Agents – speech by Jonathan Hall</a> (2026-11-11).",
+     "New official item: <a href=\"https://www.bankofengland.co.uk/speech/2026/november/victoria-cleland-panel-at-the-ftt-fintech-festival-2026-london\" target=\"_blank\" rel=\"noopener noreferrer\">UK Retail Payments Infrastructure: moving from vision to design − speech by Victoria Cleland</a> (2026-11-11)."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Principals and Agents – speech by Jonathan Hall",
+     "date": "2026-11-11",
+     "url": "https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop"
+    },
+    {
+     "title": "UK Retail Payments Infrastructure: moving from vision to design − speech by Victoria Cleland",
+     "date": "2026-11-11",
+     "url": "https://www.bankofengland.co.uk/speech/2026/november/victoria-cleland-panel-at-the-ftt-fintech-festival-2026-london"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-10",
    "date_label": "Nov 10, 2026",
@@ -2571,9 +2599,7 @@
  ],
  "qa": {
   "data_errors": [],
-  "ai_errors": [
-   "Gemini stream error: {\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}"
-  ],
+  "ai_errors": [],
   "sources_read": [
    {
     "title": "Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026",
@@ -2606,6 +2632,16 @@
     "url": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing"
    },
    {
+    "title": "Principals and Agents – speech by Jonathan Hall",
+    "date": "2026-11-11",
+    "url": "https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop"
+   },
+   {
+    "title": "UK Retail Payments Infrastructure: moving from vision to design − speech by Victoria Cleland",
+    "date": "2026-11-11",
+    "url": "https://www.bankofengland.co.uk/speech/2026/november/victoria-cleland-panel-at-the-ftt-fintech-festival-2026-london"
+   },
+   {
     "title": "The low-gear labour market − speech by Clare Lombardelli",
     "date": "2026-11-10",
     "url": "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference"
@@ -2624,16 +2660,6 @@
     "title": "Physical shocks and economic resilience: a central bank perspective − speech by James Talbot",
     "date": "2026-10-23",
     "url": "https://www.bankofengland.co.uk/speech/2026/october/physical-shocks-and-economic-resilience-speech-by-james-talbot"
-   },
-   {
-    "title": "The PRA’s second decade − speech by Katharine Braddick",
-    "date": "2026-10-22",
-    "url": "https://www.bankofengland.co.uk/speech/2026/october/katharine-braddick-mansion-house-city-regulators-dinner-london"
-   },
-   {
-    "title": "Learning about earnings: Can we rely on labour market slack to mitigate the latest supply shock? − speech by Megan Greene",
-    "date": "2026-10-20",
-    "url": "https://www.bankofengland.co.uk/speech/2026/october/megan-greene-speech-at-lse-economics-society-london"
    },
    {
     "title": "Asset Purchase Facility Quarterly Report - 2026 Q3",
