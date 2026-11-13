@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-11-12",
- "asof_label": "Nov 12, 2026",
- "generated_at": "2026-11-12T23:45:26.227Z",
- "data_updated_at": "2026-11-12T23:45:26.227Z",
- "narrative_updated_at": "2026-11-12T23:45:26.227Z",
+ "asof_date": "2026-11-13",
+ "asof_label": "Nov 13, 2026",
+ "generated_at": "2026-11-13T23:43:00.277Z",
+ "data_updated_at": "2026-11-13T23:43:00.277Z",
+ "narrative_updated_at": "2026-11-13T23:43:00.276Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 35
+  "days_to_decision": 34
  },
  "kpis": [
   {
    "label": "Bank of England rate",
    "value": "4.00%",
    "note": "",
-   "period": "Nov 11, 2026",
+   "period": "Nov 12, 2026",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year gilt rate",
-   "value": "5.19%",
+   "value": "5.20%",
    "note": "",
-   "period": "Nov 10, 2026",
+   "period": "Nov 11, 2026",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y"
   }
@@ -601,12 +601,12 @@
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
    "value": "4.00%",
-   "period": "Nov 11, 2026",
-   "released": "Detected Nov 12, 2026",
-   "previous": "4.00% (Nov 10, 2026)",
+   "period": "Nov 12, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "4.00% (Nov 11, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-11",
+   "latest_date": "2026-11-12",
    "raw": {
     "v": 4
    },
@@ -618,15 +618,15 @@
    "name": "SONIA (overnight rate between banks)",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "3.984%",
-   "period": "Nov 10, 2026",
-   "released": "Detected Nov 12, 2026",
-   "previous": "3.984% (Nov 9, 2026)",
+   "value": "3.985%",
+   "period": "Nov 11, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "3.984% (Nov 10, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-10",
+   "latest_date": "2026-11-11",
    "raw": {
-    "v": 3.9837
+    "v": 3.9845
    },
    "estimate": false
   },
@@ -636,15 +636,15 @@
    "name": "10-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "5.19%",
-   "period": "Nov 10, 2026",
-   "released": "Detected Nov 12, 2026",
-   "previous": "5.14% (Nov 9, 2026)",
+   "value": "5.20%",
+   "period": "Nov 11, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "5.19% (Nov 10, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-10",
+   "latest_date": "2026-11-11",
    "raw": {
-    "v": 5.1906
+    "v": 5.2044
    },
    "estimate": false
   },
@@ -654,15 +654,15 @@
    "name": "5-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "4.85%",
-   "period": "Nov 10, 2026",
-   "released": "Detected Nov 12, 2026",
-   "previous": "4.78% (Nov 9, 2026)",
+   "value": "4.89%",
+   "period": "Nov 11, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "4.85% (Nov 10, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-10",
+   "latest_date": "2026-11-11",
    "raw": {
-    "v": 4.8471
+    "v": 4.8852
    },
    "estimate": false
   },
@@ -685,15 +685,15 @@
    "name": "Pound vs U.S. dollar",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "US$1.3282",
-   "period": "Nov 11, 2026",
-   "released": "Detected Nov 12, 2026",
-   "previous": "US$1.3335 (Nov 10, 2026)",
+   "value": "US$1.3238",
+   "period": "Nov 12, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "US$1.3282 (Nov 11, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-11",
+   "latest_date": "2026-11-12",
    "raw": {
-    "v": 1.3282
+    "v": 1.3238
    },
    "estimate": false
   },
@@ -703,15 +703,15 @@
    "name": "Pound vs euro / trade-weighted index",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "€1.1969",
-   "period": "Nov 11, 2026",
-   "released": "Detected Nov 12, 2026",
-   "previous": "€1.1948 (Nov 10, 2026)",
+   "value": "€1.1961",
+   "period": "Nov 12, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "€1.1969 (Nov 11, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-11",
+   "latest_date": "2026-11-12",
    "raw": {
-    "v": 1.1969
+    "v": 1.1961
    },
    "estimate": false
   },
@@ -734,15 +734,15 @@
    "name": "Brent crude oil",
    "source": "U.S. Energy Information Administration via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "$107.03 a barrel",
-   "period": "Nov 3, 2026",
-   "released": "Nov 4, 2026",
-   "previous": "$107.39 (Nov 2, 2026)",
+   "value": "$92.14 a barrel",
+   "period": "Nov 11, 2026",
+   "released": "Nov 12, 2026",
+   "previous": "$90.16 (Nov 10, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-11",
    "raw": {
-    "v": 107.03
+    "v": 92.14
    },
    "estimate": false
   },
@@ -752,15 +752,15 @@
    "name": "WTI crude oil",
    "source": "U.S. Energy Information Administration via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-   "value": "$99.64 a barrel",
-   "period": "Nov 3, 2026",
-   "released": "Nov 4, 2026",
-   "previous": "$100.06 (Nov 2, 2026)",
+   "value": "$89.62 a barrel",
+   "period": "Nov 11, 2026",
+   "released": "Nov 12, 2026",
+   "previous": "$89.62 (Nov 10, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-11",
    "raw": {
-    "v": 99.64
+    "v": 89.62
    },
    "estimate": false
   },
@@ -797,12 +797,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 12, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "2.50% (Nov 11, 2026)",
+   "period": "Nov 13, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "2.50% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
     "v": 2.5
    },
@@ -810,18 +810,6 @@
   }
  },
  "releases": [
-  {
-   "id": "gdp_first_estimate",
-   "name": "GDP first estimate, July–September",
-   "publisher": "ONS",
-   "date": "2026-11-12",
-   "date_label": "Thu Nov 12",
-   "time": "7:00 a.m.",
-   "url": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2026",
-   "what": "How fast the economy grew over the summer.",
-   "weekly": false,
-   "timing": "before"
-  },
   {
    "id": "uk_labour_market_2",
    "name": "UK labour market, November",
@@ -861,11 +849,10 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Monthly GDP growth rose to +0.3% in September, while gilt yields edged slightly higher.",
+   "headline": "Brent crude oil fell significantly to $92.14 a barrel, and the Bank published findings on wholesale FX settlement.",
    "items": [
-    "<strong>Monthly GDP</strong> increased by +0.3% in September (released Nov 12, 2026), up from +0.0% in August.",
-    "<strong>10-year gilt yield</strong> ticked up from 5.14% (Nov 9) to 5.19% (Nov 10).",
-    "<strong>5-year gilt yield</strong> ticked up from 4.78% (Nov 9) to 4.85% (Nov 10)."
+    "<strong>Brent crude oil</strong> fell from $107.03 a barrel (Nov 3) to <strong>$92.14 a barrel</strong> (Nov 11), a decrease of 13.9%.",
+    "<strong>WTI crude oil</strong> dropped from $99.64 a barrel (Nov 3) to <strong>$89.62 a barrel</strong> (Nov 11), down 10.1%."
    ]
   },
   "verdict": {
@@ -903,7 +890,7 @@
    },
    {
     "title": "Reasons the BoE might hold in December",
-    "html": "<ul><li><strong>Rates just went up.</strong> The MPC increased Bank Rate to 4.00% in November, providing tighter policy stance to bear down on inflation.</li><li><strong>Pay growth remains moderate overall.</strong> Regular pay growth stands at 3.7% with forward-looking expectations contained at 3.4%.</li><li><strong>Job vacancies are cooling.</strong> Vacancies fell to 691,000 in September, showing some softening in employer demand (<a href=\"https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026\" target=\"_blank\" rel=\"noopener noreferrer\">ONS</a>).</li><li><strong>Markets already pressed the brake.</strong> The 10-year gilt yield is <strong>5.19%</strong>, keeping borrowing conditions restrictive.</li><li><strong>The committee signaled a data-dependent pause.</strong> Policy is not on a pre-set path, and members will assess incoming evidence meeting by meeting.</li></ul>"
+    "html": "<ul><li><strong>Rates just went up.</strong> The MPC increased Bank Rate to 4.00% in November, providing tighter policy stance to bear down on inflation.</li><li><strong>Pay growth remains moderate overall.</strong> Regular pay growth stands at 3.7% with forward-looking expectations contained at 3.4%.</li><li><strong>Job vacancies are cooling.</strong> Vacancies fell to 691,000 in September, showing some softening in employer demand (<a href=\"https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026\" target=\"_blank\" rel=\"noopener noreferrer\">ONS</a>).</li><li><strong>Markets already pressed the brake.</strong> The 10-year gilt yield is <strong>5.20%</strong>, keeping borrowing conditions restrictive.</li><li><strong>The committee signaled a data-dependent pause.</strong> Policy is not on a pre-set path, and members will assess incoming evidence meeting by meeting.</li></ul>"
    },
    {
     "title": "Reasons the BoE might raise again",
@@ -1082,12 +1069,12 @@
     "for": [
      "<strong>Rates just went up.</strong> Bank Rate was increased to 4.00% in November.",
      "<strong>Pay and jobs remain mixed.</strong> Regular pay growth is 3.7% with cooling vacancies and unemployment at 4.7%.",
-     "<strong>Markets already tightened.</strong> The 10-year gilt rate is 5.19%, keeping borrowing conditions restrictive.",
+     "<strong>Markets already tightened.</strong> The 10-year gilt rate is 5.20%, keeping borrowing conditions restrictive.",
      "<strong>Data-dependent pause.</strong> The MPC indicated it will assess evidence meeting by meeting."
     ],
     "against": [
      "<strong>Inflation projected to reach 5%</strong> by mid-2027.",
-     "<strong>Oil prices remain very high</strong> ($107.03 a barrel for Brent).",
+     "<strong>Oil prices remain very high</strong> ($92.14 a barrel for Brent).",
      "Pipeline pressures could require further tightening if second-round effects spread."
     ],
     "everyday": "tracker mortgages and savings rates would stay at their current levels as the BoE pauses.",
@@ -1152,8 +1139,8 @@
    },
    "other_title": "Other things that could move our view",
    "other": [
-    "<strong>Oil, gas and the Middle East.</strong> Brent crude at $107.03 a barrel continues to drive inflation pressures.",
-    "<strong>Gilt rates and the pound.</strong> 10-year gilt yields at 5.19% reflect tight financial conditions.",
+    "<strong>Oil, gas and the Middle East.</strong> Brent crude at $92.14 a barrel continues to drive inflation pressures.",
+    "<strong>Gilt rates and the pound.</strong> 10-year gilt yields at 5.20% reflect tight financial conditions.",
     "<strong>Final words from MPC members.</strong> Speeches before December 17 provide policy hints."
    ]
   },
@@ -1191,9 +1178,9 @@
    {
     "area": "Money markets",
     "grade": "red",
-    "one": "Government borrowing costs remain elevated with 10-year gilt yields at 5.19%.",
+    "one": "Government borrowing costs remain elevated with 10-year gilt yields at 5.20%.",
     "look": "Gilt yields, SONIA, sterling exchange rates, and lending conditions.",
-    "why": "10-year gilt yields at 5.19% and 5-year yields at 4.85% keep borrowing conditions tight.",
+    "why": "10-year gilt yields at 5.20% and 5-year yields at 4.89% keep borrowing conditions tight.",
     "change": "Gilt yields settling back toward 5% → yellow.",
     "matters": "Higher market rates slow the economy, doing some of the BoE's tightening work.",
     "change_label": "What would change it"
@@ -1366,19 +1353,19 @@
     "now_label": "On target",
     "now_tone": "good",
     "what": "Sterling Overnight Index Average.",
-    "why": "at 3.984%, reflecting post-hike conditions."
+    "why": "at 3.985%, reflecting post-hike conditions."
    },
    "10_year_gilt_yield": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "yield on 10-year UK government bonds.",
-    "why": "at 5.19%, influencing long-term borrowing costs."
+    "why": "at 5.20%, influencing long-term borrowing costs."
    },
    "5_year_gilt_yield": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "yield on 5-year UK government bonds.",
-    "why": "at 4.85%, keeping medium-term fixes elevated."
+    "why": "at 4.89%, keeping medium-term fixes elevated."
    },
    "market_path_for_bank_rate": {
     "now_label": "Rises priced in",
@@ -1390,13 +1377,13 @@
     "now_label": "Stable",
     "now_tone": "mixed",
     "what": "exchange rate between sterling and the U.S. dollar.",
-    "why": "stands at US$1.3282."
+    "why": "stands at US$1.3238."
    },
    "pound_vs_euro_trade_weighted_index": {
     "now_label": "Stable",
     "now_tone": "mixed",
     "what": "exchange rate between sterling and the euro.",
-    "why": "stands at €1.1969."
+    "why": "stands at €1.1961."
    },
    "boe_government_bond_holdings_qt": {
     "now_label": "Ongoing",
@@ -1408,13 +1395,13 @@
     "now_label": "Very high",
     "now_tone": "bad",
     "what": "global crude oil benchmark.",
-    "why": "at $107.03 a barrel, maintaining energy price pressures."
+    "why": "at $92.14 a barrel, maintaining energy price pressures."
    },
    "wti_crude_oil": {
     "now_label": "High",
     "now_tone": "mixed",
     "what": "U.S. benchmark crude oil price.",
-    "why": "at $99.64 a barrel."
+    "why": "at $89.62 a barrel."
    },
    "uk_wholesale_gas": {
     "now_label": "Up sharply",
@@ -1559,7 +1546,7 @@
   "gaps": [
    "<strong>Market odds for December.</strong> Official live figures for market-implied rate chances from overnight index swaps were not collected.",
    "<strong>The 2-year gilt rate.</strong> We used the BoE’s 5-year and 10-year yields; a 2-year figure was not collected.",
-   "<strong>How we gathered data:</strong> data was gathered with web search tools on Nov 12, 2026, fetching official pages directly from the BoE and ONS."
+   "<strong>How we gathered data:</strong> data was gathered with web search tools on Nov 13, 2026, fetching official pages directly from the BoE and ONS."
   ],
   "group_intros": {
    "prices": "These numbers show how fast prices are rising. The BoE’s target is 2% a year for CPI. With September CPI at 3.5% and the BoE projecting inflation around 5% next year, the BoE watches closely for second-round effects.",
@@ -1689,8 +1676,8 @@
     "Aug"
    ],
    "10-yr": [
-    "5.19%",
-    "Nov 10"
+    "5.20%",
+    "Nov 11"
    ]
   },
   "rate_label": "Current Bank Rate",
@@ -1804,6 +1791,69 @@
   "the case for further rate increases is not compelling to me unless energy prices remain high for an extended period"
  ],
  "changelog": [
+  {
+   "date": "2026-11-13",
+   "date_label": "Nov 13, 2026",
+   "since": "2026-11-12",
+   "since_label": "Nov 12, 2026",
+   "summary": {
+    "headline": "Brent crude oil fell significantly to $92.14 a barrel, and the Bank published findings on wholesale FX settlement.",
+    "items": [
+     "<strong>Brent crude oil</strong> fell from $107.03 a barrel (Nov 3) to <strong>$92.14 a barrel</strong> (Nov 11), a decrease of 13.9%.",
+     "<strong>WTI crude oil</strong> dropped from $99.64 a barrel (Nov 3) to <strong>$89.62 a barrel</strong> (Nov 11), down 10.1%."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "brent_crude_oil",
+     "name": "Brent crude oil",
+     "from": "$107.03 a barrel",
+     "from_period": "Nov 3, 2026",
+     "to": "$92.14 a barrel",
+     "to_period": "Nov 11, 2026",
+     "move": "-13.9%"
+    },
+    {
+     "id": "wti_crude_oil",
+     "name": "WTI crude oil",
+     "from": "$99.64 a barrel",
+     "from_period": "Nov 3, 2026",
+     "to": "$89.62 a barrel",
+     "to_period": "Nov 11, 2026",
+     "move": "-10.1%"
+    }
+   ],
+   "fed": [
+    {
+     "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
+     "date": "2026-11-13",
+     "url": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release"
+    },
+    {
+     "title": "Project Meridian FX APAC: Policy Report",
+     "date": "2026-11-13",
+     "url": "https://www.bankofengland.co.uk/payments/payments-innovation/wholesale-experiments-programme/project-meridian-fx-apac-policy-report"
+    },
+    {
+     "title": "Project Meridian FX APAC: Executive summary and introduction",
+     "date": "2026-11-13",
+     "url": "https://www.bankofengland.co.uk/payments/payments-innovation/wholesale-experiments-programme/project-meridian-fx-apac-executive-summary-and-introduction"
+    },
+    {
+     "title": "Project Meridian FX APAC: Technical Report",
+     "date": "2026-11-13",
+     "url": "https://www.bankofengland.co.uk/payments/payments-innovation/wholesale-experiments-programme/project-meridian-fx-apac-technical-report"
+    },
+    {
+     "title": "Bank of England Weekly Report 11 November 2026",
+     "date": "2026-11-12",
+     "url": "https://www.bankofengland.co.uk/weekly-report/2026/11-november-2026"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-12",
    "date_label": "Nov 12, 2026",
@@ -2650,6 +2700,11 @@
   "ai_errors": [],
   "sources_read": [
    {
+    "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
+    "date": "2026-11-13",
+    "url": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release"
+   },
+   {
     "title": "Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026",
     "date": "2026-11-10",
     "url": "https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-november-2026"
@@ -2673,11 +2728,6 @@
     "title": "Minutes of the Meeting of the Court of Directors held on 17 September 2026",
     "date": "2026-10-29",
     "url": "https://www.bankofengland.co.uk/minutes/2026/september/court-minutes-17-september-2026"
-   },
-   {
-    "title": "Bank of England sets out approach to tokenised collateral in central clearing",
-    "date": "2026-10-29",
-    "url": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing"
    },
    {
     "title": "Principals and Agents – speech by Jonathan Hall",
@@ -2710,6 +2760,26 @@
     "url": "https://www.bankofengland.co.uk/speech/2026/october/physical-shocks-and-economic-resilience-speech-by-james-talbot"
    },
    {
+    "title": "Project Meridian FX APAC: Policy Report",
+    "date": "2026-11-13",
+    "url": "https://www.bankofengland.co.uk/payments/payments-innovation/wholesale-experiments-programme/project-meridian-fx-apac-policy-report"
+   },
+   {
+    "title": "Project Meridian FX APAC: Executive summary and introduction",
+    "date": "2026-11-13",
+    "url": "https://www.bankofengland.co.uk/payments/payments-innovation/wholesale-experiments-programme/project-meridian-fx-apac-executive-summary-and-introduction"
+   },
+   {
+    "title": "Project Meridian FX APAC: Technical Report",
+    "date": "2026-11-13",
+    "url": "https://www.bankofengland.co.uk/payments/payments-innovation/wholesale-experiments-programme/project-meridian-fx-apac-technical-report"
+   },
+   {
+    "title": "Bank of England Weekly Report 11 November 2026",
+    "date": "2026-11-12",
+    "url": "https://www.bankofengland.co.uk/weekly-report/2026/11-november-2026"
+   },
+   {
     "title": "Asset Purchase Facility Quarterly Report - 2026 Q3",
     "date": "2026-11-10",
     "url": "https://www.bankofengland.co.uk/asset-purchase-facility/2026/2026-q3"
@@ -2718,26 +2788,6 @@
     "title": "Price efficiency in securities lending",
     "date": "2026-11-06",
     "url": "https://www.bankofengland.co.uk/working-paper/2026/price-efficiency-in-securities-lending"
-   },
-   {
-    "title": "The aggregate and distributional implications of credit shocks on housing and rental markets",
-    "date": "2026-11-06",
-    "url": "https://www.bankofengland.co.uk/working-paper/2026/the-aggregate-and-distributional-implications-of-credit-shocks-on-housing-and-rental-markets"
-   },
-   {
-    "title": "Market Participants Survey results - November 2026",
-    "date": "2026-11-06",
-    "url": "https://www.bankofengland.co.uk/markets/market-intelligence/survey-results/2026/market-participants-survey-results-november-2026"
-   },
-   {
-    "title": "Bank of England Weekly Report 4 November 2026",
-    "date": "2026-11-05",
-    "url": "https://www.bankofengland.co.uk/weekly-report/2026/4-november-2026"
-   },
-   {
-    "title": "Monetary Policy Report - November 2026",
-    "date": "2026-11-05",
-    "url": "https://www.bankofengland.co.uk/monetary-policy-report/2026/november-2026"
    }
   ],
   "coverage": {

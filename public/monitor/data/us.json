@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "us",
- "asof_date": "2026-11-12",
- "asof_label": "Nov 12, 2026",
- "generated_at": "2026-11-12T23:41:03.872Z",
- "data_updated_at": "2026-11-12T23:41:03.872Z",
- "narrative_updated_at": "2026-11-12T23:41:03.872Z",
+ "asof_date": "2026-11-13",
+ "asof_label": "Nov 13, 2026",
+ "generated_at": "2026-11-13T23:36:52.062Z",
+ "data_updated_at": "2026-11-13T23:36:52.062Z",
+ "narrative_updated_at": "2026-11-13T23:36:52.062Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
   "calendar_label": "Official Fed meeting calendar",
   "who": "The Federal Reserve (“the Fed”), America's central bank. Its 12-person voting group is called the FOMC (Federal Open Market Committee).",
-  "days_to_decision": 27
+  "days_to_decision": 26
  },
  "kpis": [
   {
    "label": "Fed interest rate",
    "value": "3.75% – 4.00%",
    "note": "",
-   "period": "In effect Nov 12, 2026",
+   "period": "In effect Nov 13, 2026",
    "source": "Federal Reserve",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "5.10%",
+   "value": "5.15%",
    "note": "",
-   "period": "Nov 12, 2026",
+   "period": "Nov 13, 2026",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
   }
@@ -216,7 +216,7 @@
    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
    "value": "n/a",
    "period": "Oct 2026 (+0.7% in the month)",
-   "released": "Nov 12, 2026",
+   "released": "Nov 10, 2026",
    "previous": "+20.4% a year; +5.2% in the month (Sep 2026)",
    "tag": "official",
    "manual": false,
@@ -235,7 +235,7 @@
    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
    "value": "n/a",
    "period": "Oct 2026 (+0.3% in the month)",
-   "released": "Nov 12, 2026",
+   "released": "Nov 10, 2026",
    "previous": "+3.2% a year; +0.4% in the month (Sep 2026)",
    "tag": "official",
    "manual": false,
@@ -290,16 +290,16 @@
    "name": "Producer Price Index (PPI), final demand",
    "source": "BLS",
    "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
-   "value": "+6.3% vs a year ago",
-   "period": "Sep 2026 (+1.3% in the month)",
-   "released": "Oct 22, 2026",
-   "previous": "+5.6% a year; +0.5% in the month (Aug 2026)",
+   "value": "+6.5% vs a year ago",
+   "period": "Oct 2026 (+0.3% in the month)",
+   "released": "Nov 13, 2026",
+   "previous": "+6.3% a year; +1.4% in the month (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "yoy": 6.346301041632008,
-    "mom": 1.3433801423297975
+    "yoy": 6.5242390603500455,
+    "mom": 0.3475287885334133
    },
    "estimate": false
   },
@@ -310,12 +310,12 @@
    "source": "FRED (St. Louis Fed)",
    "url": "https://fred.stlouisfed.org/series/T10YIE",
    "value": "2.24%",
-   "period": "Nov 12, 2026",
-   "released": "Nov 12, 2026",
-   "previous": "2.20% (Nov 10, 2026)",
+   "period": "Nov 13, 2026",
+   "released": "Nov 13, 2026",
+   "previous": "2.24% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
     "v": 2.24
    },
@@ -385,7 +385,7 @@
    "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
    "value": "61.9%",
    "period": "Oct 2026",
-   "released": "Nov 8, 2026",
+   "released": "Nov 6, 2026",
    "previous": "61.8% (Sep 2026)",
    "tag": "official",
    "manual": false,
@@ -457,7 +457,7 @@
    "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
    "value": "2.1%",
    "period": "Sep 2026",
-   "released": "Nov 12, 2026",
+   "released": "Nov 6, 2026",
    "previous": "1.9% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -511,7 +511,7 @@
    "url": "https://www.census.gov/retail/sales.html",
    "value": "+0.8% in the month",
    "period": "Sep 2026 (+6.3% vs a year ago)",
-   "released": "Oct 22, 2026",
+   "released": "Oct 21, 2026",
    "previous": "+1.3% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -530,7 +530,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "+0.0% in the month",
    "period": "Sep 2026",
-   "released": "Oct 30, 2026",
+   "released": "Nov 12, 2026",
    "previous": "+0.5% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -548,7 +548,7 @@
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
    "value": "−0.3% in the month",
    "period": "Sep 2026",
-   "released": "Oct 29, 2026",
+   "released": "Nov 12, 2026",
    "previous": "+0.0% (Aug 2026)",
    "tag": "official",
    "manual": false,
@@ -583,12 +583,12 @@
    "source": "Federal Reserve",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
    "value": "3.75% – 4.00%",
-   "period": "In effect Nov 12, 2026",
+   "period": "In effect Nov 13, 2026",
    "released": "Changed Sep 17, 2026",
    "previous": "3.50% – 3.75% (before Sep 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
     "lo": 3.75,
     "hi": 4,
@@ -605,12 +605,12 @@
    "source": "Federal Reserve Bank of New York",
    "url": "https://www.newyorkfed.org/markets/reference-rates/effr",
    "value": "3.88%",
-   "period": "Nov 10, 2026",
-   "released": "Nov 12, 2026",
-   "previous": "3.88% (Nov 9, 2026)",
+   "period": "Nov 12, 2026",
+   "released": "Nov 13, 2026",
+   "previous": "3.88% (Nov 10, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-10",
+   "latest_date": "2026-11-12",
    "raw": {
     "v": 3.88
    },
@@ -623,12 +623,12 @@
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
    "value": "4.32%",
-   "period": "Nov 12, 2026",
-   "released": "Detected Nov 12, 2026",
-   "previous": "4.30% (Nov 10, 2026)",
+   "period": "Nov 13, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "4.32% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
     "v": 4.32
    },
@@ -640,15 +640,15 @@
    "name": "2-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "4.86%",
-   "period": "Nov 12, 2026",
-   "released": "Detected Nov 12, 2026",
-   "previous": "4.73% (Nov 10, 2026)",
+   "value": "4.88%",
+   "period": "Nov 13, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "4.86% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
-    "v": 4.86
+    "v": 4.88
    },
    "estimate": false
   },
@@ -658,15 +658,15 @@
    "name": "10-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "5.10%",
-   "period": "Nov 12, 2026",
-   "released": "Detected Nov 12, 2026",
-   "previous": "4.98% (Nov 10, 2026)",
+   "value": "5.15%",
+   "period": "Nov 13, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "5.10% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
-    "v": 5.1
+    "v": 5.15
    },
    "estimate": false
   },
@@ -676,15 +676,15 @@
    "name": "30-year Treasury yield",
    "source": "U.S. Treasury",
    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
-   "value": "5.43%",
-   "period": "Nov 12, 2026",
-   "released": "Detected Nov 12, 2026",
-   "previous": "5.35% (Nov 10, 2026)",
+   "value": "5.47%",
+   "period": "Nov 13, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "5.43% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
-    "v": 5.43
+    "v": 5.47
    },
    "estimate": false
   },
@@ -694,15 +694,15 @@
    "name": "High-yield credit spread",
    "source": "FRED / ICE BofA",
    "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-   "value": "3.30%",
-   "period": "Nov 11, 2026",
-   "released": "Nov 12, 2026",
-   "previous": "3.34% (Nov 9, 2026)",
+   "value": "3.20%",
+   "period": "Nov 12, 2026",
+   "released": "Nov 13, 2026",
+   "previous": "3.30% (Nov 11, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-11",
+   "latest_date": "2026-11-12",
    "raw": {
-    "v": 3.3
+    "v": 3.2
    },
    "estimate": false
   },
@@ -714,7 +714,7 @@
    "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
    "value": "Median 3.6%",
    "period": "End of 2029",
-   "released": "Oct 29, 2026",
+   "released": "Nov 5, 2026",
    "previous": "—",
    "tag": "official",
    "manual": false,
@@ -743,15 +743,15 @@
    "name": "Oil price (WTI crude)",
    "source": "EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-   "value": "$99.64 a barrel",
-   "period": "Nov 3, 2026",
-   "released": "Nov 4, 2026",
-   "previous": "$100.06 (Nov 2, 2026)",
+   "value": "$89.62 a barrel",
+   "period": "Nov 11, 2026",
+   "released": "Nov 12, 2026",
+   "previous": "$89.62 (Nov 10, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-11",
    "raw": {
-    "v": 99.64
+    "v": 89.62
    },
    "estimate": false
   },
@@ -780,12 +780,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 12, 2026",
-   "released": "Nov 12, 2026",
-   "previous": "2.50% (Nov 11, 2026)",
+   "period": "Nov 13, 2026",
+   "released": "Nov 13, 2026",
+   "previous": "2.50% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
     "v": 2.5
    },
@@ -806,18 +806,6 @@
   }
  },
  "releases": [
-  {
-   "id": "weekly_jobless_claims",
-   "name": "Weekly jobless claims",
-   "publisher": "Labor Dept.",
-   "date": "2026-11-12",
-   "date_label": "Thu Nov 12",
-   "time": "8:30 a.m.",
-   "url": "https://www.dol.gov/ui/data.pdf",
-   "what": "How many people newly applied for unemployment benefits.",
-   "weekly": true,
-   "timing": "before"
-  },
   {
    "id": "producer_price_index_ppi",
    "name": "Producer Price Index (PPI)",
@@ -852,6 +840,18 @@
    "url": "https://www.census.gov/construction/nrc/index.html",
    "what": "How many new homes builders began building.",
    "weekly": false,
+   "timing": "before"
+  },
+  {
+   "id": "weekly_jobless_claims",
+   "name": "Weekly jobless claims",
+   "publisher": "Labor Dept.",
+   "date": "2026-11-19",
+   "date_label": "Thu Nov 19",
+   "time": "8:30 a.m.",
+   "url": "https://www.dol.gov/ui/data.pdf",
+   "what": "How many people newly applied for unemployment benefits.",
+   "weekly": true,
    "timing": "before"
   },
   {
@@ -1037,16 +1037,17 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Weekly jobless claims edged up slightly to 200,000, while Treasury yields climbed further.",
+   "headline": "The Producer Price Index rose 6.5% over the past year, while Treasury yields and oil prices moved.",
    "items": [
-    "<strong>Weekly jobless claims</strong> rose from 191,000 to 200,000 for the week ending November 7, 2026, while continuing claims fell to 1,697,000.",
-    "<strong>2-year Treasury yield</strong> rose from 4.73% to 4.86%, and the 10-year yield rose from 4.98% to 5.10% as markets adjusted to persistent inflation risks."
+    "<strong>Producer Price Index (PPI)</strong> rose to +6.5% vs a year ago for October (+0.3% in the month), reflecting continued pipeline cost pressures.",
+    "<strong>10-year Treasury yield</strong> moved up from 5.10% to 5.15%, and oil prices (WTI crude) adjusted to $89.62 a barrel.",
+    "<strong>High-yield credit spread</strong> eased from 3.30% to 3.20%, showing continued calm among lenders."
    ]
   },
   "verdict": {
    "most_likely": "hold",
    "headline": "HOLD",
-   "sub": "<strong>Keep the interest rate where it is, at 3.75% to 4.00%.</strong> Strong October hiring and persistent inflation keep rate rise discussions open, but the Fed is likely to remain patient following its October pause.",
+   "sub": "<strong>Keep the interest rate where it is, at 3.75% to 4.00%.</strong> Strong economic activity and persistent inflation keep rate rise discussions open, but the Fed is likely to remain patient following its October pause.",
    "probabilities": {
     "hold": 65,
     "raise": 33,
@@ -1058,7 +1059,7 @@
     "cut": "Cut (down)"
    },
    "confidence": "Medium",
-   "confidence_note": "“Medium” means solid October job growth and persistent inflation keep a December rate rise in play, but no decision is locked in.",
+   "confidence_note": "“Medium” means solid job growth and persistent inflation keep a December rate rise in play, but no decision is locked in.",
    "short_version": "Following a solid October jobs report showing 165,000 new positions and a 4.1% unemployment rate, alongside persistent inflation readings, the Fed weighs whether to raise rates again in December.",
    "card_why": "October hiring rebounded to 165,000 and unemployment edged down to 4.1%, keeping December rate rise discussions open.",
    "last_move": "Raised 0.25 on Sep 16, 2026"
@@ -1070,7 +1071,7 @@
    },
    {
     "title": "Right now, prices are the bigger problem",
-    "html": "Prices are rising about <strong>3.6% a year</strong>, measured by the Fed's preferred price gauge, called <strong>PCE</strong> (the Personal Consumption Expenditures price index from the Commerce Department's Bureau of Economic Analysis). In simple terms: a basket of everyday things that cost $100 a year ago now costs about <strong>$103.60</strong>. The goal would be about $102.\n\nThe main cause is <strong>energy</strong>. Conflict in the Middle East pushed up oil prices this year, with WTI crude recently moving around <strong>$99.64 a barrel</strong> in early November. Regular gasoline averaged <strong>$3.995 a gallon</strong> in the week ending November 9, 2026, compared with roughly <strong>$3.12</strong> a year earlier. Energy matters for everything, because trucks carry food to shops, factories run machines, and airlines burn fuel, so higher energy costs slowly spread into the price of almost everything. Fed officials point out that prices have now been above the 2% goal for <strong>more than five years</strong>, and they worry people will start to expect high inflation as normal."
+    "html": "Prices are rising about <strong>3.6% a year</strong>, measured by the Fed's preferred price gauge, called <strong>PCE</strong> (the Personal Consumption Expenditures price index from the Commerce Department's Bureau of Economic Analysis). In simple terms: a basket of everyday things that cost $100 a year ago now costs about <strong>$103.60</strong>. The goal would be about $102.\n\nThe main cause is <strong>energy</strong>. Conflict in the Middle East pushed up oil prices this year, with WTI crude recently moving around <strong>$89.62 a barrel</strong> in mid-November. Regular gasoline averaged <strong>$3.995 a gallon</strong> in the week ending November 9, 2026. Energy matters for everything, because trucks carry food to shops, factories run machines, and airlines burn fuel, so higher energy costs slowly spread into the price of almost everything. Fed officials point out that prices have now been above the 2% goal for <strong>more than five years</strong>, and they worry people will start to expect high inflation as normal."
    },
    {
     "title": "The Fed held in October, but dissenters wanted a rise",
@@ -1078,7 +1079,7 @@
    },
    {
     "title": "Reasons the Fed chose to wait in October",
-    "html": "<ul><li><strong>Hiring was soft at the time.</strong> Only 29,000 jobs were added in September, raising caution. However, October data showed a rebound to 165,000.</li><li><strong>The market already pressed the brake for them.</strong> The interest rate on 10-year U.S. government bonds rose to 5.10% by November 12. Mortgages and many business loans follow that rate. So borrowing has already become more expensive, which cools the economy without the Fed doing anything.</li><li><strong>Senior officials hinted there is no rush.</strong> Governor Christopher Waller noted that rate rises do not need to come at consecutive meetings. Vice Chair Michelle Bowman noted that incoming data and financial conditions dictate the pace.</li><li><strong>The brake takes time to work.</strong> A rate change takes many months to fully affect the economy. The Fed only raised in September and wanted to see the effect first.</li></ul>"
+    "html": "<ul><li><strong>Hiring was soft at the time.</strong> Only 29,000 jobs were added in September, raising caution. However, October data showed a rebound to 165,000.</li><li><strong>The market already pressed the brake for them.</strong> The interest rate on 10-year U.S. government bonds rose to 5.15% by November 13. Mortgages and many business loans follow that rate. So borrowing has already become more expensive, which cools the economy without the Fed doing anything.</li><li><strong>Senior officials hinted there is no rush.</strong> Governor Christopher Waller noted that rate rises do not need to come at consecutive meetings. Vice Chair Michelle Bowman noted that incoming data and financial conditions dictate the pace.</li><li><strong>The brake takes time to work.</strong> A rate change takes many months to fully affect the economy. The Fed only raised in September and wanted to see the effect first.</li></ul>"
    },
    {
     "title": "Why a December rise remains very possible",
@@ -1095,7 +1096,7 @@
      ],
      "right_title": "Pulls toward Hold now",
      "right": [
-      "Bond rates already jumped to 5.10% for the 10-year yield",
+      "Bond rates already jumped to 5.15% for the 10-year yield",
       "“No rush” and flexible timing hints from officials",
       "Desire to assess past policy impact"
      ]
@@ -1243,10 +1244,10 @@
     "because": "investors expected more rises to come, so longer-term borrowing costs in the market rose too."
    },
    {
-    "date_label": "September 15 → November 12, 2026",
+    "date_label": "September 15 → November 13, 2026",
     "title": "Market interest rates climbed further",
     "kind": "down",
-    "what": "The interest rate on 10-year U.S. government bonds rose to <strong>5.10%</strong>. The 2-year rate stood at 4.86%.",
+    "what": "The interest rate on 10-year U.S. government bonds rose to <strong>5.15%</strong>. The 2-year rate stood at 4.88%.",
     "why": "When investors expect the Fed to keep rates high and prices to stay high, they demand more interest to lend money for years at a time.",
     "people": "Mortgage rates and many business loan rates follow the 10-year rate, so buying a house or expanding a business got more expensive within weeks.",
     "sources": [
@@ -1408,7 +1409,7 @@
     "grade": "red",
     "one": "Things cost 3.6% more than a year ago, far above the 2% goal.",
     "look": "The Fed's preferred price gauge (PCE, up 3.6%), core PCE (up 3.1%), and consumer prices (CPI).",
-    "why": "The Fed's official measure (PCE) is well above the goal, and prices have been above target for over five years. Energy and AI-related demand continue to keep core pressures elevated. Business costs (PPI) are up 6.3%.",
+    "why": "The Fed's official measure (PCE) is well above the goal, and prices have been above target for over five years. Energy and AI-related demand continue to keep core pressures elevated. Business costs (PPI) are up 6.5%.",
     "change": "Several months of core prices rising 0.2% a month or less, and energy prices falling back.",
     "matters": "This is the main reason the Fed raised rates in September and why two members dissented in October."
    },
@@ -1435,7 +1436,7 @@
     "grade": "amber",
     "one": "Borrowing costs jumped, but lenders are still lending calmly.",
     "look": "U.S. government bond rates (Treasury yields), the extra interest risky companies pay to borrow (credit spreads), and market expectations for inflation.",
-    "why": "<em>Worrying:</em> the 10-year bond rate rose to 5.10%, making mortgages and loans more expensive. <em>Reassuring:</em> risky companies still borrow easily (spread of 3.30%), and investors still expect inflation of only about 2.24% a year over the long run.",
+    "why": "<em>Worrying:</em> the 10-year bond rate rose to 5.15%, making mortgages and loans more expensive. <em>Reassuring:</em> risky companies still borrow easily (spread of 3.20%), and investors still expect inflation of only about 2.24% a year over the long run.",
     "change": "Credit spreads widening sharply or stock markets falling hard → red. Bond rates settling down → green.",
     "matters": "Higher market rates are already slowing the economy, which is one reason the Fed paused in October."
    }
@@ -1481,7 +1482,7 @@
     "now_label": "Pipeline pressure",
     "now_tone": "bad",
     "what": "prices that businesses charge each other, for example what a factory charges a shop.",
-    "why": "at +6.3% vs a year ago (+1.3% in the month for September), business costs provide an early warning of shop price pressures."
+    "why": "at +6.5% vs a year ago (+0.3% in the month for October), business costs provide an early warning of shop price pressures."
    },
    "10_year_inflation_expectation_from_bon": {
     "now_label": "Calm",
@@ -1595,25 +1596,25 @@
     "now_label": "Rising",
     "now_tone": "mixed",
     "what": "the interest the government pays to borrow for two years.",
-    "why": "at 4.86%, this rate is driven by what investors think the Fed will do over the next two years."
+    "why": "at 4.88%, this rate is driven by what investors think the Fed will do over the next two years."
    },
    "10_year_treasury_yield": {
     "now_label": "Big jump",
     "now_tone": "bad",
     "what": "the interest the government pays to borrow for ten years.",
-    "why": "at 5.10%, mortgage rates and business loans follow this rate, making borrowing more expensive."
+    "why": "at 5.15%, mortgage rates and business loans follow this rate, making borrowing more expensive."
    },
    "30_year_treasury_yield": {
     "now_label": "High, steady",
     "now_tone": "info",
     "what": "the interest the government pays to borrow for thirty years.",
-    "why": "at 5.43%, it shows the long-term cost of government borrowing."
+    "why": "at 5.47%, it shows the long-term cost of government borrowing."
    },
    "high_yield_credit_spread": {
     "now_label": "Lenders calm",
     "now_tone": "good",
     "what": "the extra interest that riskier companies pay to borrow, on top of what the government pays.",
-    "why": "at 3.30%, it is low, meaning lenders are calm and businesses can still access credit."
+    "why": "at 3.20%, it is low, meaning lenders are calm and businesses can still access credit."
    },
    "fed_officials_end_2026_rate_forecast_d": {
     "now_label": "One more rise expected",
@@ -1631,7 +1632,7 @@
     "now_label": "High",
     "now_tone": "bad",
     "what": "the price of a barrel of U.S. crude oil.",
-    "why": "at $99.64, oil near $100 keeps energy prices and overall inflation high."
+    "why": "at $89.62, oil remains elevated, keeping energy prices and overall inflation high."
    },
    "u_s_gasoline_regular": {
     "now_label": "Elevated",
@@ -1910,8 +1911,8 @@
     "Oct"
    ],
    "10-yr": [
-    "5.10%",
-    "Nov 12"
+    "5.15%",
+    "Nov 13"
    ]
   },
   "rate_label": "Current Fed rate",
@@ -2040,6 +2041,62 @@
   "some flexibility about when those hikes will occur."
  ],
  "changelog": [
+  {
+   "date": "2026-11-13",
+   "date_label": "Nov 13, 2026",
+   "since": "2026-11-12",
+   "since_label": "Nov 12, 2026",
+   "summary": {
+    "headline": "The Producer Price Index rose 6.5% over the past year, while Treasury yields and oil prices moved.",
+    "items": [
+     "<strong>Producer Price Index (PPI)</strong> rose to +6.5% vs a year ago for October (+0.3% in the month), reflecting continued pipeline cost pressures.",
+     "<strong>10-year Treasury yield</strong> moved up from 5.10% to 5.15%, and oil prices (WTI crude) adjusted to $89.62 a barrel.",
+     "<strong>High-yield credit spread</strong> eased from 3.30% to 3.20%, showing continued calm among lenders."
+    ]
+   },
+   "data": [
+    {
+     "id": "producer_price_index_ppi_final_demand",
+     "name": "Producer Price Index (PPI), final demand",
+     "from": "+6.3% vs a year ago",
+     "from_period": "Sep 2026 (+1.3% in the month)",
+     "to": "+6.5% vs a year ago",
+     "to_period": "Oct 2026 (+0.3% in the month)"
+    }
+   ],
+   "market": [
+    {
+     "id": "10_year_treasury_yield",
+     "name": "10-year Treasury yield",
+     "from": "5.10%",
+     "from_period": "Nov 12, 2026",
+     "to": "5.15%",
+     "to_period": "Nov 13, 2026",
+     "move": "+0.05 pts"
+    },
+    {
+     "id": "high_yield_credit_spread",
+     "name": "High-yield credit spread",
+     "from": "3.30%",
+     "from_period": "Nov 11, 2026",
+     "to": "3.20%",
+     "to_period": "Nov 12, 2026",
+     "move": "−0.10 pts"
+    },
+    {
+     "id": "oil_price_wti_crude",
+     "name": "Oil price (WTI crude)",
+     "from": "$99.64 a barrel",
+     "from_period": "Nov 3, 2026",
+     "to": "$89.62 a barrel",
+     "to_period": "Nov 11, 2026",
+     "move": "-10.1%"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-12",
    "date_label": "Nov 12, 2026",
@@ -3101,11 +3158,6 @@
     "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
     "date": "2026-10-15",
     "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm"
-   },
-   {
-    "title": "Waller, The Signaling Value of the Summary of Economic Projections",
-    "date": "2026-10-08",
-    "url": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm"
    }
   ],
   "coverage": {

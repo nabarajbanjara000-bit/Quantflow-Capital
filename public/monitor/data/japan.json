@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-11-12",
- "asof_label": "Nov 12, 2026",
- "generated_at": "2026-11-12T23:42:05.983Z",
- "data_updated_at": "2026-11-12T23:42:05.983Z",
+ "asof_date": "2026-11-13",
+ "asof_label": "Nov 13, 2026",
+ "generated_at": "2026-11-13T23:37:16.260Z",
+ "data_updated_at": "2026-11-13T23:37:16.260Z",
  "narrative_updated_at": "2026-11-12T23:42:05.983Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 36
+  "days_to_decision": 35
  },
  "kpis": [
   {
    "label": "BoJ interest rate",
    "value": "1.25%",
    "note": "",
-   "period": "Nov 10, 2026",
+   "period": "Nov 11, 2026",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf"
   },
@@ -70,7 +70,7 @@
    "label": "10-year bond rate",
    "value": "2.84%",
    "note": "",
-   "period": "Nov 11, 2026",
+   "period": "Nov 12, 2026",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv"
   }
@@ -605,12 +605,12 @@
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf",
    "value": "1.25%",
-   "period": "Nov 10, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "1.25% (Nov 9, 2026)",
+   "period": "Nov 11, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "1.25% (Nov 10, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-10",
+   "latest_date": "2026-11-11",
    "raw": {
     "v": 1.25
    },
@@ -642,14 +642,14 @@
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
    "value": "1.86%",
-   "period": "Nov 11, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "1.78% (Nov 10, 2026)",
+   "period": "Nov 12, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "1.86% (Nov 11, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-11",
+   "latest_date": "2026-11-12",
    "raw": {
-    "v": 1.861
+    "v": 1.857
    },
    "estimate": false
   },
@@ -660,14 +660,14 @@
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
    "value": "2.84%",
-   "period": "Nov 11, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "2.75% (Nov 10, 2026)",
+   "period": "Nov 12, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "2.84% (Nov 11, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-11",
+   "latest_date": "2026-11-12",
    "raw": {
-    "v": 2.84
+    "v": 2.841
    },
    "estimate": false
   },
@@ -677,15 +677,15 @@
    "name": "30-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "3.99%",
-   "period": "Nov 11, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "3.94% (Nov 10, 2026)",
+   "value": "3.97%",
+   "period": "Nov 12, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "3.99% (Nov 11, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-11",
+   "latest_date": "2026-11-12",
    "raw": {
-    "v": 3.99
+    "v": 3.974
    },
    "estimate": false
   },
@@ -714,15 +714,15 @@
    "name": "Yen per US dollar",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261009.pdf",
-   "value": "¥158.11",
-   "period": "Nov 10, 2026",
-   "released": "Detected Nov 11, 2026",
-   "previous": "¥158.30 (Nov 9, 2026)",
+   "value": "¥158.84",
+   "period": "Nov 11, 2026",
+   "released": "Detected Nov 13, 2026",
+   "previous": "¥158.11 (Nov 10, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-10",
+   "latest_date": "2026-11-11",
    "raw": {
-    "v": 158.11
+    "v": 158.84
    },
    "estimate": false
   },
@@ -745,15 +745,15 @@
    "name": "Brent crude oil",
    "source": "FRED (EIA)",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "$107.03  a barrel",
-   "period": "Nov 3, 2026",
-   "released": "Nov 4, 2026",
-   "previous": "$107.39 (Nov 2, 2026)",
+   "value": "$92.14  a barrel",
+   "period": "Nov 11, 2026",
+   "released": "Nov 12, 2026",
+   "previous": "$90.16 (Nov 10, 2026)",
    "tag": "secondary",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-11",
    "raw": {
-    "v": 107.03
+    "v": 92.14
    },
    "estimate": false,
    "note": "EIA via FRED"
@@ -764,15 +764,15 @@
    "name": "WTI crude oil (US)",
    "source": "FRED (EIA)",
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-   "value": "$99.64  a barrel",
-   "period": "Nov 3, 2026",
-   "released": "Nov 4, 2026",
-   "previous": "$100.06 (Nov 2, 2026)",
+   "value": "$89.62  a barrel",
+   "period": "Nov 11, 2026",
+   "released": "Nov 12, 2026",
+   "previous": "$89.62 (Nov 10, 2026)",
    "tag": "secondary",
    "manual": false,
-   "latest_date": "2026-11-03",
+   "latest_date": "2026-11-11",
    "raw": {
-    "v": 99.64
+    "v": 89.62
    },
    "estimate": false,
    "note": "EIA via FRED"
@@ -966,11 +966,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Board Member Asada spoke in Nagasaki, highlighting that the BoJ will adjust monetary policy carefully based on economic data.",
-   "items": [
-    "<strong>Board Member Asada</strong> delivered a speech in Nagasaki on November 12, 2026, discussing economic activity, prices, and monetary policy.",
-    "<strong>Bank of Japan Accounts</strong> data published on November 12 showed Japanese government securities holdings at ¥504,936,700,731 thousand as of November 10."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -1810,7 +1807,7 @@
    ],
    "10-yr": [
     "2.84%",
-    "Nov 11"
+    "Nov 12"
    ]
   },
   "rate_label": "Current BoJ rate",
@@ -2655,6 +2652,6 @@
    "automatic": 27,
    "manual": 13
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }
