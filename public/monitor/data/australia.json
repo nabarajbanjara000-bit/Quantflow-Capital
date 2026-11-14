@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-11-13",
- "asof_label": "Nov 13, 2026",
- "generated_at": "2026-11-13T23:40:51.351Z",
- "data_updated_at": "2026-11-13T23:40:51.351Z",
- "narrative_updated_at": "2026-11-10T01:39:13.800Z",
- "narrative_stale": true,
+ "asof_date": "2026-11-14",
+ "asof_label": "Nov 14, 2026",
+ "generated_at": "2026-11-14T22:32:37.015Z",
+ "data_updated_at": "2026-11-14T22:32:37.015Z",
+ "narrative_updated_at": "2026-11-14T22:32:37.015Z",
+ "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
   "code": "australia",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 25
+  "days_to_decision": 24
  },
  "kpis": [
   {
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 13, 2026",
-   "released": "Nov 13, 2026",
-   "previous": "4.00% (Nov 12, 2026)",
+   "period": "Nov 14, 2026",
+   "released": "Nov 14, 2026",
+   "previous": "4.00% (Nov 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-13",
+   "latest_date": "2026-11-14",
    "raw": {
     "v": 4
    },
@@ -911,13 +911,15 @@
   "what_changed": {
    "headline": "Here is what is new since the last update.",
    "items": [
-    "<strong>Oil price (Brent)</strong> moved -13.9%: now $92.14 a barrel, was $107.03 a barrel."
+    "<strong>Oil price (Brent)</strong> moved +2.2%: now $92.14 a barrel, was $90.16 a barrel.",
+    "<strong>Australian dollar</strong> moved -0.5%: now US$0.6804, was US$0.6841.",
+    "<strong>10-year government bond rate</strong> moved +1.0%: now 5.04%, was 4.99%."
    ]
   },
   "verdict": {
    "most_likely": "hold",
    "headline": "HOLD",
-   "sub": "<strong>Keep the cash rate where it is, at 4.85%, following the November 3 rate hike.</strong>",
+   "sub": "<strong>Keep the cash rate where it is, at 4.85%, following the November rate hike.</strong>",
    "probabilities": {
     "hold": 75,
     "raise": 20,
@@ -941,7 +943,7 @@
    },
    {
     "title": "Prices are clearly too high, and oil is making it worse",
-    "html": "The Australian Bureau of Statistics (<strong>ABS</strong>) says consumer prices were <strong>4.3% higher</strong> in September than a year earlier, up from 4.0% in August (<a href=\"https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release\" target=\"_blank\" rel=\"noopener noreferrer\">ABS</a>). In simple terms: a basket of everyday things that cost A$100 a year ago now costs about <strong>A$104.30</strong>. The target would be about A$102.50.\n\nPart of the recent pressure comes from energy costs. Petrol and diesel prices rose <strong>23.6%</strong> in September compared to a year earlier, up from 13.5% in August. Electricity prices remain elevated at 12.8%. At the same time, the RBA’s preferred underlying measure, the <strong>trimmed mean</strong>, sits at <strong>3.6%</strong> for September. (The trimmed mean ignores the items with the biggest and smallest price changes each month, so one-offs like a fuel spike do not distort it.) It remains above the 2–3% target band."
+    "html": "The Australian Bureau of Statistics (<strong>ABS</strong>) says consumer prices were <strong>4.3% higher</strong> in September than a year earlier (<a href=\"https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release\" target=\"_blank\" rel=\"noopener noreferrer\">ABS</a>). In simple terms: a basket of everyday things that cost A$100 a year ago now costs about <strong>A$104.30</strong>. The target would be about A$102.50.\n\nPart of the recent pressure comes from energy costs. Petrol and diesel prices rose <strong>23.6%</strong> in September compared to a year earlier. Electricity prices remain elevated at 12.8%. At the same time, the RBA’s preferred underlying measure, the <strong>trimmed mean</strong>, sits at <strong>3.6%</strong> for September. (The trimmed mean ignores the items with the biggest and smallest price changes each month, so one-offs like a fuel spike do not distort it.) It remains above the 2–3% target band."
    },
    {
     "title": "The RBA raised rates to 4.85% in November",
@@ -1180,7 +1182,7 @@
     ],
     "against": [
      "<strong>Inflation is elevated.</strong> Headline CPI reached 4.3% in September and forecasts show inflation staying above target through much of 2027.",
-     "<strong>Oil has spiked further.</strong> Brent oil near $107 a barrel adds sustained cost pressures.",
+     "<strong>Oil has spiked further.</strong> Brent oil near $92 a barrel adds sustained cost pressures.",
      "<strong>Upgraded forecasts.</strong> The RBA's November Statement on Monetary Policy highlighted material upside risks to inflation."
     ],
     "everyday": "variable mortgage repayments and savings rates would stay roughly where they are, with attention shifting to incoming economic reports.",
@@ -1193,7 +1195,7 @@
     "meaning": "the RBA presses the brake further in December if inflation indicators or oil prices surprise on the upside again.",
     "for": [
      "<strong>Persistent inflation pressures.</strong> Inflation is not expected to reach the top of the 2–3% target range until late 2027.",
-     "<strong>Energy shock.</strong> Automotive fuel prices surged 23.6% and Brent oil is trading near $107 a barrel.",
+     "<strong>Energy shock.</strong> Automotive fuel prices surged 23.6% and Brent oil is trading near $92 a barrel.",
      "<strong>Capacity pressures.</strong> The RBA noted that domestic capacity pressures are a little tighter than earlier thought."
     ],
     "against": [
@@ -1247,7 +1249,7 @@
    },
    "other_title": "Other factors influencing our view",
    "other": [
-    "<strong>Oil and energy markets.</strong> Brent oil at $107.03 a barrel keeps pressure on transport and production costs.",
+    "<strong>Oil and energy markets.</strong> Brent oil at $92.14 a barrel keeps pressure on transport and production costs.",
     "<strong>Global central banks.</strong> The U.S. Federal Reserve rate at 4.00% and ECB deposit rate at 2.50% show global monetary policy remains restrictive.",
     "<strong>RBA board split.</strong> The 6–3 vote on November 3 shows differing views on how much further tightening may be needed."
    ]
@@ -1287,7 +1289,7 @@
     "area": "Money markets",
     "grade": "amber",
     "one": "Borrowing costs remain elevated following the November rate hike and firm bond yields.",
-    "look": "10-year government bond rate (5.08%), 2-year government bond rate (4.83%), and the Australian dollar (US$0.6900).",
+    "look": "10-year government bond rate (5.04%), 2-year government bond rate (4.81%), and the Australian dollar (US$0.6804).",
     "why": "Financial conditions are restrictive, helping to cool demand even without immediate additional central bank action.",
     "change": "A disorderly surge in yields or sharp currency depreciation moving conditions to red.",
     "matters": "Higher market rates reinforce monetary policy tightening.",
@@ -1461,13 +1463,13 @@
     "now_label": "High",
     "now_tone": "bad",
     "what": "interest rate paid on 10-year Australian government debt.",
-    "why": "stands at 5.08% on Nov 4, keeping long-term borrowing costs elevated."
+    "why": "stands at 5.04% on Nov 11, keeping long-term borrowing costs elevated."
    },
    "2_year_government_bond_rate": {
     "now_label": "Above cash rate",
     "now_tone": "mixed",
     "what": "interest rate on 2-year government bonds.",
-    "why": "stands at 4.83% on Nov 4, reflecting expectations of firm monetary policy."
+    "why": "stands at 4.81% on Nov 11, reflecting expectations of firm monetary policy."
    },
    "10_year_bond_rate_monthly_average": {
     "now_label": "High",
@@ -1485,7 +1487,7 @@
     "now_label": "Steady",
     "now_tone": "mixed",
     "what": "exchange rate of the Australian dollar against the U.S. dollar.",
-    "why": "stands at US$0.6900 on November 6, helping moderate import price pressures."
+    "why": "stands at US$0.6804 on November 13, helping moderate import price pressures."
    },
    "mortgage_payments_vs_income": {
     "now_label": "Squeezing",
@@ -1497,7 +1499,7 @@
     "now_label": "Very high",
     "now_tone": "bad",
     "what": "world benchmark price of crude oil.",
-    "why": "stands at $107.03 a barrel on November 3, significantly above RBA forecast assumptions."
+    "why": "stands at $92.14 a barrel on November 11, significantly above RBA forecast assumptions."
    },
    "rba_oil_assumption_august": {
     "now_label": "Far too low",
@@ -1630,7 +1632,7 @@
   ],
   "gaps": [
    "<strong>Market odds specifically for December.</strong> Official market pricing reflects expectations out to year-end and early 2027, but exact daily probabilities for the December meeting alone are estimated.",
-   "<strong>Daily government bond yields.</strong> Current 10-year (5.08%) and 2-year (4.83%) yields are drawn from secondary financial market data sources rather than direct RBA tables.",
+   "<strong>Daily government bond yields.</strong> Current 10-year (5.04%) and 2-year (4.81%) yields are drawn from secondary financial market data sources rather than direct RBA tables.",
    "<strong>Detailed survey breakdowns of inflation expectations.</strong> While the RBA notes short-term expectations remain elevated, detailed household and business survey datasets were not fully collected."
   ],
   "group_intros": {
@@ -2276,9 +2278,7 @@
   "data_errors": [
    "page https://www.rba.gov.au/speeches/2026/sp-sp-ag-2026-11-09.html: HTTP 404 for https://www.rba.gov.au/speeches/2026/sp-sp-ag-2026-11-09.html"
   ],
-  "ai_errors": [
-   "Gemini stream error: {\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}"
-  ],
+  "ai_errors": [],
   "sources_read": [
    {
     "title": "Designation of Prosegur Australia Pty Ltd under the Cash Distribution Framework Act 2026",

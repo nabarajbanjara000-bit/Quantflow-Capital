@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-11-13",
- "asof_label": "Nov 13, 2026",
- "generated_at": "2026-11-13T23:37:16.260Z",
- "data_updated_at": "2026-11-13T23:37:16.260Z",
+ "asof_date": "2026-11-14",
+ "asof_label": "Nov 14, 2026",
+ "generated_at": "2026-11-14T22:28:45.085Z",
+ "data_updated_at": "2026-11-14T22:28:45.085Z",
  "narrative_updated_at": "2026-11-12T23:42:05.983Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 35
+  "days_to_decision": 34
  },
  "kpis": [
   {

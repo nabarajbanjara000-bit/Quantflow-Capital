@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "switzerland",
- "asof_date": "2026-11-13",
- "asof_label": "Nov 13, 2026",
- "generated_at": "2026-11-13T23:42:01.963Z",
- "data_updated_at": "2026-11-13T23:42:01.963Z",
+ "asof_date": "2026-11-14",
+ "asof_label": "Nov 14, 2026",
+ "generated_at": "2026-11-14T22:32:48.475Z",
+ "data_updated_at": "2026-11-14T22:32:48.475Z",
  "narrative_updated_at": "2026-11-13T23:42:01.963Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
   "calendar_label": "Official SNB time schedule",
   "who": "The Swiss National Bank (“the SNB”), Switzerland’s central bank. Decisions are taken by its <strong>Governing Board</strong>, just three people: Chairman Martin Schlegel, Vice Chairman Antoine Martin and Petra Tschudin. They decide together and publish no vote count.",
-  "days_to_decision": 27
+  "days_to_decision": 26
  },
  "kpis": [
   {
@@ -562,15 +562,15 @@
    "name": "2-year Confederation bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/switzerland/2-year-note-yield",
-   "value": "0.28%",
+   "value": "0.27%",
    "period": "Nov 13, 2026",
    "released": "Detected Nov 13, 2026",
-   "previous": "0.28% (Nov 12, 2026)",
+   "previous": "0.27% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
    "latest_date": "2026-11-13",
    "raw": {
-    "v": 0.28
+    "v": 0.273
    },
    "estimate": false
   },
@@ -682,12 +682,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 13, 2026",
-   "released": "Detected Nov 13, 2026",
-   "previous": "2.50% (Nov 12, 2026)",
+   "period": "Nov 14, 2026",
+   "released": "Detected Nov 14, 2026",
+   "previous": "2.50% (Nov 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-13",
+   "latest_date": "2026-11-14",
    "raw": {
     "v": 2.5
    },
@@ -760,10 +760,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Here is what is new since the last update.",
-   "items": [
-    "<strong>10-year Confederation bond yield</strong> moved +0.07 pts: now 0.593%, was 0.524%."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -2032,6 +2030,6 @@
    "automatic": 10,
    "manual": 28
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }
