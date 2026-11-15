@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "switzerland",
- "asof_date": "2026-11-14",
- "asof_label": "Nov 14, 2026",
- "generated_at": "2026-11-14T22:32:48.475Z",
- "data_updated_at": "2026-11-14T22:32:48.475Z",
+ "asof_date": "2026-11-15",
+ "asof_label": "Nov 15, 2026",
+ "generated_at": "2026-11-15T22:53:46.077Z",
+ "data_updated_at": "2026-11-15T22:53:46.077Z",
  "narrative_updated_at": "2026-11-13T23:42:01.963Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
   "calendar_label": "Official SNB time schedule",
   "who": "The Swiss National Bank (“the SNB”), Switzerland’s central bank. Decisions are taken by its <strong>Governing Board</strong>, just three people: Chairman Martin Schlegel, Vice Chairman Antoine Martin and Petra Tschudin. They decide together and publish no vote count.",
-  "days_to_decision": 26
+  "days_to_decision": 25
  },
  "kpis": [
   {
@@ -682,12 +682,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 14, 2026",
-   "released": "Detected Nov 14, 2026",
-   "previous": "2.50% (Nov 13, 2026)",
+   "period": "Nov 15, 2026",
+   "released": "Detected Nov 15, 2026",
+   "previous": "2.50% (Nov 14, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-14",
+   "latest_date": "2026-11-15",
    "raw": {
     "v": 2.5
    },
