@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "canada",
- "asof_date": "2026-11-15",
- "asof_label": "Nov 15, 2026",
- "generated_at": "2026-11-15T22:52:10.217Z",
- "data_updated_at": "2026-11-15T22:52:10.217Z",
- "narrative_updated_at": "2026-11-13T23:38:58.210Z",
+ "asof_date": "2026-11-16",
+ "asof_label": "Nov 16, 2026",
+ "generated_at": "2026-11-17T01:58:43.346Z",
+ "data_updated_at": "2026-11-17T01:58:43.346Z",
+ "narrative_updated_at": "2026-11-17T01:58:43.345Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
   "calendar_label": "Official BoC announcement schedule",
   "who": "The Bank of Canada (“the BoC”), Canada’s central bank. Its decisions are made by a small group of senior officials called the Governing Council, led by Governor Tiff Macklem. It aims to agree as a group, so there is no published vote count like in the U.S.",
-  "days_to_decision": 24
+  "days_to_decision": 23
  },
  "kpis": [
   {
    "label": "Bank of Canada rate",
    "value": "2.50%",
    "note": "",
-   "period": "Nov 12, 2026",
+   "period": "Nov 13, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
   },
@@ -54,7 +54,7 @@
    "label": "Price rise, past year",
    "value": "3.1%",
    "note": "",
-   "period": "Sep 2026",
+   "period": "Oct 2026",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "3.78%",
+   "value": "3.85%",
    "note": "",
-   "period": "Nov 12, 2026",
+   "period": "Nov 13, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28"
   }
@@ -179,15 +179,15 @@
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
    "value": "+3.1% vs a year ago",
-   "period": "Sep 2026 (+0.1% in the month)",
-   "released": "Detected Oct 19, 2026",
-   "previous": "+3.0% a year; −0.1% in the month (Aug 2026)",
+   "period": "Oct 2026 (+0.2% in the month)",
+   "released": "Detected Nov 16, 2026",
+   "previous": "+3.1% a year; +0.1% in the month (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "yoy": 3.092783505154628,
-    "mom": 0.11778563015312216
+    "yoy": 3.085299455535395,
+    "mom": 0.23529411764706687
    },
    "estimate": false
   },
@@ -198,12 +198,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/rates/price-indexes/cpi/",
    "value": "1.8%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 19, 2026",
-   "previous": "1.9% (Aug 2026)",
+   "period": "Oct 2026",
+   "released": "Detected Nov 16, 2026",
+   "previous": "1.9% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
     "v": 1.8
    },
@@ -215,15 +215,15 @@
    "name": "CPI-median (BoC core measure)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/rates/price-indexes/cpi/",
-   "value": "1.9%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 19, 2026",
-   "previous": "2.0% (Aug 2026)",
+   "value": "2.0%",
+   "period": "Oct 2026",
+   "released": "Detected Nov 16, 2026",
+   "previous": "2.0% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 1.9
+    "v": 2
    },
    "estimate": false
   },
@@ -233,15 +233,15 @@
    "name": "CPI without food and energy (CPI-XFET)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/rates/price-indexes/cpi/",
-   "value": "2.1%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 19, 2026",
-   "previous": "2.1% (Aug 2026)",
+   "value": "1.8%",
+   "period": "Oct 2026",
+   "released": "Detected Nov 16, 2026",
+   "previous": "2.1% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 2.1
+    "v": 1.8
    },
    "estimate": false
   },
@@ -252,15 +252,15 @@
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
    "value": "+2.2% vs a year ago",
-   "period": "Sep 2026 (−0.1% in the month)",
-   "released": "Oct 19, 2026",
-   "previous": "+2.4% a year; +0.0% in the month (Aug 2026)",
+   "period": "Oct 2026 (+0.4% in the month)",
+   "released": "Nov 16, 2026",
+   "previous": "+2.2% a year; −0.1% in the month (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "yoy": 2.205882352941191,
-    "mom": -0.11976047904190823
+    "yoy": 2.19780219780219,
+    "mom": 0.3597122302158251
    },
    "estimate": false
   },
@@ -270,16 +270,16 @@
    "name": "Gasoline prices",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
-   "value": "+27.8% vs a year ago",
-   "period": "Sep 2026 (+6.1% in the month)",
-   "released": "Oct 19, 2026",
-   "previous": "+22.8% a year; −0.9% in the month (Aug 2026)",
+   "value": "+30.9% vs a year ago",
+   "period": "Oct 2026 (−2.5% in the month)",
+   "released": "Nov 16, 2026",
+   "previous": "+27.8% a year; +6.1% in the month (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "yoy": 27.793696275071646,
-    "mom": 6.10626486915149
+    "yoy": 30.892678034102296,
+    "mom": -2.4663677130044914
    },
    "estimate": false
   },
@@ -289,16 +289,16 @@
    "name": "Rent",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
-   "value": "+2.8% vs a year ago",
-   "period": "Sep 2026 (+0.5% in the month)",
-   "released": "Oct 19, 2026",
-   "previous": "+2.8% a year; +0.8% in the month (Aug 2026)",
+   "value": "+1.7% vs a year ago",
+   "period": "Oct 2026 (−0.1% in the month)",
+   "released": "Nov 16, 2026",
+   "previous": "+2.8% a year; +0.5% in the month (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "yoy": 2.7963525835866143,
-    "mom": 0.4753416518122222
+    "yoy": 1.7459361830222786,
+    "mom": -0.05913660555884048
    },
    "estimate": false
   },
@@ -308,16 +308,16 @@
    "name": "Food from stores",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
-   "value": "+1.7% vs a year ago",
-   "period": "Sep 2026 (−0.7% in the month)",
-   "released": "Oct 19, 2026",
-   "previous": "+2.8% a year; −0.4% in the month (Aug 2026)",
+   "value": "+2.0% vs a year ago",
+   "period": "Oct 2026 (−0.3% in the month)",
+   "released": "Nov 16, 2026",
+   "previous": "+1.7% a year; −0.7% in the month (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "yoy": 1.692307692307704,
-    "mom": -0.6513026052104132
+    "yoy": 2.0123839009287714,
+    "mom": -0.3025718608169581
    },
    "estimate": false
   },
@@ -603,12 +603,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
    "value": "2.50%",
-   "period": "Nov 12, 2026",
-   "released": "Detected Nov 13, 2026",
-   "previous": "2.50% (Nov 11, 2026)",
+   "period": "Nov 13, 2026",
+   "released": "Detected Nov 16, 2026",
+   "previous": "2.50% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
     "v": 2.5
    },
@@ -621,12 +621,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/AVG.INTWO/json?recent=6",
    "value": "2.53%",
-   "period": "Nov 12, 2026",
-   "released": "Detected Nov 13, 2026",
-   "previous": "2.52% (Nov 10, 2026)",
+   "period": "Nov 13, 2026",
+   "released": "Detected Nov 16, 2026",
+   "previous": "2.53% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
     "v": 2.53
    },
@@ -638,15 +638,15 @@
    "name": "2-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.33%",
-   "period": "Nov 12, 2026",
-   "released": "Detected Nov 13, 2026",
-   "previous": "3.25% (Nov 10, 2026)",
+   "value": "3.37%",
+   "period": "Nov 13, 2026",
+   "released": "Detected Nov 16, 2026",
+   "previous": "3.33% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
-    "v": 3.33
+    "v": 3.37
    },
    "estimate": false
   },
@@ -656,15 +656,15 @@
    "name": "5-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.53%",
-   "period": "Nov 12, 2026",
-   "released": "Detected Nov 13, 2026",
-   "previous": "3.46% (Nov 10, 2026)",
+   "value": "3.59%",
+   "period": "Nov 13, 2026",
+   "released": "Detected Nov 16, 2026",
+   "previous": "3.53% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
-    "v": 3.53
+    "v": 3.59
    },
    "estimate": false
   },
@@ -674,15 +674,15 @@
    "name": "10-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.78%",
-   "period": "Nov 12, 2026",
-   "released": "Detected Nov 13, 2026",
-   "previous": "3.72% (Nov 10, 2026)",
+   "value": "3.85%",
+   "period": "Nov 13, 2026",
+   "released": "Detected Nov 16, 2026",
+   "previous": "3.78% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
-    "v": 3.78
+    "v": 3.85
    },
    "estimate": false
   },
@@ -692,15 +692,15 @@
    "name": "Canadian dollar (US$1 in C$)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25",
-   "value": "C$1.4257",
-   "period": "Nov 13, 2026",
-   "released": "Detected Nov 13, 2026",
-   "previous": "C$1.4255 (Nov 12, 2026)",
+   "value": "C$1.4298",
+   "period": "Nov 16, 2026",
+   "released": "Detected Nov 16, 2026",
+   "previous": "C$1.4257 (Nov 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-13",
+   "latest_date": "2026-11-16",
    "raw": {
-    "v": 1.4257
+    "v": 1.4298
    },
    "estimate": false
   },
@@ -896,8 +896,12 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "October inflation held at 3.1%, while Governor Tiff Macklem announced plans to step down in June 2027.",
+   "items": [
+    "<strong>Consumer Price Index (CPI)</strong> remained at +3.1% vs a year ago in October, with monthly prices rising +0.2%.",
+    "<strong>Core measures</strong> showed mixed signals: CPI-trim stayed at 1.8%, CPI-median edged up to 2.0%, and CPI-XFET eased to 1.8%.",
+    "<strong>Leadership news:</strong> Bank of Canada Governor Tiff Macklem announced he will step down in June 2027."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -926,11 +930,11 @@
    },
    {
     "title": "Prices look high, but it is mostly gasoline",
-    "html": "Consumer prices (the <strong>CPI</strong>, or Consumer Price Index from Statistics Canada) were <strong>3.1% higher</strong> in September than a year earlier, compared with 3.0% in August (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>). In simple terms: a basket of everyday things that cost $100 a year ago now costs about <strong>$103</strong>. The goal would be about $102. That puts Canada right at the top edge of the BoC’s 1%–3% comfort zone.\n\nIn its October Monetary Policy Report, the BoC noted that inflation has been higher than anticipated and is projected to remain around 3% through much of 2027 before returning close to 2% by the middle of 2028 (<a href=\"https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>). Gasoline is up <strong>27.8%</strong> in a year because of global energy shocks. Take gasoline out and prices are up only <strong>2.2%</strong>. The BoC’s two favourite “core” measures, which strip out the most jumpy prices, are at <strong>1.8% (CPI-trim)</strong> and <strong>1.9% (CPI-median)</strong>, right on target (<a href=\"https://www.bankofcanada.ca/rates/price-indexes/cpi/\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>)."
+    "html": "Consumer prices (the <strong>CPI</strong>, or Consumer Price Index from Statistics Canada) were <strong>3.1% higher</strong> in October than a year earlier, unchanged from September (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261116/dq261116a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>). In simple terms: a basket of everyday things that cost $100 a year ago now costs about <strong>$103</strong>. The goal would be about $102. That puts Canada right at the top edge of the BoC’s 1%–3% comfort zone.\n\nIn its October Monetary Policy Report, the BoC noted that inflation has been higher than anticipated and is projected to remain around 3% through much of 2027 before returning close to 2% by the middle of 2028 (<a href=\"https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>). Gasoline is up <strong>30.9%</strong> in a year because of global energy shocks. Take gasoline out and prices are up only <strong>2.2%</strong>. The BoC’s two favourite “core” measures, which strip out the most jumpy prices, are at <strong>1.8% (CPI-trim)</strong> and <strong>2.0% (CPI-median)</strong>, right on target (<a href=\"https://www.bankofcanada.ca/rates/price-indexes/cpi/\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>)."
    },
    {
     "title": "Expensive oil cuts both ways for Canada",
-    "html": "This is where Canada is different from the U.S. or Europe. Canada is a big <strong>oil producer and exporter</strong>. When oil is expensive, two things happen at once:\n\n<ul><li><strong>It hurts as a shopper.</strong> Families pay more at the pump and for heating, and trucking and flying cost more. That pushes the CPI up and leaves less money for other things.</li><li><strong>It helps as a seller.</strong> Oil companies, workers and governments in producing provinces earn more. In August, energy exports rose 4.7% (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261006/dq261006a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>), and in September Alberta added 23,000 jobs while the country as a whole lost jobs (<a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm\" target=\"_blank\" rel=\"noopener noreferrer\">StatCan</a>).</li><li><strong>An unusual twist: the loonie fell.</strong> Normally expensive oil lifts the Canadian dollar. This time one U.S. dollar went to about C$1.4257 (<a href=\"https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-11-01\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>), partly due to interest rate differences with the U.S. A weaker loonie makes imported goods dearer, adding to inflation risk.</li></ul>"
+    "html": "This is where Canada is different from the U.S. or Europe. Canada is a big <strong>oil producer and exporter</strong>. When oil is expensive, two things happen at once:\n\n<ul><li><strong>It hurts as a shopper.</strong> Families pay more at the pump and for heating, and trucking and flying cost more. That pushes the CPI up and leaves less money for other things.</li><li><strong>It helps as a seller.</strong> Oil companies, workers and governments in producing provinces earn more.</li><li><strong>An unusual twist: the loonie fell.</strong> Normally expensive oil lifts the Canadian dollar. This time one U.S. dollar went to about C$1.4298 (<a href=\"https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-11-01\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>), partly due to interest rate differences with the U.S. A weaker loonie makes imported goods dearer, adding to inflation risk.</li></ul>"
    },
    {
     "title": "Jobs are weakening, and new U.S. tariffs add a worry",
@@ -948,7 +952,7 @@
      ],
      "right_title": "Pulls toward Hold now",
      "right": [
-      "Core inflation below 2%, on target",
+      "Core inflation near 2%, on target",
       "Employment contracted further in October (-4,700)",
       "New U.S. tariffs and growth uncertainty",
       "Pay rising only 2.2% a year",
@@ -1145,7 +1149,7 @@
     "for": [
      "<strong>Recent rate hike:</strong> The BoC already raised rates to 2.50% in October to address persistent inflation risks.",
      "<strong>Weakening jobs:</strong> Employment fell further in October (-4,700) and unemployment sits at 6.7%.",
-     "<strong>Core inflation on target:</strong> Core measures (CPI-trim 1.8%, CPI-median 1.9%) remain near the 2% goal.",
+     "<strong>Core inflation on target:</strong> Core measures (CPI-trim 1.8%, CPI-median 2.0%) remain near the 2% goal.",
      "<strong>New U.S. tariffs:</strong> Trade pressures create growth uncertainty that counsels caution."
     ],
     "against": [
@@ -1192,7 +1196,7 @@
   "change": {
    "lead": "Our 75% / 20% / 5% forecast for December is based on today's data. Incoming economic reports will determine whether the BoC maintains its pause or considers further adjustments.",
    "intro_title": "Why upcoming data matters for December",
-   "intro": "Now that the October 28 decision and Monetary Policy Report are complete, all eyes turn to incoming reports on trade, employment, and retail sales to see how the economy is responding to the 2.50% rate.",
+   "intro": "Now that the October CPI and employment figures are complete, all eyes turn to incoming reports on trade, retail sales, and GDP to see how the economy is responding to the 2.50% rate.",
    "reports": {
     "building_permits": {
      "why": "Provides a forward-looking gauge of construction intentions and housing sector health.",
@@ -1219,7 +1223,7 @@
     "area": "Prices",
     "grade": "amber",
     "one": "Inflation is 3.1% and projected to remain around 3% through much of 2027, though core measures remain near 2%.",
-    "look": "Consumer prices (CPI, up 3.1%), BoC core measures (CPI-trim 1.8%, CPI-median 1.9%), and inflation forecasts in the October MPR.",
+    "look": "Consumer prices (CPI, up 3.1%), BoC core measures (CPI-trim 1.8%, CPI-median 2.0%), and inflation forecasts in the October MPR.",
     "why": "Headline inflation is at the top of the comfort zone, driven by energy costs, prompting the BoC to raise rates in October. However, underlying core inflation remains on target.",
     "change": "Headline inflation declining toward 2% or core measures rising above target.",
     "matters": "Inflation persistence was the primary driver of the October rate hike and remains key for future decisions."
@@ -1245,7 +1249,7 @@
    {
     "area": "Money markets",
     "grade": "amber",
-    "one": "Market borrowing costs have adjusted to the October rate hike, and the loonie trades near C$1.4257.",
+    "one": "Market borrowing costs have adjusted to the October rate hike, and the loonie trades near C$1.4298.",
     "look": "Government of Canada bond yields, CORRA overnight lending rate (2.53%), and the exchange rate.",
     "why": "Financial markets have absorbed the BoC's move to 2.50%, and CORRA operates effectively near the target rate while the loonie remains soft.",
     "change": "Significant shifts in bond yields or exchange rates.",
@@ -1269,13 +1273,13 @@
     "now_label": "On target",
     "now_tone": "good",
     "what": "the price change of the exact middle item in the consumer basket.",
-    "why": "at 1.9%, it confirms underlying inflation is right near the 2% target."
+    "why": "at 2.0%, it confirms underlying inflation is right near the 2% target."
    },
    "cpi_without_food_and_energy_cpi_xfet": {
     "now_label": "On target",
     "now_tone": "good",
     "what": "core consumer prices excluding food and energy.",
-    "why": "at 2.1%, it demonstrates that broader price pressures remain stable."
+    "why": "at 1.8%, it demonstrates that broader price pressures remain stable."
    },
    "cpi_without_gasoline": {
     "now_label": "Steady",
@@ -1287,7 +1291,7 @@
     "now_label": "Main cause",
     "now_tone": "bad",
     "what": "what drivers pay at the pump.",
-    "why": "at +27.8% vs a year ago, energy costs remain the primary driver of high headline inflation."
+    "why": "at +30.9% vs a year ago, energy costs remain the primary driver of high headline inflation."
    },
    "rent": {
     "now_label": "Steady",
@@ -1299,7 +1303,7 @@
     "now_label": "Easing",
     "now_tone": "good",
     "what": "grocery store price inflation.",
-    "why": "at +1.7% vs a year ago, grocery price growth has slowed notably."
+    "why": "at +2.0% vs a year ago, grocery price growth remains relatively modest."
    },
    "businesses_inflation_expectations_1_an": {
     "now_label": "Above goal",
@@ -1413,25 +1417,25 @@
     "now_label": "Pricing in rates",
     "now_tone": "mixed",
     "what": "government borrowing costs for a two-year term.",
-    "why": "at 3.33%, it reflects investor expectations for monetary policy."
+    "why": "at 3.37%, it reflects investor expectations for monetary policy."
    },
    "5_year_government_of_canada_bond": {
     "now_label": "Higher",
     "now_tone": "mixed",
     "what": "government borrowing costs for a five-year term.",
-    "why": "at 3.53%, it influences fixed mortgage rates for households."
+    "why": "at 3.59%, it influences fixed mortgage rates for households."
    },
    "10_year_government_of_canada_bond": {
     "now_label": "Up over the year",
     "now_tone": "bad",
     "what": "government borrowing costs for a ten-year term.",
-    "why": "at 3.78%, higher long-term yields help cool borrowing independently."
+    "why": "at 3.85%, higher long-term yields help cool borrowing independently."
    },
    "canadian_dollar_us_1_in_c": {
     "now_label": "Weaker loonie",
     "now_tone": "bad",
     "what": "the exchange rate between the Canadian dollar and the U.S. dollar.",
-    "why": "at C$1.4257, a softer loonie makes imported goods dearer, adding slight price pressure."
+    "why": "at C$1.4298, a softer loonie makes imported goods dearer, adding slight price pressure."
    },
    "market_forecasters_expected_boc_rate_p": {
     "now_label": "Stable path",
@@ -1726,15 +1730,15 @@
   "mini": {
    "prices": [
     "3.1%",
-    "CPI, Sep"
+    "CPI, Oct"
    ],
    "jobless": [
     "6.7%",
     "Oct"
    ],
    "10-yr": [
-    "3.78%",
-    "Nov 12"
+    "3.85%",
+    "Nov 13"
    ]
   },
   "rate_label": "Current BoC rate",
@@ -1839,6 +1843,115 @@
   "Inflation in Canada has been higher than anticipated and is projected to remain around 3% through much of 2027. It then returns close to 2% by the middle of 2028."
  ],
  "changelog": [
+  {
+   "date": "2026-11-16",
+   "date_label": "Nov 16, 2026",
+   "since": "2026-11-15",
+   "since_label": "Nov 15, 2026",
+   "summary": {
+    "headline": "October inflation held at 3.1%, while Governor Tiff Macklem announced plans to step down in June 2027.",
+    "items": [
+     "<strong>Consumer Price Index (CPI)</strong> remained at +3.1% vs a year ago in October, with monthly prices rising +0.2%.",
+     "<strong>Core measures</strong> showed mixed signals: CPI-trim stayed at 1.8%, CPI-median edged up to 2.0%, and CPI-XFET eased to 1.8%.",
+     "<strong>Leadership news:</strong> Bank of Canada Governor Tiff Macklem announced he will step down in June 2027."
+    ]
+   },
+   "data": [
+    {
+     "id": "consumer_price_index_cpi_all_items",
+     "name": "Consumer Price Index (CPI), all items",
+     "from": "+3.1% vs a year ago",
+     "from_period": "Sep 2026 (+0.1% in the month)",
+     "to": "+3.1% vs a year ago",
+     "to_period": "Oct 2026 (+0.2% in the month)"
+    },
+    {
+     "id": "cpi_trim_boc_core_measure",
+     "name": "CPI-trim (BoC core measure)",
+     "from": "1.8%",
+     "from_period": "Sep 2026",
+     "to": "1.8%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "cpi_median_boc_core_measure",
+     "name": "CPI-median (BoC core measure)",
+     "from": "1.9%",
+     "from_period": "Sep 2026",
+     "to": "2.0%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "cpi_without_food_and_energy_cpi_xfet",
+     "name": "CPI without food and energy (CPI-XFET)",
+     "from": "2.1%",
+     "from_period": "Sep 2026",
+     "to": "1.8%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "cpi_without_gasoline",
+     "name": "CPI without gasoline",
+     "from": "+2.2% vs a year ago",
+     "from_period": "Sep 2026 (−0.1% in the month)",
+     "to": "+2.2% vs a year ago",
+     "to_period": "Oct 2026 (+0.4% in the month)"
+    },
+    {
+     "id": "gasoline_prices",
+     "name": "Gasoline prices",
+     "from": "+27.8% vs a year ago",
+     "from_period": "Sep 2026 (+6.1% in the month)",
+     "to": "+30.9% vs a year ago",
+     "to_period": "Oct 2026 (−2.5% in the month)"
+    },
+    {
+     "id": "rent",
+     "name": "Rent",
+     "from": "+2.8% vs a year ago",
+     "from_period": "Sep 2026 (+0.5% in the month)",
+     "to": "+1.7% vs a year ago",
+     "to_period": "Oct 2026 (−0.1% in the month)"
+    },
+    {
+     "id": "food_from_stores",
+     "name": "Food from stores",
+     "from": "+1.7% vs a year ago",
+     "from_period": "Sep 2026 (−0.7% in the month)",
+     "to": "+2.0% vs a year ago",
+     "to_period": "Oct 2026 (−0.3% in the month)"
+    }
+   ],
+   "market": [
+    {
+     "id": "5_year_government_of_canada_bond",
+     "name": "5-year Government of Canada bond",
+     "from": "3.53%",
+     "from_period": "Nov 12, 2026",
+     "to": "3.59%",
+     "to_period": "Nov 13, 2026",
+     "move": "+0.06 pts"
+    },
+    {
+     "id": "10_year_government_of_canada_bond",
+     "name": "10-year Government of Canada bond",
+     "from": "3.78%",
+     "from_period": "Nov 12, 2026",
+     "to": "3.85%",
+     "to_period": "Nov 13, 2026",
+     "move": "+0.07 pts"
+    }
+   ],
+   "fed": [
+    {
+     "title": "Bank of Canada Governor Tiff Macklem to step down in June 2027",
+     "date": "2026-11-16",
+     "url": "https://www.bankofcanada.ca/2026/11/bank-of-canada-governor-tiff-macklem-to-step-down-in-june-2027/"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-13",
    "date_label": "Nov 13, 2026",
@@ -2601,6 +2714,11 @@
   "ai_errors": [],
   "sources_read": [
    {
+    "title": "Bank of Canada Governor Tiff Macklem to step down in June 2027",
+    "date": "2026-11-16",
+    "url": "https://www.bankofcanada.ca/2026/11/bank-of-canada-governor-tiff-macklem-to-step-down-in-june-2027/"
+   },
+   {
     "title": "Joint Statement of the Government of Canada and the Bank of Canada on the Renewal of the Monetary Policy Framework",
     "date": "2026-11-05",
     "url": "https://www.bankofcanada.ca/2026/11/joint-statement-of-the-government-of-canada-and-the-bank-of-canada-on-the-renewal-of-the-monetary-policy-framework-2026/"
@@ -2650,6 +2768,6 @@
    "automatic": 27,
    "manual": 10
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }
