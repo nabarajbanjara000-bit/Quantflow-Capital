@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-11-16",
- "asof_label": "Nov 16, 2026",
- "generated_at": "2026-11-17T02:02:10.928Z",
- "data_updated_at": "2026-11-17T02:02:10.928Z",
- "narrative_updated_at": "2026-11-17T02:02:10.928Z",
+ "asof_date": "2026-11-17",
+ "asof_label": "Nov 17, 2026",
+ "generated_at": "2026-11-18T01:05:30.757Z",
+ "data_updated_at": "2026-11-18T01:05:30.757Z",
+ "narrative_updated_at": "2026-11-18T01:05:30.757Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 31
+  "days_to_decision": 30
  },
  "kpis": [
   {
    "label": "Bank of England rate",
    "value": "4.00%",
    "note": "",
-   "period": "Nov 13, 2026",
+   "period": "Nov 16, 2026",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
   },
@@ -60,17 +60,17 @@
   },
   {
    "label": "Unemployment",
-   "value": "4.7%",
+   "value": "4.6%",
    "note": "",
-   "period": "Aug 2026",
+   "period": "Sep 2026",
    "source": "Office for National Statistics",
    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026"
   },
   {
    "label": "10-year gilt rate",
-   "value": "5.25%",
+   "value": "5.30%",
    "note": "",
-   "period": "Nov 12, 2026",
+   "period": "Nov 13, 2026",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y"
   }
@@ -332,15 +332,15 @@
    "name": "Unemployment rate (16+)",
    "source": "Office for National Statistics",
    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026",
-   "value": "4.7%",
-   "period": "Aug 2026",
-   "released": "Oct 20, 2026",
-   "previous": "4.9% (Jul 2026)",
-   "tag": "old",
+   "value": "4.6%",
+   "period": "Sep 2026",
+   "released": "Nov 17, 2026",
+   "previous": "4.7% (Aug 2026)",
+   "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "v": 4.7
+    "v": 4.6
    },
    "estimate": false
   },
@@ -350,15 +350,15 @@
    "name": "Employment rate (16–64)",
    "source": "Office for National Statistics",
    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026",
-   "value": "75.3%",
-   "period": "Aug 2026",
-   "released": "Oct 20, 2026",
-   "previous": "75.1% (Jul 2026)",
-   "tag": "old",
+   "value": "75.4%",
+   "period": "Sep 2026",
+   "released": "Nov 17, 2026",
+   "previous": "75.3% (Aug 2026)",
+   "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "v": 75.3
+    "v": 75.4
    },
    "estimate": false
   },
@@ -368,15 +368,15 @@
    "name": "Economic inactivity rate (16–64)",
    "source": "Office for National Statistics",
    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026",
-   "value": "20.9%",
-   "period": "Aug 2026",
-   "released": "Oct 20, 2026",
-   "previous": "20.9% (Jul 2026)",
-   "tag": "old",
+   "value": "20.8%",
+   "period": "Sep 2026",
+   "released": "Nov 17, 2026",
+   "previous": "20.9% (Aug 2026)",
+   "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "v": 20.9
+    "v": 20.8
    },
    "estimate": false
   },
@@ -399,15 +399,15 @@
    "name": "Job vacancies",
    "source": "Office for National Statistics",
    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026",
-   "value": "691,000",
-   "period": "Sep 2026",
-   "released": "Oct 20, 2026",
-   "previous": "704,000 (Aug 2026)",
+   "value": "690,000",
+   "period": "Oct 2026",
+   "released": "Nov 17, 2026",
+   "previous": "697,000 (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 691000
+    "v": 690000
    },
    "estimate": false
   },
@@ -417,15 +417,15 @@
    "name": "Regular pay growth (no bonuses)",
    "source": "Office for National Statistics",
    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026",
-   "value": "3.7%",
-   "period": "Aug 2026",
-   "released": "Oct 20, 2026",
-   "previous": "3.6% (Jul 2026)",
-   "tag": "old",
+   "value": "3.5%",
+   "period": "Sep 2026",
+   "released": "Nov 17, 2026",
+   "previous": "3.7% (Aug 2026)",
+   "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "v": 3.7
+    "v": 3.5
    },
    "estimate": false
   },
@@ -601,12 +601,12 @@
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
    "value": "4.00%",
-   "period": "Nov 13, 2026",
-   "released": "Detected Nov 16, 2026",
-   "previous": "4.00% (Nov 12, 2026)",
+   "period": "Nov 16, 2026",
+   "released": "Detected Nov 17, 2026",
+   "previous": "4.00% (Nov 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-13",
+   "latest_date": "2026-11-16",
    "raw": {
     "v": 4
    },
@@ -618,15 +618,15 @@
    "name": "SONIA (overnight rate between banks)",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "3.985%",
-   "period": "Nov 12, 2026",
-   "released": "Detected Nov 16, 2026",
-   "previous": "3.985% (Nov 11, 2026)",
+   "value": "3.983%",
+   "period": "Nov 13, 2026",
+   "released": "Detected Nov 17, 2026",
+   "previous": "3.985% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
-    "v": 3.9846
+    "v": 3.9832
    },
    "estimate": false
   },
@@ -636,15 +636,15 @@
    "name": "10-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "5.25%",
-   "period": "Nov 12, 2026",
-   "released": "Detected Nov 16, 2026",
-   "previous": "5.20% (Nov 11, 2026)",
+   "value": "5.30%",
+   "period": "Nov 13, 2026",
+   "released": "Detected Nov 17, 2026",
+   "previous": "5.25% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
-    "v": 5.2514
+    "v": 5.3011
    },
    "estimate": false
   },
@@ -654,15 +654,15 @@
    "name": "5-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "4.93%",
-   "period": "Nov 12, 2026",
-   "released": "Detected Nov 16, 2026",
-   "previous": "4.89% (Nov 11, 2026)",
+   "value": "4.95%",
+   "period": "Nov 13, 2026",
+   "released": "Detected Nov 17, 2026",
+   "previous": "4.93% (Nov 12, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-12",
+   "latest_date": "2026-11-13",
    "raw": {
-    "v": 4.9256
+    "v": 4.9526
    },
    "estimate": false
   },
@@ -685,15 +685,15 @@
    "name": "Pound vs U.S. dollar",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "US$1.3222",
-   "period": "Nov 13, 2026",
-   "released": "Detected Nov 16, 2026",
-   "previous": "US$1.3238 (Nov 12, 2026)",
+   "value": "US$1.3187",
+   "period": "Nov 16, 2026",
+   "released": "Detected Nov 17, 2026",
+   "previous": "US$1.3222 (Nov 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-13",
+   "latest_date": "2026-11-16",
    "raw": {
-    "v": 1.3222
+    "v": 1.3187
    },
    "estimate": false
   },
@@ -703,15 +703,15 @@
    "name": "Pound vs euro / trade-weighted index",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "€1.1988",
-   "period": "Nov 13, 2026",
-   "released": "Detected Nov 16, 2026",
-   "previous": "€1.1961 (Nov 12, 2026)",
+   "value": "€1.1981",
+   "period": "Nov 16, 2026",
+   "released": "Detected Nov 17, 2026",
+   "previous": "€1.1988 (Nov 13, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-13",
+   "latest_date": "2026-11-16",
    "raw": {
-    "v": 1.1988
+    "v": 1.1981
    },
    "estimate": false
   },
@@ -736,7 +736,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
    "value": "$92.14 a barrel",
    "period": "Nov 11, 2026",
-   "released": "Nov 13, 2026",
+   "released": "Nov 15, 2026",
    "previous": "$90.16 (Nov 10, 2026)",
    "tag": "official",
    "manual": false,
@@ -754,7 +754,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
    "value": "$89.62 a barrel",
    "period": "Nov 11, 2026",
-   "released": "Nov 12, 2026",
+   "released": "Nov 15, 2026",
    "previous": "$89.62 (Nov 10, 2026)",
    "tag": "official",
    "manual": false,
@@ -797,12 +797,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 17, 2026",
-   "released": "Detected Nov 16, 2026",
-   "previous": "2.50% (Nov 16, 2026)",
+   "period": "Nov 18, 2026",
+   "released": "Detected Nov 17, 2026",
+   "previous": "2.50% (Nov 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-17",
+   "latest_date": "2026-11-18",
    "raw": {
     "v": 2.5
    },
@@ -849,8 +849,13 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new economic data since the last update; upcoming labor and inflation reports will test the pause.",
-   "items": []
+   "headline": "Labor market data showed unemployment ticking down to 4.6% and regular pay cooling to 3.5% as the BoE prepares for upcoming inflation reports.",
+   "items": [
+    "<strong>Unemployment rate</strong> edged down from 4.7% to 4.6% for September.",
+    "<strong>Regular pay growth (no bonuses)</strong> slowed from 3.7% to 3.5% for September.",
+    "<strong>Job vacancies</strong> eased slightly to 690,000 in October from 697,000.",
+    "<strong>Monthly GDP</strong> grew +0.3% in September following +0.0% in August."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -887,7 +892,7 @@
    },
    {
     "title": "Reasons the BoE might hold in December",
-    "html": "<ul><li><strong>Rates just went up.</strong> The MPC increased Bank Rate to 4.00% in November, providing tighter policy stance to bear down on inflation.</li><li><strong>Pay growth remains moderate overall.</strong> Regular pay growth stands at 3.7% with forward-looking expectations contained at 3.4%.</li><li><strong>Job vacancies are cooling.</strong> Vacancies fell to 691,000 in September, showing some softening in employer demand (<a href=\"https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026\" target=\"_blank\" rel=\"noopener noreferrer\">ONS</a>).</li><li><strong>Markets already pressed the brake.</strong> The 10-year gilt yield is <strong>5.25%</strong>, keeping borrowing conditions restrictive.</li><li><strong>The committee signaled a data-dependent pause.</strong> Policy is not on a pre-set path, and members will assess incoming evidence meeting by meeting.</li></ul>"
+    "html": "<ul><li><strong>Rates just went up.</strong> The MPC increased Bank Rate to 4.00% in November, providing tighter policy stance to bear down on inflation.</li><li><strong>Pay growth remains moderate overall.</strong> Regular pay growth stands at 3.5% with forward-looking expectations contained at 3.4%.</li><li><strong>Job vacancies are cooling.</strong> Vacancies fell to 690,000 in October, showing some softening in employer demand (<a href=\"https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/november2026\" target=\"_blank\" rel=\"noopener noreferrer\">ONS</a>).</li><li><strong>Markets already pressed the brake.</strong> The 10-year gilt yield is <strong>5.30%</strong>, keeping borrowing conditions restrictive.</li><li><strong>The committee signaled a data-dependent pause.</strong> Policy is not on a pre-set path, and members will assess incoming evidence meeting by meeting.</li></ul>"
    },
    {
     "title": "Reasons the BoE might raise again",
@@ -906,7 +911,7 @@
      "right": [
       "Bank Rate was just raised to 4.00% in November",
       "Limited evidence of second-round wage pressures so far",
-      "Vacancies cooling and regular pay growth at 3.7%"
+      "Vacancies cooling and regular pay growth at 3.5%"
      ]
     },
     "html": "Following the November rate rise to 4.00%, the central bank is positioned to pause and evaluate incoming economic data. While inflation is projected to climb toward 5% next year due to energy shocks, the immediate policy tightening provides breathing room. That is why our probabilities stand at <strong>70% Hold</strong>, <strong>25% Raise</strong> and <strong>5% Cut</strong>."
@@ -1065,8 +1070,8 @@
     "meaning": "the BoE maintains its newly increased rate while assessing how higher energy costs and past hikes ripple through the economy.",
     "for": [
      "<strong>Rates just went up.</strong> Bank Rate was increased to 4.00% in November.",
-     "<strong>Pay and jobs remain mixed.</strong> Regular pay growth is 3.7% with cooling vacancies and unemployment at 4.7%.",
-     "<strong>Markets already tightened.</strong> The 10-year gilt rate is 5.25%, keeping borrowing conditions restrictive.",
+     "<strong>Pay and jobs remain mixed.</strong> Regular pay growth is 3.5% with cooling vacancies and unemployment at 4.6%.",
+     "<strong>Markets already tightened.</strong> The 10-year gilt rate is 5.30%, keeping borrowing conditions restrictive.",
      "<strong>Data-dependent pause.</strong> The MPC indicated it will assess evidence meeting by meeting."
     ],
     "against": [
@@ -1133,7 +1138,7 @@
    "other_title": "Other things that could move our view",
    "other": [
     "<strong>Oil, gas and the Middle East.</strong> Brent crude at $92.14 a barrel continues to drive inflation pressures.",
-    "<strong>Gilt rates and the pound.</strong> 10-year gilt yields at 5.25% reflect tight financial conditions.",
+    "<strong>Gilt rates and the pound.</strong> 10-year gilt yields at 5.30% reflect tight financial conditions.",
     "<strong>Final words from MPC members.</strong> Speeches before December 17 provide policy hints."
    ]
   },
@@ -1151,9 +1156,9 @@
    {
     "area": "Jobs",
     "grade": "amber",
-    "one": "Unemployment is at 4.7% and regular pay growth ticked up to 3.7%, while vacancies cooled to 691,000.",
+    "one": "Unemployment is at 4.6% and regular pay growth ticked down to 3.5%, while vacancies cooled to 690,000.",
     "look": "The unemployment rate, payroll jobs, job vacancies, and regular pay growth.",
-    "why": "Unemployment stood at 4.7% for August and pay growth edged up to 3.7%, showing ongoing resilience alongside cooling vacancies.",
+    "why": "Unemployment stood at 4.6% for September and pay growth slowed to 3.5%, showing ongoing resilience alongside cooling vacancies.",
     "change": "Unemployment rising above 5% with falling pay growth → red.",
     "matters": "A balanced job market helps policymakers gauge second-round wage pressures.",
     "change_label": "What would change it"
@@ -1171,9 +1176,9 @@
    {
     "area": "Money markets",
     "grade": "red",
-    "one": "Government borrowing costs remain elevated with 10-year gilt yields at 5.25%.",
+    "one": "Government borrowing costs remain elevated with 10-year gilt yields at 5.30%.",
     "look": "Gilt yields, SONIA, sterling exchange rates, and lending conditions.",
-    "why": "10-year gilt yields at 5.25% and 5-year yields at 4.93% keep borrowing conditions tight.",
+    "why": "10-year gilt yields at 5.30% and 5-year yields at 4.95% keep borrowing conditions tight.",
     "change": "Gilt yields settling back toward 5% → yellow.",
     "matters": "Higher market rates slow the economy, doing some of the BoE's tightening work.",
     "change_label": "What would change it"
@@ -1238,19 +1243,19 @@
     "now_label": "Ticked down",
     "now_tone": "mixed",
     "what": "the share of people actively looking for work without a job.",
-    "why": "stood at 4.7% for August, showing ongoing labor market resilience."
+    "why": "stood at 4.6% for September, showing ongoing labor market resilience."
    },
    "employment_rate_16_64": {
     "now_label": "Resilient",
     "now_tone": "mixed",
     "what": "the share of working-age people with a job.",
-    "why": "stood at 75.3% for August."
+    "why": "stood at 75.4% for September."
    },
    "economic_inactivity_rate_16_64": {
     "now_label": "Steady",
     "now_tone": "info",
     "what": "share of working-age people neither working nor looking for work.",
-    "why": "holding at 20.9% for August."
+    "why": "holding at 20.8% for September."
    },
    "payrolled_employees_tax_records": {
     "now_label": "Falling",
@@ -1262,13 +1267,13 @@
     "now_label": "Cooling",
     "now_tone": "mixed",
     "what": "number of open job positions.",
-    "why": "fell to 691,000 in September, indicating softer employer demand."
+    "why": "fell to 690,000 in October, indicating softer employer demand."
    },
    "regular_pay_growth_no_bonuses": {
-    "now_label": "Ticked up",
+    "now_label": "Slowing",
     "now_tone": "mixed",
     "what": "average weekly earnings growth excluding bonuses.",
-    "why": "ticked up to 3.7% in August, remaining a key metric for second-round wage risks."
+    "why": "slowed to 3.5% in September, remaining a key metric for second-round wage risks."
    },
    "total_pay_growth_with_bonuses": {
     "now_label": "Slowing",
@@ -1346,19 +1351,19 @@
     "now_label": "On target",
     "now_tone": "good",
     "what": "Sterling Overnight Index Average.",
-    "why": "at 3.985%, reflecting post-hike conditions."
+    "why": "at 3.983%, reflecting post-hike conditions."
    },
    "10_year_gilt_yield": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "yield on 10-year UK government bonds.",
-    "why": "at 5.25%, influencing long-term borrowing costs."
+    "why": "at 5.30%, influencing long-term borrowing costs."
    },
    "5_year_gilt_yield": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "yield on 5-year UK government bonds.",
-    "why": "at 4.93%, keeping medium-term fixes elevated."
+    "why": "at 4.95%, keeping medium-term fixes elevated."
    },
    "market_path_for_bank_rate": {
     "now_label": "Rises priced in",
@@ -1370,13 +1375,13 @@
     "now_label": "Stable",
     "now_tone": "mixed",
     "what": "exchange rate between sterling and the U.S. dollar.",
-    "why": "stands at US$1.3222."
+    "why": "stands at US$1.3187."
    },
    "pound_vs_euro_trade_weighted_index": {
     "now_label": "Stable",
     "now_tone": "mixed",
     "what": "exchange rate between sterling and the euro.",
-    "why": "stands at €1.1988."
+    "why": "stands at €1.1981."
    },
    "boe_government_bond_holdings_qt": {
     "now_label": "Ongoing",
@@ -1539,7 +1544,7 @@
   "gaps": [
    "<strong>Market odds for December.</strong> Official live figures for market-implied rate chances from overnight index swaps were not collected.",
    "<strong>The 2-year gilt rate.</strong> We used the BoE’s 5-year and 10-year yields; a 2-year figure was not collected.",
-   "<strong>How we gathered data:</strong> data was gathered with web search tools on Nov 16, 2026, fetching official pages directly from the BoE and ONS."
+   "<strong>How we gathered data:</strong> data was gathered with web search tools on Nov 17, 2026, fetching official pages directly from the BoE and ONS."
   ],
   "group_intros": {
    "prices": "These numbers show how fast prices are rising. The BoE’s target is 2% a year for CPI. With September CPI at 3.5% and the BoE projecting inflation around 5% next year, the BoE watches closely for second-round effects.",
@@ -1665,12 +1670,12 @@
     "CPI, Sep"
    ],
    "jobless": [
-    "4.7%",
-    "Aug"
+    "4.6%",
+    "Sep"
    ],
    "10-yr": [
-    "5.25%",
-    "Nov 12"
+    "5.30%",
+    "Nov 13"
    ]
   },
   "rate_label": "Current Bank Rate",
@@ -1784,6 +1789,73 @@
   "the case for further rate increases is not compelling to me unless energy prices remain high for an extended period"
  ],
  "changelog": [
+  {
+   "date": "2026-11-17",
+   "date_label": "Nov 17, 2026",
+   "since": "2026-11-16",
+   "since_label": "Nov 16, 2026",
+   "summary": {
+    "headline": "Labor market data showed unemployment ticking down to 4.6% and regular pay cooling to 3.5% as the BoE prepares for upcoming inflation reports.",
+    "items": [
+     "<strong>Unemployment rate</strong> edged down from 4.7% to 4.6% for September.",
+     "<strong>Regular pay growth (no bonuses)</strong> slowed from 3.7% to 3.5% for September.",
+     "<strong>Job vacancies</strong> eased slightly to 690,000 in October from 697,000.",
+     "<strong>Monthly GDP</strong> grew +0.3% in September following +0.0% in August."
+    ]
+   },
+   "data": [
+    {
+     "id": "unemployment_rate_16",
+     "name": "Unemployment rate (16+)",
+     "from": "4.7%",
+     "from_period": "Aug 2026",
+     "to": "4.6%",
+     "to_period": "Sep 2026"
+    },
+    {
+     "id": "employment_rate_16_64",
+     "name": "Employment rate (16–64)",
+     "from": "75.3%",
+     "from_period": "Aug 2026",
+     "to": "75.4%",
+     "to_period": "Sep 2026"
+    },
+    {
+     "id": "economic_inactivity_rate_16_64",
+     "name": "Economic inactivity rate (16–64)",
+     "from": "20.9%",
+     "from_period": "Aug 2026",
+     "to": "20.8%",
+     "to_period": "Sep 2026"
+    },
+    {
+     "id": "job_vacancies",
+     "name": "Job vacancies",
+     "from": "691,000",
+     "from_period": "Sep 2026",
+     "to": "690,000",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "regular_pay_growth_no_bonuses",
+     "name": "Regular pay growth (no bonuses)",
+     "from": "3.7%",
+     "from_period": "Aug 2026",
+     "to": "3.5%",
+     "to_period": "Sep 2026"
+    }
+   ],
+   "market": [],
+   "fed": [
+    {
+     "title": "Eleventh edition of the Regulatory Initiatives Grid",
+     "date": "2026-11-17",
+     "url": "https://www.bankofengland.co.uk/report/regulatory-initiatives-grid"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-16",
    "date_label": "Nov 16, 2026",
@@ -2804,6 +2876,11 @@
     "url": "https://www.bankofengland.co.uk/speech/2026/november/ben-martin-speech-at-data-ai-conference-europe-2026"
    },
    {
+    "title": "Eleventh edition of the Regulatory Initiatives Grid",
+    "date": "2026-11-17",
+    "url": "https://www.bankofengland.co.uk/report/regulatory-initiatives-grid"
+   },
+   {
     "title": "Ensuring the resilience of CCPs: near-final policy statement",
     "date": "2026-11-16",
     "url": "https://www.bankofengland.co.uk/paper/2026/ps/ensuring-the-resilience-of-ccps-near-final-policy-statement"
@@ -2827,11 +2904,6 @@
     "title": "The Bank of England’s approach to rule permissions and waivers: Policy statement",
     "date": "2026-11-16",
     "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-approach-to-rule-permissions-and-waivers-ps"
-   },
-   {
-    "title": "Near-final statement of policy: The Bank of England’s approach to comparable compliance permissions",
-    "date": "2026-11-16",
-    "url": "https://www.bankofengland.co.uk/paper/2026/sop/near-final-statement-of-policy-the-boes-approach-to-comparable-compliance"
    }
   ],
   "coverage": {

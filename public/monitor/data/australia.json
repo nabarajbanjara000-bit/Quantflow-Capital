@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-11-16",
- "asof_label": "Nov 16, 2026",
- "generated_at": "2026-11-17T02:00:59.822Z",
- "data_updated_at": "2026-11-17T02:00:59.822Z",
- "narrative_updated_at": "2026-11-14T22:32:37.015Z",
+ "asof_date": "2026-11-17",
+ "asof_label": "Nov 17, 2026",
+ "generated_at": "2026-11-18T01:04:26.896Z",
+ "data_updated_at": "2026-11-18T01:04:26.896Z",
+ "narrative_updated_at": "2026-11-18T01:04:26.896Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 22
+  "days_to_decision": 21
  },
  "kpis": [
   {
    "label": "RBA cash rate",
    "value": "4.85%",
    "note": "",
-   "period": "Nov 16, 2026",
+   "period": "Nov 17, 2026",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
   },
@@ -417,15 +417,15 @@
    "name": "Wage Price Index",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/wage-price-index-australia/latest-release",
-   "value": "3.2%",
-   "period": "Q2 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "3.2% (Q1 2026)",
-   "tag": "old",
+   "value": "3.5%",
+   "period": "Q3 2026",
+   "released": "Detected Nov 17, 2026",
+   "previous": "3.2% (Q2 2026)",
+   "tag": "official",
    "manual": false,
-   "latest_date": "2026-04-01",
+   "latest_date": "2026-07-01",
    "raw": {
-    "v": 3.2
+    "v": 3.5
    },
    "estimate": false
   },
@@ -593,12 +593,12 @@
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
    "value": "4.85%",
-   "period": "Nov 16, 2026",
-   "released": "Detected Nov 16, 2026",
+   "period": "Nov 17, 2026",
+   "released": "Detected Nov 17, 2026",
    "previous": "4.60% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-16",
+   "latest_date": "2026-11-17",
    "raw": {
     "v": 4.85
    },
@@ -695,15 +695,15 @@
    "name": "Australian dollar",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
-   "value": "US$0.6759",
-   "period": "Nov 16, 2026",
-   "released": "Detected Nov 16, 2026",
-   "previous": "US$0.6804 (Nov 13, 2026)",
+   "value": "US$0.6742",
+   "period": "Nov 17, 2026",
+   "released": "Detected Nov 17, 2026",
+   "previous": "US$0.6759 (Nov 16, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-16",
+   "latest_date": "2026-11-17",
    "raw": {
-    "v": 0.6759
+    "v": 0.6742
    },
    "estimate": false,
    "note": "AUD/USD only (the snapshot also quotes the trade-weighted index)"
@@ -729,7 +729,7 @@
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
    "value": "$92.14 a barrel",
    "period": "Nov 11, 2026",
-   "released": "Nov 13, 2026",
+   "released": "Nov 15, 2026",
    "previous": "$90.16 (Nov 10, 2026)",
    "tag": "secondary",
    "manual": false,
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 16, 2026",
-   "released": "Nov 16, 2026",
-   "previous": "4.00% (Nov 15, 2026)",
+   "period": "Nov 17, 2026",
+   "released": "Nov 17, 2026",
+   "previous": "4.00% (Nov 16, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-16",
+   "latest_date": "2026-11-17",
    "raw": {
     "v": 4
    },
@@ -909,8 +909,10 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "Wage growth rose to 3.5% in the September quarter, keeping inflation pressures in focus.",
+   "items": [
+    "<strong>Wage Price Index</strong> rose from 3.2% in Q2 2026 to <strong>3.5%</strong> in Q3 2026 (released Nov 17, 2026). This shows pay growth is ticking up, keeping pressure on the RBA."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -1285,7 +1287,7 @@
     "area": "Money markets",
     "grade": "amber",
     "one": "Borrowing costs remain elevated following the November rate hike and firm bond yields.",
-    "look": "10-year government bond rate (5.04%), 2-year government bond rate (4.81%), and the Australian dollar (US$0.6804).",
+    "look": "10-year government bond rate (5.04%), 2-year government bond rate (4.81%), and the Australian dollar (US$0.6742).",
     "why": "Financial conditions are restrictive, helping to cool demand even without immediate additional central bank action.",
     "change": "A disorderly surge in yields or sharp currency depreciation moving conditions to red.",
     "matters": "Higher market rates reinforce monetary policy tightening.",
@@ -1378,10 +1380,10 @@
     "why": "stands at 6.3% in September, showing mild slack in the labour market."
    },
    "wage_price_index": {
-    "now_label": "Below inflation",
+    "now_label": "Ticking up",
     "now_tone": "mixed",
     "what": "how fast pay rates for the same jobs are rising.",
-    "why": "at 3.2% in Q2 2026, wage growth remains moderate relative to headline inflation."
+    "why": "at 3.5% in Q3 2026, wage growth is picking up pace relative to earlier quarters."
    },
    "rba_forecast_unemployment": {
     "now_label": "Drifting up",
@@ -1483,7 +1485,7 @@
     "now_label": "Steady",
     "now_tone": "mixed",
     "what": "exchange rate of the Australian dollar against the U.S. dollar.",
-    "why": "stands at US$0.6804 on November 13, helping moderate import price pressures."
+    "why": "stands at US$0.6742 on November 17, helping moderate import price pressures."
    },
    "mortgage_payments_vs_income": {
     "now_label": "Squeezing",
@@ -1875,6 +1877,32 @@
   "At its meeting today, the Board decided to increase the cash rate target by 25 basis points to 4.85 per cent. Inflation remains elevated and recent data indicate that it is broadly based."
  ],
  "changelog": [
+  {
+   "date": "2026-11-17",
+   "date_label": "Nov 17, 2026",
+   "since": "2026-11-16",
+   "since_label": "Nov 16, 2026",
+   "summary": {
+    "headline": "Wage growth rose to 3.5% in the September quarter, keeping inflation pressures in focus.",
+    "items": [
+     "<strong>Wage Price Index</strong> rose from 3.2% in Q2 2026 to <strong>3.5%</strong> in Q3 2026 (released Nov 17, 2026). This shows pay growth is ticking up, keeping pressure on the RBA."
+    ]
+   },
+   "data": [
+    {
+     "id": "wage_price_index",
+     "name": "Wage Price Index",
+     "from": "3.2%",
+     "from_period": "Q2 2026",
+     "to": "3.5%",
+     "to_period": "Q3 2026"
+    }
+   ],
+   "market": [],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-13",
    "date_label": "Nov 13, 2026",
@@ -2291,6 +2319,6 @@
    "automatic": 25,
    "manual": 13
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }
