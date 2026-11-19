@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-11-17",
- "asof_label": "Nov 17, 2026",
- "generated_at": "2026-11-18T01:00:16.053Z",
- "data_updated_at": "2026-11-18T01:00:16.053Z",
+ "asof_date": "2026-11-18",
+ "asof_label": "Nov 18, 2026",
+ "generated_at": "2026-11-19T00:26:29.230Z",
+ "data_updated_at": "2026-11-19T00:26:29.230Z",
  "narrative_updated_at": "2026-11-17T01:54:32.678Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 31
+  "days_to_decision": 30
  },
  "kpis": [
   {
    "label": "BoJ interest rate",
    "value": "1.25%",
    "note": "",
-   "period": "Nov 16, 2026",
+   "period": "Nov 17, 2026",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf"
   },
@@ -605,12 +605,12 @@
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf",
    "value": "1.25%",
-   "period": "Nov 16, 2026",
-   "released": "Detected Nov 17, 2026",
-   "previous": "1.25% (Nov 15, 2026)",
+   "period": "Nov 17, 2026",
+   "released": "Detected Nov 18, 2026",
+   "previous": "1.25% (Nov 16, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-16",
+   "latest_date": "2026-11-17",
    "raw": {
     "v": 1.25
    },
@@ -714,15 +714,15 @@
    "name": "Yen per US dollar",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261009.pdf",
-   "value": "¥159.85",
-   "period": "Nov 16, 2026",
-   "released": "Detected Nov 17, 2026",
-   "previous": "¥159.86 (Nov 13, 2026)",
+   "value": "¥159.10",
+   "period": "Nov 17, 2026",
+   "released": "Detected Nov 18, 2026",
+   "previous": "¥159.85 (Nov 16, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-16",
+   "latest_date": "2026-11-17",
    "raw": {
-    "v": 159.85
+    "v": 159.1
    },
    "estimate": false
   },
@@ -745,15 +745,15 @@
    "name": "Brent crude oil",
    "source": "FRED (EIA)",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "$92.14  a barrel",
-   "period": "Nov 11, 2026",
-   "released": "Nov 15, 2026",
-   "previous": "$90.16 (Nov 10, 2026)",
+   "value": "$92.94  a barrel",
+   "period": "Nov 17, 2026",
+   "released": "Nov 18, 2026",
+   "previous": "$92.90 (Nov 16, 2026)",
    "tag": "secondary",
    "manual": false,
-   "latest_date": "2026-11-11",
+   "latest_date": "2026-11-17",
    "raw": {
-    "v": 92.14
+    "v": 92.94
    },
    "estimate": false,
    "note": "EIA via FRED"
@@ -764,15 +764,15 @@
    "name": "WTI crude oil (US)",
    "source": "FRED (EIA)",
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-   "value": "$89.62  a barrel",
-   "period": "Nov 11, 2026",
-   "released": "Nov 15, 2026",
-   "previous": "$89.62 (Nov 10, 2026)",
+   "value": "$89.53  a barrel",
+   "period": "Nov 17, 2026",
+   "released": "Nov 18, 2026",
+   "previous": "$89.24 (Nov 16, 2026)",
    "tag": "secondary",
    "manual": false,
-   "latest_date": "2026-11-11",
+   "latest_date": "2026-11-17",
    "raw": {
-    "v": 89.62
+    "v": 89.53
    },
    "estimate": false,
    "note": "EIA via FRED"

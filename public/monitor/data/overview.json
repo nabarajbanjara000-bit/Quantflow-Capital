@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-18T01:05:34.489Z",
- "asof_label": "Nov 17, 2026",
+ "generated_at": "2026-11-19T00:31:44.133Z",
+ "asof_label": "Nov 18, 2026",
  "headline": "Hold at 8 of 8",
- "paragraph": "Welcome to the Quant Flow Capital briefing covering eight central banks around the world. At this time, all eight institutions are expected to hold their interest rates steady as they assess recent economic data. Among them, Switzerland stands out with the lowest rate in the group at 0.00%.",
+ "paragraph": "Welcome to the Quant Flow Capital central-bank briefing covering eight major global institutions. Right now, all eight central banks share a baseline expectation to hold their respective interest rates steady at their upcoming December meetings. Amid this broad pause across the group, the United States stands out as hiring rebounded to 165,000 and unemployment edged down to 4.1%, keeping rate rise discussions open.",
  "window": [
   "2026-12-08",
   "2026-12-18"
@@ -43,7 +43,7 @@
    "next_label": "Tue Dec 8",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Dec 8, or 10:30 p.m. U.S. Eastern Time on Monday, Dec 7. The Governor then holds a media conference.",
    "stale": false,
-   "asof": "Nov 17, 2026",
+   "asof": "Nov 18, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 13
@@ -68,8 +68,8 @@
      "Oct"
     ],
     "10-yr": [
-     "5.10%",
-     "Nov 17"
+     "5.07%",
+     "Nov 18"
     ]
    },
    "call": "hold",
@@ -84,7 +84,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. ET",
    "stale": false,
-   "asof": "Nov 17, 2026",
+   "asof": "Nov 18, 2026",
    "coverage": {
     "automatic": 33,
     "manual": 2
@@ -109,8 +109,8 @@
      "Oct"
     ],
     "10-yr": [
-     "3.85%",
-     "Nov 13"
+     "3.81%",
+     "Nov 17"
     ]
    },
    "call": "hold",
@@ -125,7 +125,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "9:45 a.m. Eastern Time",
    "stale": false,
-   "asof": "Nov 16, 2026",
+   "asof": "Nov 18, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 10
@@ -150,8 +150,8 @@
      "Q3"
     ],
     "10-yr": [
-     "4.88%",
-     "Nov 18"
+     "4.84%",
+     "Nov 19"
     ]
    },
    "call": "hold",
@@ -166,7 +166,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
    "stale": false,
-   "asof": "Nov 17, 2026",
+   "asof": "Nov 18, 2026",
    "coverage": {
     "automatic": 18,
     "manual": 21
@@ -191,8 +191,8 @@
      "Sep"
     ],
     "10-yr": [
-     "0.567%",
-     "Nov 17"
+     "0.609%",
+     "Nov 18"
     ]
    },
    "call": "hold",
@@ -207,7 +207,7 @@
    "next_label": "Thu Dec 10",
    "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Nov 17, 2026",
+   "asof": "Nov 18, 2026",
    "coverage": {
     "automatic": 10,
     "manual": 28
@@ -232,8 +232,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.42%",
-     "Nov 17"
+     "3.43%",
+     "Nov 18"
     ]
    },
    "call": "hold",
@@ -248,7 +248,7 @@
    "next_label": "Thu Dec 17",
    "time_label": "2:15 p.m. Central European Time",
    "stale": false,
-   "asof": "Nov 17, 2026",
+   "asof": "Nov 18, 2026",
    "coverage": {
     "automatic": 19,
     "manual": 19
@@ -265,16 +265,16 @@
    "why": "The BoE raised Bank Rate to 4.00% on November 5, 2026, and expects inflation to reach around 5% next year.",
    "mini": {
     "prices": [
-     "3.5%",
-     "CPI, Sep"
+     "3.6%",
+     "CPI, Oct"
     ],
     "jobless": [
      "4.6%",
      "Sep"
     ],
     "10-yr": [
-     "5.30%",
-     "Nov 13"
+     "5.32%",
+     "Nov 16"
     ]
    },
    "call": "hold",
@@ -289,7 +289,7 @@
    "next_label": "Thu Dec 17",
    "time_label": "12:00 p.m. (noon) UK time (GMT)",
    "stale": false,
-   "asof": "Nov 17, 2026",
+   "asof": "Nov 18, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 14
@@ -330,7 +330,7 @@
    "next_label": "Fri Dec 18",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
    "stale": false,
-   "asof": "Nov 17, 2026",
+   "asof": "Nov 18, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 13
