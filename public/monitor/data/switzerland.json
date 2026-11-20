@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "switzerland",
- "asof_date": "2026-11-18",
- "asof_label": "Nov 18, 2026",
- "generated_at": "2026-11-19T00:30:23.616Z",
- "data_updated_at": "2026-11-19T00:30:23.616Z",
+ "asof_date": "2026-11-19",
+ "asof_label": "Nov 19, 2026",
+ "generated_at": "2026-11-20T00:45:42.968Z",
+ "data_updated_at": "2026-11-20T00:45:42.968Z",
  "narrative_updated_at": "2026-11-13T23:42:01.963Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
   "calendar_label": "Official SNB time schedule",
   "who": "The Swiss National Bank (“the SNB”), Switzerland’s central bank. Decisions are taken by its <strong>Governing Board</strong>, just three people: Chairman Martin Schlegel, Vice Chairman Antoine Martin and Petra Tschudin. They decide together and publish no vote count.",
-  "days_to_decision": 22
+  "days_to_decision": 21
  },
  "kpis": [
   {
    "label": "SNB policy rate",
    "value": "0.00%",
    "note": "",
-   "period": "Nov 18, 2026",
+   "period": "Nov 19, 2026",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "0.609%",
+   "value": "0.614%",
    "note": "",
-   "period": "Nov 18, 2026",
+   "period": "Nov 19, 2026",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates"
   }
@@ -491,12 +491,12 @@
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924",
    "value": "0.00%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 18, 2026",
-   "previous": "0.00% (Nov 17, 2026)",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "0.00% (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
     "v": 0
    },
@@ -527,12 +527,12 @@
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
    "value": "-0.04%",
-   "period": "Nov 17, 2026",
-   "released": "Detected Nov 18, 2026",
-   "previous": "-0.04% (Nov 16, 2026)",
+   "period": "Nov 18, 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "-0.04% (Nov 17, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-17",
+   "latest_date": "2026-11-18",
    "raw": {
     "v": -0.04
    },
@@ -544,15 +544,15 @@
    "name": "10-year Confederation bond yield",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "0.609%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 18, 2026",
-   "previous": "0.567% (Nov 17, 2026)",
+   "value": "0.614%",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "0.609% (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
-    "v": 0.609
+    "v": 0.614
    },
    "estimate": false
   },
@@ -562,15 +562,15 @@
    "name": "2-year Confederation bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/switzerland/2-year-note-yield",
-   "value": "0.31%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 18, 2026",
-   "previous": "0.30% (Nov 17, 2026)",
+   "value": "0.30%",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "0.31% (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
-    "v": 0.308
+    "v": 0.297
    },
    "estimate": false
   },
@@ -580,15 +580,15 @@
    "name": "Euro in francs",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "CHF 0.9237",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 18, 2026",
-   "previous": "CHF 0.9222 (Nov 17, 2026)",
+   "value": "CHF 0.9263",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "CHF 0.9237 (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
-    "v": 0.9237
+    "v": 0.9263
    },
    "estimate": false
   },
@@ -598,15 +598,15 @@
    "name": "U.S. dollar in francs",
    "source": "Swiss National Bank",
    "url": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
-   "value": "CHF 0.8418",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 18, 2026",
-   "previous": "CHF 0.8382 (Nov 17, 2026)",
+   "value": "CHF 0.8427",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "CHF 0.8418 (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
-    "v": 0.8418
+    "v": 0.8427
    },
    "estimate": false
   },
@@ -682,12 +682,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 17, 2026",
-   "previous": "2.50% (Nov 17, 2026)",
+   "period": "Nov 20, 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "2.50% (Nov 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-20",
    "raw": {
     "v": 2.5
    },
@@ -1673,8 +1673,8 @@
     "Sep"
    ],
    "10-yr": [
-    "0.609%",
-    "Nov 18"
+    "0.614%",
+    "Nov 19"
    ]
   },
   "rate_label": "Current SNB policy rate",

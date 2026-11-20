@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-11-18",
- "asof_label": "Nov 18, 2026",
- "generated_at": "2026-11-19T00:30:12.291Z",
- "data_updated_at": "2026-11-19T00:30:12.291Z",
- "narrative_updated_at": "2026-11-18T01:04:26.896Z",
+ "asof_date": "2026-11-19",
+ "asof_label": "Nov 19, 2026",
+ "generated_at": "2026-11-20T00:45:31.286Z",
+ "data_updated_at": "2026-11-20T00:45:31.286Z",
+ "narrative_updated_at": "2026-11-20T00:45:31.286Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 20
+  "days_to_decision": 19
  },
  "kpis": [
   {
    "label": "RBA cash rate",
    "value": "4.85%",
    "note": "",
-   "period": "Nov 18, 2026",
+   "period": "Nov 19, 2026",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
   },
@@ -60,9 +60,9 @@
   },
   {
    "label": "Unemployment",
-   "value": "4.7%",
+   "value": "4.9%",
    "note": "",
-   "period": "Sep 2026",
+   "period": "Oct 2026",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
   },
@@ -326,15 +326,15 @@
    "name": "Unemployment rate",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
-   "value": "4.7%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "4.7% (Aug 2026)",
+   "value": "4.9%",
+   "period": "Oct 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "4.7% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 4.71834873
+    "v": 4.86483265
    },
    "estimate": false
   },
@@ -344,16 +344,16 @@
    "name": "Employment change",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
-   "value": "−39,329",
-   "period": "Sep 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "+29,282 (Aug 2026)",
+   "value": "−43,531",
+   "period": "Oct 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "−36,400 (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "chg": -39328.72130999931,
-    "avg3": -9032.80189666657
+    "chg": -43530.74434000155,
+    "avg3": -16572.499523333438
    },
    "estimate": false
   },
@@ -363,15 +363,15 @@
    "name": "Participation rate",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
-   "value": "66.8%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "67.0% (Aug 2026)",
+   "value": "66.6%",
+   "period": "Oct 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "66.8% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 66.76317272
+    "v": 66.5853826
    },
    "estimate": false
   },
@@ -381,15 +381,15 @@
    "name": "Employment-to-population ratio",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
-   "value": "63.6%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "63.9% (Aug 2026)",
+   "value": "63.3%",
+   "period": "Oct 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "63.6% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 63.6130534
+    "v": 63.34611517
    },
    "estimate": false
   },
@@ -399,15 +399,15 @@
    "name": "Underemployment rate",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
-   "value": "6.3%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "6.2% (Aug 2026)",
+   "value": "6.2%",
+   "period": "Oct 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "6.3% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 6.3258024
+    "v": 6.2098317
    },
    "estimate": false
   },
@@ -593,12 +593,12 @@
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
    "value": "4.85%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 18, 2026",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 19, 2026",
    "previous": "4.60% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
     "v": 4.85
    },
@@ -695,15 +695,15 @@
    "name": "Australian dollar",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
-   "value": "US$0.6720",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 18, 2026",
-   "previous": "US$0.6742 (Nov 17, 2026)",
+   "value": "US$0.6677",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "US$0.6720 (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
-    "v": 0.672
+    "v": 0.6677
    },
    "estimate": false,
    "note": "AUD/USD only (the snapshot also quotes the trade-weighted index)"
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 18, 2026",
-   "released": "Nov 18, 2026",
-   "previous": "4.00% (Nov 17, 2026)",
+   "period": "Nov 19, 2026",
+   "released": "Nov 19, 2026",
+   "previous": "4.00% (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
     "v": 4
    },
@@ -798,18 +798,6 @@
   }
  },
  "releases": [
-  {
-   "id": "wage_price_index",
-   "name": "Wage Price Index, Sep quarter",
-   "publisher": "ABS",
-   "date": "2026-11-18",
-   "date_label": "Wed Nov 18",
-   "what": "How fast pay rates are rising.",
-   "weekly": false,
-   "time": "11:30 a.m.",
-   "url": "https://www.abs.gov.au/release-calendar/future-releases/202611",
-   "timing": "before"
-  },
   {
    "id": "labour_force_2",
    "name": "Labour Force, October",
@@ -897,8 +885,12 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "Unemployment rose to 4.9% in October while employment fell further.",
+   "items": [
+    "<strong>Unemployment rate</strong> rose from 4.7% to 4.9% (October).",
+    "<strong>Employment change</strong> fell further by −43,531 (October), following −36,400 in September.",
+    "<strong>Participation rate</strong> edged down from 66.8% to 66.6% (October)."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -935,7 +927,7 @@
    },
    {
     "title": "Reasons the RBA will likely pause in December",
-    "html": "<ul><li><strong>It just moved.</strong> The RBA delivered a 25-basis-point rate rise on November 3, taking the cash rate to 4.85%. The brake takes months to fully work through household mortgages and business borrowing.</li><li><strong>New forecasts are in place.</strong> The RBA published its updated Statement on Monetary Policy on November 3, giving the board a comprehensive view of upgraded inflation paths and slowing economic growth.</li><li><strong>Jobs are softening.</strong> Unemployment stood at <strong>4.7%</strong> in September (<a href=\"https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release\" target=\"_blank\" rel=\"noopener noreferrer\">ABS</a>), and employment fell by 39,329 during the month.</li><li><strong>Households are feeling the squeeze.</strong> Monthly household spending indicators and cooling housing markets show monetary policy is biting.</li></ul>"
+    "html": "<ul><li><strong>It just moved.</strong> The RBA delivered a 25-basis-point rate rise on November 3, taking the cash rate to 4.85%. The brake takes months to fully work through household mortgages and business borrowing.</li><li><strong>New forecasts are in place.</strong> The RBA published its updated Statement on Monetary Policy on November 3, giving the board a comprehensive view of upgraded inflation paths and slowing economic growth.</li><li><strong>Jobs are softening.</strong> Unemployment stood at <strong>4.9%</strong> in October (<a href=\"https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release\" target=\"_blank\" rel=\"noopener noreferrer\">ABS</a>), and employment fell by 43,531 during the month.</li><li><strong>Households are feeling the squeeze.</strong> Monthly household spending indicators and cooling housing markets show monetary policy is biting.</li></ul>"
    },
    {
     "title": "Reasons some members wanted to hold in November",
@@ -954,7 +946,7 @@
      "right_title": "Pulls toward Hold in December",
      "right": [
       "RBA just raised rates to 4.85% on November 3",
-      "Unemployment at 4.7% with employment falling in September",
+      "Unemployment at 4.9% with employment falling in October",
       "Cooling household spending and housing market",
       "Three board members voted to hold at 4.60% in November"
      ]
@@ -1160,7 +1152,7 @@
     "meaning": "the RBA keeps its foot where it is on the brake while assessing the impact of November's rate rise and reviewing incoming economic data ahead of December.",
     "for": [
      "<strong>The November rise needs time.</strong> It has only just been delivered, taking the cash rate to 4.85%.",
-     "<strong>Unemployment is rising.</strong> 4.7% in September, with employment falling by 39,329.",
+     "<strong>Unemployment is rising.</strong> 4.9% in October, with employment falling by 43,531.",
      "<strong>Households are slowing down.</strong> Spending indicators and cooling housing markets show monetary policy is biting.",
      "<strong>Divided board.</strong> Three members voted to hold at 4.60% in November, showing support for caution."
     ],
@@ -1233,7 +1225,7 @@
    },
    "other_title": "Other factors influencing our view",
    "other": [
-    "<strong>Oil and energy markets.</strong> Brent oil at $92.14 a barrel keeps pressure on transport and production costs.",
+    "<strong>Oil and energy markets.</strong> Brent oil at $92.94 a barrel keeps pressure on transport and production costs.",
     "<strong>Global central banks.</strong> The U.S. Federal Reserve rate at 4.00% and ECB deposit rate at 2.50% show global monetary policy remains restrictive.",
     "<strong>RBA board split.</strong> The 6–3 vote on November 3 shows differing views on how much further tightening may be needed."
    ]
@@ -1252,9 +1244,9 @@
    {
     "area": "Jobs",
     "grade": "amber",
-    "one": "Unemployment is at 4.7% and employment fell in September, showing signs of a cooling labour market.",
-    "look": "Unemployment rate (4.7%), employment change (−39,329), and participation rate (66.8%).",
-    "why": "While employment dropped in September, the RBA notes that capacity pressures and underlying labour market tightness persist.",
+    "one": "Unemployment is at 4.9% and employment fell in October, showing signs of a cooling labour market.",
+    "look": "Unemployment rate (4.9%), employment change (−43,531), and participation rate (66.6%).",
+    "why": "While employment dropped in October, the RBA notes that capacity pressures and underlying labour market tightness persist.",
     "change": "Unemployment rising toward 5% (red) or falling back solidly with strong job creation (green).",
     "matters": "The softening job market provides the main reason for the RBA to consider pausing after November.",
     "change_label": "What would change it"
@@ -1273,7 +1265,7 @@
     "area": "Money markets",
     "grade": "amber",
     "one": "Borrowing costs remain elevated following the November rate hike and firm bond yields.",
-    "look": "10-year government bond rate (5.04%), 2-year government bond rate (4.81%), and the Australian dollar (US$0.6742).",
+    "look": "10-year government bond rate (5.04%), 2-year government bond rate (4.81%), and the Australian dollar (US$0.6777).",
     "why": "Financial conditions are restrictive, helping to cool demand even without immediate additional central bank action.",
     "change": "A disorderly surge in yields or sharp currency depreciation moving conditions to red.",
     "matters": "Higher market rates reinforce monetary policy tightening.",
@@ -1339,31 +1331,31 @@
     "now_label": "Rising slowly",
     "now_tone": "mixed",
     "what": "the share of people who want a job and are looking, but do not have one.",
-    "why": "stands at 4.7% in September, in line with expectations of a gradual labour market easing."
+    "why": "stands at 4.9% in October, in line with expectations of a gradual labour market easing."
    },
    "employment_change": {
     "now_label": "Jobs fell",
     "now_tone": "bad",
     "what": "how many more people had a job than the month before.",
-    "why": "employment fell by 39,329 in September, pointing to a softer hiring month."
+    "why": "employment fell by 43,531 in October, pointing to a softer hiring month."
    },
    "participation_rate": {
     "now_label": "High",
     "now_tone": "good",
     "what": "the share of adults who are working or looking for work.",
-    "why": "stands at 66.8% in September, showing robust labor force attachment."
+    "why": "stands at 66.6% in October, showing robust labor force attachment."
    },
    "employment_to_population_ratio": {
     "now_label": "Near highs",
     "now_tone": "good",
     "what": "the share of all adults who have a job.",
-    "why": "stands at 63.6% in September, indicating solid overall employment levels."
+    "why": "stands at 63.3% in October, indicating solid overall employment levels."
    },
    "underemployment_rate": {
     "now_label": "Steady",
     "now_tone": "mixed",
     "what": "people who have a job but want more hours.",
-    "why": "stands at 6.3% in September, showing mild slack in the labour market."
+    "why": "stands at 6.2% in October, showing mild slack in the labour market."
    },
    "wage_price_index": {
     "now_label": "Ticking up",
@@ -1471,7 +1463,7 @@
     "now_label": "Steady",
     "now_tone": "mixed",
     "what": "exchange rate of the Australian dollar against the U.S. dollar.",
-    "why": "stands at US$0.6742 on November 17, helping moderate import price pressures."
+    "why": "stands at US$0.6677 on November 19, helping moderate import price pressures."
    },
    "mortgage_payments_vs_income": {
     "now_label": "Squeezing",
@@ -1483,7 +1475,7 @@
     "now_label": "Very high",
     "now_tone": "bad",
     "what": "world benchmark price of crude oil.",
-    "why": "stands at $92.14 a barrel on November 11, significantly above RBA forecast assumptions."
+    "why": "stands at $92.94 a barrel on November 17, significantly above RBA forecast assumptions."
    },
    "rba_oil_assumption_august": {
     "now_label": "Far too low",
@@ -1737,8 +1729,8 @@
     "CPI, Sep"
    ],
    "jobless": [
-    "4.7%",
-    "Sep"
+    "4.9%",
+    "Oct"
    ],
    "10-yr": [
     "5.04%",
@@ -1863,6 +1855,66 @@
   "At its meeting today, the Board decided to increase the cash rate target by 25 basis points to 4.85 per cent. Inflation remains elevated and recent data indicate that it is broadly based."
  ],
  "changelog": [
+  {
+   "date": "2026-11-19",
+   "date_label": "Nov 19, 2026",
+   "since": "2026-11-18",
+   "since_label": "Nov 18, 2026",
+   "summary": {
+    "headline": "Unemployment rose to 4.9% in October while employment fell further.",
+    "items": [
+     "<strong>Unemployment rate</strong> rose from 4.7% to 4.9% (October).",
+     "<strong>Employment change</strong> fell further by −43,531 (October), following −36,400 in September.",
+     "<strong>Participation rate</strong> edged down from 66.8% to 66.6% (October)."
+    ]
+   },
+   "data": [
+    {
+     "id": "unemployment_rate",
+     "name": "Unemployment rate",
+     "from": "4.7%",
+     "from_period": "Sep 2026",
+     "to": "4.9%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "employment_change",
+     "name": "Employment change",
+     "from": "−39,329",
+     "from_period": "Sep 2026",
+     "to": "−43,531",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "participation_rate",
+     "name": "Participation rate",
+     "from": "66.8%",
+     "from_period": "Sep 2026",
+     "to": "66.6%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "employment_to_population_ratio",
+     "name": "Employment-to-population ratio",
+     "from": "63.6%",
+     "from_period": "Sep 2026",
+     "to": "63.3%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "underemployment_rate",
+     "name": "Underemployment rate",
+     "from": "6.3%",
+     "from_period": "Sep 2026",
+     "to": "6.2%",
+     "to_period": "Oct 2026"
+    }
+   ],
+   "market": [],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-17",
    "date_label": "Nov 17, 2026",
@@ -2305,6 +2357,6 @@
    "automatic": 25,
    "manual": 13
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }

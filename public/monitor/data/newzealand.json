@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-11-18",
- "asof_label": "Nov 18, 2026",
- "generated_at": "2026-11-19T00:29:26.673Z",
- "data_updated_at": "2026-11-19T00:29:26.673Z",
+ "asof_date": "2026-11-19",
+ "asof_label": "Nov 19, 2026",
+ "generated_at": "2026-11-20T00:43:32.742Z",
+ "data_updated_at": "2026-11-20T00:43:32.742Z",
  "narrative_updated_at": "2026-11-19T00:29:26.673Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -32,7 +32,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 21
+  "days_to_decision": 20
  },
  "kpis": [
   {
@@ -61,9 +61,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "4.84%",
+   "value": "4.81%",
    "note": "",
-   "period": "Nov 19, 2026",
+   "period": "Nov 20, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield"
   }
@@ -555,15 +555,15 @@
    "name": "90-day bank bill rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/3-month-bill-yield",
-   "value": "3.24%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 18, 2026",
-   "previous": "3.24% (Nov 17, 2026)",
+   "value": "3.25%",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "3.25% (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
-    "v": 3.24
+    "v": 3.25
    },
    "estimate": false
   },
@@ -573,15 +573,15 @@
    "name": "2-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
-   "value": "3.94%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 17, 2026",
-   "previous": "3.97% (Nov 17, 2026)",
+   "value": "3.91%",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "3.96% (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
-    "v": 3.94
+    "v": 3.91
    },
    "estimate": false
   },
@@ -591,15 +591,15 @@
    "name": "10-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
-   "value": "4.84%",
-   "period": "Nov 19, 2026",
-   "released": "Detected Nov 18, 2026",
-   "previous": "4.86% (Nov 18, 2026)",
+   "value": "4.81%",
+   "period": "Nov 20, 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "4.81% (Nov 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-19",
+   "latest_date": "2026-11-20",
    "raw": {
-    "v": 4.844
+    "v": 4.807
    },
    "estimate": false
   },
@@ -711,12 +711,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 18, 2026",
-   "released": "Nov 18, 2026",
-   "previous": "4.00% (Nov 17, 2026)",
+   "period": "Nov 19, 2026",
+   "released": "Nov 19, 2026",
+   "previous": "4.00% (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
     "v": 4
    },
@@ -729,12 +729,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 17, 2026",
-   "previous": "2.50% (Nov 17, 2026)",
+   "period": "Nov 20, 2026",
+   "released": "Detected Nov 19, 2026",
+   "previous": "2.50% (Nov 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-20",
    "raw": {
     "v": 2.5
    },
@@ -768,18 +768,6 @@
   }
  },
  "releases": [
-  {
-   "id": "business_price_indexes",
-   "name": "Business price indexes, September quarter",
-   "publisher": "Stats NZ",
-   "date": "2026-11-18",
-   "date_label": "Wed Nov 18",
-   "time": "10:45 a.m. NZDT",
-   "url": "https://www.stats.govt.nz/release-calendar/",
-   "what": "Producer prices (outputs and inputs).",
-   "weekly": false,
-   "timing": "before"
-  },
   {
    "id": "retail_trade_survey",
    "name": "Retail trade survey, September quarter",
@@ -819,11 +807,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Governor Anna Breman highlighted an uneven economic recovery and inflation remaining above target, while goods exports rose 7.9% in October.",
-   "items": [
-    "<strong>Goods exports</strong> rose +7.9% vs a year ago in October 2026 (+10.4% in the month), reflecting solid overseas demand.",
-    "<strong>Governor Dr Anna Breman</strong> stated that inflation remains above the target midpoint while New Zealand's economic recovery continues to be uneven."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -1687,8 +1672,8 @@
     "Q3"
    ],
    "10-yr": [
-    "4.84%",
-    "Nov 19"
+    "4.81%",
+    "Nov 20"
    ]
   },
   "rate_label": "Current OCR",
@@ -2481,6 +2466,6 @@
    "automatic": 18,
    "manual": 21
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }
