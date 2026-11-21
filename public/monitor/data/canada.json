@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "canada",
- "asof_date": "2026-11-19",
- "asof_label": "Nov 19, 2026",
- "generated_at": "2026-11-20T00:42:50.935Z",
- "data_updated_at": "2026-11-20T00:42:50.935Z",
- "narrative_updated_at": "2026-11-20T00:42:50.935Z",
+ "asof_date": "2026-11-20",
+ "asof_label": "Nov 20, 2026",
+ "generated_at": "2026-11-21T00:05:26.235Z",
+ "data_updated_at": "2026-11-21T00:05:26.235Z",
+ "narrative_updated_at": "2026-11-21T00:05:26.235Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
   "calendar_label": "Official BoC announcement schedule",
   "who": "The Bank of Canada (“the BoC”), Canada’s central bank. Its decisions are made by a small group of senior officials called the Governing Council, led by Governor Tiff Macklem. It aims to agree as a group, so there is no published vote count like in the U.S.",
-  "days_to_decision": 20
+  "days_to_decision": 19
  },
  "kpis": [
   {
    "label": "Bank of Canada rate",
    "value": "2.50%",
    "note": "",
-   "period": "Nov 18, 2026",
+   "period": "Nov 19, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "3.80%",
+   "value": "3.81%",
    "note": "",
-   "period": "Nov 18, 2026",
+   "period": "Nov 19, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28"
   }
@@ -517,15 +517,15 @@
    "name": "Retail sales",
    "source": "Statistics Canada",
    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260924/dq260924a-eng.htm",
-   "value": "+1.2% in the month",
-   "period": "Aug 2026",
-   "released": "Oct 23, 2026",
-   "previous": "−0.8% (Jul 2026)",
-   "tag": "old",
+   "value": "+0.8% in the month",
+   "period": "Sep 2026",
+   "released": "Nov 20, 2026",
+   "previous": "+1.4% (Aug 2026)",
+   "tag": "official",
    "manual": false,
-   "latest_date": "2026-08-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "mom": 1.1980293951844967
+    "mom": 0.7989496011315156
    },
    "estimate": false
   },
@@ -603,12 +603,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
    "value": "2.50%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 19, 2026",
-   "previous": "2.50% (Nov 17, 2026)",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 20, 2026",
+   "previous": "2.50% (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
     "v": 2.5
    },
@@ -621,12 +621,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/AVG.INTWO/json?recent=6",
    "value": "2.55%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 19, 2026",
-   "previous": "2.55% (Nov 17, 2026)",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 20, 2026",
+   "previous": "2.55% (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
     "v": 2.55
    },
@@ -639,12 +639,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
    "value": "3.30%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 19, 2026",
-   "previous": "3.30% (Nov 17, 2026)",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 20, 2026",
+   "previous": "3.30% (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
     "v": 3.3
    },
@@ -656,15 +656,15 @@
    "name": "5-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.52%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 19, 2026",
-   "previous": "3.53% (Nov 17, 2026)",
+   "value": "3.53%",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 20, 2026",
+   "previous": "3.52% (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
-    "v": 3.52
+    "v": 3.53
    },
    "estimate": false
   },
@@ -674,15 +674,15 @@
    "name": "10-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.80%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 19, 2026",
-   "previous": "3.81% (Nov 17, 2026)",
+   "value": "3.81%",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 20, 2026",
+   "previous": "3.80% (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
-    "v": 3.8
+    "v": 3.81
    },
    "estimate": false
   },
@@ -692,15 +692,15 @@
    "name": "Canadian dollar (US$1 in C$)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25",
-   "value": "C$1.4317",
-   "period": "Nov 19, 2026",
-   "released": "Detected Nov 19, 2026",
-   "previous": "C$1.4326 (Nov 18, 2026)",
+   "value": "C$1.4325",
+   "period": "Nov 20, 2026",
+   "released": "Detected Nov 20, 2026",
+   "previous": "C$1.4317 (Nov 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-19",
+   "latest_date": "2026-11-20",
    "raw": {
-    "v": 1.4317
+    "v": 1.4325
    },
    "estimate": false
   },
@@ -884,11 +884,11 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Bond yields edged lower, while new official speeches from Bank of Canada officials discussed communicating policy in uncertain times.",
+   "headline": "Retail sales growth slowed slightly in September, while bond yields edged marginally higher.",
    "items": [
-    "<strong>2-year bond yields</strong> moved from 3.30% to 3.30% (latest snapshot), reflecting stable market expectations.",
-    "<strong>5-year bond yields</strong> moved slightly from 3.53% to 3.52%.",
-    "<strong>New official media and speeches:</strong> The Bank of Canada published new remarks and scheduled media availability for the Economic Club of Canada."
+    "<strong>Retail sales</strong> moved from +1.4% (August) to +0.8% in the month (September), showing moderate consumer spending.",
+    "<strong>2-year bond yields</strong> moved from 3.30% to 3.30% (latest snapshot), while 5-year yields moved from 3.52% to 3.53%.",
+    "<strong>Canadian dollar</strong> moved from C$1.4317 to C$1.4325 against the U.S. dollar."
    ]
   },
   "verdict": {
@@ -922,7 +922,7 @@
    },
    {
     "title": "Expensive oil cuts both ways for Canada",
-    "html": "This is where Canada is different from the U.S. or Europe. Canada is a big <strong>oil producer and exporter</strong>. When oil is expensive, two things happen at once:\n\n<ul><li><strong>It hurts as a shopper.</strong> Families pay more at the pump and for heating, and trucking and flying cost more. That pushes the CPI up and leaves less money for other things.</li><li><strong>It helps as a seller.</strong> Oil companies, workers and governments in producing provinces earn more.</li><li><strong>An unusual twist: the loonie fell.</strong> Normally expensive oil lifts the Canadian dollar. This time one U.S. dollar went to about C$1.4317 (<a href=\"https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-11-01\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>), partly due to interest rate differences with the U.S. A weaker loonie makes imported goods dearer, adding to inflation risk.</li></ul>"
+    "html": "This is where Canada is different from the U.S. or Europe. Canada is a big <strong>oil producer and exporter</strong>. When oil is expensive, two things happen at once:\n\n<ul><li><strong>It hurts as a shopper.</strong> Families pay more at the pump and for heating, and trucking and flying cost more. That pushes the CPI up and leaves less money for other things.</li><li><strong>It helps as a seller.</strong> Oil companies, workers and governments in producing provinces earn more.</li><li><strong>An unusual twist: the loonie fell.</strong> Normally expensive oil lifts the Canadian dollar. This time one U.S. dollar went to about C$1.4325 (<a href=\"https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-11-01\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>), partly due to interest rate differences with the U.S. A weaker loonie makes imported goods dearer, adding to inflation risk.</li></ul>"
    },
    {
     "title": "Jobs are weakening, and new U.S. tariffs add a worry",
@@ -1237,7 +1237,7 @@
    {
     "area": "Money markets",
     "grade": "amber",
-    "one": "Market borrowing costs have adjusted to the October rate hike, and the loonie trades near C$1.4317.",
+    "one": "Market borrowing costs have adjusted to the October rate hike, and the loonie trades near C$1.4325.",
     "look": "Government of Canada bond yields, CORRA overnight lending rate (2.55%), and the exchange rate.",
     "why": "Financial markets have absorbed the BoC's move to 2.50%, and CORRA operates effectively near the target rate while the loonie remains soft.",
     "change": "Significant shifts in bond yields or exchange rates.",
@@ -1363,7 +1363,7 @@
     "now_label": "Rebounding",
     "now_tone": "good",
     "what": "total retail sales at Canadian stores.",
-    "why": "up 1.2% in August 2026, showing a temporary pickup in consumer demand."
+    "why": "up 0.8% in September 2026, showing a temporary pickup in consumer demand."
    },
    "merchandise_trade_balance": {
     "now_label": "Exports up",
@@ -1411,19 +1411,19 @@
     "now_label": "Higher",
     "now_tone": "mixed",
     "what": "government borrowing costs for a five-year term.",
-    "why": "at 3.52%, it influences fixed mortgage rates for households."
+    "why": "at 3.53%, it influences fixed mortgage rates for households."
    },
    "10_year_government_of_canada_bond": {
     "now_label": "Up over the year",
     "now_tone": "bad",
     "what": "government borrowing costs for a ten-year term.",
-    "why": "at 3.80%, higher long-term yields help cool borrowing independently."
+    "why": "at 3.81%, higher long-term yields help cool borrowing independently."
    },
    "canadian_dollar_us_1_in_c": {
     "now_label": "Weaker loonie",
     "now_tone": "bad",
     "what": "the exchange rate between the Canadian dollar and the U.S. dollar.",
-    "why": "at C$1.4317, a softer loonie makes imported goods dearer, adding slight price pressure."
+    "why": "at C$1.4325, a softer loonie makes imported goods dearer, adding slight price pressure."
    },
    "market_forecasters_expected_boc_rate_p": {
     "now_label": "Stable path",
@@ -1725,8 +1725,8 @@
     "Oct"
    ],
    "10-yr": [
-    "3.80%",
-    "Nov 18"
+    "3.81%",
+    "Nov 19"
    ]
   },
   "rate_label": "Current BoC rate",
@@ -1831,6 +1831,34 @@
   "Inflation in Canada has been higher than anticipated and is projected to remain around 3% through much of 2027. It then returns close to 2% by the middle of 2028."
  ],
  "changelog": [
+  {
+   "date": "2026-11-20",
+   "date_label": "Nov 20, 2026",
+   "since": "2026-11-19",
+   "since_label": "Nov 19, 2026",
+   "summary": {
+    "headline": "Retail sales growth slowed slightly in September, while bond yields edged marginally higher.",
+    "items": [
+     "<strong>Retail sales</strong> moved from +1.4% (August) to +0.8% in the month (September), showing moderate consumer spending.",
+     "<strong>2-year bond yields</strong> moved from 3.30% to 3.30% (latest snapshot), while 5-year yields moved from 3.52% to 3.53%.",
+     "<strong>Canadian dollar</strong> moved from C$1.4317 to C$1.4325 against the U.S. dollar."
+    ]
+   },
+   "data": [
+    {
+     "id": "retail_sales",
+     "name": "Retail sales",
+     "from": "+1.2% in the month",
+     "from_period": "Aug 2026",
+     "to": "+0.8% in the month",
+     "to_period": "Sep 2026"
+    }
+   ],
+   "market": [],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-19",
    "date_label": "Nov 19, 2026",

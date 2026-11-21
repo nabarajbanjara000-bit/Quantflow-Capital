@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-11-19",
- "asof_label": "Nov 19, 2026",
- "generated_at": "2026-11-20T00:43:32.742Z",
- "data_updated_at": "2026-11-20T00:43:32.742Z",
+ "asof_date": "2026-11-20",
+ "asof_label": "Nov 20, 2026",
+ "generated_at": "2026-11-21T00:06:08.862Z",
+ "data_updated_at": "2026-11-21T00:06:08.862Z",
  "narrative_updated_at": "2026-11-19T00:29:26.673Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -32,7 +32,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 20
+  "days_to_decision": 19
  },
  "kpis": [
   {
@@ -556,12 +556,12 @@
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/3-month-bill-yield",
    "value": "3.25%",
-   "period": "Nov 19, 2026",
-   "released": "Detected Nov 19, 2026",
-   "previous": "3.25% (Nov 18, 2026)",
+   "period": "Nov 20, 2026",
+   "released": "Detected Nov 20, 2026",
+   "previous": "3.24% (Nov 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-19",
+   "latest_date": "2026-11-20",
    "raw": {
     "v": 3.25
    },
@@ -573,15 +573,15 @@
    "name": "2-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
-   "value": "3.91%",
-   "period": "Nov 19, 2026",
-   "released": "Detected Nov 19, 2026",
-   "previous": "3.96% (Nov 18, 2026)",
+   "value": "3.89%",
+   "period": "Nov 20, 2026",
+   "released": "Detected Nov 20, 2026",
+   "previous": "3.92% (Nov 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-19",
+   "latest_date": "2026-11-20",
    "raw": {
-    "v": 3.91
+    "v": 3.89
    },
    "estimate": false
   },
@@ -599,7 +599,7 @@
    "manual": false,
    "latest_date": "2026-11-20",
    "raw": {
-    "v": 4.807
+    "v": 4.806
    },
    "estimate": false
   },
@@ -711,12 +711,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 19, 2026",
-   "released": "Nov 19, 2026",
-   "previous": "4.00% (Nov 18, 2026)",
+   "period": "Nov 20, 2026",
+   "released": "Nov 20, 2026",
+   "previous": "4.00% (Nov 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-19",
+   "latest_date": "2026-11-20",
    "raw": {
     "v": 4
    },

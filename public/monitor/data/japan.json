@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-11-19",
- "asof_label": "Nov 19, 2026",
- "generated_at": "2026-11-20T00:41:32.886Z",
- "data_updated_at": "2026-11-20T00:41:32.886Z",
- "narrative_updated_at": "2026-11-20T00:41:32.886Z",
+ "asof_date": "2026-11-20",
+ "asof_label": "Nov 20, 2026",
+ "generated_at": "2026-11-21T00:03:37.453Z",
+ "data_updated_at": "2026-11-21T00:03:37.453Z",
+ "narrative_updated_at": "2026-11-21T00:03:37.453Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 29
+  "days_to_decision": 28
  },
  "kpis": [
   {
@@ -954,13 +954,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "National consumer inflation picked up to 2.3% in October, while Governor Ueda addressed the Diet.",
-   "items": [
-    "<strong>Consumer Price Index (CPI), all items</strong> rose from 2.1% (Sep) to 2.3% (Oct).",
-    "<strong>Core CPI (without fresh food)</strong> edged up from 2.1% (Sep) to 2.2% (Oct).",
-    "<strong>CPI energy</strong> turned positive from -0.6% (Sep) to 2.2% (Oct).",
-    "Governor Ueda delivered a statement to the Committee on Financial Affairs of the Senate on November 19, 2026."
-   ]
+   "headline": "No major policy changes since the last update; National CPI for October confirmed inflation at 2.3%.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -1917,6 +1912,27 @@
  ],
  "changelog": [
   {
+   "date": "2026-11-20",
+   "date_label": "Nov 20, 2026",
+   "since": "2026-11-19",
+   "since_label": "Nov 19, 2026",
+   "summary": {
+    "headline": "No major policy changes since the last update; National CPI for October confirmed inflation at 2.3%.",
+    "items": []
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Monetary and Economic Studies (2026)",
+     "date": "2026-11-20",
+     "url": "http://www.boj.or.jp/en/research/imes/mes/mes26.htm"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
+  {
    "date": "2026-11-19",
    "date_label": "Nov 19, 2026",
    "since": "2026-11-18",
@@ -2724,6 +2740,11 @@
   "ai_errors": [],
   "sources_read": [
    {
+    "title": "Monetary and Economic Studies (2026)",
+    "date": "2026-11-20",
+    "url": "http://www.boj.or.jp/en/research/imes/mes/mes26.htm"
+   },
+   {
     "title": "Developments in Real Exports and Real Imports",
     "date": "2026-11-19",
     "url": "http://www.boj.or.jp/en/research/research_data/reri/index.htm"
@@ -2747,11 +2768,6 @@
     "title": "BOJ Current Account Balances by Sector (Oct.)",
     "date": "2026-11-16",
     "url": "http://www.boj.or.jp/en/statistics/boj/other/cabs/cabs.xlsx"
-   },
-   {
-    "title": "Speech by Board Member TAKATA at a Meeting Held by the Tokushima Association of Corporate Executives (Economic Activity, Prices, and Monetary Policy in Japan: Japan's Money and Capital Market Transformation -- Will a Paradigm Shift Occur?)",
-    "date": "2026-11-16",
-    "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261116a.htm"
    }
   ],
   "coverage": {

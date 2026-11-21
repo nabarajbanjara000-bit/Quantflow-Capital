@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-20T00:46:36.139Z",
- "asof_label": "Nov 19, 2026",
+ "generated_at": "2026-11-21T00:08:57.182Z",
+ "asof_label": "Nov 20, 2026",
  "headline": "Hold at 8 of 8",
- "paragraph": "Welcome to the Quant Flow Capital central-bank briefing covering eight countries as their monetary authorities meet this December. Across all eight institutions, analysts see a pause as the most likely policy outcome for the upcoming decisions. Meanwhile, the Federal Reserve stands out with a higher statistical probability of a rate rise compared to most of its peers.",
+ "paragraph": "Welcome to the Quant Flow Capital central bank briefing covering eight institutions from around the world. At the moment, all eight central banks are widely expected to hold their interest rates steady at their upcoming December meetings. Among them, the United States Federal Reserve stands out as the rate with the widest range, spanning 3.75% to 4.00%.",
  "window": [
   "2026-12-08",
   "2026-12-18"
@@ -27,8 +27,8 @@
      "Oct"
     ],
     "10-yr": [
-     "5.04%",
-     "Nov 11"
+     "5.08%",
+     "Nov 18"
     ]
    },
    "call": "hold",
@@ -43,7 +43,7 @@
    "next_label": "Tue Dec 8",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Dec 8, or 10:30 p.m. U.S. Eastern Time on Monday, Dec 7. The Governor then holds a media conference.",
    "stale": false,
-   "asof": "Nov 19, 2026",
+   "asof": "Nov 20, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 13
@@ -68,8 +68,8 @@
      "Oct"
     ],
     "10-yr": [
-     "5.04%",
-     "Nov 19"
+     "4.92%",
+     "Nov 20"
     ]
    },
    "call": "hold",
@@ -84,7 +84,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. ET",
    "stale": false,
-   "asof": "Nov 19, 2026",
+   "asof": "Nov 20, 2026",
    "coverage": {
     "automatic": 33,
     "manual": 2
@@ -109,8 +109,8 @@
      "Oct"
     ],
     "10-yr": [
-     "3.80%",
-     "Nov 18"
+     "3.81%",
+     "Nov 19"
     ]
    },
    "call": "hold",
@@ -125,7 +125,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "9:45 a.m. Eastern Time",
    "stale": false,
-   "asof": "Nov 19, 2026",
+   "asof": "Nov 20, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 10
@@ -166,7 +166,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
    "stale": false,
-   "asof": "Nov 19, 2026",
+   "asof": "Nov 20, 2026",
    "coverage": {
     "automatic": 18,
     "manual": 21
@@ -191,8 +191,8 @@
      "Sep"
     ],
     "10-yr": [
-     "0.614%",
-     "Nov 19"
+     "0.555%",
+     "Nov 20"
     ]
    },
    "call": "hold",
@@ -207,7 +207,7 @@
    "next_label": "Thu Dec 10",
    "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Nov 19, 2026",
+   "asof": "Nov 20, 2026",
    "coverage": {
     "automatic": 10,
     "manual": 28
@@ -232,8 +232,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.45%",
-     "Nov 19"
+     "3.39%",
+     "Nov 20"
     ]
    },
    "call": "hold",
@@ -248,7 +248,7 @@
    "next_label": "Thu Dec 17",
    "time_label": "2:15 p.m. Central European Time",
    "stale": false,
-   "asof": "Nov 19, 2026",
+   "asof": "Nov 20, 2026",
    "coverage": {
     "automatic": 19,
     "manual": 19
@@ -273,8 +273,8 @@
      "Sep"
     ],
     "10-yr": [
-     "5.35%",
-     "Nov 17"
+     "5.27%",
+     "Nov 18"
     ]
    },
    "call": "hold",
@@ -289,7 +289,7 @@
    "next_label": "Thu Dec 17",
    "time_label": "12:00 p.m. (noon) UK time (GMT)",
    "stale": false,
-   "asof": "Nov 19, 2026",
+   "asof": "Nov 20, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 14
@@ -330,7 +330,7 @@
    "next_label": "Fri Dec 18",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
    "stale": false,
-   "asof": "Nov 19, 2026",
+   "asof": "Nov 20, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 13
