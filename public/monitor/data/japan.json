@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-11-20",
- "asof_label": "Nov 20, 2026",
- "generated_at": "2026-11-21T00:03:37.453Z",
- "data_updated_at": "2026-11-21T00:03:37.453Z",
+ "asof_date": "2026-11-21",
+ "asof_label": "Nov 21, 2026",
+ "generated_at": "2026-11-21T23:20:25.360Z",
+ "data_updated_at": "2026-11-21T23:20:25.360Z",
  "narrative_updated_at": "2026-11-21T00:03:37.453Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 28
+  "days_to_decision": 27
  },
  "kpis": [
   {
@@ -844,18 +844,6 @@
  },
  "releases": [
   {
-   "id": "national_cpi_2",
-   "name": "National CPI, October",
-   "publisher": "Statistics Bureau",
-   "date": "2026-11-20",
-   "date_label": "Fri Nov 20",
-   "time": "8:30 a.m. JST",
-   "url": "https://www.stat.go.jp/english/data/cpi/1582.html",
-   "what": "How much the prices households pay changed, across Japan.",
-   "weekly": false,
-   "timing": "before"
-  },
-  {
    "id": "tokyo_cpi_2",
    "name": "Tokyo CPI, November",
    "publisher": "Statistics Bureau",
@@ -954,7 +942,7 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No major policy changes since the last update; National CPI for October confirmed inflation at 2.3%.",
+   "headline": "No important new data since the last update.",
    "items": []
   },
   "verdict": {
@@ -2774,6 +2762,6 @@
    "automatic": 27,
    "manual": 13
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }

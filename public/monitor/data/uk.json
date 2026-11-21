@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-11-20",
- "asof_label": "Nov 20, 2026",
- "generated_at": "2026-11-21T00:08:52.730Z",
- "data_updated_at": "2026-11-21T00:08:52.730Z",
+ "asof_date": "2026-11-21",
+ "asof_label": "Nov 21, 2026",
+ "generated_at": "2026-11-21T23:22:31.202Z",
+ "data_updated_at": "2026-11-21T23:22:31.202Z",
  "narrative_updated_at": "2026-11-21T00:08:52.730Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 27
+  "days_to_decision": 26
  },
  "kpis": [
   {
@@ -797,40 +797,23 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 20, 2026",
-   "released": "Detected Nov 19, 2026",
-   "previous": "2.50% (Nov 19, 2026)",
+   "period": "Nov 21, 2026",
+   "released": "Detected Nov 21, 2026",
+   "previous": "2.50% (Nov 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-20",
+   "latest_date": "2026-11-21",
    "raw": {
     "v": 2.5
    },
    "estimate": false
   }
  },
- "releases": [
-  {
-   "id": "retail_sales_2",
-   "name": "Retail sales, October",
-   "publisher": "ONS",
-   "date": "2026-11-20",
-   "date_label": "Fri Nov 20",
-   "time": "7:00 a.m.",
-   "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2026",
-   "what": "Shop spending in October.",
-   "weekly": false,
-   "timing": "before"
-  }
- ],
+ "releases": [],
  "narrative": {
   "what_changed": {
-   "headline": "Retail sales volumes rose 2.3% in October while gilt yields edged slightly lower, as Bank Rate held steady at 4.00%.",
-   "items": [
-    "<strong>Retail sales volumes</strong> rose 2.3% in October (ONS), rebounding from September's 0.4% reading and showing resilient consumer spending.",
-    "<strong>10-year gilt yield</strong> moved from 5.35% to 5.27%, reflecting minor adjustments in market borrowing conditions.",
-    "<strong>5-year gilt yield</strong> moved from 5.00% to 4.92%, easing slightly alongside longer-term debt."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -3056,25 +3039,25 @@
     "url": "https://www.bankofengland.co.uk/report/regulatory-initiatives-grid"
    },
    {
-    "title": "Ensuring the resilience of CCPs: near-final policy statement",
+    "title": "Near-final statement of policy: The Bank of England’s approach to tiering non-UK CCPs",
     "date": "2026-11-16",
-    "url": "https://www.bankofengland.co.uk/paper/2026/ps/ensuring-the-resilience-of-ccps-near-final-policy-statement"
+    "url": "https://www.bankofengland.co.uk/paper/2026/sop/near-final-statement-of-policy-the-boes-approach-to-tiering-non-uk-ccps"
    },
    {
-    "title": "Statement of Policy: The Bank of England's approach to using its requirements and permissions powers to facilitate mobilisation of new CCPs",
+    "title": "Near-final supervisory statement on CCP margin",
     "date": "2026-11-16",
-    "url": "https://www.bankofengland.co.uk/paper/2026/sop/the-boes-approach-to-requirements-and-permissions-to-facilitate-mobilisation-of-new-ccps"
+    "url": "https://www.bankofengland.co.uk/paper/2026/ss/near-final-supervisory-statement-on-ccp-margin"
    },
    {
-    "title": "Near-final statement of policy: The Bank of England’s approach to supervisory processes (model changes, recognition orders and variations of recognition orders) and margin permissions",
+    "title": "The impact of default waterfall positioning on pro-rata second skin-in-the-game requirements for central counterparties",
     "date": "2026-11-16",
-    "url": "https://www.bankofengland.co.uk/paper/2026/sop/near-final-statement-of-policy-the-boes-approach-to-supervisory-processes-and-margin-permissions"
+    "url": "https://www.bankofengland.co.uk/paper/2026/the-impact-of-default-waterfall-positioning-on-pro-rata-second-ssitg-requirements-for-ccp"
    }
   ],
   "coverage": {
    "automatic": 25,
    "manual": 14
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }
