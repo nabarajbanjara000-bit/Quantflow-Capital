@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-11-21",
- "asof_label": "Nov 21, 2026",
- "generated_at": "2026-11-21T23:22:31.202Z",
- "data_updated_at": "2026-11-21T23:22:31.202Z",
+ "asof_date": "2026-11-22",
+ "asof_label": "Nov 22, 2026",
+ "generated_at": "2026-11-22T23:40:59.019Z",
+ "data_updated_at": "2026-11-22T23:40:59.019Z",
  "narrative_updated_at": "2026-11-21T00:08:52.730Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 26
+  "days_to_decision": 25
  },
  "kpis": [
   {
@@ -797,12 +797,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 21, 2026",
-   "released": "Detected Nov 21, 2026",
-   "previous": "2.50% (Nov 20, 2026)",
+   "period": "Nov 22, 2026",
+   "released": "Detected Nov 22, 2026",
+   "previous": "2.50% (Nov 21, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-21",
+   "latest_date": "2026-11-22",
    "raw": {
     "v": 2.5
    },
@@ -3039,19 +3039,19 @@
     "url": "https://www.bankofengland.co.uk/report/regulatory-initiatives-grid"
    },
    {
-    "title": "Near-final statement of policy: The Bank of England’s approach to tiering non-UK CCPs",
+    "title": "Ensuring the resilience of CCPs: near-final policy statement",
     "date": "2026-11-16",
-    "url": "https://www.bankofengland.co.uk/paper/2026/sop/near-final-statement-of-policy-the-boes-approach-to-tiering-non-uk-ccps"
+    "url": "https://www.bankofengland.co.uk/paper/2026/ps/ensuring-the-resilience-of-ccps-near-final-policy-statement"
    },
    {
-    "title": "Near-final supervisory statement on CCP margin",
+    "title": "Statement of Policy: The Bank of England's approach to using its requirements and permissions powers to facilitate mobilisation of new CCPs",
     "date": "2026-11-16",
-    "url": "https://www.bankofengland.co.uk/paper/2026/ss/near-final-supervisory-statement-on-ccp-margin"
+    "url": "https://www.bankofengland.co.uk/paper/2026/sop/the-boes-approach-to-requirements-and-permissions-to-facilitate-mobilisation-of-new-ccps"
    },
    {
-    "title": "The impact of default waterfall positioning on pro-rata second skin-in-the-game requirements for central counterparties",
+    "title": "Near-final statement of policy: The Bank of England’s approach to supervisory processes (model changes, recognition orders and variations of recognition orders) and margin permissions",
     "date": "2026-11-16",
-    "url": "https://www.bankofengland.co.uk/paper/2026/the-impact-of-default-waterfall-positioning-on-pro-rata-second-ssitg-requirements-for-ccp"
+    "url": "https://www.bankofengland.co.uk/paper/2026/sop/near-final-statement-of-policy-the-boes-approach-to-supervisory-processes-and-margin-permissions"
    }
   ],
   "coverage": {

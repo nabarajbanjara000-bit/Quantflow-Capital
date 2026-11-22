@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-11-21",
- "asof_label": "Nov 21, 2026",
- "generated_at": "2026-11-21T23:21:37.028Z",
- "data_updated_at": "2026-11-21T23:21:37.028Z",
- "narrative_updated_at": "2026-11-19T00:29:26.673Z",
+ "asof_date": "2026-11-22",
+ "asof_label": "Nov 22, 2026",
+ "generated_at": "2026-11-22T23:40:03.833Z",
+ "data_updated_at": "2026-11-22T23:40:03.833Z",
+ "narrative_updated_at": "2026-11-22T23:40:03.833Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -32,7 +32,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 18
+  "days_to_decision": 17
  },
  "kpis": [
   {
@@ -448,15 +448,15 @@
    "name": "Retail sales volume",
    "source": "Stats NZ",
    "url": "https://www.stats.govt.nz/information-releases/retail-trade-survey-june-2026-quarter/",
-   "value": "-0.5%",
-   "period": "Q2 2026",
-   "released": "Detected Oct 15, 2026",
-   "previous": "1.0% (Q1 2026)",
+   "value": "2.2%",
+   "period": "Q3 2026",
+   "released": "Detected Nov 22, 2026",
+   "previous": "-0.4% (Q2 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-06-01",
+   "latest_date": "2026-09-01",
    "raw": {
-    "v": -0.5296284924777406
+    "v": 2.163767501060665
    },
    "estimate": false
   },
@@ -574,12 +574,12 @@
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
    "value": "3.89%",
-   "period": "Nov 20, 2026",
-   "released": "Detected Nov 20, 2026",
-   "previous": "3.92% (Nov 19, 2026)",
+   "period": "Nov 22, 2026",
+   "released": "Detected Nov 22, 2026",
+   "previous": "3.92% (Nov 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-20",
+   "latest_date": "2026-11-22",
    "raw": {
     "v": 3.89
    },
@@ -711,12 +711,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 21, 2026",
-   "released": "Nov 21, 2026",
-   "previous": "4.00% (Nov 20, 2026)",
+   "period": "Nov 22, 2026",
+   "released": "Nov 22, 2026",
+   "previous": "4.00% (Nov 21, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-21",
+   "latest_date": "2026-11-22",
    "raw": {
     "v": 4
    },
@@ -729,12 +729,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 21, 2026",
-   "released": "Detected Nov 21, 2026",
-   "previous": "2.50% (Nov 20, 2026)",
+   "period": "Nov 22, 2026",
+   "released": "Detected Nov 22, 2026",
+   "previous": "2.50% (Nov 21, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-21",
+   "latest_date": "2026-11-22",
    "raw": {
     "v": 2.5
    },
@@ -807,8 +807,10 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "Retail sales volume bounced back by 2.2% in the third quarter of 2026.",
+   "items": [
+    "<strong>Retail sales volume</strong> turned positive, rising <strong>2.2%</strong> in Q3 2026 compared to -0.4% in Q2, indicating some resilience in consumer spending ahead of the December decision."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -845,7 +847,7 @@
    },
    {
     "title": "Reasons the RBNZ held in October",
-    "html": "<ul><li><strong>Inflation cooled more than expected.</strong> Q3 CPI came in at 3.7%, below the RBNZ's 3.9% forecast.</li><li><strong>The economy is weak.</strong> GDP grew only <strong>0.2%</strong> in the June quarter and household spending was flat (<a href=\"https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/\" target=\"_blank\" rel=\"noopener noreferrer\">Stats NZ</a>). Unemployment is <strong>5.7%</strong>, and the RBNZ expects it to stay above 5% until 2028.</li><li><strong>Bond markets already pressed the brake.</strong> The 10-year government bond rate is 4.84%. Fixed mortgage rates follow these wholesale rates.</li><li><strong>December brings full forecasts.</strong> October was a shorter Review without full new forecasts.</li><li><strong>“May”, not “will”.</strong> September’s wording (“may need to increase further”) was softer than July’s (“further OCR increases appear likely”).</li></ul>"
+    "html": "<ul><li><strong>Inflation cooled more than expected.</strong> Q3 CPI came in at 3.7%, below the RBNZ's 3.9% forecast.</li><li><strong>The economy is weak.</strong> GDP grew only <strong>0.2%</strong> in the June quarter and household spending was flat (<a href=\"https://www.stats.govt.nz/information-releases/gross-domestic-product-june-2026-quarter/\" target=\"_blank\" rel=\"noopener noreferrer\">Stats NZ</a>). Unemployment is <strong>5.7%</strong>, and the RBNZ expects it to stay above 5% until 2028.</li><li><strong>Bond markets already pressed the brake.</strong> The 10-year government bond rate is 4.81%. Fixed mortgage rates follow these wholesale rates.</li><li><strong>December brings full forecasts.</strong> October was a shorter Review without full new forecasts.</li><li><strong>“May”, not “will”.</strong> September’s wording (“may need to increase further”) was softer than July’s (“further OCR increases appear likely”).</li></ul>"
    },
    {
     "title": "Reasons the RBNZ might still raise in future",
@@ -1048,7 +1050,7 @@
     "date_label": "October 27, 2026",
     "title": "RBNZ holds OCR at 2.75%",
     "kind": "now",
-    "what": "The RBNZ held the OCR at 2.75% in its October Monetary Policy Review. The 90-day bank bill rate is 3.24%, the 2-year bond yield 3.94%, and the 10-year 4.84%.",
+    "what": "The RBNZ held the OCR at 2.75% in its October Monetary Policy Review. The 90-day bank bill rate is 3.25%, the 2-year bond yield 3.89%, and the 10-year 4.81%.",
     "sources": [
      {
       "label": "OCR decision",
@@ -1068,7 +1070,7 @@
     "for": [
      "<strong>Inflation is cooling.</strong> Q3 CPI fell to 3.7%, below the RBNZ's 3.9% forecast.",
      "<strong>Weak growth and high unemployment.</strong> GDP grew only 0.2% and unemployment is 5.7%.",
-     "<strong>Bond markets did some of the work.</strong> The 10-year rate is 4.84%.",
+     "<strong>Bond markets did some of the work.</strong> The 10-year rate is 4.81%.",
      "<strong>December is a better moment</strong> for full new forecasts and labour market updates.",
      "<strong>Softer wording.</strong> September’s “may need to increase further” leaves room to pause."
     ],
@@ -1117,21 +1119,17 @@
    "intro_title": "Why upcoming data matters for December",
    "intro": "Now that the October Review is complete, incoming economic reports will shape whether the RBNZ adjusts rates at the December 9 Monetary Policy Statement.",
    "reports": {
-    "business_price_indexes": {
-     "why": "Input and output producer price pressures.",
-     "trigger": "December."
-    },
     "retail_trade_survey": {
      "why": "Quarterly retail volumes and spending.",
-     "trigger": "December."
+     "trigger": "November 23."
     },
     "balance_of_payments": {
      "why": "Current account and external borrowing.",
-     "trigger": "Next year."
+     "trigger": "December."
     },
     "gross_domestic_product": {
      "why": "Quarterly GDP growth update.",
-     "trigger": "Next year."
+     "trigger": "December."
     }
    },
    "other_title": "Other things that could move our view",
@@ -1168,7 +1166,7 @@
     "grade": "amber",
     "one": "Exporters are doing well, but households are holding back.",
     "look": "GDP, household spending, retail sales, exports, business confidence and house prices.",
-    "why": "GDP rose only 0.2% in Q2 and household spending was flat. Retail volumes fell 0.5%. Conversely, goods exports were up 7.9% in October from a year earlier.",
+    "why": "GDP rose only 0.2% in Q2 and household spending was flat. Retail volumes rose 2.2% in Q3. Conversely, goods exports were up 7.9% in October from a year earlier.",
     "change": "Clear signs of a household spending pick-up → green.",
     "matters": "A weak economy makes each rate rise more painful.",
     "change_label": "What would change it"
@@ -1178,7 +1176,7 @@
     "grade": "amber",
     "one": "Borrowing costs have jumped, and the Kiwi dollar is weak.",
     "look": "Wholesale interest rates and the NZ dollar.",
-    "why": "The 10-year government bond rate is 4.84%. The NZ dollar sits at US$0.5621, and the trade-weighted index is 63.94.",
+    "why": "The 10-year government bond rate is 4.81%. The NZ dollar sits at US$0.5621, and the trade-weighted index is 63.94.",
     "change": "A calmer currency and lower long rates → green.",
     "matters": "Higher market rates cool borrowing, supporting the October hold.",
     "change_label": "What would change it"
@@ -1294,10 +1292,10 @@
     "why": "0.0% growth shows cautious consumers."
    },
    "retail_sales_volume": {
-    "now_label": "Falling",
-    "now_tone": "bad",
+    "now_label": "Recovering",
+    "now_tone": "good",
     "what": "retail sales adjusted for inflation.",
-    "why": "down 0.5% in Q2."
+    "why": "up 2.2% in Q3."
    },
    "goods_exports": {
     "now_label": "Strong",
@@ -1339,19 +1337,19 @@
     "now_label": "Priced for stability",
     "now_tone": "mixed",
     "what": "three-month bank borrowing rate.",
-    "why": "at 3.24%."
+    "why": "at 3.25%."
    },
    "2_year_government_bond_yield": {
     "now_label": "Above OCR",
     "now_tone": "bad",
     "what": "government two-year borrowing cost.",
-    "why": "at 3.94%."
+    "why": "at 3.89%."
    },
    "10_year_government_bond_yield": {
     "now_label": "Near 5%",
     "now_tone": "bad",
     "what": "government ten-year borrowing cost.",
-    "why": "at 4.84%."
+    "why": "at 4.81%."
    },
    "market_odds_of_an_october_rise": {
     "now_label": "Balanced",
@@ -1544,7 +1542,7 @@
   "gaps": [
    "<strong>Full Stats NZ releases.</strong> For the Q3 CPI and other releases we could read only headline summaries; further details come from RBNZ and Treasury summaries. <em>Why it matters:</em> small details could differ from full official tables.",
    "<strong>Individual core inflation measures and household inflation expectations</strong> were not collected; we have only the RBNZ’s average and description.",
-   "<strong>How we gathered data:</strong> data were gathered via web search and direct page reads on November 18, 2026."
+   "<strong>How we gathered data:</strong> data were gathered via web search and direct page reads on November 22, 2026."
   ],
   "group_intros": {
    "prices": "These numbers tell us how fast things are getting more expensive in New Zealand. The RBNZ’s job is to keep yearly inflation between 1% and 3%, aiming for the 2% midpoint over the medium term. New Zealand measures consumer prices quarterly.",
@@ -1780,6 +1778,32 @@
   "Inflation remains above the 2% target mid-point, while New Zealand’s economic recovery continues to be uneven, RBNZ Governor Dr Anna Breman said today at an Auckland Institute of Directors event."
  ],
  "changelog": [
+  {
+   "date": "2026-11-22",
+   "date_label": "Nov 22, 2026",
+   "since": "2026-11-21",
+   "since_label": "Nov 21, 2026",
+   "summary": {
+    "headline": "Retail sales volume bounced back by 2.2% in the third quarter of 2026.",
+    "items": [
+     "<strong>Retail sales volume</strong> turned positive, rising <strong>2.2%</strong> in Q3 2026 compared to -0.4% in Q2, indicating some resilience in consumer spending ahead of the December decision."
+    ]
+   },
+   "data": [
+    {
+     "id": "retail_sales_volume",
+     "name": "Retail sales volume",
+     "from": "-0.5%",
+     "from_period": "Q2 2026",
+     "to": "2.2%",
+     "to_period": "Q3 2026"
+    }
+   ],
+   "market": [],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-18",
    "date_label": "Nov 18, 2026",
@@ -2466,6 +2490,6 @@
    "automatic": 18,
    "manual": 21
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }

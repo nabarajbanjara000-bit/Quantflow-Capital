@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-11-21",
- "asof_label": "Nov 21, 2026",
- "generated_at": "2026-11-21T23:22:07.517Z",
- "data_updated_at": "2026-11-21T23:22:07.517Z",
+ "asof_date": "2026-11-22",
+ "asof_label": "Nov 22, 2026",
+ "generated_at": "2026-11-22T23:40:35.822Z",
+ "data_updated_at": "2026-11-22T23:40:35.822Z",
  "narrative_updated_at": "2026-11-20T00:45:31.286Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 17
+  "days_to_decision": 16
  },
  "kpis": [
   {
    "label": "RBA cash rate",
    "value": "4.85%",
    "note": "",
-   "period": "Nov 19, 2026",
+   "period": "Nov 20, 2026",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
   },
@@ -593,12 +593,12 @@
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
    "value": "4.85%",
-   "period": "Nov 19, 2026",
-   "released": "Detected Nov 19, 2026",
+   "period": "Nov 20, 2026",
+   "released": "Detected Nov 22, 2026",
    "previous": "4.60% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-19",
+   "latest_date": "2026-11-20",
    "raw": {
     "v": 4.85
    },
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 21, 2026",
-   "released": "Nov 21, 2026",
-   "previous": "4.00% (Nov 20, 2026)",
+   "period": "Nov 22, 2026",
+   "released": "Nov 22, 2026",
+   "previous": "4.00% (Nov 21, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-21",
+   "latest_date": "2026-11-22",
    "raw": {
     "v": 4
    },
