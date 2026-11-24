@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-11-22",
- "asof_label": "Nov 22, 2026",
- "generated_at": "2026-11-22T23:38:29.636Z",
- "data_updated_at": "2026-11-22T23:38:29.636Z",
+ "asof_date": "2026-11-23",
+ "asof_label": "Nov 23, 2026",
+ "generated_at": "2026-11-24T04:00:48.472Z",
+ "data_updated_at": "2026-11-24T04:00:48.472Z",
  "narrative_updated_at": "2026-11-21T00:03:37.453Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 26
+  "days_to_decision": 25
  },
  "kpis": [
   {
    "label": "BoJ interest rate",
    "value": "1.25%",
    "note": "",
-   "period": "Nov 18, 2026",
+   "period": "Nov 19, 2026",
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "2.87%",
+   "value": "2.84%",
    "note": "",
-   "period": "Nov 19, 2026",
+   "period": "Nov 20, 2026",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv"
   }
@@ -605,12 +605,12 @@
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf",
    "value": "1.25%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 19, 2026",
-   "previous": "1.25% (Nov 17, 2026)",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 23, 2026",
+   "previous": "1.25% (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
     "v": 1.25
    },
@@ -641,15 +641,15 @@
    "name": "2-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "1.85%",
-   "period": "Nov 19, 2026",
-   "released": "Detected Nov 19, 2026",
-   "previous": "1.87% (Nov 18, 2026)",
+   "value": "1.83%",
+   "period": "Nov 20, 2026",
+   "released": "Detected Nov 23, 2026",
+   "previous": "1.85% (Nov 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-19",
+   "latest_date": "2026-11-20",
    "raw": {
-    "v": 1.853
+    "v": 1.826
    },
    "estimate": false
   },
@@ -659,15 +659,15 @@
    "name": "10-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "2.87%",
-   "period": "Nov 19, 2026",
-   "released": "Detected Nov 19, 2026",
-   "previous": "2.92% (Nov 18, 2026)",
+   "value": "2.84%",
+   "period": "Nov 20, 2026",
+   "released": "Detected Nov 23, 2026",
+   "previous": "2.87% (Nov 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-19",
+   "latest_date": "2026-11-20",
    "raw": {
-    "v": 2.87
+    "v": 2.838
    },
    "estimate": false
   },
@@ -677,15 +677,15 @@
    "name": "30-year government bond rate",
    "source": "Ministry of Finance",
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv",
-   "value": "4.03%",
-   "period": "Nov 19, 2026",
-   "released": "Detected Nov 19, 2026",
-   "previous": "4.08% (Nov 18, 2026)",
+   "value": "4.01%",
+   "period": "Nov 20, 2026",
+   "released": "Detected Nov 23, 2026",
+   "previous": "4.03% (Nov 19, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-19",
+   "latest_date": "2026-11-20",
    "raw": {
-    "v": 4.03
+    "v": 4.014
    },
    "estimate": false
   },
@@ -715,12 +715,12 @@
    "source": "BoJ",
    "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261009.pdf",
    "value": "¥159.59",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 19, 2026",
-   "previous": "¥159.10 (Nov 17, 2026)",
+   "period": "Nov 19, 2026",
+   "released": "Detected Nov 23, 2026",
+   "previous": "¥159.59 (Nov 18, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-19",
    "raw": {
     "v": 159.59
    },
@@ -1765,8 +1765,8 @@
     "Aug"
    ],
    "10-yr": [
-    "2.87%",
-    "Nov 19"
+    "2.84%",
+    "Nov 20"
    ]
   },
   "rate_label": "Current BoJ rate",
@@ -2728,6 +2728,11 @@
   "ai_errors": [],
   "sources_read": [
    {
+    "title": "Statistics on Securities Financing Transactions in Japan",
+    "date": "2026-11-23",
+    "url": "http://www.boj.or.jp/en/statistics/bis/repo/index.htm"
+   },
+   {
     "title": "Monetary and Economic Studies (2026)",
     "date": "2026-11-20",
     "url": "http://www.boj.or.jp/en/research/imes/mes/mes26.htm"
@@ -2751,11 +2756,6 @@
     "title": "Highlights of the Outlook for Economic Activity and Prices (October 2026)",
     "date": "2026-11-16",
     "url": "http://www.boj.or.jp/en/mopo/outlook/highlight/ten202610.htm"
-   },
-   {
-    "title": "BOJ Current Account Balances by Sector (Oct.)",
-    "date": "2026-11-16",
-    "url": "http://www.boj.or.jp/en/statistics/boj/other/cabs/cabs.xlsx"
    }
   ],
   "coverage": {

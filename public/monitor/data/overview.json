@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-22T23:41:04.622Z",
- "asof_label": "Nov 22, 2026",
+ "generated_at": "2026-11-24T04:06:08.176Z",
+ "asof_label": "Nov 23, 2026",
  "headline": "Hold at 8 of 8",
- "paragraph": "Welcome to the Quant Flow Capital central bank briefing covering eight institutions from around the world. At this time, all eight central banks share a baseline expectation to hold their current policy rates steady through December. Among them, Switzerland stands out with the lowest rate in the group at 0.00% while others range up to 4.85%.",
+ "paragraph": "Welcome to the Quant Flow Capital briefing covering eight global central banks as they approach their upcoming December policy decisions. Right now, all eight institutions share a common baseline expectation to hold their current interest rates steady. Meanwhile, the Federal Reserve stands out with slightly higher discussion around potential rate movement, driven by recent labor market data.",
  "window": [
   "2026-12-08",
   "2026-12-18"
@@ -43,7 +43,7 @@
    "next_label": "Tue Dec 8",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Dec 8, or 10:30 p.m. U.S. Eastern Time on Monday, Dec 7. The Governor then holds a media conference.",
    "stale": false,
-   "asof": "Nov 22, 2026",
+   "asof": "Nov 23, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 13
@@ -69,7 +69,7 @@
     ],
     "10-yr": [
      "4.92%",
-     "Nov 20"
+     "Nov 23"
     ]
    },
    "call": "hold",
@@ -84,7 +84,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. ET",
    "stale": false,
-   "asof": "Nov 22, 2026",
+   "asof": "Nov 23, 2026",
    "coverage": {
     "automatic": 33,
     "manual": 2
@@ -109,8 +109,8 @@
      "Oct"
     ],
     "10-yr": [
-     "3.81%",
-     "Nov 19"
+     "3.69%",
+     "Nov 20"
     ]
    },
    "call": "hold",
@@ -125,7 +125,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "9:45 a.m. Eastern Time",
    "stale": false,
-   "asof": "Nov 22, 2026",
+   "asof": "Nov 23, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 10
@@ -150,8 +150,8 @@
      "Q3"
     ],
     "10-yr": [
-     "4.81%",
-     "Nov 20"
+     "4.73%",
+     "Nov 24"
     ]
    },
    "call": "hold",
@@ -166,7 +166,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
    "stale": false,
-   "asof": "Nov 22, 2026",
+   "asof": "Nov 23, 2026",
    "coverage": {
     "automatic": 18,
     "manual": 21
@@ -183,16 +183,16 @@
    "why": "Inflation sits at 1.0% inside the SNB's target zone, keeping a rate hold as the most likely outcome for December.",
    "mini": {
     "prices": [
-     "1.0%",
-     "CPI, Sep"
+     "1.5%",
+     "CPI, Oct"
     ],
     "jobless": [
      "3.0%",
      "Sep"
     ],
     "10-yr": [
-     "0.555%",
-     "Nov 20"
+     "0.583%",
+     "Nov 23"
     ]
    },
    "call": "hold",
@@ -207,7 +207,7 @@
    "next_label": "Thu Dec 10",
    "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Nov 22, 2026",
+   "asof": "Nov 23, 2026",
    "coverage": {
     "automatic": 10,
     "manual": 28
@@ -232,8 +232,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.39%",
-     "Nov 20"
+     "3.37%",
+     "Nov 23"
     ]
    },
    "call": "hold",
@@ -247,8 +247,8 @@
    "next_end": "2026-12-17",
    "next_label": "Thu Dec 17",
    "time_label": "2:15 p.m. Central European Time",
-   "stale": false,
-   "asof": "Nov 22, 2026",
+   "stale": true,
+   "asof": "Nov 23, 2026",
    "coverage": {
     "automatic": 19,
     "manual": 19
@@ -273,8 +273,8 @@
      "Sep"
     ],
     "10-yr": [
-     "5.27%",
-     "Nov 18"
+     "5.29%",
+     "Nov 19"
     ]
    },
    "call": "hold",
@@ -289,7 +289,7 @@
    "next_label": "Thu Dec 17",
    "time_label": "12:00 p.m. (noon) UK time (GMT)",
    "stale": false,
-   "asof": "Nov 22, 2026",
+   "asof": "Nov 23, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 14
@@ -314,8 +314,8 @@
      "Aug"
     ],
     "10-yr": [
-     "2.87%",
-     "Nov 19"
+     "2.84%",
+     "Nov 20"
     ]
    },
    "call": "hold",
@@ -330,7 +330,7 @@
    "next_label": "Fri Dec 18",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
    "stale": false,
-   "asof": "Nov 22, 2026",
+   "asof": "Nov 23, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 13
