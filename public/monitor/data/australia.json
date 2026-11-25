@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-11-23",
- "asof_label": "Nov 23, 2026",
- "generated_at": "2026-11-24T04:04:46.133Z",
- "data_updated_at": "2026-11-24T04:04:46.133Z",
- "narrative_updated_at": "2026-11-20T00:45:31.286Z",
+ "asof_date": "2026-11-24",
+ "asof_label": "Nov 24, 2026",
+ "generated_at": "2026-11-25T02:39:51.710Z",
+ "data_updated_at": "2026-11-25T02:39:51.710Z",
+ "narrative_updated_at": "2026-11-25T02:39:51.710Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,22 +39,22 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 15
+  "days_to_decision": 14
  },
  "kpis": [
   {
    "label": "RBA cash rate",
    "value": "4.85%",
    "note": "",
-   "period": "Nov 23, 2026",
+   "period": "Nov 24, 2026",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
   },
   {
    "label": "Price rise, past year",
-   "value": "4.3%",
+   "value": "4.9%",
    "note": "Target band 2–3%",
-   "period": "Sep 2026",
+   "period": "Oct 2026",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release"
   },
@@ -179,15 +179,15 @@
    "name": "Consumer Price Index (CPI), all items",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "4.3%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "4.0% (Aug 2026)",
+   "value": "4.9%",
+   "period": "Oct 2026",
+   "released": "Detected Nov 24, 2026",
+   "previous": "4.3% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 4.3
+    "v": 4.9
    },
    "estimate": false
   },
@@ -197,15 +197,15 @@
    "name": "Trimmed mean inflation (monthly)",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "3.6%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "3.5% (Aug 2026)",
+   "value": "3.8%",
+   "period": "Oct 2026",
+   "released": "Detected Nov 24, 2026",
+   "previous": "3.6% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 3.6
+    "v": 3.8
    },
    "estimate": false
   },
@@ -215,15 +215,15 @@
    "name": "CPI excluding volatile items and holiday travel",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "3.6%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "3.9% (Aug 2026)",
+   "value": "3.9%",
+   "period": "Oct 2026",
+   "released": "Detected Nov 24, 2026",
+   "previous": "3.6% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 3.6
+    "v": 3.9
    },
    "estimate": false
   },
@@ -233,15 +233,15 @@
    "name": "Automotive fuel prices",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "23.6%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "13.5% (Aug 2026)",
+   "value": "32.5%",
+   "period": "Oct 2026",
+   "released": "Detected Nov 24, 2026",
+   "previous": "23.6% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 23.6
+    "v": 32.5
    },
    "estimate": false
   },
@@ -251,15 +251,15 @@
    "name": "Electricity prices",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "12.8%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "13.2% (Aug 2026)",
+   "value": "25.2%",
+   "period": "Oct 2026",
+   "released": "Detected Nov 24, 2026",
+   "previous": "12.8% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 12.8
+    "v": 25.2
    },
    "estimate": false
   },
@@ -269,15 +269,15 @@
    "name": "Rents",
    "source": "Australian Bureau of Statistics",
    "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-   "value": "3.6%",
-   "period": "Sep 2026",
-   "released": "Detected Oct 28, 2026",
-   "previous": "3.6% (Aug 2026)",
+   "value": "3.5%",
+   "period": "Oct 2026",
+   "released": "Detected Nov 24, 2026",
+   "previous": "3.6% (Sep 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-09-01",
+   "latest_date": "2026-10-01",
    "raw": {
-    "v": 3.6
+    "v": 3.5
    },
    "estimate": false
   },
@@ -593,12 +593,12 @@
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
    "value": "4.85%",
-   "period": "Nov 23, 2026",
-   "released": "Detected Nov 23, 2026",
+   "period": "Nov 24, 2026",
+   "released": "Detected Nov 24, 2026",
    "previous": "4.60% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-23",
+   "latest_date": "2026-11-24",
    "raw": {
     "v": 4.85
    },
@@ -695,15 +695,15 @@
    "name": "Australian dollar",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
-   "value": "US$0.6638",
-   "period": "Nov 23, 2026",
-   "released": "Detected Nov 23, 2026",
-   "previous": "US$0.6666 (Nov 20, 2026)",
+   "value": "US$0.6627",
+   "period": "Nov 24, 2026",
+   "released": "Detected Nov 24, 2026",
+   "previous": "US$0.6638 (Nov 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-23",
+   "latest_date": "2026-11-24",
    "raw": {
-    "v": 0.6638
+    "v": 0.6627
    },
    "estimate": false,
    "note": "AUD/USD only (the snapshot also quotes the trade-weighted index)"
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 23, 2026",
-   "released": "Nov 23, 2026",
-   "previous": "4.00% (Nov 22, 2026)",
+   "period": "Nov 24, 2026",
+   "released": "Nov 24, 2026",
+   "previous": "4.00% (Nov 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-23",
+   "latest_date": "2026-11-24",
    "raw": {
     "v": 4
    },
@@ -873,16 +873,21 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "October inflation jumped to 4.9%, keeping pressure on the RBA ahead of December.",
+   "items": [
+    "<strong>Consumer Price Index (CPI)</strong> rose from 4.3% in September to <strong>4.9%</strong> in October.",
+    "<strong>Trimmed mean inflation</strong> increased from 3.6% in September to <strong>3.8%</strong> in October.",
+    "<strong>Automotive fuel prices</strong> surged from 23.6% in September to <strong>32.5%</strong> in October.",
+    "<strong>Electricity prices</strong> jumped from 12.8% in September to <strong>25.2%</strong> in October."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
    "headline": "HOLD",
-   "sub": "<strong>Keep the cash rate where it is, at 4.85%, following the November rate hike.</strong>",
+   "sub": "<strong>Keep the cash rate where it is, at 4.85%, while evaluating incoming inflation reports.</strong>",
    "probabilities": {
-    "hold": 75,
-    "raise": 20,
+    "hold": 65,
+    "raise": 30,
     "cut": 5
    },
    "labels": {
@@ -891,9 +896,9 @@
     "cut": "Cut (down)"
    },
    "confidence": "Medium",
-   "confidence_note": "“Medium” means that after raising rates in November to 4.85% and upgrading inflation forecasts, the RBA is expected to pause in December to assess incoming data.",
-   "short_version": "The RBA raised its cash rate target to 4.85% on November 3, citing elevated inflation, surging oil prices, and tighter domestic capacity pressures. Having delivered this tightening, the central bank is expected to hold rates steady at its upcoming December 7–8 meeting.",
-   "card_why": "The RBA raised rates to 4.85% on Nov 3; we expect a pause at the December meeting.",
+   "confidence_note": "“Medium” means that although October inflation jumped significantly to 4.9%, the RBA is still widely expected to pause at the December 7–8 meeting to digest these figures after November's rate rise.",
+   "short_version": "Following November's rate hike to 4.85%, the RBA faces renewed pressure after October consumer price inflation jumped to 4.9% and trimmed mean inflation rose to 3.8%. Even with these strong price readings, the central bank is still expected to hold rates steady at its upcoming December 7–8 meeting.",
+   "card_why": "October CPI jumped to 4.9%, keeping rate-rise risks alive, but a December hold remains most likely.",
    "last_move": "Raised 0.25 pts on Nov 3, 2026 (6–3 vote)"
   },
   "why_steps": [
@@ -902,8 +907,8 @@
     "html": "By law, the RBA aims for <strong>price stability</strong> and <strong>full employment</strong> at the same time. For prices, its target is that inflation (the speed at which prices rise) stays <strong>between 2% and 3% a year</strong>, aiming for the middle, 2.5%.\n\nIts main tool is the <strong>cash rate</strong>: the interest rate banks charge each other to borrow money overnight. Banks pass changes in it on to variable-rate mortgages, business loans and savings accounts, usually within weeks. Think of it like the pedals of a car. <strong>Raising</strong> the rate is pressing the <strong>brake</strong>: loans get more expensive, so people and companies borrow and spend less, and prices cool down. <strong>Cutting</strong> the rate is pressing the <strong>gas</strong>. <strong>Holding</strong> means keeping your foot where it is. Because most Australian home loans are variable, the RBA’s brake reaches family budgets faster than in many other countries."
    },
    {
-    "title": "Prices are clearly too high, and oil is making it worse",
-    "html": "The Australian Bureau of Statistics (<strong>ABS</strong>) says consumer prices were <strong>4.3% higher</strong> in September than a year earlier (<a href=\"https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release\" target=\"_blank\" rel=\"noopener noreferrer\">ABS</a>). In simple terms: a basket of everyday things that cost A$100 a year ago now costs about <strong>A$104.30</strong>. The target would be about A$102.50.\n\nPart of the recent pressure comes from energy costs. Petrol and diesel prices rose <strong>23.6%</strong> in September compared to a year earlier. Electricity prices remain elevated at 12.8%. At the same time, the RBA’s preferred underlying measure, the <strong>trimmed mean</strong>, sits at <strong>3.6%</strong> for September. (The trimmed mean ignores the items with the biggest and smallest price changes each month, so one-offs like a fuel spike do not distort it.) It remains above the 2–3% target band."
+    "title": "Prices jumped again in October",
+    "html": "The Australian Bureau of Statistics (<strong>ABS</strong>) reported that consumer prices were <strong>4.9% higher</strong> in October than a year earlier (<a href=\"https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release\" target=\"_blank\" rel=\"noopener noreferrer\">ABS</a>). In simple terms: a basket of everyday things that cost A$100 a year ago now costs about <strong>A$104.90</strong>. The target would be about A$102.50.\n\nEnergy costs are driving much of this acceleration. Petrol and diesel prices rose <strong>32.5%</strong> in October compared to a year earlier, up sharply from September. Electricity prices surged to <strong>25.2%</strong>. Meanwhile, the RBA’s preferred underlying measure, the <strong>trimmed mean</strong>, ticked up to <strong>3.8%</strong> for October. (The trimmed mean ignores the items with the biggest and smallest price changes each month so one-offs do not distort it.) It remains well above the 2–3% target band."
    },
    {
     "title": "The RBA raised rates to 4.85% in November",
@@ -920,12 +925,12 @@
    {
     "title": "Weighing both sides",
     "scale": {
-     "left_title": "Pulls toward Raise later",
+     "left_title": "Pulls toward Raise now",
      "left": [
+      "October CPI jumped to 4.9% and trimmed mean rose to 3.8%",
+      "Automotive fuel surged 32.5% and electricity prices hit 25.2%",
       "Inflation forecast not reaching target band until late 2027",
-      "Surging oil prices and Middle East conflict risks",
-      "Domestic capacity pressures a little tighter than thought",
-      "Short-term inflation expectations elevated"
+      "Domestic capacity pressures tighter than previously thought"
      ],
      "right_title": "Pulls toward Hold in December",
      "right": [
@@ -935,11 +940,11 @@
       "Three board members voted to hold at 4.60% in November"
      ]
     },
-    "html": "Having raised rates to 4.85% in November and incorporated higher inflation forecasts into its new Statement on Monetary Policy, the RBA is expected to pause at the December 7–8 meeting to evaluate how the economy absorbs the latest tightening. That is why our probabilities stand at <strong>75% Hold</strong>, <strong>20% Raise</strong> and <strong>5% Cut</strong>."
+    "html": "While October inflation figures surprised notably on the high side—with headline CPI hitting 4.9%—the RBA only just raised rates to 4.85% in November. The board is expected to weigh these price pressures carefully while giving prior tightening time to work through the economy. That is why our probabilities stand at <strong>65% Hold</strong>, <strong>30% Raise</strong> and <strong>5% Cut</strong>."
    },
    {
     "title": "The decision ahead on December 7–8",
-    "html": "On <strong>Tuesday, December 8 at 2:30 p.m. AEDT</strong>, the RBA will announce its final interest rate decision of 2026. Following November’s rate rise to 4.85%, attention turns to whether incoming economic reports show sufficient cooling to justify holding the cash rate steady through year-end."
+    "html": "On <strong>Tuesday, December 8 at 2:30 p.m. AEDT</strong>, the RBA will announce its final interest rate decision of 2026. Following October's higher inflation report, attention turns to whether the board views the latest price spike as transient or reason for another immediate rate hike."
    }
   ],
   "timeline": [
@@ -1050,28 +1055,6 @@
     "because": "the RBA set a clear test: it would raise again only if the upside risks it was worried about actually happened."
    },
    {
-    "date_label": "August 19 – September 24, 2026",
-    "title": "Slower growth, steady pay, jobs softening",
-    "kind": "neutral",
-    "what": "Wages (the Wage Price Index) rose <strong>3.2%</strong> over the year to June. The economy grew <strong>0.4%</strong> in the June quarter and <strong>2.1%</strong> over the year. Unemployment stood at <strong>4.7%</strong> in August.",
-    "sources": [
-     {
-      "label": "Wages (ABS)",
-      "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/wage-price-index-australia/latest-release"
-     },
-     {
-      "label": "GDP (ABS)",
-      "url": "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release"
-     },
-     {
-      "label": "Jobs (ABS)",
-      "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
-     }
-    ],
-    "people": "Household saving edged up to 6.5% of income: people are being a bit more careful with money.",
-    "because": "the economy looked cooler, but not weak enough to stop the RBA if inflation worsened."
-   },
-   {
     "date_label": "September 29, 2026",
     "title": "The fourth rise: up to 4.60%",
     "kind": "up",
@@ -1095,24 +1078,6 @@
     "because": "the next month’s price report showed why the RBA remained concerned."
    },
    {
-    "date_label": "October 28, 2026",
-    "title": "September CPI rises to 4.3% and Governor testifies in Senate",
-    "kind": "neutral",
-    "what": "The ABS reported September CPI inflation at <strong>4.3%</strong>, with automotive fuel prices jumping 23.6%. Meanwhile, Governor Michele Bullock told the Senate Economics Legislation Committee that inflation will likely remain elevated above previous forecasts due to global energy shocks and domestic capacity pressures.",
-    "sources": [
-     {
-      "label": "CPI (ABS)",
-      "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release"
-     },
-     {
-      "label": "Senate Opening Statement",
-      "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-10-28.html"
-     }
-    ],
-    "people": "Higher energy costs continue to press on household budgets while mortgage rates stand at 4.60%.",
-    "because": "the RBA prepared its November 3 decision and updated Statement on Monetary Policy."
-   },
-   {
     "date_label": "November 3, 2026",
     "title": "The fifth rise: up to 4.85%",
     "kind": "up",
@@ -1125,7 +1090,7 @@
       "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html"
      }
     ],
-    "because": "our reading ahead of the December 7–8 meeting is that a rate hold is most likely as the RBA assesses the impact of its latest moves."
+    "because": "incoming October data showed inflation accelerating further to 4.9%, testing the RBA's resolve ahead of December."
    }
   ],
   "choices": [
@@ -1141,21 +1106,21 @@
      "<strong>Divided board.</strong> Three members voted to hold at 4.60% in November, showing support for caution."
     ],
     "against": [
-     "<strong>Inflation is elevated.</strong> Headline CPI reached 4.3% in September and forecasts show inflation staying above target through much of 2027.",
-     "<strong>Oil has spiked further.</strong> Brent oil near $92 a barrel adds sustained cost pressures.",
+     "<strong>Inflation jumped in October.</strong> Headline CPI accelerated to 4.9% and trimmed mean reached 3.8%.",
+     "<strong>Fuel and power costs surging.</strong> Automotive fuel prices jumped 32.5% and electricity prices reached 25.2%.",
      "<strong>Upgraded forecasts.</strong> The RBA's November Statement on Monetary Policy highlighted material upside risks to inflation."
     ],
     "everyday": "variable mortgage repayments and savings rates would stay roughly where they are, with attention shifting to incoming economic reports.",
-    "prob": 75
+    "prob": 65
    },
    {
     "option": "raise",
     "rank_label": "Close second",
     "title": "Raise: up 0.25 points, to 5.10%",
-    "meaning": "the RBA presses the brake further in December if inflation indicators or oil prices surprise on the upside again.",
+    "meaning": "the RBA presses the brake further in December if October's inflation jump convinces the board that higher rates are urgently needed.",
     "for": [
-     "<strong>Persistent inflation pressures.</strong> Inflation is not expected to reach the top of the 2–3% target range until late 2027.",
-     "<strong>Energy shock.</strong> Automotive fuel prices surged 23.6% and Brent oil is trading near $92 a barrel.",
+     "<strong>Accelerating inflation.</strong> October CPI jumped to 4.9% and trimmed mean rose to 3.8%.",
+     "<strong>Energy shock.</strong> Automotive fuel prices surged 32.5% and electricity rose 25.2%.",
      "<strong>Capacity pressures.</strong> The RBA noted that domestic capacity pressures are a little tighter than earlier thought."
     ],
     "against": [
@@ -1163,7 +1128,7 @@
      "<strong>Slowing economy.</strong> Growth in output is slowing and housing prices have fallen significantly."
     ],
     "everyday": "variable mortgage repayments would rise by roughly A$100 a month on a A$600,000 loan, and savings accounts would pay slightly more.",
-    "prob": 20
+    "prob": 30
    },
    {
     "option": "cut",
@@ -1174,7 +1139,7 @@
      "Only in an extreme economic or financial shock."
     ],
     "against": [
-     "<strong>Inflation is moving the wrong way.</strong> With CPI at 4.3% and forecasts showing elevated inflation through 2027, cutting rates would add fuel to price pressures.",
+     "<strong>Inflation is moving the wrong way.</strong> With CPI jumping to 4.9% and forecasts showing elevated inflation through 2027, cutting rates would add fuel to price pressures.",
      "<strong>The RBA just raised rates in November.</strong>"
     ],
     "everyday": "loans would get cheaper, but such a move would signal severe economic distress.",
@@ -1182,7 +1147,7 @@
    }
   ],
   "change": {
-   "lead": "Our 75% / 20% / 5% probability split reflects the RBA's decision on November 3 to raise the cash rate to 4.85% and its likely pause at the December 7–8 meeting.",
+   "lead": "Our 65% / 30% / 5% probability split reflects the tension between October's sharp inflation jump to 4.9% and the RBA's recent November rate hike to 4.85%.",
    "intro_title": "Why upcoming reports matter",
    "intro": "The RBA reviews all available data before each decision. Reports released in November and December directly shape the upcoming verdict for the December meeting.",
    "reports": {
@@ -1194,12 +1159,12 @@
      "why": "Measures whether pay growth is feeding into broader inflation pressures.",
      "trigger": "An unexpected jump in wages would reinforce hawkish concerns."
     },
-    "labour_force_2": {
+    "labour_force_3": {
      "why": "Tracks the latest unemployment rate and job creation.",
      "trigger": "A rising unemployment rate supports holding rates steady."
     },
     "consumer_price_index_2": {
-     "why": "Shows the monthly trajectory of inflation after September's 4.3% reading.",
+     "why": "Shows the monthly trajectory of inflation after October's 4.9% reading.",
      "trigger": "Continued high inflation would keep rate rises on the table for early 2027."
     },
     "national_accounts_gdp": {
@@ -1218,11 +1183,11 @@
    {
     "area": "Prices",
     "grade": "red",
-    "one": "Headline CPI rose to 4.3% in September, and updated forecasts show inflation staying elevated through much of 2027.",
-    "look": "Monthly consumer prices (CPI at 4.3%), trimmed mean inflation (3.6%), and automotive fuel prices (23.6%).",
-    "why": "Inflation remains above target, driven by automotive fuel, electricity, and persistent services inflation.",
+    "one": "Headline CPI jumped to 4.9% in October and trimmed mean rose to 3.8%, showing persistent price pressures.",
+    "look": "Monthly consumer prices (CPI at 4.9%), trimmed mean inflation (3.8%), and automotive fuel prices (32.5%).",
+    "why": "Inflation remains well above target, driven by automotive fuel, electricity, and persistent services inflation.",
     "change": "Trimmed mean inflation falling sustainably back toward the 2–3% band and oil prices dropping significantly.",
-    "matters": "This is why the RBA raised rates to 4.85% in November and remains on alert for further tightening.",
+    "matters": "This is why the RBA raised rates to 4.85% in November and faces continued pressure to act.",
     "change_label": "What would improve it"
    },
    {
@@ -1249,7 +1214,7 @@
     "area": "Money markets",
     "grade": "amber",
     "one": "Borrowing costs remain elevated following the November rate hike and firm bond yields.",
-    "look": "10-year government bond rate (5.04%), 2-year government bond rate (4.81%), and the Australian dollar (US$0.6777).",
+    "look": "10-year government bond rate (5.08%), 2-year government bond rate (4.81%), and the Australian dollar (US$0.6627).",
     "why": "Financial conditions are restrictive, helping to cool demand even without immediate additional central bank action.",
     "change": "A disorderly surge in yields or sharp currency depreciation moving conditions to red.",
     "matters": "Higher market rates reinforce monetary policy tightening.",
@@ -1260,38 +1225,38 @@
    "consumer_price_index_cpi_all_items": {
     "now_label": "Above the band",
     "now_tone": "bad",
-    "what": "the ABS checks the prices of the things households buy, like food, rent, petrol and power, and compares them with a year ago. A 4.3% rise means a A$100 basket now costs about A$104.30.",
-    "why": "the RBA’s 2–3% target is defined on this measure. It ticked up to 4.3% in September from 4.0% in August."
+    "what": "the ABS checks the prices of the things households buy, like food, rent, petrol and power, and compares them with a year ago. A 4.9% rise means a A$100 basket now costs about A$104.90.",
+    "why": "the RBA’s 2–3% target is defined on this measure. It jumped to 4.9% in October from 4.3% in September."
    },
    "trimmed_mean_inflation_monthly": {
     "now_label": "Above the band",
     "now_tone": "bad",
     "what": "each month the ABS sets aside the items with the biggest and smallest price changes and averages the rest to strip out one-offs.",
-    "why": "the RBA’s favourite gauge of underlying inflation sits at 3.6% in September, remaining above the target band."
+    "why": "the RBA’s favourite gauge of underlying inflation rose to 3.8% in October, remaining above the target band."
    },
    "cpi_excluding_volatile_items_and_holid": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "all prices except fruit, vegetables, fuel and holiday travel, which jump around a lot.",
-    "why": "stands at 3.6% in September, showing underlying price pressures across the broader economy."
+    "why": "stands at 3.9% in October, showing underlying price pressures across the broader economy."
    },
    "automotive_fuel_prices": {
     "now_label": "Spiking",
     "now_tone": "bad",
     "what": "the price of petrol and diesel at the bowser.",
-    "why": "surged 23.6% in September due to higher world oil prices, feeding directly into broader transport and freight costs."
+    "why": "surged 32.5% in October due to higher world oil prices, feeding directly into broader transport and freight costs."
    },
    "electricity_prices": {
     "now_label": "Elevated",
     "now_tone": "bad",
     "what": "household power bills.",
-    "why": "stands at 12.8% in September, continuing to add pressure to household budgets."
+    "why": "stands at 25.2% in October, continuing to add pressure to household budgets."
    },
    "rents": {
     "now_label": "Steady",
     "now_tone": "mixed",
     "what": "what tenants pay for housing.",
-    "why": "holding at 3.6% in September, reflecting steady housing cost pressures."
+    "why": "holding at 3.5% in October, reflecting steady housing cost pressures."
    },
    "services_vs_goods_inflation": {
     "now_label": "Both high",
@@ -1423,13 +1388,13 @@
     "now_label": "High",
     "now_tone": "bad",
     "what": "interest rate paid on 10-year Australian government debt.",
-    "why": "stands at 5.04% on Nov 11, keeping long-term borrowing costs elevated."
+    "why": "stands at 5.08% on Nov 18, keeping long-term borrowing costs elevated."
    },
    "2_year_government_bond_rate": {
     "now_label": "Above cash rate",
     "now_tone": "mixed",
     "what": "interest rate on 2-year government bonds.",
-    "why": "stands at 4.81% on Nov 11, reflecting expectations of firm monetary policy."
+    "why": "stands at 4.81% on Nov 18, reflecting expectations of firm monetary policy."
    },
    "10_year_bond_rate_monthly_average": {
     "now_label": "High",
@@ -1447,7 +1412,7 @@
     "now_label": "Steady",
     "now_tone": "mixed",
     "what": "exchange rate of the Australian dollar against the U.S. dollar.",
-    "why": "stands at US$0.6677 on November 19, helping moderate import price pressures."
+    "why": "stands at US$0.6627 on November 24, helping moderate import price pressures."
    },
    "mortgage_payments_vs_income": {
     "now_label": "Squeezing",
@@ -1592,7 +1557,7 @@
   ],
   "gaps": [
    "<strong>Market odds specifically for December.</strong> Official market pricing reflects expectations out to year-end and early 2027, but exact daily probabilities for the December meeting alone are estimated.",
-   "<strong>Daily government bond yields.</strong> Current 10-year (5.04%) and 2-year (4.81%) yields are drawn from secondary financial market data sources rather than direct RBA tables.",
+   "<strong>Daily government bond yields.</strong> Current 10-year (5.08%) and 2-year (4.81%) yields are drawn from secondary financial market data sources rather than direct RBA tables.",
    "<strong>Detailed survey breakdowns of inflation expectations.</strong> While the RBA notes short-term expectations remain elevated, detailed household and business survey datasets were not fully collected."
   ],
   "group_intros": {
@@ -1706,11 +1671,11 @@
   "abbrev": "RBA",
   "rate": "4.85%",
   "last_move": "Raised 0.25 pts on Nov 3, 2026 (6–3 vote)",
-  "card_why": "The RBA raised rates to 4.85% on Nov 3; we expect a pause at the December meeting.",
+  "card_why": "October CPI jumped to 4.9%, keeping rate-rise risks alive, but a December hold remains most likely.",
   "mini": {
    "prices": [
-    "4.3%",
-    "CPI, Sep"
+    "4.9%",
+    "CPI, Oct"
    ],
    "jobless": [
     "4.9%",
@@ -1839,6 +1804,78 @@
   "At its meeting today, the Board decided to increase the cash rate target by 25 basis points to 4.85 per cent. Inflation remains elevated and recent data indicate that it is broadly based."
  ],
  "changelog": [
+  {
+   "date": "2026-11-24",
+   "date_label": "Nov 24, 2026",
+   "since": "2026-11-23",
+   "since_label": "Nov 23, 2026",
+   "summary": {
+    "headline": "October inflation jumped to 4.9%, keeping pressure on the RBA ahead of December.",
+    "items": [
+     "<strong>Consumer Price Index (CPI)</strong> rose from 4.3% in September to <strong>4.9%</strong> in October.",
+     "<strong>Trimmed mean inflation</strong> increased from 3.6% in September to <strong>3.8%</strong> in October.",
+     "<strong>Automotive fuel prices</strong> surged from 23.6% in September to <strong>32.5%</strong> in October.",
+     "<strong>Electricity prices</strong> jumped from 12.8% in September to <strong>25.2%</strong> in October."
+    ]
+   },
+   "data": [
+    {
+     "id": "consumer_price_index_cpi_all_items",
+     "name": "Consumer Price Index (CPI), all items",
+     "from": "4.3%",
+     "from_period": "Sep 2026",
+     "to": "4.9%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "trimmed_mean_inflation_monthly",
+     "name": "Trimmed mean inflation (monthly)",
+     "from": "3.6%",
+     "from_period": "Sep 2026",
+     "to": "3.8%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "cpi_excluding_volatile_items_and_holid",
+     "name": "CPI excluding volatile items and holiday travel",
+     "from": "3.6%",
+     "from_period": "Sep 2026",
+     "to": "3.9%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "automotive_fuel_prices",
+     "name": "Automotive fuel prices",
+     "from": "23.6%",
+     "from_period": "Sep 2026",
+     "to": "32.5%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "electricity_prices",
+     "name": "Electricity prices",
+     "from": "12.8%",
+     "from_period": "Sep 2026",
+     "to": "25.2%",
+     "to_period": "Oct 2026"
+    },
+    {
+     "id": "rents",
+     "name": "Rents",
+     "from": "3.6%",
+     "from_period": "Sep 2026",
+     "to": "3.5%",
+     "to_period": "Oct 2026"
+    }
+   ],
+   "market": [],
+   "fed": [],
+   "verdict": {
+    "from_text": "HOLD (hold 75% / raise 20% / cut 5%)",
+    "to_text": "HOLD (hold 65% / raise 30% / cut 5%)"
+   },
+   "ai_written": true
+  },
   {
    "date": "2026-11-19",
    "date_label": "Nov 19, 2026",
@@ -2341,6 +2378,6 @@
    "automatic": 25,
    "manual": 13
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }

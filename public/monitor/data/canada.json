@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "canada",
- "asof_date": "2026-11-23",
- "asof_label": "Nov 23, 2026",
- "generated_at": "2026-11-24T04:02:44.878Z",
- "data_updated_at": "2026-11-24T04:02:44.878Z",
- "narrative_updated_at": "2026-11-24T04:02:44.877Z",
+ "asof_date": "2026-11-24",
+ "asof_label": "Nov 24, 2026",
+ "generated_at": "2026-11-25T02:36:44.956Z",
+ "data_updated_at": "2026-11-25T02:36:44.956Z",
+ "narrative_updated_at": "2026-11-25T02:36:44.956Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
   "calendar_label": "Official BoC announcement schedule",
   "who": "The Bank of Canada (“the BoC”), Canada’s central bank. Its decisions are made by a small group of senior officials called the Governing Council, led by Governor Tiff Macklem. It aims to agree as a group, so there is no published vote count like in the U.S.",
-  "days_to_decision": 16
+  "days_to_decision": 15
  },
  "kpis": [
   {
    "label": "Bank of Canada rate",
    "value": "2.50%",
    "note": "",
-   "period": "Nov 20, 2026",
+   "period": "Nov 23, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "3.69%",
+   "value": "3.68%",
    "note": "",
-   "period": "Nov 20, 2026",
+   "period": "Nov 23, 2026",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28"
   }
@@ -603,12 +603,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
    "value": "2.50%",
-   "period": "Nov 20, 2026",
-   "released": "Detected Nov 23, 2026",
-   "previous": "2.50% (Nov 19, 2026)",
+   "period": "Nov 23, 2026",
+   "released": "Detected Nov 24, 2026",
+   "previous": "2.50% (Nov 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-20",
+   "latest_date": "2026-11-23",
    "raw": {
     "v": 2.5
    },
@@ -620,15 +620,15 @@
    "name": "CORRA (overnight lending rate)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/AVG.INTWO/json?recent=6",
-   "value": "2.56%",
-   "period": "Nov 20, 2026",
-   "released": "Detected Nov 23, 2026",
-   "previous": "2.55% (Nov 19, 2026)",
+   "value": "2.55%",
+   "period": "Nov 23, 2026",
+   "released": "Detected Nov 24, 2026",
+   "previous": "2.56% (Nov 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-20",
+   "latest_date": "2026-11-23",
    "raw": {
-    "v": 2.56
+    "v": 2.55
    },
    "estimate": false
   },
@@ -638,15 +638,15 @@
    "name": "2-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.19%",
-   "period": "Nov 20, 2026",
-   "released": "Detected Nov 23, 2026",
-   "previous": "3.30% (Nov 19, 2026)",
+   "value": "3.21%",
+   "period": "Nov 23, 2026",
+   "released": "Detected Nov 24, 2026",
+   "previous": "3.19% (Nov 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-20",
+   "latest_date": "2026-11-23",
    "raw": {
-    "v": 3.19
+    "v": 3.21
    },
    "estimate": false
   },
@@ -657,12 +657,12 @@
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
    "value": "3.41%",
-   "period": "Nov 20, 2026",
-   "released": "Detected Nov 23, 2026",
-   "previous": "3.53% (Nov 19, 2026)",
+   "period": "Nov 23, 2026",
+   "released": "Detected Nov 24, 2026",
+   "previous": "3.41% (Nov 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-20",
+   "latest_date": "2026-11-23",
    "raw": {
     "v": 3.41
    },
@@ -674,15 +674,15 @@
    "name": "10-year Government of Canada bond",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/group/bond_yields_benchmark/json?start_date=2026-09-28",
-   "value": "3.69%",
-   "period": "Nov 20, 2026",
-   "released": "Detected Nov 23, 2026",
-   "previous": "3.81% (Nov 19, 2026)",
+   "value": "3.68%",
+   "period": "Nov 23, 2026",
+   "released": "Detected Nov 24, 2026",
+   "previous": "3.69% (Nov 20, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-20",
+   "latest_date": "2026-11-23",
    "raw": {
-    "v": 3.69
+    "v": 3.68
    },
    "estimate": false
   },
@@ -692,15 +692,15 @@
    "name": "Canadian dollar (US$1 in C$)",
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-25",
-   "value": "C$1.4369",
-   "period": "Nov 23, 2026",
-   "released": "Detected Nov 23, 2026",
-   "previous": "C$1.4325 (Nov 20, 2026)",
+   "value": "C$1.4296",
+   "period": "Nov 24, 2026",
+   "released": "Detected Nov 24, 2026",
+   "previous": "C$1.4369 (Nov 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-23",
+   "latest_date": "2026-11-24",
    "raw": {
-    "v": 1.4369
+    "v": 1.4296
    },
    "estimate": false
   },
@@ -860,12 +860,12 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Bond yields edged lower and the Canadian dollar ticked up slightly, while upcoming GDP and labour reports approach.",
+   "headline": "Bond yields edged slightly higher, the Canadian dollar ticked up, and new speeches emphasized the central bank's scenario-based approach and monetary policy framework.",
    "items": [
-    "<strong>2-year Government of Canada bond</strong> fell from 3.30% to 3.19% (Nov 20).",
-    "<strong>5-year Government of Canada bond</strong> fell from 3.53% to 3.41% (Nov 20).",
-    "<strong>10-year Government of Canada bond</strong> fell from 3.81% to 3.69% (Nov 20).",
-    "<strong>Canadian dollar</strong> moved to C$1.4369 per US$1 (Nov 23), compared with C$1.4325 previously."
+    "<strong>2-year Government of Canada bond</strong> rose from 3.19% to 3.21% (Nov 23).",
+    "<strong>10-year Government of Canada bond</strong> fell slightly from 3.69% to 3.68% (Nov 23).",
+    "<strong>Canadian dollar</strong> moved to C$1.4296 per US$1 (Nov 24), compared with C$1.4369 previously.",
+    "<strong>New official speeches</strong> published on November 24 discussed Canada's monetary policy framework and keeping inflation low and stable in an uncertain world (<a href=\"https://www.bankofcanada.ca/2026/11/canadas-monetary-policy-framework-a-trusted-anchor-in-uncertain-waters/\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>)."
    ]
   },
   "verdict": {
@@ -899,7 +899,7 @@
    },
    {
     "title": "Expensive oil cuts both ways for Canada",
-    "html": "This is where Canada is different from the U.S. or Europe. Canada is a big <strong>oil producer and exporter</strong>. When oil is expensive, two things happen at once:\n\n<ul><li><strong>It hurts as a shopper.</strong> Families pay more at the pump and for heating, and trucking and flying cost more. That pushes the CPI up and leaves less money for other things.</li><li><strong>It helps as a seller.</strong> Oil companies, workers and governments in producing provinces earn more.</li><li><strong>An unusual twist: the loonie.</strong> Normally expensive oil lifts the Canadian dollar. This time one U.S. dollar went to about C$1.4369 (<a href=\"https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-11-01\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>), partly due to interest rate differences with the U.S. A weaker loonie makes imported goods dearer, adding to inflation risk.</li></ul>"
+    "html": "This is where Canada is different from the U.S. or Europe. Canada is a big <strong>oil producer and exporter</strong>. When oil is expensive, two things happen at once:\n\n<ul><li><strong>It hurts as a shopper.</strong> Families pay more at the pump and for heating, and trucking and flying cost more. That pushes the CPI up and leaves less money for other things.</li><li><strong>It helps as a seller.</strong> Oil companies, workers and governments in producing provinces earn more.</li><li><strong>An unusual twist: the loonie.</strong> Normally expensive oil lifts the Canadian dollar. This time one U.S. dollar went to about C$1.4296 (<a href=\"https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-11-01\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>), partly due to interest rate differences with the U.S. A weaker loonie makes imported goods dearer, adding to inflation risk.</li></ul>"
    },
    {
     "title": "Jobs are weakening, and new U.S. tariffs add a worry",
@@ -1214,8 +1214,8 @@
    {
     "area": "Money markets",
     "grade": "amber",
-    "one": "Market borrowing costs have adjusted to the October rate hike, and the loonie trades near C$1.4369.",
-    "look": "Government of Canada bond yields, CORRA overnight lending rate (2.56%), and the exchange rate.",
+    "one": "Market borrowing costs have adjusted to the October rate hike, and the loonie trades near C$1.4296.",
+    "look": "Government of Canada bond yields, CORRA overnight lending rate (2.55%), and the exchange rate.",
     "why": "Financial markets have absorbed the BoC's move to 2.50%, and CORRA operates effectively near the target rate while the loonie remains soft.",
     "change": "Significant shifts in bond yields or exchange rates.",
     "matters": "Market rates reflect ongoing expectations for the path of monetary policy."
@@ -1376,13 +1376,13 @@
     "now_label": "On target",
     "now_tone": "info",
     "what": "the Canadian Overnight Repo Rate Average, representing actual overnight bank lending costs.",
-    "why": "at 2.56%, it operates effectively near the policy target."
+    "why": "at 2.55%, it operates effectively near the policy target."
    },
    "2_year_government_of_canada_bond": {
     "now_label": "Pricing in rates",
     "now_tone": "mixed",
     "what": "government borrowing costs for a two-year term.",
-    "why": "at 3.19%, it reflects investor expectations for monetary policy."
+    "why": "at 3.21%, it reflects investor expectations for monetary policy."
    },
    "5_year_government_of_canada_bond": {
     "now_label": "Higher",
@@ -1394,13 +1394,13 @@
     "now_label": "Up over the year",
     "now_tone": "bad",
     "what": "government borrowing costs for a ten-year term.",
-    "why": "at 3.69%, higher long-term yields help cool borrowing independently."
+    "why": "at 3.68%, higher long-term yields help cool borrowing independently."
    },
    "canadian_dollar_us_1_in_c": {
     "now_label": "Weaker loonie",
     "now_tone": "bad",
     "what": "the exchange rate between the Canadian dollar and the U.S. dollar.",
-    "why": "at C$1.4369, a softer loonie makes imported goods dearer, adding slight price pressure."
+    "why": "at C$1.4296, a softer loonie makes imported goods dearer, adding slight price pressure."
    },
    "market_forecasters_expected_boc_rate_p": {
     "now_label": "Stable path",
@@ -1447,6 +1447,23 @@
   },
   "said": [
    {
+    "n": "Canada’s monetary policy framework: A trusted anchor in uncertain waters",
+    "v": "Monetary policy framework speech",
+    "p": "Nov 2026 speech",
+    "r": "2026-11-24",
+    "pv": "Media Availability",
+    "s": "Bank of Canada",
+    "u": "https://www.bankofcanada.ca/2026/11/canadas-monetary-policy-framework-a-trusted-anchor-in-uncertain-waters/",
+    "now": [
+     "now-info",
+     "Framework speech"
+    ],
+    "w": [
+     "What it said: Explores the role of Canada's monetary policy framework as a trusted anchor in uncertain waters.",
+     "Why it matters: Reinforces the central bank's commitment to price stability and transparent policy communication."
+    ]
+   },
+   {
     "n": "Bank of Canada Governor Tiff Macklem to step down in June 2027",
     "v": "Governor Tiff Macklem to step down in June 2027",
     "p": "Nov 2026 announcement",
@@ -1478,23 +1495,6 @@
     "w": [
      "What it said: Discusses the complexities of communicating monetary policy decisions in a turbulent economic environment.",
      "Why it matters: Outlines how the BoC frames its outlook and explains its policy choices to the public."
-    ]
-   },
-   {
-    "n": "Talking about an uncertain future",
-    "v": "Talking about an uncertain future",
-    "p": "Nov 2026 speech",
-    "r": "2026-11-18",
-    "pv": "Setting the scenario",
-    "s": "Bank of Canada",
-    "u": "https://www.bankofcanada.ca/2026/11/talking-about-an-uncertain-future/",
-    "now": [
-     "now-info",
-     "Future uncertainty"
-    ],
-    "w": [
-     "What it said: Explores how central banks address future economic risks and manage expectations.",
-     "Why it matters: Reinforces the central bank's focus on transparency despite elevated economic headwinds."
     ]
    },
    {
@@ -1702,8 +1702,8 @@
     "Oct"
    ],
    "10-yr": [
-    "3.69%",
-    "Nov 20"
+    "3.68%",
+    "Nov 23"
    ]
   },
   "rate_label": "Current BoC rate",
@@ -1808,6 +1808,37 @@
   "Inflation in Canada has been higher than anticipated and is projected to remain around 3% through much of 2027. It then returns close to 2% by the middle of 2028."
  ],
  "changelog": [
+  {
+   "date": "2026-11-24",
+   "date_label": "Nov 24, 2026",
+   "since": "2026-11-23",
+   "since_label": "Nov 23, 2026",
+   "summary": {
+    "headline": "Bond yields edged slightly higher, the Canadian dollar ticked up, and new speeches emphasized the central bank's scenario-based approach and monetary policy framework.",
+    "items": [
+     "<strong>2-year Government of Canada bond</strong> rose from 3.19% to 3.21% (Nov 23).",
+     "<strong>10-year Government of Canada bond</strong> fell slightly from 3.69% to 3.68% (Nov 23).",
+     "<strong>Canadian dollar</strong> moved to C$1.4296 per US$1 (Nov 24), compared with C$1.4369 previously.",
+     "<strong>New official speeches</strong> published on November 24 discussed Canada's monetary policy framework and keeping inflation low and stable in an uncertain world (<a href=\"https://www.bankofcanada.ca/2026/11/canadas-monetary-policy-framework-a-trusted-anchor-in-uncertain-waters/\" target=\"_blank\" rel=\"noopener noreferrer\">BoC</a>)."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Canada’s monetary policy framework: A trusted anchor in uncertain waters",
+     "date": "2026-11-24",
+     "url": "https://www.bankofcanada.ca/2026/11/canadas-monetary-policy-framework-a-trusted-anchor-in-uncertain-waters/"
+    },
+    {
+     "title": "Keeping inflation low and stable in an uncertain world",
+     "date": "2026-11-24",
+     "url": "https://www.bankofcanada.ca/2026/11/keeping-inflation-low-and-stable-in-an-uncertain-world/"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-23",
    "date_label": "Nov 23, 2026",
@@ -2864,6 +2895,16 @@
     "url": "https://www.bankofcanada.ca/multimedia/speech-economic-club-of-canada-2026-11-24/"
    },
    {
+    "title": "Canada’s monetary policy framework: A trusted anchor in uncertain waters",
+    "date": "2026-11-24",
+    "url": "https://www.bankofcanada.ca/2026/11/canadas-monetary-policy-framework-a-trusted-anchor-in-uncertain-waters/"
+   },
+   {
+    "title": "Keeping inflation low and stable in an uncertain world",
+    "date": "2026-11-24",
+    "url": "https://www.bankofcanada.ca/2026/11/keeping-inflation-low-and-stable-in-an-uncertain-world/"
+   },
+   {
     "title": "Speech: Edmonton Chamber of Commerce",
     "date": "2026-11-18",
     "url": "https://www.bankofcanada.ca/multimedia/speech-edmonton-chamber-of-commerce-2026-11-18/"
@@ -2872,16 +2913,6 @@
     "title": "Setting the scenario: Monetary policy communications in uncertain times",
     "date": "2026-11-18",
     "url": "https://www.bankofcanada.ca/2026/11/setting-the-scenario-monetary-policy-communications-in-uncertain-times/"
-   },
-   {
-    "title": "Talking about an uncertain future",
-    "date": "2026-11-18",
-    "url": "https://www.bankofcanada.ca/2026/11/talking-about-an-uncertain-future/"
-   },
-   {
-    "title": "Opening Statement to the Standing Senate Committee on Banking, Commerce and the Economy",
-    "date": "2026-11-05",
-    "url": "https://www.bankofcanada.ca/2026/11/opening-statement-standing-senate-committee-banking-commerce-and-economy-2026-11-05/"
    }
   ],
   "coverage": {
