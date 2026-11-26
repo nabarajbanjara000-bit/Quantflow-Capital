@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-11-24",
- "asof_label": "Nov 24, 2026",
- "generated_at": "2026-11-25T02:38:34.840Z",
- "data_updated_at": "2026-11-25T02:38:34.840Z",
- "narrative_updated_at": "2026-11-25T02:38:34.839Z",
+ "asof_date": "2026-11-25",
+ "asof_label": "Nov 25, 2026",
+ "generated_at": "2026-11-26T01:51:54.866Z",
+ "data_updated_at": "2026-11-26T01:51:54.866Z",
+ "narrative_updated_at": "2026-11-26T01:51:54.866Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -32,7 +32,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 15
+  "days_to_decision": 14
  },
  "kpis": [
   {
@@ -63,7 +63,7 @@
    "label": "10-year bond rate",
    "value": "4.72%",
    "note": "",
-   "period": "Nov 25, 2026",
+   "period": "Nov 26, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield"
   }
@@ -555,15 +555,15 @@
    "name": "90-day bank bill rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/3-month-bill-yield",
-   "value": "3.26%",
-   "period": "Nov 24, 2026",
-   "released": "Detected Nov 24, 2026",
-   "previous": "3.25% (Nov 23, 2026)",
+   "value": "3.27%",
+   "period": "Nov 25, 2026",
+   "released": "Detected Nov 25, 2026",
+   "previous": "3.27% (Nov 24, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-24",
+   "latest_date": "2026-11-25",
    "raw": {
-    "v": 3.26
+    "v": 3.27
    },
    "estimate": false
   },
@@ -574,14 +574,14 @@
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
    "value": "3.83%",
-   "period": "Nov 25, 2026",
-   "released": "Detected Nov 24, 2026",
-   "previous": "3.83% (Nov 24, 2026)",
+   "period": "Nov 26, 2026",
+   "released": "Detected Nov 25, 2026",
+   "previous": "3.83% (Nov 25, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-25",
+   "latest_date": "2026-11-26",
    "raw": {
-    "v": 3.825
+    "v": 3.828
    },
    "estimate": false
   },
@@ -592,14 +592,14 @@
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
    "value": "4.72%",
-   "period": "Nov 25, 2026",
-   "released": "Detected Nov 24, 2026",
-   "previous": "4.74% (Nov 24, 2026)",
+   "period": "Nov 26, 2026",
+   "released": "Detected Nov 25, 2026",
+   "previous": "4.72% (Nov 25, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-25",
+   "latest_date": "2026-11-26",
    "raw": {
-    "v": 4.725
+    "v": 4.719
    },
    "estimate": false
   },
@@ -661,15 +661,15 @@
    "name": "Brent crude oil",
    "source": "U.S. EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "$92.94 a barrel",
-   "period": "Nov 17, 2026",
-   "released": "Nov 18, 2026",
-   "previous": "$92.90 (Nov 16, 2026)",
+   "value": "$91.80 a barrel",
+   "period": "Nov 24, 2026",
+   "released": "Nov 25, 2026",
+   "previous": "$91.20 (Nov 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-17",
+   "latest_date": "2026-11-24",
    "raw": {
-    "v": 92.94
+    "v": 91.8
    },
    "estimate": false
   },
@@ -679,15 +679,15 @@
    "name": "WTI crude oil",
    "source": "U.S. EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-   "value": "$89.53 a barrel",
-   "period": "Nov 17, 2026",
-   "released": "Nov 18, 2026",
-   "previous": "$89.24 (Nov 16, 2026)",
+   "value": "$82.24 a barrel",
+   "period": "Nov 24, 2026",
+   "released": "Nov 25, 2026",
+   "previous": "$81.42 (Nov 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-17",
+   "latest_date": "2026-11-24",
    "raw": {
-    "v": 89.53
+    "v": 82.24
    },
    "estimate": false
   },
@@ -711,12 +711,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 24, 2026",
-   "released": "Nov 24, 2026",
-   "previous": "4.00% (Nov 23, 2026)",
+   "period": "Nov 25, 2026",
+   "released": "Nov 25, 2026",
+   "previous": "4.00% (Nov 24, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-24",
+   "latest_date": "2026-11-25",
    "raw": {
     "v": 4
    },
@@ -795,10 +795,9 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "RBNZ Governor Anna Breman highlighted that inflation remains above target while the recovery is uneven.",
+   "headline": "WTI crude oil eased from $89.53 to $82.24 a barrel.",
    "items": [
-    "<strong>Governor speech</strong> on November 18 outlined that inflation remains above the 2% target mid-point amid an uneven recovery.",
-    "<strong>Payments system modernisation</strong> news on November 24 emphasized the need for retail payment capabilities in a modern economy."
+    "<strong>WTI crude oil</strong> moved from $89.53 a barrel (Nov 17, 2026) down to $82.24 a barrel (Nov 24, 2026), a decrease of -8.1%. This helps ease imported energy pressure."
    ]
   },
   "verdict": {
@@ -840,7 +839,7 @@
    },
    {
     "title": "Reasons the RBNZ might still raise in future",
-    "html": "<ul><li><strong>Oil is far above what the RBNZ assumed.</strong> Its September forecasts assumed Dubai oil of about US$85 a barrel for the September quarter. Brent oil was $92.94 a barrel on November 17. Governor Breman noted that persistent high oil prices risk near-term inflation (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/09/rbnz-leaders-visit-dunedin-to-understand-how-the-local-economy-is-evolving\" target=\"_blank\" rel=\"noopener noreferrer\">RBNZ</a>).</li><li><strong>The Kiwi dollar is weaker than assumed.</strong> The RBNZ assumed a trade-weighted index of 66.9, but it stood at <strong>63.94</strong> on October 14. A weaker currency makes imported fuel and goods dearer.</li><li><strong>The Committee’s balance has tilted.</strong> Four of six members saw upside inflation risk in September.</li><li><strong>Other central banks are braking.</strong> The U.S. Fed rate top is 4.00% and the ECB’s deposit rate is 2.50%.</li></ul>"
+    "html": "<ul><li><strong>Oil is far above what the RBNZ assumed.</strong> Its September forecasts assumed Dubai oil of about US$85 a barrel for the September quarter. Brent oil was $91.80 a barrel on November 24. Governor Breman noted that persistent high oil prices risk near-term inflation (<a href=\"https://www.rbnz.govt.nz/news-and-events/news/2026/09/rbnz-leaders-visit-dunedin-to-understand-how-the-local-economy-is-evolving\" target=\"_blank\" rel=\"noopener noreferrer\">RBNZ</a>).</li><li><strong>The Kiwi dollar is weaker than assumed.</strong> The RBNZ assumed a trade-weighted index of 66.9, but it stood at <strong>63.94</strong> on October 14. A weaker currency makes imported fuel and goods dearer.</li><li><strong>The Committee’s balance has tilted.</strong> Four of six members saw upside inflation risk in September.</li><li><strong>Other central banks are braking.</strong> The U.S. Fed rate top is 4.00% and the ECB’s deposit rate is 2.50%.</li></ul>"
    },
    {
     "title": "Weighing both sides",
@@ -1039,7 +1038,7 @@
     "date_label": "October 27, 2026",
     "title": "RBNZ holds OCR at 2.75%",
     "kind": "now",
-    "what": "The RBNZ held the OCR at 2.75% in its October Monetary Policy Review. The 90-day bank bill rate is 3.26%, the 2-year bond yield 3.83%, and the 10-year 4.72%.",
+    "what": "The RBNZ held the OCR at 2.75% in its October Monetary Policy Review. The 90-day bank bill rate is 3.27%, the 2-year bond yield 3.83%, and the 10-year 4.72%.",
     "sources": [
      {
       "label": "OCR decision",
@@ -1064,7 +1063,7 @@
      "<strong>Softer wording.</strong> September’s “may need to increase further” leaves room to pause."
     ],
     "against": [
-     "<strong>Oil and the currency remain challenging.</strong> Brent is at $92.94 and the trade-weighted index is 63.94.",
+     "<strong>Oil and the currency remain challenging.</strong> Brent is at $91.80 and the trade-weighted index is 63.94.",
      "<strong>Inflation is still above target.</strong> 3.7% is above the 1%–3% band."
     ],
     "everyday": "floating loan and savings rates would stay about where they are for now.",
@@ -1077,7 +1076,7 @@
     "meaning": "the RBNZ presses the brake again to ensure inflation returns decisively to the 2% midpoint.",
     "for": [
      "<strong>Inflation remains above target.</strong> At 3.7%, headline inflation is still above the 1%–3% band.",
-     "<strong>Oil and currency pressures.</strong> Brent oil ($92.94) and a weaker Kiwi dollar (63.94 TWI) continue to push up import costs.",
+     "<strong>Oil and currency pressures.</strong> Brent oil ($91.80) and a weaker Kiwi dollar (63.94 TWI) continue to push up import costs.",
      "<strong>The Committee leans hawkish.</strong> Four of six members saw upside inflation risk in September."
     ],
     "against": [
@@ -1119,7 +1118,7 @@
    },
    "other_title": "Other things that could move our view",
    "other": [
-    "<strong>Oil and the Middle East.</strong> Brent is at $92.94 a barrel. A sustained move back below US$85 would ease inflation fears.",
+    "<strong>Oil and the Middle East.</strong> Brent is at $91.80 a barrel. A sustained move back below US$85 would ease inflation fears.",
     "<strong>The Kiwi dollar.</strong> A further slide below US$0.55 would add to imported inflation.",
     "<strong>Final words from the RBNZ.</strong> Any speech or interview before December is a direct hint.",
     "<strong>Bond markets.</strong> If long rates fall back sharply, the argument for holding strengthens."
@@ -1322,7 +1321,7 @@
     "now_label": "Priced for stability",
     "now_tone": "mixed",
     "what": "three-month bank borrowing rate.",
-    "why": "at 3.26%."
+    "why": "at 3.27%."
    },
    "2_year_government_bond_yield": {
     "now_label": "Above OCR",
@@ -1364,13 +1363,13 @@
     "now_label": "High",
     "now_tone": "bad",
     "what": "world crude benchmark.",
-    "why": "at $92.94 a barrel."
+    "why": "at $91.80 a barrel."
    },
    "wti_crude_oil": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "US crude benchmark.",
-    "why": "at $89.53 a barrel."
+    "why": "at $82.24 a barrel."
    },
    "rbnz_oil_assumption": {
     "now_label": "Below market",
@@ -1527,7 +1526,7 @@
   "gaps": [
    "<strong>Full Stats NZ releases.</strong> For the Q3 CPI and other releases we could read only headline summaries; further details come from RBNZ and Treasury summaries. <em>Why it matters:</em> small details could differ from full official tables.",
    "<strong>Individual core inflation measures and household inflation expectations</strong> were not collected; we have only the RBNZ’s average and description.",
-   "<strong>How we gathered data:</strong> data were gathered via web search and direct page reads on November 24, 2026."
+   "<strong>How we gathered data:</strong> data were gathered via web search and direct page reads on November 25, 2026."
   ],
   "group_intros": {
    "prices": "These numbers tell us how fast things are getting more expensive in New Zealand. The RBNZ’s job is to keep yearly inflation between 1% and 3%, aiming for the 2% midpoint over the medium term. New Zealand measures consumer prices quarterly.",
@@ -1656,7 +1655,7 @@
    ],
    "10-yr": [
     "4.72%",
-    "Nov 25"
+    "Nov 26"
    ]
   },
   "rate_label": "Current OCR",
@@ -1765,6 +1764,33 @@
   "New Zealand needs to establish a pathway to deliver the retail payments capabilities required by a modern economy."
  ],
  "changelog": [
+  {
+   "date": "2026-11-25",
+   "date_label": "Nov 25, 2026",
+   "since": "2026-11-24",
+   "since_label": "Nov 24, 2026",
+   "summary": {
+    "headline": "WTI crude oil eased from $89.53 to $82.24 a barrel.",
+    "items": [
+     "<strong>WTI crude oil</strong> moved from $89.53 a barrel (Nov 17, 2026) down to $82.24 a barrel (Nov 24, 2026), a decrease of -8.1%. This helps ease imported energy pressure."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "wti_crude_oil",
+     "name": "WTI crude oil",
+     "from": "$89.53 a barrel",
+     "from_period": "Nov 17, 2026",
+     "to": "$82.24 a barrel",
+     "to_period": "Nov 24, 2026",
+     "move": "-8.1%"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-24",
    "date_label": "Nov 24, 2026",

@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-11-24",
- "asof_label": "Nov 24, 2026",
- "generated_at": "2026-11-25T02:39:51.710Z",
- "data_updated_at": "2026-11-25T02:39:51.710Z",
- "narrative_updated_at": "2026-11-25T02:39:51.710Z",
+ "asof_date": "2026-11-25",
+ "asof_label": "Nov 25, 2026",
+ "generated_at": "2026-11-26T01:53:03.717Z",
+ "data_updated_at": "2026-11-26T01:53:03.717Z",
+ "narrative_updated_at": "2026-11-26T01:53:03.717Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 14
+  "days_to_decision": 13
  },
  "kpis": [
   {
    "label": "RBA cash rate",
    "value": "4.85%",
    "note": "",
-   "period": "Nov 24, 2026",
+   "period": "Nov 25, 2026",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
   },
@@ -593,12 +593,12 @@
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
    "value": "4.85%",
-   "period": "Nov 24, 2026",
-   "released": "Detected Nov 24, 2026",
+   "period": "Nov 25, 2026",
+   "released": "Detected Nov 25, 2026",
    "previous": "4.60% (Nov 3, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-24",
+   "latest_date": "2026-11-25",
    "raw": {
     "v": 4.85
    },
@@ -695,15 +695,15 @@
    "name": "Australian dollar",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
-   "value": "US$0.6627",
-   "period": "Nov 24, 2026",
-   "released": "Detected Nov 24, 2026",
-   "previous": "US$0.6638 (Nov 23, 2026)",
+   "value": "US$0.6594",
+   "period": "Nov 25, 2026",
+   "released": "Detected Nov 25, 2026",
+   "previous": "US$0.6627 (Nov 24, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-24",
+   "latest_date": "2026-11-25",
    "raw": {
-    "v": 0.6627
+    "v": 0.6594
    },
    "estimate": false,
    "note": "AUD/USD only (the snapshot also quotes the trade-weighted index)"
@@ -727,15 +727,15 @@
    "name": "Oil price (Brent)",
    "source": "U.S. EIA via FRED",
    "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "value": "$92.94 a barrel",
-   "period": "Nov 17, 2026",
-   "released": "Nov 18, 2026",
-   "previous": "$92.90 (Nov 16, 2026)",
+   "value": "$91.80 a barrel",
+   "period": "Nov 24, 2026",
+   "released": "Nov 25, 2026",
+   "previous": "$91.20 (Nov 23, 2026)",
    "tag": "secondary",
    "manual": false,
-   "latest_date": "2026-11-17",
+   "latest_date": "2026-11-24",
    "raw": {
-    "v": 92.94
+    "v": 91.8
    },
    "estimate": false
   },
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 24, 2026",
-   "released": "Nov 24, 2026",
-   "previous": "4.00% (Nov 23, 2026)",
+   "period": "Nov 25, 2026",
+   "released": "Nov 25, 2026",
+   "previous": "4.00% (Nov 24, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-24",
+   "latest_date": "2026-11-25",
    "raw": {
     "v": 4
    },
@@ -873,12 +873,9 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "October inflation jumped to 4.9%, keeping pressure on the RBA ahead of December.",
+   "headline": "Small business conditions weakened as the RBA examined unobservable star variables.",
    "items": [
-    "<strong>Consumer Price Index (CPI)</strong> rose from 4.3% in September to <strong>4.9%</strong> in October.",
-    "<strong>Trimmed mean inflation</strong> increased from 3.6% in September to <strong>3.8%</strong> in October.",
-    "<strong>Automotive fuel prices</strong> surged from 23.6% in September to <strong>32.5%</strong> in October.",
-    "<strong>Electricity prices</strong> jumped from 12.8% in September to <strong>25.2%</strong> in October."
+    "<strong>RBA Bulletin</strong> published articles on small business financial conditions and the uncertainty surrounding unobservable star variables like the neutral rate."
    ]
   },
   "verdict": {
@@ -1174,7 +1171,7 @@
    },
    "other_title": "Other factors influencing our view",
    "other": [
-    "<strong>Oil and energy markets.</strong> Brent oil at $92.94 a barrel keeps pressure on transport and production costs.",
+    "<strong>Oil and energy markets.</strong> Brent oil at $91.80 a barrel keeps pressure on transport and production costs.",
     "<strong>Global central banks.</strong> The U.S. Federal Reserve rate at 4.00% and ECB deposit rate at 2.50% show global monetary policy remains restrictive.",
     "<strong>RBA board split.</strong> The 6–3 vote on November 3 shows differing views on how much further tightening may be needed."
    ]
@@ -1214,7 +1211,7 @@
     "area": "Money markets",
     "grade": "amber",
     "one": "Borrowing costs remain elevated following the November rate hike and firm bond yields.",
-    "look": "10-year government bond rate (5.08%), 2-year government bond rate (4.81%), and the Australian dollar (US$0.6627).",
+    "look": "10-year government bond rate (5.08%), 2-year government bond rate (4.81%), and the Australian dollar (US$0.6594).",
     "why": "Financial conditions are restrictive, helping to cool demand even without immediate additional central bank action.",
     "change": "A disorderly surge in yields or sharp currency depreciation moving conditions to red.",
     "matters": "Higher market rates reinforce monetary policy tightening.",
@@ -1412,7 +1409,7 @@
     "now_label": "Steady",
     "now_tone": "mixed",
     "what": "exchange rate of the Australian dollar against the U.S. dollar.",
-    "why": "stands at US$0.6627 on November 24, helping moderate import price pressures."
+    "why": "stands at US$0.6594 on November 25, helping moderate import price pressures."
    },
    "mortgage_payments_vs_income": {
     "now_label": "Squeezing",
@@ -1424,7 +1421,7 @@
     "now_label": "Very high",
     "now_tone": "bad",
     "what": "world benchmark price of crude oil.",
-    "why": "stands at $92.94 a barrel on November 17, significantly above RBA forecast assumptions."
+    "why": "stands at $91.80 a barrel on November 24, significantly above RBA forecast assumptions."
    },
    "rba_oil_assumption_august": {
     "now_label": "Far too low",
@@ -1804,6 +1801,34 @@
   "At its meeting today, the Board decided to increase the cash rate target by 25 basis points to 4.85 per cent. Inflation remains elevated and recent data indicate that it is broadly based."
  ],
  "changelog": [
+  {
+   "date": "2026-11-25",
+   "date_label": "Nov 25, 2026",
+   "since": "2026-11-24",
+   "since_label": "Nov 24, 2026",
+   "summary": {
+    "headline": "Small business conditions weakened as the RBA examined unobservable star variables.",
+    "items": [
+     "<strong>RBA Bulletin</strong> published articles on small business financial conditions and the uncertainty surrounding unobservable star variables like the neutral rate."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Recent Developments in Small Business Economic and Financial Conditions",
+     "date": "2026-11-26",
+     "url": "https://www.rba.gov.au/publications/bulletin/2026/nov/recent-developments-in-small-business-economic-and-financial-conditions.html"
+    },
+    {
+     "title": "Uncertainty About the Stars",
+     "date": "2026-11-26",
+     "url": "https://www.rba.gov.au/publications/bulletin/2026/nov/uncertainty-about-the-stars.html"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-24",
    "date_label": "Nov 24, 2026",
@@ -2372,6 +2397,16 @@
     "title": "What Happens to the Economy as ‘Intelligence’ Gets Cheaper?",
     "date": "2026-11-08",
     "url": "https://www.rba.gov.au/speeches/2026/sp-sp-ag-2026-11-09.html"
+   },
+   {
+    "title": "Recent Developments in Small Business Economic and Financial Conditions",
+    "date": "2026-11-26",
+    "url": "https://www.rba.gov.au/publications/bulletin/2026/nov/recent-developments-in-small-business-economic-and-financial-conditions.html"
+   },
+   {
+    "title": "Uncertainty About the Stars",
+    "date": "2026-11-26",
+    "url": "https://www.rba.gov.au/publications/bulletin/2026/nov/uncertainty-about-the-stars.html"
    }
   ],
   "coverage": {
