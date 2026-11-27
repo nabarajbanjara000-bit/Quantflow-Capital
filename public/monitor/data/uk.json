@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "uk",
- "asof_date": "2026-11-25",
- "asof_label": "Nov 25, 2026",
- "generated_at": "2026-11-26T01:54:20.018Z",
- "data_updated_at": "2026-11-26T01:54:20.018Z",
- "narrative_updated_at": "2026-11-26T01:54:20.018Z",
+ "asof_date": "2026-11-26",
+ "asof_label": "Nov 26, 2026",
+ "generated_at": "2026-11-27T01:51:19.630Z",
+ "data_updated_at": "2026-11-27T01:51:19.630Z",
+ "narrative_updated_at": "2026-11-27T01:51:19.630Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,14 +39,14 @@
   "calendar_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
   "calendar_label": "Official BoE announcement dates",
   "who": "The Bank of England (“the BoE”), the UK’s central bank. Its interest rate is set by the <strong>Monetary Policy Committee (MPC)</strong>: nine people, led by Governor Andrew Bailey. Five work at the Bank and four are “external” experts from outside. Each member votes, and the Bank publishes every vote by name, so we can see exactly who wanted what.",
-  "days_to_decision": 22
+  "days_to_decision": 21
  },
  "kpis": [
   {
    "label": "Bank of England rate",
    "value": "4.00%",
    "note": "",
-   "period": "Nov 24, 2026",
+   "period": "Nov 25, 2026",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
   },
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year gilt rate",
-   "value": "5.18%",
+   "value": "5.15%",
    "note": "",
-   "period": "Nov 23, 2026",
+   "period": "Nov 24, 2026",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y"
   }
@@ -601,12 +601,12 @@
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
    "value": "4.00%",
-   "period": "Nov 24, 2026",
-   "released": "Detected Nov 25, 2026",
-   "previous": "4.00% (Nov 23, 2026)",
+   "period": "Nov 25, 2026",
+   "released": "Detected Nov 26, 2026",
+   "previous": "4.00% (Nov 24, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-24",
+   "latest_date": "2026-11-25",
    "raw": {
     "v": 4
    },
@@ -618,15 +618,15 @@
    "name": "SONIA (overnight rate between banks)",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "3.985%",
-   "period": "Nov 23, 2026",
-   "released": "Detected Nov 25, 2026",
-   "previous": "3.984% (Nov 20, 2026)",
+   "value": "3.986%",
+   "period": "Nov 24, 2026",
+   "released": "Detected Nov 26, 2026",
+   "previous": "3.985% (Nov 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-23",
+   "latest_date": "2026-11-24",
    "raw": {
-    "v": 3.9847
+    "v": 3.9861
    },
    "estimate": false
   },
@@ -636,15 +636,15 @@
    "name": "10-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "5.18%",
-   "period": "Nov 23, 2026",
-   "released": "Detected Nov 25, 2026",
-   "previous": "5.21% (Nov 20, 2026)",
+   "value": "5.15%",
+   "period": "Nov 24, 2026",
+   "released": "Detected Nov 26, 2026",
+   "previous": "5.18% (Nov 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-23",
+   "latest_date": "2026-11-24",
    "raw": {
-    "v": 5.1793
+    "v": 5.1531
    },
    "estimate": false
   },
@@ -654,15 +654,15 @@
    "name": "5-year gilt yield",
    "source": "Bank of England (nominal par yield)",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "4.86%",
-   "period": "Nov 23, 2026",
-   "released": "Detected Nov 25, 2026",
-   "previous": "4.87% (Nov 20, 2026)",
+   "value": "4.85%",
+   "period": "Nov 24, 2026",
+   "released": "Detected Nov 26, 2026",
+   "previous": "4.86% (Nov 23, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-23",
+   "latest_date": "2026-11-24",
    "raw": {
-    "v": 4.863
+    "v": 4.8494
    },
    "estimate": false
   },
@@ -685,15 +685,15 @@
    "name": "Pound vs U.S. dollar",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDMNPY,IUDSNPY,XUDLUSS,XUDLERS&UsingCodes=Y&VPD=Y",
-   "value": "US$1.3117",
-   "period": "Nov 24, 2026",
-   "released": "Detected Nov 25, 2026",
-   "previous": "US$1.3025 (Nov 23, 2026)",
+   "value": "US$1.3062",
+   "period": "Nov 25, 2026",
+   "released": "Detected Nov 26, 2026",
+   "previous": "US$1.3117 (Nov 24, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-24",
+   "latest_date": "2026-11-25",
    "raw": {
-    "v": 1.3117
+    "v": 1.3062
    },
    "estimate": false
   },
@@ -703,15 +703,15 @@
    "name": "Pound vs euro / trade-weighted index",
    "source": "Bank of England",
    "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?DAT=RNG&FD=1&FM=Sep&FY=2026&TD=14&TM=Oct&TY=2026&html.x=1&SeriesCodes=IUDSOIA,XUDLBK67,IUDBEDR&UsingCodes=Y&VPD=Y",
-   "value": "€1.1956",
-   "period": "Nov 24, 2026",
-   "released": "Detected Nov 25, 2026",
-   "previous": "€1.1951 (Nov 23, 2026)",
+   "value": "€1.1930",
+   "period": "Nov 25, 2026",
+   "released": "Detected Nov 26, 2026",
+   "previous": "€1.1956 (Nov 24, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-24",
+   "latest_date": "2026-11-25",
    "raw": {
-    "v": 1.1956
+    "v": 1.193
    },
    "estimate": false
   },
@@ -797,12 +797,12 @@
    "source": "European Central Bank via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 25, 2026",
-   "released": "Detected Nov 24, 2026",
-   "previous": "2.50% (Nov 24, 2026)",
+   "period": "Nov 27, 2026",
+   "released": "Detected Nov 26, 2026",
+   "previous": "2.50% (Nov 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-25",
+   "latest_date": "2026-11-27",
    "raw": {
     "v": 2.5
    },
@@ -812,10 +812,11 @@
  "releases": [],
  "narrative": {
   "what_changed": {
-   "headline": "No major new monetary policy decisions since the November rate rise; WTI crude oil prices moved from $89.53 to $82.24 a barrel.",
+   "headline": "No major new monetary policy decisions since the November rate rise; WTI crude oil prices moved from $81.42 to $82.24 a barrel and Brent crude moved to $91.80.",
    "items": [
-    "<strong>WTI crude oil</strong> dropped 8.1% from $89.53 to $82.24 a barrel (period Nov 17 to Nov 24, 2026), easing some near-term commodity pressures.",
-    "<strong>Regulators</strong> published new rules on securitisation to support sustainable lending and economic growth while maintaining financial stability safeguards (Nov 25, 2026)."
+    "<strong>WTI crude oil</strong> moved from $81.42 to $82.24 a barrel (period Nov 23 to Nov 24, 2026), while Brent crude held around $91.80 a barrel.",
+    "<strong>Regulators</strong> published the November Financial Stability Report and FPC record, highlighting overall financial system resilience alongside global risks (Nov 26, 2026).",
+    "<strong>Prudential regulators</strong> updated the classification of accounts guide and implemented growth-friendly securitisation reforms (Nov 25–26, 2026)."
    ]
   },
   "verdict": {
@@ -853,7 +854,7 @@
    },
    {
     "title": "Reasons the BoE might hold in December",
-    "html": "<ul><li><strong>Rates just went up.</strong> The MPC increased Bank Rate to 4.00% in November, providing a tighter policy stance to bear down on inflation.</li><li><strong>Pay growth remains moderate overall.</strong> Regular pay growth stands at 3.5% with forward-looking expectations contained at 3.4%.</li><li><strong>Job vacancies are cooling.</strong> Vacancies fell to 690,000 in October, showing some softening in employer demand (<a href=\"https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/november2026\" target=\"_blank\" rel=\"noopener noreferrer\">ONS</a>).</li><li><strong>Markets already pressed the brake.</strong> The 10-year gilt yield is <strong>5.18%</strong>, keeping borrowing conditions restrictive.</li><li><strong>The committee signaled a data-dependent pause.</strong> Policy is not on a pre-set path, and members will assess incoming evidence meeting by meeting.</li></ul>"
+    "html": "<ul><li><strong>Rates just went up.</strong> The MPC increased Bank Rate to 4.00% in November, providing a tighter policy stance to bear down on inflation.</li><li><strong>Pay growth remains moderate overall.</strong> Regular pay growth stands at 3.5% with forward-looking expectations contained at 3.4%.</li><li><strong>Job vacancies are cooling.</strong> Vacancies fell to 690,000 in October, showing some softening in employer demand (<a href=\"https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/november2026\" target=\"_blank\" rel=\"noopener noreferrer\">ONS</a>).</li><li><strong>Markets already pressed the brake.</strong> The 10-year gilt yield is <strong>5.15%</strong>, keeping borrowing conditions restrictive.</li><li><strong>The committee signaled a data-dependent pause.</strong> Policy is not on a pre-set path, and members will assess incoming evidence meeting by meeting.</li></ul>"
    },
    {
     "title": "Reasons the BoE might raise again",
@@ -1032,7 +1033,7 @@
     "for": [
      "<strong>Rates just went up.</strong> Bank Rate was increased to 4.00% in November.",
      "<strong>Pay and jobs remain mixed.</strong> Regular pay growth is 3.5% with cooling vacancies and unemployment at 4.6%.",
-     "<strong>Markets already tightened.</strong> The 10-year gilt rate is 5.18%, keeping borrowing conditions restrictive.",
+     "<strong>Markets already tightened.</strong> The 10-year gilt rate is 5.15%, keeping borrowing conditions restrictive.",
      "<strong>Data-dependent pause.</strong> The MPC indicated it will assess evidence meeting by meeting."
     ],
     "against": [
@@ -1091,7 +1092,7 @@
    "other_title": "Other things that could move our view",
    "other": [
     "<strong>Oil, gas and the Middle East.</strong> Brent crude at $91.80 a barrel continues to drive inflation pressures.",
-    "<strong>Gilt rates and the pound.</strong> 10-year gilt yields at 5.18% reflect tight financial conditions.",
+    "<strong>Gilt rates and the pound.</strong> 10-year gilt yields at 5.15% reflect tight financial conditions.",
     "<strong>Final words from MPC members.</strong> Speeches before December 17 provide policy hints."
    ]
   },
@@ -1129,9 +1130,9 @@
    {
     "area": "Money markets",
     "grade": "red",
-    "one": "Government borrowing costs remain elevated with 10-year gilt yields at 5.18%.",
+    "one": "Government borrowing costs remain elevated with 10-year gilt yields at 5.15%.",
     "look": "Gilt yields, SONIA, sterling exchange rates, and lending conditions.",
-    "why": "10-year gilt yields at 5.18% and 5-year yields at 4.86% keep borrowing conditions tight.",
+    "why": "10-year gilt yields at 5.15% and 5-year yields at 4.85% keep borrowing conditions tight.",
     "change": "Gilt yields settling back toward 5% → yellow.",
     "matters": "Higher market rates slow the economy, doing some of the BoE's tightening work.",
     "change_label": "What would change it"
@@ -1304,19 +1305,19 @@
     "now_label": "On target",
     "now_tone": "good",
     "what": "Sterling Overnight Index Average.",
-    "why": "at 3.985%, reflecting post-hike conditions."
+    "why": "at 3.986%, reflecting post-hike conditions."
    },
    "10_year_gilt_yield": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "yield on 10-year UK government bonds.",
-    "why": "at 5.18%, influencing long-term borrowing costs."
+    "why": "at 5.15%, influencing long-term borrowing costs."
    },
    "5_year_gilt_yield": {
     "now_label": "High",
     "now_tone": "bad",
     "what": "yield on 5-year UK government bonds.",
-    "why": "at 4.86%, keeping medium-term fixes elevated."
+    "why": "at 4.85%, keeping medium-term fixes elevated."
    },
    "market_path_for_bank_rate": {
     "now_label": "Rises priced in",
@@ -1328,13 +1329,13 @@
     "now_label": "Stable",
     "now_tone": "mixed",
     "what": "exchange rate between sterling and the U.S. dollar.",
-    "why": "stands at US$1.3117."
+    "why": "stands at US$1.3062."
    },
    "pound_vs_euro_trade_weighted_index": {
     "now_label": "Stable",
     "now_tone": "mixed",
     "what": "exchange rate between sterling and the euro.",
-    "why": "stands at €1.1956."
+    "why": "stands at €1.1930."
    },
    "boe_government_bond_holdings_qt": {
     "now_label": "Ongoing",
@@ -1514,7 +1515,7 @@
   "gaps": [
    "<strong>Market odds for December.</strong> Official live figures for market-implied rate chances from overnight index swaps were not collected.",
    "<strong>The 2-year gilt rate.</strong> We used the BoE’s 5-year and 10-year yields; a 2-year figure was not collected.",
-   "<strong>How we gathered data:</strong> data was gathered with web search tools on Nov 25, 2026, fetching official pages directly from the BoE and ONS."
+   "<strong>How we gathered data:</strong> data was gathered with web search tools on Nov 26, 2026, fetching official pages directly from the BoE and ONS."
   ],
   "group_intros": {
    "prices": "These numbers show how fast prices are rising. The BoE’s target is 2% a year for CPI. With October CPI at 3.6% and the BoE projecting inflation around 5% next year, the BoE watches closely for second-round effects.",
@@ -1644,8 +1645,8 @@
     "Sep"
    ],
    "10-yr": [
-    "5.18%",
-    "Nov 23"
+    "5.15%",
+    "Nov 24"
    ]
   },
   "rate_label": "Current Bank Rate",
@@ -1759,6 +1760,56 @@
   "the case for further rate increases is not compelling to me unless energy prices remain high for an extended period"
  ],
  "changelog": [
+  {
+   "date": "2026-11-26",
+   "date_label": "Nov 26, 2026",
+   "since": "2026-11-25",
+   "since_label": "Nov 25, 2026",
+   "summary": {
+    "headline": "No major new monetary policy decisions since the November rate rise; WTI crude oil prices moved from $81.42 to $82.24 a barrel and Brent crude moved to $91.80.",
+    "items": [
+     "<strong>WTI crude oil</strong> moved from $81.42 to $82.24 a barrel (period Nov 23 to Nov 24, 2026), while Brent crude held around $91.80 a barrel.",
+     "<strong>Regulators</strong> published the November Financial Stability Report and FPC record, highlighting overall financial system resilience alongside global risks (Nov 26, 2026).",
+     "<strong>Prudential regulators</strong> updated the classification of accounts guide and implemented growth-friendly securitisation reforms (Nov 25–26, 2026)."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "Payments systems Memorandum of Understanding",
+     "date": "2026-11-26",
+     "url": "https://www.bankofengland.co.uk/news/2024/march/payment-systems-memorandum-of-understanding"
+    },
+    {
+     "title": "Statistical Notice 2026/09 - Update to the classification of accounts guide",
+     "date": "2026-11-26",
+     "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-09"
+    },
+    {
+     "title": "Financial Policy Committee Record – November 2026",
+     "date": "2026-11-26",
+     "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/november-2026"
+    },
+    {
+     "title": "Bank of England Weekly Report 25 November 2026",
+     "date": "2026-11-26",
+     "url": "https://www.bankofengland.co.uk/weekly-report/2026/25-november-2026"
+    },
+    {
+     "title": "Financial Stability in Focus: Outcomes of the FPC’s review of the bank capital framework",
+     "date": "2026-11-26",
+     "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-outcomes-of-the-fpcs-review-of-the-bank-capital-framework"
+    },
+    {
+     "title": "Financial Stability Report - November 2026",
+     "date": "2026-11-26",
+     "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-25",
    "date_label": "Nov 25, 2026",
@@ -3062,6 +3113,21 @@
   "ai_errors": [],
   "sources_read": [
    {
+    "title": "Payments systems Memorandum of Understanding",
+    "date": "2026-11-26",
+    "url": "https://www.bankofengland.co.uk/news/2024/march/payment-systems-memorandum-of-understanding"
+   },
+   {
+    "title": "Statistical Notice 2026/09 - Update to the classification of accounts guide",
+    "date": "2026-11-26",
+    "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-09"
+   },
+   {
+    "title": "Financial Policy Committee Record – November 2026",
+    "date": "2026-11-26",
+    "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/november-2026"
+   },
+   {
     "title": "Regulators implement growth-friendly securitisation reforms",
     "date": "2026-11-25",
     "url": "https://www.bankofengland.co.uk/news/2026/november/regulators-implement-growth-friendly-securitisation-reforms"
@@ -3075,21 +3141,6 @@
     "title": "General insurance stress test highlights value of rehearsing crisis response and recovery",
     "date": "2026-11-23",
     "url": "https://www.bankofengland.co.uk/news/2026/november/general-insurance-stress-test-highlights-value-of-rehearsing-crisis-response-and-recovery"
-   },
-   {
-    "title": "Cyber resilience guidance consultation and AI and quantum effective practices",
-    "date": "2026-11-19",
-    "url": "https://www.bankofengland.co.uk/news/2026/november/cyber-resilience-guidance-consultation-and-ai-and-quantum-effective-practices"
-   },
-   {
-    "title": "Minutes of the Market Participants Group meeting – 18 November 2026",
-    "date": "2026-11-19",
-    "url": "https://www.bankofengland.co.uk/minutes/2026/november/market-participants-group-meeting-18-november-2026"
-   },
-   {
-    "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
-    "date": "2026-11-13",
-    "url": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release"
    },
    {
     "title": "The UK’s regional growth: unlocking the economy’s full potential - speech by Andrew Bailey",
@@ -3122,6 +3173,21 @@
     "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series"
    },
    {
+    "title": "Bank of England Weekly Report 25 November 2026",
+    "date": "2026-11-26",
+    "url": "https://www.bankofengland.co.uk/weekly-report/2026/25-november-2026"
+   },
+   {
+    "title": "Financial Stability in Focus: Outcomes of the FPC’s review of the bank capital framework",
+    "date": "2026-11-26",
+    "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-outcomes-of-the-fpcs-review-of-the-bank-capital-framework"
+   },
+   {
+    "title": "Financial Stability Report - November 2026",
+    "date": "2026-11-26",
+    "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026"
+   },
+   {
     "title": "When vacancies become cheap: vacancy posting costs and equilibrium labour market tightness",
     "date": "2026-11-20",
     "url": "https://www.bankofengland.co.uk/working-paper/2026/when-vacancies-become-cheap-vacancy-posting-costs-and-equilibrium-labour-market-tightness"
@@ -3135,21 +3201,6 @@
     "title": "Eleventh edition of the Regulatory Initiatives Grid",
     "date": "2026-11-17",
     "url": "https://www.bankofengland.co.uk/report/regulatory-initiatives-grid"
-   },
-   {
-    "title": "Near-final statement of policy: The Bank of England’s approach to tiering non-UK CCPs",
-    "date": "2026-11-16",
-    "url": "https://www.bankofengland.co.uk/paper/2026/sop/near-final-statement-of-policy-the-boes-approach-to-tiering-non-uk-ccps"
-   },
-   {
-    "title": "Near-final supervisory statement on CCP margin",
-    "date": "2026-11-16",
-    "url": "https://www.bankofengland.co.uk/paper/2026/ss/near-final-supervisory-statement-on-ccp-margin"
-   },
-   {
-    "title": "The impact of default waterfall positioning on pro-rata second skin-in-the-game requirements for central counterparties",
-    "date": "2026-11-16",
-    "url": "https://www.bankofengland.co.uk/paper/2026/the-impact-of-default-waterfall-positioning-on-pro-rata-second-ssitg-requirements-for-ccp"
    }
   ],
   "coverage": {

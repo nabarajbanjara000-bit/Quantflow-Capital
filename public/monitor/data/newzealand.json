@@ -1,10 +1,10 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-11-25",
- "asof_label": "Nov 25, 2026",
- "generated_at": "2026-11-26T01:51:54.866Z",
- "data_updated_at": "2026-11-26T01:51:54.866Z",
+ "asof_date": "2026-11-26",
+ "asof_label": "Nov 26, 2026",
+ "generated_at": "2026-11-27T01:48:18.200Z",
+ "data_updated_at": "2026-11-27T01:48:18.200Z",
  "narrative_updated_at": "2026-11-26T01:51:54.866Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
@@ -32,7 +32,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 14
+  "days_to_decision": 13
  },
  "kpis": [
   {
@@ -61,9 +61,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "4.72%",
+   "value": "4.70%",
    "note": "",
-   "period": "Nov 26, 2026",
+   "period": "Nov 27, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield"
   }
@@ -556,12 +556,12 @@
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/3-month-bill-yield",
    "value": "3.27%",
-   "period": "Nov 25, 2026",
-   "released": "Detected Nov 25, 2026",
-   "previous": "3.27% (Nov 24, 2026)",
+   "period": "Nov 26, 2026",
+   "released": "Detected Nov 26, 2026",
+   "previous": "3.26% (Nov 25, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-25",
+   "latest_date": "2026-11-26",
    "raw": {
     "v": 3.27
    },
@@ -573,15 +573,15 @@
    "name": "2-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
-   "value": "3.83%",
-   "period": "Nov 26, 2026",
-   "released": "Detected Nov 25, 2026",
-   "previous": "3.83% (Nov 25, 2026)",
+   "value": "3.82%",
+   "period": "Nov 27, 2026",
+   "released": "Detected Nov 26, 2026",
+   "previous": "3.82% (Nov 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-26",
+   "latest_date": "2026-11-27",
    "raw": {
-    "v": 3.828
+    "v": 3.818
    },
    "estimate": false
   },
@@ -591,15 +591,15 @@
    "name": "10-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
-   "value": "4.72%",
-   "period": "Nov 26, 2026",
-   "released": "Detected Nov 25, 2026",
-   "previous": "4.72% (Nov 25, 2026)",
+   "value": "4.70%",
+   "period": "Nov 27, 2026",
+   "released": "Detected Nov 26, 2026",
+   "previous": "4.71% (Nov 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-26",
+   "latest_date": "2026-11-27",
    "raw": {
-    "v": 4.719
+    "v": 4.695
    },
    "estimate": false
   },
@@ -711,12 +711,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 25, 2026",
-   "released": "Nov 25, 2026",
-   "previous": "4.00% (Nov 24, 2026)",
+   "period": "Nov 26, 2026",
+   "released": "Nov 26, 2026",
+   "previous": "4.00% (Nov 25, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-25",
+   "latest_date": "2026-11-26",
    "raw": {
     "v": 4
    },
@@ -729,12 +729,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 25, 2026",
-   "released": "Detected Nov 24, 2026",
-   "previous": "2.50% (Nov 24, 2026)",
+   "period": "Nov 27, 2026",
+   "released": "Detected Nov 26, 2026",
+   "previous": "2.50% (Nov 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-25",
+   "latest_date": "2026-11-27",
    "raw": {
     "v": 2.5
    },
@@ -795,10 +795,8 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "WTI crude oil eased from $89.53 to $82.24 a barrel.",
-   "items": [
-    "<strong>WTI crude oil</strong> moved from $89.53 a barrel (Nov 17, 2026) down to $82.24 a barrel (Nov 24, 2026), a decrease of -8.1%. This helps ease imported energy pressure."
-   ]
+   "headline": "No important new data since the last update.",
+   "items": []
   },
   "verdict": {
    "most_likely": "hold",
@@ -1654,8 +1652,8 @@
     "Q3"
    ],
    "10-yr": [
-    "4.72%",
-    "Nov 26"
+    "4.70%",
+    "Nov 27"
    ]
   },
   "rate_label": "Current OCR",
@@ -2570,6 +2568,6 @@
    "automatic": 18,
    "manual": 21
   },
-  "ai_ran": true
+  "ai_ran": false
  }
 }
