@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "australia",
- "asof_date": "2026-11-26",
- "asof_label": "Nov 26, 2026",
- "generated_at": "2026-11-27T01:48:45.791Z",
- "data_updated_at": "2026-11-27T01:48:45.791Z",
- "narrative_updated_at": "2026-11-26T01:53:03.717Z",
+ "asof_date": "2026-11-27",
+ "asof_label": "Nov 27, 2026",
+ "generated_at": "2026-11-28T01:33:27.406Z",
+ "data_updated_at": "2026-11-28T01:33:27.406Z",
+ "narrative_updated_at": "2026-11-28T01:33:27.406Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.rba.gov.au/schedules-events/board-meeting-schedules.html",
   "calendar_label": "Official RBA meeting schedule",
   "who": "The Reserve Bank of Australia (“the RBA”), Australia’s central bank. Since 2025 its rate decisions are made by a nine-member Monetary Policy Board, chaired by Governor Michele Bullock. Members vote. The RBA publishes how many voted each way, but not who voted which way (an “unattributed” vote).",
-  "days_to_decision": 12
+  "days_to_decision": 11
  },
  "kpis": [
   {
@@ -68,9 +68,9 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "5.08%",
+   "value": "4.82%",
    "note": "",
-   "period": "Nov 18, 2026",
+   "period": "Nov 25, 2026",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield"
   }
@@ -623,15 +623,15 @@
    "name": "10-year government bond rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield",
-   "value": "5.08%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 20, 2026",
-   "previous": "5.13% (Nov 17, 2026)",
+   "value": "4.82%",
+   "period": "Nov 25, 2026",
+   "released": "Detected Nov 27, 2026",
+   "previous": "4.85% (Nov 24, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-25",
    "raw": {
-    "v": 5.08
+    "v": 4.823
    },
    "estimate": false
   },
@@ -641,15 +641,15 @@
    "name": "2-year government bond rate",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/australia/government-bond-yield",
-   "value": "4.81%",
-   "period": "Nov 18, 2026",
-   "released": "Detected Nov 20, 2026",
-   "previous": "4.86% (Nov 17, 2026)",
+   "value": "4.59%",
+   "period": "Nov 25, 2026",
+   "released": "Detected Nov 27, 2026",
+   "previous": "4.58% (Nov 24, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-18",
+   "latest_date": "2026-11-25",
    "raw": {
-    "v": 4.813
+    "v": 4.586
    },
    "estimate": false
   },
@@ -695,15 +695,15 @@
    "name": "Australian dollar",
    "source": "Reserve Bank of Australia",
    "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
-   "value": "US$0.6644",
-   "period": "Nov 26, 2026",
-   "released": "Detected Nov 26, 2026",
-   "previous": "US$0.6594 (Nov 25, 2026)",
+   "value": "US$0.6661",
+   "period": "Nov 27, 2026",
+   "released": "Detected Nov 27, 2026",
+   "previous": "US$0.6644 (Nov 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-26",
+   "latest_date": "2026-11-27",
    "raw": {
-    "v": 0.6644
+    "v": 0.6661
    },
    "estimate": false,
    "note": "AUD/USD only (the snapshot also quotes the trade-weighted index)"
@@ -759,12 +759,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 26, 2026",
-   "released": "Nov 26, 2026",
-   "previous": "4.00% (Nov 25, 2026)",
+   "period": "Nov 27, 2026",
+   "released": "Nov 27, 2026",
+   "previous": "4.00% (Nov 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-26",
+   "latest_date": "2026-11-27",
    "raw": {
     "v": 4
    },
@@ -861,8 +861,11 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "Bond yields eased while the RBA cash rate target held at 4.85%.",
+   "items": [
+    "<strong>10-year government bond rate</strong> fell from 5.08% to 4.82% (Nov 25), reflecting shifting market pricing.",
+    "<strong>2-year government bond rate</strong> moved from 4.81% to 4.59% (Nov 25)."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -1134,25 +1137,25 @@
    "intro_title": "Why upcoming reports matter",
    "intro": "The RBA reviews all available data before each decision. Reports released in November and December directly shape the upcoming verdict for the December meeting.",
    "reports": {
-    "household_spending_indicator": {
+    "household_spending_indicator_2": {
      "why": "Provides monthly insight into consumer demand following the November rate rise.",
      "trigger": "A sharp drop in spending confirms monetary policy is cooling demand."
     },
-    "wage_price_index": {
-     "why": "Measures whether pay growth is feeding into broader inflation pressures.",
-     "trigger": "An unexpected jump in wages would reinforce hawkish concerns."
+    "national_accounts_gdp": {
+     "why": "Measures real economic growth for the September quarter.",
+     "trigger": "Weaker GDP growth confirms economic deceleration."
     },
     "labour_force_3": {
      "why": "Tracks the latest unemployment rate and job creation.",
      "trigger": "A rising unemployment rate supports holding rates steady."
     },
-    "consumer_price_index_2": {
+    "minutes_of_the_dec_7_8_meeting": {
+     "why": "Reveals the discussion and voting split behind the December decision.",
+     "trigger": "A unanimous hold versus a split vote signals future policy direction."
+    },
+    "consumer_price_index_3": {
      "why": "Shows the monthly trajectory of inflation after October's 4.9% reading.",
      "trigger": "Continued high inflation would keep rate rises on the table for early 2027."
-    },
-    "national_accounts_gdp": {
-     "why": "Measures real economic growth for the September quarter.",
-     "trigger": "Weaker GDP growth confirms economic deceleration."
     }
    },
    "other_title": "Other factors influencing our view",
@@ -1197,7 +1200,7 @@
     "area": "Money markets",
     "grade": "amber",
     "one": "Borrowing costs remain elevated following the November rate hike and firm bond yields.",
-    "look": "10-year government bond rate (5.08%), 2-year government bond rate (4.81%), and the Australian dollar (US$0.6594).",
+    "look": "10-year government bond rate (4.82%), 2-year government bond rate (4.59%), and the Australian dollar (US$0.6661).",
     "why": "Financial conditions are restrictive, helping to cool demand even without immediate additional central bank action.",
     "change": "A disorderly surge in yields or sharp currency depreciation moving conditions to red.",
     "matters": "Higher market rates reinforce monetary policy tightening.",
@@ -1371,13 +1374,13 @@
     "now_label": "High",
     "now_tone": "bad",
     "what": "interest rate paid on 10-year Australian government debt.",
-    "why": "stands at 5.08% on Nov 18, keeping long-term borrowing costs elevated."
+    "why": "stands at 4.82% on Nov 25, keeping long-term borrowing costs elevated."
    },
    "2_year_government_bond_rate": {
     "now_label": "Above cash rate",
     "now_tone": "mixed",
     "what": "interest rate on 2-year government bonds.",
-    "why": "stands at 4.81% on Nov 18, reflecting expectations of firm monetary policy."
+    "why": "stands at 4.59% on Nov 25, reflecting expectations of firm monetary policy."
    },
    "10_year_bond_rate_monthly_average": {
     "now_label": "High",
@@ -1395,7 +1398,7 @@
     "now_label": "Steady",
     "now_tone": "mixed",
     "what": "exchange rate of the Australian dollar against the U.S. dollar.",
-    "why": "stands at US$0.6594 on November 25, helping moderate import price pressures."
+    "why": "stands at US$0.6661 on November 27, helping moderate import price pressures."
    },
    "mortgage_payments_vs_income": {
     "now_label": "Squeezing",
@@ -1540,7 +1543,7 @@
   ],
   "gaps": [
    "<strong>Market odds specifically for December.</strong> Official market pricing reflects expectations out to year-end and early 2027, but exact daily probabilities for the December meeting alone are estimated.",
-   "<strong>Daily government bond yields.</strong> Current 10-year (5.08%) and 2-year (4.81%) yields are drawn from secondary financial market data sources rather than direct RBA tables.",
+   "<strong>Daily government bond yields.</strong> Current 10-year (4.82%) and 2-year (4.59%) yields are drawn from secondary financial market data sources rather than direct RBA tables.",
    "<strong>Detailed survey breakdowns of inflation expectations.</strong> While the RBA notes short-term expectations remain elevated, detailed household and business survey datasets were not fully collected."
   ],
   "group_intros": {
@@ -1665,8 +1668,8 @@
     "Oct"
    ],
    "10-yr": [
-    "5.08%",
-    "Nov 18"
+    "4.82%",
+    "Nov 25"
    ]
   },
   "rate_label": "Current RBA cash rate",
@@ -1787,6 +1790,43 @@
   "At its meeting today, the Board decided to increase the cash rate target by 25 basis points to 4.85 per cent. Inflation remains elevated and recent data indicate that it is broadly based."
  ],
  "changelog": [
+  {
+   "date": "2026-11-27",
+   "date_label": "Nov 27, 2026",
+   "since": "2026-11-26",
+   "since_label": "Nov 26, 2026",
+   "summary": {
+    "headline": "Bond yields eased while the RBA cash rate target held at 4.85%.",
+    "items": [
+     "<strong>10-year government bond rate</strong> fell from 5.08% to 4.82% (Nov 25), reflecting shifting market pricing.",
+     "<strong>2-year government bond rate</strong> moved from 4.81% to 4.59% (Nov 25)."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "10_year_government_bond_rate",
+     "name": "10-year government bond rate",
+     "from": "5.08%",
+     "from_period": "Nov 18, 2026",
+     "to": "4.82%",
+     "to_period": "Nov 25, 2026",
+     "move": "−0.26 pts"
+    },
+    {
+     "id": "2_year_government_bond_rate",
+     "name": "2-year government bond rate",
+     "from": "4.81%",
+     "from_period": "Nov 18, 2026",
+     "to": "4.59%",
+     "to_period": "Nov 25, 2026",
+     "move": "−0.22 pts"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-25",
    "date_label": "Nov 25, 2026",
@@ -2399,6 +2439,6 @@
    "automatic": 25,
    "manual": 13
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }

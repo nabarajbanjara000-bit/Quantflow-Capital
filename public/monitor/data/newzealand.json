@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "newzealand",
- "asof_date": "2026-11-26",
- "asof_label": "Nov 26, 2026",
- "generated_at": "2026-11-27T01:48:18.200Z",
- "data_updated_at": "2026-11-27T01:48:18.200Z",
- "narrative_updated_at": "2026-11-26T01:51:54.866Z",
+ "asof_date": "2026-11-27",
+ "asof_label": "Nov 27, 2026",
+ "generated_at": "2026-11-28T01:32:31.046Z",
+ "data_updated_at": "2026-11-28T01:32:31.046Z",
+ "narrative_updated_at": "2026-11-28T01:32:31.046Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -32,7 +32,7 @@
   "calendar_url": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/the-official-cash-rate",
   "calendar_label": "Official RBNZ OCR page with upcoming dates",
   "who": "The Reserve Bank of New Zealand (“the RBNZ”, often called “the Reserve Bank”), New Zealand’s central bank. Its interest rate decisions are made by the Monetary Policy Committee (MPC), chaired by Governor Anna Breman. The MPC tries to agree as a group (by “consensus”). When it cannot, it votes, and since May 2026 each member’s vote is published by name. From October 15 the Committee gains a seventh member, Rebecca Williams.",
-  "days_to_decision": 13
+  "days_to_decision": 12
  },
  "kpis": [
   {
@@ -61,7 +61,7 @@
   },
   {
    "label": "10-year bond rate",
-   "value": "4.70%",
+   "value": "4.73%",
    "note": "",
    "period": "Nov 27, 2026",
    "source": "Trading Economics (market data)",
@@ -556,12 +556,12 @@
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/3-month-bill-yield",
    "value": "3.27%",
-   "period": "Nov 26, 2026",
-   "released": "Detected Nov 26, 2026",
-   "previous": "3.26% (Nov 25, 2026)",
+   "period": "Nov 27, 2026",
+   "released": "Detected Nov 27, 2026",
+   "previous": "3.27% (Nov 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-26",
+   "latest_date": "2026-11-27",
    "raw": {
     "v": 3.27
    },
@@ -573,15 +573,15 @@
    "name": "2-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/2-year-note-yield",
-   "value": "3.82%",
+   "value": "3.88%",
    "period": "Nov 27, 2026",
    "released": "Detected Nov 26, 2026",
-   "previous": "3.82% (Nov 26, 2026)",
+   "previous": "3.81% (Nov 26, 2026)",
    "tag": "official",
    "manual": false,
    "latest_date": "2026-11-27",
    "raw": {
-    "v": 3.818
+    "v": 3.875
    },
    "estimate": false
   },
@@ -591,7 +591,7 @@
    "name": "10-year government bond yield",
    "source": "Trading Economics (market data)",
    "url": "https://tradingeconomics.com/new-zealand/government-bond-yield",
-   "value": "4.70%",
+   "value": "4.73%",
    "period": "Nov 27, 2026",
    "released": "Detected Nov 26, 2026",
    "previous": "4.71% (Nov 26, 2026)",
@@ -599,7 +599,7 @@
    "manual": false,
    "latest_date": "2026-11-27",
    "raw": {
-    "v": 4.695
+    "v": 4.728
    },
    "estimate": false
   },
@@ -711,12 +711,12 @@
    "source": "Federal Reserve via FRED",
    "url": "https://fred.stlouisfed.org/series/DFEDTARU",
    "value": "4.00%",
-   "period": "Nov 26, 2026",
-   "released": "Nov 26, 2026",
-   "previous": "4.00% (Nov 25, 2026)",
+   "period": "Nov 27, 2026",
+   "released": "Nov 27, 2026",
+   "previous": "4.00% (Nov 26, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-26",
+   "latest_date": "2026-11-27",
    "raw": {
     "v": 4
    },
@@ -729,12 +729,12 @@
    "source": "ECB via FRED",
    "url": "https://fred.stlouisfed.org/series/ECBDFR",
    "value": "2.50%",
-   "period": "Nov 27, 2026",
-   "released": "Detected Nov 26, 2026",
-   "previous": "2.50% (Nov 26, 2026)",
+   "period": "Nov 28, 2026",
+   "released": "Detected Nov 27, 2026",
+   "previous": "2.50% (Nov 27, 2026)",
    "tag": "official",
    "manual": false,
-   "latest_date": "2026-11-27",
+   "latest_date": "2026-11-28",
    "raw": {
     "v": 2.5
    },
@@ -795,8 +795,11 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "No important new data since the last update.",
-   "items": []
+   "headline": "No important new economic data since the last update; 2-year bond yields edged up to 3.88%.",
+   "items": [
+    "<strong>2-year government bond yield</strong> ticked up slightly from 3.82% to 3.88% (November 27). ...",
+    "No official statements or central bank rate decisions have been issued since the last update."
+   ]
   },
   "verdict": {
    "most_likely": "hold",
@@ -1036,7 +1039,7 @@
     "date_label": "October 27, 2026",
     "title": "RBNZ holds OCR at 2.75%",
     "kind": "now",
-    "what": "The RBNZ held the OCR at 2.75% in its October Monetary Policy Review. The 90-day bank bill rate is 3.27%, the 2-year bond yield 3.83%, and the 10-year 4.72%.",
+    "what": "The RBNZ held the OCR at 2.75% in its October Monetary Policy Review. The 90-day bank bill rate is 3.27%, the 2-year bond yield 3.88%, and the 10-year 4.72%.",
     "sources": [
      {
       "label": "OCR decision",
@@ -1325,7 +1328,7 @@
     "now_label": "Above OCR",
     "now_tone": "bad",
     "what": "government two-year borrowing cost.",
-    "why": "at 3.83%."
+    "why": "at 3.88%."
    },
    "10_year_government_bond_yield": {
     "now_label": "Near 5%",
@@ -1493,7 +1496,7 @@
     "r": "2026-11-05",
     "pv": "Prior disclosure reviews",
     "s": "Reserve Bank of New Zealand",
-    "u": "https://www.rbnz.govt.nz/news-and-events/news/2026/11/reserve-bank-files-dcs-charge-against-westpac-new-zealand-limited",
+    "u": "https://www.rbnz.govt.nz/news-and-events/news/2026/11/reserve-bank-files-dcs-disclosure-charge-against-westpac-new-zealand-limited",
     "now": [
      "now-info",
      "Legal charge"
@@ -1524,7 +1527,7 @@
   "gaps": [
    "<strong>Full Stats NZ releases.</strong> For the Q3 CPI and other releases we could read only headline summaries; further details come from RBNZ and Treasury summaries. <em>Why it matters:</em> small details could differ from full official tables.",
    "<strong>Individual core inflation measures and household inflation expectations</strong> were not collected; we have only the RBNZ’s average and description.",
-   "<strong>How we gathered data:</strong> data were gathered via web search and direct page reads on November 25, 2026."
+   "<strong>How we gathered data:</strong> data were gathered via web search and direct page reads on November 27, 2026."
   ],
   "group_intros": {
    "prices": "These numbers tell us how fast things are getting more expensive in New Zealand. The RBNZ’s job is to keep yearly inflation between 1% and 3%, aiming for the 2% midpoint over the medium term. New Zealand measures consumer prices quarterly.",
@@ -1652,7 +1655,7 @@
     "Q3"
    ],
    "10-yr": [
-    "4.70%",
+    "4.73%",
     "Nov 27"
    ]
   },
@@ -1762,6 +1765,34 @@
   "New Zealand needs to establish a pathway to deliver the retail payments capabilities required by a modern economy."
  ],
  "changelog": [
+  {
+   "date": "2026-11-27",
+   "date_label": "Nov 27, 2026",
+   "since": "2026-11-26",
+   "since_label": "Nov 26, 2026",
+   "summary": {
+    "headline": "No important new economic data since the last update; 2-year bond yields edged up to 3.88%.",
+    "items": [
+     "<strong>2-year government bond yield</strong> ticked up slightly from 3.82% to 3.88% (November 27). ...",
+     "No official statements or central bank rate decisions have been issued since the last update."
+    ]
+   },
+   "data": [],
+   "market": [
+    {
+     "id": "2_year_government_bond_yield",
+     "name": "2-year government bond yield",
+     "from": "3.82%",
+     "from_period": "Nov 27, 2026",
+     "to": "3.88%",
+     "to_period": "Nov 27, 2026",
+     "move": "+0.06 pts"
+    }
+   ],
+   "fed": [],
+   "verdict": null,
+   "ai_written": true
+  },
   {
    "date": "2026-11-25",
    "date_label": "Nov 25, 2026",
@@ -2568,6 +2599,6 @@
    "automatic": 18,
    "manual": 21
   },
-  "ai_ran": false
+  "ai_ran": true
  }
 }

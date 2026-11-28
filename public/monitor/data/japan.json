@@ -1,11 +1,11 @@
 {
  "schema": 2,
  "code": "japan",
- "asof_date": "2026-11-26",
- "asof_label": "Nov 26, 2026",
- "generated_at": "2026-11-27T01:46:20.658Z",
- "data_updated_at": "2026-11-27T01:46:20.658Z",
- "narrative_updated_at": "2026-11-27T01:46:20.658Z",
+ "asof_date": "2026-11-27",
+ "asof_label": "Nov 27, 2026",
+ "generated_at": "2026-11-28T01:30:03.764Z",
+ "data_updated_at": "2026-11-28T01:30:03.764Z",
+ "narrative_updated_at": "2026-11-28T01:30:03.764Z",
  "narrative_stale": false,
  "narrative_model": "Google Gemini (gemini-3.5-flash-lite)",
  "country": {
@@ -39,7 +39,7 @@
   "calendar_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "calendar_label": "Official BoJ meeting schedule",
   "who": "The Bank of Japan (“the BoJ”), Japan's central bank. Its 9-person voting group is called the Policy Board: Governor Ueda Kazuo, two Deputy Governors (Himino Ryozo and Uchida Shinichi) and six other members.",
-  "days_to_decision": 22
+  "days_to_decision": 21
  },
  "kpis": [
   {
@@ -942,11 +942,11 @@
  ],
  "narrative": {
   "what_changed": {
-   "headline": "Tokyo consumer price inflation picked up in November, and Executive Director Kamiyama delivered a speech in Tokyo.",
+   "headline": "National consumer price inflation reached 2.3% in October, and the Statistics Bureau released November Tokyo inflation data.",
    "items": [
-    "<strong>Tokyo core CPI (without fresh food)</strong> rose from 2.6% to 2.9% (November).",
-    "<strong>Tokyo CPI without fresh food and energy</strong> moved from 2.6% to 2.5% (November).",
-    "<strong>Executive Director Kamiyama</strong> delivered a keynote speech at the IMF MCM-OAP Seminar in Tokyo (Nov 27)."
+    "<strong>Consumer Price Index (CPI), all items</strong> rose to 2.3% in October (up from 2.1% in September).",
+    "<strong>Core CPI (without fresh food)</strong> rose to 2.2% in October (up from 2.1% in September).",
+    "<strong>Tokyo core CPI (without fresh food)</strong> rose to 2.9% in November (up from 2.6% in October)."
    ]
   },
   "verdict": {
@@ -1925,6 +1925,31 @@
  ],
  "changelog": [
   {
+   "date": "2026-11-27",
+   "date_label": "Nov 27, 2026",
+   "since": "2026-11-26",
+   "since_label": "Nov 26, 2026",
+   "summary": {
+    "headline": "National consumer price inflation reached 2.3% in October, and the Statistics Bureau released November Tokyo inflation data.",
+    "items": [
+     "<strong>Consumer Price Index (CPI), all items</strong> rose to 2.3% in October (up from 2.1% in September).",
+     "<strong>Core CPI (without fresh food)</strong> rose to 2.2% in October (up from 2.1% in September).",
+     "<strong>Tokyo core CPI (without fresh food)</strong> rose to 2.9% in November (up from 2.6% in October)."
+    ]
+   },
+   "data": [],
+   "market": [],
+   "fed": [
+    {
+     "title": "(BOJ Review) Developments in JGB Market-Making Business by Securities Companies",
+     "date": "2026-11-27",
+     "url": "http://www.boj.or.jp/en/research/wps_rev/rev_2026/rev26e14.htm"
+    }
+   ],
+   "verdict": null,
+   "ai_written": true
+  },
+  {
    "date": "2026-11-26",
    "date_label": "Nov 26, 2026",
    "since": "2026-11-25",
@@ -2898,6 +2923,11 @@
   "ai_errors": [],
   "sources_read": [
    {
+    "title": "(BOJ Review) Developments in JGB Market-Making Business by Securities Companies",
+    "date": "2026-11-27",
+    "url": "http://www.boj.or.jp/en/research/wps_rev/rev_2026/rev26e14.htm"
+   },
+   {
     "title": "Keynote speech by Executive Director KAMIYAMA at the IMF MCM-OAP Seminar in Tokyo (Digital Money and Payments: Transitioning Toward a New Paradigm)",
     "date": "2026-11-27",
     "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261127a.htm"
@@ -2921,11 +2951,6 @@
     "title": "Bank of Japan Accounts (November 20)",
     "date": "2026-11-25",
     "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac261120.htm"
-   },
-   {
-    "title": "Average Contract Interest Rates on Loans and Discounts (Sept.)",
-    "date": "2026-11-24",
-    "url": "http://www.boj.or.jp/en/statistics/dl/loan/yaku/yaku2609.pdf"
    }
   ],
   "coverage": {

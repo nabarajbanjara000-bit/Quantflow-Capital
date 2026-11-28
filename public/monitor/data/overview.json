@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-27T01:51:23.431Z",
- "asof_label": "Nov 26, 2026",
+ "generated_at": "2026-11-28T01:34:29.801Z",
+ "asof_label": "Nov 27, 2026",
  "headline": "Hold at 8 of 8",
- "paragraph": "Quant Flow Capital reviews the current stances of eight central banks as policymakers finish their meetings for the year. All eight institutions are broadly expected to hold their interest rates steady this month while they continue to assess incoming economic data. Among them, Switzerland stands out with its rate sitting at 0.00% while the others maintain higher policy rates.",
+ "paragraph": "Quant Flow Capital tracks eight global central banks as they head toward their December policy decisions. All eight institutions are widely expected to hold their current interest rates steady amid ongoing economic data. Among them, Switzerland stands out with its policy rate sitting at 0.00% while the others maintain higher borrowing costs.",
  "window": [
   "2026-12-08",
   "2026-12-18"
@@ -27,8 +27,8 @@
      "Oct"
     ],
     "10-yr": [
-     "5.08%",
-     "Nov 18"
+     "4.82%",
+     "Nov 25"
     ]
    },
    "call": "hold",
@@ -43,7 +43,7 @@
    "next_label": "Tue Dec 8",
    "time_label": "2:30 p.m. Australian Eastern Daylight Time (Sydney), when the RBA publishes its statement. That is 03:30 GMT on Dec 8, or 10:30 p.m. U.S. Eastern Time on Monday, Dec 7. The Governor then holds a media conference.",
    "stale": false,
-   "asof": "Nov 26, 2026",
+   "asof": "Nov 27, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 13
@@ -68,8 +68,8 @@
      "Oct"
     ],
     "10-yr": [
-     "4.85%",
-     "Nov 25"
+     "4.94%",
+     "Nov 27"
     ]
    },
    "call": "hold",
@@ -84,7 +84,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. ET",
    "stale": false,
-   "asof": "Nov 26, 2026",
+   "asof": "Nov 27, 2026",
    "coverage": {
     "automatic": 33,
     "manual": 2
@@ -109,8 +109,8 @@
      "Oct"
     ],
     "10-yr": [
-     "3.65%",
-     "Nov 25"
+     "3.64%",
+     "Nov 26"
     ]
    },
    "call": "hold",
@@ -125,7 +125,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "9:45 a.m. Eastern Time",
    "stale": false,
-   "asof": "Nov 26, 2026",
+   "asof": "Nov 27, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 10
@@ -150,7 +150,7 @@
      "Q3"
     ],
     "10-yr": [
-     "4.70%",
+     "4.73%",
      "Nov 27"
     ]
    },
@@ -166,7 +166,7 @@
    "next_label": "Wed Dec 9",
    "time_label": "2:00 p.m. New Zealand time (NZDT). That is 01:00 UTC on Oct 28, or 9:00 p.m. U.S. Eastern Time on Tuesday, Oct 27. A media conference follows from the RBNZ’s Auckland office.",
    "stale": false,
-   "asof": "Nov 26, 2026",
+   "asof": "Nov 27, 2026",
    "coverage": {
     "automatic": 18,
     "manual": 21
@@ -191,8 +191,8 @@
      "Sep"
     ],
     "10-yr": [
-     "0.575%",
-     "Nov 26"
+     "0.589%",
+     "Nov 27"
     ]
    },
    "call": "hold",
@@ -207,7 +207,7 @@
    "next_label": "Thu Dec 10",
    "time_label": "9:30 a.m. Swiss time (CET) press release; news conference at 10:00 a.m.",
    "stale": false,
-   "asof": "Nov 26, 2026",
+   "asof": "Nov 27, 2026",
    "coverage": {
     "automatic": 10,
     "manual": 28
@@ -232,8 +232,8 @@
      "Sep"
     ],
     "10-yr": [
-     "3.32%",
-     "Nov 26"
+     "3.36%",
+     "Nov 27"
     ]
    },
    "call": "hold",
@@ -248,7 +248,7 @@
    "next_label": "Thu Dec 17",
    "time_label": "2:15 p.m. Central European Time",
    "stale": false,
-   "asof": "Nov 26, 2026",
+   "asof": "Nov 27, 2026",
    "coverage": {
     "automatic": 19,
     "manual": 19
@@ -273,8 +273,8 @@
      "Sep"
     ],
     "10-yr": [
-     "5.15%",
-     "Nov 24"
+     "5.10%",
+     "Nov 25"
     ]
    },
    "call": "hold",
@@ -289,7 +289,7 @@
    "next_label": "Thu Dec 17",
    "time_label": "12:00 p.m. (noon) UK time (GMT)",
    "stale": false,
-   "asof": "Nov 26, 2026",
+   "asof": "Nov 27, 2026",
    "coverage": {
     "automatic": 25,
     "manual": 14
@@ -330,7 +330,7 @@
    "next_label": "Fri Dec 18",
    "time_label": "11:46 a.m. and 12:19 p.m. Japan time (JST).",
    "stale": false,
-   "asof": "Nov 26, 2026",
+   "asof": "Nov 27, 2026",
    "coverage": {
     "automatic": 27,
     "manual": 13
